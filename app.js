@@ -1,125 +1,189 @@
-const CATEGORIES=[
- {name:"Quality & Restoration",slug:"quality",icon:"✧",desc:"Enhance, restore and improve image quality to professional standards.",codes:[
- ["/hdreal","High-definition realistic enhancement"],["/4k","Improve image to 4K-level detail"],["/8k","Ultra-high-resolution enhancement"],["/enhance","Overall image enhancement"],["/quality","Improve overall image quality"],["/natural","Keep enhancement natural and believable"],["/sharpen","Sharpen details and edges"],["/details","Bring out fine details"],["/clarity","Improve local contrast and clarity"],["/deblur","Reduce blur and recover edges"],["/denoise","Reduce noise and grain"],["/restore","Restore old or degraded images"],["/repair","Repair visible image defects"],["/reconstruct","Reconstruct missing visual information"],["/upscale","Increase resolution while preserving detail"],["/clean","Remove dirt, marks and distractions"]]},
- {name:"Face & Identity",slug:"face",icon:"◉",desc:"Preserve and improve facial identity and detail.",codes:[
- ["/facefix","Correct facial rendering while preserving identity"],["/faceenhance","Enhance facial detail and definition"],["/faceclear","Make facial features clearer"],["/faceidentity","Prioritize identity consistency"],["/skin","Improve skin appearance"],["/skinfix","Correct distracting skin artifacts"],["/naturalface","Keep facial enhancement realistic"],["/eyes","Improve eye clarity naturally"],["/teeth","Clean up teeth appearance naturally"],["/identitylock","Keep the same core identity"],["/faceconsistent","Maintain facial structure"],["/referenceface","Use the supplied reference as the identity anchor"]]},
- {name:"Lighting & Color",slug:"light",icon:"☼",desc:"Control light, atmosphere and color treatment.",codes:[
- ["/relight","Re-light the subject or scene"],["/goldenhour","Golden-hour lighting"],["/daylight","Natural daytime lighting"],["/softlight","Soft flattering illumination"],["/dramaticlight","Cinematic dramatic lighting"],["/studio","Controlled professional studio lighting"],["/rimlight","Add controlled rim lighting"],["/colorize","Add realistic color"],["/naturalcolor","Natural believable color"],["/vivid","Increase color impact"],["/cinematiccolor","Cinematic color grading"],["/warm","Warmer color treatment"],["/cool","Cooler color treatment"],["/bw","Black-and-white treatment"]]},
- {name:"Camera, Motion & Stability",slug:"camera",icon:"◌",desc:"Perspective, framing and movement controls.",codes:[
- ["/antishake","Reduce camera-shake appearance"],["/walking","Natural walking-motion context"],["/motion","Add controlled motion"],["/freeze","Crisp frozen moment"],["/wideangle","Wider field of view"],["/closeup","Close framing"],["/portrait","Portrait-oriented composition"],["/lowangle","Low camera angle"],["/highangle","High camera angle"],["/overhead","Top-down camera view"],["/pov","Point-of-view perspective"],["/reframe","Recompose the image"],["/crop","Crop around important content"],["/center","Center the main subject"],["/expand","Extend the composition"],["/vertical","Optimize for vertical framing"],["/horizontal","Optimize for horizontal framing"]]},
- {name:"Background & Object Cleanup",slug:"quality",icon:"◇",desc:"Remove distractions and control the environment.",codes:[
- ["/backgroundclean","Clean and simplify the background"],["/blurbackground","Add controlled background blur"],["/replacebackground","Replace the background"],["/removebackground","Remove the background"],["/extendbackground","Extend the environment naturally"],["/removepeople","Remove unwanted people"],["/removeobject","Remove an unwanted object"],["/cleanup","Clean distracting elements"],["/declutter","Reduce visual clutter"],["/erase","Remove a specified element"]]},
- {name:"Composition & Design",slug:"design",icon:"▣",desc:"Improve visual balance, hierarchy and format.",codes:[
- ["/professional","Professional composition and finish"],["/balanced","Improve visual balance"],["/symmetry","Strengthen symmetry where appropriate"],["/minimal","Minimal uncluttered composition"],["/cinematic","Cinematic composition"],["/dynamic","Energetic composition"],["/9:16","Vertical phone/social format"],["/16:9","Widescreen format"],["/1:1","Square format"],["/4:5","Portrait social format"],["/3:4","Standard portrait format"]]},
- {name:"Style Transformations",slug:"style",icon:"✦",desc:"Photographic and artistic visual treatments.",codes:[
- ["/photoreal","Photorealistic rendering"],["/hyperreal","Highly detailed realistic rendering"],["/editorial","Editorial photography look"],["/fashion","Fashion/editorial treatment"],["/product","Clean product photography"],["/documentary","Documentary-style realism"],["/illustration","Illustration-style rendering"],["/anime","Anime-inspired transformation"],["/comic","Comic-book treatment"],["/watercolor","Watercolor painting style"],["/oilpaint","Oil-painting style"],["/sketch","Sketch-style rendering"],["/3d","3D-rendered appearance"]]},
- {name:"Video & Animation",slug:"camera",icon:"▷",desc:"Motion planning, camera movement and video finish.",codes:[
- ["/animate","Animate specified elements"],["/animateparts","Animate individual parts"],["/smoothmotion","Smooth controlled motion"],["/loop","Create a clean loop"],["/slowmotion","Slow graceful motion"],["/pan","Horizontal camera movement"],["/tilt","Vertical camera movement"],["/zoom","Controlled zoom"],["/dolly","Forward/backward camera movement"],["/orbit","Camera orbit"],["/drone","Aerial camera movement"],["/videoreal","Realistic video appearance"],["/motionblur","Natural motion blur"],["/stabilized","Stabilized-camera appearance"]]},
- {name:"Logo & Branding",slug:"design",icon:"⬡",desc:"Clean, recreate and adapt brand graphics.",codes:[
- ["/logoclean","Clean up a logo"],["/logorecreate","Recreate a logo faithfully"],["/logooutline","Add a controlled outline"],["/monochrome","Restrict to monochrome"],["/brandmark","Emphasize the primary brand mark"],["/blackredblue","Restrict design to black, red and blue"],["/whiteaccent","Permit controlled white accent lines"],["/transparent","Transparent-background graphic"],["/vectorlook","Clean vector-like appearance"],["/icon","Optimize for icon use"]]},
- {name:"Text, Posters & UI",slug:"design",icon:"T",desc:"Typography, posters, banners and screen visuals.",codes:[
- ["/textclear","Make text visually clearer"],["/typography","Improve typography and hierarchy"],["/poster","Poster-style composition"],["/banner","Banner composition"],["/splash","App splash-screen composition"],["/ui","UI-oriented visual composition"],["/androidportrait","Android portrait screen"],["/mobile","Mobile-first framing"],["/desktop","Desktop framing"],["/splashscreen","App splash-screen layout"]]},
- {name:"Floorplans & Architecture",slug:"design",icon:"⌗",desc:"Space planning and architectural visualization.",codes:[
- ["/floorplan","Create or refine a floorplan"],["/layout","Improve room arrangement"],["/dimension","Add or clarify dimensions"],["/roomlabel","Add clear room labels"],["/circulation","Improve movement/circulation"],["/exterior","Exterior architectural visualization"],["/interior","Interior visualization"],["/aerialplan","Aerial/site-plan perspective"],["/3dplan","3D floorplan presentation"]]},
- {name:"Environment & Atmosphere",slug:"light",icon:"☁",desc:"Weather, time of day and mood controls.",codes:[
- ["/sunset","Sunset atmosphere"],["/sunrise","Sunrise atmosphere"],["/night","Nighttime treatment"],["/rain","Rainy atmosphere"],["/fog","Fog or mist atmosphere"],["/overcast","Overcast lighting"],["/moody","Moody atmospheric treatment"],["/bright","Bright airy treatment"],["/dark","Dark dramatic treatment"],["/cleanlook","Clean commercial finish"],["/naturalambient","Natural ambient environment"]]},
- {name:"Subject Preservation",slug:"face",icon:"♢",desc:"Protect important original elements during edits.",codes:[
- ["/preserveface","Preserve facial identity"],["/preservepose","Preserve the original pose"],["/preserveclothes","Preserve clothing"],["/preservebackground","Preserve the background"],["/preservedetails","Preserve important details"],["/onlyface","Restrict changes to the face"],["/onlybackground","Restrict changes to background"],["/onlylighting","Change lighting only"],["/onlycolor","Change color treatment only"],["/subtle","Make changes subtle"]]},
- {name:"Command Recipes",slug:"quality",icon:"◆",desc:"Ready-to-copy multi-command combinations.",codes:[
- ["/antishake /walking /facefix /relight /4k","Stable walking + face + lighting + quality"],["/drone /goldenhour /hdreal /natural","Aerial golden-hour realistic treatment"],["/professional /reframe /4k /clean","Professional reframing and cleanup"],["/facefix /relight /natural /4k","Natural facial correction and lighting"],["/product /cleanlook /4k","Clean product enhancement"],["/interior /relight /natural /4k","Interior visualization workflow"]]}
+const CATEGORIES = [
+{n:'Image & Visual Creation',i:'✦',d:'Create images, scenes, illustrations, products and visual concepts.',s:[
+ ['Photography',['/photoreal','/editorial','/documentary','/fashion','/portrait','/product']],
+ ['Illustration',['/illustration','/anime','/comic','/watercolor','/oilpaint','/sketch']],
+ ['Composition',['/cinematic','/minimal','/dynamic','/balanced','/symmetry','/professional']],
+ ['Formats',['/9:16','/16:9','/1:1','/4:5','/3:4','/vertical']]
+]},
+{n:'Image Editing & Restoration',i:'◈',d:'Repair, enhance, clean, upscale and transform existing images.',s:[
+ ['Quality',['/hdreal','/4k','/8k','/enhance','/quality','/sharpen','/details','/clarity','/deblur','/denoise','/upscale']],
+ ['Restoration',['/restore','/repair','/reconstruct','/colorize','/natural','/clean']],
+ ['Background',['/backgroundclean','/blurbackground','/replacebackground','/removebackground','/extendbackground','/declutter']],
+ ['Objects',['/removeobject','/removepeople','/cleanup','/erase','/inpaint','/reposition']]
+]},
+{n:'Face, Identity & People',i:'◉',d:'Facial enhancement, identity consistency, skin and subject preservation.',s:[
+ ['Face Enhancement',['/facefix','/faceenhance','/faceclear','/eyes','/teeth','/skin','/skinfix']],
+ ['Identity',['/identitylock','/faceconsistent','/referenceface','/preserveface','/sameface','/identity']],
+ ['Preservation',['/preservepose','/preserveclothes','/preservedetails','/subtle','/onlyface']],
+ ['Portrait Control',['/portrait','/closeup','/headshot','/beauty','/naturalface']]
+]},
+{n:'Lighting, Color & Atmosphere',i:'☼',d:'Relight scenes and control color, mood, time of day and atmosphere.',s:[
+ ['Lighting',['/relight','/softlight','/dramaticlight','/studio','/rimlight','/hardlight']],
+ ['Color',['/naturalcolor','/vivid','/cinematiccolor','/warm','/cool','/bw']],
+ ['Time & Weather',['/goldenhour','/sunset','/sunrise','/daylight','/night','/rain','/fog','/overcast']],
+ ['Mood',['/moody','/bright','/dark','/cleanlook','/naturalambient']]
+]},
+{n:'Camera, Motion & Video',i:'▷',d:'Control framing, perspective, movement, stabilization and animation.',s:[
+ ['Camera',['/reframe','/crop','/center','/wideangle','/lowangle','/highangle','/overhead','/pov']],
+ ['Motion',['/antishake','/walking','/motion','/freeze','/motionblur','/stabilized']],
+ ['Animation',['/animate','/animateparts','/smoothmotion','/loop','/slowmotion']],
+ ['Camera Moves',['/pan','/tilt','/zoom','/dolly','/orbit','/drone']]
+]},
+{n:'Design, Branding & UI',i:'⬡',d:'Logos, brand systems, posters, banners, interfaces and visual identity.',s:[
+ ['Logo',['/logoclean','/logorecreate','/logooutline','/brandmark','/vectorlook','/icon']],
+ ['Brand Style',['/monochrome','/blackredblue','/whiteaccent','/transparent','/premium','/luxury']],
+ ['Graphic Design',['/poster','/banner','/typography','/layout','/visualhierarchy','/minimal']],
+ ['UI & Screens',['/ui','/androidportrait','/mobile','/desktop','/splash','/splashscreen']]
+]},
+{n:'Architecture & Floorplans',i:'⌗',d:'Space planning, floorplans, interiors, exteriors and architectural visualization.',s:[
+ ['Planning',['/floorplan','/layout','/dimension','/roomlabel','/circulation','/zoning']],
+ ['Interior',['/interior','/interiorreal','/relight','/materials','/furniture','/staging']],
+ ['Exterior',['/exterior','/facade','/landscape','/siteplan','/aerialplan']],
+ ['3D',['/3dplan','/3d','/isometric','/cutaway','/walkthrough']]
+]},
+{n:'Writing & Content',i:'Aa',d:'Create, rewrite, edit and structure long- and short-form content.',s:[
+ ['Creative Writing',['/write','/story','/character','/dialogue','/scene','/worldbuild']],
+ ['Copywriting',['/copywrite','/headline','/hook','/cta','/adcopy','/productcopy']],
+ ['Editing',['/rewrite','/polish','/proofread','/simplify','/expand','/shorten']],
+ ['Structure',['/outline','/summarize','/bulletize','/format','/tone','/style']]
+]},
+{n:'Coding & Development',i:'</>',d:'Generate, explain, refactor and architect software across stacks.',s:[
+ ['Generation',['/code','/implement','/scaffold','/component','/api','/database']],
+ ['Architecture',['/architect','/designpattern','/modularize','/scale','/security','/performance']],
+ ['Frontend',['/html','/css','/javascript','/react','/responsive','/accessibility']],
+ ['Backend',['/node','/python','/sql','/rest','/auth','/deployment']]
+]},
+{n:'Debugging & Testing',i:'⚙',d:'Find causes, reproduce failures, test fixes and improve reliability.',s:[
+ ['Debug',['/debug','/trace','/diagnose','/rootcause','/reproduce','/isolate']],
+ ['Fix',['/fix','/patch','/repaircode','/hotfix','/regressionfix']],
+ ['Testing',['/test','/unittest','/integrationtest','/e2e','/edgecases','/coverage']],
+ ['Review',['/review','/audit','/lint','/qualitycheck','/securityreview']]
+]},
+{n:'Research & Deep Reasoning',i:'◌',d:'Investigate questions, compare evidence, reason through complex problems and synthesize findings.',s:[
+ ['Research',['/research','/investigate','/sources','/evidence','/verify','/factcheck']],
+ ['Deep Reasoning',['/deepthink','/reason','/analyze','/decompose','/compare','/tradeoffs']],
+ ['Synthesis',['/synthesize','/summary','/brief','/insights','/conclusion']],
+ ['Decision Support',['/proscons','/decision','/risk','/scenario','/recommend']]
+]},
+{n:'Learning & Education',i:'∑',d:'Turn difficult topics into lessons, practice, explanations and study systems.',s:[
+ ['Explain',['/explain','/eli5','/stepbystep','/analogy','/example','/intuition']],
+ ['Study',['/studyplan','/flashcards','/quiz','/practice','/revision','/memorize']],
+ ['Teaching',['/lesson','/curriculum','/worksheet','/rubric','/feedback']],
+ ['Skills',['/coach','/mentor','/drill','/challenge','/project']]
+]},
+{n:'Productivity & Planning',i:'✓',d:'Plan work, organize tasks, prioritize goals and build repeatable systems.',s:[
+ ['Planning',['/plan','/roadmap','/timeline','/milestones','/schedule','/prioritize']],
+ ['Tasks',['/tasks','/checklist','/breakdown','/nextsteps','/batch','/delegate']],
+ ['Notes',['/notes','/organize','/extract','/actionitems','/meetingnotes']],
+ ['Focus',['/focus','/deepwork','/simplify','/timebox','/routine']]
+]},
+{n:'Business & Strategy',i:'◇',d:'Strategy, market thinking, operations, product and business communication.',s:[
+ ['Strategy',['/strategy','/swot','/positioning','/competitors','/moat','/goals']],
+ ['Marketing',['/marketing','/campaign','/audience','/persona','/funnel','/contentplan']],
+ ['Product',['/product','/features','/userstories','/prd','/roadmap','/prioritize']],
+ ['Operations',['/process','/sop','/workflow','/kpi','/metrics','/optimize']]
+]},
+{n:'Data & Analytics',i:'▦',d:'Clean data, analyze patterns, design metrics and communicate findings.',s:[
+ ['Analysis',['/analyze','/trend','/correlation','/segment','/forecast','/benchmark']],
+ ['Data Cleaning',['/clean','/normalize','/dedupe','/validate','/transform']],
+ ['SQL & Code',['/sql','/query','/pandas','/python','/pipeline']],
+ ['Reporting',['/dashboard','/report','/chart','/insights','/executivesummary']]
+]},
+{n:'Documents & Files',i:'▤',d:'Extract, summarize, convert and structure information from documents and files.',s:[
+ ['Documents',['/summarize','/extract','/compare','/review','/outline','/classify']],
+ ['PDF & Reports',['/pdf','/report','/citation','/tableextract','/keypoints']],
+ ['Spreadsheets',['/spreadsheet','/formula','/cleanup','/pivot','/csv','/xlsx']],
+ ['Knowledge Base',['/index','/tag','/organize','/search','/faq']]
+]},
+{n:'Web & Search Workflows',i:'⌕',d:'Plan web research, source discovery, browsing tasks and evidence-backed answers.',s:[
+ ['Search',['/search','/find','/discover','/query','/keywords','/sources']],
+ ['Web Research',['/webresearch','/browse','/extract','/comparepages','/monitor']],
+ ['Verification',['/verify','/crosscheck','/primarysource','/citation','/freshness']],
+ ['Summaries',['/websummary','/brief','/digest','/keyfindings']]
+]},
+{n:'Communication & Social',i:'✉',d:'Messages, emails, presentations, social posts and audience-specific communication.',s:[
+ ['Email',['/email','/reply','/followup','/formal','/concise','/professional']],
+ ['Social',['/social','/caption','/thread','/post','/hashtag','/hook']],
+ ['Presentation',['/slides','/presentation','/speakernotes','/pitch','/storyline']],
+ ['Negotiation',['/negotiate','/persuade','/objection','/counteroffer','/diplomatic']]
+]},
+{n:'Translation & Language',i:'文',d:'Translate, localize, simplify and adapt language for different audiences.',s:[
+ ['Translation',['/translate','/literal','/natural','/bilingual','/localize']],
+ ['Language Learning',['/vocab','/grammar','/pronunciation','/conversation','/correction']],
+ ['Tone',['/formal','/casual','/friendly','/academic','/native']],
+ ['Accessibility',['/simplify','/plainlanguage','/readable','/alttext']]
+]},
+{n:'Prompt Engineering & Meta',i:'⌘',d:'Improve instructions, build reusable prompts and control output structure.',s:[
+ ['Prompt Design',['/prompt','/promptfix','/promptrefine','/promptcompact','/promptexpand']],
+ ['Roles & Context',['/role','/persona','/context','/constraints','/instructions']],
+ ['Output Control',['/format','/json','/table','/schema','/checklist','/template']],
+ ['Quality Control',['/critique','/selfcheck','/verify','/assumptions','/edgecases']]
+]},
+{n:'Automation & Workflows',i:'↻',d:'Turn repeated work into clear sequences, checklists and tool-ready workflows.',s:[
+ ['Workflow',['/workflow','/pipeline','/sequence','/handoff','/trigger','/condition']],
+ ['Automation',['/automate','/batch','/repeat','/schedule','/watch','/notify']],
+ ['Integration',['/api','/webhook','/connector','/import','/export','/sync']],
+ ['Operations',['/runbook','/sop','/monitor','/fallback','/logging']]
+]},
+{n:'Personalization & Utility',i:'◆',d:'Adapt outputs to a preferred style, audience, constraints and reusable command recipes.',s:[
+ ['Personalize',['/personalize','/preferences','/remember','/consistent','/customize']],
+ ['Audience',['/beginner','/expert','/client','/childsafe','/executive']],
+ ['Constraints',['/concise','/detailed','/strict','/creative','/neutral','/noextras']],
+ ['Recipes',['/combo','/recipe','/workflow','/stack','/finalcheck']]
+]}
 ];
 
-let selectedCategory=0;
-let activeFilter="all";
-let favorites=JSON.parse(localStorage.getItem("gptCodesFavoritesV3")||"[]");
+const PAGE_SIZE=12;
+let selectedCategory=0, selectedSub=-1, page=1, search='', filter='all';
+let favorites=JSON.parse(localStorage.getItem('gptCodesFavoritesV4')||'[]');
 let builderSelection=[];
-
-const icons=["✧","◉","☼","◌","◇","▣","✦","▷","⬡","T","⌗","☁","♢","◆"];
-
-function esc(s){return String(s).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]));}
-function allCodes(){return CATEGORIES.flatMap(c=>c.codes.map(x=>({command:x[0],desc:x[1],category:c.name,slug:c.slug})));}
-function saveFav(){localStorage.setItem("gptCodesFavoritesV3",JSON.stringify(favorites));document.getElementById("favCountNav").textContent=favorites.length;}
-function showToast(t){const el=document.getElementById("toast");el.textContent=t;el.classList.add("show");clearTimeout(window.toastTimer);window.toastTimer=setTimeout(()=>el.classList.remove("show"),1700);}
-async function copyText(text){try{await navigator.clipboard.writeText(text);showToast("Copied to clipboard");}catch(e){showToast("Copy unavailable — select and copy manually");}}
-function toggleFavorite(command){favorites=favorites.includes(command)?favorites.filter(x=>x!==command):[...favorites,command];saveFav();renderCodes();renderFavorites();showToast(favorites.includes(command)?"Added to favorites":"Removed from favorites");}
-function selectCategory(i){selectedCategory=i;renderCategories();renderCodes();document.getElementById("library").scrollIntoView({behavior:"smooth",block:"start"});}
-function renderCategories(){
- const grid=document.getElementById("categoryGrid");
- grid.innerHTML=CATEGORIES.map((c,i)=>`<article class="categoryCard ${i===selectedCategory?"selected":""}" onclick="selectCategory(${i})"><div class="categoryIcon">${icons[i]}</div><h3>${i+1}. ${esc(c.name)}</h3><p>${c.codes.length} commands</p></article>`).join("");
-}
+const flat=()=>CATEGORIES.flatMap(c=>c.s.flatMap(([sub,codes])=>codes.map(command=>({command,desc:describe(command),category:c.n,sub,icon:c.i}))));
+function describe(cmd){const x=cmd.slice(1).replaceAll('-',' ');return x.charAt(0).toUpperCase()+x.slice(1)+' workflow directive';}
+function esc(s){return String(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));}
+function currentCategory(){return CATEGORIES[selectedCategory];}
 function currentItems(){
- const q=document.getElementById("globalSearch").value.trim().toLowerCase();
- let base=(activeFilter==="all"?allCodes():allCodes().filter(x=>x.slug===activeFilter));
- if(!q)return base;
- return base.filter(x=>(x.command+" "+x.desc+" "+x.category).toLowerCase().includes(q));
+ let items;
+ if(search){const q=search.toLowerCase();items=flat().filter(x=>(x.command+' '+x.category+' '+x.sub+' '+x.desc).toLowerCase().includes(q));}
+ else {const c=currentCategory(); const groups=selectedSub===-1?c.s:[c.s[selectedSub]]; items=groups.flatMap(([sub,codes])=>codes.map(command=>({command,desc:describe(command),category:c.n,sub,icon:c.i})));}
+ if(filter!=='all') { const fc=filter.startsWith('c')?CATEGORIES[Number(filter.slice(1))]?.n:filter; items=items.filter(x=>x.category===fc || x.sub===filter); }
+ return items;
 }
+function saveFav(){localStorage.setItem('gptCodesFavoritesV4',JSON.stringify(favorites));document.getElementById('favCountNav').textContent=favorites.length;}
+function toast(t){const e=document.getElementById('toast');e.textContent=t;e.classList.add('show');clearTimeout(window.tt);window.tt=setTimeout(()=>e.classList.remove('show'),1500);}
+async function copyText(t){try{await navigator.clipboard.writeText(t);toast('Copied to clipboard');}catch{toast('Copy unavailable');}}
+function toggleFavorite(cmd){favorites=favorites.includes(cmd)?favorites.filter(x=>x!==cmd):[...favorites,cmd];saveFav();renderCodes();renderFavorites();toast(favorites.includes(cmd)?'Added to favorites':'Removed from favorites');}
+function selectCategory(i){selectedCategory=i;selectedSub=-1;page=1;search='';document.getElementById('globalSearch').value='';renderAll();document.getElementById('library').scrollIntoView({behavior:'smooth'});}
+function selectSub(i){selectedSub=i;page=1;renderCodes();}
+function renderCategories(){document.getElementById('categoryGrid').innerHTML=CATEGORIES.map((c,i)=>`<article class="categoryCard ${i===selectedCategory?'selected':''}" onclick="selectCategory(${i})"><div class="categoryTop"><span class="categoryIcon">${c.i}</span><span class="categoryIndex">${String(i+1).padStart(2,'0')}</span></div><h3>${esc(c.n)}</h3><p>${esc(c.d)}</p><footer><b>${c.s.reduce((a,x)=>a+x[1].length,0)}</b> codes <span>•</span> <b>${c.s.length}</b> groups</footer></article>`).join('');}
+function renderFilters(){document.getElementById('filterBar').innerHTML=[['all','All'],...CATEGORIES.map((c,i)=>['c'+i,c.n])].map(([v,t])=>`<button class="filterChip ${filter===v?'active':''}" onclick="setFilter('${v}')">${esc(t)}</button>`).join('');}
+function setFilter(v){filter=v;page=1;renderFilters();renderCodes();}
+function renderSubcategories(){const c=currentCategory();document.getElementById('subCategoryBar').innerHTML=`<button class="subChip ${selectedSub===-1?'active':''}" onclick="selectSearchMode()">All in ${esc(c.n)}</button>`+c.s.map((x,i)=>`<button class="subChip ${i===selectedSub?'active':''}" onclick="selectSub(${i})"><span>${esc(x[0])}</span><em>${x[1].length}</em></button>`).join('');}
+function selectSearchMode(){selectedSub=-1;search='';document.getElementById('globalSearch').value='';page=1;renderCodes();}
 function renderCodes(){
- const q=document.getElementById("globalSearch").value.trim();
- const items=currentItems();
- const c=CATEGORIES[selectedCategory];
- document.getElementById("libraryHeading").textContent=q||activeFilter!=="all"?"Search results":c.name;
- document.getElementById("sideTitle").textContent=c.name;
- document.getElementById("sideDescription").textContent=c.desc;
- document.getElementById("sideIcon").textContent=icons[selectedCategory];
- document.getElementById("resultMeta").textContent=`${items.length} matching commands`;
- document.getElementById("listCount").textContent=`${items.length} commands`;
- document.getElementById("listTitle").textContent=q||activeFilter!=="all"?"MATCHING COMMANDS":"ALL CODES";
- const list=document.getElementById("codeList");
- document.getElementById("noResults").classList.toggle("hidden",items.length!==0);
- list.innerHTML=items.map(x=>`<div class="codeRow"><span class="command">${esc(x.command)}</span><span class="description">${esc(x.desc)}${q||activeFilter!=="all"?` <i>• ${esc(x.category)}</i>`:""}</span><button class="rowButton" onclick='copyText(${JSON.stringify(x.command)})' title="Copy">▣</button><button class="rowButton ${favorites.includes(x.command)?"saved":""}" onclick='toggleFavorite(${JSON.stringify(x.command)})' title="Favorite">♡</button></div>`).join("");
- document.getElementById("clearSearch").style.display=q?"block":"none";
+ renderSubcategories();const items=currentItems();const totalPages=Math.max(1,Math.ceil(items.length/PAGE_SIZE));if(page>totalPages)page=totalPages;const shown=items.slice((page-1)*PAGE_SIZE,page*PAGE_SIZE);const c=currentCategory();
+ const isSearch=!!search||filter!=='all';document.getElementById('libraryHeading').textContent=isSearch?'Search results':c.n;document.getElementById('resultMeta').textContent=`${items.length} command${items.length===1?'':'s'} • page ${page} of ${totalPages}`;document.getElementById('sideIcon').textContent=c.i;document.getElementById('sideTitle').textContent=c.n;document.getElementById('sideDescription').textContent=c.d;document.getElementById('sideCodeCount').textContent=c.s.reduce((a,x)=>a+x[1].length,0);document.getElementById('sideSubCount').textContent=c.s.length;document.getElementById('listTitle').textContent=isSearch?'MATCHING COMMANDS':(selectedSub===-1?'ALL CODES':c.s[selectedSub][0].toUpperCase());document.getElementById('listCount').textContent=`${items.length} total`;
+ const list=document.getElementById('codeList');document.getElementById('noResults').classList.toggle('hidden',shown.length!==0);list.innerHTML=shown.map(x=>`<div class="codeRow"><div class="codeMain"><span class="command">${esc(x.command)}</span><span class="description">${esc(x.desc)}</span></div><span class="codeGroup">${esc(x.sub)}</span><button class="rowButton" onclick='copyText(${JSON.stringify(x.command)})' title="Copy">▣</button><button class="rowButton ${favorites.includes(x.command)?'saved':''}" onclick='toggleFavorite(${JSON.stringify(x.command)})' title="Favorite">♡</button></div>`).join('');
+ renderPagination(totalPages);
+ document.getElementById('clearSearch').style.display=search?'block':'none';
 }
-function renderFavorites(){
- const box=document.getElementById("favoriteList");
- if(!favorites.length){box.innerHTML=`<div class="emptyFavorites">No favorites yet. Tap ♡ beside any command to save it here.</div>`;return}
- const lookup=new Map(allCodes().map(x=>[x.command,x]));
- box.innerHTML=favorites.map(cmd=>{const x=lookup.get(cmd);if(!x)return"";return `<div class="codeRow"><span class="command">${esc(x.command)}</span><span class="description">${esc(x.desc)}</span><button class="rowButton" onclick='copyText(${JSON.stringify(x.command)})'>▣</button><button class="rowButton saved" onclick='toggleFavorite(${JSON.stringify(x.command)})'>♥</button></div>`}).join("");
-}
-function copyVisibleCodes(){const items=currentItems();copyText(items.map(x=>x.command).join(" "));}
-function showOnlyFavorites(){if(!favorites.length){showToast("No favorites saved yet");return}document.getElementById("favorites").scrollIntoView({behavior:"smooth"});renderFavorites();}
-function toggleFilters(){document.getElementById("filterBar").classList.toggle("hidden")}
-function toggleMobileMenu(){document.getElementById("mobileMenu").classList.toggle("open")}
-function openBuilder(){buildChoices();document.getElementById("builderDialog").showModal()}
-function buildChoices(){
- const pool=allCodes().filter(x=>!x.command.includes(" "));
- const box=document.getElementById("builderChoices");
- box.innerHTML=pool.map(x=>`<button class="builderChip ${builderSelection.includes(x.command)?"active":""}" onclick='toggleBuilder(${JSON.stringify(x.command)})'>${esc(x.command)}</button>`).join("");
- updateBuilderOutput();
-}
-function toggleBuilder(cmd){builderSelection=builderSelection.includes(cmd)?builderSelection.filter(x=>x!==cmd):[...builderSelection,cmd];buildChoices()}
-function updateBuilderOutput(){document.getElementById("builderOutputText").textContent=builderSelection.length?builderSelection.join(" "):"Choose commands above…"}
-function copyBuilder(){if(!builderSelection.length){showToast("Choose at least one command");return}copyText(builderSelection.join(" "))}
-function closeDialog(id){document.getElementById(id).close()}
-function openPremium(){document.getElementById("premiumDialog").showModal()}
+function renderPagination(total){const p=document.getElementById('pagination');if(total<=1){p.innerHTML='';return}let out=`<button ${page===1?'disabled':''} onclick="goPage(${page-1})">‹</button>`;const start=Math.max(1,Math.min(page-2,total-4)),end=Math.min(total,start+4);for(let i=start;i<=end;i++)out+=`<button class="${i===page?'active':''}" onclick="goPage(${i})">${i}</button>`;out+=`<button ${page===total?'disabled':''} onclick="goPage(${page+1})">›</button>`;p.innerHTML=out;}
+function goPage(p){page=p;renderCodes();document.getElementById('library').scrollIntoView({behavior:'smooth',block:'start'});}
+function renderFavorites(){const box=document.getElementById('favoriteList');if(!favorites.length){box.innerHTML='<div class="emptyFavorites">No favorites yet. Tap ♡ on any command to save it here.</div>';return}const lookup=new Map(flat().map(x=>[x.command,x]));box.innerHTML=favorites.map(cmd=>{const x=lookup.get(cmd);if(!x)return '';return `<div class="codeRow"><div class="codeMain"><span class="command">${esc(x.command)}</span><span class="description">${esc(x.desc)} • ${esc(x.category)} / ${esc(x.sub)}</span></div><button class="rowButton" onclick='copyText(${JSON.stringify(x.command)})'>▣</button><button class="rowButton saved" onclick='toggleFavorite(${JSON.stringify(x.command)})'>♥</button></div>`}).join('');}
+function copyVisibleCodes(){const items=currentItems().slice((page-1)*PAGE_SIZE,page*PAGE_SIZE);if(!items.length){toast('Nothing to copy');return}copyText(items.map(x=>x.command).join(' '));}
+function showOnlyFavorites(){document.getElementById('favorites').scrollIntoView({behavior:'smooth'});renderFavorites();}
+function toggleFilters(){document.getElementById('filterBar').classList.toggle('collapsed');}
+function toggleMobileMenu(){document.getElementById('mobileMenu').classList.toggle('open');}
+function openBuilder(){buildChoices();document.getElementById('builderDialog').showModal();}
+function buildChoices(){const pool=flat().filter(x=>!x.command.includes(' ')).slice(0,220);document.getElementById('builderChoices').innerHTML=pool.map(x=>`<button class="builderChip ${builderSelection.includes(x.command)?'active':''}" onclick='toggleBuilder(${JSON.stringify(x.command)})'>${esc(x.command)}</button>`).join('');document.getElementById('builderOutputText').textContent=builderSelection.length?builderSelection.join(' '):'Choose commands above…';}
+function toggleBuilder(c){builderSelection=builderSelection.includes(c)?builderSelection.filter(x=>x!==c):[...builderSelection,c];buildChoices();}
+function copyBuilder(){if(!builderSelection.length){toast('Choose at least one command');return}copyText(builderSelection.join(' '));}
+function closeDialog(id){document.getElementById(id).close();}
+function openPremium(){document.getElementById('premiumDialog').showModal();}
+function renderAll(){renderCategories();renderFilters();renderCodes();renderFavorites();}
 
-document.querySelectorAll(".filterChip").forEach(btn=>btn.addEventListener("click",()=>{activeFilter=btn.dataset.filter;document.querySelectorAll(".filterChip").forEach(b=>b.classList.remove("active"));btn.classList.add("active");renderCodes();}));
-document.getElementById("globalSearch").addEventListener("input",renderCodes);
-document.getElementById("clearSearch").addEventListener("click",()=>{document.getElementById("globalSearch").value="";renderCodes();document.getElementById("globalSearch").focus()});
-document.addEventListener("keydown",e=>{if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==="k"){e.preventDefault();document.getElementById("globalSearch").focus()}if(e.key==="Escape"){document.querySelectorAll("dialog[open]").forEach(d=>d.close())}});
-document.getElementById("heroCodeCount").textContent=allCodes().length+"+";
-saveFav();renderCategories();renderCodes();renderFavorites();
+document.getElementById('globalSearch').addEventListener('input',e=>{search=e.target.value.trim();page=1;renderCodes();});
+document.getElementById('clearSearch').addEventListener('click',()=>{search='';document.getElementById('globalSearch').value='';page=1;renderCodes();});
+document.addEventListener('keydown',e=>{if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='k'){e.preventDefault();document.getElementById('globalSearch').focus()}if(e.key==='Escape')document.querySelectorAll('dialog[open]').forEach(d=>d.close());});
+const all=flat();document.getElementById('heroCategoryCount').textContent=CATEGORIES.length;document.getElementById('heroCodeCount').textContent=all.length+'+';document.getElementById('heroSubCount').textContent=CATEGORIES.reduce((a,c)=>a+c.s.length,0)+'+';saveFav();renderAll();
 
-if(window.THREE){
- const mount=document.getElementById("threeHero");
- const scene=new THREE.Scene();
- const camera=new THREE.PerspectiveCamera(45,Math.max(mount.clientWidth,1)/Math.max(mount.clientHeight,1),.1,100);
- camera.position.z=6;
- const renderer=new THREE.WebGLRenderer({alpha:true,antialias:true});
- renderer.setPixelRatio(Math.min(window.devicePixelRatio||1,2));
- renderer.setSize(mount.clientWidth,mount.clientHeight);
- mount.appendChild(renderer.domElement);
- const group=new THREE.Group();scene.add(group);
- const core=new THREE.Mesh(new THREE.IcosahedronGeometry(1.08,3),new THREE.MeshStandardMaterial({color:0x101414,metalness:.9,roughness:.2,emissive:0x241907,emissiveIntensity:.25}));
- group.add(core);
- const gold=new THREE.MeshBasicMaterial({color:0xd5a23c,transparent:true,opacity:.58});
- const ring=new THREE.Mesh(new THREE.TorusGeometry(1.55,.018,8,180),gold);ring.rotation.x=1.0;group.add(ring);
- const ring2=new THREE.Mesh(new THREE.TorusGeometry(1.85,.012,8,180),gold);ring2.rotation.x=.45;ring2.rotation.y=.9;group.add(ring2);
- const geo=new THREE.BufferGeometry(),N=850,pos=new Float32Array(N*3);
- for(let i=0;i<N;i++){const r=2.1+Math.random()*2.0,a=Math.random()*Math.PI*2,b=(Math.random()-.5)*1.5;pos[i*3]=Math.cos(a)*r;pos[i*3+1]=b*r*.45;pos[i*3+2]=Math.sin(a)*r}
- geo.setAttribute("position",new THREE.BufferAttribute(pos,3));
- group.add(new THREE.Points(geo,new THREE.PointsMaterial({color:0xe2b04b,size:.018,transparent:true,opacity:.7})));
- scene.add(new THREE.AmbientLight(0x80683a,1.1));
- const pl=new THREE.PointLight(0xf0bb4b,16,8);pl.position.set(2,2,4);scene.add(pl);
- function tick(){requestAnimationFrame(tick);group.rotation.y+=.0022;group.rotation.x=Math.sin(performance.now()*.0003)*.07;ring.rotation.z+=.005;ring2.rotation.z-=.0035;renderer.render(scene,camera)}tick();
- addEventListener("resize",()=>{camera.aspect=Math.max(mount.clientWidth,1)/Math.max(mount.clientHeight,1);camera.updateProjectionMatrix();renderer.setSize(mount.clientWidth,mount.clientHeight)});
-}
+if(window.THREE){const m=document.getElementById('threeHero'),scene=new THREE.Scene(),camera=new THREE.PerspectiveCamera(45,1,.1,100);camera.position.z=6;const r=new THREE.WebGLRenderer({alpha:true,antialias:true});r.setPixelRatio(Math.min(devicePixelRatio||1,2));m.appendChild(r.domElement);const g=new THREE.Group();scene.add(g);g.add(new THREE.Mesh(new THREE.IcosahedronGeometry(1.08,3),new THREE.MeshStandardMaterial({color:0x111313,metalness:.9,roughness:.2})));const gold=new THREE.MeshBasicMaterial({color:0xd8a93e,transparent:true,opacity:.7});const a=new THREE.Mesh(new THREE.TorusGeometry(1.55,.018,8,180),gold);a.rotation.x=1;g.add(a);const b=new THREE.Mesh(new THREE.TorusGeometry(1.9,.012,8,180),gold);b.rotation.x=.45;b.rotation.y=.9;g.add(b);scene.add(new THREE.AmbientLight(0x80683a,1.1));const p=new THREE.PointLight(0xf0bb4b,14,8);p.position.set(2,2,4);scene.add(p);function resize(){r.setSize(m.clientWidth,m.clientHeight);camera.aspect=m.clientWidth/m.clientHeight;camera.updateProjectionMatrix()}resize();addEventListener('resize',resize);(function tick(){requestAnimationFrame(tick);g.rotation.y+=.002;g.rotation.x=Math.sin(performance.now()*.0003)*.06;a.rotation.z+=.005;b.rotation.z-=.003; r.render(scene,camera)})();}

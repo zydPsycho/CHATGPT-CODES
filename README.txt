@@ -1,44 +1,39 @@
-GPT CODES — GITHUB PAGES PREMIUM EDITION
+GPT CODES — COMPLETE BUNDLE v4.0
+BLACKMARK
 
-This is a static website designed for GitHub Pages.
+This version is designed for GitHub Pages and responsive desktop/mobile use.
+
+WHAT CHANGED
+- 22 purpose-based top-level categories.
+- Each category contains focused subcategories.
+- Selecting a category reveals its subcategories before the commands.
+- Commands are paginated (12 per page), not one endless scrolling list.
+- Search covers commands, categories, subcategories and descriptions.
+- Category filters work across the complete archive.
+- Favorites are stored locally in the browser.
+- Command Builder combines individual codes.
+- BLACKMARK branding is included throughout.
+- Three.js hero animation is included through CDN.
+- Sample workflow cards are included.
+
+IMPORTANT
+These slash codes are custom shorthand directives for use with normal instructions. They are not official OpenAI/ChatGPT commands.
+
+GITHUB PAGES
+1. Create a GitHub repository.
+2. Upload all files from this folder to the repository root.
+3. Open Settings > Pages.
+4. Select Deploy from a branch.
+5. Select main and / (root).
+6. Save and wait for deployment.
 
 FILES
-- index.html
-- styles.css
-- app.js
+index.html
+styles.css
+app.js
+blackmark-logo.png
+blackmark-logo-original.png
+blackmark-logo-light.png
 
-FEATURES
-- Desktop + mobile responsive layout
-- Mobile navigation
-- Fast client-side search
-- Category browsing and filters
-- One-click copy
-- Favorites saved with localStorage
-- Command Builder
-- Sample image workflow gallery
-- Premium placeholder modal
-- Accessible labels and keyboard shortcut Ctrl/Cmd + K
-- Three.js animated hero
-- No backend/database required
-
-GITHUB PAGES SETUP
-1. Create a new GitHub repository, e.g. gpt-codes.
-2. Upload index.html, styles.css, app.js.
-3. Commit to the main branch.
-4. Open Settings → Pages.
-5. Under Build and deployment choose "Deploy from a branch".
-6. Select branch "main" and folder "/ (root)".
-7. Click Save.
-8. Wait for GitHub Pages to publish.
-9. Your site will normally be available at:
-   https://YOUR-USERNAME.github.io/gpt-codes/
-
-CUSTOM DOMAIN
-GitHub Pages also supports a custom domain from Settings → Pages.
-
-NOTES
-- Three.js is loaded from jsDelivr CDN.
-- Fonts are loaded from Google Fonts.
-- Sample images are loaded from Unsplash.
-- If you want the site to work fully offline, replace those external resources with local assets.
-- The slash codes are shorthand directives for creative workflows, not guaranteed built-in ChatGPT commands.
+To add commands, edit CATEGORIES in app.js. Each category uses:
+{ n: 'Category', i: 'Icon', d: 'Description', s: [ ['Subcategory', ['/command', '/another']] ] }
