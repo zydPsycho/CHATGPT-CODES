@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#070908">
+  <meta name="description" content="GPT Codes — the Blackmark premium creative slash-command library.">
+  <meta name="author" content="BLACKMARK">
+  <link rel="icon" type="image/png" href="blackmark-logo-light.png">
+  <title>GPT Codes — Complete Creative Command Library</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div id="threeHero" aria-hidden="true"></div>
+
+  <header class="siteHeader">
+    <a class="brand" href="#home" aria-label="GPT Codes home">
+      <span class="brandLogo"><span>✦</span></span>
+      <span class="brandText"><b>GPT CODES</b><small>COMPLETE BUNDLE</small></span>
+    </a>
+    <nav class="desktopNav" aria-label="Main navigation">
+      <a class="active" href="#home">Home</a>
+      <a href="#categories">Categories</a>
+      <a href="#library">All Codes</a>
+      <a href="#favorites">Favorites <span id="favCountNav">0</span></a>
+      <a href="#about">About</a>
+    </nav>
+    <div class="blackmarkMini" title="BLACKMARK"><img src="blackmark-logo-light.png" alt="BLACKMARK"></div>
+    <div class="headerActions">
+      <button class="premiumBtn" type="button" onclick="openPremium()">★ Premium</button>
+      <button class="iconBtn menuBtn" type="button" onclick="toggleMobileMenu()" aria-label="Open menu">☰</button>
+    </div>
+    <nav id="mobileMenu" class="mobileMenu" aria-label="Mobile navigation">
+      <a href="#home" onclick="toggleMobileMenu()">Home</a>
+      <a href="#categories" onclick="toggleMobileMenu()">Categories</a>
+      <a href="#library" onclick="toggleMobileMenu()">All Codes</a>
+      <a href="#favorites" onclick="toggleMobileMenu()">Favorites</a>
+      <a href="#about" onclick="toggleMobileMenu()">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero sectionPad">
+      <div class="heroContent">
+        <div class="eyebrow">THE COMPLETE CREATIVE COMMAND LIBRARY</div>
+        <h1>The Complete<br><span>ChatGPT Codes</span><br>Bundle <sup>v3.0</sup></h1>
+        <p class="heroLead">A premium, searchable command library for creating, editing, enhancing and transforming images with compact slash-style workflows.</p>
+        <div class="heroStats">
+          <div><strong>14</strong><span>Categories</span></div>
+          <div><strong id="heroCodeCount">150+</strong><span>Commands</span></div>
+          <div><strong>1000+</strong><span>Examples</span></div>
+        </div>
+        <div class="heroActions">
+          <a class="goldButton" href="#library">Explore all codes <span>→</span></a>
+          <button class="ghostButton" type="button" onclick="openBuilder()">Build a command <span>＋</span></button>
+        </div>
+      </div>
+      <div class="heroVisual">
+        <div class="heroOrbit"></div>
+        <div class="heroImageCard">
+          <img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1000&q=85" alt="Cinematic mountain landscape sample">
+          <div class="heroImageOverlay"></div>
+          <div class="heroImageBadge">✦ GPT CODES <span>BY BLACKMARK</span></div>
+          <div class="heroImageBottom"><b>CREATE</b><small>RESTORE • ENHANCE • TRANSFORM</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quickTools sectionPad">
+      <div class="searchWrap">
+        <span class="searchIcon">⌕</span>
+        <input id="globalSearch" type="search" autocomplete="off" placeholder="Search commands or descriptions…" aria-label="Search commands">
+        <button class="clearSearch" id="clearSearch" type="button" aria-label="Clear search">×</button>
+        <kbd>Ctrl K</kbd>
+      </div>
+      <button class="filterToggle" type="button" onclick="toggleFilters()">Filters <span>☷</span></button>
+    </section>
+    <div id="filterBar" class="filterBar sectionPad">
+      <button class="filterChip active" data-filter="all">All</button>
+      <button class="filterChip" data-filter="quality">Quality</button>
+      <button class="filterChip" data-filter="face">Face</button>
+      <button class="filterChip" data-filter="light">Lighting</button>
+      <button class="filterChip" data-filter="camera">Camera</button>
+      <button class="filterChip" data-filter="style">Style</button>
+      <button class="filterChip" data-filter="design">Design</button>
+    </div>
+
+    <section id="categories" class="contentSection sectionPad">
+      <div class="sectionHeading">
+        <div><span class="eyebrow">BROWSE</span><h2>Categories</h2></div>
+        <span class="sectionHint">Choose a library to explore</span>
+      </div>
+      <div id="categoryGrid" class="categoryGrid"></div>
+    </section>
+
+    <section id="samples" class="contentSection sectionPad">
+      <div class="sectionHeading">
+        <div><span class="eyebrow">VISUAL LIBRARY</span><h2>Sample Workflows</h2></div>
+        <span class="sectionHint">Tap any card to copy the recipe</span>
+      </div>
+      <div class="sampleGrid">
+        <article class="sampleCard">
+          <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1000&q=85" alt="Landscape">
+          <div class="sampleOverlay"></div>
+          <div class="sampleInfo"><div><b>Landscape Restoration</b><small>/hdreal /4k /clarity</small></div><button onclick="copyText('/hdreal /4k /clarity')">Copy</button></div>
+        </article>
+        <article class="sampleCard">
+          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1000&q=85" alt="Portrait">
+          <div class="sampleOverlay"></div>
+          <div class="sampleInfo"><div><b>Portrait Enhancement</b><small>/facefix /relight /4k</small></div><button onclick="copyText('/facefix /relight /4k')">Copy</button></div>
+        </article>
+        <article class="sampleCard">
+          <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1000&q=85" alt="Interior">
+          <div class="sampleOverlay"></div>
+          <div class="sampleInfo"><div><b>Interior Visualization</b><small>/interior /relight /natural</small></div><button onclick="copyText('/interior /relight /natural')">Copy</button></div>
+        </article>
+        <article class="sampleCard">
+          <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1000&q=85" alt="Product">
+          <div class="sampleOverlay"></div>
+          <div class="sampleInfo"><div><b>Product Finish</b><small>/product /cleanlook /4k</small></div><button onclick="copyText('/product /cleanlook /4k')">Copy</button></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="library" class="contentSection sectionPad">
+      <div class="sectionHeading">
+        <div><span class="eyebrow">COMMAND LIBRARY</span><h2 id="libraryHeading">Quality & Restoration</h2></div>
+        <span id="resultMeta" class="sectionHint"></span>
+      </div>
+      <div class="libraryShell">
+        <aside class="categorySide">
+          <div id="sideIcon" class="sideIcon">✧</div>
+          <h3 id="sideTitle">Quality & Restoration</h3>
+          <p id="sideDescription">Enhance, restore and improve image quality to professional standards.</p>
+          <div class="sidePreview">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80" alt="">
+            <div class="previewSplit"></div>
+            <span>BEFORE</span><span>AFTER</span>
+          </div>
+          <button class="outlineButton full" onclick="copyVisibleCodes()">▣ Copy visible codes</button>
+          <button class="outlineButton full" onclick="openBuilder()">＋ Command builder</button>
+        </aside>
+        <div class="codeArea">
+          <div class="codeToolbar">
+            <div><b id="listTitle">ALL CODES</b><span id="listCount"></span></div>
+            <button class="toolbarButton" onclick="showOnlyFavorites()">★ Favorites</button>
+          </div>
+          <div id="codeList" class="codeList"></div>
+          <div id="noResults" class="noResults hidden">No commands match your search.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="favorites" class="contentSection sectionPad">
+      <div class="sectionHeading">
+        <div><span class="eyebrow">SAVED</span><h2>Your Favorites</h2></div>
+        <span class="sectionHint">Stored on this device</span>
+      </div>
+      <div id="favoriteList" class="favoriteList"></div>
+    </section>
+
+    <section id="about" class="aboutSection sectionPad">
+      <div><span class="eyebrow">ABOUT GPT CODES</span><h2>A cleaner way to build<br>creative prompts.</h2></div>
+      <div><p>Use slash-style codes as shorthand directives alongside your normal instructions. Search by command, category or description, save your best combinations, and copy them instantly.</p><p class="muted">This is a static GitHub Pages site. No account or backend is required for the core experience.</p></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footerBrand"><img src="blackmark-logo-light.png" alt="BLACKMARK — creator branding"></div>
+    <div class="footerLine"><b>GPT CODES</b><span>•</span> COMPLETE CREATIVE COMMAND LIBRARY <span>•</span> 2026</div>
+    <small>A BLACKMARK CREATIVE PROJECT</small>
+  </footer>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <dialog id="builderDialog" class="modal">
+    <div class="modalCard">
+      <button class="modalClose" onclick="closeDialog('builderDialog')" aria-label="Close">×</button>
+      <span class="eyebrow">COMMAND BUILDER</span>
+      <h2>Build your workflow</h2>
+      <p class="modalLead">Select commands and copy them as one compact recipe.</p>
+      <div id="builderChoices" class="builderChoices"></div>
+      <div class="builderOutput"><span id="builderOutputText">Choose commands above…</span><button onclick="copyBuilder()">COPY</button></div>
+    </div>
+  </dialog>
+
+  <dialog id="premiumDialog" class="modal">
+    <div class="modalCard premiumModal">
+      <button class="modalClose" onclick="closeDialog('premiumDialog')" aria-label="Close">×</button>
+      <div class="premiumStar">★</div>
+      <span class="eyebrow">PREMIUM</span>
+      <h2>Unlock the complete creative vault.</h2>
+      <p class="modalLead">This static demo is ready for a future premium layer with protected codes, downloadable packs, examples and custom collections.</p>
+      <button class="goldButton full" onclick="closeDialog('premiumDialog');showToast('Premium placeholder ready')">Continue</button>
+    </div>
+  </dialog>
+
+  <script src="https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
