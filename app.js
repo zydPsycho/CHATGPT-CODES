@@ -6,7 +6,7 @@ const CATEGORIES = [
  ['Formats',['/9:16','/16:9','/1:1','/4:5','/3:4','/vertical']]
 ]},
 {n:'Image Editing & Restoration',i:'◈',d:'Repair, enhance, clean, upscale and transform existing images.',s:[
- ['Quality',['/hdreal','/4k','/8k','/enhance','/quality','/sharpen','/details','/clarity','/deblur','/denoise','/upscale']],
+ ['Quality',['hdreal','4k','8k','enhance','quality','sharpen','details','clarity','deblur','denoise','upscale','superresolution','upscaleclean','upscalesharp','upscalenatural','upscalephoto','upscaleprint','upscaleweb','upscalemobile','upscaleportrait','upscaleface','upscalefine','upscaledetail','microdetail','finerdetails','texture','texturesharp','textureclean','edgeclean','edgepreserve','lineclarity','localcontrast','globalcontrast','dynamicrange','highlightrecover','shadowrecover','dehaze','defringe','chromaticaberration','lenscorrection','perspectivefix','distortionfix','noiseprofile','grainremove','compressionfix','jpegfix','artifactremove','bandingfix','colorcastfix','whitebalancefix','exposurefix','focusfix','motiondeblur','lensdeblur','shakefix','softnessfix','detailrecover','naturalsharpen','smartsharpen','clarityboost','cleanedges','smoothgradients','skintexture','hairdetail','fabricdetail','metallicdetail','glassdetail','printready','webready','socialready','archival','masterquality','finalpolish']],
  ['Restoration',['/restore','/repair','/reconstruct','/colorize','/natural','/clean']],
  ['Background',['/backgroundclean','/blurbackground','/replacebackground','/removebackground','/extendbackground','/declutter']],
  ['Objects',['/removeobject','/removepeople','/cleanup','/erase','/inpaint','/reposition']]
@@ -133,7 +133,7 @@ const CATEGORIES = [
 ]}
 ];
 
-const PAGE_SIZE=12;
+const PAGE_SIZE=12; // Paginated library; subcategories may contain 50+ commands.
 let selectedCategory=0, selectedSub=-1, page=1, search='', filter='all';
 let favorites=JSON.parse(localStorage.getItem('gptCodesFavoritesV4')||'[]');
 let builderSelection=[];

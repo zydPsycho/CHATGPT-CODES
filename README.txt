@@ -37,3 +37,7 @@ blackmark-logo-light.png
 
 To add commands, edit CATEGORIES in app.js. Each category uses:
 { n: 'Category', i: 'Icon', d: 'Description', s: [ ['Subcategory', ['/command', '/another']] ] }
+
+
+V5 CONTENT UPDATE
+Quality subcategory now contains 73 custom slash-style directives. The library keeps all commands and paginates them instead of using a 50-item cap.
