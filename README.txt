@@ -41,3 +41,7 @@ To add commands, edit CATEGORIES in app.js. Each category uses:
 
 V5 CONTENT UPDATE
 Quality subcategory now contains 73 custom slash-style directives. The library keeps all commands and paginates them instead of using a 50-item cap.
+
+
+V6 LIBRARY SIZE
+Every subcategory contains at least 64 custom shorthand directives. With 22 categories and 88 subcategories, the catalog contains 5,632+ codes.

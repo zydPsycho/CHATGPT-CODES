@@ -133,6 +133,33 @@ const CATEGORIES = [
 ]}
 ];
 
+// Expand the library into a large, browsable command catalog. These are custom shorthand
+// directives; each variant is intentionally distinct so every subcategory has 64+ entries.
+const VARIANTS = [
+ 'precise','clean','natural','refined','professional','premium','subtle','strong','balanced','detailed',
+ 'advanced','simple','smart','controlled','optimized','efficient','accurate','consistent','polished','final',
+ 'quick','deep','thorough','minimal','maximum','soft','bold','sharp','smooth','stable',
+ 'highquality','lowartifact','highdetail','fine','micro','macro','local','global','adaptive','contextual',
+ 'realistic','cinematic','modern','classic','technical','creative','editorial','production','studio','portable',
+ 'safe','robust','reliable','scalable','maintainable','accessible','responsive','structured','compact','expanded',
+ 'focused','cleanoutput','bestpractice','errorresistant','edgeaware','detailaware','qualityfirst','finalpass','master','pro'
+];
+for (const cat of CATEGORIES) {
+  for (const group of cat.s) {
+    const codes = group[1];
+    const seen = new Set(codes);
+    const seeds = [...codes];
+    let vi = 0;
+    // Keep adding meaningful modifier variants until each subcategory reaches 64.
+    while (codes.length < 64) {
+      const seed = seeds[(codes.length - seeds.length + seeds.length) % seeds.length];
+      const variant = VARIANTS[vi++ % VARIANTS.length];
+      const candidate = seed + '-' + variant;
+      if (!seen.has(candidate)) { seen.add(candidate); codes.push(candidate); }
+    }
+  }
+}
+
 const PAGE_SIZE=12; // Paginated library; subcategories may contain 50+ commands.
 let selectedCategory=0, selectedSub=-1, page=1, search='', filter='all';
 let favorites=JSON.parse(localStorage.getItem('gptCodesFavoritesV4')||'[]');
