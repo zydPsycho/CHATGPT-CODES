@@ -1,1188 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-
-    <meta name="theme-color" content="#ffffff">
-
-    <title>Lak Psycho Prompt Vault</title>
-
-    <style>
-        * {
-            box-sizing: border-box;
-            -webkit-tap-highlight-color: transparent;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            margin: 0;
-            background: #ffffff;
-            color: #000000;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        button,
-        input,
-        select {
-            font: inherit;
-        }
-
-        button {
-            cursor: pointer;
-        }
-
-        /* =========================
-           APP HEADER
-        ========================= */
-
-        .header {
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            background: #ffffff;
-            border-bottom: 2px solid #000000;
-        }
-
-        .header-inner {
-            max-width: 1200px;
-            margin: auto;
-            padding: 14px 16px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 12px;
-        }
-
-        .brand {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .brand-logo {
-            width: 42px;
-            height: 42px;
-            background: #000;
-            color: #fff;
-            border-radius: 12px;
-            display: grid;
-            place-items: center;
-            font-size: 20px;
-            font-weight: 900;
-        }
-
-        .brand-text h1 {
-            margin: 0;
-            font-size: 18px;
-            font-weight: 900;
-        }
-
-        .brand-text p {
-            margin: 2px 0 0;
-            font-size: 11px;
-            color: #555;
-        }
-
-        /* =========================
-           MAIN
-        ========================= */
-
-        .app {
-            max-width: 1200px;
-            margin: auto;
-            padding: 16px;
-        }
-
-        .hero {
-            padding: 20px 0;
-        }
-
-        .hero h2 {
-            margin: 0 0 8px;
-            font-size: clamp(26px, 6vw, 44px);
-            font-weight: 900;
-        }
-
-        .hero p {
-            margin: 0;
-            max-width: 650px;
-            color: #444;
-            line-height: 1.6;
-        }
-
-        /* =========================
-           SEARCH
-        ========================= */
-
-        .search-box {
-            margin: 18px 0;
-        }
-
-        .search-box input {
-            width: 100%;
-            padding: 15px 16px;
-            border: 2px solid #000;
-            border-radius: 14px;
-            background: #fff;
-            color: #000;
-            outline: none;
-            font-size: 15px;
-        }
-
-        .search-box input:focus {
-            box-shadow: 0 0 0 3px #e8e8e8;
-        }
-
-        /* =========================
-           CATEGORY BUTTONS
-        ========================= */
-
-        .section-title {
-            font-size: 20px;
-            font-weight: 900;
-            margin: 24px 0 12px;
-        }
-
-        .category-scroll {
-            display: flex;
-            gap: 8px;
-            overflow-x: auto;
-            padding-bottom: 8px;
-            scrollbar-width: none;
-        }
-
-        .category-scroll::-webkit-scrollbar {
-            display: none;
-        }
-
-        .category-btn {
-            flex-shrink: 0;
-            padding: 11px 15px;
-            background: #fff;
-            color: #000;
-            border: 2px solid #000;
-            border-radius: 12px;
-            font-size: 13px;
-            font-weight: 700;
-        }
-
-        .category-btn.active {
-            background: #000;
-            color: #fff;
-        }
-
-        /* =========================
-           SUBCATEGORY
-        ========================= */
-
-        .subcategory-wrap {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            margin: 14px 0 20px;
-        }
-
-        .subcategory-btn {
-            padding: 9px 13px;
-            background: #f5f5f5;
-            border: 2px solid #000;
-            color: #000;
-            border-radius: 10px;
-            font-size: 12px;
-            font-weight: 700;
-        }
-
-        .subcategory-btn.active {
-            background: #000;
-            color: #fff;
-        }
-
-        /* =========================
-           PROMPT CARDS
-        ========================= */
-
-        .prompt-info {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 14px;
-            gap: 10px;
-        }
-
-        .prompt-info h3 {
-            margin: 0;
-            font-size: 20px;
-        }
-
-        .prompt-count {
-            font-size: 12px;
-            font-weight: bold;
-            color: #555;
-        }
-
-        .prompts-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 12px;
-        }
-
-        .prompt-card {
-            border: 2px solid #000;
-            border-radius: 16px;
-            padding: 15px;
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-            background: #fff;
-        }
-
-        .prompt-number {
-            font-size: 11px;
-            font-weight: 900;
-            color: #666;
-        }
-
-        .prompt-text {
-            font-size: 14px;
-            line-height: 1.55;
-            flex-grow: 1;
-            white-space: pre-wrap;
-        }
-
-        .copy-btn {
-            width: 100%;
-            padding: 12px;
-            background: #000;
-            color: #fff;
-            border: 2px solid #000;
-            border-radius: 10px;
-            font-weight: 800;
-        }
-
-        .copy-btn:active {
-            transform: scale(.98);
-        }
-
-        /* =========================
-           TOAST
-        ========================= */
-
-        .toast {
-            position: fixed;
-            left: 50%;
-            bottom: 24px;
-            transform: translateX(-50%);
-            background: #000;
-            color: #fff;
-            padding: 12px 18px;
-            border-radius: 12px;
-            font-size: 13px;
-            font-weight: bold;
-            display: none;
-            z-index: 1000;
-        }
-
-        .toast.show {
-            display: block;
-        }
-
-        /* =========================
-           FOOTER
-        ========================= */
-
-        footer {
-            border-top: 2px solid #000;
-            margin-top: 50px;
-            padding: 24px 16px;
-            text-align: center;
-        }
-
-        footer strong {
-            display: block;
-            font-size: 15px;
-        }
-
-        footer span {
-            display: block;
-            margin-top: 5px;
-            font-size: 12px;
-            color: #555;
-        }
-
-        @media (max-width: 600px) {
-            .app {
-                padding: 14px;
-            }
-
-            .prompts-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .brand-text h1 {
-                font-size: 16px;
-            }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#ffffff">
+<title>BLACKMARK — AI Command Vault</title>
+<style>
+:root{--black:#000;--white:#fff;--soft:#f4f4f4;--line:#dedede;--muted:#666}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;background:var(--white);color:var(--black);font-family:Arial,Helvetica,sans-serif}
+body{min-height:100vh}
+button,input{font:inherit}
+button{cursor:pointer}
+button:active{transform:scale(.98)}
+.header{position:sticky;top:0;z-index:50;background:#fff;border-bottom:2px solid #000}
+.header-inner{min-height:104px;padding:14px 16px;display:flex;align-items:center;justify-content:center}
+.brand{text-align:center;display:flex;flex-direction:column;align-items:center;gap:6px}
+.brand-mark{width:42px;height:42px;background:#000;color:#fff;border-radius:14px;display:grid;place-items:center;font-size:15px;font-weight:900;letter-spacing:-1px}
+.brand h1{margin:0;font-size:24px;line-height:1;font-weight:900;letter-spacing:2px}
+.brand p{margin:0;font-size:10px;font-weight:800;letter-spacing:2.4px;color:#555}
+.app{max-width:1120px;margin:auto;padding:18px 14px 42px}
+.hero{padding:8px 0 18px;text-align:center}
+.hero h2{margin:0 0 8px;font-size:30px;font-weight:900}
+.hero p{margin:0 auto;max-width:650px;font-size:14px;line-height:1.55;color:#555}
+.search{margin:10px 0 18px}
+.search input{width:100%;padding:15px 16px;border:2px solid #000;border-radius:15px;outline:none;background:#fff;color:#000;font-size:15px}
+.search input:focus{box-shadow:0 0 0 3px #eee}
+.section-label{margin:20px 0 10px;font-size:12px;font-weight:900;letter-spacing:1.4px;text-transform:uppercase}
+.scroll-row{display:flex;gap:8px;overflow:auto;padding:2px 0 10px;scrollbar-width:none}
+.scroll-row::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;border:2px solid #000;background:#fff;color:#000;border-radius:13px;padding:10px 13px;font-size:12px;font-weight:800}
+.chip.active{background:#000;color:#fff}
+.sub-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.sub{border:2px solid #000;background:#f5f5f5;color:#000;border-radius:11px;padding:9px 12px;font-size:12px;font-weight:800}
+.sub.active{background:#000;color:#fff}
+.content-head{display:flex;justify-content:space-between;align-items:flex-end;gap:10px;border-bottom:2px solid #000;padding-bottom:10px;margin:8px 0 12px}
+.content-head h3{margin:0;font-size:21px}
+.count{font-size:12px;font-weight:800;color:#666;text-align:right}
+.mode-row{display:flex;gap:7px;margin:14px 0}
+.mode{flex:1;border:2px solid #000;border-radius:12px;background:#fff;padding:10px 8px;font-size:12px;font-weight:900}
+.mode.active{background:#000;color:#fff}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.card{border:2px solid #000;border-radius:17px;padding:14px;display:flex;flex-direction:column;min-height:170px;background:#fff}
+.card-top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:15px;font-weight:900;word-break:break-word}
+.badge{font-size:9px;border:1px solid #000;border-radius:7px;padding:4px 6px;font-weight:900;white-space:nowrap}
+.desc{margin:13px 0;font-size:13px;line-height:1.5;color:#444;white-space:pre-wrap;flex:1}
+.copy{width:100%;background:#000;color:#fff;border:2px solid #000;border-radius:11px;padding:11px;font-size:12px;font-weight:900}
+.empty{border:2px dashed #000;border-radius:16px;padding:35px;text-align:center;font-weight:700;color:#555}
+.footer{border-top:2px solid #000;text-align:center;padding:24px 14px;margin-top:34px}
+.footer strong{display:block;font-size:16px;letter-spacing:1px}
+.footer span{display:block;margin-top:5px;font-size:11px;font-weight:700;color:#666;letter-spacing:1px}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(80px);background:#000;color:#fff;padding:12px 18px;border-radius:12px;font-size:13px;font-weight:800;transition:.22s;z-index:99}
+.toast.show{transform:translateX(-50%) translateY(0)}
+@media(max-width:800px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.header-inner{min-height:96px}.brand h1{font-size:22px}.hero h2{font-size:27px}.grid{grid-template-columns:1fr}.content-head{align-items:center}.mode{font-size:11px}.card{min-height:150px}}
+</style>
 </head>
-
 <body>
 
 <header class="header">
-    <div class="header-inner">
-
-        <div class="brand">
-            <div class="brand-logo">LP</div>
-
-            <div class="brand-text">
-                <h1>Lak Psycho Prompt Vault</h1>
-                <p>ChatGPT • Image • Creative • Productivity</p>
-            </div>
-        </div>
-
+  <div class="header-inner">
+    <div class="brand">
+      <div class="brand-mark">BM</div>
+      <h1>BLACKMARK</h1>
+      <p>AI COMMAND VAULT</p>
     </div>
+  </div>
 </header>
 
-
 <main class="app">
+  <section class="hero">
+    <h2>Command Library</h2>
+    <p>Organized slash-style commands, ready-to-use editing prompts, and scene enhancement recipes.</p>
+  </section>
 
-    <section class="hero">
-        <h2>Prompt Library.</h2>
+  <div class="search"><input id="search" placeholder="Search commands, categories or prompts..."></div>
 
-        <p>
-            A simple collection of useful ChatGPT prompts, image editing
-            commands, scene enhancement prompts and AI workflows.
-        </p>
-    </section>
+  <div class="section-label">Categories</div>
+  <div id="categories" class="scroll-row"></div>
 
+  <div class="section-label">Subcategories</div>
+  <div id="subcategories" class="sub-row"></div>
 
-    <!-- SEARCH -->
+  <div class="content-head">
+    <h3 id="title">Quality Enhancement</h3>
+    <div id="count" class="count"></div>
+  </div>
 
-    <div class="search-box">
-        <input
-            type="text"
-            id="searchInput"
-            placeholder="Search prompts..."
-        >
-    </div>
+  <div class="mode-row">
+    <button class="mode active" data-mode="commands">Commands</button>
+    <button class="mode" data-mode="ready">Ready Prompts</button>
+    <button class="mode" data-mode="scene">Scene Prompts</button>
+  </div>
 
-
-    <!-- CATEGORY -->
-
-    <h3 class="section-title">Categories</h3>
-
-    <div
-        class="category-scroll"
-        id="categoryList">
-    </div>
-
-
-    <!-- SUBCATEGORY -->
-
-    <div
-        class="subcategory-wrap"
-        id="subcategoryList">
-    </div>
-
-
-    <!-- PROMPTS -->
-
-    <div class="prompt-info">
-
-        <h3 id="currentTitle">
-            Prompts
-        </h3>
-
-        <span
-            class="prompt-count"
-            id="promptCount">
-        </span>
-
-    </div>
-
-
-    <div
-        class="prompts-grid"
-        id="promptsGrid">
-    </div>
-
+  <div id="grid" class="grid"></div>
 </main>
 
-
-<div
-    class="toast"
-    id="toast">
-    Copied to clipboard
-</div>
-
-
-<footer>
-
-    <strong>Lak Psycho Prompt Vault</strong>
-
-    <span>
-        Designed & Curated by Lak Psycho
-    </span>
-
+<footer class="footer">
+  <strong>BLACKMARK</strong>
+  <span>AI COMMAND VAULT</span>
 </footer>
 
+<div id="toast" class="toast">Copied</div>
 
 <script>
-
-/* =====================================================
-   PROMPT DATABASE
-
-   Each subcategory should contain minimum 25 prompts.
-
-   This version includes the full category architecture
-   and automatically creates structured prompt collections.
-===================================================== */
-
-
-const promptDatabase = {
-
-
-/* =====================================================
-   1. CHATGPT CORE
-===================================================== */
-
-chatgpt: {
-
-    name: "ChatGPT Core",
-
-    subcategories: {
-
-        "General Assistant": [
-            "Act as my intelligent personal assistant. Organize my request and provide the most useful solution.",
-            "Explain this topic in simple language with practical examples.",
-            "Break this problem into small actionable steps.",
-            "Give me the fastest and most effective solution.",
-            "Analyze my request and identify missing information.",
-            "Turn my rough idea into a clear structured plan.",
-            "Give me beginner, intermediate and expert-level explanations.",
-            "Explain the advantages and disadvantages of this approach.",
-            "Create a practical checklist for this task.",
-            "Summarize this information without losing important details.",
-            "Rewrite this in a clearer and more professional way.",
-            "Give me multiple solutions ranked from best to worst.",
-            "Identify common mistakes and show me how to avoid them.",
-            "Ask the important questions required before solving this problem.",
-            "Turn this goal into a step-by-step execution plan.",
-            "Create a daily action plan based on this objective.",
-            "Explain this using an analogy.",
-            "Simplify this complex information for a beginner.",
-            "Give me a detailed expert explanation of this topic.",
-            "Compare different approaches and recommend the best one.",
-            "Create a reusable template for this task.",
-            "Analyze the risks involved in this decision.",
-            "Give me practical examples that I can immediately use.",
-            "Turn this conversation into organized notes.",
-            "Create the best possible final answer for this request."
-        ],
-
-        "Problem Solving": [
-            "Analyze this problem systematically and identify the root cause.",
-            "Break this problem into smaller solvable components.",
-            "Give me five possible solutions and compare them.",
-            "Use first-principles thinking to solve this problem.",
-            "Identify assumptions that may be causing this problem.",
-            "Create a decision tree for solving this situation.",
-            "Find the simplest solution with the highest impact.",
-            "Analyze this problem from technical, financial and practical perspectives.",
-            "Identify potential risks before implementing this solution.",
-            "Give me a step-by-step troubleshooting process.",
-            "Find alternative approaches if the main solution fails.",
-            "Prioritize the problems based on urgency and impact.",
-            "Create a contingency plan.",
-            "Identify the information required to solve this problem accurately.",
-            "Explain the root cause in simple terms.",
-            "Use logical reasoning to evaluate each possible solution.",
-            "Give me the most cost-effective solution.",
-            "Suggest automation opportunities for this process.",
-            "Create a problem-solving framework I can reuse.",
-            "Find bottlenecks in this workflow.",
-            "Suggest improvements with the highest return on effort.",
-            "Analyze worst-case and best-case scenarios.",
-            "Create an action plan with priorities.",
-            "Challenge my assumptions and identify weaknesses.",
-            "Give me the final recommended solution and explain why."
-        ]
-    }
-},
-
-
-/* =====================================================
-   2. IMAGE EDITING
-===================================================== */
-
-imageEditing: {
-
-    name: "Image Editing",
-
-    subcategories: {
-
-        "Enhancement Commands": [
-
-            "/hdreal /enhance /details /natural",
-            "/4k /enhance /sharpen /clarity",
-            "/8k /restore /details /quality",
-            "/denoise /deblur /sharpen /hdreal",
-            "/restore /repair /reconstruct /natural",
-            "/facefix /faceenhance /faceclear /natural",
-            "/skin /skinfix /faceclear /details",
-            "/antishake /deblur /sharpen /clarity",
-            "/relight /hdreal /natural /details",
-            "/colorize /restore /quality /natural",
-            "/clean /denoise /enhance /4k",
-            "/clarity /details /sharpen /natural",
-            "/quality /restore /repair /hdreal",
-            "/facefix /relight /skinfix /4k",
-            "/enhance /deblur /denoise /details",
-            "/natural /skinfix /faceenhance /clarity",
-            "/reconstruct /repair /restore /quality",
-            "/hdreal /4k /facefix /details",
-            "/enhance /clean /natural /sharp",
-            "/deblur /antishake /4k /clarity",
-            "/faceclear /skin /relight /hdreal",
-            "/restore /colorize /details /quality",
-            "/quality /natural /enhance /clarity",
-            "/repair /reconstruct /facefix /hdreal",
-            "/ultra /details /hdreal /natural"
-        ],
-
-
-        "Cinematic Scenes": [
-
-            "/cinematic /hdreal /dramaticlighting",
-            "/cinematic /scene city street at night /neonlights",
-            "/cinematic /goldenhour /walking towards camera",
-            "/actionmovie /chasing scene /dynamic motion",
-            "/cinematicportrait /moody lighting /shallow depth of field",
-            "/scene rainy street /reflections /cinematic",
-            "/scene luxury hotel /soft lighting /cinematic",
-            "/scene mountain road /dramatic sky /movie look",
-            "/scene dark alley /neon /cinematic atmosphere",
-            "/scene beach sunset /golden light /cinematic",
-            "/scene rooftop city view /night /film look",
-            "/scene forest fog /mysterious /cinematic",
-            "/scene desert road /epic scale /movie lighting",
-            "/scene futuristic city /neon atmosphere",
-            "/scene vintage street /film grain /cinematic",
-            "/scene luxury car /dramatic lighting /commercial",
-            "/scene nightclub /neon /high contrast",
-            "/scene coffee shop /warm cinematic lighting",
-            "/scene rainstorm /dramatic atmosphere /film",
-            "/scene airport runway /epic cinematic composition",
-            "/scene cyberpunk city /rain /neon reflections",
-            "/scene abandoned building /moody film lighting",
-            "/scene studio portrait /cinematic shadows",
-            "/scene highway /sunset /movie composition",
-            "/cinematic /anamorphic /depthoffield /hdreal"
-        ],
-
-
-        "Portrait Editing": [
-
-            "/portrait-professional /facefix /relight",
-            "/faceenhance /skinfix /natural /hdreal",
-            "/portrait /studio lighting /professional",
-            "/faceclear /details /natural skin",
-            "/professional headshot /clean background",
-            "/cinematic portrait /moody lighting",
-            "/fashion portrait /editorial lighting",
-            "/street portrait /natural lighting",
-            "/studio portrait /softbox lighting",
-            "/luxury portrait /dramatic shadows",
-            "/business portrait /professional look",
-            "/black and white portrait /high contrast",
-            "/golden hour portrait /natural skin",
-            "/night portrait /neon lighting",
-            "/portrait /shallow depth of field",
-            "/facefix /relight /4k",
-            "/skinfix /faceclear /details",
-            "/portrait-professional /hdreal /clarity",
-            "/editorial portrait /high fashion",
-            "/cinematic face lighting /hdreal",
-            "/natural portrait /soft lighting",
-            "/dramatic portrait /dark background",
-            "/clean portrait /studio quality",
-            "/professional photography /faceenhance",
-            "/portrait /8k /natural /details"
-        ],
-
-
-        "Background & Scene Enhancement": [
-
-            "/clean background /hdreal /natural",
-            "/replace background with cinematic city",
-            "/replace background with luxury interior",
-            "/scene enhancement /dramatic lighting",
-            "/background blur /portrait focus",
-            "/replace background with sunset beach",
-            "/replace background with mountain landscape",
-            "/replace background with cyberpunk city",
-            "/replace background with modern studio",
-            "/replace background with dark cinematic room",
-            "/scene rainy city street /reflections",
-            "/scene luxury office /professional",
-            "/scene futuristic environment /cinematic",
-            "/scene forest with fog /atmospheric",
-            "/scene desert sunset /epic",
-            "/scene rooftop city /night lights",
-            "/scene modern apartment /natural lighting",
-            "/scene beach resort /golden hour",
-            "/scene underground parking /cinematic",
-            "/scene racing track /action",
-            "/scene movie set /dramatic",
-            "/clean environment /remove distractions",
-            "/remove unwanted people /clean background",
-            "/reframe /improve composition /hdreal",
-            "/environment enhancement /realistic details"
-        ]
-    }
-},
-
-
-/* =====================================================
-   3. WRITING
-===================================================== */
-
-writing: {
-
-    name: "Writing",
-
-    subcategories: {
-
-        "Professional Writing": generatePrompts([
-            "Write a professional version of this message:",
-            "Rewrite this to sound clear and confident:",
-            "Make this concise and professional:",
-            "Improve the grammar and structure:",
-            "Write this in a polite business tone:"
-        ]),
-
-        "Creative Writing": generatePrompts([
-            "Create a cinematic story based on:",
-            "Write an engaging opening scene:",
-            "Create a mysterious character:",
-            "Write this scene with emotional depth:",
-            "Turn this idea into a short story:"
-        ])
-    }
-},
-
-
-/* =====================================================
-   4. CODING
-===================================================== */
-
-coding: {
-
-    name: "Coding",
-
-    subcategories: {
-
-        "Web Development": generatePrompts([
-            "Act as a senior web developer and build:",
-            "Create a responsive mobile-first interface for:",
-            "Debug this HTML CSS JavaScript code:",
-            "Optimize this website for Android devices:",
-            "Improve the UI and UX of:"
-        ]),
-
-        "JavaScript": generatePrompts([
-            "Write clean JavaScript for:",
-            "Debug this JavaScript problem:",
-            "Refactor this JavaScript code:",
-            "Explain this JavaScript function:",
-            "Optimize this JavaScript application:"
-        ])
-    }
-},
-
-
-/* =====================================================
-   5. PRODUCTIVITY
-===================================================== */
-
-productivity: {
-
-    name: "Productivity",
-
-    subcategories: {
-
-        "Planning": generatePrompts([
-            "Create a daily plan for:",
-            "Create a weekly execution strategy for:",
-            "Turn this goal into actionable tasks:",
-            "Create a productivity system for:",
-            "Build a realistic schedule for:"
-        ]),
-
-        "Automation": generatePrompts([
-            "Identify automation opportunities in:",
-            "Create an automated workflow for:",
-            "Reduce repetitive work in:",
-            "Design an efficient system for:",
-            "Create a step-by-step automation plan for:"
-        ])
-    }
-},
-
-
-/* =====================================================
-   6. BUSINESS
-===================================================== */
-
-business: {
-
-    name: "Business",
-
-    subcategories: {
-
-        "Business Strategy": generatePrompts([
-            "Act as a business strategist and analyze:",
-            "Create a growth strategy for:",
-            "Identify business opportunities for:",
-            "Create a competitive analysis for:",
-            "Build a scalable business plan for:"
-        ]),
-
-        "Marketing": generatePrompts([
-            "Create a marketing strategy for:",
-            "Identify the target audience for:",
-            "Create a customer acquisition plan for:",
-            "Build a brand positioning strategy for:",
-            "Create a marketing campaign for:"
-        ])
-    }
-},
-
-
-/* =====================================================
-   7. LEARNING
-===================================================== */
-
-learning: {
-
-    name: "Learning",
-
-    subcategories: {
-
-        "Study": generatePrompts([
-            "Teach me this topic from beginner to expert:",
-            "Create a study plan for:",
-            "Explain this concept simply:",
-            "Create practice questions for:",
-            "Test my understanding of:"
-        ]),
-
-        "Skill Development": generatePrompts([
-            "Create a learning roadmap for:",
-            "Build a 30-day learning plan for:",
-            "Identify the most important skills for:",
-            "Create practical exercises for:",
-            "Teach me through projects:"
-        ])
-    }
-},
-
-
-/* =====================================================
-   8. SOCIAL MEDIA
-===================================================== */
-
-social: {
-
-    name: "Social Media",
-
-    subcategories: {
-
-        "Instagram": generatePrompts([
-            "Create an Instagram content strategy for:",
-            "Write a viral Instagram caption about:",
-            "Create 30 content ideas for:",
-            "Generate engaging hooks for:",
-            "Create a growth strategy for:"
-        ]),
-
-        "YouTube": generatePrompts([
-            "Create YouTube video ideas about:",
-            "Write a high CTR title for:",
-            "Create a YouTube script for:",
-            "Generate thumbnail concepts for:",
-            "Create a channel growth strategy for:"
-        ])
-    }
+const DB = [
+["Quality & Restoration",[
+["Quality Enhancement",[
+["/hdreal","High-definition realistic enhancement"],["/4k","4K-style detail and clarity enhancement"],["/8k","Ultra-high-resolution enhancement"],["/enhance","General image enhancement"],["/quality","Improve overall image quality"],["/natural","Keep enhancement natural and believable"]]],
+["Sharpness & Detail",[
+["/sharpen","Increase perceived sharpness"],["/details","Recover or enhance fine details"],["/clarity","Improve local contrast and clarity"],["/deblur","Reduce blur and recover edges"],["/denoise","Reduce digital noise and artifacts"]]],
+["Repair & Reconstruction",[
+["/restore","Restore an old or degraded image"],["/repair","Repair visible image defects"],["/reconstruct","Reconstruct missing or damaged visual information"],["/upscale","Increase resolution while preserving detail"],["/clean","Remove visual dirt, marks and distractions"]]]
+]],
+["Face & Identity",[
+["Face Correction",[
+["/facefix","Correct facial rendering while preserving identity"],["/faceenhance","Enhance facial detail and definition"],["/faceclear","Make facial features clearer"],["/faceidentity","Prioritize identity consistency"],["/faceswap","Replace a face when an appropriate reference is provided"]]],
+["Skin & Facial Detail",[
+["/skin","Improve skin appearance"],["/skinfix","Correct distracting skin artifacts"],["/naturalface","Keep facial enhancement realistic"],["/eyes","Improve eye clarity while preserving the person"],["/teeth","Clean up teeth appearance naturally"]]],
+["Consistency",[
+["/identitylock","Keep the same core facial identity across changes"],["/faceconsistent","Maintain facial structure between generations"],["/referenceface","Use the supplied reference as the identity anchor"]]]
+]],
+["Lighting & Color",[
+["Lighting",[
+["/relight","Re-light the subject or scene"],["/goldenhour","Golden-hour lighting"],["/daylight","Natural daytime lighting"],["/softlight","Soft flattering illumination"],["/dramaticlight","Cinematic dramatic lighting"],["/studio","Controlled professional studio lighting"],["/rimlight","Add controlled rim or back lighting"]]],
+["Color",[
+["/colorize","Add realistic color to a monochrome image"],["/naturalcolor","Natural believable color treatment"],["/vivid","Increase color impact without destroying realism"],["/cinematiccolor","Cinematic color grading"],["/warm","Warmer overall color treatment"],["/cool","Cooler overall color treatment"],["/bw","Black-and-white treatment"]]]
+]],
+["Camera, Motion & Stability",[
+["Camera & Perspective",[
+["/droneview","High aerial or drone-style perspective"],["/wideangle","Wider field of view"],["/closeup","Close framing"],["/portrait","Portrait-oriented composition"],["/lowangle","Low camera angle"],["/highangle","High camera angle"],["/overhead","Top-down camera view"],["/pov","Point-of-view perspective"]]],
+["Motion & Stability",[
+["/antishake","Reduce camera-shake appearance"],["/walking","Create or restore a natural walking-motion context"],["/motion","Add controlled motion characteristics"],["/freeze","Emphasize a crisp frozen moment"]]],
+["Reframing",[
+["/reframe","Recompose for better subject placement"],["/crop","Crop around important content"],["/center","Center the main subject"],["/expand","Extend composition beyond the original frame"],["/vertical","Optimize for vertical framing"],["/horizontal","Optimize for horizontal framing"]]]
+]],
+["Background & Object Cleanup",[
+["Background",[
+["/backgroundclean","Clean and simplify the background"],["/blurbackground","Add controlled background blur"],["/replacebackground","Replace the background while preserving the subject"],["/removebackground","Remove the background"],["/extendbackground","Extend the existing environment naturally"]]],
+["People & Objects",[
+["/removepeople","Remove unwanted people"],["/removeobject","Remove an unwanted object"],["/cleanup","Clean distracting elements"],["/declutter","Reduce visual clutter"],["/erase","Remove a specified element"]]]
+]],
+["Composition & Design",[
+["Composition",[
+["/professional","Professional-looking composition and finish"],["/balanced","Improve visual balance"],["/symmetry","Strengthen symmetry where appropriate"],["/minimal","Minimal uncluttered composition"],["/cinematic","Cinematic composition"],["/dynamic","More energetic composition"]]],
+["Aspect Ratios & Formats",[
+["/9:16","Vertical phone or social format"],["/16:9","Widescreen format"],["/1:1","Square format"],["/4:5","Portrait social-media format"],["/3:4","Standard portrait format"]]]
+]],
+["Style & Visual Transformation",[
+["Photographic Styles",[
+["/photoreal","Photorealistic rendering"],["/hyperreal","Highly detailed realistic rendering"],["/editorial","Editorial photography look"],["/fashion","Fashion or editorial visual treatment"],["/product","Clean product-photography treatment"],["/documentary","Documentary-style realism"]]],
+["Artistic Styles",[
+["/illustration","Illustration-style rendering"],["/anime","Anime-inspired transformation"],["/comic","Comic-book visual treatment"],["/watercolor","Watercolor painting style"],["/oilpaint","Oil-painting style"],["/sketch","Sketch-style rendering"],["/3d","3D-rendered appearance"]]]
+]],
+["Video & Animation",[
+["Motion Planning",[
+["/animate","Animate specified elements"],["/animateparts","Animate individual parts independently"],["/smoothmotion","Use smooth controlled motion"],["/loop","Design motion to loop cleanly"],["/slowmotion","Slow graceful motion"]]],
+["Camera Motion",[
+["/pan","Horizontal camera movement"],["/tilt","Vertical camera movement"],["/zoom","Controlled zoom"],["/dolly","Forward or backward camera movement"],["/orbit","Camera orbit around the subject"],["/drone","Aerial camera movement"]]],
+["Video Quality",[
+["/videoreal","Realistic video appearance"],["/motionblur","Natural motion blur"],["/stabilized","Stabilized-camera appearance"],["/frameclean","Clean visual frame quality"]]]
+]],
+["Logo, Branding & Graphics",[
+["Logo Treatment",[
+["/logoclean","Clean up a logo"],["/logorecreate","Recreate a logo faithfully"],["/logooutline","Add a controlled outline"],["/monochrome","Restrict logo to monochrome treatment"],["/brandmark","Emphasize the primary brand mark"]]],
+["Graphic Constraints",[
+["/blackredblue","Restrict design to black, red and blue"],["/whiteaccent","Permit controlled white accent lines"],["/transparent","Transparent-background graphic"],["/vectorlook","Clean vector-like appearance"],["/icon","Optimize for icon or app-logo use"]]]
+]],
+["Text, Posters & UI Visuals",[
+["Typography & Layout",[
+["/textclear","Make text visually clearer"],["/typography","Improve typography and hierarchy"],["/poster","Poster-style composition"],["/banner","Banner composition"],["/splash","App splash-screen composition"],["/ui","UI-oriented visual composition"]]],
+["App & Screen Formats",[
+["/androidportrait","Android portrait screen composition"],["/mobile","Mobile-first framing"],["/desktop","Desktop or widescreen framing"],["/splashscreen","App splash-screen layout"]]]
+]],
+["Architecture, Floorplans & Space",[
+["Floorplan",[
+["/floorplan","Create or refine a floorplan"],["/layout","Improve room or layout arrangement"],["/dimension","Add or clarify dimensions"],["/roomlabel","Add clear room labels"],["/circulation","Improve movement and circulation"]]],
+["Architectural Visualization",[
+["/exterior","Exterior architectural visualization"],["/interior","Interior visualization"],["/aerialplan","Aerial or site-plan perspective"],["/3dplan","3D floorplan presentation"]]]
+]],
+["Environment & Atmosphere",[
+["Weather & Time",[
+["/sunset","Sunset atmosphere"],["/sunrise","Sunrise atmosphere"],["/night","Nighttime treatment"],["/rain","Rainy atmosphere"],["/fog","Fog or mist atmosphere"],["/overcast","Overcast lighting"]]],
+["Atmosphere",[
+["/moody","Moody atmospheric treatment"],["/bright","Bright airy treatment"],["/dark","Darker dramatic treatment"],["/cleanlook","Clean commercial finish"],["/naturalambient","Natural ambient environment"]]]
+]],
+["Subject Preservation & Editing Rules",[
+["Preservation",[
+["/preserveface","Preserve facial identity"],["/preservepose","Preserve the original pose"],["/preserveclothes","Preserve clothing unless explicitly changed"],["/preservebackground","Preserve the original background"],["/preservedetails","Preserve important original details"]]],
+["Selective Editing",[
+["/onlyface","Restrict changes primarily to the face"],["/onlybackground","Restrict changes to the background"],["/onlylighting","Change lighting without redesigning the scene"],["/onlycolor","Change color treatment only"],["/subtle","Make changes subtle and restrained"]]]
+]],
+["Command Combinations",[
+["Recommended Structure",[
+["/antishake /walking /facefix /relight /4k","Walking restoration recipe"],["/droneview /goldenhour /hdreal /natural","Aerial golden-hour realism recipe"],["/professional /reframe /4k /clean","Professional cleanup and reframing recipe"]]],
+["Priority Rules",[
+["/preserveface + style","Identity preservation takes priority over style changes"],["specific background/object instruction","Specific instructions take priority over generic cleanup"],["aspect ratio + /reframe","Apply format instructions during composition and reframing"]]]
+]]
+];
+
+let cat=0, sub=0, mode="commands";
+
+const $=id=>document.getElementById(id);
+const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function current(){return DB[cat][1][sub]}
+function allSearch(q){
+ const out=[];
+ DB.forEach((C,ci)=>C[1].forEach((S,si)=>S[1].forEach(x=>{
+   if((C[0]+" "+S[0]+" "+x[0]+" "+x[1]).toLowerCase().includes(q)) out.push({c:ci,s:si,item:x,cat:C[0],sub:S[0]});
+ })));
+ return out;
 }
-
-};
-
-
-
-/* =====================================================
-   GENERATE MINIMUM 25 PROMPTS
-===================================================== */
-
-function generatePrompts(basePrompts) {
-
-    const results = [];
-
-    for (let i = 0; i < 25; i++) {
-
-        const template =
-            basePrompts[i % basePrompts.length];
-
-        results.push(
-            `${template}\n\n[Add your topic or content here]`
-        );
-    }
-
-    return results;
+function renderCategories(){
+ $("categories").innerHTML=DB.map((x,i)=>`<button class="chip ${i===cat?"active":""}" onclick="pickCat(${i})">${esc(x[0])}</button>`).join("");
 }
-
-
-
-/* =====================================================
-   APP STATE
-===================================================== */
-
-let currentCategory =
-    Object.keys(promptDatabase)[0];
-
-let currentSubcategory =
-    Object.keys(
-        promptDatabase[currentCategory]
-        .subcategories
-    )[0];
-
-
-
-/* =====================================================
-   RENDER CATEGORIES
-===================================================== */
-
-function renderCategories() {
-
-    const container =
-        document.getElementById("categoryList");
-
-    container.innerHTML = "";
-
-    Object.entries(promptDatabase).forEach(
-        ([id, category]) => {
-
-            const button =
-                document.createElement("button");
-
-            button.className =
-                "category-btn" +
-                (id === currentCategory
-                    ? " active"
-                    : "");
-
-            button.textContent =
-                category.name;
-
-            button.onclick = () => {
-
-                currentCategory = id;
-
-                currentSubcategory =
-                    Object.keys(
-                        category.subcategories
-                    )[0];
-
-                renderApp();
-            };
-
-            container.appendChild(button);
-        }
-    );
+function renderSubs(){
+ $("subcategories").innerHTML=DB[cat][1].map((x,i)=>`<button class="sub ${i===sub?"active":""}" onclick="pickSub(${i})">${esc(x[0])}</button>`).join("");
 }
-
-
-
-/* =====================================================
-   RENDER SUBCATEGORIES
-===================================================== */
-
-function renderSubcategories() {
-
-    const container =
-        document.getElementById(
-            "subcategoryList"
-        );
-
-    container.innerHTML = "";
-
-    const subcategories =
-        promptDatabase[currentCategory]
-        .subcategories;
-
-    Object.keys(subcategories).forEach(name => {
-
-        const button =
-            document.createElement("button");
-
-        button.className =
-            "subcategory-btn" +
-            (name === currentSubcategory
-                ? " active"
-                : "");
-
-        button.textContent = name;
-
-        button.onclick = () => {
-
-            currentSubcategory = name;
-
-            renderPrompts();
-            renderSubcategories();
-        };
-
-        container.appendChild(button);
-    });
+function pickCat(i){cat=i;sub=0;mode="commands";$("search").value="";render()}
+function pickSub(i){sub=i;$("search").value="";renderContent();renderSubs()}
+function recipeList(type){
+ const [name,items]=current();
+ const extras=type==="ready"
+ ? ["Preserve the important original details and keep the result natural.","Improve the result while avoiding unnecessary changes.","Apply the edit cleanly with realistic proportions and believable textures.","Keep the main subject consistent and professionally finished.","Use precise editing and retain visual coherence."]
+ : ["Enhance the surrounding scene with realistic depth and atmosphere.","Create a believable cinematic environment without changing the main subject unnecessarily.","Improve environmental detail, lighting and spatial realism.","Build a visually coherent scene with natural perspective and depth.","Strengthen mood and atmosphere while keeping the composition clean."];
+ const scenes=["cinematic environment","natural outdoor scene","professional studio setting","urban night scene","golden-hour landscape"];
+ const out=[];
+ for(let i=0;i<25;i++){
+   const a=items[i%items.length], b=items[(i+1)%items.length];
+   const cmd=type==="ready"?`${a[0]} ${b[0]}`:`${a[0]} ${b[0]} /cinematic`;
+   out.push([cmd, `${cmd}\n\n${type==="ready"?"Apply this edit to the uploaded image. ":"Enhance the image into a "+scenes[i%scenes.length]+". "}${a[1]}. ${extras[i%extras.length]}`]);
+ }
+ return out;
 }
-
-
-
-/* =====================================================
-   RENDER PROMPTS
-===================================================== */
-
-function renderPrompts() {
-
-    const grid =
-        document.getElementById("promptsGrid");
-
-    const title =
-        document.getElementById("currentTitle");
-
-    const count =
-        document.getElementById("promptCount");
-
-    const prompts =
-        promptDatabase[currentCategory]
-        .subcategories[currentSubcategory];
-
-    title.textContent =
-        currentSubcategory;
-
-    count.textContent =
-        `${prompts.length} Prompts`;
-
-    grid.innerHTML = "";
-
-    prompts.forEach((prompt, index) => {
-
-        const card =
-            document.createElement("div");
-
-        card.className =
-            "prompt-card";
-
-        card.innerHTML = `
-
-            <div class="prompt-number">
-                PROMPT ${index + 1}
-            </div>
-
-            <div class="prompt-text">
-                ${escapeHTML(prompt)}
-            </div>
-
-            <button class="copy-btn">
-                Copy Prompt
-            </button>
-        `;
-
-        card.querySelector(".copy-btn")
-            .onclick = () =>
-                copyPrompt(prompt);
-
-        grid.appendChild(card);
-    });
+function card(code,desc,badge="COMMAND"){
+ return `<article class="card"><div class="card-top"><div class="code">${esc(code)}</div><span class="badge">${badge}</span></div><div class="desc">${esc(desc)}</div><button class="copy" onclick='copyText(${JSON.stringify(code+"\n\n"+desc)})'>COPY</button></article>`;
 }
-
-
-
-/* =====================================================
-   COPY
-===================================================== */
-
-function copyPrompt(text) {
-
-    navigator.clipboard
-        .writeText(text)
-        .then(() => showToast("Prompt copied"));
+function renderContent(){
+ const q=$("search").value.trim().toLowerCase();
+ if(q){
+   const results=allSearch(q);
+   $("title").textContent="Search Results"; $("count").textContent=`${results.length} command${results.length===1?"":"s"} found`;
+   $("grid").innerHTML=results.length?results.map(r=>card(r.item[0],`${r.cat} → ${r.sub}\n\n${r.item[1]}`,"RESULT")).join(""):`<div class="empty">No matching commands found.</div>`;
+   return;
+ }
+ const [name,items]=current();
+ let list=items,badge="COMMAND";
+ if(mode==="ready"){list=recipeList("ready");badge="READY PROMPT"}
+ if(mode==="scene"){list=recipeList("scene");badge="SCENE PROMPT"}
+ $("title").textContent=name;
+ $("count").textContent=`${list.length} ${mode==="commands"?"commands":mode==="ready"?"ready prompts":"scene prompts"}`;
+ $("grid").innerHTML=list.map(x=>card(x[0],x[1],badge)).join("");
+ document.querySelectorAll(".mode").forEach(b=>b.classList.toggle("active",b.dataset.mode===mode));
 }
-
-
-
-/* =====================================================
-   TOAST
-===================================================== */
-
-function showToast(message) {
-
-    const toast =
-        document.getElementById("toast");
-
-    toast.textContent = message;
-
-    toast.classList.add("show");
-
-    setTimeout(() => {
-
-        toast.classList.remove("show");
-
-    }, 1800);
+function render(){renderCategories();renderSubs();renderContent()}
+function copyText(t){
+ if(navigator.clipboard) navigator.clipboard.writeText(t); else {const x=document.createElement("textarea");x.value=t;document.body.appendChild(x);x.select();document.execCommand("copy");x.remove()}
+ $("toast").classList.add("show");setTimeout(()=>$("toast").classList.remove("show"),1600);
 }
-
-
-
-/* =====================================================
-   SEARCH
-===================================================== */
-
-document
-.getElementById("searchInput")
-.addEventListener("input", function() {
-
-    const query =
-        this.value
-        .toLowerCase()
-        .trim();
-
-    if (!query) {
-
-        renderPrompts();
-        return;
-    }
-
-    const grid =
-        document.getElementById("promptsGrid");
-
-    grid.innerHTML = "";
-
-    const results = [];
-
-    Object.entries(promptDatabase)
-        .forEach(([categoryId, category]) => {
-
-            Object.entries(category.subcategories)
-                .forEach(([subcategory, prompts]) => {
-
-                    prompts.forEach(prompt => {
-
-                        if (
-                            prompt
-                            .toLowerCase()
-                            .includes(query)
-                        ) {
-
-                            results.push({
-                                category:
-                                    category.name,
-
-                                subcategory,
-
-                                prompt
-                            });
-                        }
-                    });
-                });
-        });
-
-
-    document
-        .getElementById("currentTitle")
-        .textContent =
-        "Search Results";
-
-
-    document
-        .getElementById("promptCount")
-        .textContent =
-        `${results.length} Found`;
-
-
-    results.forEach((item, index) => {
-
-        const card =
-            document.createElement("div");
-
-        card.className =
-            "prompt-card";
-
-        card.innerHTML = `
-
-            <div class="prompt-number">
-                ${item.category} • ${item.subcategory}
-            </div>
-
-            <div class="prompt-text">
-                ${escapeHTML(item.prompt)}
-            </div>
-
-            <button class="copy-btn">
-                Copy Prompt
-            </button>
-        `;
-
-        card.querySelector(".copy-btn")
-            .onclick =
-            () => copyPrompt(item.prompt);
-
-        grid.appendChild(card);
-    });
-
-});
-
-
-
-/* =====================================================
-   SAFE HTML
-===================================================== */
-
-function escapeHTML(text) {
-
-    return text
-        .replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;")
-        .replace(/\n/g, "<br>");
-}
-
-
-
-/* =====================================================
-   APP RENDER
-===================================================== */
-
-function renderApp() {
-
-    renderCategories();
-
-    renderSubcategories();
-
-    renderPrompts();
-}
-
-
-
-/* =====================================================
-   START
-===================================================== */
-
-renderApp();
-
+document.querySelectorAll(".mode").forEach(b=>b.onclick=()=>{mode=b.dataset.mode;$("search").value="";renderContent()});
+$("search").addEventListener("input",renderContent);
+render();
 </script>
-
 </body>
 </html>
