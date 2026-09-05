@@ -1,40 +1,1786 @@
-<!doctype html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#070807">
-<meta name="description" content="GPT Codes — a premium categorized slash-command library by BLACKMARK.">
-<meta name="author" content="BLACKMARK">
-<link rel="icon" type="image/png" href="blackmark-logo-light.png">
-<title>GPT CODES — Complete Bundle | BLACKMARK</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Chat Got Codes — The Sovereign Codex of Prompt Craft</title>
+<meta name="description" content="A curated codex of ChatGPT codes — /hdreal, /ghostquill, /codexpro and more. Filter by category, compile a master prompt with the Prompt Agent, and copy it straight to your clipboard." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;500;600;700;800;900&family=JetBrains+Mono:wght@300;400;500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        ink: { DEFAULT:'#0A0A0B', 2:'#0F0F11', 3:'#151518', 4:'#1C1C20', 5:'#222228' },
+        brass: { 50:'#FBF3DC', 100:'#F3E3B6', 200:'#E6CD85', 300:'#D6B45C', 400:'#C29B37', 500:'#A57F22', 600:'#7E5F17', 700:'#5B4310' },
+        bone: '#F4EFE6',
+        ash: '#918B80',
+        oxblood:'#7A2E2A',
+        jade: '#2E5B4F',
+        ruby: '#C43E3A',
+        sapphire: '#3E6AC4',
+      },
+      fontFamily: {
+        display: ['Fraunces','Georgia','serif'],
+        sans: ['"Plus Jakarta Sans"','system-ui','sans-serif'],
+        mono: ['"JetBrains Mono"','ui-monospace','monospace']
+      }
+    }
+  }
+}
+</script>
+<style>
+:root {
+  --ink:#0A0A0B;
+  --ink2:#0F0F11;
+  --ink3:#151518;
+  --ink4:#1C1C20;
+  --brass:#D6B45C;
+  --brass-deep:#A57F22;
+  --brass-light:#E6CD85;
+  --bone:#F4EFE6;
+  --ash:#918B80;
+  --oxblood:#7A2E2A;
+  --jade:#2E5B4F;
+}
+
+* { -webkit-tap-highlight-color:transparent; margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body {
+  background-color:var(--ink);
+  color:var(--bone);
+  font-family:'Plus Jakarta Sans',system-ui,sans-serif;
+  overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  line-height:1.6;
+}
+
+/* Ambient light overlay */
+body::before {
+  content:'';
+  position:fixed; inset:0;
+  pointer-events:none; z-index:0;
+  background:
+    radial-gradient(900px 520px at 78% -8%, rgba(198,158,64,.14), transparent 62%),
+    radial-gradient(700px 480px at 6% 18%, rgba(122,46,42,.12), transparent 60%),
+    radial-gradient(1000px 700px at 50% 108%, rgba(46,91,79,.10), transparent 65%);
+}
+
+/* Subtle scanlines */
+body::after {
+  content:'';
+  position:fixed; inset:0;
+  pointer-events:none; z-index:1;
+  opacity:.28;
+  background-image:linear-gradient(rgba(255,255,255,.018) 1px, transparent 1px);
+  background-size:100% 3px;
+  mix-blend-mode:overlay;
+}
+
+/* Noise texture */
+.noise {
+  position:fixed; inset:0; z-index:0; pointer-events:none;
+  opacity:.4;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.04'/%3E%3C/svg%3E");
+}
+
+/* Brass gradient text */
+.brass-text {
+  background:linear-gradient(100deg,#FBF3DC 0%,#E6CD85 26%,#D6B45C 48%,#8E6A1B 78%,#E6CD85 100%);
+  background-size:220% 100%;
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+  animation:brassFlow 12s ease-in-out infinite;
+}
+@keyframes brassFlow {
+  0%,100%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+}
+
+/* Rule divider */
+.rule {
+  height:1px;
+  background:linear-gradient(90deg,transparent,rgba(214,180,92,.4),transparent);
+}
+
+/* ---- Reveal system ---- */
+.rv {
+  opacity:0;
+  transform:translateY(30px);
+  transition:opacity .9s cubic-bezier(.16,1,.3,1), transform .9s cubic-bezier(.16,1,.3,1);
+  transition-delay:var(--d,0ms);
+}
+.rv.in { opacity:1; transform:none; }
+
+.rv-mask {
+  clip-path:inset(0 0 100% 0);
+  transition:clip-path 1.15s cubic-bezier(.16,1,.3,1);
+  transition-delay:var(--d,0ms);
+}
+.rv-mask.in { clip-path:inset(0 0 0% 0); }
+
+/* ---- Kinetic hero type ---- */
+.kin {
+  display:inline-block;
+  overflow:hidden;
+  vertical-align:bottom;
+}
+.kin span {
+  display:inline-block;
+  transform:translateY(110%) rotate(4deg);
+  opacity:0;
+  animation:kinUp .95s cubic-bezier(.16,1,.3,1) forwards;
+}
+@keyframes kinUp {
+  to { transform:none; opacity:1; }
+}
+
+/* ---- Buttons ---- */
+.btn-brass {
+  position:relative;
+  overflow:hidden;
+  isolation:isolate;
+  background:linear-gradient(135deg,#E6CD85,#C29B37 55%,#8E6A1B);
+  color:#120E05;
+  font-weight:700;
+  font-size:.875rem;
+  padding:.75rem 1.5rem;
+  border-radius:9999px;
+  border:none;
+  cursor:pointer;
+  box-shadow:0 10px 30px -12px rgba(198,158,64,.6), inset 0 1px 0 rgba(255,255,255,.5);
+  transition:transform .35s cubic-bezier(.16,1,.3,1), box-shadow .35s ease;
+}
+.btn-brass:hover {
+  transform:translateY(-2px);
+  box-shadow:0 18px 40px -14px rgba(198,158,64,.8), inset 0 1px 0 rgba(255,255,255,.6);
+}
+.btn-brass::after {
+  content:'';
+  position:absolute; inset:0; z-index:-1;
+  background:linear-gradient(105deg,transparent 35%,rgba(255,255,255,.75) 50%,transparent 65%);
+  transform:translateX(-120%);
+}
+.btn-brass:hover::after {
+  animation:sweep 1s cubic-bezier(.22,.8,.3,1);
+}
+@keyframes sweep {
+  to { transform:translateX(120%); }
+}
+
+.btn-ghost {
+  border:1px solid rgba(214,180,92,.34);
+  color:var(--bone);
+  font-weight:600;
+  font-size:.875rem;
+  padding:.75rem 1.5rem;
+  border-radius:9999px;
+  background:rgba(255,255,255,.015);
+  cursor:pointer;
+  transition:border-color .3s, background .3s, transform .3s cubic-bezier(.16,1,.3,1);
+}
+.btn-ghost:hover {
+  border-color:rgba(214,180,92,.85);
+  background:rgba(214,180,92,.09);
+  transform:translateY(-2px);
+}
+
+.btn-sm {
+  font-size:.75rem;
+  padding:.5rem 1rem;
+}
+
+/* ---- Nav ---- */
+.navlink {
+  position:relative;
+  font-weight:500;
+  transition:color .3s;
+}
+.navlink:hover { color:var(--brass); }
+.navlink::after {
+  content:'';
+  position:absolute;
+  left:0; bottom:-6px;
+  height:1.5px; width:100%;
+  background:linear-gradient(90deg,#E6CD85,#8E6A1B);
+  transform:scaleX(0);
+  transform-origin:right;
+  transition:transform .45s cubic-bezier(.16,1,.3,1);
+}
+.navlink:hover::after {
+  transform:scaleX(1);
+  transform-origin:left;
+}
+
+/* ---- Cards ---- */
+.card {
+  position:relative;
+  border:1px solid rgba(244,239,230,.07);
+  background:linear-gradient(160deg,rgba(28,28,32,.78) 0%,rgba(12,12,14,.92) 100%);
+  border-radius:16px;
+  transition:transform .5s cubic-bezier(.16,1,.3,1), border-color .4s, box-shadow .5s;
+  will-change:transform;
+}
+.card::before {
+  content:'';
+  position:absolute; inset:0; border-radius:16px;
+  pointer-events:none; opacity:0;
+  background:radial-gradient(420px circle at var(--mx,50%) var(--my,0%), rgba(214,180,92,.12), transparent 60%);
+  transition:opacity .4s ease;
+}
+.card:hover {
+  border-color:rgba(214,180,92,.35);
+  box-shadow:0 24px 50px -28px rgba(0,0,0,.9), 0 0 0 1px rgba(214,180,92,.06);
+  transform:translateY(-4px);
+}
+.card:hover::before { opacity:1; }
+
+.cmd-chip {
+  font-family:'JetBrains Mono',monospace;
+  font-size:.8125rem;
+  letter-spacing:-.02em;
+  color:#F3E3B6;
+  background:rgba(214,180,92,.08);
+  border:1px solid rgba(214,180,92,.2);
+  padding:.25rem .625rem;
+  border-radius:8px;
+  display:inline-block;
+}
+
+.card-in {
+  animation:cardIn .6s cubic-bezier(.16,1,.3,1) both;
+  animation-delay:var(--i,0ms);
+}
+@keyframes cardIn {
+  from { opacity:0; transform:translateY(18px) scale(.985); }
+  to { opacity:1; transform:none; }
+}
+
+/* ---- Filter Pills ---- */
+.pill {
+  border:1px solid rgba(244,239,230,.10);
+  color:#A9A296;
+  font-size:.8125rem;
+  font-weight:500;
+  padding:.5rem 1.125rem;
+  border-radius:9999px;
+  cursor:pointer;
+  background:transparent;
+  transition:all .3s cubic-bezier(.16,1,.3,1);
+  white-space:nowrap;
+}
+.pill:hover {
+  color:var(--bone);
+  border-color:rgba(214,180,92,.45);
+}
+.pill.active {
+  background:linear-gradient(135deg,#E6CD85,#B98F2C);
+  color:#14100A;
+  border-color:transparent;
+  font-weight:700;
+  box-shadow:0 4px 16px -4px rgba(198,158,64,.4);
+}
+
+/* ---- Marquee ---- */
+.marq {
+  display:flex;
+  width:max-content;
+  animation:marq 42s linear infinite;
+}
+.marq:hover { animation-play-state:paused; }
+@keyframes marq {
+  from { transform:translateX(0) }
+  to { transform:translateX(-50%) }
+}
+
+/* ---- Agent console ---- */
+.console {
+  background:linear-gradient(180deg,rgba(15,15,17,.96),rgba(8,8,9,.98));
+  border:1px solid rgba(214,180,92,.15);
+  border-radius:20px;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.04), 0 30px 60px -40px #000;
+}
+
+textarea:focus, input:focus, select:focus { outline:none; }
+
+.sel {
+  background:rgba(255,255,255,.03);
+  border:1px solid rgba(244,239,230,.12);
+  color:var(--bone);
+  border-radius:10px;
+  padding:.625rem .875rem;
+  font-size:.875rem;
+  transition:border-color .3s, background .3s;
+}
+.sel:hover, .sel:focus {
+  border-color:rgba(214,180,92,.5);
+}
+.sel option {
+  background:#101012;
+  color:#F4EFE6;
+}
+
+input[type=range] {
+  -webkit-appearance:none;
+  appearance:none;
+  width:100%;
+  height:3px;
+  background:rgba(214,180,92,.25);
+  border-radius:4px;
+}
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance:none;
+  width:18px; height:18px;
+  border-radius:50%;
+  background:linear-gradient(135deg,#F3E3B6,#B98F2C);
+  cursor:pointer;
+  box-shadow:0 0 0 5px rgba(214,180,92,.15);
+  border:2px solid rgba(10,10,11,.3);
+}
+input[type=range]::-moz-range-thumb {
+  width:18px; height:18px;
+  border:0; border-radius:50%;
+  background:linear-gradient(135deg,#F3E3B6,#B98F2C);
+  cursor:pointer;
+}
+
+.tray-item {
+  animation:trayIn .45s cubic-bezier(.16,1,.3,1) both;
+}
+@keyframes trayIn {
+  from { opacity:0; transform:translateX(-10px); }
+  to { opacity:1; transform:none; }
+}
+
+.caret::after {
+  content:'▌';
+  color:#D6B45C;
+  animation:blink 1s steps(2) infinite;
+}
+@keyframes blink {
+  50%{ opacity:0 }
+}
+
+/* Toast */
+#toast {
+  position:fixed;
+  z-index:120;
+  left:50%; bottom:32px;
+  transform:translate(-50%,140%);
+  transition:transform .6s cubic-bezier(.16,1,.3,1), opacity .4s;
+  opacity:0;
+  pointer-events:none;
+}
+#toast.show {
+  transform:translate(-50%,0);
+  opacity:1;
+  pointer-events:auto;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width:8px; }
+::-webkit-scrollbar-track { background:#08080A; }
+::-webkit-scrollbar-thumb {
+  background:#2A2419;
+  border-radius:20px;
+  border:1px solid rgba(214,180,92,.2);
+}
+::-webkit-scrollbar-thumb:hover { background:#3A3429; }
+
+/* Hero particle canvas */
+#heroCanvas {
+  position:absolute; inset:0;
+  pointer-events:none;
+  z-index:0;
+}
+
+/* Mobile nav */
+.mobile-menu {
+  position:fixed; inset:0; z-index:100;
+  background:rgba(10,10,11,.97);
+  backdrop-filter:blur(20px);
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:2rem;
+  transform:translateX(100%);
+  transition:transform .5s cubic-bezier(.16,1,.3,1);
+}
+.mobile-menu.open { transform:translateX(0); }
+.mobile-menu a {
+  font-family:'Fraunces',serif;
+  font-size:1.75rem;
+  color:var(--bone);
+  text-decoration:none;
+  transition:color .3s;
+}
+.mobile-menu a:hover { color:var(--brass); }
+
+/* Search input */
+.search-wrap {
+  position:relative;
+}
+.search-wrap svg {
+  position:absolute;
+  left:1rem; top:50%;
+  transform:translateY(-50%);
+  color:var(--ash);
+  pointer-events:none;
+}
+.search-wrap input {
+  width:100%;
+  padding:.75rem 1rem .75rem 2.75rem;
+  background:rgba(255,255,255,.03);
+  border:1px solid rgba(244,239,230,.10);
+  border-radius:12px;
+  color:var(--bone);
+  font-size:.875rem;
+  transition:border-color .3s, box-shadow .3s;
+}
+.search-wrap input::placeholder { color:#6B6560; }
+.search-wrap input:focus {
+  border-color:rgba(214,180,92,.5);
+  box-shadow:0 0 0 3px rgba(214,180,92,.08);
+}
+
+/* Category badge */
+.cat-badge {
+  font-size:.6875rem;
+  font-weight:600;
+  letter-spacing:.04em;
+  text-transform:uppercase;
+  padding:.25rem .625rem;
+  border-radius:6px;
+  display:inline-block;
+}
+.cat-writing { background:rgba(122,46,42,.15); color:#E8A09E; border:1px solid rgba(122,46,42,.3); }
+.cat-coding { background:rgba(46,91,79,.15); color:#8ECAB5; border:1px solid rgba(46,91,79,.3); }
+.cat-image { background:rgba(62,106,196,.15); color:#9AB8E8; border:1px solid rgba(62,106,196,.3); }
+.cat-analysis { background:rgba(165,127,34,.15); color:#E6CD85; border:1px solid rgba(165,127,34,.3); }
+.cat-creative { background:rgba(148,62,196,.15); color:#C99AE8; border:1px solid rgba(148,62,196,.3); }
+.cat-productivity { background:rgba(196,132,62,.15); color:#E8C59A; border:1px solid rgba(196,132,62,.3); }
+
+/* Copy button */
+.copy-btn {
+  position:absolute;
+  top:.75rem; right:.75rem;
+  background:rgba(10,10,11,.7);
+  border:1px solid rgba(214,180,92,.2);
+  color:var(--brass);
+  padding:.375rem .75rem;
+  border-radius:8px;
+  font-size:.75rem;
+  font-family:'JetBrains Mono',monospace;
+  cursor:pointer;
+  opacity:0;
+  transition:all .3s;
+}
+.card:hover .copy-btn { opacity:1; }
+.copy-btn:hover {
+  background:rgba(214,180,92,.15);
+  border-color:rgba(214,180,92,.5);
+}
+
+/* Compiled prompt */
+#compiledPrompt {
+  font-family:'JetBrains Mono',monospace;
+  font-size:.8125rem;
+  line-height:1.7;
+  white-space:pre-wrap;
+  word-break:break-word;
+}
+
+/* Glow orb */
+.glow-orb {
+  position:absolute;
+  border-radius:50%;
+  filter:blur(80px);
+  pointer-events:none;
+  animation:float 8s ease-in-out infinite;
+}
+@keyframes float {
+  0%,100% { transform:translateY(0) scale(1); }
+  50% { transform:translateY(-20px) scale(1.05); }
+}
+
+/* Stat counter */
+.stat-num {
+  font-family:'Fraunces',serif;
+  font-size:2.5rem;
+  font-weight:800;
+}
+
+/* Feedback stars */
+.star-btn {
+  cursor:pointer;
+  font-size:1.5rem;
+  transition:transform .2s, opacity .3s;
+  opacity:.3;
+}
+.star-btn:hover, .star-btn.active {
+  opacity:1;
+  transform:scale(1.2);
+}
+
+/* Modal */
+.modal-overlay {
+  position:fixed; inset:0; z-index:110;
+  background:rgba(10,10,11,.85);
+  backdrop-filter:blur(8px);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  opacity:0;
+  pointer-events:none;
+  transition:opacity .4s;
+}
+.modal-overlay.open { opacity:1; pointer-events:auto; }
+.modal-content {
+  background:linear-gradient(160deg,#1C1C20,#0F0F11);
+  border:1px solid rgba(214,180,92,.15);
+  border-radius:20px;
+  max-width:600px;
+  width:90%;
+  max-height:85vh;
+  overflow-y:auto;
+  transform:translateY(30px) scale(.95);
+  transition:transform .5s cubic-bezier(.16,1,.3,1);
+  padding:2rem;
+}
+.modal-overlay.open .modal-content {
+  transform:none;
+}
+
+/* Progress bar */
+.progress-bar {
+  height:4px;
+  border-radius:4px;
+  background:rgba(214,180,92,.12);
+  overflow:hidden;
+}
+.progress-fill {
+  height:100%;
+  border-radius:4px;
+  background:linear-gradient(90deg,#E6CD85,#A57F22);
+  transition:width .6s cubic-bezier(.16,1,.3,1);
+}
+
+/* Responsive */
+@media(max-width:768px) {
+  .stat-num { font-size:1.75rem; }
+  .hide-mobile { display:none!important; }
+}
+@media(min-width:769px) {
+  .hide-desktop { display:none!important; }
+}
+
+/* Selection color */
+::selection {
+  background:rgba(214,180,92,.3);
+  color:var(--bone);
+}
+</style>
 </head>
 <body>
 <div class="noise"></div>
-<div id="threeHero" aria-hidden="true"></div>
-<header class="siteHeader">
-  <a class="brand" href="#home">
-    <span class="brandMark">✦</span><span><b>GPT CODES</b><small>COMPLETE BUNDLE</small></span>
-  </a>
-  <nav class="desktopNav">
-    <a href="#home">Home</a><a href="#categories">Categories</a><a href="#library">Library</a><a href="#favorites">Favorites <em id="favCountNav">0</em></a><a href="#about">About</a>
-  </nav>
-  <div class="headerBrand"><img src="blackmark-logo-light.png" alt="BLACKMARK"></div>
-  <div class="headerActions"><button class="premiumBtn" onclick="openPremium()">★ Premium</button><button class="iconBtn menuBtn" onclick="toggleMobileMenu()">☰</button></div>
-  <nav id="mobileMenu" class="mobileMenu"><a href="#home" onclick="toggleMobileMenu()">Home</a><a href="#categories" onclick="toggleMobileMenu()">Categories</a><a href="#library" onclick="toggleMobileMenu()">Library</a><a href="#favorites" onclick="toggleMobileMenu()">Favorites</a><a href="#about" onclick="toggleMobileMenu()">About</a></nav>
-</header>
-<main>
-<section id="home" class="hero sectionPad">
-  <div class="heroContent">
-    <div class="eyebrow">THE BLACKMARK COMMAND ARCHIVE</div>
-    <h1>One library.<br><span>Every workflow.</span><br><sup>GPT CODES v4.0</sup></h1>
-    <p class="heroLead">A structured command system for image creation, writing, coding, debugging, research, learning, business, productivity, automation and more.</p>
-    <div class="heroStats"><div><strong id="heroCategoryCount">20</strong><span>Categories</span></div><div><strong id="heroCodeCount">0+</strong><span>Commands</span></div><div><strong id="heroSubCount">0+</strong><span>Subcategories</span></div></div>
-    <div class="heroActions"><a class="goldButton" href="#categories">Explore library <span>→</span></a><button class="ghostButton" onclick="openBuilder()">Build a command <span>＋</span></button></div>
+
+<!-- ===== NAV ===== -->
+<nav id="mainNav" class="fixed top-0 left-0 right-0 z-50 transition-all duration-500">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16 lg:h-20">
+      <!-- Logo -->
+      <a href="#" class="flex items-center gap-2.5 group">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-brass-300 to-brass-600 flex items-center justify-center text-ink font-bold text-sm font-mono shadow-lg shadow-brass-500/20">⌘</div>
+        <span class="font-display font-bold text-lg tracking-tight text-bone group-hover:text-brass-300 transition-colors">ChatGotCodes</span>
+      </a>
+      <!-- Desktop Nav -->
+      <div class="hidden lg:flex items-center gap-8">
+        <a href="#codes" class="navlink text-sm text-bone/80">Codex</a>
+        <a href="#categories" class="navlink text-sm text-bone/80">Categories</a>
+        <a href="#agent" class="navlink text-sm text-bone/80">Prompt Agent</a>
+        <a href="#community" class="navlink text-sm text-bone/80">Community</a>
+        <a href="#agent" class="btn-brass btn-sm rounded-xl">Open Agent</a>
+      </div>
+      <!-- Mobile toggle -->
+      <button id="menuToggle" class="lg:hidden text-bone p-2" aria-label="Open menu">
+        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div id="mobileMenu" class="mobile-menu">
+  <button id="menuClose" class="absolute top-5 right-5 text-bone p-2" aria-label="Close menu">
+    <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+  </button>
+  <a href="#codes" onclick="closeMobile()">Codex</a>
+  <a href="#categories" onclick="closeMobile()">Categories</a>
+  <a href="#agent" onclick="closeMobile()">Prompt Agent</a>
+  <a href="#community" onclick="closeMobile()">Community</a>
+  <a href="#agent" class="btn-brass mt-4" onclick="closeMobile()">Open Agent</a>
+</div>
+
+<!-- ===== HERO ===== -->
+<section id="hero" class="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+  <!-- Background orbs -->
+  <div class="glow-orb w-[500px] h-[500px] bg-brass-400/10 top-[-10%] right-[-5%]"></div>
+  <div class="glow-orb w-[400px] h-[400px] bg-oxblood/10 bottom-[-5%] left-[-5%]" style="animation-delay:-3s"></div>
+  <div class="glow-orb w-[300px] h-[300px] bg-jade/8 top-[40%] left-[30%]" style="animation-delay:-6s"></div>
+
+  <canvas id="heroCanvas"></canvas>
+
+  <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-center">
+    <!-- Eyebrow -->
+    <div class="rv mb-6" style="--d:0ms">
+      <span class="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-brass-300/70 bg-brass-400/5 border border-brass-400/10 rounded-full px-4 py-1.5">
+        <span class="w-1.5 h-1.5 rounded-full bg-brass-400 animate-pulse"></span>
+        Over 1,000 prompt codes curated
+      </span>
+    </div>
+
+    <!-- Main Heading -->
+    <h1 class="rv font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-6" style="--d:100ms">
+      <span class="kin" style="--d:.15s"><span>The Sovereign</span></span><br />
+      <span class="kin" style="--d:.35s"><span class="brass-text">Codex of Prompt Craft</span></span>
+    </h1>
+
+    <!-- Subheading -->
+    <p class="rv text-lg sm:text-xl text-bone/60 max-w-2xl mx-auto mb-8 font-light leading-relaxed" style="--d:250ms">
+      A masterfully curated collection of ChatGPT codes — <code class="cmd-chip text-xs">/hdreal</code>, <code class="cmd-chip text-xs">/ghostquill</code>, <code class="cmd-chip text-xs">/codexpro</code> and hundreds more. Filter, compile, and deploy with surgical precision.
+    </p>
+
+    <!-- CTA Buttons -->
+    <div class="rv flex flex-col sm:flex-row items-center justify-center gap-4 mb-12" style="--d:400ms">
+      <a href="#codes" class="btn-brass text-base px-8 py-3.5 rounded-2xl flex items-center gap-2">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 6l7-4 7 4-7 4-7-4zM2 12l7 4 7-4M2 9l7 4 7-4"/></svg>
+        Explore Codex
+      </a>
+      <a href="#agent" class="btn-ghost text-base px-8 py-3.5 rounded-2xl flex items-center gap-2">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="9" r="7"/><path d="M9 6v6M6 9h6"/></svg>
+        Launch Prompt Agent
+      </a>
+    </div>
+
+    <!-- Stats -->
+    <div class="rv grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-3xl mx-auto" style="--d:550ms">
+      <div class="text-center">
+        <div class="stat-num brass-text">1,247</div>
+        <div class="text-xs text-ash mt-1 uppercase tracking-wider">Prompt Codes</div>
+      </div>
+      <div class="text-center">
+        <div class="stat-num brass-text">12</div>
+        <div class="text-xs text-ash mt-1 uppercase tracking-wider">Categories</div>
+      </div>
+      <div class="text-center">
+        <div class="stat-num brass-text">48</div>
+        <div class="text-xs text-ash mt-1 uppercase tracking-wider">Subcategories</div>
+      </div>
+      <div class="text-center">
+        <div class="stat-num brass-text">24K+</div>
+        <div class="text-xs text-ash mt-1 uppercase tracking-wider">Community</div>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="rv mt-16 flex flex-col items-center" style="--d:700ms">
+      <div class="w-5 h-8 rounded-full border-2 border-brass-400/30 flex items-start justify-center p-1">
+        <div class="w-1 h-2 rounded-full bg-brass-400 animate-bounce"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MARQUEE ===== -->
+<section class="relative z-10 py-6 overflow-hidden border-y border-brass-400/5">
+  <div class="marq text-sm text-ash/40 font-mono tracking-wider uppercase whitespace-nowrap gap-12">
+    <span>/hdreal</span><span class="mx-6">✦</span>
+    <span>/ghostquill</span><span class="mx-6">✦</span>
+    <span>/codexpro</span><span class="mx-6">✦</span>
+    <span>/deepthink</span><span class="mx-6">✦</span>
+    <span>/vividcraft</span><span class="mx-6">✦</span>
+    <span>/debugai</span><span class="mx-6">✦</span>
+    <span>/promptsmith</span><span class="mx-6">✦</span>
+    <span>/datavault</span><span class="mx-6">✦</span>
+    <span>/storyweave</span><span class="mx-6">✦</span>
+    <span>/codeforge</span><span class="mx-6">✦</span>
+    <span>/pixelmage</span><span class="mx-6">✦</span>
+    <span>/analytica</span><span class="mx-6">✦</span>
+    <span>/hdreal</span><span class="mx-6">✦</span>
+    <span>/ghostquill</span><span class="mx-6">✦</span>
+    <span>/codexpro</span><span class="mx-6">✦</span>
+    <span>/deepthink</span><span class="mx-6">✦</span>
+    <span>/vividcraft</span><span class="mx-6">✦</span>
+    <span>/debugai</span><span class="mx-6">✦</span>
+    <span>/promptsmith</span><span class="mx-6">✦</span>
+    <span>/datavault</span><span class="mx-6">✦</span>
+    <span>/storyweave</span><span class="mx-6">✦</span>
+    <span>/codeforge</span><span class="mx-6">✦</span>
+    <span>/pixelmage</span><span class="mx-6">✦</span>
+    <span>/analytica</span><span class="mx-6">✦</span>
+  </div>
+</section>
+
+<!-- ===== CODEX (CODE CARDS) ===== -->
+<section id="codes" class="relative z-10 py-20 lg:py-28">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Section header -->
+    <div class="rv text-center mb-12" style="--d:0ms">
+      <span class="text-xs font-semibold uppercase tracking-widest text-brass-300/60 mb-3 block">The Collection</span>
+      <h2 class="font-display text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">The Sovereign <span class="brass-text">Codex</span></h2>
+      <p class="text-bone/50 max-w-xl mx-auto">Browse, search, and instantly copy any of the curated prompt codes. Click the code card to copy its content to your clipboard.</p>
+    </div>
+
+    <!-- Search & Filters -->
+    <div class="rv mb-10 space-y-6" style="--d:100ms">
+      <div class="search-wrap max-w-xl mx-auto">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="8" cy="8" r="6"/><path d="M14 14l-3-3"/></svg>
+        <input id="searchInput" type="text" placeholder="Search codes by name, command, or description..." />
+      </div>
+
+      <!-- Category filters -->
+      <div id="filterPills" class="flex flex-wrap justify-center gap-2">
+        <button class="pill active" data-cat="all">All Codes</button>
+        <button class="pill" data-cat="writing">✍ Writing</button>
+        <button class="pill" data-cat="coding">💻 Coding</button>
+        <button class="pill" data-cat="image">🎨 Image Gen</button>
+        <button class="pill" data-cat="analysis">📊 Analysis</button>
+        <button class="pill" data-cat="creative">🎭 Creative</button>
+        <button class="pill" data-cat="productivity">⚡ Productivity</button>
+      </div>
+
+      <!-- Subcategory filters -->
+      <div id="subFilterPills" class="flex flex-wrap justify-center gap-2">
+        <!-- Populated dynamically -->
+      </div>
+    </div>
+
+    <!-- Code Grid -->
+    <div id="codeGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <!-- Populated by JS -->
+    </div>
+
+    <!-- Load More -->
+    <div class="text-center mt-12">
+      <button id="loadMore" class="btn-ghost btn-sm rounded-xl px-8">
+        Load More Codes
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== RULE DIVIDER ===== -->
+<div class="rule max-w-5xl mx-auto"></div>
+
+<!-- ===== CATEGORIES SECTION ===== -->
+<section id="categories" class="relative z-10 py-20 lg:py-28">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="rv text-center mb-14" style="--d:0ms">
+      <span class="text-xs font-semibold uppercase tracking-widest text-brass-300/60 mb-3 block">Browse By</span>
+      <h2 class="font-display text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">Curated <span class="brass-text">Categories</span></h2>
+      <p class="text-bone/50 max-w-xl mx-auto">Dive deep into specialized domains. Each category houses expertly crafted prompt codes for that discipline.</p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <!-- Category Cards -->
+      <div class="rv card p-6 cursor-pointer group" style="--d:50ms" onclick="filterByCategory('writing')">
+        <div class="flex items-start gap-4 mb-4">
+          <div class="w-12 h-12 rounded-xl bg-oxblood/15 border border-oxblood/25 flex items-center justify-center text-2xl flex-shrink-0">✍</div>
+          <div>
+            <h3 class="font-display font-bold text-lg text-bone group-hover:text-brass-300 transition-colors">Writing & Prose</h3>
+            <span class="cat-badge cat-writing mt-1">184 codes</span>
+          </div>
+        </div>
+        <p class="text-sm text-bone/50 leading-relaxed mb-3">Ghostwriting, storytelling, academic papers, creative fiction, and literary mastery.</p>
+        <div class="flex flex-wrap gap-1.5">
+          <span class="text-xs text-ash bg-white/[.03] px-2 py-0.5 rounded-md">Fiction</span>
+          <span class="text-xs text-ash bg-white/[.03] px-2 py-0.5 rounded-md">Non-fiction</span>
+          <span class="text-xs text-ash bg-white/[.03] px-2 py-0.5 rounded-md">Academic</span>
+          <span class="text-xs text-ash bg-white/[.03] px-2 py-0.5 rounded-md">Copywriting</span>
+        </div>
+      </div>
+
+      <div class="rv card p-6 cursor-pointer group" style="--d:100ms" onclick="filterByCategory('coding')">
+        <div class="flex items-start gap-4 mb-4">
+          <div class="w-12 h-12 rounded-xl bg-jade/15 border border-jade/25 flex items-center justify-center text-2xl flex-shrink-0">💻</div>
+          <div>
+            <h3 class="font-display font-bold text-lg text-bone group-hover:text-brass-300 transition-colors">Coding & Dev</h3>
+            <span class="cat-badge cat-coding mt-1">237 codes</span>
+          </div>
+        </div>
+        <p class="text-sm text-bone/50 leading-relaxed mb-3">Full-stack development, debugging, code review, architecture design, and DevOps.</p>
+        <div class="flex flex-wrap gap-1.5">
+          <span class="text-xs text-ash bg-white/[.03] px-2 py-0.5 rounded-md">Frontend</span>
+          <span class="text-xs text-ash bg-white/[.03] px-2 py-0.5 rounded-md">Backend</span>
+          <span class="text-xs text-ash bg-white/[.03] px-2 py-0.5 rounded-md">DevOps</span>
+          <span class="text-xs text-ash bg-white/[.03] px-2 py-0.5 rounded-md">Debugging</span>
+        </div>
+      </div>
+
+      <div class="rv card p-6 cursor-pointer group" style="--d:150ms" onclick="filterByCategory('image')">
+        <div class="flex items-start gap-4 mb-4">
+          <div class="w-12 h-12 rounded-xl bg-sapphire/15 border border-sapphire/25 flex items-center justify-center text-2xl flex-shrink-0">🎨</div>
+          <div>
+            <h3 class="font-display font-bold text-lg text-bone group-hover:text-brass-300 transition-colors">Image Generation</h3>
+            <span class="cat-badge cat-image mt-1">156 codes</span>
+          </div>
+        </div>
+        <p class="text-sm text-bone/50 leading-relaxed mb-3">DALL·E prompts, Midjourney styles, photorealistic scenes, and artistic compositions.</p>
+        <div class="flex flex-wrap gap-1.5">
+          <span class="text-xs text-ash bg-white/[.03] px-2 py-0.5 rounded-md">Photorealism</span>
+          <span class="text-xs text-ash bg-white/[.03] px-2 py-0.5 rounded-md">Illustration</span>
+          <span class="text-xs text-ash bg-white/[.03] px-2 py-0.5 rounded-md">UI Design</span>
+        </div>
+      </div>
+
+      <div class="rv card p-6 cursor-pointer group" style="--d:200ms" onclick="filterByCategory('analysis')">
+        <div class="flex items-start gap-4 mb-4">
+          <div class="w-12 h-12 rounded-xl bg-brass-400/15 border border-brass-400/25 flex items-center justify-center text-2xl flex-shrink-0">📊</div>
+          <div>
+            <h3 class="font-display font-bold text-lg text-bone group-hover:text-brass-300 transition-colors">Data & Analysis</h3>
+            <span class="cat-badge cat-analysis mt-1">198 codes</span>
+          </div>
+        </div>
+        <p class="text-sm text-bone/50 leading-relaxed mb-3">Data interpretation, research synthesis, statistical modeling, and report generation.</p>
+        <div class="flex flex-wrap gap-1.5">
+          <span class="text-xs text-ash bg-white/[.03] px-2 py-0.5 rounded-md">Research</span>
+          <span class="text-xs text-ash bg-white/[.03] px-2 py-0.5 rounded-md">Statistics</span>
+          <span class="text-xs text-ash bg-white/[.03] px-2 py-0.5 rounded-md">Visualization</span>
+        </div>
+      </div>
+
+      <div class="rv card p-6 cursor-pointer group" style="--d:250ms" onclick="filterByCategory('creative')">
+        <div class="flex items-start gap-4 mb-4">
+          <div class="w-12 h-12 rounded-xl bg-purple-500/15 border border-purple-500/25 flex items-center justify-center text-2xl flex-shrink-0">🎭</div>
+          <div>
+            <h3 class="font-display font-bold text-lg text-bone group-hover:text-brass-300 transition-colors">Creative Arts</h3>
+            <span class="cat-badge cat-creative mt-1">142 codes</span>
+          </div>
+        </div>
+        <p class="text-sm text-bone/50 leading-relaxed mb-3">Music composition, game design, worldbuilding, character creation, and storytelling.</p>
+        <div class="flex flex-wrap gap-1.5">
+          <span class="text-xs text-ash bg-white/[.03] px-2 py-0.5 rounded-md">Worldbuilding</span>
+          <span class="text-xs text-ash bg-white/[.03] px-2 py-0.5 rounded-md">Game Design</span>
+          <span class="text-xs text-ash bg-white/[.03] px-2 py-0.5 rounded-md">Music</span>
+        </div>
+      </div>
+
+      <div class="rv card p-6 cursor-pointer group" style="--d:300ms" onclick="filterByCategory('productivity')">
+        <div class="flex items-start gap-4 mb-4">
+          <div class="w-12 h-12 rounded-xl bg-amber-500/15 border border-amber-500/25 flex items-center justify-center text-2xl flex-shrink-0">⚡</div>
+          <div>
+            <h3 class="font-display font-bold text-lg text-bone group-hover:text-brass-300 transition-colors">Productivity</h3>
+            <span class="cat-badge cat-productivity mt-1">330 codes</span>
+          </div>
+        </div>
+        <p class="text-sm text-bone/50 leading-relaxed mb-3">Email drafting, meeting summaries, task planning, automation scripts, and workflow hacks.</p>
+        <div class="flex flex-wrap gap-1.5">
+          <span class="text-xs text-ash bg-white/[.03] px-2 py-0.5 rounded-md">Email</span>
+          <span class="text-xs text-ash bg-white/[.03] px-2 py-0.5 rounded-md">Planning</span>
+          <span class="text-xs text-ash bg-white/[.03] px-2 py-0.5 rounded-md">Automation</span>
+          <span class="text-xs text-ash bg-white/[.03] px-2 py-0.5 rounded-md">Summarization</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== RULE DIVIDER ===== -->
+<div class="rule max-w-5xl mx-auto"></div>
+
+<!-- ===== PROMPT AGENT ===== -->
+<section id="agent" class="relative z-10 py-20 lg:py-28">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="rv text-center mb-14" style="--d:0ms">
+      <span class="text-xs font-semibold uppercase tracking-widest text-brass-300/60 mb-3 block">Power Tool</span>
+      <h2 class="font-display text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">The <span class="brass-text">Prompt Agent</span></h2>
+      <p class="text-bone/50 max-w-xl mx-auto">Compile multiple codes into a single master prompt. Select codes, adjust settings, and copy your compiled prompt in one click.</p>
+    </div>
+
+    <div class="console p-6 sm:p-8 lg:p-10">
+      <div class="grid lg:grid-cols-2 gap-8">
+        <!-- Left: Config -->
+        <div class="space-y-6">
+          <!-- Code selector -->
+          <div>
+            <label class="block text-sm font-semibold text-bone/70 mb-2">Select Codes to Compile</label>
+            <div id="agentCodeList" class="space-y-2 max-h-64 overflow-y-auto pr-2">
+              <!-- Populated by JS -->
+            </div>
+          </div>
+
+          <!-- Custom instruction -->
+          <div>
+            <label class="block text-sm font-semibold text-bone/70 mb-2">Custom Instruction Prefix</label>
+            <textarea id="customPrefix" rows="3" class="sel w-full resize-none text-sm" placeholder="e.g., Act as a world-class expert. Combine the following codes for maximum effectiveness..."></textarea>
+          </div>
+
+          <!-- Tone selector -->
+          <div>
+            <label class="block text-sm font-semibold text-bone/70 mb-2">Response Tone</label>
+            <select id="toneSelect" class="sel w-full text-sm">
+              <option value="professional">Professional & Formal</option>
+              <option value="casual">Casual & Conversational</option>
+              <option value="creative">Creative & Expressive</option>
+              <option value="technical">Technical & Precise</option>
+              <option value="minimal">Minimal & Concise</option>
+            </select>
+          </div>
+
+          <!-- Detail slider -->
+          <div>
+            <label class="block text-sm font-semibold text-bone/70 mb-2">
+              Detail Level: <span id="detailVal" class="text-brass-300">7</span>/10
+            </label>
+            <input id="detailRange" type="range" min="1" max="10" value="7" />
+          </div>
+
+          <!-- Compile button -->
+          <button onclick="compilePrompt()" class="btn-brass w-full py-3.5 rounded-xl text-base flex items-center justify-center gap-2">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h6l-1 4 10-12h-6l1-4z"/></svg>
+            Compile Master Prompt
+          </button>
+        </div>
+
+        <!-- Right: Output -->
+        <div class="space-y-4">
+          <div class="flex items-center justify-between">
+            <label class="text-sm font-semibold text-bone/70">Compiled Output</label>
+            <div class="flex gap-2">
+              <button onclick="copyCompiled()" class="btn-ghost btn-sm rounded-lg flex items-center gap-1.5 text-xs">
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="8" height="10" rx="1"/><path d="M3 5H1V14h8v-2"/></svg>
+                Copy
+              </button>
+              <button onclick="clearCompiled()" class="btn-ghost btn-sm rounded-lg text-xs">Clear</button>
+            </div>
+          </div>
+          <div id="compiledOutput" class="relative bg-ink/80 border border-brass-400/10 rounded-xl p-4 min-h-[350px] max-h-[500px] overflow-y-auto">
+            <pre id="compiledPrompt" class="text-bone/60 text-sm leading-relaxed"><span class="text-ash/40 italic">Your compiled prompt will appear here...</span></pre>
+          </div>
+
+          <!-- Tray: selected codes -->
+          <div>
+            <label class="text-sm font-semibold text-bone/70 mb-2 block">Selected Codes (<span id="selectedCount">0</span>)</label>
+            <div id="selectedTray" class="flex flex-wrap gap-2 min-h-[40px]">
+              <span class="text-xs text-ash/40 italic" id="noCodesMsg">No codes selected yet</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== RULE DIVIDER ===== -->
+<div class="rule max-w-5xl mx-auto"></div>
+
+<!-- ===== COMMUNITY ===== -->
+<section id="community" class="relative z-10 py-20 lg:py-28">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="rv text-center mb-14" style="--d:0ms">
+      <span class="text-xs font-semibold uppercase tracking-widest text-brass-300/60 mb-3 block">Join The Movement</span>
+      <h2 class="font-display text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">The <span class="brass-text">Community</span></h2>
+      <p class="text-bone/50 max-w-xl mx-auto">Thousands of prompt engineers sharing, refining, and pushing the boundaries of AI communication.</p>
+    </div>
+
+    <!-- Featured contributors -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mb-14">
+      <div class="rv card p-6 text-center" style="--d:50ms">
+        <div class="w-16 h-16 rounded-full bg-gradient-to-br from-brass-300 to-brass-600 mx-auto mb-4 flex items-center justify-center text-ink font-display font-bold text-xl">A</div>
+        <h4 class="font-display font-bold text-lg mb-1">Archer_V</h4>
+        <p class="text-xs text-brass-300/60 mb-3">Top Contributor · 342 codes</p>
+        <p class="text-sm text-bone/50">"The precision of these codes transformed my entire workflow. The Prompt Agent is a game-changer."</p>
+        <div class="flex justify-center gap-1 mt-3">
+          <span class="star-btn active">★</span>
+          <span class="star-btn active">★</span>
+          <span class="star-btn active">★</span>
+          <span class="star-btn active">★</span>
+          <span class="star-btn active">★</span>
+        </div>
+      </div>
+
+      <div class="rv card p-6 text-center" style="--d:100ms">
+        <div class="w-16 h-16 rounded-full bg-gradient-to-br from-jade to-green-800 mx-auto mb-4 flex items-center justify-center text-bone font-display font-bold text-xl">S</div>
+        <h4 class="font-display font-bold text-lg mb-1">SynthMistress</h4>
+        <p class="text-xs text-brass-300/60 mb-3">Code Architect · 218 codes</p>
+        <p class="text-sm text-bone/50">"Building on this codex has accelerated my creative process tenfold. Every prompt engineer needs this."</p>
+        <div class="flex justify-center gap-1 mt-3">
+          <span class="star-btn active">★</span>
+          <span class="star-btn active">★</span>
+          <span class="star-btn active">★</span>
+          <span class="star-btn active">★</span>
+          <span class="star-btn active">★</span>
+        </div>
+      </div>
+
+      <div class="rv card p-6 text-center" style="--d:150ms">
+        <div class="w-16 h-16 rounded-full bg-gradient-to-br from-oxblood to-red-900 mx-auto mb-4 flex items-center justify-center text-bone font-display font-bold text-xl">K</div>
+        <h4 class="font-display font-bold text-lg mb-1">KodeNinja</h4>
+        <p class="text-xs text-brass-300/60 mb-3">Debug Specialist · 167 codes</p>
+        <p class="text-sm text-bone/50">"The coding codes here are unmatched. I debug 3x faster and write cleaner code from the start."</p>
+        <div class="flex justify-center gap-1 mt-3">
+          <span class="star-btn active">★</span>
+          <span class="star-btn active">★</span>
+          <span class="star-btn active">★</span>
+          <span class="star-btn active">★</span>
+          <span class="star-btn">★</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Newsletter -->
+    <div class="rv console p-8 sm:p-10 text-center max-w-2xl mx-auto" style="--d:200ms">
+      <h3 class="font-display text-2xl font-bold mb-3">Stay in the Loop</h3>
+      <p class="text-sm text-bone/50 mb-6">Get weekly updates on new codes, community highlights, and prompt engineering insights.</p>
+      <form onsubmit="handleSubscribe(event)" class="flex flex-col sm:flex-row gap-3">
+        <input type="email" id="emailInput" placeholder="your@email.com" class="sel flex-1 text-sm" required />
+        <button type="submit" class="btn-brass btn-sm rounded-xl whitespace-nowrap">Subscribe</button>
+      </form>
+      <p class="text-xs text-ash/40 mt-3">No spam. Unsubscribe anytime. 24,000+ prompt engineers trust us.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="relative z-10 border-t border-brass-400/5 py-16">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
+      <!-- Brand -->
+      <div class="md:col-span-1">
+        <div class="flex items-center gap-2.5 mb-4">
+          <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-brass-300 to-brass-600 flex items-center justify-center text-ink font-bold text-xs font-mono">⌘</div>
+          <span class="font-display font-bold text-lg tracking-tight">ChatGotCodes</span>
+        </div>
+        <p class="text-sm text-bone/40 leading-relaxed">The sovereign codex for prompt engineers. Curated, organized, and ready to deploy.</p>
+      </div>
+      <!-- Links -->
+      <div>
+        <h4 class="font-display font-bold text-sm text-bone/70 mb-4 uppercase tracking-wider">Codex</h4>
+        <ul class="space-y-2.5">
+          <li><a href="#codes" class="text-sm text-bone/40 hover:text-brass-300 transition-colors">All Codes</a></li>
+          <li><a href="#categories" class="text-sm text-bone/40 hover:text-brass-300 transition-colors">Categories</a></li>
+          <li><a href="#" class="text-sm text-bone/40 hover:text-brass-300 transition-colors">New Arrivals</a></li>
+          <li><a href="#" class="text-sm text-bone/40 hover:text-brass-300 transition-colors">Most Popular</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-display font-bold text-sm text-bone/70 mb-4 uppercase tracking-wider">Tools</h4>
+        <ul class="space-y-2.5">
+          <li><a href="#agent" class="text-sm text-bone/40 hover:text-brass-300 transition-colors">Prompt Agent</a></li>
+          <li><a href="#" class="text-sm text-bone/40 hover:text-brass-300 transition-colors">Code Builder</a></li>
+          <li><a href="#" class="text-sm text-bone/40 hover:text-brass-300 transition-colors">Templates</a></li>
+          <li><a href="#" class="text-sm text-bone/40 hover:text-brass-300 transition-colors">API Access</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-display font-bold text-sm text-bone/70 mb-4 uppercase tracking-wider">Community</h4>
+        <ul class="space-y-2.5">
+          <li><a href="#" class="text-sm text-bone/40 hover:text-brass-300 transition-colors">Discord</a></li>
+          <li><a href="#" class="text-sm text-bone/40 hover:text-brass-300 transition-colors">Twitter / X</a></li>
+          <li><a href="#" class="text-sm text-bone/40 hover:text-brass-300 transition-colors">GitHub</a></li>
+          <li><a href="#" class="text-sm text-bone/40 hover:text-brass-300 transition-colors">Contribute</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="rule mb-6"></div>
+    <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+      <p class="text-xs text-ash/40">© 2024 ChatGotCodes. All rights reserved.</p>
+      <div class="flex items-center gap-6">
+        <a href="#" class="text-xs text-ash/40 hover:text-brass-300 transition-colors">Privacy</a>
+        <a href="#" class="text-xs text-ash/40 hover:text-brass-300 transition-colors">Terms</a>
+        <a href="#" class="text-xs text-ash/40 hover:text-brass-300 transition-colors">License</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== TOAST ===== -->
+<div id="toast" class="bg-ink3 border border-brass-400/20 rounded-xl px-5 py-3 flex items-center gap-3 shadow-2xl">
+  <svg class="text-brass-300 flex-shrink-0" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="9" r="7"/><path d="M6 9l2 2 4-4"/></svg>
+  <span id="toastMsg" class="text-sm text-bone/80">Copied to clipboard!</span>
+</div>
+
+<!-- ===== CODE DETAIL MODAL ===== -->
+<div id="codeModal" class="modal-overlay" onclick="if(event.target===this)closeModal()">
+  <div class="modal-content">
+    <div class="flex items-start justify-between mb-4">
+      <div>
+        <span id="modalBadge" class="cat-badge mb-2 inline-block">Writing</span>
+        <h3 id="modalTitle" class="font-display text-2xl font-bold"></h3>
+        <p id="modalCmd" class="cmd-chip mt-2 text-sm"></p>
+      </div>
+      <button onclick="closeModal()" class="text-bone/40 hover:text-bone transition-colors p-1">
+        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <div class="rule mb-4"></div>
+    <p id="modalDesc" class="text-bone/60 text-sm mb-4"></p>
+    <div class="mb-4">
+      <label class="text-xs font-semibold text-bone/50 uppercase tracking-wider mb-2 block">Full Prompt Code</label>
+      <pre id="modalCode" class="bg-ink/70 border border-brass-400/10 rounded-xl p-4 text-sm text-bone/70 overflow-x-auto leading-relaxed font-mono"></pre>
+    </div>
+    <div class="flex gap-3">
+      <button onclick="copyModalCode()" class="btn-brass btn-sm rounded-xl flex items-center gap-1.5">
+        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="8" height="10" rx="1"/><path d="M3 5H1V14h8v-2"/></svg>
+        Copy Code
+      </button>
+      <button onclick="addFromModal()" class="btn-ghost btn-sm rounded-xl">Add to Agent</button>
+    </div>
+  </div>
+</div>
+
+<!-- ===== JAVASCRIPT ===== -->
+<script>
+// ==================== DATA ====================
+const codeDatabase = [
+  {
+    id: 1, cmd: '/hdreal', name: 'Hyper-Realistic Output',
+    cat: 'writing', sub: 'Non-fiction',
+    desc: 'Generates responses with extreme realism and factual grounding. Perfect for research-backed content, technical documentation, and high-stakes writing where accuracy is paramount.',
+    code: 'Activate /hdreal mode. In this mode, you will provide hyper-realistic, factually grounded responses. Cross-reference claims, cite sources where possible, and flag any uncertainty. Prioritize accuracy over creativity. When presenting data, include methodology notes. For speculative content, clearly label assumptions. Never hallucinate facts — if unsure, state the confidence level.',
+    popular: true
+  },
+  {
+    id: 2, cmd: '/ghostquill', name: 'Ghostwriting Engine',
+    cat: 'writing', sub: 'Fiction',
+    desc: 'Transforms ChatGPT into a skilled ghostwriter that adapts to any author\'s voice, tone, and stylistic fingerprint for seamless content creation.',
+    code: 'Activate /ghostquill mode. You are now a world-class ghostwriter. Before writing, analyze the target audience, desired tone, and stylistic references provided. Mirror the voice authentically — adjust vocabulary complexity, sentence rhythm, and rhetorical devices accordingly. Never reveal the AI origin of the content. Produce publication-ready prose that reads as if written by a human expert in the specified field.',
+    popular: true
+  },
+  {
+    id: 3, cmd: '/codexpro', name: 'Code Expert Mode',
+    cat: 'coding', sub: 'Full-Stack',
+    desc: 'Activates an expert-level coding assistant with deep knowledge of best practices, design patterns, and production-grade architecture.',
+    code: 'Activate /codexpro mode. You are now a senior full-stack engineer with 15+ years of experience. Provide production-ready code with: proper error handling, type safety, performance optimizations, security considerations, and comprehensive comments. Follow language-specific conventions (PEP8, ESLint, etc.). When building features, consider scalability, accessibility, and testing. Offer architectural guidance alongside code solutions.',
+    popular: true
+  },
+  {
+    id: 4, cmd: '/deepthink', name: 'Deep Reasoning Chain',
+    cat: 'analysis', sub: 'Research',
+    desc: 'Engages multi-step reasoning with structured analysis. Ideal for complex problem-solving, research synthesis, and strategic planning.',
+    code: 'Activate /deepthink mode. Approach every problem with structured, multi-step reasoning. Break complex questions into components. For each component: state your understanding, list assumptions, explore multiple angles, weigh evidence, and arrive at a conclusion. Use frameworks like First Principles, SWOT, or Systems Thinking as appropriate. Show your reasoning chain explicitly. When uncertain, present a probability-weighted analysis of competing hypotheses.',
+    popular: false
+  },
+  {
+    id: 5, cmd: '/vividcraft', name: 'Vivid Scene Painter',
+    cat: 'creative', sub: 'Worldbuilding',
+    desc: 'Produces richly detailed, sensory-driven creative writing with immersive descriptions that bring scenes to life.',
+    code: 'Activate /vividcraft mode. You are a master storyteller specializing in immersive scene construction. Engage all five senses in descriptions. Use precise, evocative language — avoid clichés. Build atmosphere through environmental details, micro-actions, and emotional undercurrents. Vary sentence length for rhythm. Employ literary techniques: synecdoche, pathetic fallacy, and foreshadowing. Make the reader feel present in the scene.',
+    popular: false
+  },
+  {
+    id: 6, cmd: '/debugai', name: 'Intelligent Debugger',
+    cat: 'coding', sub: 'Debugging',
+    desc: 'Systematic debugging assistant that traces issues through code, identifies root causes, and provides minimal fix solutions.',
+    code: 'Activate /debugai mode. You are an expert debugging specialist. When analyzing code issues: 1) Reproduce the problem mentally 2) Trace execution flow 3) Identify the root cause (not just symptoms) 4) Provide the minimal fix 5) Explain why the bug occurred 6) Suggest preventive measures. Use binary search debugging for large codebases. Always check common pitfalls first: off-by-one errors, null references, async race conditions, and type mismatches.',
+    popular: true
+  },
+  {
+    id: 7, cmd: '/promptsmith', name: 'Prompt Optimization',
+    cat: 'productivity', sub: 'Automation',
+    desc: 'Meta-prompt that optimizes and refines other prompts for maximum effectiveness, clarity, and output quality.',
+    code: 'Activate /promptsmith mode. You are a prompt engineering expert. When given a prompt, optimize it by: 1) Clarifying the objective 2) Adding specific constraints 3) Including output format specifications 4) Adding relevant examples (few-shot) 5) Setting tone and role parameters 6) Building in quality checks. Provide the optimized version with annotations explaining each improvement. Rate the original and optimized prompts on a 1-10 effectiveness scale.',
+    popular: false
+  },
+  {
+    id: 8, cmd: '/datavault', name: 'Data Analysis Suite',
+    cat: 'analysis', sub: 'Statistics',
+    desc: 'Comprehensive data analysis mode with statistical rigor, visualization recommendations, and insight extraction.',
+    code: 'Activate /datavault mode. You are a senior data scientist. When analyzing data: describe distributions, identify outliers, test hypotheses with appropriate statistical methods, calculate confidence intervals, and suggest visualizations. Use both descriptive and inferential statistics. For large datasets, recommend sampling strategies. Always state assumptions and limitations. Present findings in executive-summary format with supporting technical details.',
+    popular: false
+  },
+  {
+    id: 9, cmd: '/storyweave', name: 'Narrative Architecture',
+    cat: 'creative', sub: 'Worldbuilding',
+    desc: 'Advanced narrative construction tool for building complex story arcs, character development, and plot structures.',
+    code: 'Activate /storyweave mode. You are a narrative architect with expertise in story structure. Build narratives using: three-act structure, the Hero\'s Journey, or non-linear frameworks as specified. Develop characters with: clear motivations, internal conflicts, growth arcs, and distinct voices. Plant foreshadowing and Chekhov\'s guns intentionally. Balance pacing between action, reflection, and revelation. Every scene must serve: plot advancement, character development, or thematic exploration.',
+    popular: true
+  },
+  {
+    id: 10, cmd: '/codeforge', name: 'Code Generation Forge',
+    cat: 'coding', sub: 'Frontend',
+    desc: 'High-output code generation mode optimized for rapid prototyping with production-quality standards.',
+    code: 'Activate /codeforge mode. Generate complete, runnable code solutions. Every output must include: all necessary imports, proper project structure, environment setup instructions, and a working example. Use modern patterns and frameworks. Include responsive design for frontend work. Add TypeScript types where applicable. Provide a brief architecture explanation after the code. All code should be copy-paste ready.',
+    popular: false
+  },
+  {
+    id: 11, cmd: '/pixelmage', name: 'Image Prompt Wizard',
+    cat: 'image', sub: 'Photorealism',
+    desc: 'Crafts detailed, optimized prompts for AI image generators like DALL·E, Midjourney, and Stable Diffusion.',
+    code: 'Activate /pixelmage mode. You are an AI image prompt engineer. Create detailed image prompts with: subject description, composition (rule of thirds, golden ratio), lighting setup (golden hour, Rembrandt, volumetric), camera specifications (focal length, aperture, film stock), style references, mood descriptors, and technical parameters. For Midjourney, include --ar, --v, --stylize values. For SD, include negative prompts. Provide 3 variations of each prompt.',
+    popular: true
+  },
+  {
+    id: 12, cmd: '/analytica', name: 'Business Intelligence',
+    cat: 'analysis', sub: 'Visualization',
+    desc: 'Enterprise-grade business analysis mode for market research, competitive analysis, and strategic recommendations.',
+    code: 'Activate /analytica mode. You are a business intelligence analyst. Provide analysis using established frameworks: Porter\'s Five Forces, PESTEL, Value Chain Analysis, or BCG Matrix as appropriate. Quantify insights with data points. Include market sizing (TAM/SAM/SOM), growth projections, and risk assessment. Present in executive-friendly format with clear recommendations and implementation timelines.',
+    popular: false
+  },
+  {
+    id: 13, cmd: '/mailcraft', name: 'Email Composer',
+    cat: 'productivity', sub: 'Email',
+    desc: 'Professional email drafting engine that adapts tone, structure, and persuasion techniques to any business context.',
+    code: 'Activate /mailcraft mode. You are an expert email communication specialist. Compose emails with: clear subject lines, appropriate salutations, concise body (max 5 paragraphs), specific calls-to-action, and professional closings. Adapt tone to context: formal for executives, warm for clients, direct for teams. Use the AIDA framework for persuasive emails. For sensitive communications, suggest diplomatic phrasing alternatives.',
+    popular: false
+  },
+  {
+    id: 14, cmd: '/websynth', name: 'Web Design Synthesizer',
+    cat: 'coding', sub: 'Frontend',
+    desc: 'Generates complete, modern web components and pages with responsive design, accessibility, and animation.',
+    code: 'Activate /websynth mode. You are a UI/UX engineer specializing in modern web design. Generate complete HTML/CSS/JS components that are: fully responsive (mobile-first), accessible (WCAG 2.1 AA), performant (optimized assets, lazy loading), and visually polished (consistent spacing, typography scale, color system). Use modern CSS features: custom properties, grid, container queries, clamp(). Include micro-interactions and smooth transitions.',
+    popular: true
+  },
+  {
+    id: 15, cmd: '/personaforge', name: 'Character Creator',
+    cat: 'creative', sub: 'Game Design',
+    desc: 'Builds deep, multi-dimensional characters with psychological profiles, backstories, and dynamic personality systems.',
+    code: 'Activate /personaforge mode. You are a character psychologist and narrative designer. Create characters with: Myers-Briggs typing, Enneagram profile, attachment style, core wound, misbelief, conscious vs unconscious want, unique voice patterns (verbal tics, vocabulary level, sentence structure), physical mannerisms, and a 3-arc character development plan. Include dialogue samples demonstrating the character\'s voice in 3 different emotional states.',
+    popular: false
+  },
+  {
+    id: 16, cmd: '/taskmaster', name: 'Task Planning Engine',
+    cat: 'productivity', sub: 'Planning',
+    desc: 'Advanced project planning and task breakdown system using proven methodologies like GTD and Getting Things Done.',
+    code: 'Activate /taskmaster mode. You are a project management expert. Break any goal into: SMART milestones, actionable tasks (each < 2 hours), dependency mapping, risk mitigation steps, and resource requirements. Use the Eisenhower Matrix for prioritization. Suggest time-blocking schedules. For complex projects, create a critical path analysis. Include buffer time estimates and success metrics for each milestone.',
+    popular: false
+  },
+  {
+    id: 17, cmd: '/chemlab', name: 'Chemistry Simulator',
+    cat: 'analysis', sub: 'Research',
+    desc: 'Interactive chemistry assistant for reaction predictions, molecular analysis, and laboratory procedure guidance.',
+    code: 'Activate /chemlab mode. You are a computational chemistry expert. For any chemical query: balance equations, predict products using thermodynamic favorability, estimate reaction rates, and suggest optimal conditions (temperature, pressure, catalyst). Explain mechanisms step-by-step with electron pushing. For lab work, provide safety considerations (GHS hazards), required PPE, and waste disposal protocols.',
+    popular: false
+  },
+  {
+    id: 18, cmd: '/legalese', name: 'Legal Document Drafter',
+    cat: 'writing', sub: 'Academic',
+    desc: 'Produces precise legal-language documents, contracts, and policy frameworks with appropriate jurisdictional considerations.',
+    code: 'Activate /legalese mode. You are a legal document specialist. Draft documents with: precise definitions section, clear obligations, appropriate remedies, limitation of liability clauses, and jurisdiction specifications. Use standard legal conventions (whereas, herein, notwithstanding). Flag ambiguous language. For contracts, include standard boilerplate (force majeure, severability, entire agreement). Always note this is a draft requiring legal review.',
+    popular: false
+  },
+  {
+    id: 19, cmd: '/mathgenius', name: 'Mathematical Problem Solver',
+    cat: 'analysis', sub: 'Statistics',
+    desc: 'Step-by-step mathematical problem solving across algebra, calculus, statistics, and discrete mathematics.',
+    code: 'Activate /mathgenius mode. You are a mathematics professor. Solve problems step-by-step, showing all work. For each step: state the theorem or rule applied, show the transformation, and explain the reasoning. Use LaTeX notation for equations. For proofs, clearly state: given, to prove, proof method, and each logical step. Check solutions by substitution. Provide geometric intuition where applicable. Offer alternative solution methods when they exist.',
+    popular: false
+  },
+  {
+    id: 20, cmd: '/translate+', name: 'Premium Translator',
+    cat: 'productivity', sub: 'Summarization',
+    desc: 'Context-aware translation that preserves tone, idioms, cultural nuances, and stylistic elements across languages.',
+    code: 'Activate /translate+ mode. You are a literary translator fluent in the target languages. Translate preserving: tone and register, cultural idioms (adapt, don\'t literally translate), rhythm and flow, humor intent, and contextual meaning. For ambiguous terms, provide the primary translation with alternatives in brackets. Flag untranslatable concepts and provide explanatory footnotes. For creative content, prioritize readability over word-for-word accuracy.',
+    popular: false
+  },
+  {
+    id: 21, cmd: '/uiwizard', name: 'UI/UX Design Oracle',
+    cat: 'coding', sub: 'Frontend',
+    desc: 'Expert UI/UX design consultation for accessibility, user flows, design systems, and interface optimization.',
+    code: 'Activate /uiwizard mode. You are a principal UI/UX designer. Evaluate and design interfaces considering: visual hierarchy (F/Z patterns), accessibility (screen readers, contrast ratios, keyboard navigation), information architecture, micro-interactions, loading states, error handling UX, and responsive breakpoints. Reference Material Design 3, Apple HIG, and established design heuristics (Nielsen\'s 10, Gestalt principles). Provide specific CSS/tailwind implementations.',
+    popular: true
+  },
+  {
+    id: 22, cmd: '/musicmuse', name: 'Music Composition Aid',
+    cat: 'creative', sub: 'Music',
+    desc: 'Music theory assistant for composition, arrangement, chord progressions, and lyrical writing across all genres.',
+    code: 'Activate /musicmuse mode. You are a music theory expert and composer. For composition requests: suggest chord progressions with Roman numeral analysis, recommend voice leading techniques, suggest rhythmic patterns, and provide melody contour ideas. For lyrics: work with syllable counts, rhyme schemes (ABAB, AABB, internal rhymes), imagery, and emotional arcs. Reference specific artists/albums for style guidance. Provide lead sheet notation where helpful.',
+    popular: false
+  },
+  {
+    id: 23, cmd: '/sqlmaster', name: 'Database Query Expert',
+    cat: 'coding', sub: 'Backend',
+    desc: 'Advanced SQL and database optimization assistant for query writing, schema design, and performance tuning.',
+    code: 'Activate /sqlmaster mode. You are a database architect with expertise in PostgreSQL, MySQL, and MongoDB. Write optimized queries considering: index utilization, query plans, N+1 prevention, proper JOIN types, window functions, and CTEs for readability. For schema design: normalization level recommendations, foreign key strategies, and partition planning. Always include EXPLAIN ANALYZE guidance. For NoSQL, recommend appropriate data modeling patterns and denormalization strategies.',
+    popular: false
+  },
+  {
+    id: 24, cmd: '/seopro', name: 'SEO Content Optimizer',
+    cat: 'writing', sub: 'Copywriting',
+    desc: 'Search engine optimization specialist for content that ranks while maintaining readability and value.',
+    code: 'Activate /seopro mode. You are an SEO content strategist. Optimize content with: primary and secondary keyword placement (title, H1, first paragraph, subheadings, meta description), semantic keyword variations, internal linking suggestions, featured snippet optimization, and E-E-A-T signals. Maintain keyword density of 1-2%. For technical SEO: suggest schema markup types, URL structure, and page speed optimizations. Balance optimization with natural readability.',
+    popular: false
+  },
+  {
+    id: 25, cmd: '/pitchdeck', name: 'Pitch Deck Architect',
+    cat: 'productivity', sub: 'Planning',
+    desc: 'Creates compelling pitch decks and presentations with narrative structure, data visualization, and persuasive design.',
+    code: 'Activate /pitchdeck mode. You are a pitch deck consultant for YC-backed startups. Structure presentations with: hook (30 seconds), problem (with data), solution (with demo), market size (TAM/SAM/SOM), business model, traction/metrics, team, ask, and use of funds. Each slide: one key message, minimal text, compelling visuals. Suggest specific chart types for data points. Provide speaker notes with timing cues. Total: 12-15 slides for a 10-minute pitch.',
+    popular: false
+  },
+];
+
+// ==================== STATE ====================
+let currentFilter = 'all';
+let currentSubFilter = 'all';
+let selectedCodes = new Set();
+let visibleCount = 9;
+let modalCodeId = null;
+
+// ==================== INIT ====================
+document.addEventListener('DOMContentLoaded', () => {
+  renderCodeCards();
+  renderSubFilters();
+  renderAgentCheckboxes();
+  initRevealObserver();
+  initCardHoverEffects();
+  initNavScroll();
+  initHeroParticles();
+});
+
+// ==================== RENDER CODE CARDS ====================
+function renderCodeCards() {
+  const grid = document.getElementById('codeGrid');
+  const search = document.getElementById('searchInput').value.toLowerCase();
+  
+  let filtered = codeDatabase.filter(c => {
+    const catMatch = currentFilter === 'all' || c.cat === currentFilter;
+    const subMatch = currentSubFilter === 'all' || c.sub === currentSubFilter;
+    const searchMatch = !search || 
+      c.cmd.toLowerCase().includes(search) || 
+      c.name.toLowerCase().includes(search) || 
+      c.desc.toLowerCase().includes(search) ||
+      c.cat.toLowerCase().includes(search) ||
+      c.sub.toLowerCase().includes(search);
+    return catMatch && subMatch && searchMatch;
+  });
+
+  const visible = filtered.slice(0, visibleCount);
+  
+  grid.innerHTML = visible.map((c, i) => `
+    <div class="card card-in p-5 cursor-pointer relative" style="--i:${i * 60}ms" onclick="openCodeModal(${c.id})">
+      <button class="copy-btn" onclick="event.stopPropagation();quickCopy(${c.id})" title="Quick copy">
+        Copy
+      </button>
+      <div class="flex items-start justify-between mb-3">
+        <span class="cat-badge cat-${c.cat}">${getCatLabel(c.cat)}</span>
+        ${c.popular ? '<span class="text-xs text-brass-300/60 flex items-center gap-1"><svg width="12" height="12" fill="currentColor" viewBox="0 0 16 16"><path d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"/></svg>Popular</span>' : ''}
+      </div>
+      <h3 class="font-display font-bold text-lg text-bone mb-1 pr-10">${c.name}</h3>
+      <p class="cmd-chip text-xs mb-3">${c.cmd}</p>
+      <p class="text-sm text-bone/45 leading-relaxed line-clamp-3 mb-3">${c.desc}</p>
+      <div class="flex items-center justify-between">
+        <span class="text-xs text-ash/50">${c.sub}</span>
+        <span class="text-xs text-brass-300/50 flex items-center gap-1 hover:text-brass-300 transition-colors">
+          View details
+          <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 6h8M6 2l4 4-4 4"/></svg>
+        </span>
+      </div>
+    </div>
+  `).join('');
+
+  // Show/hide load more
+  document.getElementById('loadMore').style.display = filtered.length > visibleCount ? 'none' : (visible.length < filtered.length ? 'inline-flex' : 'none');
+  
+  if (filtered.length === 0) {
+    grid.innerHTML = '<div class="col-span-full text-center py-16"><p class="text-bone/30 text-lg">No codes found matching your criteria.</p></div>';
+  }
+}
+
+function getCatLabel(cat) {
+  const labels = { writing:'Writing', coding:'Coding', image:'Image Gen', analysis:'Analysis', creative:'Creative', productivity:'Productivity' };
+  return labels[cat] || cat;
+}
+
+// ==================== FILTERS ====================
+document.getElementById('filterPills').addEventListener('click', e => {
+  if (!e.target.classList.contains('pill')) return;
+  document.querySelectorAll('#filterPills .pill').forEach(p => p.classList.remove('active'));
+  e.target.classList.add('active');
+  currentFilter = e.target.dataset.cat;
+  currentSubFilter = 'all';
+  visibleCount = 9;
+  renderSubFilters();
+  renderCodeCards();
+});
+
+function filterByCategory(cat) {
+  currentFilter = cat;
+  document.querySelectorAll('#filterPills .pill').forEach(p => {
+    p.classList.toggle('active', p.dataset.cat === cat);
+  });
+  currentSubFilter = 'all';
+  visibleCount = 9;
+  renderSubFilters();
+  renderCodeCards();
+  document.getElementById('codes').scrollIntoView({ behavior: 'smooth' });
+}
+
+function renderSubFilters() {
+  const container = document.getElementById('subFilterPills');
+  if (currentFilter === 'all') {
+    container.innerHTML = '';
+    return;
+  }
+  const subs = [...new Set(codeDatabase.filter(c => c.cat === currentFilter).map(c => c.sub))];
+  container.innerHTML = `<button class="pill active" data-sub="all">All ${getCatLabel(currentFilter)}</button>` +
+    subs.map(s => `<button class="pill" data-sub="${s}">${s}</button>`).join('');
+  
+  container.querySelectorAll('.pill').forEach(p => {
+    p.addEventListener('click', () => {
+      container.querySelectorAll('.pill').forEach(x => x.classList.remove('active'));
+      p.classList.add('active');
+      currentSubFilter = p.dataset.sub;
+      visibleCount = 9;
+      renderCodeCards();
+    });
+  });
+}
+
+// Search
+document.getElementById('searchInput').addEventListener('input', () => {
+  visibleCount = 999;
+  renderCodeCards();
+});
+
+// Load more
+document.getElementById('loadMore').addEventListener('click', () => {
+  visibleCount += 9;
+  renderCodeCards();
+});
+
+// ==================== MODAL ====================
+function openCodeModal(id) {
+  const c = codeDatabase.find(x => x.id === id);
+  if (!c) return;
+  modalCodeId = id;
+  document.getElementById('modalBadge').className = `cat-badge cat-${c.cat}`;
+  document.getElementById('modalBadge').textContent = getCatLabel(c.cat);
+  document.getElementById('modalTitle').textContent = c.name;
+  document.getElementById('modalCmd').textContent = c.cmd;
+  document.getElementById('modalDesc').textContent = c.desc;
+  document.getElementById('modalCode').textContent = c.code;
+  document.getElementById('codeModal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+  document.getElementById('codeModal').classList.remove('open');
+  document.body.style.overflow = '';
+  modalCodeId = null;
+}
+
+function copyModalCode() {
+  const code = document.getElementById('modalCode').textContent;
+  navigator.clipboard.writeText(code).then(() => showToast('Code copied to clipboard!'));
+}
+
+function addFromModal() {
+  if (modalCodeId !== null) {
+    toggleCodeSelection(modalCodeId);
+    closeModal();
+  }
+}
+
+function quickCopy(id) {
+  const c = codeDatabase.find(x => x.id === id);
+  if (c) {
+    navigator.clipboard.writeText(c.code).then(() => showToast(`${c.cmd} copied to clipboard!`));
+  }
+}
+
+// ==================== AGENT ====================
+function renderAgentCheckboxes() {
+  const list = document.getElementById('agentCodeList');
+  list.innerHTML = codeDatabase.map(c => `
+    <label class="flex items-start gap-3 p-2.5 rounded-lg hover:bg-white/[.02] cursor-pointer transition-colors group" data-code-id="${c.id}">
+      <input type="checkbox" class="mt-0.5 accent-[#D6B45C]" ${selectedCodes.has(c.id) ? 'checked' : ''} onchange="toggleCodeSelection(${c.id})" />
+      <div class="flex-1 min-w-0">
+        <div class="flex items-center gap-2">
+          <span class="text-sm font-semibold text-bone group-hover:text-brass-300 transition-colors truncate">${c.name}</span>
+          <span class="cmd-chip text-[.65rem] flex-shrink-0">${c.cmd}</span>
+        </div>
+        <p class="text-xs text-ash/50 truncate mt-0.5">${c.desc}</p>
+      </div>
+    </label>
+  `).join('');
+}
+
+function toggleCodeSelection(id) {
+  if (selectedCodes.has(id)) {
+    selectedCodes.delete(id);
+  } else {
+    selectedCodes.add(id);
+  }
+  updateSelectedTray();
+  updateAgentCheckboxes();
+}
+
+function updateAgentCheckboxes() {
+  document.querySelectorAll('#agentCodeList label').forEach(label => {
+    const id = parseInt(label.dataset.codeId);
+    const cb = label.querySelector('input[type="checkbox"]');
+    cb.checked = selectedCodes.has(id);
+  });
+}
+
+function updateSelectedTray() {
+  const tray = document.getElementById('selectedTray');
+  const count = document.getElementById('selectedCount');
+  const noMsg = document.getElementById('noCodesMsg');
+  
+  count.textContent = selectedCodes.size;
+  
+  if (selectedCodes.size === 0) {
+    tray.innerHTML = '<span class="text-xs text-ash/40 italic" id="noCodesMsg">No codes selected yet</span>';
+    return;
+  }
+  
+  tray.innerHTML = [...selectedCodes].map((id, i) => {
+    const c = codeDatabase.find(x => x.id === id);
+    return `<span class="tray-item inline-flex items-center gap-1.5 bg-brass-400/10 border border-brass-400/20 text-brass-200 text-xs font-mono px-2.5 py-1 rounded-lg" style="animation-delay:${i * 50}ms">
+      ${c.cmd}
+      <button onclick="toggleCodeSelection(${id})" class="text-brass-400/50 hover:text-brass-200 ml-0.5 transition-colors">&times;</button>
+    </span>`;
+  }).join('');
+}
+
+function compilePrompt() {
+  if (selectedCodes.size === 0) {
+    showToast('Please select at least one code to compile.');
+    return;
+  }
+  
+  const prefix = document.getElementById('customPrefix').value.trim();
+  const tone = document.getElementById('toneSelect').value;
+  const detail = document.getElementById('detailRange').value;
+  
+  const toneMap = {
+    professional: 'Maintain a professional, formal tone throughout.',
+    casual: 'Use a casual, conversational, approachable tone.',
+    creative: 'Be creative, expressive, and use vivid language.',
+    technical: 'Use precise technical language with exact specifications.',
+    minimal: 'Be extremely concise. No filler words. Maximum signal, minimum noise.'
+  };
+  
+  let output = '';
+  output += '═══════════════════════════════════════\n';
+  output += '  COMPILED MASTER PROMPT\n';
+  output += '  Generated by ChatGotCodes Prompt Agent\n';
+  output += '═══════════════════════════════════════\n\n';
+  
+  if (prefix) {
+    output += '▸ INSTRUCTION PREFIX:\n';
+    output += prefix + '\n\n';
+  }
+  
+  output += '▸ TONE: ' + toneMap[tone] + '\n';
+  output += '▸ DETAIL LEVEL: ' + detail + '/10\n';
+  output += '▸ ACTIVE CODES: ' + [...selectedCodes].map(id => {
+    const c = codeDatabase.find(x => x.id === id);
+    return c.cmd;
+  }).join(', ') + '\n';
+  output += '\n───────────────────────────────────────\n\n';
+  
+  [...selectedCodes].forEach((id, i) => {
+    const c = codeDatabase.find(x => x.id === id);
+    output += `[CODE ${i + 1}: ${c.cmd}]\n`;
+    output += `Name: ${c.name}\n`;
+    output += `Category: ${getCatLabel(c.cat)} → ${c.sub}\n`;
+    output += `Prompt:\n${c.code}\n\n`;
+    if (i < selectedCodes.size - 1) {
+      output += '---\n\n';
+    }
+  });
+  
+  output += '\n───────────────────────────────────────\n';
+  output += '▸ OUTPUT REQUIREMENTS:\n';
+  output += `  • Detail Level: ${detail}/10 — ${detail >= 8 ? 'comprehensive, include examples' : detail >= 5 ? 'balanced depth' : 'concise, key points only'}\n`;
+  output += `  • Tone: ${tone}\n`;
+  output += '  • Combine all active codes synergistically\n';
+  output += '  • Maintain consistency across all code behaviors\n';
+  output += '═══════════════════════════════════════\n';
+  
+  document.getElementById('compiledPrompt').textContent = output;
+  showToast('Master prompt compiled successfully!');
+}
+
+function copyCompiled() {
+  const text = document.getElementById('compiledPrompt').textContent;
+  if (text.includes('Your compiled prompt will appear here')) {
+    showToast('Nothing to copy. Compile a prompt first!');
+    return;
+  }
+  navigator.clipboard.writeText(text).then(() => showToast('Compiled prompt copied to clipboard!'));
+}
+
+function clearCompiled() {
+  document.getElementById('compiledPrompt').innerHTML = '<span class="text-ash/40 italic">Your compiled prompt will appear here...</span>';
+  selectedCodes.clear();
+  updateSelectedTray();
+  updateAgentCheckboxes();
+  showToast('Agent cleared.');
+}
+
+// Detail slider
+document.getElementById('detailRange').addEventListener('input', e => {
+  document.getElementById('detailVal').textContent = e.target.value;
+});
+
+// ==================== TOAST ====================
+function showToast(msg) {
+  const toast = document.getElementById('toast');
+  document.getElementById('toastMsg').textContent = msg;
+  toast.classList.add('show');
+  clearTimeout(window._toastTimer);
+  window._toastTimer = setTimeout(() => toast.classList.remove('show'), 3000);
+}
+
+// ==================== NAV SCROLL ====================
+function initNavScroll() {
+  const nav = document.getElementById('mainNav');
+  let lastScroll = 0;
+  window.addEventListener('scroll', () => {
+    const y = window.scrollY;
+    if (y > 60) {
+      nav.style.background = 'rgba(10,10,11,.85)';
+      nav.style.backdropFilter = 'blur(16px)';
+      nav.style.borderBottom = '1px solid rgba(214,180,92,.06)';
+    } else {
+      nav.style.background = 'transparent';
+      nav.style.backdropFilter = 'none';
+      nav.style.borderBottom = 'none';
+    }
+    lastScroll = y;
+  });
+}
+
+// ==================== MOBILE MENU ====================
+document.getElementById('menuToggle').addEventListener('click', () => {
+  document.getElementById('mobileMenu').classList.add('open');
+  document.body.style.overflow = 'hidden';
+});
+document.getElementById('menuClose').addEventListener('click', closeMobile);
+function closeMobile() {
+  document.getElementById('mobileMenu').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// ==================== REVEAL OBSERVER ====================
+function initRevealObserver() {
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('in');
+        obs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+  
+  document.querySelectorAll('.rv, .rv-mask').forEach(el => obs.observe(el));
+}
+
+// ==================== CARD HOVER ====================
+function initCardHoverEffects() {
+  document.addEventListener('mousemove', e => {
+    document.querySelectorAll('.card').forEach(card => {
+      const rect = card.getBoundingClientRect();
+      const x = ((e.clientX - rect.left) / rect.width) * 100;
+      const y = ((e.clientY - rect.top) / rect.height) * 100;
+      card.style.setProperty('--mx', x + '%');
+      card.style.setProperty('--my', y + '%');
+    });
+  });
+}
+
+// ==================== HERO PARTICLES ====================
+function initHeroParticles() {
+  const canvas = document.getElementById('heroCanvas');
+  const ctx = canvas.getContext('2d');
+  let w, h, particles = [];
+  
+  function resize() {
+    const hero = document.getElementById('hero');
+    w = canvas.width = hero.offsetWidth;
+    h = canvas.height = hero.offsetHeight;
+  }
+  
+  function createParticles() {
+    particles = [];
+    const count = Math.min(60, Math.floor(w * h / 15000));
+    for (let i = 0; i < count; i++) {
+      particles.push({
+        x: Math.random() * w,
+        y: Math.random() * h,
+        vx: (Math.random() - 0.5) * 0.3,
+        vy: (Math.random() - 0.5) * 0.3,
+        r: Math.random() * 1.5 + 0.5,
+        opacity: Math.random() * 0.3 + 0.05
+      });
+    }
+  }
+  
+  function draw() {
+    ctx.clearRect(0, 0, w, h);
+    particles.forEach(p => {
+      p.x += p.vx;
+      p.y += p.vy;
+      if (p.x < 0) p.x = w;
+      if (p.x > w) p.x = 0;
+      if (p.y < 0) p.y = h;
+      if (p.y > h) p.y = 0;
+      
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(214,180,92,${p.opacity})`;
+      ctx.fill();
+    });
+    
+    // Draw connections
+    for (let i = 0; i < particles.length; i++) {
+      for (let j = i + 1; j < particles.length; j++) {
+        const dx = particles[i].x - particles[j].x;
+        const dy = particles[i].y - particles[j].y;
+        const dist = Math.sqrt(dx * dx + dy * dy);
+        if (dist < 150) {
+          ctx.beginPath();
+          ctx.moveTo(particles[i].x, particles[i].y);
+          ctx.lineTo(particles[j].x, particles[j].y);
+          ctx.strokeStyle = `rgba(214,180,92,${0.04 * (1 - dist / 150)})`;
+          ctx.lineWidth = 0.5;
+          ctx.stroke();
+        }
+      }
+    }
+    
+    requestAnimationFrame(draw);
+  }
+  
+  resize();
+  createParticles();
+  draw();
+  window.addEventListener('resize', () => { resize(); createParticles(); });
+}
+
+// ==================== SUBSCRIBE ====================
+function handleSubscribe(e) {
+  e.preventDefault();
+  const email = document.getElementById('emailInput').value;
+  if (email) {
+    showToast(`Subscribed! Welcome to the community, ${email}`);
+    document.getElementById('emailInput').value = '';
+  }
+}
+
+// ==================== LINE CLAMP CSS ====================
+const clampStyle = document.createElement('style');
+clampStyle.textContent = `
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+`;
+document.head.appendChild(clampStyle);
+</script>
+</body>
+  </html>    <div class="heroActions"><a class="goldButton" href="#categories">Explore library <span>→</span></a><button class="ghostButton" onclick="openBuilder()">Build a command <span>＋</span></button></div>
   </div>
   <div class="heroVisual"><div class="heroImageCard"><img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1100&q=85" alt="Creative workflow"><div class="heroImageOverlay"></div><div class="heroImageBadge">✦ GPT CODES <span>BY BLACKMARK</span></div><div class="heroImageBottom"><b>CREATE • THINK • BUILD</b><small>SEARCH • COMBINE • COPY</small></div></div></div>
 </section>
