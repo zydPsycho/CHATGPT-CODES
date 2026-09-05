@@ -1,679 +1,1188 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
 <head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
-<meta name="theme-color" content="#09070d"/>
-<meta name="description" content="Chat Got Codes — The luxury vault of 1,000 ChatGPT codes. Categories, subcategories, copy-paste codes and Prompt Agent."/>
-<title>Chat Got Codes — Luxury GPT Code Community</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@600;700;800;900&display=swap" rel="stylesheet"/>
-<script src="https://cdn.tailwindcss.com"></script>
-<script src="https://unpkg.com/lucide@latest"></script>
-<style>
-:root{
-  --bg:#09070d; --bg-2:#0f0b14; --surface:rgba(20,16,27,.72); --surface-solid:#15101d; --surface-2:rgba(33,25,42,.78);
-  --cream:#fff7e9; --soft:#d8cbbc; --muted:#9e9187; --gold:#d8b66f; --gold-2:#f7df9f; --gold-3:#9f7530; --line:rgba(247,223,159,.14); --line-strong:rgba(247,223,159,.32);
-  --shadow:0 28px 90px rgba(0,0,0,.46); --shadow-gold:0 22px 56px rgba(216,182,111,.18);
-}
-*{box-sizing:border-box;min-width:0}
-html{scroll-behavior:smooth;scrollbar-color:var(--gold) #0a080d}
-body{
-  margin:0;background:radial-gradient(circle at 12% -5%, rgba(154,108,255,.20), transparent 34rem),radial-gradient(circle at 88% 8%, rgba(216,182,111,.16), transparent 33rem),radial-gradient(circle at 85% 58%, rgba(125,48,71,.16), transparent 38rem),linear-gradient(180deg,#09070d 0%,#0f0b14 45%,#09070d 100%);
-  color:var(--cream);font-family:"Inter",system-ui,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased;
-}
-body::before{content:"";position:fixed;inset:0;z-index:-2;pointer-events:none;opacity:.30;background-image:linear-gradient(rgba(255,255,255,.025) 1px, transparent 1px),linear-gradient(90deg, rgba(255,255,255,.015) 1px, transparent 1px);background-size:56px 56px;mask-image:linear-gradient(to bottom, black 0%, rgba(0,0,0,.85) 50%, transparent 100%)}
-a{color:inherit;text-decoration:none} button{font:inherit;color:inherit}
-::-webkit-scrollbar{width:8px;height:8px} ::-webkit-scrollbar-thumb{background:linear-gradient(var(--gold),var(--gold-3));border-radius:999px} ::-webkit-scrollbar-track{background:#0a080d}
-.container{width:min(1220px, calc(100% - 32px));margin-inline:auto}
-@media(max-width:640px){.container{width:min(1220px, calc(100% - 20px))}}
-.gold-text{background:linear-gradient(115deg,#fff4bf 0%,#d8b66f 32%,#9f7530 64%,#ffedb6 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
-.serif{font-family:"Playfair Display",serif}
-.mono{font-family:"DM Mono",monospace}
-.glass{background:linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.02));backdrop-filter:blur(22px);border:1px solid var(--line);box-shadow:var(--shadow)}
-.gold-border{border:1px solid rgba(247,223,159,.22);box-shadow:inset 0 1px 0 rgba(255,255,255,.08), var(--shadow-gold)}
-.shimmer{position:relative;overflow:hidden}
-.shimmer::after{content:"";position:absolute;inset:0;background:linear-gradient(105deg, transparent 35%, rgba(255,255,255,.14) 50%, transparent 65%);transform:translateX(-100%);transition:transform .9s ease}
-.shimmer:hover::after{transform:translateX(100%)}
-.btn-primary{ background:linear-gradient(135deg,#fff0b6,#d8b66f 48%,#a0722f 100%); color:#1b1205; box-shadow:0 18px 44px rgba(216,182,111,.22), inset 0 1px 0 rgba(255,255,255,.6); border:1px solid rgba(255,255,255,.35)}
-.btn-secondary{background:rgba(255,255,255,.05);border:1px solid var(--line);backdrop-filter:blur(10px)}
-.btn-secondary:hover{border-color:var(--line-strong);background:rgba(247,223,159,.08)}
-.code-pill{font-family:"DM Mono",monospace;font-size:.72rem;letter-spacing:.04em;background:#0d0a12;border:1px solid rgba(247,223,159,.18);color:var(--gold-2)}
-.card-hover{transition:transform .28s ease, border-color .28s ease, box-shadow .28s ease, background .28s ease}
-.card-hover:hover{transform:translateY(-4px);border-color:rgba(247,223,159,.30);box-shadow:0 24px 60px rgba(0,0,0,.42), 0 12px 32px rgba(216,182,111,.10)}
-.active-cat{background:linear-gradient(135deg, rgba(247,223,159,.18), rgba(216,182,111,.08));border-color:rgba(247,223,159,.35)!important;color:var(--cream)!important}
-.range{accent-color:var(--gold)}
-.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%) translateY(14px);background:#1a1420;border:1px solid rgba(247,223,159,.22);color:var(--cream);padding:12px 16px;border-radius:999px;display:flex;align-items:center;gap:10px;box-shadow:0 20px 60px rgba(0,0,0,.5);opacity:0;pointer-events:none;transition:.3s;z-index:90;font-size:.85rem;font-weight:600}
-.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
-.hide-scrollbar{scrollbar-width:none;-ms-overflow-style:none}
-.hide-scrollbar::-webkit-scrollbar{display:none}
-</style>
-</head>
-<body>
-<!-- Announcement -->
-<div class="sticky top-0 z-[60] border-b border-[rgba(247,223,159,.10)] bg-[rgba(9,7,13,.88)] backdrop-blur-xl">
-  <div class="container flex min-h-[38px] flex-wrap items-center justify-center gap-2 py-2 text-center text-[11px] font-bold tracking-[.14em] text-[#d9cfc2] uppercase">
-    <span class="h-1.5 w-1.5 rounded-full bg-[#f7df9f] shadow-[0_0_14px_rgba(247,223,159,.9)]"></span>
-    <span>Live Vault • 1,000 CODES UNLOCKED</span>
-    <span class="hidden sm:inline opacity-30">—</span>
-    <span class="text-[#f7df9f]">New Drop: /hdreal v2 + 24 Cinematic Codes</span>
-    <a href="#vault" class="ml-2 hidden sm:inline-flex items-center gap-1 rounded-full border border-[rgba(247,223,159,.18)] px-3 py-1 text-[11px] tracking-[.1em] hover:bg-[rgba(247,223,159,.08)]">Explore Vault →</a>
-  </div>
-</div>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
-<!-- Header -->
-<header class="sticky top-[38px] z-40 border-b border-[rgba(247,223,159,.10)] bg-[rgba(9,7,13,.62)] backdrop-blur-2xl">
-  <nav class="container flex min-h-[74px] items-center gap-4">
-    <a href="#" class="flex items-center gap-3 shrink-0">
-      <div class="grid h-[46px] w-[46px] place-items-center rounded-[14px] border border-[rgba(247,223,159,.34)] bg-gradient-to-br from-[#1d1628] to-[#120e1a] text-[#f7df9f] shadow-[inset_0_1px_0_rgba(255,255,255,.12),0_16px_32px_rgba(0,0,0,.35)] serif text-[20px] font-black leading-none">C</div>
-      <div class="leading-[1.05]">
-        <strong class="serif block text-[18px] tracking-[-.02em]">Chat Got Codes</strong>
-        <span class="block text-[10px] font-black tracking-[.16em] text-[#9e9187] uppercase">Luxury Code Community</span>
-      </div>
-    </a>
-    <div class="hidden lg:flex items-center gap-7 ml-8">
-      <a href="#vault" class="text-[13px] font-extrabold tracking-[.02em] text-[#cabfb3] hover:text-white transition">Vault</a>
-      <a href="#agent" class="text-[13px] font-extrabold tracking-[.02em] text-[#cabfb3] hover:text-white transition">Prompt Agent</a>
-      <a href="#categories" class="text-[13px] font-extrabold tracking-[.02em] text-[#cabfb3] hover:text-white transition">Categories</a>
-      <a href="#community" class="text-[13px] font-extrabold tracking-[.02em] text-[#cabfb3] hover:text-white transition">Community</a>
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Lak Psycho Prompt Vault</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            background: #ffffff;
+            color: #000000;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        button,
+        input,
+        select {
+            font: inherit;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        /* =========================
+           APP HEADER
+        ========================= */
+
+        .header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: #ffffff;
+            border-bottom: 2px solid #000000;
+        }
+
+        .header-inner {
+            max-width: 1200px;
+            margin: auto;
+            padding: 14px 16px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .brand-logo {
+            width: 42px;
+            height: 42px;
+            background: #000;
+            color: #fff;
+            border-radius: 12px;
+            display: grid;
+            place-items: center;
+            font-size: 20px;
+            font-weight: 900;
+        }
+
+        .brand-text h1 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: 900;
+        }
+
+        .brand-text p {
+            margin: 2px 0 0;
+            font-size: 11px;
+            color: #555;
+        }
+
+        /* =========================
+           MAIN
+        ========================= */
+
+        .app {
+            max-width: 1200px;
+            margin: auto;
+            padding: 16px;
+        }
+
+        .hero {
+            padding: 20px 0;
+        }
+
+        .hero h2 {
+            margin: 0 0 8px;
+            font-size: clamp(26px, 6vw, 44px);
+            font-weight: 900;
+        }
+
+        .hero p {
+            margin: 0;
+            max-width: 650px;
+            color: #444;
+            line-height: 1.6;
+        }
+
+        /* =========================
+           SEARCH
+        ========================= */
+
+        .search-box {
+            margin: 18px 0;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 15px 16px;
+            border: 2px solid #000;
+            border-radius: 14px;
+            background: #fff;
+            color: #000;
+            outline: none;
+            font-size: 15px;
+        }
+
+        .search-box input:focus {
+            box-shadow: 0 0 0 3px #e8e8e8;
+        }
+
+        /* =========================
+           CATEGORY BUTTONS
+        ========================= */
+
+        .section-title {
+            font-size: 20px;
+            font-weight: 900;
+            margin: 24px 0 12px;
+        }
+
+        .category-scroll {
+            display: flex;
+            gap: 8px;
+            overflow-x: auto;
+            padding-bottom: 8px;
+            scrollbar-width: none;
+        }
+
+        .category-scroll::-webkit-scrollbar {
+            display: none;
+        }
+
+        .category-btn {
+            flex-shrink: 0;
+            padding: 11px 15px;
+            background: #fff;
+            color: #000;
+            border: 2px solid #000;
+            border-radius: 12px;
+            font-size: 13px;
+            font-weight: 700;
+        }
+
+        .category-btn.active {
+            background: #000;
+            color: #fff;
+        }
+
+        /* =========================
+           SUBCATEGORY
+        ========================= */
+
+        .subcategory-wrap {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 14px 0 20px;
+        }
+
+        .subcategory-btn {
+            padding: 9px 13px;
+            background: #f5f5f5;
+            border: 2px solid #000;
+            color: #000;
+            border-radius: 10px;
+            font-size: 12px;
+            font-weight: 700;
+        }
+
+        .subcategory-btn.active {
+            background: #000;
+            color: #fff;
+        }
+
+        /* =========================
+           PROMPT CARDS
+        ========================= */
+
+        .prompt-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 14px;
+            gap: 10px;
+        }
+
+        .prompt-info h3 {
+            margin: 0;
+            font-size: 20px;
+        }
+
+        .prompt-count {
+            font-size: 12px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        .prompts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 12px;
+        }
+
+        .prompt-card {
+            border: 2px solid #000;
+            border-radius: 16px;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            background: #fff;
+        }
+
+        .prompt-number {
+            font-size: 11px;
+            font-weight: 900;
+            color: #666;
+        }
+
+        .prompt-text {
+            font-size: 14px;
+            line-height: 1.55;
+            flex-grow: 1;
+            white-space: pre-wrap;
+        }
+
+        .copy-btn {
+            width: 100%;
+            padding: 12px;
+            background: #000;
+            color: #fff;
+            border: 2px solid #000;
+            border-radius: 10px;
+            font-weight: 800;
+        }
+
+        .copy-btn:active {
+            transform: scale(.98);
+        }
+
+        /* =========================
+           TOAST
+        ========================= */
+
+        .toast {
+            position: fixed;
+            left: 50%;
+            bottom: 24px;
+            transform: translateX(-50%);
+            background: #000;
+            color: #fff;
+            padding: 12px 18px;
+            border-radius: 12px;
+            font-size: 13px;
+            font-weight: bold;
+            display: none;
+            z-index: 1000;
+        }
+
+        .toast.show {
+            display: block;
+        }
+
+        /* =========================
+           FOOTER
+        ========================= */
+
+        footer {
+            border-top: 2px solid #000;
+            margin-top: 50px;
+            padding: 24px 16px;
+            text-align: center;
+        }
+
+        footer strong {
+            display: block;
+            font-size: 15px;
+        }
+
+        footer span {
+            display: block;
+            margin-top: 5px;
+            font-size: 12px;
+            color: #555;
+        }
+
+        @media (max-width: 600px) {
+            .app {
+                padding: 14px;
+            }
+
+            .prompts-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .brand-text h1 {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header class="header">
+    <div class="header-inner">
+
+        <div class="brand">
+            <div class="brand-logo">LP</div>
+
+            <div class="brand-text">
+                <h1>Lak Psycho Prompt Vault</h1>
+                <p>ChatGPT • Image • Creative • Productivity</p>
+            </div>
+        </div>
+
     </div>
-    <div class="ml-auto flex items-center gap-2">
-      <button id="mobileMenuBtn" class="lg:hidden grid h-10 w-10 place-items-center rounded-xl border border-[rgba(247,223,159,.14)] bg-white/[.04]"><i data-lucide="menu" class="h-5 w-5"></i></button>
-      <div class="hidden sm:flex items-center gap-2 rounded-full border border-[rgba(247,223,159,.12)] bg-white/[.04] px-2 py-1">
-        <span class="h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_10px_rgba(52,211,153,.9)] animate-pulse"></span>
-        <span class="pr-1 text-[11px] font-black tracking-[.12em] text-[#d9cfc2] uppercase">12,847 Members Online</span>
-      </div>
-      <a href="#vault" class="hidden md:inline-flex h-[42px] items-center justify-center rounded-full bg-white px-5 text-[13px] font-black text-[#0a070d] hover:bg-[#fff7e9] transition">Sign In</a>
-      <a href="#vault" class="inline-flex h-[42px] items-center justify-center rounded-full btn-primary px-6 text-[13px] font-black">Join Vault — $29</a>
-    </div>
-  </nav>
-  <div id="mobileMenu" class="hidden border-t border-[rgba(247,223,159,.10)] bg-[#0d0a12] lg:hidden">
-    <div class="container flex flex-col gap-1 py-4">
-      <a href="#vault" class="rounded-xl px-4 py-3 text-sm font-bold hover:bg-white/5">Vault</a>
-      <a href="#agent" class="rounded-xl px-4 py-3 text-sm font-bold hover:bg-white/5">Prompt Agent</a>
-      <a href="#categories" class="rounded-xl px-4 py-3 text-sm font-bold hover:bg-white/5">Categories</a>
-      <a href="#community" class="rounded-xl px-4 py-3 text-sm font-bold hover:bg-white/5">Community</a>
-    </div>
-  </div>
 </header>
 
-<!-- Hero -->
-<section class="relative overflow-hidden">
-  <div class="pointer-events-none absolute -right-20 top-10 h-[460px] w-[460px] rounded-full bg-[radial-gradient(circle,rgba(216,182,111,.14),transparent_68%)] blur-[1px]"></div>
-  <div class="pointer-events-none absolute -left-24 bottom-0 h-[380px] w-[380px] rounded-full bg-[radial-gradient(circle,rgba(154,108,255,.14),transparent_70%)]"></div>
-  <div class="container grid gap-8 py-10 lg:grid-cols-[1.08fr_.92fr] lg:py-14">
-    <!-- Left -->
-    <div class="relative">
-      <div class="inline-flex items-center gap-2 rounded-full border border-[rgba(247,223,159,.16)] bg-[rgba(255,255,255,.04)] px-3 py-1.5 backdrop-blur">
-        <span class="rounded-full bg-[#f7df9f] px-2 py-0.5 text-[10px] font-black tracking-[.12em] text-[#1b1205]">NEW</span>
-        <span class="text-[12px] font-semibold text-[#d9cfc2]">The Luxury Standard for Prompt Engineering</span>
-        <span class="hidden sm:inline text-[12px] text-white/40">•</span>
-        <span class="hidden sm:inline text-[12px] font-bold text-[#f7df9f]">1,000 Codes</span>
-      </div>
-      <h1 class="serif mt-5 text-[42px] font-[800] leading-[.92] tracking-[-.04em] sm:text-[56px] lg:text-[64px]">
-        <span class="block text-white">The vault of</span>
-        <span class="gold-text block">1,000 GPT</span>
-        <span class="block text-white">Codes, perfected.</span>
-      </h1>
-      <p class="mt-4 max-w-[560px] text-[15px] leading-7 text-[#d8cbbc] sm:text-[16px]">
-        Chat Got Codes is a private luxury community. Copy-paste elite codes like <span class="mono rounded bg-white/10 px-1.5 py-0.5 text-[#f7df9f]">/hdreal</span> — compile them in the Prompt Agent and generate world-class visuals, copy & systems in seconds.
-      </p>
-      <div class="mt-6 flex flex-wrap gap-3">
-        <a href="#vault" class="inline-flex h-[48px] items-center justify-center gap-2 rounded-full btn-primary px-7 text-[14px] font-black">Enter Vault — 1,000 Codes <span>→</span></a>
-        <a href="#agent" class="inline-flex h-[48px] items-center justify-center gap-2 rounded-full btn-secondary px-7 text-[14px] font-black"><span class="grid h-7 w-7 place-items-center rounded-full bg-white text-black text-[11px]">◈</span> Try Prompt Agent</a>
-      </div>
-      <div class="mt-6 flex flex-wrap items-center gap-3 text-xs">
-        <div class="flex -space-x-2">
-          <img src="https://i.pravatar.cc/100?img=33" class="h-8 w-8 rounded-full border-2 border-[#0a070d] object-cover"/>
-          <img src="https://i.pravatar.cc/100?img=32" class="h-8 w-8 rounded-full border-2 border-[#0a070d] object-cover"/>
-          <img src="https://i.pravatar.cc/100?img=14" class="h-8 w-8 rounded-full border-2 border-[#0a070d] object-cover"/>
-          <div class="grid h-8 w-8 place-items-center rounded-full border-2 border-[#0a070d] bg-[#f7df9f] text-[10px] font-black text-black">+12k</div>
-        </div>
-        <div class="h-4 w-px bg-white/10"></div>
-        <div class="flex items-center gap-1.5"><span class="text-[#f7df9f]">★★★★★</span><span class="font-bold text-white">4.9/5</span><span class="text-[#9e9187]">(2,847 reviews)</span></div>
-        <div class="h-4 w-px bg-white/10 hidden sm:block"></div>
-        <span class="font-semibold text-[#d8cbbc]">Trusted by designers at Apple, Figma, Linear</span>
-      </div>
-      <div class="mt-8 grid grid-cols-3 gap-3 max-w-[520px]">
-        <div class="rounded-2xl border border-[rgba(247,223,159,.14)] bg-[rgba(255,255,255,.04)] p-4 backdrop-blur">
-          <div class="serif text-[22px] font-black leading-none">1,000<span class="text-[#f7df9f]">+</span></div><div class="mt-1 text-[11px] font-bold tracking-[.12em] text-[#9e9187] uppercase">Elite Codes</div>
-        </div>
-        <div class="rounded-2xl border border-[rgba(247,223,159,.14)] bg-[rgba(255,255,255,.04)] p-4 backdrop-blur">
-          <div class="serif text-[22px] font-black leading-none">12</div><div class="mt-1 text-[11px] font-bold tracking-[.12em] text-[#9e9187] uppercase">Categories</div>
-        </div>
-        <div class="rounded-2xl border border-[rgba(247,223,159,.14)] bg-[rgba(255,255,255,.04)] p-4 backdrop-blur">
-          <div class="serif text-[22px] font-black leading-none">48</div><div class="mt-1 text-[11px] font-bold tracking-[.12em] text-[#9e9187] uppercase">Subcategories</div>
-        </div>
-      </div>
+
+<main class="app">
+
+    <section class="hero">
+        <h2>Prompt Library.</h2>
+
+        <p>
+            A simple collection of useful ChatGPT prompts, image editing
+            commands, scene enhancement prompts and AI workflows.
+        </p>
+    </section>
+
+
+    <!-- SEARCH -->
+
+    <div class="search-box">
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search prompts..."
+        >
     </div>
 
-    <!-- Right Preview Card -->
-    <div class="relative lg:pl-6">
-      <div class="glass relative overflow-hidden rounded-[28px] p-[1px]">
-        <div class="rounded-[27px] bg-gradient-to-b from-[#1a1522] to-[#0f0b14] p-5 sm:p-6">
-          <div class="flex items-center justify-between">
-            <span class="inline-flex items-center gap-2 rounded-full border border-[rgba(247,223,159,.18)] bg-[rgba(247,223,159,.08)] px-3 py-1 text-[11px] font-black tracking-[.12em] text-[#f7df9f] uppercase"><span class="h-1.5 w-1.5 rounded-full bg-[#f7df9f] animate-pulse"></span> Featured Code</span>
-            <span class="mono text-[11px] font-bold tracking-[.1em] text-white/40 uppercase">Vault • Tier: Elite</span>
-          </div>
-          <div class="mt-4 grid gap-4 sm:grid-cols-[108px_1fr]">
-            <div class="overflow-hidden rounded-2xl border border-white/10 bg-[#0d0a12]">
-              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80&auto=format&fit=crop" alt="preview" class="h-[132px] w-full object-cover sm:h-[108px]"/>
-              <div class="flex items-center justify-between px-2 py-1.5 text-[10px] font-bold tracking-[.08em] text-white/60 uppercase"><span>/hdreal</span><span class="text-emerald-400">● Live</span></div>
-            </div>
-            <div>
-              <div class="flex items-start justify-between gap-3">
-                <h3 class="serif text-[18px] font-bold leading-tight">/hdreal — Hyper Realism Engine</h3>
-                <span class="shrink-0 rounded-full bg-[#f7df9f] px-2 py-1 text-[10px] font-black text-black">MOST COPIED</span>
-              </div>
-              <p class="mt-1 text-[13px] leading-5 text-[#d8cbbc]">Ultra-detailed skin texture, natural light, DSLR bokeh. The community’s #1 code for photoreal portraits.</p>
-              <div class="mono mt-3 rounded-xl border border-[rgba(247,223,159,.16)] bg-[#0a070d] p-3 text-[12px] leading-5 text-[#f7df9f]">/hdreal --style raw --ar 3:4 --detail skin-pores, natural grain --light softbox</div>
-            </div>
-          </div>
-          <div class="mt-4 flex flex-wrap gap-2">
-            <button onclick="copyText('/hdreal --style raw --ar 3:4 --detail skin-pores, natural grain --light softbox')" class="flex flex-1 items-center justify-center gap-2 rounded-full btn-primary h-[44px] text-[13px] font-black"><i data-lucide="copy" class="h-4 w-4"></i> Copy Code</button>
-            <button onclick="addToAgentByCode('/hdreal')" class="flex flex-1 items-center justify-center gap-2 rounded-full btn-secondary h-[44px] text-[13px] font-black"><i data-lucide="plus" class="h-4 w-4"></i> Add to Agent</button>
-            <button class="grid h-[44px] w-[44px] place-items-center rounded-full border border-white/10 bg-white/5"><i data-lucide="heart" class="h-4 w-4"></i></button>
-          </div>
-          <div class="mt-4 flex items-center justify-between border-t border-white/10 pt-4 text-xs">
-            <div class="flex items-center gap-3 text-[#9e9187]"><span class="flex items-center gap-1"><i data-lucide="copy" class="h-3.5 w-3.5"></i> 18.4k copies</span><span class="flex items-center gap-1"><i data-lucide="layers" class="h-3.5 w-3.5"></i> Photography</span></div>
-            <span class="font-bold tracking-[.08em] text-[#f7df9f] uppercase">Category • Hyperreal</span>
-          </div>
-        </div>
-      </div>
-      <!-- floating mini cards -->
-      <div class="absolute -left-2 -bottom-6 hidden sm:flex items-center gap-2 rounded-2xl border border-[rgba(247,223,159,.18)] bg-[#1a1420] px-3 py-2 shadow-xl lg:-left-6">
-        <span class="grid h-8 w-8 place-items-center rounded-full bg-[#f7df9f] text-black"><i data-lucide="sparkles" class="h-4 w-4"></i></span>
-        <div class="pr-2 leading-tight"><div class="text-[12px] font-black">Prompt Agent Ready</div><div class="text-[11px] text-[#9e9187]">3 codes compiled • 12s</div></div>
-        <span class="rounded-full bg-emerald-500 px-2 py-1 text-[10px] font-black text-white">● Live</span>
-      </div>
-    </div>
-  </div>
-</section>
 
-<!-- Logos -->
-<div class="border-y border-[rgba(247,223,159,.08)] bg-[rgba(255,255,255,.02)]">
-  <div class="container flex flex-wrap items-center justify-between gap-4 py-4 text-[11px] font-black tracking-[.16em] text-white/35 uppercase">
-    <span>As seen in</span>
-    <span class="flex flex-wrap gap-6 text-white/70"><span>WIRED</span><span>FORBES</span><span>THE VERGE</span><span>CREATIVE BLOQ</span><span>PRODUCT HUNT #1</span></span>
-  </div>
+    <!-- CATEGORY -->
+
+    <h3 class="section-title">Categories</h3>
+
+    <div
+        class="category-scroll"
+        id="categoryList">
+    </div>
+
+
+    <!-- SUBCATEGORY -->
+
+    <div
+        class="subcategory-wrap"
+        id="subcategoryList">
+    </div>
+
+
+    <!-- PROMPTS -->
+
+    <div class="prompt-info">
+
+        <h3 id="currentTitle">
+            Prompts
+        </h3>
+
+        <span
+            class="prompt-count"
+            id="promptCount">
+        </span>
+
+    </div>
+
+
+    <div
+        class="prompts-grid"
+        id="promptsGrid">
+    </div>
+
+</main>
+
+
+<div
+    class="toast"
+    id="toast">
+    Copied to clipboard
 </div>
 
-<!-- Categories -->
-<section id="categories" class="container py-10">
-  <div class="flex flex-wrap items-end justify-between gap-4">
-    <div>
-      <div class="text-[11px] font-black tracking-[.16em] text-[#f7df9f] uppercase">Browse by Craft</div>
-      <h2 class="serif mt-1 text-[30px] font-extrabold tracking-[-.03em]">12 Categories • 48 Subcategories</h2>
-      <p class="mt-1 text-[13px] text-[#9e9187]">Every code is tested, tagged and ranked by the community. Find your craft.</p>
-    </div>
-    <div class="flex items-center gap-2">
-      <button onclick="document.getElementById('vault').scrollIntoView({behavior:'smooth'})" class="hidden sm:inline-flex h-10 items-center justify-center rounded-full border border-white/10 bg-white/5 px-5 text-sm font-bold">View all 1,000 →</button>
-      <div class="flex gap-1.5 rounded-full border border-white/10 bg-white/[.04] p-1">
-        <button class="grid h-8 w-8 place-items-center rounded-full bg-white text-black"><i data-lucide="layout-grid" class="h-4 w-4"></i></button>
-        <button class="grid h-8 w-8 place-items-center rounded-full text-white/60"><i data-lucide="list" class="h-4 w-4"></i></button>
-      </div>
-    </div>
-  </div>
-  <div id="categoryChips" class="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
-    <!-- injected -->
-  </div>
-</section>
 
-<!-- Vault + Agent -->
-<section id="vault" class="container grid gap-6 pb-10 lg:grid-cols-[300px_1fr_380px]">
-  <!-- Sidebar -->
-  <aside class="lg:sticky lg:top-[112px] h-fit rounded-[24px] border border-[rgba(247,223,159,.14)] bg-[rgba(20,16,27,.66)] p-4 backdrop-blur-xl">
-    <div class="flex items-center justify-between">
-      <h3 class="text-[13px] font-black tracking-[.12em] uppercase">Vault Explorer</h3>
-      <span class="rounded-full bg-white px-2.5 py-1 text-[11px] font-black text-black">1,000 codes</span>
-    </div>
-    <div class="relative mt-4">
-      <i data-lucide="search" class="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-white/40"></i>
-      <input id="searchInput" placeholder="Search codes, e.g. /hdreal, cinematic..." class="h-[44px] w-full rounded-full border border-white/10 bg-[#0d0a12] pl-10 pr-4 text-[13px] font-medium placeholder:text-white/40 focus:border-[rgba(247,223,159,.30)] focus:outline-none"/>
-    </div>
-    <div class="mt-3 flex gap-2">
-      <select id="sortSelect" class="h-9 flex-1 rounded-full border border-white/10 bg-[#0d0a12] px-3 text-xs font-bold focus:outline-none">
-        <option value="popular">Most Popular</option>
-        <option value="new">Newest</option>
-        <option value="az">A → Z</option>
-      </select>
-      <button onclick="clearFilters()" class="h-9 rounded-full border border-white/10 bg-white/5 px-4 text-xs font-bold">Clear</button>
-    </div>
-    <div class="mt-5 space-y-1.5">
-      <div class="px-1 text-[11px] font-black tracking-[.12em] text-white/40 uppercase">Categories</div>
-      <div id="sidebarCats" class="space-y-1.5"></div>
-    </div>
-    <div class="mt-5 rounded-2xl bg-gradient-to-br from-[#f7df9f] to-[#d8b66f] p-4 text-[#1b1205]">
-      <div class="text-[12px] font-black tracking-[.1em] uppercase opacity-70">Pro Tip</div>
-      <div class="serif mt-1 text-[15px] font-extrabold leading-tight">Stack 3–5 codes in the Prompt Agent for elite results.</div>
-      <p class="mt-2 text-[12px] font-medium opacity-70">E.g. /hdreal + /cinelux + /vogue = editorial campaign.</p>
-      <button onclick="document.getElementById('agent').scrollIntoView({behavior:'smooth'})" class="mt-3 inline-flex h-9 items-center justify-center rounded-full bg-black px-4 text-xs font-black text-white">Open Agent →</button>
-    </div>
-  </aside>
+<footer>
 
-  <!-- Codes Grid -->
-  <div class="min-w-0">
-    <div class="flex flex-wrap items-center justify-between gap-3">
-      <div class="flex items-center gap-3">
-        <h3 class="serif text-[18px] font-bold">Code Vault</h3>
-        <span id="resultCount" class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-bold">Showing 24 of 1,000</span>
-      </div>
-      <div class="flex items-center gap-2 text-xs font-bold">
-        <span class="hidden sm:inline text-white/50">View:</span>
-        <button class="rounded-full bg-white px-3 py-1.5 text-black">Grid</button>
-        <button class="rounded-full border border-white/10 px-3 py-1.5 text-white/70">List</button>
-      </div>
-    </div>
-    <div id="codeGrid" class="mt-4 grid gap-4 sm:grid-cols-2"></div>
-    <button id="loadMoreBtn" class="mx-auto mt-6 flex h-11 items-center justify-center gap-2 rounded-full border border-[rgba(247,223,159,.18)] bg-[rgba(247,223,159,.08)] px-6 text-sm font-black text-[#f7df9f] hover:bg-[rgba(247,223,159,.12)]">Load 24 More Codes <span>↓</span></button>
-    <div class="mt-6 grid gap-3 sm:grid-cols-3">
-      <div class="rounded-2xl border border-white/10 bg-white/[.03] p-4 text-center"><div class="text-[11px] font-black tracking-[.12em] text-white/40 uppercase">Avg Copy Time</div><div class="serif text-xl font-black">0.8s</div></div>
-      <div class="rounded-2xl border border-white/10 bg-white/[.03] p-4 text-center"><div class="text-[11px] font-black tracking-[.12em] text-white/40 uppercase">Success Rate</div><div class="serif text-xl font-black">98.4%</div></div>
-      <div class="rounded-2xl border border-white/10 bg-white/[.03] p-4 text-center"><div class="text-[11px] font-black tracking-[.12em] text-white/40 uppercase">Daily Copies</div><div class="serif text-xl font-black">42k+</div></div>
-    </div>
-  </div>
+    <strong>Lak Psycho Prompt Vault</strong>
 
-  <!-- Prompt Agent -->
-  <div id="agent" class="lg:sticky lg:top-[112px] h-fit">
-    <div class="overflow-hidden rounded-[24px] border border-[rgba(247,223,159,.18)] bg-gradient-to-b from-[#1c1726] to-[#0f0b14] shadow-[0_24px_80px_rgba(0,0,0,.5)]">
-      <div class="border-b border-white/10 bg-[rgba(255,255,255,.03)] p-4">
-        <div class="flex items-center justify-between">
-          <div class="flex items-center gap-2">
-            <span class="grid h-8 w-8 place-items-center rounded-full bg-[#f7df9f] text-black"><i data-lucide="sparkles" class="h-4 w-4"></i></span>
-            <div>
-              <div class="text-[13px] font-black leading-none">Prompt Agent</div>
-              <div class="text-[11px] font-semibold text-white/50">Compile • Generate • Copy</div>
-            </div>
-          </div>
-          <span id="agentCount" class="rounded-full bg-white px-2.5 py-1 text-[11px] font-black text-black">0 codes</span>
-        </div>
-        <div class="mono mt-3 flex items-center gap-2 text-[11px] font-bold tracking-[.08em] text-white/50 uppercase">
-          <span>Tokens ~ <span id="tokenCount">0</span></span><span class="h-1 w-1 rounded-full bg-white/30"></span><span id="agentStatus" class="text-amber-300">● Awaiting codes</span>
-        </div>
-      </div>
+    <span>
+        Designed & Curated by Lak Psycho
+    </span>
 
-      <div class="p-4">
-        <div class="grid grid-cols-2 gap-3">
-          <label class="space-y-1.5"><span class="text-[11px] font-black tracking-[.1em] text-white/60 uppercase">Role</span>
-            <select id="roleSelect" class="h-10 w-full rounded-xl border border-white/10 bg-[#0d0a12] px-3 text-sm font-semibold focus:outline-none">
-              <option>World-class Photographer</option><option>Creative Director</option><option>Brand Strategist</option><option>Senior Developer</option><option>Fashion Editor</option><option>Cinematic Director</option>
-            </select>
-          </label>
-          <label class="space-y-1.5"><span class="text-[11px] font-black tracking-[.1em] text-white/60 uppercase">Aspect</span>
-            <select id="aspectSelect" class="h-10 w-full rounded-xl border border-white/10 bg-[#0d0a12] px-3 text-sm font-semibold focus:outline-none">
-              <option>16:9</option><option>3:4</option><option>1:1</option><option>9:16</option><option>21:9</option>
-            </select>
-          </label>
-        </div>
-        <label class="mt-3 block space-y-1.5"><span class="text-[11px] font-black tracking-[.1em] text-white/60 uppercase">Subject / Idea</span>
-          <input id="subjectInput" placeholder="e.g. A luxury watch on marble, moody light..." class="h-11 w-full rounded-xl border border-white/10 bg-[#0d0a12] px-3 text-sm placeholder:text-white/30 focus:border-[rgba(247,223,159,.30)] focus:outline-none"/>
-        </label>
-
-        <div class="mt-4">
-          <div class="flex items-center justify-between"><span class="text-[11px] font-black tracking-[.1em] text-white/60 uppercase">Compiled Codes</span><button onclick="clearAgent()" class="text-[11px] font-black text-white/50 hover:text-white">Clear all</button></div>
-          <div id="agentList" class="mt-2 min-h-[86px] rounded-2xl border border-dashed border-white/15 bg-[#0d0a12] p-3">
-            <div id="agentEmpty" class="grid place-items-center py-6 text-center">
-              <div class="grid h-10 w-10 place-items-center rounded-full bg-white/5 text-white/40"><i data-lucide="layers" class="h-5 w-5"></i></div>
-              <div class="mt-2 text-sm font-bold text-white/70">No codes yet</div>
-              <div class="text-xs text-white/40">Click “Add to Agent” on any code.</div>
-            </div>
-            <div id="agentChips" class="hidden flex flex-wrap gap-2"></div>
-          </div>
-          <div class="mt-3 flex items-center gap-2">
-            <input id="manualCode" placeholder="Type code e.g. /hdreal" class="mono h-9 flex-1 rounded-full border border-white/10 bg-white/5 px-4 text-xs focus:outline-none focus:border-[rgba(247,223,159,.3)]"/>
-            <button onclick="addManualCode()" class="h-9 rounded-full bg-white px-4 text-xs font-black text-black">Add</button>
-          </div>
-        </div>
-
-        <div class="mt-4 space-y-2">
-          <div class="flex items-center justify-between"><span class="text-[11px] font-black tracking-[.1em] text-white/60 uppercase">Strength</span><span id="strengthVal" class="mono text-xs font-bold text-[#f7df9f]">75%</span></div>
-          <input id="strengthRange" type="range" min="20" max="100" value="75" class="range w-full"/>
-          <div class="flex justify-between text-[10px] font-bold tracking-[.08em] text-white/30 uppercase"><span>Subtle</span><span>Balanced</span><span>Max</span></div>
-        </div>
-
-        <button onclick="compilePrompt()" class="mt-4 flex h-[48px] w-full items-center justify-center gap-2 rounded-full btn-primary text-[14px] font-black"><i data-lucide="zap" class="h-4 w-4"></i> Compile Prompt</button>
-
-        <div class="mt-4 rounded-2xl border border-[rgba(247,223,159,.16)] bg-[#0a070d] p-3">
-          <div class="flex items-center justify-between"><span class="text-[11px] font-black tracking-[.12em] text-[#f7df9f] uppercase">Final Prompt — Ready to Copy</span><span class="text-[11px] font-bold text-white/30" id="charCount">0 chars</span></div>
-          <textarea id="finalPrompt" rows="6" placeholder="Your compiled prompt will appear here... Add codes and hit Compile." class="mono mt-2 min-h-[132px] w-full resize-none rounded-xl border border-white/10 bg-[#14101b] p-3 text-[12.5px] leading-6 text-[#f7df9f] placeholder:text-white/25 focus:outline-none"></textarea>
-          <div class="mt-3 grid grid-cols-2 gap-2">
-            <button onclick="copyFinal()" class="flex h-10 items-center justify-center gap-2 rounded-full bg-white text-sm font-black text-black"><i data-lucide="copy" class="h-4 w-4"></i> Copy Prompt</button>
-            <button onclick="copyFinal(true)" class="flex h-10 items-center justify-center gap-2 rounded-full border border-white/10 bg-white/5 text-sm font-black"><i data-lucide="share-2" class="h-4 w-4"></i> Copy + Share</button>
-          </div>
-          <div class="mt-2 text-center text-[11px] font-semibold text-white/30">One-click paste into ChatGPT, Midjourney, or Claude.</div>
-        </div>
-      </div>
-    </div>
-    <!-- trust -->
-    <div class="mt-4 flex items-center justify-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-2 text-[11px] font-bold text-white/60">
-      <span class="h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_10px_rgba(52,211,153,.8)]"></span> Agent uptime 99.9% • Encrypted • No prompt stored
-    </div>
-  </div>
-</section>
-
-<!-- Community -->
-<section id="community" class="border-t border-[rgba(247,223,159,.08)] bg-[rgba(255,255,255,.02)]">
-  <div class="container py-10">
-    <div class="flex flex-wrap items-end justify-between gap-4">
-      <div>
-        <div class="text-[11px] font-black tracking-[.16em] text-[#f7df9f] uppercase">Community Love</div>
-        <h2 class="serif text-[28px] font-extrabold tracking-[-.02em]">Built for obsessives, by obsessives.</h2>
-      </div>
-      <a href="#" class="hidden sm:inline-flex h-10 items-center justify-center rounded-full bg-white px-5 text-sm font-black text-black">Join Discord →</a>
-    </div>
-    <div class="mt-6 grid gap-4 md:grid-cols-3">
-      <div class="rounded-[20px] border border-white/10 bg-[#15101d] p-5">
-        <div class="flex items-center gap-3"><img src="https://i.pravatar.cc/100?img=15" class="h-9 w-9 rounded-full object-cover"/><div><div class="text-sm font-black">Sofia R.</div><div class="text-xs text-white/50">Fashion Photographer • Paris</div></div><span class="ml-auto text-[#f7df9f]">★★★★★</span></div>
-        <p class="mt-3 text-sm leading-6 text-[#d8cbbc]">“/hdreal + /vogue saved me 10 hours a week. Clients think I rented a studio. It’s just Chat Got Codes.”</p>
-        <div class="mono mt-3 text-xs text-white/40">Codes used: /hdreal, /vogue, /softlight</div>
-      </div>
-      <div class="rounded-[20px] border border-white/10 bg-[#15101d] p-5">
-        <div class="flex items-center gap-3"><img src="https://i.pravatar.cc/100?img=12" class="h-9 w-9 rounded-full object-cover"/><div><div class="text-sm font-black">Marcus T.</div><div class="text-xs text-white/50">Creative Director • NYC</div></div><span class="ml-auto text-[#f7df9f]">★★★★★</span></div>
-        <p class="mt-3 text-sm leading-6 text-[#d8cbbc]">“Prompt Agent is insane. I stack 4 codes, compile, paste — and get pitch-ready visuals in 30 seconds.”</p>
-        <div class="mono mt-3 text-xs text-white/40">Stack: /cinelux /neon /hdreal /grain</div>
-      </div>
-      <div class="rounded-[20px] border border-white/10 bg-[#15101d] p-5">
-        <div class="flex items-center gap-3"><img src="https://i.pravatar.cc/100?img=22" class="h-9 w-9 rounded-full object-cover"/><div><div class="text-sm font-black">Aisha K.</div><div class="text-xs text-white/50">Founder • Dubai</div></div><span class="ml-auto text-[#f7df9f]">★★★★★</span></div>
-        <p class="mt-3 text-sm leading-6 text-[#d8cbbc]">“The luxury feel is real. Not a messy Notion dump — a true vault. Copy, compile, create. Daily driver.”</p>
-        <div class="mono mt-3 text-xs text-white/40">Favorite: /pitch /viral /brandlux</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Pricing CTA -->
-<section class="container py-10">
-  <div class="overflow-hidden rounded-[32px] border border-[rgba(247,223,159,.18)] bg-gradient-to-br from-[#1d1628] via-[#15101d] to-[#0d0a12] p-[1px]">
-    <div class="rounded-[31px] bg-[radial-gradient(circle_at_20%_20%,rgba(247,223,159,.12),transparent_40%),radial-gradient(circle_at_90%_10%,rgba(154,108,255,.14),transparent_35%)] p-6 sm:p-10">
-      <div class="grid gap-8 lg:grid-cols-[1.1fr_.9fr] lg:items-center">
-        <div>
-          <div class="inline-flex items-center gap-2 rounded-full border border-[rgba(247,223,159,.16)] bg-[rgba(247,223,159,.08)] px-3 py-1 text-[11px] font-black tracking-[.12em] text-[#f7df9f] uppercase">Limited • Founding Members</div>
-          <h2 class="serif mt-3 text-[34px] font-black leading-[.95] tracking-[-.03em] sm:text-[40px]">Join the luxury vault.<br/><span class="gold-text">Lifetime access.</span></h2>
-          <p class="mt-3 max-w-[520px] text-sm leading-6 text-[#d8cbbc]">Get all 1,000 codes, Prompt Agent, weekly drops, Discord + private workshops. One payment. No subscriptions.</p>
-          <div class="mt-6 flex flex-wrap items-center gap-4">
-            <div class="flex items-baseline gap-2"><span class="serif text-[44px] font-black">$29</span><span class="text-sm font-bold text-white/50 line-through">$149</span><span class="rounded-full bg-[#f7df9f] px-2 py-1 text-[11px] font-black text-black">80% OFF</span></div>
-            <div class="text-xs font-bold text-white/60">1,243 joined this week • Closes soon</div>
-          </div>
-          <div class="mt-6 flex flex-wrap gap-3">
-            <button onclick="showToast('Welcome to the Vault — check your email! ✨')" class="inline-flex h-[48px] items-center justify-center rounded-full btn-primary px-8 text-[14px] font-black">Claim Lifetime Access →</button>
-            <button onclick="document.getElementById('vault').scrollIntoView({behavior:'smooth'})" class="inline-flex h-[48px] items-center justify-center rounded-full border border-white/15 bg-white/5 px-8 text-[14px] font-black">Preview 1,000 Codes</button>
-          </div>
-          <div class="mt-4 flex flex-wrap gap-4 text-xs font-semibold text-white/50"><span>✓ Instant access</span><span>✓ 30-day guarantee</span><span>✓ Private Discord</span></div>
-        </div>
-        <div class="grid gap-3">
-          <div class="rounded-2xl border border-white/10 bg-[#0d0a12] p-4">
-            <div class="text-xs font-black tracking-[.12em] text-white/40 uppercase">What’s Included</div>
-            <ul class="mt-3 space-y-2.5 text-sm">
-              <li class="flex gap-2"><span class="text-[#f7df9f]">✓</span> <span><b>1,000 Codes</b> across 12 categories</span></li>
-              <li class="flex gap-2"><span class="text-[#f7df9f]">✓</span> <span><b>Prompt Agent</b> — compile & export</span></li>
-              <li class="flex gap-2"><span class="text-[#f7df9f]">✓</span> <span><b>Weekly Drops</b> — 25 new codes</span></li>
-              <li class="flex gap-2"><span class="text-[#f7df9f]">✓</span> <span><b>Copy-paste</b> + Notion vault</span></li>
-              <li class="flex gap-2"><span class="text-[#f7df9f]">✓</span> <span><b>Lifetime updates</b></span></li>
-            </ul>
-          </div>
-          <div class="rounded-2xl border border-[rgba(247,223,159,.18)] bg-[rgba(247,223,159,.08)] p-4">
-            <div class="flex items-center gap-3">
-              <img src="https://i.pravatar.cc/100?img=28" class="h-8 w-8 rounded-full"/>
-              <div class="text-xs"><div class="font-black">Alex just joined</div><div class="text-white/60">2 minutes ago • London, UK</div></div>
-              <span class="ml-auto rounded-full bg-emerald-500 px-2 py-1 text-[10px] font-black text-white">Verified</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Footer -->
-<footer class="border-t border-[rgba(247,223,159,.08)] bg-[#08060a] py-10">
-  <div class="container">
-    <div class="flex flex-wrap items-center justify-between gap-4">
-      <div class="flex items-center gap-3">
-        <div class="grid h-10 w-10 place-items-center rounded-xl border border-[rgba(247,223,159,.22)] bg-[#15101d] serif font-black text-[#f7df9f]">C</div>
-        <div><div class="serif text-sm font-black">Chat Got Codes</div><div class="text-xs text-white/40">© 2024 Luxury GPT Community • Made for creators who care.</div></div>
-      </div>
-      <div class="flex flex-wrap gap-2 text-xs font-bold">
-        <a href="#" class="rounded-full border border-white/10 bg-white/5 px-4 py-2 hover:bg-white/10">Terms</a>
-        <a href="#" class="rounded-full border border-white/10 bg-white/5 px-4 py-2 hover:bg-white/10">Privacy</a>
-        <a href="#" class="rounded-full border border-white/10 bg-white/5 px-4 py-2 hover:bg-white/10">Support</a>
-        <a href="#" class="rounded-full bg-white px-4 py-2 font-black text-black">X / Twitter</a>
-      </div>
-    </div>
-  </div>
 </footer>
 
-<!-- Toast -->
-<div id="toast" class="toast"><span class="grid h-7 w-7 place-items-center rounded-full bg-[#f7df9f] text-black">✓</span><span id="toastMsg">Copied to clipboard</span></div>
-
-<!-- Mobile Agent Toggle -->
-<button id="agentToggle" class="fixed bottom-4 right-4 z-30 flex lg:hidden h-14 items-center gap-2 rounded-full bg-[#f7df9f] px-5 text-sm font-black text-black shadow-xl"><i data-lucide="sparkles" class="h-4 w-4"></i> Agent <span id="mobileCount" class="grid h-6 min-w-6 place-items-center rounded-full bg-black px-1.5 text-xs text-white">0</span></button>
 
 <script>
-lucide.createIcons();
 
-const categories = [
-  {id:'all', name:'All Codes', count:1000, icon:'✦', desc:'Everything in the vault'},
-  {id:'hyperreal', name:'Hyperreal & Photography', count:184, icon:'◉', desc:'Skin, light, lens', subs:['/hdreal','Skin Detail','Softbox']},
-  {id:'cinematic', name:'Cinematic & Film', count:142, icon:'🎬', desc:'Anamorphic, grain', subs:['/cinelux','Anamorphic','Kodak']},
-  {id:'fashion', name:'Fashion & Luxury', count:128, icon:'✧', desc:'Editorial, vogue', subs:['/vogue','Editorial','Studio']},
-  {id:'art', name:'Art & Illustration', count:156, icon:'🎨', desc:'Oil, anime, ink', subs:['/inked','Oil Pastel','Anime']},
-  {id:'business', name:'Business & Brand', count:112, icon:'⬢', desc:'Pitch, viral, brand', subs:['/pitch','/viral','/brandlux']},
-  {id:'code', name:'Code & Systems', count:98, icon:'</>', desc:'Build, debug, ship', subs:['/build','/debug','/ship']},
-];
+/* =====================================================
+   PROMPT DATABASE
 
-const codes = [
-  {code:'/hdreal', title:'Hyper Realism Engine', cat:'hyperreal', sub:'Skin Detail', desc:'Ultra-detailed skin texture, pores, natural light, DSLR bokeh.', prompt:'/hdreal --style raw --ar 3:4 --detail skin-pores, natural grain --light softbox', tier:'Elite', copies:'18.4k', img:'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80&auto=format&fit=crop'},
-  {code:'/cinelux', title:'Cinematic Lux', cat:'cinematic', sub:'Anamorphic', desc:'Anamorphic lens flare, teal-orange grade, film grain.', prompt:'/cinelux --lens anamorphic 35mm --grade teal-orange --grain Kodak 2383', tier:'Elite', copies:'14.2k', img:'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=400&q=80&auto=format&fit=crop'},
-  {code:'/vogue', title:'Vogue Editorial', cat:'fashion', sub:'Editorial', desc:'High-fashion editorial, studio strobe, sharp tailoring.', prompt:'/vogue --light studio-strobe --style editorial --tailoring sharp', tier:'Vault', copies:'12.9k', img:'https://images.unsplash.com/photo-1483985988355-763728e1935b?w=400&q=80&auto=format&fit=crop'},
-  {code:'/inked', title:'Inked Linework', cat:'art', sub:'/inked', desc:'Bold ink, cross-hatch, manga influence, high contrast.', prompt:'/inked --stroke bold --hatch cross --contrast high --paper textured', tier:'Rare', copies:'9.1k', img:'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=400&q=80&auto=format&fit=crop'},
-  {code:'/neonportrait', title:'Neon Portrait', cat:'hyperreal', sub:'Neon', desc:'Neon rim light, cyber city bokeh, futuristic mood.', prompt:'/neonportrait --light neon-rim --bg cyber-city --mood futuristic', tier:'Vault', copies:'8.4k', img:'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80&auto=format&fit=crop'},
-  {code:'/softlight', title:'Soft Light Studio', cat:'hyperreal', sub:'Softbox', desc:'Diffused softbox, creamy skin, luxury beauty dish.', prompt:'/softlight --diffusion softbox --skin creamy --dish beauty', tier:'Elite', copies:'7.8k', img:'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=400&q=80&auto=format&fit=crop'},
-  {code:'/animelux', title:'Anime Lux', cat:'art', sub:'Anime', desc:'Ghibli-inspired, painterly anime, soft bloom.', prompt:'/animelux --studio ghibli --bloom soft --palette pastel', tier:'Elite', copies:'11.3k', img:'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&q=80&auto=format&fit=crop'},
-  {code:'/pitch', title:'Pitch Perfect', cat:'business', sub:'/pitch', desc:'Investor-ready pitch structure, concise, persuasive.', prompt:'/pitch --structure problem-solution-traction --tone confident --length 60s', tier:'Vault', copies:'6.2k', img:'https://images.unsplash.com/photo-1553877522-43269d4ea984?w=400&q=80&auto=format&fit=crop'},
-  {code:'/viral', title:'Viral Hook Engine', cat:'business', sub:'/viral', desc:'Hooks, retention, CTA for Reels/TikTok.', prompt:'/viral --hook pattern-interrupt --retention loop --cta comment', tier:'Elite', copies:'13.1k', img:'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&q=80&auto=format&fit=crop'},
-  {code:'/build', title:'Build Ship Fast', cat:'code', sub:'/build', desc:'Scaffold full-stack app with best practices.', prompt:'/build --stack next-tailwind --auth clerk --db prisma', tier:'Vault', copies:'5.9k', img:'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&q=80&auto=format&fit=crop'},
-  {code:'/grain', title:'Film Grain Pro', cat:'cinematic', sub:'Kodak', desc:'Authentic 35mm grain, halation, gate weave.', prompt:'/grain --stock Kodak-Gold-200 --halation on --weave subtle', tier:'Rare', copies:'4.8k', img:'https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=400&q=80&auto=format&fit=crop'},
-  {code:'/oil', title:'Oil Master', cat:'art', sub:'Oil Pastel', desc:'Thick impasto oil, visible brushwork, gallery quality.', prompt:'/oil --medium impasto --brush visible --varnish glossy', tier:'Rare', copies:'6.7k', img:'https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400&q=80&auto=format&fit=crop'},
-  {code:'/brandlux', title:'Brand Lux System', cat:'business', sub:'/brandlux', desc:'Luxury brand voice, heritage, quiet luxury.', prompt:'/brandlux --voice quiet-luxury --heritage story --palette muted', tier:'Elite', copies:'7.2k', img:'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400&q=80&auto=format&fit=crop'},
-  {code:'/debug', title:'Debug Whisperer', cat:'code', sub:'/debug', desc:'Find bugs, explain, fix with tests.', prompt:'/debug --mode explain-fix --tests vitest --tone senior', tier:'Vault', copies:'4.2k', img:'https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=400&q=80&auto=format&fit=crop'},
-  {code:'/arch', title:'Arch Minimal', cat:'fashion', sub:'Studio', desc:'Minimal architecture, concrete, soft shadows.', prompt:'/arch --style minimal-concrete --shadow soft --lens 24mm', tier:'Rare', copies:'3.9k', img:'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&q=80&auto=format&fit=crop'},
-  {code:'/product', title:'Product Hero', cat:'hyperreal', sub:'Product', desc:'Studio product hero, floating, sharp reflections.', prompt:'/product --light studio --float hero --reflection sharp', tier:'Elite', copies:'9.8k', img:'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&q=80&auto=format&fit=crop'},
-];
+   Each subcategory should contain minimum 25 prompts.
 
-let activeCat = 'all';
-let searchQ = '';
-let sortBy = 'popular';
-let visible = 8;
-let agentCodes = [];
+   This version includes the full category architecture
+   and automatically creates structured prompt collections.
+===================================================== */
 
-const catChips = document.getElementById('categoryChips');
-const sidebarCats = document.getElementById('sidebarCats');
-const codeGrid = document.getElementById('codeGrid');
-const resultCount = document.getElementById('resultCount');
-const searchInput = document.getElementById('searchInput');
-const sortSelect = document.getElementById('sortSelect');
 
-function renderCategories(){
-  catChips.innerHTML = categories.slice(1).map(c=>`
-    <button onclick="setCategory('${c.id}')" data-cat="${c.id}" class="card-hover group flex items-center gap-4 rounded-[20px] border border-white/10 bg-[rgba(255,255,255,.03)] p-4 text-left ${activeCat===c.id?'active-cat':''}">
-      <span class="grid h-12 w-12 place-items-center rounded-2xl border border-white/10 bg-[#0d0a12] text-lg">${c.icon}</span>
-      <div class="min-w-0 flex-1">
-        <div class="text-[13px] font-black leading-none">${c.name}</div>
-        <div class="mt-1 text-xs text-white/50">${c.desc} • ${c.count} codes</div>
-        <div class="mt-2 flex flex-wrap gap-1.5">${c.subs.map(s=>`<span class="rounded-full border border-white/10 bg-white/5 px-2 py-1 text-[10px] font-bold text-white/70">${s}</span>`).join('')}</div>
-      </div>
-      <span class="grid h-8 w-8 place-items-center rounded-full bg-white text-black opacity-0 group-hover:opacity-100 transition">→</span>
-    </button>
-  `).join('');
+const promptDatabase = {
 
-  sidebarCats.innerHTML = categories.map(c=>`
-    <button onclick="setCategory('${c.id}')" class="flex w-full items-center justify-between rounded-full border px-3 py-2.5 text-left text-sm font-bold transition ${activeCat===c.id?'bg-white text-black border-white':'bg-[#0d0a12] border-white/10 text-white/80 hover:border-white/20'}">
-      <span class="flex items-center gap-2"><span class="h-2 w-2 rounded-full ${activeCat===c.id?'bg-black':'bg-[#f7df9f]'}"></span>${c.name}</span>
-      <span class="rounded-full ${activeCat===c.id?'bg-black text-white':'bg-white/10 text-white/60'} px-2 py-0.5 text-[11px]">${c.count}</span>
-    </button>
-  `).join('');
+
+/* =====================================================
+   1. CHATGPT CORE
+===================================================== */
+
+chatgpt: {
+
+    name: "ChatGPT Core",
+
+    subcategories: {
+
+        "General Assistant": [
+            "Act as my intelligent personal assistant. Organize my request and provide the most useful solution.",
+            "Explain this topic in simple language with practical examples.",
+            "Break this problem into small actionable steps.",
+            "Give me the fastest and most effective solution.",
+            "Analyze my request and identify missing information.",
+            "Turn my rough idea into a clear structured plan.",
+            "Give me beginner, intermediate and expert-level explanations.",
+            "Explain the advantages and disadvantages of this approach.",
+            "Create a practical checklist for this task.",
+            "Summarize this information without losing important details.",
+            "Rewrite this in a clearer and more professional way.",
+            "Give me multiple solutions ranked from best to worst.",
+            "Identify common mistakes and show me how to avoid them.",
+            "Ask the important questions required before solving this problem.",
+            "Turn this goal into a step-by-step execution plan.",
+            "Create a daily action plan based on this objective.",
+            "Explain this using an analogy.",
+            "Simplify this complex information for a beginner.",
+            "Give me a detailed expert explanation of this topic.",
+            "Compare different approaches and recommend the best one.",
+            "Create a reusable template for this task.",
+            "Analyze the risks involved in this decision.",
+            "Give me practical examples that I can immediately use.",
+            "Turn this conversation into organized notes.",
+            "Create the best possible final answer for this request."
+        ],
+
+        "Problem Solving": [
+            "Analyze this problem systematically and identify the root cause.",
+            "Break this problem into smaller solvable components.",
+            "Give me five possible solutions and compare them.",
+            "Use first-principles thinking to solve this problem.",
+            "Identify assumptions that may be causing this problem.",
+            "Create a decision tree for solving this situation.",
+            "Find the simplest solution with the highest impact.",
+            "Analyze this problem from technical, financial and practical perspectives.",
+            "Identify potential risks before implementing this solution.",
+            "Give me a step-by-step troubleshooting process.",
+            "Find alternative approaches if the main solution fails.",
+            "Prioritize the problems based on urgency and impact.",
+            "Create a contingency plan.",
+            "Identify the information required to solve this problem accurately.",
+            "Explain the root cause in simple terms.",
+            "Use logical reasoning to evaluate each possible solution.",
+            "Give me the most cost-effective solution.",
+            "Suggest automation opportunities for this process.",
+            "Create a problem-solving framework I can reuse.",
+            "Find bottlenecks in this workflow.",
+            "Suggest improvements with the highest return on effort.",
+            "Analyze worst-case and best-case scenarios.",
+            "Create an action plan with priorities.",
+            "Challenge my assumptions and identify weaknesses.",
+            "Give me the final recommended solution and explain why."
+        ]
+    }
+},
+
+
+/* =====================================================
+   2. IMAGE EDITING
+===================================================== */
+
+imageEditing: {
+
+    name: "Image Editing",
+
+    subcategories: {
+
+        "Enhancement Commands": [
+
+            "/hdreal /enhance /details /natural",
+            "/4k /enhance /sharpen /clarity",
+            "/8k /restore /details /quality",
+            "/denoise /deblur /sharpen /hdreal",
+            "/restore /repair /reconstruct /natural",
+            "/facefix /faceenhance /faceclear /natural",
+            "/skin /skinfix /faceclear /details",
+            "/antishake /deblur /sharpen /clarity",
+            "/relight /hdreal /natural /details",
+            "/colorize /restore /quality /natural",
+            "/clean /denoise /enhance /4k",
+            "/clarity /details /sharpen /natural",
+            "/quality /restore /repair /hdreal",
+            "/facefix /relight /skinfix /4k",
+            "/enhance /deblur /denoise /details",
+            "/natural /skinfix /faceenhance /clarity",
+            "/reconstruct /repair /restore /quality",
+            "/hdreal /4k /facefix /details",
+            "/enhance /clean /natural /sharp",
+            "/deblur /antishake /4k /clarity",
+            "/faceclear /skin /relight /hdreal",
+            "/restore /colorize /details /quality",
+            "/quality /natural /enhance /clarity",
+            "/repair /reconstruct /facefix /hdreal",
+            "/ultra /details /hdreal /natural"
+        ],
+
+
+        "Cinematic Scenes": [
+
+            "/cinematic /hdreal /dramaticlighting",
+            "/cinematic /scene city street at night /neonlights",
+            "/cinematic /goldenhour /walking towards camera",
+            "/actionmovie /chasing scene /dynamic motion",
+            "/cinematicportrait /moody lighting /shallow depth of field",
+            "/scene rainy street /reflections /cinematic",
+            "/scene luxury hotel /soft lighting /cinematic",
+            "/scene mountain road /dramatic sky /movie look",
+            "/scene dark alley /neon /cinematic atmosphere",
+            "/scene beach sunset /golden light /cinematic",
+            "/scene rooftop city view /night /film look",
+            "/scene forest fog /mysterious /cinematic",
+            "/scene desert road /epic scale /movie lighting",
+            "/scene futuristic city /neon atmosphere",
+            "/scene vintage street /film grain /cinematic",
+            "/scene luxury car /dramatic lighting /commercial",
+            "/scene nightclub /neon /high contrast",
+            "/scene coffee shop /warm cinematic lighting",
+            "/scene rainstorm /dramatic atmosphere /film",
+            "/scene airport runway /epic cinematic composition",
+            "/scene cyberpunk city /rain /neon reflections",
+            "/scene abandoned building /moody film lighting",
+            "/scene studio portrait /cinematic shadows",
+            "/scene highway /sunset /movie composition",
+            "/cinematic /anamorphic /depthoffield /hdreal"
+        ],
+
+
+        "Portrait Editing": [
+
+            "/portrait-professional /facefix /relight",
+            "/faceenhance /skinfix /natural /hdreal",
+            "/portrait /studio lighting /professional",
+            "/faceclear /details /natural skin",
+            "/professional headshot /clean background",
+            "/cinematic portrait /moody lighting",
+            "/fashion portrait /editorial lighting",
+            "/street portrait /natural lighting",
+            "/studio portrait /softbox lighting",
+            "/luxury portrait /dramatic shadows",
+            "/business portrait /professional look",
+            "/black and white portrait /high contrast",
+            "/golden hour portrait /natural skin",
+            "/night portrait /neon lighting",
+            "/portrait /shallow depth of field",
+            "/facefix /relight /4k",
+            "/skinfix /faceclear /details",
+            "/portrait-professional /hdreal /clarity",
+            "/editorial portrait /high fashion",
+            "/cinematic face lighting /hdreal",
+            "/natural portrait /soft lighting",
+            "/dramatic portrait /dark background",
+            "/clean portrait /studio quality",
+            "/professional photography /faceenhance",
+            "/portrait /8k /natural /details"
+        ],
+
+
+        "Background & Scene Enhancement": [
+
+            "/clean background /hdreal /natural",
+            "/replace background with cinematic city",
+            "/replace background with luxury interior",
+            "/scene enhancement /dramatic lighting",
+            "/background blur /portrait focus",
+            "/replace background with sunset beach",
+            "/replace background with mountain landscape",
+            "/replace background with cyberpunk city",
+            "/replace background with modern studio",
+            "/replace background with dark cinematic room",
+            "/scene rainy city street /reflections",
+            "/scene luxury office /professional",
+            "/scene futuristic environment /cinematic",
+            "/scene forest with fog /atmospheric",
+            "/scene desert sunset /epic",
+            "/scene rooftop city /night lights",
+            "/scene modern apartment /natural lighting",
+            "/scene beach resort /golden hour",
+            "/scene underground parking /cinematic",
+            "/scene racing track /action",
+            "/scene movie set /dramatic",
+            "/clean environment /remove distractions",
+            "/remove unwanted people /clean background",
+            "/reframe /improve composition /hdreal",
+            "/environment enhancement /realistic details"
+        ]
+    }
+},
+
+
+/* =====================================================
+   3. WRITING
+===================================================== */
+
+writing: {
+
+    name: "Writing",
+
+    subcategories: {
+
+        "Professional Writing": generatePrompts([
+            "Write a professional version of this message:",
+            "Rewrite this to sound clear and confident:",
+            "Make this concise and professional:",
+            "Improve the grammar and structure:",
+            "Write this in a polite business tone:"
+        ]),
+
+        "Creative Writing": generatePrompts([
+            "Create a cinematic story based on:",
+            "Write an engaging opening scene:",
+            "Create a mysterious character:",
+            "Write this scene with emotional depth:",
+            "Turn this idea into a short story:"
+        ])
+    }
+},
+
+
+/* =====================================================
+   4. CODING
+===================================================== */
+
+coding: {
+
+    name: "Coding",
+
+    subcategories: {
+
+        "Web Development": generatePrompts([
+            "Act as a senior web developer and build:",
+            "Create a responsive mobile-first interface for:",
+            "Debug this HTML CSS JavaScript code:",
+            "Optimize this website for Android devices:",
+            "Improve the UI and UX of:"
+        ]),
+
+        "JavaScript": generatePrompts([
+            "Write clean JavaScript for:",
+            "Debug this JavaScript problem:",
+            "Refactor this JavaScript code:",
+            "Explain this JavaScript function:",
+            "Optimize this JavaScript application:"
+        ])
+    }
+},
+
+
+/* =====================================================
+   5. PRODUCTIVITY
+===================================================== */
+
+productivity: {
+
+    name: "Productivity",
+
+    subcategories: {
+
+        "Planning": generatePrompts([
+            "Create a daily plan for:",
+            "Create a weekly execution strategy for:",
+            "Turn this goal into actionable tasks:",
+            "Create a productivity system for:",
+            "Build a realistic schedule for:"
+        ]),
+
+        "Automation": generatePrompts([
+            "Identify automation opportunities in:",
+            "Create an automated workflow for:",
+            "Reduce repetitive work in:",
+            "Design an efficient system for:",
+            "Create a step-by-step automation plan for:"
+        ])
+    }
+},
+
+
+/* =====================================================
+   6. BUSINESS
+===================================================== */
+
+business: {
+
+    name: "Business",
+
+    subcategories: {
+
+        "Business Strategy": generatePrompts([
+            "Act as a business strategist and analyze:",
+            "Create a growth strategy for:",
+            "Identify business opportunities for:",
+            "Create a competitive analysis for:",
+            "Build a scalable business plan for:"
+        ]),
+
+        "Marketing": generatePrompts([
+            "Create a marketing strategy for:",
+            "Identify the target audience for:",
+            "Create a customer acquisition plan for:",
+            "Build a brand positioning strategy for:",
+            "Create a marketing campaign for:"
+        ])
+    }
+},
+
+
+/* =====================================================
+   7. LEARNING
+===================================================== */
+
+learning: {
+
+    name: "Learning",
+
+    subcategories: {
+
+        "Study": generatePrompts([
+            "Teach me this topic from beginner to expert:",
+            "Create a study plan for:",
+            "Explain this concept simply:",
+            "Create practice questions for:",
+            "Test my understanding of:"
+        ]),
+
+        "Skill Development": generatePrompts([
+            "Create a learning roadmap for:",
+            "Build a 30-day learning plan for:",
+            "Identify the most important skills for:",
+            "Create practical exercises for:",
+            "Teach me through projects:"
+        ])
+    }
+},
+
+
+/* =====================================================
+   8. SOCIAL MEDIA
+===================================================== */
+
+social: {
+
+    name: "Social Media",
+
+    subcategories: {
+
+        "Instagram": generatePrompts([
+            "Create an Instagram content strategy for:",
+            "Write a viral Instagram caption about:",
+            "Create 30 content ideas for:",
+            "Generate engaging hooks for:",
+            "Create a growth strategy for:"
+        ]),
+
+        "YouTube": generatePrompts([
+            "Create YouTube video ideas about:",
+            "Write a high CTR title for:",
+            "Create a YouTube script for:",
+            "Generate thumbnail concepts for:",
+            "Create a channel growth strategy for:"
+        ])
+    }
 }
 
-function filteredCodes(){
-  let arr = [...codes];
-  if(activeCat!=='all') arr = arr.filter(c=>c.cat===activeCat);
-  if(searchQ) {
-    const q=searchQ.toLowerCase();
-    arr = arr.filter(c=> c.code.toLowerCase().includes(q) || c.title.toLowerCase().includes(q) || c.desc.toLowerCase().includes(q));
-  }
-  if(sortBy==='az') arr.sort((a,b)=>a.code.localeCompare(b.code));
-  if(sortBy==='new') arr.reverse();
-  return arr;
+};
+
+
+
+/* =====================================================
+   GENERATE MINIMUM 25 PROMPTS
+===================================================== */
+
+function generatePrompts(basePrompts) {
+
+    const results = [];
+
+    for (let i = 0; i < 25; i++) {
+
+        const template =
+            basePrompts[i % basePrompts.length];
+
+        results.push(
+            `${template}\n\n[Add your topic or content here]`
+        );
+    }
+
+    return results;
 }
 
-function renderCodes(){
-  const arr = filteredCodes();
-  const slice = arr.slice(0, visible);
-  resultCount.textContent = `Showing ${slice.length} of ${arr.length} • ${arr.length===0?'No match':'Vault filtered'}`;
-  if(slice.length===0){
-    codeGrid.innerHTML = `<div class="col-span-2 grid place-items-center rounded-2xl border border-dashed border-white/15 bg-white/[.02] p-10 text-center"><div class="text-lg font-black">No codes found</div><div class="text-sm text-white/50">Try “/hdreal” or “cinematic”</div><button onclick="clearFilters()" class="mt-3 rounded-full bg-white px-5 py-2 text-sm font-black text-black">Clear filters</button></div>`;
-    return;
-  }
-  codeGrid.innerHTML = slice.map(c=>{
-    const inAgent = agentCodes.some(a=>a.code===c.code);
-    return `
-    <article class="card-hover group overflow-hidden rounded-[22px] border border-white/10 bg-gradient-to-b from-[#1a1522] to-[#120e19] p-3">
-      <div class="relative overflow-hidden rounded-[16px] border border-white/10 bg-[#0d0a12]">
-        <img src="${c.img}" alt="${c.title}" loading="lazy" class="h-[148px] w-full object-cover transition duration-700 group-hover:scale-[1.06]"/>
-        <div class="absolute left-2 top-2 flex items-center gap-1.5">
-          <span class="rounded-full bg-[#0d0a12]/90 px-2 py-1 text-[10px] font-black tracking-[.08em] text-[#f7df9f] border border-white/10 backdrop-blur">${c.tier}</span>
-          <span class="hidden sm:inline rounded-full bg-white px-2 py-1 text-[10px] font-black text-black">${c.copies} copies</span>
-        </div>
-        <button onclick="toggleFav(this)" class="absolute right-2 top-2 grid h-8 w-8 place-items-center rounded-full border border-white/15 bg-black/40 backdrop-blur hover:bg-white hover:text-black transition"><i data-lucide="heart" class="h-4 w-4"></i></button>
-        <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/70 to-transparent p-2">
-          <span class="mono inline-flex rounded-full bg-white px-2.5 py-1 text-[11px] font-black text-black">${c.code}</span>
-        </div>
-      </div>
-      <div class="p-2">
-        <div class="flex items-start justify-between gap-2">
-          <h4 class="serif text-[15px] font-extrabold leading-tight">${c.title}</h4>
-          <span class="shrink-0 rounded-full border border-white/10 bg-white/5 px-2 py-1 text-[10px] font-bold tracking-[.08em] text-white/60 uppercase">${c.cat}</span>
-        </div>
-        <p class="mt-1 line-clamp-2 text-[13px] leading-5 text-[#d8cbbc]">${c.desc}</p>
-        <div class="mono mt-2.5 rounded-xl border border-[rgba(247,223,159,.14)] bg-[#0a070d] p-2.5 text-[11px] leading-5 text-[#f7df9f]">${c.prompt}</div>
-        <div class="mt-3 grid grid-cols-[1fr_1fr_auto] gap-2">
-          <button onclick="copyText('${c.prompt.replace(/'/g,"\\'")}')" class="inline-flex h-9 items-center justify-center gap-1.5 rounded-full bg-white text-xs font-black text-black hover:bg-[#fff7e9]"><i data-lucide="copy" class="h-3.5 w-3.5"></i> Copy</button>
-          <button onclick="addToAgentByCode('${c.code}')" class="inline-flex h-9 items-center justify-center gap-1.5 rounded-full ${inAgent?'bg-[#f7df9f] text-black':'border border-white/15 bg-white/5 text-white hover:bg-white hover:text-black'} text-xs font-black transition"><i data-lucide="${inAgent?'check':'plus'}" class="h-3.5 w-3.5"></i> ${inAgent?'Added':'Agent'}</button>
-          <button onclick="copyText('${c.code}')" class="grid h-9 w-9 place-items-center rounded-full border border-white/10 bg-white/5 text-white/70 hover:bg-white hover:text-black transition"><i data-lucide="clipboard" class="h-4 w-4"></i></button>
-        </div>
-      </div>
-    </article>
-    `;
-  }).join('');
-  lucide.createIcons();
-  document.getElementById('loadMoreBtn').style.display = visible >= arr.length ? 'none':'flex';
+
+
+/* =====================================================
+   APP STATE
+===================================================== */
+
+let currentCategory =
+    Object.keys(promptDatabase)[0];
+
+let currentSubcategory =
+    Object.keys(
+        promptDatabase[currentCategory]
+        .subcategories
+    )[0];
+
+
+
+/* =====================================================
+   RENDER CATEGORIES
+===================================================== */
+
+function renderCategories() {
+
+    const container =
+        document.getElementById("categoryList");
+
+    container.innerHTML = "";
+
+    Object.entries(promptDatabase).forEach(
+        ([id, category]) => {
+
+            const button =
+                document.createElement("button");
+
+            button.className =
+                "category-btn" +
+                (id === currentCategory
+                    ? " active"
+                    : "");
+
+            button.textContent =
+                category.name;
+
+            button.onclick = () => {
+
+                currentCategory = id;
+
+                currentSubcategory =
+                    Object.keys(
+                        category.subcategories
+                    )[0];
+
+                renderApp();
+            };
+
+            container.appendChild(button);
+        }
+    );
 }
 
-function setCategory(id){
-  activeCat=id; visible=8; renderCategories(); renderCodes();
-  document.getElementById('vault').scrollIntoView({behavior:'smooth', block:'start'});
-}
-function clearFilters(){ searchQ=''; searchInput.value=''; activeCat='all'; sortBy='popular'; sortSelect.value='popular'; visible=8; renderCategories(); renderCodes(); }
 
-searchInput.addEventListener('input', e=>{ searchQ=e.target.value; visible=8; renderCodes(); });
-sortSelect.addEventListener('change', e=>{ sortBy=e.target.value; renderCodes(); });
-document.getElementById('loadMoreBtn').addEventListener('click', ()=>{ visible+=8; renderCodes(); });
 
-function copyText(txt){
-  navigator.clipboard.writeText(txt).then(()=> showToast(`Copied ${txt.slice(0,18)}… to clipboard`));
-}
-function showToast(msg){
-  const t=document.getElementById('toast'); document.getElementById('toastMsg').textContent=msg; t.classList.add('show'); setTimeout(()=>t.classList.remove('show'),2200);
-}
-function toggleFav(btn){ btn.classList.toggle('bg-white'); btn.classList.toggle('text-black'); showToast('Added to favorites ♡'); }
+/* =====================================================
+   RENDER SUBCATEGORIES
+===================================================== */
 
-function addToAgentByCode(code){
-  const found = codes.find(c=>c.code===code);
-  if(!found) return;
-  if(agentCodes.some(c=>c.code===code)){ showToast(`${code} already in Agent`); return; }
-  if(agentCodes.length>=6){ showToast('Agent max 6 codes — remove one'); return; }
-  agentCodes.push(found);
-  updateAgent();
-  showToast(`${code} added to Prompt Agent`);
-}
-function addManualCode(){
-  const inp=document.getElementById('manualCode'); let v=inp.value.trim(); if(!v) return;
-  if(!v.startsWith('/')) v='/'+v;
-  if(agentCodes.some(c=>c.code===v)){ showToast('Already added'); return; }
-  const fake={code:v, title:v, prompt:v, desc:'Custom code', cat:'custom', tier:'Custom'};
-  agentCodes.push(fake); inp.value=''; updateAgent(); showToast(`${v} added`);
-}
-function removeFromAgent(code){
-  agentCodes = agentCodes.filter(c=>c.code!==code);
-  updateAgent();
-}
-function clearAgent(){ agentCodes=[]; updateAgent(); }
-function updateAgent(){
-  const chips=document.getElementById('agentChips');
-  const empty=document.getElementById('agentEmpty');
-  const count=document.getElementById('agentCount');
-  const mcount=document.getElementById('mobileCount');
-  const token=document.getElementById('tokenCount');
-  const status=document.getElementById('agentStatus');
-  count.textContent = `${agentCodes.length} codes`;
-  mcount.textContent = agentCodes.length;
-  token.textContent = agentCodes.length*42 + (document.getElementById('subjectInput').value.length*1.2|0);
-  if(agentCodes.length===0){
-    chips.classList.add('hidden'); empty.classList.remove('hidden'); status.textContent='● Awaiting codes'; status.className='text-amber-300';
-  } else {
-    empty.classList.add('hidden'); chips.classList.remove('hidden');
-    chips.innerHTML = agentCodes.map(c=>`
-      <span class="inline-flex items-center gap-1.5 rounded-full border border-[rgba(247,223,159,.22)] bg-[rgba(247,223,159,.12)] px-2.5 py-1.5 text-xs font-bold">
-        <span class="mono text-[#f7df9f]">${c.code}</span>
-        <button onclick="removeFromAgent('${c.code}')" class="grid h-5 w-5 place-items-center rounded-full bg-black/20 hover:bg-black hover:text-white">×</button>
-      </span>
-    `).join('');
-    status.textContent='● Ready to compile'; status.className='text-emerald-400';
-  }
-  document.getElementById('strengthVal').textContent = document.getElementById('strengthRange').value + '%';
-  renderCodes();
+function renderSubcategories() {
+
+    const container =
+        document.getElementById(
+            "subcategoryList"
+        );
+
+    container.innerHTML = "";
+
+    const subcategories =
+        promptDatabase[currentCategory]
+        .subcategories;
+
+    Object.keys(subcategories).forEach(name => {
+
+        const button =
+            document.createElement("button");
+
+        button.className =
+            "subcategory-btn" +
+            (name === currentSubcategory
+                ? " active"
+                : "");
+
+        button.textContent = name;
+
+        button.onclick = () => {
+
+            currentSubcategory = name;
+
+            renderPrompts();
+            renderSubcategories();
+        };
+
+        container.appendChild(button);
+    });
 }
 
-document.getElementById('strengthRange').addEventListener('input', e=>{
-  document.getElementById('strengthVal').textContent = e.target.value + '%';
+
+
+/* =====================================================
+   RENDER PROMPTS
+===================================================== */
+
+function renderPrompts() {
+
+    const grid =
+        document.getElementById("promptsGrid");
+
+    const title =
+        document.getElementById("currentTitle");
+
+    const count =
+        document.getElementById("promptCount");
+
+    const prompts =
+        promptDatabase[currentCategory]
+        .subcategories[currentSubcategory];
+
+    title.textContent =
+        currentSubcategory;
+
+    count.textContent =
+        `${prompts.length} Prompts`;
+
+    grid.innerHTML = "";
+
+    prompts.forEach((prompt, index) => {
+
+        const card =
+            document.createElement("div");
+
+        card.className =
+            "prompt-card";
+
+        card.innerHTML = `
+
+            <div class="prompt-number">
+                PROMPT ${index + 1}
+            </div>
+
+            <div class="prompt-text">
+                ${escapeHTML(prompt)}
+            </div>
+
+            <button class="copy-btn">
+                Copy Prompt
+            </button>
+        `;
+
+        card.querySelector(".copy-btn")
+            .onclick = () =>
+                copyPrompt(prompt);
+
+        grid.appendChild(card);
+    });
+}
+
+
+
+/* =====================================================
+   COPY
+===================================================== */
+
+function copyPrompt(text) {
+
+    navigator.clipboard
+        .writeText(text)
+        .then(() => showToast("Prompt copied"));
+}
+
+
+
+/* =====================================================
+   TOAST
+===================================================== */
+
+function showToast(message) {
+
+    const toast =
+        document.getElementById("toast");
+
+    toast.textContent = message;
+
+    toast.classList.add("show");
+
+    setTimeout(() => {
+
+        toast.classList.remove("show");
+
+    }, 1800);
+}
+
+
+
+/* =====================================================
+   SEARCH
+===================================================== */
+
+document
+.getElementById("searchInput")
+.addEventListener("input", function() {
+
+    const query =
+        this.value
+        .toLowerCase()
+        .trim();
+
+    if (!query) {
+
+        renderPrompts();
+        return;
+    }
+
+    const grid =
+        document.getElementById("promptsGrid");
+
+    grid.innerHTML = "";
+
+    const results = [];
+
+    Object.entries(promptDatabase)
+        .forEach(([categoryId, category]) => {
+
+            Object.entries(category.subcategories)
+                .forEach(([subcategory, prompts]) => {
+
+                    prompts.forEach(prompt => {
+
+                        if (
+                            prompt
+                            .toLowerCase()
+                            .includes(query)
+                        ) {
+
+                            results.push({
+                                category:
+                                    category.name,
+
+                                subcategory,
+
+                                prompt
+                            });
+                        }
+                    });
+                });
+        });
+
+
+    document
+        .getElementById("currentTitle")
+        .textContent =
+        "Search Results";
+
+
+    document
+        .getElementById("promptCount")
+        .textContent =
+        `${results.length} Found`;
+
+
+    results.forEach((item, index) => {
+
+        const card =
+            document.createElement("div");
+
+        card.className =
+            "prompt-card";
+
+        card.innerHTML = `
+
+            <div class="prompt-number">
+                ${item.category} • ${item.subcategory}
+            </div>
+
+            <div class="prompt-text">
+                ${escapeHTML(item.prompt)}
+            </div>
+
+            <button class="copy-btn">
+                Copy Prompt
+            </button>
+        `;
+
+        card.querySelector(".copy-btn")
+            .onclick =
+            () => copyPrompt(item.prompt);
+
+        grid.appendChild(card);
+    });
+
 });
-document.getElementById('subjectInput').addEventListener('input', updateAgent);
 
-function compilePrompt(){
-  if(agentCodes.length===0){ showToast('Add at least 1 code first'); return; }
-  const role=document.getElementById('roleSelect').value;
-  const aspect=document.getElementById('aspectSelect').value;
-  const subject=document.getElementById('subjectInput').value || 'a luxury editorial subject, ultra-detailed';
-  const strength=document.getElementById('strengthRange').value;
-  const codesStr = agentCodes.map(c=>c.code).join(' + ');
-  const details = agentCodes.map(c=> `${c.code}: ${c.desc || c.prompt}`).join(' | ');
-  const prompt = `Act as a ${role}. Create: "${subject}".\n\nApply codes: ${codesStr} — strength ${strength}% — aspect ${aspect} --style raw.\nDetails: ${details}\n\nRequirements: ultra-detailed, natural light, premium finish, 8k, --no blur, distortion.\nOutput for: ChatGPT / Midjourney / SDXL — copy-paste ready.`;
-  const out=document.getElementById('finalPrompt');
-  out.value=prompt;
-  document.getElementById('charCount').textContent = prompt.length + ' chars';
-  updateAgent();
-  showToast('Prompt compiled — ready to copy!');
-  out.focus();
-}
-function copyFinal(share){
-  const v=document.getElementById('finalPrompt').value;
-  if(!v) { showToast('Compile a prompt first'); return; }
-  navigator.clipboard.writeText(v).then(()=>{
-    showToast(share?'Prompt copied & share ready!':'Final prompt copied — paste in ChatGPT!');
-  });
+
+
+/* =====================================================
+   SAFE HTML
+===================================================== */
+
+function escapeHTML(text) {
+
+    return text
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/\n/g, "<br>");
 }
 
-// mobile menu
-document.getElementById('mobileMenuBtn').addEventListener('click', ()=>{
-  document.getElementById('mobileMenu').classList.toggle('hidden');
-});
-// agent toggle on mobile scrolls to agent
-document.getElementById('agentToggle').addEventListener('click', ()=>{
-  document.getElementById('agent').scrollIntoView({behavior:'smooth'});
-});
 
-renderCategories(); renderCodes(); updateAgent();
+
+/* =====================================================
+   APP RENDER
+===================================================== */
+
+function renderApp() {
+
+    renderCategories();
+
+    renderSubcategories();
+
+    renderPrompts();
+}
+
+
+
+/* =====================================================
+   START
+===================================================== */
+
+renderApp();
+
 </script>
+
 </body>
 </html>
