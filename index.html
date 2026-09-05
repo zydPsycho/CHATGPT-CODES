@@ -73,6 +73,60 @@
 </main>
 <footer><img src="blackmark-logo-light.png" alt="BLACKMARK"><div><b>GPT CODES</b> • COMPLETE BUNDLE • 2026</div><small>DESIGNED & CURATED BY BLACKMARK</small></footer>
 <div id="toast"></div>
+<dialog id="builderDialog" class="modal"><div class="modalCard builderModal"><button class="modalClose" onclick="closeDialog('builderDialog')">×</button><span class="eyebrow">COMMAND BUILDER</span><h2>Build your workflow</h2><p class="modalLead">Pick a category, then tap codes to add them. Every category and subcategory in the archive is available here.</p>
+  <div class="builderControls">
+    <select id="builderCategorySelect" class="builderSelect" onchange="builderSelectCategory(this.value)"></select>
+    <input id="builderSearch" type="search" placeholder="Search this category…" oninput="builderSearchInput(this.value)">
+  </div>
+  <div id="builderSubBar" class="subCategoryBar builderSubBar"></div>
+  <div id="builderChoices" class="builderChoices"></div>
+  <div class="builderSelectedHeading"><b>Selected</b><span id="builderSelectedCount">0</span></div>
+  <div id="builderSelected" class="builderSelected"></div>
+  <div class="builderOutput"><span id="builderOutputText">Choose commands above…</span><button class="outlineButton" onclick="clearBuilder()">Clear</button><button onclick="copyBuilder()">COPY</button></div>
+</div></dialog>
+<dialog id="premiumDialog" class="modal"><div class="modalCard premiumModal"><button class="modalClose" onclick="closeDialog('premiumDialog')">×</button><div class="premiumStar">★</div><span class="eyebrow">BLACKMARK PREMIUM</span><h2>More command packs</h2><p class="modalLead">The interface is ready for future premium packs, downloadable bundles and curated workflows without changing the core GitHub Pages architecture.</p><button class="goldButton" onclick="closeDialog('premiumDialog')">Continue exploring</button></div></dialog>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="app.js"></script>
+</body></html>
+    <div class="heroActions"><a class="goldButton" href="#categories">Explore library <span>→</span></a><button class="ghostButton" onclick="openBuilder()">Build a command <span>＋</span></button></div>
+  </div>
+  <div class="heroVisual"><div class="heroImageCard"><img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1100&q=85" alt="Creative workflow"><div class="heroImageOverlay"></div><div class="heroImageBadge">✦ GPT CODES <span>BY BLACKMARK</span></div><div class="heroImageBottom"><b>CREATE • THINK • BUILD</b><small>SEARCH • COMBINE • COPY</small></div></div></div>
+</section>
+<section class="quickTools sectionPad">
+  <div class="searchWrap"><span>⌕</span><input id="globalSearch" type="search" placeholder="Search command, category, subcategory or description…"><button id="clearSearch">×</button><kbd>Ctrl K</kbd></div>
+  <button class="filterToggle" onclick="toggleFilters()">Filters <span>☷</span></button>
+</section>
+<div id="filterBar" class="filterBar sectionPad"></div>
+<section id="categories" class="contentSection sectionPad">
+  <div class="sectionHeading"><div><span class="eyebrow">01 / DISCOVER</span><h2>Categories</h2></div><span class="sectionHint">Select a category to reveal its subcategories</span></div>
+  <div id="categoryGrid" class="categoryGrid"></div>
+</section>
+<section id="library" class="contentSection sectionPad">
+  <div class="sectionHeading"><div><span class="eyebrow">02 / EXPLORE</span><h2 id="libraryHeading">Choose a category</h2></div><span id="resultMeta" class="sectionHint"></span></div>
+  <div id="subCategoryBar" class="subCategoryBar"></div>
+  <div class="libraryShell">
+    <aside class="categorySide"><div id="sideIcon" class="sideIcon">✦</div><h3 id="sideTitle">Choose a category</h3><p id="sideDescription">Select a category above. Its focused subcategories and commands will appear here.</p><div class="sideStats"><span><b id="sideCodeCount">0</b> codes</span><span><b id="sideSubCount">0</b> groups</span></div><button class="outlineButton full" onclick="copyVisibleCodes()">▣ Copy page</button><button class="outlineButton full" onclick="openBuilder()">＋ Command builder</button></aside>
+    <div class="codeArea">
+      <div class="codeToolbar"><div><b id="listTitle">COMMANDS</b><span id="listCount"></span></div><div class="toolbarRight"><button class="toolbarButton" onclick="showOnlyFavorites()">★ Favorites</button><button class="toolbarButton" onclick="copyVisibleCodes()">Copy page</button></div></div>
+      <div id="codeList" class="codeList"></div><div id="noResults" class="noResults hidden">No commands match the current selection.</div>
+      <div id="pagination" class="pagination"></div>
+    </div>
+  </div>
+</section>
+<section id="samples" class="contentSection sectionPad">
+  <div class="sectionHeading"><div><span class="eyebrow">03 / SEE IT</span><h2>Sample Workflows</h2></div><span class="sectionHint">Real combinations, ready to copy</span></div>
+  <div class="sampleGrid">
+    <article class="sampleCard"><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1000&q=85" alt="Landscape workflow"><div class="sampleOverlay"></div><div class="sampleInfo"><div><b>Image Restoration</b><small>/restore /hdreal /4k /natural</small></div><button onclick="copyText('/restore /hdreal /4k /natural')">Copy</button></div></article>
+    <article class="sampleCard"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1000&q=85" alt="Portrait workflow"><div class="sampleOverlay"></div><div class="sampleInfo"><div><b>Portrait Fix</b><small>/facefix /relight /skinfix /4k</small></div><button onclick="copyText('/facefix /relight /skinfix /4k')">Copy</button></div></article>
+    <article class="sampleCard"><img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1000&q=85" alt="Workspace workflow"><div class="sampleOverlay"></div><div class="sampleInfo"><div><b>Code Review</b><small>/review /debug /refactor /tests</small></div><button onclick="copyText('/review /debug /refactor /tests')">Copy</button></div></article>
+    <article class="sampleCard"><img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1000&q=85" alt="Research workflow"><div class="sampleOverlay"></div><div class="sampleInfo"><div><b>Deep Research</b><small>/research /sources /compare /summary</small></div><button onclick="copyText('/research /sources /compare /summary')">Copy</button></div></article>
+  </div>
+</section>
+<section id="favorites" class="contentSection sectionPad"><div class="sectionHeading"><div><span class="eyebrow">04 / SAVED</span><h2>Your Favorites</h2></div><span class="sectionHint">Saved locally on this device</span></div><div id="favoriteList" class="favoriteList"></div></section>
+<section id="about" class="aboutSection sectionPad"><div><span class="eyebrow">ABOUT THE ARCHIVE</span><h2>Organized like a real command system.</h2></div><div><p>Commands are grouped by purpose, then divided into focused subcategories. Selecting a category never throws every command into one endless list: you choose a subcategory, browse a page, and move through the library with pagination.</p><p class="muted">GPT CODES are custom shorthand directives for use with normal instructions. They are not official OpenAI commands.</p><p class="brandCredit">A BLACKMARK CREATIVE PROJECT</p></div></section>
+</main>
+<footer><img src="blackmark-logo-light.png" alt="BLACKMARK"><div><b>GPT CODES</b> • COMPLETE BUNDLE • 2026</div><small>DESIGNED & CURATED BY BLACKMARK</small></footer>
+<div id="toast"></div>
 <dialog id="builderDialog" class="modal"><div class="modalCard"><button class="modalClose" onclick="closeDialog('builderDialog')">×</button><span class="eyebrow">COMMAND BUILDER</span><h2>Build your workflow</h2><p class="modalLead">Choose individual codes. The builder combines them into a copy-ready line.</p><div id="builderChoices" class="builderChoices"></div><div class="builderOutput"><span id="builderOutputText">Choose commands above…</span><button onclick="copyBuilder()">COPY</button></div></div></dialog>
 <dialog id="premiumDialog" class="modal"><div class="modalCard premiumModal"><button class="modalClose" onclick="closeDialog('premiumDialog')">×</button><div class="premiumStar">★</div><span class="eyebrow">BLACKMARK PREMIUM</span><h2>More command packs</h2><p class="modalLead">The interface is ready for future premium packs, downloadable bundles and curated workflows without changing the core GitHub Pages architecture.</p><button class="goldButton" onclick="closeDialog('premiumDialog')">Continue exploring</button></div></dialog>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
