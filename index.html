@@ -1,502 +1,999 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
 <head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>PromptCodes Studio — 10,000+ AI Shortcuts & Visual Prompt Engine</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-<script src="https://cdn.tailwindcss.com"></script>
-<script>tailwind.config={darkMode:'class',theme:{extend:{fontFamily:{sans:['"Plus Jakarta Sans"','system-ui','sans-serif'],mono:['"JetBrains Mono"','monospace']}}}}</script>
-<style>
-:root{--accent:139 92 246;--accent2:236 72 153;--accent3:14 165 233;--radius:16px}
-html{scroll-behavior:smooth}
-body{font-family:'Plus Jakarta Sans',sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
-.grad-accent{background-image:linear-gradient(135deg,rgb(var(--accent)),rgb(var(--accent2)))}
-.grad-cyan{background-image:linear-gradient(135deg,#06b6d4,#3b82f6)}
-.grad-sunset{background-image:linear-gradient(135deg,#f43f5e,#fb923c)}
-.text-grad{background-image:linear-gradient(110deg,rgb(var(--accent)) 0%,rgb(var(--accent2)) 50%,#38bdf8 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
-.grid-bg{position:fixed;inset:0;z-index:0;pointer-events:none;background-image:radial-gradient(circle at 50% 0%,rgba(var(--accent),.14) 0%,transparent 60%),linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:100% 100%,48px 48px,48px 48px}
-html:not(.dark) .grid-bg{background-image:radial-gradient(circle at 50% 0%,rgba(var(--accent),.09) 0%,transparent 60%),linear-gradient(rgba(0,0,0,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(0,0,0,.04) 1px,transparent 1px)}
-.orb{position:fixed;border-radius:9999px;filter:blur(110px);opacity:.32;pointer-events:none;z-index:0;animation:float 22s ease-in-out infinite alternate}
-@keyframes float{0%{transform:translate3d(0,0,0) scale(1)}50%{transform:translate3d(60px,-40px,0) scale(1.12)}100%{transform:translate3d(-40px,30px,0) scale(.94)}}
-.glass{background:rgba(15,23,42,.66);border:1px solid rgba(255,255,255,.08);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
-html:not(.dark) .glass{background:rgba(255,255,255,.84);border:1px solid rgba(15,23,42,.08);box-shadow:0 10px 30px -12px rgba(0,0,0,.08)}
-html:not(.dark) body{background:#f8fafc!important;color:#0f172a!important}
-html:not(.dark) .text-slate-300,html:not(.dark) .text-slate-400{color:#475569!important}
-html:not(.dark) .text-white{color:#0f172a!important}
-html:not(.dark) .bg-slate-900\/60,html:not(.dark) .bg-slate-900\/90,html:not(.dark) .bg-slate-900{ background:rgba(255,255,255,.9)!important;color:#0f172a!important;border-color:rgba(0,0,0,.08)!important}
-.glass-card{position:relative;background:rgba(30,41,59,.42);border:1px solid rgba(255,255,255,.07);backdrop-filter:blur(12px);border-radius:var(--radius);transition:all .28s cubic-bezier(.16,1,.3,1);opacity:0;transform:translateY(18px);animation:cardIn .6s cubic-bezier(.16,1,.3,1) forwards}
-html:not(.dark) .glass-card{background:rgba(255,255,255,.9);border:1px solid rgba(15,23,42,.07)}
-.glass-card:hover{transform:translateY(-5px)!important;border-color:rgba(var(--accent),.5);box-shadow:0 18px 40px -14px rgba(var(--accent),.35)}
-@keyframes cardIn{to{opacity:1;transform:translateY(0)}}
-::-webkit-scrollbar{width:7px;height:7px}::-webkit-scrollbar-track{background:transparent}::-webkit-scrollbar-thumb{background:rgba(148,163,184,.28);border-radius:99px}::-webkit-scrollbar-thumb:hover{background:rgba(var(--accent),.6)}
-.kbd{font-family:'JetBrains Mono',monospace;font-size:10px;padding:2px 6px;border-radius:5px;border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.06)}
-html:not(.dark) .kbd{border:1px solid rgba(0,0,0,.15);background:rgba(0,0,0,.06)}
-.code-pill{font-family:'JetBrains Mono',monospace;letter-spacing:-.02em}
-.pulse-dot{animation:pulseGlow 2s infinite}@keyframes pulseGlow{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.8)}}
-.nav-tab.active{background:rgba(var(--accent),.2);color:#fff!important;border:1px solid rgba(var(--accent),.5)}
-html:not(.dark) .nav-tab.active{color:#0f172a!important}
-.switch{width:42px;height:24px;border-radius:99px;position:relative;cursor:pointer;transition:background .25s;background:#334155;flex-shrink:0}
-.switch span{position:absolute;top:3px;left:3px;width:18px;height:18px;border-radius:99px;background:#fff;transition:transform .25s cubic-bezier(.2,.9,.2,1)}
-.switch.on{background:rgb(var(--accent))}.switch.on span{transform:translateX(18px)}
-.category-scroll::-webkit-scrollbar{display:none}.category-scroll{scrollbar-width:none}
-.marquee-track{display:flex;gap:8px;animation:marq 28s linear infinite;width:max-content}
-@keyframes marq{to{transform:translateX(-50%)}}
-.hero-reveal{animation:heroUp .9s cubic-bezier(.16,1,.3,1) both}
-@keyframes heroUp{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:translateY(0)}}
-.shimmer{background:linear-gradient(110deg,rgba(255,255,255,.06) 30%,rgba(255,255,255,.14) 50%,rgba(255,255,255,.06) 70%);background-size:200% 100%;animation:shim 1.4s linear infinite}
-@keyframes shim{to{background-position:-200% 0}}
-.modal-pop{animation:pop .35s cubic-bezier(.16,1,.3,1)}
-@keyframes pop{from{opacity:0;transform:scale(.96) translateY(14px)}to{opacity:1;transform:scale(1) translateY(0)}}
-.drawer-slide{animation:slideIn .35s cubic-bezier(.16,1,.3,1)}
-@keyframes slideIn{from{transform:translateX(60px);opacity:0}to{transform:translateX(0);opacity:1}}
-.tick{font-variant-numeric:tabular-nums}
-.img-frame{position:relative;overflow:hidden;border-radius:18px;border:1px solid rgba(255,255,255,.12)}
-.img-frame img{transition:transform .8s cubic-bezier(.16,1,.3,1)}.img-frame:hover img{transform:scale(1.06)}
-.line-clamp-1{display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
-.line-clamp-2{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-#toast{transition:all .3s cubic-bezier(.16,1,.3,1)}
-select option{background:#0f172a}
-html:not(.dark) select option{background:#fff;color:#0f172a}
-input:focus,select:focus,textarea:focus{border-color:rgb(var(--accent))!important;box-shadow:0 0 0 3px rgba(var(--accent),.18);outline:none}
-.btn-glow{box-shadow:0 8px 26px -8px rgba(var(--accent),.6)}
-.chip-active{box-shadow:0 6px 20px -6px rgba(var(--accent),.5)}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BLACKMARK — AI Code Gallery</title>
+
+  <style>
+    :root {
+      --black: #0b0b0b;
+      --dark: #151515;
+      --gray-900: #222;
+      --gray-700: #555;
+      --gray-500: #8a8a8a;
+      --gray-300: #d5d5d5;
+      --gray-200: #e9e9e9;
+      --gray-100: #f5f5f5;
+      --white: #fff;
+      --radius: 14px;
+      --shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: var(--gray-100);
+      color: var(--black);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", sans-serif;
+      line-height: 1.5;
+    }
+
+    button,
+    input,
+    select,
+    textarea {
+      font: inherit;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    .app {
+      min-height: 100vh;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 18px 5vw;
+      background: rgba(255, 255, 255, 0.94);
+      border-bottom: 1px solid var(--gray-200);
+      backdrop-filter: blur(14px);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--black);
+      text-decoration: none;
+    }
+
+    .brand-mark {
+      width: 38px;
+      height: 38px;
+      display: grid;
+      place-items: center;
+      color: var(--white);
+      background: var(--black);
+      border-radius: 10px;
+      font-weight: 900;
+      font-size: 17px;
+    }
+
+    .brand h1 {
+      font-size: 18px;
+      letter-spacing: -0.04em;
+      line-height: 1;
+    }
+
+    .brand span {
+      display: block;
+      color: var(--gray-500);
+      font-size: 10px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-top: 4px;
+    }
+
+    .top-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .github-btn,
+    .primary-btn {
+      border: 0;
+      background: var(--black);
+      color: var(--white);
+      padding: 11px 16px;
+      border-radius: 9px;
+      font-weight: 700;
+      text-decoration: none;
+      transition: transform 0.2s, background 0.2s;
+    }
+
+    .github-btn:hover,
+    .primary-btn:hover {
+      background: var(--gray-900);
+      transform: translateY(-1px);
+    }
+
+    .hero {
+      padding: 72px 5vw 46px;
+      background: var(--white);
+      border-bottom: 1px solid var(--gray-200);
+    }
+
+    .hero-inner {
+      max-width: 1180px;
+      margin: auto;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--gray-700);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 26px;
+      height: 2px;
+      background: var(--black);
+    }
+
+    .hero h2 {
+      max-width: 740px;
+      font-size: clamp(38px, 6vw, 76px);
+      line-height: 0.96;
+      letter-spacing: -0.075em;
+      margin-bottom: 22px;
+    }
+
+    .hero p {
+      max-width: 620px;
+      color: var(--gray-700);
+      font-size: 17px;
+    }
+
+    .hero-stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 26px;
+      margin-top: 30px;
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 24px;
+      letter-spacing: -0.05em;
+    }
+
+    .stat span {
+      color: var(--gray-500);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    .workspace {
+      max-width: 1380px;
+      margin: auto;
+      padding: 32px 5vw 70px;
+    }
+
+    .toolbar {
+      display: grid;
+      grid-template-columns: 1fr auto auto;
+      gap: 12px;
+      margin-bottom: 22px;
+    }
+
+    .search-box,
+    .select-box {
+      position: relative;
+    }
+
+    .search-box input,
+    .select-box select {
+      width: 100%;
+      height: 48px;
+      border: 1px solid var(--gray-300);
+      border-radius: 10px;
+      background: var(--white);
+      color: var(--black);
+      padding: 0 15px;
+      outline: none;
+    }
+
+    .search-box input:focus,
+    .select-box select:focus {
+      border-color: var(--black);
+      box-shadow: 0 0 0 3px var(--gray-200);
+    }
+
+    .select-box select {
+      min-width: 180px;
+      cursor: pointer;
+    }
+
+    .toolbar-btn {
+      height: 48px;
+      padding: 0 16px;
+      border: 1px solid var(--gray-300);
+      background: var(--white);
+      border-radius: 10px;
+      font-weight: 700;
+    }
+
+    .toolbar-btn:hover {
+      border-color: var(--black);
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 230px 1fr;
+      gap: 26px;
+    }
+
+    .sidebar {
+      align-self: start;
+      position: sticky;
+      top: 90px;
+    }
+
+    .sidebar-title {
+      color: var(--gray-500);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .category-list {
+      display: grid;
+      gap: 5px;
+    }
+
+    .category-btn {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      border: 0;
+      background: transparent;
+      color: var(--gray-700);
+      padding: 11px 12px;
+      border-radius: 8px;
+      text-align: left;
+      transition: 0.2s;
+    }
+
+    .category-btn:hover,
+    .category-btn.active {
+      background: var(--black);
+      color: var(--white);
+    }
+
+    .category-count {
+      font-size: 11px;
+      opacity: 0.65;
+    }
+
+    .content-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      margin-bottom: 15px;
+    }
+
+    .content-head h3 {
+      font-size: 22px;
+      letter-spacing: -0.04em;
+    }
+
+    .result-count {
+      color: var(--gray-500);
+      font-size: 13px;
+    }
+
+    .prompt-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .prompt-card {
+      display: flex;
+      flex-direction: column;
+      min-height: 285px;
+      padding: 20px;
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.025);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .prompt-card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow);
+    }
+
+    .card-top,
+    .card-bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .card-top {
+      align-items: flex-start;
+    }
+
+    .tag-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .tag {
+      display: inline-flex;
+      border: 1px solid var(--gray-300);
+      border-radius: 999px;
+      color: var(--gray-700);
+      padding: 4px 8px;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .copy-btn {
+      flex-shrink: 0;
+      border: 1px solid var(--gray-300);
+      background: var(--white);
+      border-radius: 7px;
+      padding: 7px 9px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .copy-btn:hover {
+      background: var(--black);
+      color: var(--white);
+      border-color: var(--black);
+    }
+
+    .prompt-card h4 {
+      margin: 22px 0 9px;
+      font-size: 19px;
+      letter-spacing: -0.04em;
+    }
+
+    .prompt-card p {
+      color: var(--gray-700);
+      font-size: 14px;
+      white-space: pre-line;
+    }
+
+    .code-preview {
+      flex: 1;
+      margin: 17px 0;
+      padding: 13px;
+      background: var(--gray-100);
+      border: 1px solid var(--gray-200);
+      border-radius: 9px;
+      color: var(--gray-900);
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 12px;
+      line-height: 1.55;
+      white-space: pre-wrap;
+      overflow: hidden;
+    }
+
+    .card-bottom {
+      padding-top: 12px;
+      border-top: 1px solid var(--gray-200);
+      color: var(--gray-500);
+      font-size: 11px;
+    }
+
+    .shortcode {
+      color: var(--black);
+      font-family: ui-monospace, monospace;
+      font-weight: 800;
+    }
+
+    .pagination {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      margin-top: 30px;
+    }
+
+    .page-btn {
+      min-width: 38px;
+      height: 38px;
+      border: 1px solid var(--gray-300);
+      background: var(--white);
+      border-radius: 8px;
+      font-weight: 700;
+    }
+
+    .page-btn:hover,
+    .page-btn.active {
+      color: var(--white);
+      background: var(--black);
+      border-color: var(--black);
+    }
+
+    .empty-state {
+      display: none;
+      padding: 60px 20px;
+      text-align: center;
+      color: var(--gray-500);
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+    }
+
+    .footer {
+      padding: 26px 5vw;
+      color: var(--gray-500);
+      border-top: 1px solid var(--gray-200);
+      background: var(--white);
+      font-size: 13px;
+      text-align: center;
+    }
+
+    @media (max-width: 900px) {
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        position: static;
+      }
+
+      .category-list {
+        display: flex;
+        gap: 7px;
+        overflow-x: auto;
+        padding-bottom: 5px;
+      }
+
+      .category-btn {
+        width: auto;
+        flex-shrink: 0;
+        white-space: nowrap;
+      }
+    }
+
+    @media (max-width: 650px) {
+      .topbar {
+        padding: 14px 4vw;
+      }
+
+      .github-btn {
+        display: none;
+      }
+
+      .hero {
+        padding: 52px 4vw 38px;
+      }
+
+      .workspace {
+        padding: 25px 4vw 55px;
+      }
+
+      .toolbar {
+        grid-template-columns: 1fr;
+      }
+
+      .select-box select,
+      .toolbar-btn {
+        width: 100%;
+      }
+
+      .prompt-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .content-head {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+  </style>
 </head>
-<body class="bg-slate-950 text-slate-100 min-h-screen selection:bg-purple-500/30">
-<div class="grid-bg"></div>
-<div class="orb" style="width:560px;height:560px;background:rgb(var(--accent));top:-180px;left:-120px"></div>
-<div class="orb" style="width:500px;height:500px;background:rgb(var(--accent2));top:22%;right:-150px;animation-delay:-6s"></div>
-<div class="orb" style="width:430px;height:430px;background:#0284c7;bottom:4%;left:32%;animation-delay:-12s;opacity:.18"></div>
-<canvas id="particles" class="fixed inset-0 z-0 pointer-events-none opacity-60"></canvas>
 
-<!-- HEADER -->
-<header class="sticky top-0 z-40 glass border-b border-white/10">
-<div class="max-w-[1700px] mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-3">
-<a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;" class="flex items-center gap-3 shrink-0 group">
-<div class="w-10 h-10 rounded-xl grad-accent grid place-items-center shadow-lg shadow-purple-600/30 group-hover:rotate-6 group-hover:scale-105 transition">
-<svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14.25 9.75L16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-</div>
-<div><div class="flex items-center gap-1.5 font-extrabold tracking-tight text-lg leading-tight"><span>Prompt</span><span class="text-grad">Codes</span><span class="text-[10px] uppercase font-mono px-1.5 py-0.5 rounded bg-purple-500/20 text-purple-300 border border-purple-500/30">v3.0</span></div>
-<div class="text-[10.5px] text-slate-400 font-medium">10,000+ AI & Visual Prompts Engine</div></div>
-</a>
-<div class="flex-1 max-w-xl mx-2 hidden md:block"><div class="relative">
-<svg class="w-4 h-4 absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-<input id="mainSearchInput" type="text" placeholder="Search 10,000+ prompts ( /pose.cinematic, /lit.neon, cyberpunk, SEO )..." class="w-full bg-slate-900/60 border border-white/10 rounded-xl pl-10 pr-16 py-2 text-sm placeholder:text-slate-500 transition"/>
-<div class="absolute right-2.5 top-1/2 -translate-y-1/2 flex gap-1"><span class="kbd">⌘</span><span class="kbd">K</span></div>
-</div></div>
-<div class="flex items-center gap-2">
-<nav class="hidden lg:flex items-center bg-white/5 p-1 rounded-xl border border-white/10 gap-1">
-<button data-nav="catalog" class="nav-tab active px-3.5 py-1.5 rounded-lg text-xs font-semibold transition">All Codes</button>
-<button data-nav="visual" class="nav-tab px-3.5 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-pink-500"></span>Visual Studio</button>
-<button data-nav="composer" class="nav-tab px-3.5 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-cyan-400"></span>Matrix Stacker</button>
-<button data-nav="libraries" class="nav-tab px-3.5 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white transition">Packs</button>
-</nav>
-<button id="openFavoritesBtn" class="relative p-2.5 rounded-xl hover:bg-white/10 border border-transparent hover:border-white/10 transition" title="Saved">
-<svg class="w-5 h-5 text-rose-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"/></svg>
-<span id="favBadge" class="absolute -top-0.5 -right-0.5 min-w-[18px] h-[18px] px-1 bg-pink-600 text-[10px] font-bold text-white rounded-full grid place-items-center">0</span>
-</button>
-<button id="openSettingsBtn" class="p-2.5 rounded-xl hover:bg-white/10 border border-transparent hover:border-white/10 transition" title="Settings">
-<svg class="w-5 h-5 text-slate-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-</button>
-<button id="toggleThemeBtn" class="p-2.5 rounded-xl hover:bg-white/10 border border-transparent hover:border-white/10 transition" title="Theme">🌙</button>
-</div></div>
-<div class="md:hidden px-4 pb-3"><input id="mobileSearchInput" placeholder="Search 10,000+ codes..." class="w-full bg-slate-900/60 border border-white/10 rounded-xl px-4 py-2 text-sm"/></div>
-</header>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <a href="#" class="brand">
+        <div class="brand-mark">B</div>
+        <div>
+          <h1>BLACKMARK</h1>
+          <span>AI code gallery</span>
+        </div>
+      </a>
 
-<!-- HERO -->
-<section class="relative z-10 max-w-[1700px] mx-auto px-4 sm:px-6 pt-10 pb-6">
-<div class="flex flex-col lg:flex-row gap-8 items-start lg:items-center justify-between">
-<div class="max-w-3xl hero-reveal">
-<div class="inline-flex items-center gap-2.5 glass px-3.5 py-1.5 rounded-full text-xs font-semibold mb-5 border border-purple-500/30">
-<span class="w-2.5 h-2.5 rounded-full bg-emerald-400 pulse-dot"></span>
-<span class="text-slate-300">Database Live: <strong class="text-white font-mono tick" id="heroCodeCount">10,480+</strong> Prompt Codes</span>
-<span class="text-purple-400 hidden sm:inline">· ChatGPT, Claude & Midjourney / Flux Ready</span>
-</div>
-<h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight leading-[1.06]">One short code.<br/><span class="text-grad">Infinite high-yield prompts.</span></h1>
-<p class="mt-4 text-slate-300 text-base sm:text-lg leading-relaxed max-w-2xl">Instantly invoke hyper-engineered system prompts for LLMs and deep visual codes for Midjourney, Stable Diffusion & Flux. <strong class="text-white">Lighting, Poses, Outfits, Hair, Ambience, Edits & Code.</strong></p>
-<div class="mt-5 overflow-hidden max-w-2xl"><div class="marquee-track text-xs font-mono" id="heroMarquee"></div></div>
-<div class="mt-6 flex flex-wrap gap-2">
-<button onclick="quickSearch('/pose.contrapposto')" class="px-3 py-1.5 rounded-lg bg-purple-500/10 text-purple-300 border border-purple-500/25 text-xs font-mono hover:bg-purple-500/25 transition">/pose.contrapposto</button>
-<button onclick="quickSearch('/lit.cyber')" class="px-3 py-1.5 rounded-lg bg-pink-500/10 text-pink-300 border border-pink-500/25 text-xs font-mono hover:bg-pink-500/25 transition">/lit.cyber-rembrandt</button>
-<button onclick="quickSearch('/fit.')" class="px-3 py-1.5 rounded-lg bg-cyan-500/10 text-cyan-300 border border-cyan-500/25 text-xs font-mono hover:bg-cyan-500/25 transition">/fit.cyber-couture</button>
-<button onclick="quickSearch('/edit.relight')" class="px-3 py-1.5 rounded-lg bg-emerald-500/10 text-emerald-300 border border-emerald-500/25 text-xs font-mono hover:bg-emerald-500/25 transition">/edit.relight-sunset</button>
-<button onclick="quickSearch('/dev.architect')" class="px-3 py-1.5 rounded-lg bg-amber-500/10 text-amber-300 border border-amber-500/25 text-xs font-mono hover:bg-amber-500/25 transition">/dev.architect</button>
-</div>
-<div class="mt-6 flex flex-wrap gap-3">
-<button onclick="switchNav('composer')" class="grad-accent btn-glow px-6 py-3 rounded-xl text-sm font-bold text-white hover:brightness-110 transition">⚡ Open Matrix Stacker</button>
-<button onclick="switchNav('visual')" class="px-6 py-3 rounded-xl text-sm font-bold border border-white/15 hover:bg-white/10 transition">🎨 Visual Atelier</button>
-</div>
-</div>
-<div class="w-full lg:w-[440px] shrink-0 hero-reveal" style="animation-delay:.15s">
-<div class="img-frame shadow-2xl shadow-purple-900/40">
-<img src="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?w=900&q=80&auto=format&fit=crop" alt="AI visual" class="w-full h-56 object-cover"/>
-<div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/30 to-transparent"></div>
-<div class="absolute bottom-3 left-3 right-3 flex items-center justify-between">
-<div class="glass rounded-xl px-3 py-2"><div class="text-[10px] font-mono text-cyan-300">MASTER PROMPT RENDER</div><div class="text-xs font-bold text-white">Neon Rembrandt · 8K Raw · --ar 16:9</div></div>
-<div class="w-10 h-10 rounded-full grad-accent grid place-items-center text-white font-bold animate-pulse">▶</div>
-</div>
-</div>
-<div class="grid grid-cols-4 gap-2 mt-3">
-<div class="glass p-3 rounded-xl text-center"><div class="text-lg sm:text-xl font-extrabold text-purple-400 font-mono tick" id="statCodes">10k+</div><div class="text-[9px] text-slate-400 uppercase tracking-wider font-semibold">Codes</div></div>
-<div class="glass p-3 rounded-xl text-center"><div class="text-lg sm:text-xl font-extrabold text-pink-400 font-mono">8</div><div class="text-[9px] text-slate-400 uppercase tracking-wider font-semibold">Studios</div></div>
-<div class="glass p-3 rounded-xl text-center"><div class="text-lg sm:text-xl font-extrabold text-cyan-400 font-mono">6</div><div class="text-[9px] text-slate-400 uppercase tracking-wider font-semibold">Engines</div></div>
-<div class="glass p-3 rounded-xl text-center"><div class="text-lg sm:text-xl font-extrabold text-emerald-400 font-mono">0.02s</div><div class="text-[9px] text-slate-400 uppercase tracking-wider font-semibold">Copy</div></div>
-</div>
-</div>
-</div>
-</section>
+      <div class="top-actions">
+        <a
+          class="github-btn"
+          href="https://github.com/"
+          target="_blank"
+          rel="noopener"
+        >
+          View on GitHub ↗
+        </a>
+      </div>
+    </header>
 
-<!-- CATEGORY BAR -->
-<div class="sticky top-16 z-30 glass border-y border-white/10 py-2.5">
-<div class="max-w-[1700px] mx-auto px-4 sm:px-6 flex items-center gap-3">
-<div id="categoryChips" class="flex items-center gap-2 overflow-x-auto category-scroll py-1 flex-1"></div>
-<div class="hidden sm:flex items-center gap-2 shrink-0">
-<select id="engineFilter" class="bg-slate-900 border border-white/10 rounded-lg px-2.5 py-1.5 text-xs focus:outline-none">
-<option value="all">All Models</option><option value="chatgpt">ChatGPT / GPT-4o</option><option value="claude">Claude 3.7</option><option value="midjourney">Midjourney v6.1</option><option value="flux">Flux.1 Pro</option><option value="sd">Stable Diffusion XL</option>
-</select>
-</div>
-</div>
-</div>
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="eyebrow">Prompt intelligence library</div>
+        <h2>Build better with shorter instructions.</h2>
+        <p>
+          A curated gallery of reusable AI prompts, workflows, commands and
+          shortcodes for creators, developers, marketers and researchers.
+        </p>
 
-<!-- MAIN -->
-<main class="relative z-10 max-w-[1700px] mx-auto px-4 sm:px-6 py-8">
-<!-- CATALOG -->
-<section id="viewCatalog">
-<div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-5">
-<div><h2 class="text-2xl font-bold flex items-center gap-2"><span id="catalogHeading">10,000+ Codes Library</span><span class="text-xs font-mono font-normal px-2 py-0.5 rounded-full bg-purple-500/20 text-purple-300" id="resultsCount">Loading...</span></h2>
-<p class="text-xs text-slate-400 mt-1" id="catalogSubheading">Atomic prompt codes with variable injection {{slots}} & parameter macros. Click Copy for instant use.</p></div>
-<div class="flex items-center gap-2">
-<div class="flex items-center bg-white/5 border border-white/10 rounded-xl p-1 text-xs font-mono">
-<button id="viewGridModeBtn" class="px-2.5 py-1 rounded-lg bg-white/10 text-white font-semibold">Grid</button>
-<button id="viewListModeBtn" class="px-2.5 py-1 rounded-lg text-slate-400 hover:text-white">Compact</button>
-</div>
-<select id="sortOrder" class="bg-slate-900 border border-white/10 rounded-xl px-3 py-1.5 text-xs focus:outline-none"><option value="popular">Most Popular</option><option value="name">Alphabetical</option><option value="category">By Category</option></select>
-</div></div>
-<div id="filterPills" class="flex flex-wrap gap-2 mb-5 empty:hidden"></div>
-<div id="promptsGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4"></div>
-<div class="mt-8 flex flex-col sm:flex-row items-center justify-between gap-4 glass p-4 rounded-2xl border border-white/10">
-<div class="text-xs text-slate-400" id="paginationInfo">Showing...</div>
-<div class="flex items-center gap-2">
-<button id="prevPageBtn" class="px-3 py-1.5 rounded-xl border border-white/10 text-xs font-semibold hover:bg-white/10 transition disabled:opacity-40">Previous</button>
-<div class="font-mono text-xs" id="pageNumbers"></div>
-<button id="nextPageBtn" class="px-3 py-1.5 rounded-xl border border-white/10 text-xs font-semibold hover:bg-white/10 transition">Next</button>
-</div></div>
-</section>
+        <div class="hero-stats">
+          <div class="stat">
+            <strong id="promptStat">00</strong>
+            <span>Prompts</span>
+          </div>
 
-<!-- VISUAL -->
-<section id="viewVisual" class="hidden">
-<div class="mb-6 flex flex-col lg:flex-row lg:items-end justify-between gap-4">
-<div><div class="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-pink-500/10 text-pink-400 border border-pink-500/20 text-xs font-mono font-semibold mb-2">VISUAL ATTRIBUTE ATELIER</div>
-<h2 class="text-3xl font-extrabold tracking-tight">AI Image & Generation Studio</h2>
-<p class="text-sm text-slate-400 mt-1 max-w-3xl">Specialized codes for Midjourney, Flux.1 & SDXL. Build characters, photoreal lighting, poses, couture fabrics, camera rigs & inpainting edits.</p></div>
-<div class="flex gap-2">
-<div class="img-frame w-28 h-20 hidden sm:block"><img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400&q=80&auto=format&fit=crop" class="w-full h-full object-cover" alt="portrait"/></div>
-<div class="img-frame w-28 h-20 hidden sm:block"><img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=400&q=80&auto=format&fit=crop" class="w-full h-full object-cover" alt="neon"/></div>
-<div class="img-frame w-28 h-20 hidden sm:block"><img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w=400&q=80&auto=format&fit=crop" class="w-full h-full object-cover" alt="fashion"/></div>
-</div></div>
-<div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-3 mb-7" id="visualSubcatGrid"></div>
-<div class="flex items-center justify-between mb-3"><h3 class="font-bold text-sm" id="visualGridTitle">Poses — Top 32 Presets</h3><button onclick="switchNav('composer')" class="text-xs font-semibold text-pink-300 hover:text-pink-200">Send selection to Matrix →</button></div>
-<div id="visualPromptsGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4"></div>
-</section>
+          <div class="stat">
+            <strong id="categoryStat">00</strong>
+            <span>Categories</span>
+          </div>
 
-<!-- COMPOSER -->
-<section id="viewComposer" class="hidden">
-<div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
-<div class="lg:col-span-7 space-y-4">
-<div class="glass p-5 rounded-2xl border border-white/10">
-<div class="flex items-center justify-between mb-4 flex-wrap gap-2">
-<div><h3 class="font-bold text-lg">Visual Prompt Stacker</h3><p class="text-xs text-slate-400">Combine atomic visual codes into one hyper-dense master prompt.</p></div>
-<button id="randomizeMatrixBtn" class="px-3 py-1.5 rounded-xl bg-purple-500/20 hover:bg-purple-500/30 text-purple-300 text-xs font-semibold border border-purple-500/30 transition">🎲 Randomize All</button>
-</div>
-<div class="space-y-3" id="matrixSlots"></div>
-</div>
-<div class="glass p-5 rounded-2xl border border-white/10">
-<h4 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">Live Layer Preview</h4>
-<div class="flex flex-wrap gap-1.5" id="matrixChips"></div>
-</div>
-</div>
-<div class="lg:col-span-5 space-y-4">
-<div class="glass p-5 rounded-2xl border border-white/10 lg:sticky lg:top-32">
-<div class="flex items-center justify-between mb-3"><span class="text-xs font-mono font-bold text-cyan-400 uppercase tracking-wider">Master Prompt Output</span><span class="text-[11px] font-mono text-slate-400" id="matrixTokenCount">0 chars</span></div>
-<textarea id="matrixOutputText" rows="11" readonly class="w-full bg-slate-900/90 border border-white/10 rounded-xl p-3.5 text-xs font-mono leading-relaxed focus:outline-none"></textarea>
-<div class="mt-4 pt-4 border-t border-white/10 space-y-2.5">
-<div class="text-xs font-semibold mb-2">Engine Enhancers</div>
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
-<label class="flex items-center gap-2 p-2 rounded-lg bg-white/5 border border-white/5 cursor-pointer"><input type="checkbox" id="addMjParams" checked class="accent-purple-500"/><span>Add Midjourney (--ar --v 6.1)</span></label>
-<label class="flex items-center gap-2 p-2 rounded-lg bg-white/5 border border-white/5 cursor-pointer"><input type="checkbox" id="addPhotoreal" checked class="accent-purple-500"/><span>Photoreal Lens Macro</span></label>
-<label class="flex items-center gap-2 p-2 rounded-lg bg-white/5 border border-white/5 cursor-pointer"><input type="checkbox" id="addNegative" checked class="accent-purple-500"/><span>Negative Prompt Guard</span></label>
-<label class="flex items-center gap-2 p-2 rounded-lg bg-white/5 border border-white/5 cursor-pointer"><input type="checkbox" id="addColorGrade" class="accent-purple-500"/><span>Cinematic Color Grade</span></label>
-</div></div>
-<div class="mt-5 flex gap-2">
-<button id="copyMatrixBtn" class="flex-1 grad-accent text-white font-semibold py-2.5 px-4 rounded-xl text-xs hover:brightness-110 shadow-lg shadow-purple-600/30 transition flex items-center justify-center gap-2">⧉ Copy Master Prompt</button>
-<button id="resetMatrixBtn" class="px-4 py-2.5 rounded-xl border border-white/10 hover:bg-white/10 text-xs font-semibold transition">Reset</button>
-</div>
-<button id="sendMatrixToModalBtn" class="w-full mt-2 py-2 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 text-xs font-semibold transition">Open in Inspector & Edit Variables</button>
-</div>
-</div>
-</div>
-</section>
+          <div class="stat">
+            <strong>100%</strong>
+            <span>Free to use</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!-- LIBRARIES -->
-<section id="viewLibraries" class="hidden">
-<div class="mb-7"><h2 class="text-3xl font-extrabold tracking-tight">Curated Workflow Packs</h2><p class="text-sm text-slate-400 mt-1">Specialized collections for Directors, Engineers, Marketers & Concept Artists. One click loads presets.</p></div>
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5" id="workflowPacksGrid"></div>
-<div class="mt-8 glass rounded-2xl p-6 border border-white/10 flex flex-col md:flex-row items-center gap-6">
-<div class="img-frame w-full md:w-64 h-40 shrink-0"><img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=600&q=80&auto=format&fit=crop" class="w-full h-full object-cover" alt="library"/></div>
-<div class="flex-1"><h3 class="font-bold text-lg">Build your own Pack from 10,000+ codes</h3><p class="text-sm text-slate-400 mt-1">Save any code with ♥ to your personal library, then export the whole stack as JSON or copy-merged prompt.</p>
-<div class="flex flex-wrap gap-2 mt-3"><button onclick="openFavorites()" class="grad-accent px-5 py-2 rounded-xl text-xs font-bold text-white">Open My Library</button><button onclick="exportFavorites()" class="px-5 py-2 rounded-xl border border-white/10 text-xs font-semibold hover:bg-white/10">Export JSON</button><button onclick="copyAllFavorites()" class="px-5 py-2 rounded-xl border border-white/10 text-xs font-semibold hover:bg-white/10">Copy Merged Prompts</button></div></div>
-</div>
-</section>
-</main>
+    <main class="workspace">
+      <div class="toolbar">
+        <div class="search-box">
+          <input
+            id="searchInput"
+            type="search"
+            placeholder="Search prompts, categories, shortcodes..."
+            aria-label="Search prompts"
+          />
+        </div>
 
-<footer class="relative z-10 max-w-[1700px] mx-auto px-4 sm:px-6 pb-10">
-<div class="glass rounded-2xl p-5 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-slate-400">
-<div>© 2026 PromptCodes Studio · <span id="footCount" class="font-mono text-purple-300">10,000+</span> atomic codes · ChatGPT · Claude · Midjourney · Flux · SDXL</div>
-<div class="flex gap-4 font-mono"><span><span class="kbd">⌘</span> <span class="kbd">K</span> palette</span><span><span class="kbd">ESC</span> close</span></div>
-</div>
-</footer>
+        <div class="select-box">
+          <select id="subcategoryFilter" aria-label="Filter by subcategory">
+            <option value="all">All subcategories</option>
+          </select>
+        </div>
 
-<!-- DETAIL MODAL -->
-<div id="detailModal" class="fixed inset-0 z-50 hidden">
-<div class="absolute inset-0 bg-slate-950/80 backdrop-blur-md" id="modalBackdrop"></div>
-<div class="relative min-h-screen grid place-items-center p-4 pointer-events-none"><div class="pointer-events-auto glass border border-white/15 w-full max-w-3xl rounded-3xl overflow-hidden shadow-2xl my-8 modal-pop">
-<div class="p-6 border-b border-white/10 flex items-start justify-between gap-4">
-<div class="flex items-start gap-4"><div id="modalIcon" class="w-12 h-12 rounded-2xl grad-accent grid place-items-center text-xl shrink-0 text-white font-bold">⚡</div>
-<div><div class="flex items-center gap-2 flex-wrap"><span id="modalCode" class="font-mono text-xs font-bold px-2 py-0.5 rounded-md bg-purple-500/20 text-purple-300 border border-purple-500/30">/code</span><span id="modalCategory" class="text-xs text-slate-400 font-medium">CAT</span><span id="modalModelBadge" class="text-[10px] font-mono px-2 py-0.5 rounded bg-white/5 border border-white/10">GPT-4o</span></div>
-<h3 id="modalTitle" class="text-xl font-extrabold mt-1.5 leading-snug">Title</h3><p id="modalDesc" class="text-xs text-slate-300 mt-1 leading-relaxed">Desc</p></div></div>
-<button id="closeModalBtn" class="p-2 rounded-xl hover:bg-white/10 text-slate-400 hover:text-white transition">✕</button></div>
-<div class="p-6 space-y-5 max-h-[62vh] overflow-y-auto">
-<div id="modalVariablesSection"><div class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">✦ Customize Variables (Realtime Replace)</div><div id="modalVariablesInputs" class="grid grid-cols-1 sm:grid-cols-2 gap-3"></div></div>
-<div><div class="flex items-center justify-between mb-2"><span class="text-xs font-bold uppercase tracking-wider text-slate-400">Executable Prompt Payload</span><span id="modalTokenMetric" class="text-[11px] font-mono text-slate-400">Tokens</span></div>
-<pre id="modalPromptCode" class="w-full bg-slate-900/90 border border-white/10 rounded-2xl p-4 text-xs font-mono whitespace-pre-wrap leading-relaxed max-h-72 overflow-y-auto"></pre></div>
-<div class="flex flex-wrap gap-1.5" id="modalTagsContainer"></div>
-</div>
-<div class="p-5 border-t border-white/10 bg-slate-900/40 flex flex-wrap items-center justify-between gap-3">
-<div class="flex gap-2"><button id="modalFavoriteBtn" class="px-4 py-2 rounded-xl glass hover:bg-white/10 text-xs font-semibold flex items-center gap-1.5 transition">♥ <span>Save Code</span></button>
-<button id="modalTestInChatBtn" class="px-4 py-2 rounded-xl glass hover:bg-white/10 text-xs font-semibold text-cyan-300 transition">Send to Composer →</button></div>
-<button id="modalCopyBtn" class="grad-accent px-6 py-2.5 rounded-xl text-xs font-bold text-white hover:brightness-110 shadow-lg shadow-purple-600/30 flex items-center gap-2 transition">⧉ Copy Ready Prompt</button>
-</div>
-</div></div>
-</div>
+        <button class="toolbar-btn" id="clearFilters">
+          Clear filters
+        </button>
+      </div>
 
-<!-- SETTINGS -->
-<div id="settingsDrawer" class="fixed inset-0 z-50 hidden">
-<div class="absolute inset-0 bg-slate-950/70 backdrop-blur-sm" id="closeSettingsBackdrop"></div>
-<div class="absolute right-0 top-0 h-full w-full max-w-md glass border-l border-white/15 p-6 overflow-y-auto drawer-slide">
-<div class="flex items-center justify-between pb-4 border-b border-white/10"><div><h3 class="text-lg font-bold">Prompt Engine Settings</h3><p class="text-xs text-slate-400">Prefixes, models & copy behavior</p></div><button id="closeSettingsBtn" class="p-2 rounded-xl hover:bg-white/10">✕</button></div>
-<div class="space-y-3 mt-5"><h4 class="text-xs font-bold uppercase tracking-wider text-purple-400">Output Behavior</h4>
-<div class="flex items-center justify-between p-3 rounded-xl bg-white/5 border border-white/5 gap-3"><div><div class="text-sm font-semibold">Auto-fill variables</div><div class="text-xs text-slate-400">Replace {{slots}} with defaults on copy</div></div><div id="settingFillVars" class="switch on"><span></span></div></div>
-<div class="flex items-center justify-between p-3 rounded-xl bg-white/5 border border-white/5 gap-3"><div><div class="text-sm font-semibold">Expert Role Preamble</div><div class="text-xs text-slate-400">Prefix: “Act as world-class authority...”</div></div><div id="settingPreamble" class="switch on"><span></span></div></div>
-<div class="flex items-center justify-between p-3 rounded-xl bg-white/5 border border-white/5 gap-3"><div><div class="text-sm font-semibold">Midjourney V6.1 Suffixes</div><div class="text-xs text-slate-400">Auto append --v 6.1 --style raw --q 2</div></div><div id="settingMjSuffix" class="switch on"><span></span></div></div>
-</div>
-<div class="space-y-4 pt-5 mt-5 border-t border-white/10"><h4 class="text-xs font-bold uppercase tracking-wider text-purple-400">Visual Studio Defaults</h4>
-<div><label class="block text-xs font-medium mb-1.5">Default Aspect Ratio</label>
-<select id="settingAr" class="w-full bg-slate-900 border border-white/10 rounded-xl px-3 py-2 text-xs"><option value="16:9">16:9 Cinematic Widescreen</option><option value="9:16">9:16 Story / Reel Portrait</option><option value="1:1">1:1 Square Editorial</option><option value="4:5">4:5 Social Feed</option><option value="21:9">21:9 Ultrawide Movie</option></select></div>
-<div><label class="block text-xs font-medium mb-1.5">Accent Theme Tone</label>
-<div class="flex gap-2 items-center"><button data-color="purple" class="accBtn w-8 h-8 rounded-full bg-purple-600 ring-2 ring-white/60"></button><button data-color="cyan" class="accBtn w-8 h-8 rounded-full bg-cyan-500"></button><button data-color="pink" class="accBtn w-8 h-8 rounded-full bg-pink-500"></button><button data-color="emerald" class="accBtn w-8 h-8 rounded-full bg-emerald-500"></button><button data-color="amber" class="accBtn w-8 h-8 rounded-full bg-amber-500"></button><span id="accLabel" class="text-xs font-mono text-slate-400 ml-2">purple pulse</span></div></div>
-<div class="p-3 rounded-xl bg-white/5 border border-white/5 text-xs text-slate-400 leading-relaxed">All 10,000+ codes are generated locally, indexed for instant search & work offline. Favorites persist in your browser.</div>
-</div>
-<div class="pt-5 mt-5 border-t border-white/10"><button id="resetAllSettingsBtn" class="w-full py-2.5 rounded-xl border border-white/10 hover:bg-white/10 text-xs font-semibold transition">Reset to Factory Defaults</button></div>
-</div></div>
+      <div class="layout">
+        <aside class="sidebar">
+          <div class="sidebar-title">Categories</div>
+          <div class="category-list" id="categoryList"></div>
+        </aside>
 
-<!-- FAVORITES -->
-<div id="favoritesDrawer" class="fixed inset-0 z-50 hidden">
-<div class="absolute inset-0 bg-slate-950/70 backdrop-blur-sm" id="closeFavoritesBackdrop"></div>
-<div class="absolute right-0 top-0 h-full w-full max-w-lg glass border-l border-white/15 p-6 overflow-y-auto drawer-slide">
-<div class="flex items-center justify-between pb-4 border-b border-white/10"><div><h3 class="text-lg font-bold flex items-center gap-2"><span class="text-rose-400">♥</span> My Saved Prompt Codes</h3><p class="text-xs text-slate-400" id="favDrawerCount">0 saved</p></div><button id="closeFavoritesBtn" class="p-2 rounded-xl hover:bg-white/10">✕</button></div>
-<div class="flex gap-2 mt-4"><button onclick="exportFavorites()" class="flex-1 py-2 rounded-xl bg-white/5 border border-white/10 text-xs font-semibold hover:bg-white/10">Export JSON</button><button onclick="copyAllFavorites()" class="flex-1 py-2 rounded-xl grad-accent text-xs font-bold text-white">Copy All Merged</button></div>
-<div id="favoritesList" class="space-y-3 mt-4"></div>
-<div id="favoritesEmptyState" class="text-center py-14"><div class="text-4xl mb-3">🔖</div><div class="text-sm font-semibold">No saved prompt codes yet</div><p class="text-xs text-slate-400 mt-1 max-w-xs mx-auto">Click the heart on any of the 10,000+ codes to build your personal stack.</p></div>
-</div></div>
+        <section>
+          <div class="content-head">
+            <h3 id="currentCategory">All prompts</h3>
+            <div class="result-count" id="resultCount"></div>
+          </div>
 
-<!-- COMMAND PALETTE -->
-<div id="commandPalette" class="fixed inset-0 z-[60] hidden">
-<div class="absolute inset-0 bg-slate-950/80 backdrop-blur-md" id="closeCmdBackdrop"></div>
-<div class="relative max-w-2xl mx-auto mt-20 px-4"><div class="glass border border-white/15 rounded-2xl overflow-hidden shadow-2xl modal-pop">
-<div class="flex items-center gap-3 px-4 py-3.5 border-b border-white/10"><span class="text-purple-400">⌕</span><input id="cmdSearchInput" placeholder="Jump to code, pose, lighting, style or task..." class="flex-1 bg-transparent text-sm placeholder:text-slate-500 focus:outline-none"/><span class="kbd">ESC</span></div>
-<div id="cmdResultsList" class="max-h-80 overflow-y-auto p-2 space-y-1"></div>
-<div class="px-4 py-2 border-t border-white/10 bg-slate-900/40 text-[11px] font-mono text-slate-400 flex justify-between"><span>↑ ↓ navigate</span><span>ENTER = copy instantly</span></div>
-</div></div></div>
+          <div class="prompt-grid" id="promptGrid"></div>
 
-<!-- TOAST -->
-<div id="toast" class="fixed bottom-6 left-1/2 -translate-x-1/2 z-[80] pointer-events-none opacity-0 translate-y-3">
-<div class="glass px-4 py-2.5 rounded-xl border border-white/15 shadow-2xl flex items-center gap-2.5 bg-slate-900/90"><span class="w-5 h-5 rounded-full bg-emerald-500/20 text-emerald-400 grid place-items-center text-xs font-bold" id="toastIcon">✓</span><span class="text-xs font-semibold" id="toastMsg">Copied</span></div>
-</div>
+          <div class="empty-state" id="emptyState">
+            <h3>No prompts found</h3>
+            <p>Try another keyword or clear the active filters.</p>
+          </div>
 
-<script>
-/* ============ DATA ============ */
-const MAIN_CATEGORIES=[
-{id:'all',name:'All 10,000+ Codes',icon:'⚡'},{id:'poses',name:'Poses & Anatomy',icon:'💃'},{id:'lights',name:'Lighting',icon:'💡'},{id:'ambience',name:'Ambience',icon:'🌫️'},{id:'scenes',name:'Scenes & Worlds',icon:'🏛️'},{id:'backgrounds',name:'Backgrounds',icon:'🖼️'},{id:'outfits',name:'Outfits',icon:'👗'},{id:'hairstyles',name:'Hairstyles',icon:'✂️'},{id:'edit',name:'Image Editing',icon:'🪄'},{id:'dev',name:'Coding',icon:'💻'},{id:'writing',name:'Copy & Content',icon:'✍️'},{id:'business',name:'Business',icon:'📈'},{id:'think',name:'Reasoning',icon:'🧠'}];
-const VISUAL_TABS=[
-{id:'poses',label:'Poses',icon:'🧍',desc:'Dynamic poses & fashion postures'},{id:'lights',label:'Lights',icon:'💡',desc:'Volumetric neon golden-hour'},{id:'ambience',label:'Ambience',icon:'✨',desc:'Hazes rain noir ethereal glows'},{id:'scenes',label:'Scenes',icon:'🏙️',desc:'Sci-fi plazas brutalist vistas'},{id:'backgrounds',label:'Backgrounds',icon:'🖼️',desc:'Studio cycloramas gradients'},{id:'outfits',label:'Outfits',icon:'🧥',desc:'Techwear couture cyber-armour'},{id:'hairstyles',label:'Hairstyles',icon:'💇',desc:'Wolf cuts fades braids'},{id:'edit',label:'Image Edits',icon:'🪄',desc:'Inpaint relight uncrop modifiers'}];
-const CURATED=[
-{code:'/pose.contrapposto',title:'Classical Contrapposto Stance',cat:'poses',models:['Flux.1','Midjourney v6.1'],tags:['pose','classical','anatomy'],desc:'Weight on one foot, natural S-curve silhouette with realistic tilt and relaxed tension.',prompt:'Full body portrait of {{subject}}, standing in classical contrapposto posture, one leg bearing weight, subtle shoulder tilt, sculptural muscle definition, micro-creases in fabric, photorealistic anatomical precision --ar 16:9 --style raw',vars:['subject']},
-{code:'/lit.cyber-rembrandt',title:'Cyberpunk Rembrandt Light',cat:'lights',models:['Midjourney v6.1','SDXL'],tags:['lighting','rembrandt','neon'],desc:'45° key light with dual-tone magenta + cyan neon tubes and shadow triangle.',prompt:'Cinematic portrait lighting on {{subject}}, classic Rembrandt pattern with illuminated triangle on shadowed cheek, 45-degree key softbox + cyan rim + magenta fill, 8k octane detail',vars:['subject']},
-{code:'/fit.techwear-stealth',title:'Urban Stealth Techwear Matrix',cat:'outfits',models:['Midjourney v6.1','Flux.1'],tags:['outfit','techwear','tactical'],desc:'Water-repellent Schoeller fabric, Fidlock buckles, taped seams, cargo modularity.',prompt:'Fashion editorial of {{subject}} wearing matte obsidian modular techwear, waterproof articulated jacket with Fidlock closures, ripstop texture, tactical cargo straps, futuristic silhouette',vars:['subject']},
-{code:'/hair.wolf-cut-neon',title:'Layered Wolf Cut Dual Tint',cat:'hairstyles',models:['Flux.1','Midjourney v6.1'],tags:['hair','wolf-cut','editorial'],desc:'Shaggy wolf cut with wispy bangs and pastel gradient accents.',prompt:'Close-up portrait of {{subject}} with textured razor-layered wolf cut, wispy bangs, tousled volume, strand definition, holographic tint, soft backlight on edge hairs',vars:['subject']},
-{code:'/atm.foggy-noir',title:'Rain-Slicked Tokyo Noir',cat:'ambience',models:['Midjourney v6.1','Flux.1'],tags:['ambience','noir','rain'],desc:'Neon Kanji reflections, low ground fog, mist in amber headlights.',prompt:'Atmosphere of {{subject}} in heavy cinematic rain, wet asphalt mirrored neon billboards, dense volumetric fog, warm streetlamps, diffused dispersion, melancholy mood',vars:['subject']},
-{code:'/scene.brutalist-sanctuary',title:'Brutalist Monolithic Sanctum',cat:'scenes',models:['Midjourney v6.1','Flux.1'],tags:['scene','brutalism','concrete'],desc:'Board-formed concrete pillars, skylight beam, minimalist indoor pond.',prompt:'Architectural photo of expansive brutalist hall featuring {{subject}}, raw board-formed concrete, monumental scale, linear skylight god rays, still water pool, modernist geometry',vars:['subject']},
-{code:'/bg.cyclorama-gradient',title:'Infinite Cyclorama Gradient',cat:'backgrounds',models:['Flux.1','Midjourney v6.1','SDXL'],tags:['background','studio','minimal'],desc:'Seamless curved cove with muted pastel gradient and soft falloff.',prompt:'Studio shot of {{subject}} against seamless infinity cyclorama, smooth ombre from {{color1}} to {{color2}}, soft floor shadow, high-end commercial look',vars:['subject','color1','color2']},
-{code:'/edit.relight-sunset',title:'Golden Hour Relight',cat:'edit',models:['SDXL','Flux.1 Inpainting','Photoshop AI'],tags:['edit','relight','golden-hour'],desc:'Transforms flat light into dramatic 2800K golden sunset illumination.',prompt:'[Inpaint Edit]: Relight {{target_subject}} with low-angle golden hour 2800K sunlight. Long soft warm shadows to camera right, golden rim light, warm eye catchlights, preserve facial identity',vars:['target_subject']},
-{code:'/dev.architect',title:'Principal Systems Architect',cat:'dev',models:['Claude 3.7','GPT-4o'],tags:['dev','architecture','backend'],desc:'Deconstructs architecture into contexts, latency budgets & failure modes.',prompt:'You are a Principal Distributed Systems Architect. Analyze:\nSYSTEM GOAL: {{system_goal}}\nCONSTRAINTS: {{constraints}}\nProvide:\n1. Bounded Context Domain Model\n2. Latency P99 SLAs\n3. Consistency boundary\n4. Partition failure modes\n5. Stack choices + trade-offs\n6. Mermaid event flow',vars:['system_goal','constraints']},
-{code:'/dev.refactor-clean',title:'Clean Architecture Refactor',cat:'dev',models:['Claude 3.7','GPT-4o'],tags:['dev','refactor','solid'],desc:'Converts spaghetti into ports & adapters with invariant preservation.',prompt:'Act as Senior Staff Engineer. Refactor without changing contracts:\nCODE:\n"""{{code}}"""\nDeliver: smells, refactored SOLID code, invariant tests, perf analysis.',vars:['code']},
-{code:'/wr.viral-hook',title:'Direct-Response Hook Synthesizer',cat:'writing',models:['GPT-4o','Claude 3.7'],tags:['writing','hooks','viral'],desc:'15 high-converting hooks across curiosity, contrarian & loss aversion.',prompt:'Act as direct-response master. 15 hooks for:\nTOPIC: {{topic}}\nAUDIENCE: {{audience}}\nCategories: Contrarian, Proof, Pain, Curiosity Gap, Identity. Under 14 words each. Zero filler.',vars:['topic','audience']},
-{code:'/biz.gtm-launch',title:'B2B SaaS GTM 30-Day Engine',cat:'business',models:['GPT-4o','Claude 3.7'],tags:['business','gtm','saas'],desc:'Positioning sprint, ICP matrix, outbound script & kill criteria.',prompt:'Act as GTM Director.\nOFFERING: {{product}}\nBUYER: {{icp}}\nPRICE: {{price}}\nDeliver: positioning, 3 pains, 3-touch outbound <75 words, 30-day calendar, kill metrics.',vars:['product','icp','price']},
-{code:'/think.first-principles',title:'First-Principles Deconstruction',cat:'think',models:['Claude 3.7','GPT-4o'],tags:['think','logic','strategy'],desc:'Strips assumptions to physical truths for unconstrained innovation.',prompt:'Deconstruct using First-Principles:\nCHALLENGE: {{problem}}\nDOGMA: {{dogma}}\n1. Rank assumptions 2. Foundational truths 3. Rebuild from zero 4. Counter-intuitive edge.',vars:['problem','dogma']}];
+          <div class="pagination" id="pagination"></div>
+        </section>
+      </div>
+    </main>
 
-const POSE_BASES=['Contrapposto','Dynamic S-Curve','Low-Angle Heroic','Candid Stride','Over-Shoulder Gaze','Crouched Martial Stance','Seated Throne Posture','Leaning Wall Chill','Action Mid-Air Leap','Architectural Silhouette','Runway Pivot','Pensive Recline','High-Kick Kinematic','Editorial Pockets','Lotus Serenity','Sprinter Ready'];
-const LIGHT_BASES=['Rembrandt Chiaroscuro','Volumetric God Rays','Neon Cyberpunk Dual-Tone','Golden Hour Low Sun','Bioluminescent Ethereal','Film Noir Hard Light','High-Key Studio Softbox','Cinematic Rim Edge','Dappled Canopy Sun','Candle Subsurface Glow','Prismatic Caustics','Cold Moonlight 5600K','Sodium Vapor Amber','Infrared Strobe Flash','Split Gel 3200K'];
-const AMBIENCE_BASES=['Rain-Drenched Tokyo Fog','Golden Attic Dust','Ethereal Forest Mist','Cybernetic Steam Vent','Deep Sea Glow','Film Grain Noir','Snowstorm Whiteout','Desert Heat Mirage','Cathedral Incense Haze','Retro VHS Static','Underwater Shimmer','Alpine Sunrise Chill'];
-const SCENE_BASES=['Brutalist Monolith Plaza','Neo-Shibuya Alley','Shinto Shrine Snow','Orbital Station Cupola','Scandinavian Loft','Cyberpunk Greenhouse','Concrete Bunker','Parisian Haussmann Salon','Dune Desert Ruins','Midnight Rain Highway','Kyoto Bamboo Twilight','Alpine Obsidian Valley'];
-const BG_BASES=['Cyclorama Studio Cove','Venetian Plaster Wall','Bokeh City Lights','Corten Steel Industrial','Velvet Matte Curtain','Geometric Grid Horizon','Brick Loft Backdrop','Slate Water Reflection','Paper Canvas Texture'];
-const OUTFIT_BASES=['Stealth Urban Techwear','Silk Evening Gown','Modular Exosuit','Harris Tweed Suit','Street Kimono Cyber','Avant-Garde Leather','Cashmere Loungewear','Spec-Ops Recon Suit','Organza Layered Robe','Neoprene Athletics'];
-const HAIR_BASES=['Shaggy Wolf Cut','Architectural High Fade','Bleached Textured Quiff','Braided Crown Floor','Neon Buzz Pattern','Liquid Bob Sleek','Afro Halo Volume','Grunge Curtain Fringe','Silver Dreadlocks','Raven Feathered Waves'];
-const EDIT_BASES=['Facial Expression Relight','Depth Extender Uncrop','Color Grade Shift','Skin Texture Restore','Atmosphere Injection','Fabric Swap Mask','Lighting Direction Mod','Anamorphic Flare Injector'];
-const DEV_BASES=['Zero-Trust Security Audit','Kafka Throughput Tuning','PostgreSQL Optimizer','React Server Refactor','K8s Disaster Recovery','Rust Memory Audit','GraphQL Federation','Micro-Frontend Federation','FastAPI Async Pipeline'];
-const WRITING_BASES=['SEO Pillar Architecture','Email Persuasion Sequence','Whitepaper Executive Summary','Substack Story Hook','X Thread Builder','LinkedIn Manifesto','VSL 60-Second Beat'];
-const BIZ_BASES=['CAC LTV Stress Test','Procurement Objection Reversal','PLG Funnel Optimization','Differentiation Matrix','Pitch Deck Narrative','Pricing Tier Sculptor'];
-const THINK_BASES=['First-Principles Breaker','Chain-of-Thought Audit','Pre-Mortem Inversion','Opportunity Cost Matrix','Second-Order Effects','Bayesian Update Drill','Occam Razor Filter','Systems Leverage Map'];
+    <footer class="footer">
+      BLACKMARK — An open AI prompt and shortcode gallery.
+    </footer>
+  </div>
 
-let ALL_PROMPT_CODES=[];
-function slug(s){return s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,22)}
-function generateDB(){
-ALL_PROMPT_CODES=[...CURATED];
-const push=(code,title,cat,models,tags,desc,prompt,vars)=>ALL_PROMPT_CODES.push({code,title,cat,models,tags,desc,prompt,vars});
-for(let c=1;c<=10;c++){POSE_BASES.forEach(p=>{['Editorial','Action','Sculptural','Dynamic','Candid','Graceful','Heroic','Symmetrical','Fluid','Tense','Relaxed','Detailed','Low-Angle','High-Angle','Profile'].forEach(s=>{const cd=`/pose.${slug(p)}-${slug(s)}-${c}`;push(cd,`${p} — ${s} V${c}`,'poses',['Flux.1','Midjourney v6.1'],['pose',slug(s),'anatomy'],`${s} balance for ${p}, batch #${c} with skeletal precision.`,`Full length photo of {{subject}}, ${p} pose in ${s} aesthetic. Natural articulation, weight distribution, muscular tension, micro-shadows, Hasselblad H6D --ar 16:9`,['subject'])})})}
-for(let c=1;c<=10;c++){LIGHT_BASES.forEach(l=>{['Soft-Diffused','Hard-Specular','Volumetric-Mist','Cyber-Tint','Warm-Tungsten','Chiaroscuro','Studio-Clean','Moody-Shadow','Rim-Lit','High-Contrast','Bioluminescent','Cinematic-Glow'].forEach(f=>{const cd=`/lit.${slug(l)}-${slug(f)}-${c}`;push(cd,`${l} — ${f} V${c}`,'lights',['Midjourney v6.1','Flux.1','SDXL'],['lighting',slug(f),'cinematic'],`${l} with ${f} falloff, Kelvin calibrated.`,`Cinematic lighting on {{subject}}: ${l} + ${f} dispersion. Volumetric shafts, iris speculars, deep range, 8k`,['subject'])})})}
-for(let c=1;c<=10;c++){OUTFIT_BASES.forEach(f=>{['Matte-Fabric','Obsidian-Leather','Raw-Silk','Cyber-Armor','Linen-Drape','Gore-Tex','Tailored','Metallic-Weave','Vintage-Wash','Minimal-Cut'].forEach(m=>{const cd=`/fit.${slug(f)}-${slug(m)}-${c}`;push(cd,`${f} — ${m} #${c}`,'outfits',['Midjourney v6.1','Flux.1'],['outfit',slug(m),'fashion'],`${f} in ${m} spec, tailor precision.`,`Wardrobe study: {{subject}} in ${f}, authentic ${m} material. Weave detail, drape, stitching, high-fashion`,['subject'])})})}
-for(let c=1;c<=10;c++){HAIR_BASES.forEach(h=>{['Tousled','Sleek-Gloss','Gradient-Tint','Wet-Look','Natural-Volume','Razor-Textured','Soft-Curtain','Undercut-Edge','Braided-Accent'].forEach(s=>{const cd=`/hair.${slug(h)}-${slug(s)}-${c}`;push(cd,`${h} (${s}) #${c}`,'hairstyles',['Flux.1','Midjourney v6.1'],['hair',slug(s),'grooming'],`Strand blueprint ${h} + ${s} finish.`,`Editorial close-up {{subject}}: ${h} with ${s}. Strand light, flyaways, hairline geometry, rim light`,['subject'])})})}
-for(let c=1;c<=8;c++){AMBIENCE_BASES.forEach(a=>{SCENE_BASES.slice(0,8).forEach(s=>{const cd=`/atm.${slug(a).slice(0,10)}-${slug(s).slice(0,8)}-${c}`;push(cd,`${a} @ ${s} (${c})`,'ambience',['Midjourney v6.1','Flux.1'],['ambience','mood','atmosphere'],`Fusing ${a} into ${s}.`,`Atmospheric composition: {{subject}} in ${a}, set in ${s}. Light refraction, dust/moisture, depth, cinematic grade --ar 16:9`,['subject'])})})}
-for(let c=1;c<=10;c++){SCENE_BASES.forEach(s=>{['Dawn-Fog','Neon-Night','Golden-Noon','Storm-Dusk','Ultra-Wide','Aerial-Drone','Macro-Detail','Long-Exposure'].forEach(v=>{const cd=`/scene.${slug(s).slice(0,12)}-${slug(v)}-${c}`;push(cd,`${s} [${v}] #${c}`,'scenes',['Midjourney v6.1','Flux.1'],['scene','world',slug(v)],`World build ${s} graded ${v}.`,`Epic environment: ${s} captured ${v} style with {{subject}} centered. Scale depth, volumetric air, ultra detail --ar 16:9`,['subject'])})})}
-for(let c=1;c<=8;c++){BG_BASES.forEach(b=>{['Soft-Focus','Ultra-Sharp','Low-Contrast','High-End-Studio','Minimal-Pastel','Moody-Shadow'].forEach(g=>{const cd=`/bg.${slug(b).slice(0,12)}-${slug(g)}-${c}`;push(cd,`${b} [${g}] #${c}`,'backgrounds',['Midjourney v6.1','Flux.1','SDXL'],['background',slug(g),'studio'],`Backing ${b} + ${g} separation.`,`Clean plate behind {{subject}}: ${b}, ${g} calibration. Smooth falloff, zero noise, contact shadow`,['subject'])})})}
-for(let c=1;c<=10;c++){EDIT_BASES.forEach(e=>{['Seamless-Blend','Photoreal-Harmonize','Edge-Preserved','Relight-Matched','High-Detail'].forEach(t=>{const cd=`/edit.${slug(e).slice(0,12)}-${slug(t)}-${c}`;push(cd,`${e} (${t}) #${c}`,'edit',['SDXL Inpaint','Flux.1 Inpainting','Photoshop AI'],['edit','inpaint','retouch'],`Surgical ${e} with ${t} blending.`,`[Inpaint]: Perform ${e} on {{target_area}}. ${t} mask transition. Match DOF, grain, Kelvin. No artifacts.`,['target_area'])})})}
-for(let c=1;c<=10;c++){DEV_BASES.forEach(d=>{['Micro-Opt','Hardened-Prod','Idempotent','Zero-Downtime','Benchmarked'].forEach(f=>{const cd=`/dev.${slug(d).slice(0,12)}-${slug(f)}-${c}`;push(cd,`${d} [${f}] #${c}`,'dev',['Claude 3.7','GPT-4o'],['dev','engineering',slug(f)],`Persona ${d} focused ${f}.`,`Act as Staff Architect for ${d} (${f}).\nCONTEXT:\n"""{{input_code_or_spec}}"""\nDeliver: trade-offs, hardened code, tests, latency guarantees.`,['input_code_or_spec'])})})}
-for(let c=1;c<=10;c++){WRITING_BASES.forEach(w=>{['High-Convert','Contrarian','Retention','Story-Driven'].forEach(t=>{const cd=`/wr.${slug(w).slice(0,12)}-${slug(t)}-${c}`;push(cd,`${w} — ${t} #${c}`,'writing',['GPT-4o','Claude 3.7'],['writing','copy',slug(t)],`${w} using ${t} psychology.`,`Act as master communicator: ${w} with ${t} frame.\nBRIEF: """{{brief}}"""\nAUDIENCE: {{target_audience}}\nZero fluff, visceral verbs, pattern interrupt.`,['brief','target_audience'])})})}
-for(let c=1;c<=10;c++){BIZ_BASES.forEach(b=>{['Zero-To-One','Scale-Stage','Defensible-Moat'].forEach(p=>{const cd=`/biz.${slug(b).slice(0,12)}-${slug(p)}-${c}`;push(cd,`${b} (${p}) #${c}`,'business',['GPT-4o','Claude 3.7'],['business','strategy',slug(p)],`${b} for ${p}.`,`Elite operator: ${b} for ${p}.\nDATA: {{company_data}}\n1. Diagnostic 2. 3 leverage points 3. 14-day plan + KPIs.`,['company_data'])})})}
-for(let c=1;c<=10;c++){THINK_BASES.forEach(t=>{['Deep-Dive','Rapid-Audit','Workshop','Solo-Drill'].forEach(f=>{const cd=`/think.${slug(t).slice(0,12)}-${slug(f)}-${c}`;push(cd,`${t} ${f} #${c}`,'think',['Claude 3.7','GPT-4o','o3'],['think','logic',slug(f)],`Reasoning protocol ${t} in ${f} mode.`,`Apply ${t} to:\nPROBLEM: {{problem}}\nCONTEXT: {{context}}\nStructured steps, assumptions table, decision + risks.`,['problem','context'])})})}
-const total=ALL_PROMPT_CODES.length;
-document.getElementById('statCodes').textContent=total.toLocaleString()+'+';
-document.getElementById('heroCodeCount').textContent=total.toLocaleString()+'+';
-document.getElementById('resultsCount').textContent=total.toLocaleString()+' Live';
-document.getElementById('footCount').textContent=total.toLocaleString()+'+';
-}
+  <script>
+    const prompts = [
+      {
+        title: "Ultra-realistic image enhancement",
+        category: "Image",
+        subcategory: "Enhancement",
+        shortcode: "/hdreal",
+        description: "Improve realism, clarity, texture and lighting while preserving the original composition.",
+        code: "Enhance this image with ultra-realistic detail, natural skin texture, sharp focus, cinematic lighting, clean edges, realistic shadows and high dynamic range. Preserve the original subject and composition."
+      },
+      {
+        title: "4K cinematic image prompt",
+        category: "Image",
+        subcategory: "Generation",
+        shortcode: "/4k",
+        description: "Turn a simple idea into a high-detail cinematic image prompt.",
+        code: "Create a cinematic 4K image of [SUBJECT]. Use dramatic composition, realistic materials, volumetric lighting, sharp details, depth of field, natural color grading and professional photography."
+      },
+      {
+        title: "Remove image artifacts",
+        category: "Image",
+        subcategory: "Editing",
+        shortcode: "/cleanimg",
+        description: "Clean common visual defects without changing the identity of the image.",
+        code: "Clean the image by removing artifacts, noise, blur, compression defects, unwanted objects and visual distortions. Keep the original subject, proportions, colors and composition unchanged."
+      },
+      {
+        title: "Debug any code",
+        category: "Development",
+        subcategory: "Debugging",
+        shortcode: "/debug",
+        description: "Find the root cause of an error and provide a practical fix.",
+        code: "Debug the following code. Identify the root cause, explain the issue clearly, provide the corrected code, and list any edge cases or possible regressions.\n\n[PASTE CODE HERE]"
+      },
+      {
+        title: "Refactor cleanly",
+        category: "Development",
+        subcategory: "Refactoring",
+        shortcode: "/refactor",
+        description: "Improve code quality while preserving existing behavior.",
+        code: "Refactor this code for readability, maintainability, performance and consistency. Preserve the existing behavior. Explain the changes and return the complete improved version.\n\n[PASTE CODE HERE]"
+      },
+      {
+        title: "Generate API documentation",
+        category: "Development",
+        subcategory: "Documentation",
+        shortcode: "/apidocs",
+        description: "Create concise developer documentation for an API or function.",
+        code: "Write professional API documentation for the following code. Include purpose, parameters, return values, errors, authentication, examples and edge cases.\n\n[PASTE CODE HERE]"
+      },
+      {
+        title: "SEO article outline",
+        category: "Writing",
+        subcategory: "SEO",
+        shortcode: "/seooutline",
+        description: "Create a structured, search-friendly content outline.",
+        code: "Create an SEO-focused article outline about [TOPIC]. Include search intent, title options, H1, H2 and H3 headings, FAQs, internal linking ideas and a compelling meta description."
+      },
+      {
+        title: "Rewrite in a professional tone",
+        category: "Writing",
+        subcategory: "Rewriting",
+        shortcode: "/pro",
+        description: "Make text clearer, more concise and more professional.",
+        code: "Rewrite the following text in a clear, professional and confident tone. Preserve the original meaning, remove unnecessary words and improve structure.\n\n[PASTE TEXT HERE]"
+      },
+      {
+        title: "Summarize anything",
+        category: "Writing",
+        subcategory: "Summarization",
+        shortcode: "/sum",
+        description: "Turn long content into useful, structured notes.",
+        code: "Summarize the following content using concise bullet points. Include the main argument, key facts, important names, decisions, risks and recommended next steps.\n\n[PASTE CONTENT HERE]"
+      },
+      {
+        title: "Social media campaign",
+        category: "Marketing",
+        subcategory: "Campaigns",
+        shortcode: "/campaign",
+        description: "Generate a complete multi-platform campaign concept.",
+        code: "Create a social media campaign for [PRODUCT] targeting [AUDIENCE]. Include the campaign idea, positioning, key message, content pillars, platform strategy, posting schedule and success metrics."
+      },
+      {
+        title: "Ad copy variations",
+        category: "Marketing",
+        subcategory: "Advertising",
+        shortcode: "/adcopy",
+        description: "Create multiple conversion-focused ad concepts.",
+        code: "Write 10 advertising copy variations for [PRODUCT]. Include a hook, benefit, proof point, call to action and suggested audience. Keep each variation distinct."
+      },
+      {
+        title: "Competitive analysis",
+        category: "Business",
+        subcategory: "Research",
+        shortcode: "/compete",
+        description: "Compare competitors and identify strategic opportunities.",
+        code: "Create a competitive analysis for [BUSINESS]. Compare competitors by positioning, audience, pricing, strengths, weaknesses, content strategy and opportunities for differentiation."
+      },
+      {
+        title: "Business idea validator",
+        category: "Business",
+        subcategory: "Strategy",
+        shortcode: "/validate",
+        description: "Stress-test a business idea before investing time or money.",
+        code: "Evaluate this business idea: [IDEA]. Analyze customer problem, target market, urgency, competition, monetization, risks, validation experiments and a realistic first version."
+      },
+      {
+        title: "Study plan generator",
+        category: "Productivity",
+        subcategory: "Learning",
+        shortcode: "/study",
+        description: "Build a realistic learning schedule around a goal.",
+        code: "Create a [DURATION]-week study plan for learning [SUBJECT]. Include weekly goals, daily tasks, practice exercises, review sessions, resources and progress checkpoints."
+      },
+      {
+        title: "Meeting action items",
+        category: "Productivity",
+        subcategory: "Organization",
+        shortcode: "/actions",
+        description: "Convert meeting notes into accountable next steps.",
+        code: "Extract the decisions, action items, owners, deadlines, risks and unanswered questions from these meeting notes. Format the result as a clean table.\n\n[PASTE NOTES HERE]"
+      },
+      {
+        title: "Research question builder",
+        category: "Research",
+        subcategory: "Analysis",
+        shortcode: "/research",
+        description: "Turn a broad topic into focused, researchable questions.",
+        code: "Break down this topic into precise research questions: [TOPIC]. Include primary questions, secondary questions, variables, assumptions, useful sources and possible methodologies."
+      }
+    ];
 
-const WORKFLOW_PACKS=[
-{id:'pack-cinema',name:'Cinematographer & Director Pack',icon:'🎬',desc:'Lighting rigs, anamorphic lenses, fog & heroic poses for film concept art.',codes:['/lit.cyber-rembrandt','/atm.foggy-noir','/pose.contrapposto','/scene.brutalist-sanctuary'],badge:'1,240 Codes',img:'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=600&q=80&auto=format&fit=crop'},
-{id:'pack-fashion',name:'Haute Couture Runway Atelier',icon:'👗',desc:'Silk drapery, techwear, runway strides, softboxes & wolf cuts.',codes:['/fit.techwear-stealth','/hair.wolf-cut-neon','/bg.cyclorama-gradient'],badge:'1,680 Codes',img:'https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=600&q=80&auto=format&fit=crop'},
-{id:'pack-engineer',name:'Principal Engineer Suite',icon:'🛠️',desc:'RFCs, clean refactors, memory audits & query blueprints.',codes:['/dev.architect','/dev.refactor-clean','/think.first-principles'],badge:'940 Codes',img:'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&q=80&auto=format&fit=crop'},
-{id:'pack-inpaint',name:'Surgical Inpainting Rig',icon:'🪄',desc:'Relight, background swap, hairstyle & expression masks.',codes:['/edit.relight-sunset'],badge:'620 Codes',img:'https://images.unsplash.com/photo-1626785774573-4b799315345d?w=600&q=80&auto=format&fit=crop'},
-{id:'pack-growth',name:'Viral Growth Suite',icon:'🚀',desc:'Hooks, GTM calendar, objection matrices & retention loops.',codes:['/wr.viral-hook','/biz.gtm-launch'],badge:'810 Codes',img:'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80&auto=format&fit=crop'},
-{id:'pack-scifi',name:'Cyberpunk Concept Kit',icon:'🌌',desc:'Neon Tokyo rain, monolith plazas, exosuits & holographic hair.',codes:['/atm.foggy-noir','/scene.brutalist-sanctuary','/fit.techwear-stealth'],badge:'1,540 Codes',img:'https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=600&q=80&auto=format&fit=crop'}];
+    const state = {
+      category: "All",
+      subcategory: "all",
+      search: "",
+      page: 1,
+      perPage: 6
+    };
 
-const STATE={activeTab:'catalog',activeCategory:'all',activeVisualSubcat:'poses',searchQuery:'',modelFilter:'all',sort:'popular',currentPage:1,itemsPerPage:24,viewMode:'grid',favorites:JSON.parse(localStorage.getItem('pc_favs')||'[]'),settings:Object.assign({fillVars:true,preamble:true,mjSuffix:true,aspectRatio:'16:9'},JSON.parse(localStorage.getItem('pc_settings')||'{}')),matrix:{subject:'Cybernetic android geisha, rain-soaked neon street',pose:'/pose.contrapposto',light:'/lit.cyber-rembrandt',ambience:'/atm.foggy-noir',scene:'/scene.brutalist-sanctuary',outfit:'/fit.techwear-stealth',hair:'/hair.wolf-cut-neon',edit:'/edit.relight-sunset'}};
-const MATRIX_DEF=[{key:'subject',label:'Primary Subject',cat:null},{key:'pose',label:'Pose & Anatomy',cat:'poses'},{key:'light',label:'Lighting Architecture',cat:'lights'},{key:'ambience',label:'Atmosphere & Volumetrics',cat:'ambience'},{key:'scene',label:'Scene & World',cat:'scenes'},{key:'outfit',label:'Wardrobe & Textile',cat:'outfits'},{key:'hair',label:'Grooming & Hair',cat:'hairstyles'},{key:'edit',label:'Post / Inpaint Treatment',cat:'edit'}];
-let activeModalPrompt=null, modalVals={}, cmdIndex=0, cmdList=[];
+    const els = {
+      grid: document.getElementById("promptGrid"),
+      categoryList: document.getElementById("categoryList"),
+      subcategoryFilter: document.getElementById("subcategoryFilter"),
+      searchInput: document.getElementById("searchInput"),
+      pagination: document.getElementById("pagination"),
+      resultCount: document.getElementById("resultCount"),
+      currentCategory: document.getElementById("currentCategory"),
+      emptyState: document.getElementById("emptyState"),
+      promptStat: document.getElementById("promptStat"),
+      categoryStat: document.getElementById("categoryStat")
+    };
 
-function saveSettings(){localStorage.setItem('pc_settings',JSON.stringify(STATE.settings))}
-function showToast(msg,icon='✓'){const t=document.getElementById('toast');document.getElementById('toastMsg').textContent=msg;document.getElementById('toastIcon').textContent=icon;t.style.opacity='1';t.style.transform='translate(-50%,0)';clearTimeout(t._h);t._h=setTimeout(()=>{t.style.opacity='0';t.style.transform='translate(-50%,12px)'},2200)}
-function quickSearch(q){document.getElementById('mainSearchInput').value=q;STATE.searchQuery=q;STATE.currentPage=1;switchNav('catalog');renderCatalog();renderPills()}
-function resetFilters(){STATE.searchQuery='';STATE.activeCategory='all';STATE.modelFilter='all';document.getElementById('mainSearchInput').value='';document.getElementById('engineFilter').value='all';STATE.currentPage=1;renderCategoryChips();renderCatalog();renderPills()}
-window.resetFilters=resetFilters;window.quickSearch=quickSearch;window.switchNav=switchNav;window.openFavorites=openFavorites;window.exportFavorites=exportFavorites;window.copyAllFavorites=copyAllFavorites;
+    const categories = ["All", ...new Set(prompts.map(prompt => prompt.category))];
 
-function switchNav(tab){STATE.activeTab=tab;document.querySelectorAll('.nav-tab').forEach(b=>{const on=b.dataset.nav===tab;b.classList.toggle('active',on);b.classList.toggle('text-slate-400',!on)});['catalog','visual','composer','libraries'].forEach(v=>document.getElementById('view'+v[0].toUpperCase()+v.slice(1)).classList.toggle('hidden',v!==tab));window.scrollTo({top:0,behavior:'smooth'})}
+    function initialize() {
+      els.promptStat.textContent = String(prompts.length).padStart(2, "0");
+      els.categoryStat.textContent = String(categories.length - 1).padStart(2, "0");
 
-function renderCategoryChips(){const c=document.getElementById('categoryChips');c.innerHTML=MAIN_CATEGORIES.map(cat=>{const n=cat.id==='all'?ALL_PROMPT_CODES.length:ALL_PROMPT_CODES.filter(p=>p.cat===cat.id).length;const on=STATE.activeCategory===cat.id;return `<button data-cat="${cat.id}" class="shrink-0 flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-semibold border transition ${on?'grad-accent text-white border-transparent chip-active':'glass border-white/10 text-slate-300 hover:bg-white/10'}"><span>${cat.icon}</span><span>${cat.name}</span><span class="font-mono text-[10px] opacity-70">${n>999?(n/1000).toFixed(1)+'k':n}</span></button>`}).join('');c.querySelectorAll('button').forEach(b=>b.onclick=()=>{STATE.activeCategory=b.dataset.cat;STATE.currentPage=1;renderCategoryChips();renderCatalog();renderPills()});
-const m=['/pose.contrapposto','/lit.cyber-rembrandt','/fit.techwear-stealth','/edit.relight-sunset','/dev.architect','/wr.viral-hook','/atm.foggy-noir','/hair.wolf-cut-neon'];document.getElementById('heroMarquee').innerHTML=(m.concat(m)).map(x=>`<span class="px-3 py-1 rounded-lg bg-white/5 border border-white/10 text-slate-300">${x}</span>`).join('');}
+      renderCategories();
+      renderSubcategories();
+      render();
+    }
 
-function renderPills(){const w=document.getElementById('filterPills');let h='';if(STATE.searchQuery)h+=`<span class="text-xs px-3 py-1 rounded-full bg-purple-500/20 border border-purple-500/30 text-purple-200">Search: “${STATE.searchQuery}” <button onclick="quickSearch('')" class="ml-1 font-bold">✕</button></span>`;if(STATE.activeCategory!=='all')h+=`<span class="text-xs px-3 py-1 rounded-full bg-cyan-500/15 border border-cyan-500/30 text-cyan-200">${STATE.activeCategory} <button onclick="resetFilters()" class="ml-1 font-bold">✕</button></span>`;if(STATE.modelFilter!=='all')h+=`<span class="text-xs px-3 py-1 rounded-full bg-pink-500/15 border border-pink-500/30 text-pink-200">${STATE.modelFilter} ✕</span>`;w.innerHTML=h}
+    function renderCategories() {
+      els.categoryList.innerHTML = categories.map(category => {
+        const count =
+          category === "All"
+            ? prompts.length
+            : prompts.filter(prompt => prompt.category === category).length;
 
-function getFiltered(){let r=ALL_PROMPT_CODES;if(STATE.activeCategory!=='all')r=r.filter(p=>p.cat===STATE.activeCategory);if(STATE.modelFilter!=='all'){const mf=STATE.modelFilter.toLowerCase();r=r.filter(p=>p.models.some(m=>m.toLowerCase().includes(mf)))}if(STATE.searchQuery.trim()){const q=STATE.searchQuery.toLowerCase().trim();r=r.filter(p=>p.code.toLowerCase().includes(q)||p.title.toLowerCase().includes(q)||p.desc.toLowerCase().includes(q)||p.tags.some(t=>t.toLowerCase().includes(q)))}if(STATE.sort==='name')r=[...r].sort((a,b)=>a.title.localeCompare(b.title));else if(STATE.sort==='category')r=[...r].sort((a,b)=>a.cat.localeCompare(b.cat));return r}
+        return `
+          <button class="category-btn ${state.category === category ? "active" : ""}"
+            data-category="${category}">
+            <span>${category === "All" ? "All prompts" : category}</span>
+            <span class="category-count">${count}</span>
+          </button>
+        `;
+      }).join("");
 
-function catColor(cat){const m={poses:'purple',lights:'amber',ambience:'cyan',scenes:'emerald',backgrounds:'slate',outfits:'pink',hairstyles:'rose',edit:'violet',dev:'blue',writing:'orange',business:'teal',think:'indigo'};return m[cat]||'purple'}
+      document.querySelectorAll(".category-btn").forEach(button => {
+        button.addEventListener("click", () => {
+          state.category = button.dataset.category;
+          state.subcategory = "all";
+          state.page = 1;
+          renderCategories();
+          renderSubcategories();
+          render();
+        });
+      });
+    }
 
-function renderCatalog(){const f=getFiltered(),total=f.length;document.getElementById('resultsCount').textContent=total.toLocaleString()+' Matches';document.getElementById('catalogHeading').textContent=STATE.activeCategory==='all'?'10,000+ Codes Library':(MAIN_CATEGORIES.find(c=>c.id===STATE.activeCategory)?.name||'Library');const tp=Math.max(1,Math.ceil(total/STATE.itemsPerPage));STATE.currentPage=Math.min(Math.max(1,STATE.currentPage),tp);const s=(STATE.currentPage-1)*STATE.itemsPerPage,e=Math.min(s+STATE.itemsPerPage,total);const items=f.slice(s,e);document.getElementById('paginationInfo').textContent=total?`Showing ${s+1} – ${e} of ${total.toLocaleString()} prompt shortcuts`:'No matches.';document.getElementById('prevPageBtn').disabled=STATE.currentPage<=1;document.getElementById('nextPageBtn').disabled=STATE.currentPage>=tp;document.getElementById('pageNumbers').innerHTML=`<span class="px-2 py-1 bg-white/10 rounded font-semibold">Page ${STATE.currentPage} / ${tp}</span>`;const g=document.getElementById('promptsGrid');g.className=STATE.viewMode==='grid'?'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4':'grid grid-cols-1 gap-2';
-if(!items.length){g.innerHTML=`<div class="col-span-full py-16 text-center glass rounded-3xl"><div class="text-4xl mb-3">🛰️</div><div class="font-bold">No prompt codes matched</div><p class="text-xs text-slate-400 mt-1">Try clearing search or model filter.</p><button onclick="resetFilters()" class="mt-4 px-4 py-2 rounded-xl bg-purple-600 text-xs font-semibold text-white">Reset Filters</button></div>`;return}
-g.innerHTML=items.map((p,i)=>{const fav=STATE.favorites.includes(p.code);if(STATE.viewMode==='compact'){return `<article class="glass-card !animate-none opacity-100 !transform-none p-3 flex items-center gap-3 !rounded-xl" style="animation:cardIn .4s ${i*20}ms both"><span class="code-pill text-[11px] font-bold px-2 py-1 rounded-lg bg-purple-500/15 text-purple-300 border border-purple-500/25 truncate max-w-[220px]">${p.code}</span><div class="flex-1 min-w-0"><div class="text-xs font-bold truncate">${p.title}</div><div class="text-[11px] text-slate-400 truncate">${p.desc}</div></div><button class="open-detail-btn text-[11px] px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 font-semibold hover:bg-white/10" data-code="${p.code}">Inspect</button><button class="instant-copy-btn text-[11px] px-3 py-1.5 rounded-lg grad-accent text-white font-bold" data-code="${p.code}">Copy</button></article>`}
-return `<article class="glass-card p-4 flex flex-col justify-between group" style="animation-delay:${i*35}ms"><div><div class="flex items-start justify-between gap-2 mb-2.5"><span class="code-pill text-[11px] font-bold px-2.5 py-1 rounded-lg bg-purple-500/15 text-purple-300 border border-purple-500/25 truncate" title="${p.code}">${p.code}</span><button class="fav-star p-1.5 rounded-lg hover:bg-white/10 ${fav?'!text-rose-400':'text-slate-400'} transition" data-code="${p.code}"> <svg class="w-4 h-4" fill="${fav?'currentColor':'none'}" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"/></svg></button></div><h3 class="font-bold text-sm leading-snug group-hover:text-purple-300 transition line-clamp-1">${p.title}</h3><p class="text-[11.5px] text-slate-300 mt-1.5 leading-relaxed line-clamp-2">${p.desc}</p></div><div class="mt-4 pt-3 border-t border-white/10"><div class="flex flex-wrap gap-1 mb-3">${p.tags.slice(0,3).map(t=>`<span class="text-[9.5px] font-mono px-1.5 py-0.5 rounded bg-white/5 text-slate-400">#${t}</span>`).join('')}<span class="text-[9.5px] font-mono px-1.5 py-0.5 rounded bg-purple-500/10 text-purple-300 ml-auto">${p.models[0]}</span></div><div class="grid grid-cols-2 gap-2"><button class="open-detail-btn py-1.5 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-semibold transition" data-code="${p.code}">Inspect & Vars</button><button class="instant-copy-btn py-1.5 rounded-lg grad-accent text-white text-xs font-semibold hover:brightness-110 flex items-center justify-center gap-1" data-code="${p.code}">Copy ⧉</button></div></div></article>`}).join('');
-g.querySelectorAll('.instant-copy-btn').forEach(b=>b.onclick=e=>{e.stopPropagation();const p=ALL_PROMPT_CODES.find(x=>x.code===b.dataset.code);if(p)executeCopy(p)});
-g.querySelectorAll('.open-detail-btn').forEach(b=>b.onclick=()=>{const p=ALL_PROMPT_CODES.find(x=>x.code===b.dataset.code);if(p)openModal(p)});
-g.querySelectorAll('.fav-star').forEach(b=>b.onclick=e=>{e.stopPropagation();toggleFav(b.dataset.code)});}
+    function renderSubcategories() {
+      const available = prompts
+        .filter(prompt => state.category === "All" || prompt.category === state.category)
+        .map(prompt => prompt.subcategory);
 
-function renderVisualSubcats(){const gr=document.getElementById('visualSubcatGrid');gr.innerHTML=VISUAL_TABS.map(t=>{const n=ALL_PROMPT_CODES.filter(p=>p.cat===t.id).length;const on=STATE.activeVisualSubcat===t.id;return `<button data-vis="${t.id}" class="p-3.5 rounded-2xl border text-left transition ${on?'bg-pink-600/20 border-pink-500/60 shadow-lg shadow-pink-600/20':'glass border-white/10 hover:border-white/25'}"><div class="text-2xl mb-1">${t.icon}</div><div class="text-xs font-bold">${t.label}</div><div class="text-[10px] text-slate-400 mt-0.5 font-mono">${n.toLocaleString()} codes</div></button>`}).join('');gr.querySelectorAll('button').forEach(b=>b.onclick=()=>{STATE.activeVisualSubcat=b.dataset.vis;renderVisualSubcats();renderVisualGrid()});renderVisualGrid()}
-function renderVisualGrid(){const sub=STATE.activeVisualSubcat;const info=VISUAL_TABS.find(t=>t.id===sub);document.getElementById('visualGridTitle').textContent=`${info.label} — Top 32 of ${ALL_PROMPT_CODES.filter(p=>p.cat===sub).length.toLocaleString()} Presets`;const items=ALL_PROMPT_CODES.filter(p=>p.cat===sub).slice(0,32);const gr=document.getElementById('visualPromptsGrid');gr.innerHTML=items.map((p,i)=>`<article class="glass-card p-4 flex flex-col justify-between !border-pink-500/20 hover:!border-pink-500/50" style="animation-delay:${i*30}ms"><div><div class="flex items-center justify-between mb-2 gap-2"><span class="text-[10px] font-mono px-2 py-0.5 rounded bg-pink-500/20 text-pink-300 font-bold truncate">${p.code}</span><span>✨</span></div><h4 class="font-bold text-sm">${p.title}</h4><p class="text-xs text-slate-300 mt-1 line-clamp-2">${p.desc}</p></div><div class="mt-4 pt-3 border-t border-white/10 flex gap-2"><button class="open-detail-btn flex-1 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-xs font-semibold border border-white/10" data-code="${p.code}">Preview</button><button class="add-matrix-btn px-2.5 py-1.5 rounded-lg bg-pink-600/30 hover:bg-pink-600/50 border border-pink-500/40 text-pink-200 text-xs font-bold" data-code="${p.code}" data-cat="${p.cat}">+ Matrix</button><button class="instant-copy-btn px-3 py-1.5 rounded-lg grad-accent text-white text-xs font-bold" data-code="${p.code}">Copy</button></div></article>`).join('');
-gr.querySelectorAll('.instant-copy-btn').forEach(b=>b.onclick=()=>{const p=ALL_PROMPT_CODES.find(x=>x.code===b.dataset.code);if(p)executeCopy(p)});
-gr.querySelectorAll('.open-detail-btn').forEach(b=>b.onclick=()=>{const p=ALL_PROMPT_CODES.find(x=>x.code===b.dataset.code);if(p)openModal(p)});
-gr.querySelectorAll('.add-matrix-btn').forEach(b=>b.onclick=()=>{const map={poses:'pose',lights:'light',ambience:'ambience',scenes:'scene',outfits:'outfit',hairstyles:'hair',edit:'edit',backgrounds:'scene'};const k=map[b.dataset.cat];if(k){STATE.matrix[k]=b.dataset.code;renderMatrixSlots();showToast(`Added ${b.dataset.code} to Matrix`,'🎨');switchNav('composer')}})}
+      const subcategories = [...new Set(available)].sort();
 
-function renderMatrixSlots(){const c=document.getElementById('matrixSlots');c.innerHTML=MATRIX_DEF.map(s=>{if(s.key==='subject')return `<div class="p-3 rounded-xl bg-white/5 border border-white/5"><label class="block text-xs font-bold uppercase tracking-wider mb-1">${s.label}</label><input id="matrixSubjectInput" value="${STATE.matrix.subject}" class="w-full bg-slate-900 border border-white/10 rounded-lg px-3 py-2 text-xs focus:outline-none"/></div>`;const cur=STATE.matrix[s.key];const opts=ALL_PROMPT_CODES.filter(p=>p.cat===s.cat).slice(0,40);return `<div class="p-3 rounded-xl bg-white/5 border border-white/5 flex flex-col sm:flex-row sm:items-center justify-between gap-2"><div class="min-w-0"><div class="text-xs font-bold uppercase tracking-wider">${s.label}</div><div class="text-[11px] font-mono text-purple-400 font-semibold truncate">${cur}</div></div><select data-slot="${s.key}" class="matrix-select bg-slate-900 border border-white/10 rounded-lg px-2.5 py-1.5 text-xs max-w-full sm:max-w-[240px] focus:outline-none">${opts.map(o=>`<option value="${o.code}" ${o.code===cur?'selected':''}>${o.title.slice(0,42)}</option>`).join('')}</select></div>`}).join('');
-document.getElementById('matrixSubjectInput').oninput=e=>{STATE.matrix.subject=e.target.value;updateMatrix()};
-c.querySelectorAll('.matrix-select').forEach(s=>s.onchange=()=>{STATE.matrix[s.dataset.slot]=s.value;updateMatrix()});updateMatrix()}
-function updateMatrix(){const sub=STATE.matrix.subject||'Subject';const g=k=>ALL_PROMPT_CODES.find(p=>p.code===STATE.matrix[k]);const P=g('pose'),L=g('light'),A=g('ambience'),S=g('scene'),F=g('outfit'),H=g('hair');let t=`Cinematic portrait of ${sub}.\n`;if(P)t+=`Posture: ${P.desc} `;if(F)t+=`Wardrobe: ${F.desc} `;if(H)t+=`Hair: ${H.desc} `;if(L)t+=`\nLighting: ${L.desc} `;if(A)t+=`Atmosphere: ${A.desc} `;if(S)t+=`Environment: ${S.desc} `;if(document.getElementById('addPhotoreal')?.checked)t+=`\nCamera: Hasselblad H6D-100c, 85mm f/1.4, 8k, micro skin texture, film depth.`;if(document.getElementById('addNegative')?.checked)t+=`\nNegative: blurry, deformed hands, extra fingers, watermark, low-res, oversaturated.`;if(document.getElementById('addColorGrade')?.checked)t+=`\nGrade: teal-orange blockbuster grade, subtle halation, anamorphic streaks.`;if(document.getElementById('addMjParams')?.checked)t+=` --ar ${STATE.settings.aspectRatio} --style raw --v 6.1 --q 2`;document.getElementById('matrixOutputText').value=t;document.getElementById('matrixTokenCount').textContent=`${t.length} chars · ~${Math.ceil(t.length/4)} tokens`;document.getElementById('matrixChips').innerHTML=MATRIX_DEF.filter(d=>d.key!=='subject').map(d=>`<span class="text-[10px] font-mono px-2 py-1 rounded-lg bg-purple-500/15 border border-purple-500/25 text-purple-200">${d.label}: ${STATE.matrix[d.key]}</span>`).join('')}
+      els.subcategoryFilter.innerHTML = `
+        <option value="all">All subcategories</option>
+        ${subcategories.map(subcategory =>
+          `<option value="${subcategory}">${subcategory}</option>`
+        ).join("")}
+      `;
 
-function renderPacks(){const c=document.getElementById('workflowPacksGrid');c.innerHTML=WORKFLOW_PACKS.map(p=>`<article class="glass-card !transform-none overflow-hidden !p-0" style="animation-delay:.05s"><div class="h-36 overflow-hidden relative"><img src="${p.img}" class="w-full h-full object-cover" loading="lazy" alt="${p.name}"/><div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div><span class="absolute top-3 left-3 text-2xl">${p.icon}</span><span class="absolute top-3 right-3 text-[10px] font-mono px-2 py-0.5 rounded bg-black/60 border border-white/20 text-white font-bold">${p.badge}</span></div><div class="p-5"><h3 class="font-bold">${p.name}</h3><p class="text-xs text-slate-300 mt-1.5 leading-relaxed">${p.desc}</p><div class="flex flex-wrap gap-1.5 mt-3 mb-4">${p.codes.map(x=>`<span class="code-pill text-[10px] px-2 py-0.5 rounded bg-white/5 border border-white/10">${x}</span>`).join('')}</div><button class="open-pack-btn w-full py-2 rounded-xl grad-accent text-white text-xs font-bold hover:brightness-110" data-pack="${p.id}">Explore Pack & Copy Presets</button></div></article>`).join('');
-c.querySelectorAll('.open-pack-btn').forEach(b=>b.onclick=()=>{const pk=WORKFLOW_PACKS.find(x=>x.id===b.dataset.pack);if(pk){STATE.searchQuery=pk.codes[0].replace('/','');document.getElementById('mainSearchInput').value=STATE.searchQuery;switchNav('catalog');renderCatalog();renderPills();showToast(`Loaded ${pk.name}`,'📦')}})}
+      els.subcategoryFilter.value = state.subcategory;
+    }
 
-function openModal(p){activeModalPrompt=p;modalVals={};document.getElementById('modalCode').textContent=p.code;document.getElementById('modalTitle').textContent=p.title;document.getElementById('modalDesc').textContent=p.desc;document.getElementById('modalCategory').textContent=p.cat.toUpperCase();document.getElementById('modalModelBadge').textContent=p.models.join(' · ');document.getElementById('modalIcon').textContent=(MAIN_CATEGORIES.find(c=>c.id===p.cat)?.icon||'⚡');const vs=document.getElementById('modalVariablesSection'),vc=document.getElementById('modalVariablesInputs');if(!p.vars||!p.vars.length){vs.classList.add('hidden')}else{vs.classList.remove('hidden');vc.innerHTML=p.vars.map(v=>{modalVals[v]='';return `<div><label class="block text-[11px] font-mono text-purple-300 mb-1">{{${v}}}</label><input data-var="${v}" placeholder="Enter ${v.replace(/_/g,' ')}..." class="w-full bg-slate-900 border border-white/10 rounded-xl px-3 py-2 text-xs focus:outline-none"/></div>`}).join('');vc.querySelectorAll('input').forEach(i=>i.oninput=()=>{modalVals[i.dataset.var]=i.value;refreshModal()})}
-document.getElementById('modalTagsContainer').innerHTML=p.tags.map(t=>`<span class="text-[10px] font-mono px-2 py-0.5 rounded-full bg-white/5 border border-white/10">#${t}</span>`).join('');refreshModal();syncFavBtn();document.getElementById('detailModal').classList.remove('hidden');document.body.style.overflow='hidden'}
-function refreshModal(){if(!activeModalPrompt)return;let t=activeModalPrompt.prompt;if(STATE.settings.fillVars){Object.keys(modalVals).forEach(v=>{t=t.split(`{{${v}}}`).join(modalVals[v]||`[${v}]`)})}if(STATE.settings.preamble&&!/^(Act as|You are|\[Inpaint)/.test(t)){t=`Act as an expert AI specialist. Execute with extreme accuracy:\n\n`+t}if(STATE.settings.mjSuffix&&/--ar/.test(activeModalPrompt.prompt)===false&&['poses','lights','scenes','outfits','hairstyles','ambience','backgrounds'].includes(activeModalPrompt.cat)){t+=` --ar ${STATE.settings.aspectRatio} --style raw`}document.getElementById('modalPromptCode').textContent=t;document.getElementById('modalTokenMetric').textContent=`~${Math.ceil(t.length/4)} tokens · ${t.length} chars`}
-function closeModal(){document.getElementById('detailModal').classList.add('hidden');document.body.style.overflow='';activeModalPrompt=null}
-function syncFavBtn(){if(!activeModalPrompt)return;const f=STATE.favorites.includes(activeModalPrompt.code);document.getElementById('modalFavoriteBtn').querySelector('span').textContent=f?'Saved ♥':'Save Code'}
+    function getFilteredPrompts() {
+      const query = state.search.toLowerCase().trim();
 
-function toggleFav(code){if(STATE.favorites.includes(code)){STATE.favorites=STATE.favorites.filter(c=>c!==code);showToast('Removed from library','🗑️')}else{STATE.favorites.push(code);showToast('Saved to library!','❤️')}localStorage.setItem('pc_favs',JSON.stringify(STATE.favorites));updateFavUI();renderCatalog();if(activeModalPrompt&&activeModalPrompt.code===code)syncFavBtn()}
-function updateFavUI(){document.getElementById('favBadge').textContent=STATE.favorites.length;document.getElementById('favDrawerCount').textContent=`${STATE.favorites.length} saved prompt codes`;const l=document.getElementById('favoritesList'),e=document.getElementById('favoritesEmptyState');if(!STATE.favorites.length){e.classList.remove('hidden');l.innerHTML=''}else{e.classList.add('hidden');l.innerHTML=ALL_PROMPT_CODES.filter(p=>STATE.favorites.includes(p.code)).map(p=>`<div class="p-3 rounded-xl bg-white/5 border border-white/5 flex items-center justify-between gap-3"><div class="min-w-0 flex-1"><div class="flex items-center gap-2"><span class="code-pill text-[11px] font-bold text-purple-300 truncate">${p.code}</span><span class="text-[10px] text-slate-400 uppercase">${p.cat}</span></div><h4 class="text-xs font-bold truncate mt-1">${p.title}</h4></div><div class="flex gap-1.5 shrink-0"><button class="fav-copy-btn p-1.5 rounded-lg bg-purple-600/30 hover:bg-purple-600/50 text-xs" data-code="${p.code}">📋</button><button class="fav-remove-btn p-1.5 rounded-lg hover:bg-white/10 text-rose-400 text-xs" data-code="${p.code}">✕</button></div></div>`).join('');l.querySelectorAll('.fav-copy-btn').forEach(b=>b.onclick=()=>{const p=ALL_PROMPT_CODES.find(x=>x.code===b.dataset.code);if(p)executeCopy(p)});l.querySelectorAll('.fav-remove-btn').forEach(b=>b.onclick=()=>toggleFav(b.dataset.code))}}
-function openFavorites(){document.getElementById('favoritesDrawer').classList.remove('hidden')}
-function exportFavorites(){const data=ALL_PROMPT_CODES.filter(p=>STATE.favorites.includes(p.code));const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='promptcodes-library.json';a.click();showToast('Library exported as JSON','📦')}
-function copyAllFavorites(){const data=ALL_PROMPT_CODES.filter(p=>STATE.favorites.includes(p.code));if(!data.length){showToast('No saved codes yet','⚠️');return}copyText(data.map(p=>`${p.code}\n${buildFinal(p)}`).join('\n\n---\n\n'));showToast(`${data.length} prompts merged & copied`,'📋')}
+      return prompts.filter(prompt => {
+        const matchesCategory =
+          state.category === "All" || prompt.category === state.category;
 
-function buildFinal(p){let t=p.prompt;if(STATE.settings.fillVars&&(p.vars||[]).forEach(v=>{t=t.split(`{{${v}}}`).join(`[${v}]`)}));if(STATE.settings.preamble&&!/^(Act as|You are|\[Inpaint)/.test(t))t=`Act as an expert AI specialist. Execute with extreme accuracy:\n\n`+t;return t}
-function copyText(txt){if(navigator.clipboard&&navigator.clipboard.writeText){return navigator.clipboard.writeText(txt)}const ta=document.createElement('textarea');ta.value=txt;document.body.appendChild(ta);ta.select();try{document.execCommand('copy')}catch(e){}ta.remove();return Promise.resolve()}
-function executeCopy(p){copyText(buildFinal(p)).then(()=>showToast(`${p.code} copied!`,'✓')).catch(()=>showToast('Copied!','✓'))}
+        const matchesSubcategory =
+          state.subcategory === "all" ||
+          prompt.subcategory === state.subcategory;
 
-/* command palette */
-function renderCmd(q=''){const list=document.getElementById('cmdResultsList');let r=ALL_PROMPT_CODES;if(q.trim()){const s=q.toLowerCase();r=r.filter(p=>p.code.toLowerCase().includes(s)||p.title.toLowerCase().includes(s)||p.tags.some(t=>t.includes(s))).slice(0,12)}else{r=r.slice(0,12)}cmdList=r;cmdIndex=0;list.innerHTML=r.length?r.map((p,i)=>`<button data-i="${i}" class="cmd-item w-full text-left p-2.5 rounded-xl flex items-center gap-3 transition ${i===0?'bg-purple-600/20 border border-purple-500/40':'border border-transparent hover:bg-white/5'}"><span class="code-pill text-[11px] font-bold text-purple-300 min-w-[140px]">${p.code}</span><span class="flex-1 min-w-0"><span class="block text-xs font-bold truncate">${p.title}</span><span class="block text-[11px] text-slate-400 truncate">${p.desc}</span></span><span class="text-[10px] font-mono text-slate-500">${p.cat}</span></button>`).join(''):`<div class="p-8 text-center text-sm text-slate-400">No codes found.</div>`;list.querySelectorAll('.cmd-item').forEach(b=>b.onclick=()=>{const p=cmdList[+b.dataset.i];document.getElementById('commandPalette').classList.add('hidden');if(p)executeCopy(p)})}
-function moveCmd(d){cmdIndex=(cmdIndex+d+cmdList.length)%Math.max(1,cmdList.length);document.querySelectorAll('.cmd-item').forEach((el,i)=>{el.className=`cmd-item w-full text-left p-2.5 rounded-xl flex items-center gap-3 transition ${i===cmdIndex?'bg-purple-600/20 border border-purple-500/40':'border border-transparent hover:bg-white/5'}`});document.querySelectorAll('.cmd-item')[cmdIndex]?.scrollIntoView({block:'nearest'})}
+        const searchable = [
+          prompt.title,
+          prompt.category,
+          prompt.subcategory,
+          prompt.shortcode,
+          prompt.description,
+          prompt.code
+        ].join(" ").toLowerCase();
 
-/* events */
-function setupEvents(){
-document.querySelectorAll('.nav-tab').forEach(b=>b.onclick=()=>switchNav(b.dataset.nav));
-const ms=document.getElementById('mainSearchInput');if(ms)ms.oninput=e=>{STATE.searchQuery=e.target.value;STATE.currentPage=1;renderCatalog();renderPills()};
-const mo=document.getElementById('mobileSearchInput');if(mo)mo.oninput=e=>{STATE.searchQuery=e.target.value;STATE.currentPage=1;renderCatalog();renderPills()};
-document.getElementById('engineFilter').onchange=e=>{STATE.modelFilter=e.target.value;STATE.currentPage=1;renderCatalog();renderPills()};
-document.getElementById('sortOrder').onchange=e=>{STATE.sort=e.target.value;renderCatalog()};
-document.getElementById('prevPageBtn').onclick=()=>{STATE.currentPage--;renderCatalog();window.scrollTo({top:300,behavior:'smooth'})};
-document.getElementById('nextPageBtn').onclick=()=>{STATE.currentPage++;renderCatalog();window.scrollTo({top:300,behavior:'smooth'})};
-document.getElementById('viewGridModeBtn').onclick=()=>{STATE.viewMode='grid';document.getElementById('viewGridModeBtn').className='px-2.5 py-1 rounded-lg bg-white/10 text-white font-semibold';document.getElementById('viewListModeBtn').className='px-2.5 py-1 rounded-lg text-slate-400 hover:text-white';renderCatalog()};
-document.getElementById('viewListModeBtn').onclick=()=>{STATE.viewMode='compact';document.getElementById('viewListModeBtn').className='px-2.5 py-1 rounded-lg bg-white/10 text-white font-semibold';document.getElementById('viewGridModeBtn').className='px-2.5 py-1 rounded-lg text-slate-400 hover:text-white';renderCatalog()};
-document.getElementById('closeModalBtn').onclick=closeModal;document.getElementById('modalBackdrop').onclick=closeModal;
-document.getElementById('modalCopyBtn').onclick=()=>{if(activeModalPrompt){let t=document.getElementById('modalPromptCode').textContent;copyText(t).then(()=>showToast(`${activeModalPrompt.code} copied!`,'✓'))}};
-document.getElementById('modalFavoriteBtn').onclick=()=>{if(activeModalPrompt)toggleFav(activeModalPrompt.code)};
-document.getElementById('modalTestInChatBtn').onclick=()=>{if(!activeModalPrompt)return;const cat=activeModalPrompt.cat;const map={poses:'pose',lights:'light',ambience:'ambience',scenes:'scene',outfits:'outfit',hairstyles:'hair',edit:'edit'};if(map[cat]){STATE.matrix[map[cat]]=activeModalPrompt.code;renderMatrixSlots()}closeModal();switchNav('composer');showToast('Sent to Matrix Stacker','🎨')};
-document.getElementById('openSettingsBtn').onclick=()=>document.getElementById('settingsDrawer').classList.remove('hidden');
-document.getElementById('closeSettingsBtn').onclick=()=>document.getElementById('settingsDrawer').classList.add('hidden');
-document.getElementById('closeSettingsBackdrop').onclick=()=>document.getElementById('settingsDrawer').classList.add('hidden');
-document.getElementById('openFavoritesBtn').onclick=openFavorites;
-document.getElementById('closeFavoritesBtn').onclick=()=>document.getElementById('favoritesDrawer').classList.add('hidden');
-document.getElementById('closeFavoritesBackdrop').onclick=()=>document.getElementById('favoritesDrawer').classList.add('hidden');
-document.getElementById('toggleThemeBtn').onclick=()=>{const h=document.documentElement;h.classList.toggle('dark');document.getElementById('toggleThemeBtn').textContent=h.classList.contains('dark')?'🌙':'☀️';showToast(h.classList.contains('dark')?'Dark mode':'Light mode','◐')};
-[['settingFillVars','fillVars'],['settingPreamble','preamble'],['settingMjSuffix','mjSuffix']].forEach(([id,key])=>{const el=document.getElementById(id);el.classList.toggle('on',!!STATE.settings[key]);el.onclick=()=>{STATE.settings[key]=!STATE.settings[key];el.classList.toggle('on',STATE.settings[key]);saveSettings();if(activeModalPrompt)refreshModal();showToast(`${key} ${STATE.settings[key]?'enabled':'disabled'}`,'⚙️')}});
-document.getElementById('settingAr').value=STATE.settings.aspectRatio;document.getElementById('settingAr').onchange=e=>{STATE.settings.aspectRatio=e.target.value;saveSettings();updateMatrix()};
-document.querySelectorAll('.accBtn').forEach(b=>b.onclick=()=>{const m={purple:'139 92 246',cyan:'6 182 212',pink:'236 72 153',emerald:'16 185 129',amber:'245 158 11'};document.documentElement.style.setProperty('--accent',m[b.dataset.color]);document.querySelectorAll('.accBtn').forEach(x=>x.classList.remove('ring-2','ring-white/60'));b.classList.add('ring-2','ring-white/60');document.getElementById('accLabel').textContent=b.dataset.color+' pulse';showToast(`Accent: ${b.dataset.color}`,'🎨')});
-document.getElementById('resetAllSettingsBtn').onclick=()=>{STATE.settings={fillVars:true,preamble:true,mjSuffix:true,aspectRatio:'16:9'};saveSettings();location.reload()};
-document.getElementById('randomizeMatrixBtn').onclick=()=>{const pick=cat=>{const a=ALL_PROMPT_CODES.filter(p=>p.cat===cat);return a[Math.floor(Math.random()*a.length)].code};STATE.matrix.pose=pick('poses');STATE.matrix.light=pick('lights');STATE.matrix.ambience=pick('ambience');STATE.matrix.scene=pick('scenes');STATE.matrix.outfit=pick('outfits');STATE.matrix.hair=pick('hairstyles');STATE.matrix.edit=pick('edit');renderMatrixSlots();showToast('Matrix randomized!','🎲')};
-document.getElementById('copyMatrixBtn').onclick=()=>{copyText(document.getElementById('matrixOutputText').value).then(()=>showToast('Master prompt copied!','✓'))};
-document.getElementById('resetMatrixBtn').onclick=()=>{STATE.matrix={subject:'Cybernetic android geisha, rain-soaked neon street',pose:'/pose.contrapposto',light:'/lit.cyber-rembrandt',ambience:'/atm.foggy-noir',scene:'/scene.brutalist-sanctuary',outfit:'/fit.techwear-stealth',hair:'/hair.wolf-cut-neon',edit:'/edit.relight-sunset'};renderMatrixSlots()};
-document.getElementById('sendMatrixToModalBtn').onclick=()=>{openModal({code:'/matrix.master-stack',title:'Custom Matrix Master Prompt',cat:'scenes',models:['Midjourney v6.1','Flux.1'],tags:['matrix','stack','master'],desc:'Your composed multi-layer cinematic prompt from the Matrix Stacker.',prompt:document.getElementById('matrixOutputText').value,vars:[]})};
-['addMjParams','addPhotoreal','addNegative','addColorGrade'].forEach(id=>document.getElementById(id).onchange=updateMatrix);
-const cmd=document.getElementById('commandPalette'),ci=document.getElementById('cmdSearchInput');
-document.getElementById('closeCmdBackdrop').onclick=()=>cmd.classList.add('hidden');
-ci.oninput=e=>renderCmd(e.target.value);
-ci.onkeydown=e=>{if(e.key==='ArrowDown'){e.preventDefault();moveCmd(1)}if(e.key==='ArrowUp'){e.preventDefault();moveCmd(-1)}if(e.key==='Enter'){const p=cmdList[cmdIndex];cmd.classList.add('hidden');if(p)executeCopy(p);ci.value=''}};
-document.addEventListener('keydown',e=>{if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'){e.preventDefault();cmd.classList.remove('hidden');renderCmd('');setTimeout(()=>ci.focus(),50)}if(e.key==='Escape'){cmd.classList.add('hidden');closeModal();document.getElementById('settingsDrawer').classList.add('hidden');document.getElementById('favoritesDrawer').classList.add('hidden')}});
-}
+        return matchesCategory && matchesSubcategory &&
+          (!query || searchable.includes(query));
+      });
+    }
 
-/* particles */
-function initParticles(){const c=document.getElementById('particles'),x=c.getContext('2d');let W,H,pts=[];function rs(){W=c.width=innerWidth;H=c.height=innerHeight}rs();addEventListener('resize',rs);for(let i=0;i<70;i++)pts.push({x:Math.random()*innerWidth,y:Math.random()*innerHeight,r:Math.random()*1.8+.4,s:Math.random()*.4+.1,o:Math.random()*.5+.15});(function loop(){x.clearRect(0,0,W,H);pts.forEach(p=>{p.y-=p.s;if(p.y<0){p.y=H;p.x=Math.random()*W}x.beginPath();x.arc(p.x,p.y,p.r,0,7);x.fillStyle=`rgba(139,92,246,${p.o})`;x.fill()});requestAnimationFrame(loop)})()}
+    function render() {
+      const filtered = getFilteredPrompts();
+      const totalPages = Math.max(1, Math.ceil(filtered.length / state.perPage));
 
-generateDB();renderCategoryChips();renderVisualSubcats();renderMatrixSlots();renderPacks();renderCatalog();updateFavUI();setupEvents();initParticles();renderCmd('');renderPills();
-document.getElementById('toggleThemeBtn').textContent='🌙';
-</script>
+      if (state.page > totalPages) state.page = totalPages;
+
+      const start = (state.page - 1) * state.perPage;
+      const visible = filtered.slice(start, start + state.perPage);
+
+      els.currentCategory.textContent =
+        state.category === "All" ? "All prompts" : state.category;
+
+      els.resultCount.textContent =
+        `${filtered.length} result${filtered.length === 1 ? "" : "s"}`;
+
+      els.emptyState.style.display = filtered.length ? "none" : "block";
+      els.grid.style.display = filtered.length ? "grid" : "none";
+
+      els.grid.innerHTML = visible.map(prompt => `
+        <article class="prompt-card">
+          <div class="card-top">
+            <div class="tag-row">
+              <span class="tag">${prompt.category}</span>
+              <span class="tag">${prompt.subcategory}</span>
+            </div>
+
+            <button class="copy-btn" data-copy="${encodeURIComponent(prompt.code)}">
+              Copy
+            </button>
+          </div>
+
+          <h4>${prompt.title}</h4>
+          <p>${prompt.description}</p>
+
+          <div class="code-preview">${escapeHtml(prompt.code)}</div>
+
+          <div class="card-bottom">
+            <span class="shortcode">${prompt.shortcode}</span>
+            <span>Reusable prompt</span>
+          </div>
+        </article>
+      `).join("");
+
+      document.querySelectorAll(".copy-btn").forEach(button => {
+        button.addEventListener("click", async () => {
+          const code = decodeURIComponent(button.dataset.copy);
+
+          try {
+            await navigator.clipboard.writeText(code);
+            button.textContent = "Copied";
+            setTimeout(() => button.textContent = "Copy", 1300);
+          } catch {
+            button.textContent = "Error";
+            setTimeout(() => button.textContent = "Copy", 1300);
+          }
+        });
+      });
+
+      renderPagination(totalPages);
+    }
+
+    function renderPagination(totalPages) {
+      if (totalPages <= 1) {
+        els.pagination.innerHTML = "";
+        return;
+      }
+
+      let html = `
+        <button class="page-btn" data-page="${state.page - 1}"
+          ${state.page === 1 ? "disabled" : ""}>‹</button>
+      `;
+
+      for (let page = 1; page <= totalPages; page++) {
+        html += `
+          <button class="page-btn ${page === state.page ? "active" : ""}"
+            data-page="${page}">
+            ${page}
+          </button>
+        `;
+      }
+
+      html += `
+        <button class="page-btn" data-page="${state.page + 1}"
+          ${state.page === totalPages ? "disabled" : ""}>›</button>
+      `;
+
+      els.pagination.innerHTML = html;
+
+      document.querySelectorAll(".page-btn").forEach(button => {
+        button.addEventListener("click", () => {
+          const page = Number(button.dataset.page);
+
+          if (page >= 1 && page <= totalPages) {
+            state.page = page;
+            render();
+            window.scrollTo({ top: 330, behavior: "smooth" });
+          }
+        });
+      });
+    }
+
+    function escapeHtml(value) {
+      return value
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    els.searchInput.addEventListener("input", event => {
+      state.search = event.target.value;
+      state.page = 1;
+      render();
+    });
+
+    els.subcategoryFilter.addEventListener("change", event => {
+      state.subcategory = event.target.value;
+      state.page = 1;
+      render();
+    });
+
+    document.getElementById("clearFilters").addEventListener("click", () => {
+      state.category = "All";
+      state.subcategory = "all";
+      state.search = "";
+      state.page = 1;
+
+      els.searchInput.value = "";
+
+      renderCategories();
+      renderSubcategories();
+      render();
+    });
+
+    initialize();
+  </script>
 </body>
 </html>
