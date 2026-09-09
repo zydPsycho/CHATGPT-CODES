@@ -5,3 +5,6 @@
 
 /* Strict monochrome overrides: hierarchy comes from type, spacing and contrast. */
 :root{--gold:#fff;--gold-2:#fff;--accent:#fff;--accent-strong:#fff} .button.gold{background:#fff;color:#000;border-color:#fff}.command,.eyebrow,.inline-link,.access-grid span,.category-icon,.category-card footer b,.text-button.gold,.orbit-core span,.switch{color:#fff}.orbit-ring{border-color:#fff5}.category-card:hover,.prompt-card:hover,.access-grid a:hover{border-color:#fff}.lock-card.on{border-color:#fff;background:#181818}.lock-card.on .switch{border-color:#fff;color:#fff}.lock-card.on .switch span{background:#fff} #toast{background:#fff;color:#000}
+
+/* Centered BLACKMARK masthead */
+.site-header{position:sticky}.site-header .brand{position:absolute;left:50%;transform:translateX(-50%);min-width:max-content}.site-header .desktop-nav{margin-right:auto}.site-header .github-link{position:absolute;right:clamp(18px,5vw,72px)}@media(max-width:620px){.site-header .brand{left:50%;transform:translateX(-50%)}.site-header .brand small{display:none}}
