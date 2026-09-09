@@ -26,6 +26,18 @@
       "slug": "portrait-control",
       "file": "/data/prompts/face/portrait-control.json",
       "count": 64
+    },
+    {
+      "name": "Pose & Posture",
+      "slug": "pose-posture",
+      "file": "/data/prompts/face/pose-posture.json",
+      "count": 8
+    },
+    {
+      "name": "Hairstyles",
+      "slug": "hairstyles",
+      "file": "/data/prompts/face/hairstyles.json",
+      "count": 8
     }
   ]
 }
