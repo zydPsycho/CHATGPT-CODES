@@ -1,0 +1,104 @@
+{
+  "category": "Visual Design & Branding",
+  "categorySlug": "visual-design",
+  "subcategory": "Core",
+  "slug": "core",
+  "description": "Core command system for branding & logo.",
+  "prompts": [
+    {
+      "id": "branding-0",
+      "command": "/brandmark",
+      "name": "Brandmark",
+      "description": "Branding & Logo directive for a controlled creative workflow.",
+      "instruction": "Apply brandmark with precise control while preserving the intended subject and composition.",
+      "tags": [
+        "branding",
+        "blackmark"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Visual Design & Branding",
+      "categorySlug": "visual-design",
+      "subcategory": "Core"
+    },
+    {
+      "id": "branding-1",
+      "command": "/logooutline",
+      "name": "Logooutline",
+      "description": "Branding & Logo directive for a controlled creative workflow.",
+      "instruction": "Apply logooutline with precise control while preserving the intended subject and composition.",
+      "tags": [
+        "branding",
+        "blackmark"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Visual Design & Branding",
+      "categorySlug": "visual-design",
+      "subcategory": "Core"
+    },
+    {
+      "id": "branding-2",
+      "command": "/premium",
+      "name": "Premium",
+      "description": "Branding & Logo directive for a controlled creative workflow.",
+      "instruction": "Apply premium with precise control while preserving the intended subject and composition.",
+      "tags": [
+        "branding",
+        "blackmark"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Visual Design & Branding",
+      "categorySlug": "visual-design",
+      "subcategory": "Core"
+    },
+    {
+      "id": "branding-3",
+      "command": "/vectorlook",
+      "name": "Vectorlook",
+      "description": "Branding & Logo directive for a controlled creative workflow.",
+      "instruction": "Apply vectorlook with precise control while preserving the intended subject and composition.",
+      "tags": [
+        "branding",
+        "blackmark"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Visual Design & Branding",
+      "categorySlug": "visual-design",
+      "subcategory": "Core"
+    },
+    {
+      "id": "branding-4",
+      "command": "/visualhierarchy",
+      "name": "Visualhierarchy",
+      "description": "Branding & Logo directive for a controlled creative workflow.",
+      "instruction": "Apply visualhierarchy with precise control while preserving the intended subject and composition.",
+      "tags": [
+        "branding",
+        "blackmark"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Visual Design & Branding",
+      "categorySlug": "visual-design",
+      "subcategory": "Core"
+    }
+  ]
+}

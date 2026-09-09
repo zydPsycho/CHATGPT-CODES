@@ -1,0 +1,1289 @@
+{
+  "category": "Research & Strategy",
+  "categorySlug": "research-strategy",
+  "subcategory": "Product",
+  "slug": "product",
+  "description": "Product command system for environment & atmosphere.",
+  "prompts": [
+    {
+      "id": "product-0",
+      "command": "/product",
+      "name": "Product",
+      "description": "Product workflow directive for product.",
+      "instruction": "Apply product with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "product"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "features-1",
+      "command": "/features",
+      "name": "Features",
+      "description": "Features workflow directive for product.",
+      "instruction": "Apply features with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "features"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "userstories-2",
+      "command": "/userstories",
+      "name": "Userstories",
+      "description": "Userstories workflow directive for product.",
+      "instruction": "Apply userstories with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "userstories"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "prd-3",
+      "command": "/prd",
+      "name": "Prd",
+      "description": "Prd workflow directive for product.",
+      "instruction": "Apply prd with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "prd"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "roadmap-4",
+      "command": "/roadmap",
+      "name": "Roadmap",
+      "description": "Roadmap workflow directive for product.",
+      "instruction": "Apply roadmap with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "roadmap"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "prioritize-5",
+      "command": "/prioritize",
+      "name": "Prioritize",
+      "description": "Prioritize workflow directive for product.",
+      "instruction": "Apply prioritize with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "prioritize"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "product-precise-6",
+      "command": "/product-precise",
+      "name": "Product Precise",
+      "description": "Product Precise workflow directive for product.",
+      "instruction": "Apply product precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "product"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "features-clean-7",
+      "command": "/features-clean",
+      "name": "Features Clean",
+      "description": "Features Clean workflow directive for product.",
+      "instruction": "Apply features clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "features"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "userstories-natural-8",
+      "command": "/userstories-natural",
+      "name": "Userstories Natural",
+      "description": "Userstories Natural workflow directive for product.",
+      "instruction": "Apply userstories natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "userstories"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "prd-refined-9",
+      "command": "/prd-refined",
+      "name": "Prd Refined",
+      "description": "Prd Refined workflow directive for product.",
+      "instruction": "Apply prd refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "prd"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "roadmap-professional-10",
+      "command": "/roadmap-professional",
+      "name": "Roadmap Professional",
+      "description": "Roadmap Professional workflow directive for product.",
+      "instruction": "Apply roadmap professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "roadmap"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "prioritize-premium-11",
+      "command": "/prioritize-premium",
+      "name": "Prioritize Premium",
+      "description": "Prioritize Premium workflow directive for product.",
+      "instruction": "Apply prioritize premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "prioritize"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "product-subtle-12",
+      "command": "/product-subtle",
+      "name": "Product Subtle",
+      "description": "Product Subtle workflow directive for product.",
+      "instruction": "Apply product subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "product"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "features-strong-13",
+      "command": "/features-strong",
+      "name": "Features Strong",
+      "description": "Features Strong workflow directive for product.",
+      "instruction": "Apply features strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "features"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "userstories-balanced-14",
+      "command": "/userstories-balanced",
+      "name": "Userstories Balanced",
+      "description": "Userstories Balanced workflow directive for product.",
+      "instruction": "Apply userstories balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "userstories"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "prd-detailed-15",
+      "command": "/prd-detailed",
+      "name": "Prd Detailed",
+      "description": "Prd Detailed workflow directive for product.",
+      "instruction": "Apply prd detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "prd"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "roadmap-advanced-16",
+      "command": "/roadmap-advanced",
+      "name": "Roadmap Advanced",
+      "description": "Roadmap Advanced workflow directive for product.",
+      "instruction": "Apply roadmap advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "roadmap"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "prioritize-simple-17",
+      "command": "/prioritize-simple",
+      "name": "Prioritize Simple",
+      "description": "Prioritize Simple workflow directive for product.",
+      "instruction": "Apply prioritize simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "prioritize"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "product-smart-18",
+      "command": "/product-smart",
+      "name": "Product Smart",
+      "description": "Product Smart workflow directive for product.",
+      "instruction": "Apply product smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "product"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "features-controlled-19",
+      "command": "/features-controlled",
+      "name": "Features Controlled",
+      "description": "Features Controlled workflow directive for product.",
+      "instruction": "Apply features controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "features"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "userstories-optimized-20",
+      "command": "/userstories-optimized",
+      "name": "Userstories Optimized",
+      "description": "Userstories Optimized workflow directive for product.",
+      "instruction": "Apply userstories optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "userstories"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "prd-efficient-21",
+      "command": "/prd-efficient",
+      "name": "Prd Efficient",
+      "description": "Prd Efficient workflow directive for product.",
+      "instruction": "Apply prd efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "prd"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "roadmap-accurate-22",
+      "command": "/roadmap-accurate",
+      "name": "Roadmap Accurate",
+      "description": "Roadmap Accurate workflow directive for product.",
+      "instruction": "Apply roadmap accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "roadmap"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "prioritize-consistent-23",
+      "command": "/prioritize-consistent",
+      "name": "Prioritize Consistent",
+      "description": "Prioritize Consistent workflow directive for product.",
+      "instruction": "Apply prioritize consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "prioritize"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "product-polished-24",
+      "command": "/product-polished",
+      "name": "Product Polished",
+      "description": "Product Polished workflow directive for product.",
+      "instruction": "Apply product polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "product"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "features-final-25",
+      "command": "/features-final",
+      "name": "Features Final",
+      "description": "Features Final workflow directive for product.",
+      "instruction": "Apply features final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "features"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "userstories-quick-26",
+      "command": "/userstories-quick",
+      "name": "Userstories Quick",
+      "description": "Userstories Quick workflow directive for product.",
+      "instruction": "Apply userstories quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "userstories"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "prd-deep-27",
+      "command": "/prd-deep",
+      "name": "Prd Deep",
+      "description": "Prd Deep workflow directive for product.",
+      "instruction": "Apply prd deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "prd"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "roadmap-thorough-28",
+      "command": "/roadmap-thorough",
+      "name": "Roadmap Thorough",
+      "description": "Roadmap Thorough workflow directive for product.",
+      "instruction": "Apply roadmap thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "roadmap"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "prioritize-minimal-29",
+      "command": "/prioritize-minimal",
+      "name": "Prioritize Minimal",
+      "description": "Prioritize Minimal workflow directive for product.",
+      "instruction": "Apply prioritize minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "prioritize"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "product-maximum-30",
+      "command": "/product-maximum",
+      "name": "Product Maximum",
+      "description": "Product Maximum workflow directive for product.",
+      "instruction": "Apply product maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "product"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "features-soft-31",
+      "command": "/features-soft",
+      "name": "Features Soft",
+      "description": "Features Soft workflow directive for product.",
+      "instruction": "Apply features soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "features"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "userstories-bold-32",
+      "command": "/userstories-bold",
+      "name": "Userstories Bold",
+      "description": "Userstories Bold workflow directive for product.",
+      "instruction": "Apply userstories bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "userstories"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "prd-sharp-33",
+      "command": "/prd-sharp",
+      "name": "Prd Sharp",
+      "description": "Prd Sharp workflow directive for product.",
+      "instruction": "Apply prd sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "prd"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "roadmap-smooth-34",
+      "command": "/roadmap-smooth",
+      "name": "Roadmap Smooth",
+      "description": "Roadmap Smooth workflow directive for product.",
+      "instruction": "Apply roadmap smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "roadmap"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "prioritize-stable-35",
+      "command": "/prioritize-stable",
+      "name": "Prioritize Stable",
+      "description": "Prioritize Stable workflow directive for product.",
+      "instruction": "Apply prioritize stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "prioritize"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "product-highquality-36",
+      "command": "/product-highquality",
+      "name": "Product Highquality",
+      "description": "Product Highquality workflow directive for product.",
+      "instruction": "Apply product highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "product"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "features-lowartifact-37",
+      "command": "/features-lowartifact",
+      "name": "Features Lowartifact",
+      "description": "Features Lowartifact workflow directive for product.",
+      "instruction": "Apply features lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "features"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "userstories-highdetail-38",
+      "command": "/userstories-highdetail",
+      "name": "Userstories Highdetail",
+      "description": "Userstories Highdetail workflow directive for product.",
+      "instruction": "Apply userstories highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "userstories"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "prd-fine-39",
+      "command": "/prd-fine",
+      "name": "Prd Fine",
+      "description": "Prd Fine workflow directive for product.",
+      "instruction": "Apply prd fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "prd"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "roadmap-micro-40",
+      "command": "/roadmap-micro",
+      "name": "Roadmap Micro",
+      "description": "Roadmap Micro workflow directive for product.",
+      "instruction": "Apply roadmap micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "roadmap"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "prioritize-macro-41",
+      "command": "/prioritize-macro",
+      "name": "Prioritize Macro",
+      "description": "Prioritize Macro workflow directive for product.",
+      "instruction": "Apply prioritize macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "prioritize"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "product-local-42",
+      "command": "/product-local",
+      "name": "Product Local",
+      "description": "Product Local workflow directive for product.",
+      "instruction": "Apply product local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "product"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "features-global-43",
+      "command": "/features-global",
+      "name": "Features Global",
+      "description": "Features Global workflow directive for product.",
+      "instruction": "Apply features global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "features"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "userstories-adaptive-44",
+      "command": "/userstories-adaptive",
+      "name": "Userstories Adaptive",
+      "description": "Userstories Adaptive workflow directive for product.",
+      "instruction": "Apply userstories adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "userstories"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "prd-contextual-45",
+      "command": "/prd-contextual",
+      "name": "Prd Contextual",
+      "description": "Prd Contextual workflow directive for product.",
+      "instruction": "Apply prd contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "prd"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "roadmap-realistic-46",
+      "command": "/roadmap-realistic",
+      "name": "Roadmap Realistic",
+      "description": "Roadmap Realistic workflow directive for product.",
+      "instruction": "Apply roadmap realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "roadmap"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "prioritize-cinematic-47",
+      "command": "/prioritize-cinematic",
+      "name": "Prioritize Cinematic",
+      "description": "Prioritize Cinematic workflow directive for product.",
+      "instruction": "Apply prioritize cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "prioritize"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "product-modern-48",
+      "command": "/product-modern",
+      "name": "Product Modern",
+      "description": "Product Modern workflow directive for product.",
+      "instruction": "Apply product modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "product"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "features-classic-49",
+      "command": "/features-classic",
+      "name": "Features Classic",
+      "description": "Features Classic workflow directive for product.",
+      "instruction": "Apply features classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "features"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "userstories-technical-50",
+      "command": "/userstories-technical",
+      "name": "Userstories Technical",
+      "description": "Userstories Technical workflow directive for product.",
+      "instruction": "Apply userstories technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "userstories"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "prd-creative-51",
+      "command": "/prd-creative",
+      "name": "Prd Creative",
+      "description": "Prd Creative workflow directive for product.",
+      "instruction": "Apply prd creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "prd"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "roadmap-editorial-52",
+      "command": "/roadmap-editorial",
+      "name": "Roadmap Editorial",
+      "description": "Roadmap Editorial workflow directive for product.",
+      "instruction": "Apply roadmap editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "roadmap"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "prioritize-production-53",
+      "command": "/prioritize-production",
+      "name": "Prioritize Production",
+      "description": "Prioritize Production workflow directive for product.",
+      "instruction": "Apply prioritize production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "prioritize"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "product-studio-54",
+      "command": "/product-studio",
+      "name": "Product Studio",
+      "description": "Product Studio workflow directive for product.",
+      "instruction": "Apply product studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "product"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "features-portable-55",
+      "command": "/features-portable",
+      "name": "Features Portable",
+      "description": "Features Portable workflow directive for product.",
+      "instruction": "Apply features portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "features"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "userstories-safe-56",
+      "command": "/userstories-safe",
+      "name": "Userstories Safe",
+      "description": "Userstories Safe workflow directive for product.",
+      "instruction": "Apply userstories safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "userstories"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "prd-robust-57",
+      "command": "/prd-robust",
+      "name": "Prd Robust",
+      "description": "Prd Robust workflow directive for product.",
+      "instruction": "Apply prd robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "prd"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "roadmap-reliable-58",
+      "command": "/roadmap-reliable",
+      "name": "Roadmap Reliable",
+      "description": "Roadmap Reliable workflow directive for product.",
+      "instruction": "Apply roadmap reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "roadmap"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "prioritize-scalable-59",
+      "command": "/prioritize-scalable",
+      "name": "Prioritize Scalable",
+      "description": "Prioritize Scalable workflow directive for product.",
+      "instruction": "Apply prioritize scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "prioritize"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "product-maintainable-60",
+      "command": "/product-maintainable",
+      "name": "Product Maintainable",
+      "description": "Product Maintainable workflow directive for product.",
+      "instruction": "Apply product maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "product"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "features-accessible-61",
+      "command": "/features-accessible",
+      "name": "Features Accessible",
+      "description": "Features Accessible workflow directive for product.",
+      "instruction": "Apply features accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "features"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "userstories-responsive-62",
+      "command": "/userstories-responsive",
+      "name": "Userstories Responsive",
+      "description": "Userstories Responsive workflow directive for product.",
+      "instruction": "Apply userstories responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "userstories"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    },
+    {
+      "id": "prd-structured-63",
+      "command": "/prd-structured",
+      "name": "Prd Structured",
+      "description": "Prd Structured workflow directive for product.",
+      "instruction": "Apply prd structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "product",
+        "business-and-strategy",
+        "prd"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Product"
+    }
+  ]
+}

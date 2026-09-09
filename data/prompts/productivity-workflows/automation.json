@@ -1,0 +1,1289 @@
+{
+  "category": "Productivity & Workflows",
+  "categorySlug": "productivity-workflows",
+  "subcategory": "Automation",
+  "slug": "automation",
+  "description": "Automation command system for environment & atmosphere.",
+  "prompts": [
+    {
+      "id": "automate-0",
+      "command": "/automate",
+      "name": "Automate",
+      "description": "Automate workflow directive for automation.",
+      "instruction": "Apply automate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "automate"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "batch-1",
+      "command": "/batch",
+      "name": "Batch",
+      "description": "Batch workflow directive for automation.",
+      "instruction": "Apply batch with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "batch"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "repeat-2",
+      "command": "/repeat",
+      "name": "Repeat",
+      "description": "Repeat workflow directive for automation.",
+      "instruction": "Apply repeat with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "repeat"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "schedule-3",
+      "command": "/schedule",
+      "name": "Schedule",
+      "description": "Schedule workflow directive for automation.",
+      "instruction": "Apply schedule with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "schedule"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "watch-4",
+      "command": "/watch",
+      "name": "Watch",
+      "description": "Watch workflow directive for automation.",
+      "instruction": "Apply watch with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "watch"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "notify-5",
+      "command": "/notify",
+      "name": "Notify",
+      "description": "Notify workflow directive for automation.",
+      "instruction": "Apply notify with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "notify"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "automate-precise-6",
+      "command": "/automate-precise",
+      "name": "Automate Precise",
+      "description": "Automate Precise workflow directive for automation.",
+      "instruction": "Apply automate precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "automate"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "batch-clean-7",
+      "command": "/batch-clean",
+      "name": "Batch Clean",
+      "description": "Batch Clean workflow directive for automation.",
+      "instruction": "Apply batch clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "batch"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "repeat-natural-8",
+      "command": "/repeat-natural",
+      "name": "Repeat Natural",
+      "description": "Repeat Natural workflow directive for automation.",
+      "instruction": "Apply repeat natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "repeat"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "schedule-refined-9",
+      "command": "/schedule-refined",
+      "name": "Schedule Refined",
+      "description": "Schedule Refined workflow directive for automation.",
+      "instruction": "Apply schedule refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "schedule"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "watch-professional-10",
+      "command": "/watch-professional",
+      "name": "Watch Professional",
+      "description": "Watch Professional workflow directive for automation.",
+      "instruction": "Apply watch professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "watch"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "notify-premium-11",
+      "command": "/notify-premium",
+      "name": "Notify Premium",
+      "description": "Notify Premium workflow directive for automation.",
+      "instruction": "Apply notify premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "notify"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "automate-subtle-12",
+      "command": "/automate-subtle",
+      "name": "Automate Subtle",
+      "description": "Automate Subtle workflow directive for automation.",
+      "instruction": "Apply automate subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "automate"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "batch-strong-13",
+      "command": "/batch-strong",
+      "name": "Batch Strong",
+      "description": "Batch Strong workflow directive for automation.",
+      "instruction": "Apply batch strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "batch"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "repeat-balanced-14",
+      "command": "/repeat-balanced",
+      "name": "Repeat Balanced",
+      "description": "Repeat Balanced workflow directive for automation.",
+      "instruction": "Apply repeat balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "repeat"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "schedule-detailed-15",
+      "command": "/schedule-detailed",
+      "name": "Schedule Detailed",
+      "description": "Schedule Detailed workflow directive for automation.",
+      "instruction": "Apply schedule detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "schedule"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "watch-advanced-16",
+      "command": "/watch-advanced",
+      "name": "Watch Advanced",
+      "description": "Watch Advanced workflow directive for automation.",
+      "instruction": "Apply watch advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "watch"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "notify-simple-17",
+      "command": "/notify-simple",
+      "name": "Notify Simple",
+      "description": "Notify Simple workflow directive for automation.",
+      "instruction": "Apply notify simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "notify"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "automate-smart-18",
+      "command": "/automate-smart",
+      "name": "Automate Smart",
+      "description": "Automate Smart workflow directive for automation.",
+      "instruction": "Apply automate smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "automate"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "batch-controlled-19",
+      "command": "/batch-controlled",
+      "name": "Batch Controlled",
+      "description": "Batch Controlled workflow directive for automation.",
+      "instruction": "Apply batch controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "batch"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "repeat-optimized-20",
+      "command": "/repeat-optimized",
+      "name": "Repeat Optimized",
+      "description": "Repeat Optimized workflow directive for automation.",
+      "instruction": "Apply repeat optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "repeat"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "schedule-efficient-21",
+      "command": "/schedule-efficient",
+      "name": "Schedule Efficient",
+      "description": "Schedule Efficient workflow directive for automation.",
+      "instruction": "Apply schedule efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "schedule"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "watch-accurate-22",
+      "command": "/watch-accurate",
+      "name": "Watch Accurate",
+      "description": "Watch Accurate workflow directive for automation.",
+      "instruction": "Apply watch accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "watch"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "notify-consistent-23",
+      "command": "/notify-consistent",
+      "name": "Notify Consistent",
+      "description": "Notify Consistent workflow directive for automation.",
+      "instruction": "Apply notify consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "notify"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "automate-polished-24",
+      "command": "/automate-polished",
+      "name": "Automate Polished",
+      "description": "Automate Polished workflow directive for automation.",
+      "instruction": "Apply automate polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "automate"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "batch-final-25",
+      "command": "/batch-final",
+      "name": "Batch Final",
+      "description": "Batch Final workflow directive for automation.",
+      "instruction": "Apply batch final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "batch"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "repeat-quick-26",
+      "command": "/repeat-quick",
+      "name": "Repeat Quick",
+      "description": "Repeat Quick workflow directive for automation.",
+      "instruction": "Apply repeat quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "repeat"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "schedule-deep-27",
+      "command": "/schedule-deep",
+      "name": "Schedule Deep",
+      "description": "Schedule Deep workflow directive for automation.",
+      "instruction": "Apply schedule deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "schedule"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "watch-thorough-28",
+      "command": "/watch-thorough",
+      "name": "Watch Thorough",
+      "description": "Watch Thorough workflow directive for automation.",
+      "instruction": "Apply watch thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "watch"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "notify-minimal-29",
+      "command": "/notify-minimal",
+      "name": "Notify Minimal",
+      "description": "Notify Minimal workflow directive for automation.",
+      "instruction": "Apply notify minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "notify"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "automate-maximum-30",
+      "command": "/automate-maximum",
+      "name": "Automate Maximum",
+      "description": "Automate Maximum workflow directive for automation.",
+      "instruction": "Apply automate maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "automate"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "batch-soft-31",
+      "command": "/batch-soft",
+      "name": "Batch Soft",
+      "description": "Batch Soft workflow directive for automation.",
+      "instruction": "Apply batch soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "batch"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "repeat-bold-32",
+      "command": "/repeat-bold",
+      "name": "Repeat Bold",
+      "description": "Repeat Bold workflow directive for automation.",
+      "instruction": "Apply repeat bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "repeat"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "schedule-sharp-33",
+      "command": "/schedule-sharp",
+      "name": "Schedule Sharp",
+      "description": "Schedule Sharp workflow directive for automation.",
+      "instruction": "Apply schedule sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "schedule"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "watch-smooth-34",
+      "command": "/watch-smooth",
+      "name": "Watch Smooth",
+      "description": "Watch Smooth workflow directive for automation.",
+      "instruction": "Apply watch smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "watch"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "notify-stable-35",
+      "command": "/notify-stable",
+      "name": "Notify Stable",
+      "description": "Notify Stable workflow directive for automation.",
+      "instruction": "Apply notify stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "notify"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "automate-highquality-36",
+      "command": "/automate-highquality",
+      "name": "Automate Highquality",
+      "description": "Automate Highquality workflow directive for automation.",
+      "instruction": "Apply automate highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "automate"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "batch-lowartifact-37",
+      "command": "/batch-lowartifact",
+      "name": "Batch Lowartifact",
+      "description": "Batch Lowartifact workflow directive for automation.",
+      "instruction": "Apply batch lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "batch"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "repeat-highdetail-38",
+      "command": "/repeat-highdetail",
+      "name": "Repeat Highdetail",
+      "description": "Repeat Highdetail workflow directive for automation.",
+      "instruction": "Apply repeat highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "repeat"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "schedule-fine-39",
+      "command": "/schedule-fine",
+      "name": "Schedule Fine",
+      "description": "Schedule Fine workflow directive for automation.",
+      "instruction": "Apply schedule fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "schedule"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "watch-micro-40",
+      "command": "/watch-micro",
+      "name": "Watch Micro",
+      "description": "Watch Micro workflow directive for automation.",
+      "instruction": "Apply watch micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "watch"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "notify-macro-41",
+      "command": "/notify-macro",
+      "name": "Notify Macro",
+      "description": "Notify Macro workflow directive for automation.",
+      "instruction": "Apply notify macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "notify"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "automate-local-42",
+      "command": "/automate-local",
+      "name": "Automate Local",
+      "description": "Automate Local workflow directive for automation.",
+      "instruction": "Apply automate local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "automate"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "batch-global-43",
+      "command": "/batch-global",
+      "name": "Batch Global",
+      "description": "Batch Global workflow directive for automation.",
+      "instruction": "Apply batch global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "batch"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "repeat-adaptive-44",
+      "command": "/repeat-adaptive",
+      "name": "Repeat Adaptive",
+      "description": "Repeat Adaptive workflow directive for automation.",
+      "instruction": "Apply repeat adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "repeat"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "schedule-contextual-45",
+      "command": "/schedule-contextual",
+      "name": "Schedule Contextual",
+      "description": "Schedule Contextual workflow directive for automation.",
+      "instruction": "Apply schedule contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "schedule"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "watch-realistic-46",
+      "command": "/watch-realistic",
+      "name": "Watch Realistic",
+      "description": "Watch Realistic workflow directive for automation.",
+      "instruction": "Apply watch realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "watch"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "notify-cinematic-47",
+      "command": "/notify-cinematic",
+      "name": "Notify Cinematic",
+      "description": "Notify Cinematic workflow directive for automation.",
+      "instruction": "Apply notify cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "notify"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "automate-modern-48",
+      "command": "/automate-modern",
+      "name": "Automate Modern",
+      "description": "Automate Modern workflow directive for automation.",
+      "instruction": "Apply automate modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "automate"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "batch-classic-49",
+      "command": "/batch-classic",
+      "name": "Batch Classic",
+      "description": "Batch Classic workflow directive for automation.",
+      "instruction": "Apply batch classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "batch"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "repeat-technical-50",
+      "command": "/repeat-technical",
+      "name": "Repeat Technical",
+      "description": "Repeat Technical workflow directive for automation.",
+      "instruction": "Apply repeat technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "repeat"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "schedule-creative-51",
+      "command": "/schedule-creative",
+      "name": "Schedule Creative",
+      "description": "Schedule Creative workflow directive for automation.",
+      "instruction": "Apply schedule creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "schedule"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "watch-editorial-52",
+      "command": "/watch-editorial",
+      "name": "Watch Editorial",
+      "description": "Watch Editorial workflow directive for automation.",
+      "instruction": "Apply watch editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "watch"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "notify-production-53",
+      "command": "/notify-production",
+      "name": "Notify Production",
+      "description": "Notify Production workflow directive for automation.",
+      "instruction": "Apply notify production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "notify"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "automate-studio-54",
+      "command": "/automate-studio",
+      "name": "Automate Studio",
+      "description": "Automate Studio workflow directive for automation.",
+      "instruction": "Apply automate studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "automate"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "batch-portable-55",
+      "command": "/batch-portable",
+      "name": "Batch Portable",
+      "description": "Batch Portable workflow directive for automation.",
+      "instruction": "Apply batch portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "batch"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "repeat-safe-56",
+      "command": "/repeat-safe",
+      "name": "Repeat Safe",
+      "description": "Repeat Safe workflow directive for automation.",
+      "instruction": "Apply repeat safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "repeat"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "schedule-robust-57",
+      "command": "/schedule-robust",
+      "name": "Schedule Robust",
+      "description": "Schedule Robust workflow directive for automation.",
+      "instruction": "Apply schedule robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "schedule"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "watch-reliable-58",
+      "command": "/watch-reliable",
+      "name": "Watch Reliable",
+      "description": "Watch Reliable workflow directive for automation.",
+      "instruction": "Apply watch reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "watch"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "notify-scalable-59",
+      "command": "/notify-scalable",
+      "name": "Notify Scalable",
+      "description": "Notify Scalable workflow directive for automation.",
+      "instruction": "Apply notify scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "notify"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "automate-maintainable-60",
+      "command": "/automate-maintainable",
+      "name": "Automate Maintainable",
+      "description": "Automate Maintainable workflow directive for automation.",
+      "instruction": "Apply automate maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "automate"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "batch-accessible-61",
+      "command": "/batch-accessible",
+      "name": "Batch Accessible",
+      "description": "Batch Accessible workflow directive for automation.",
+      "instruction": "Apply batch accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "batch"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "repeat-responsive-62",
+      "command": "/repeat-responsive",
+      "name": "Repeat Responsive",
+      "description": "Repeat Responsive workflow directive for automation.",
+      "instruction": "Apply repeat responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "repeat"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    },
+    {
+      "id": "schedule-structured-63",
+      "command": "/schedule-structured",
+      "name": "Schedule Structured",
+      "description": "Schedule Structured workflow directive for automation.",
+      "instruction": "Apply schedule structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "automation",
+        "automation-and-workflows",
+        "schedule"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Automation"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "category": "Language & Accessibility",
+  "slug": "language-learning",
+  "description": "Translate, localize, teach and make language more accessible.",
+  "subcategories": [
+    {
+      "name": "Translation",
+      "slug": "translation",
+      "file": "/data/prompts/language-learning/translation.json",
+      "count": 64
+    },
+    {
+      "name": "Language Learning",
+      "slug": "language-learning",
+      "file": "/data/prompts/language-learning/language-learning.json",
+      "count": 64
+    },
+    {
+      "name": "Tone",
+      "slug": "tone",
+      "file": "/data/prompts/language-learning/tone.json",
+      "count": 64
+    },
+    {
+      "name": "Accessibility",
+      "slug": "accessibility",
+      "file": "/data/prompts/language-learning/accessibility.json",
+      "count": 64
+    }
+  ]
+}

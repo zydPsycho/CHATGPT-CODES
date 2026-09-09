@@ -88,3 +88,9 @@ BLACKMARK is a static, client-side prompt organization interface. It does not cl
 The interface uses a strict pure monochrome palette: black backgrounds, white primary type, grayscale surfaces, grayscale borders, and grayscale secondary text. There are no gold, yellow, bronze, blue, purple, or neon accents. Premium character comes from typography, spacing, contrast, editorial composition, and restrained interaction states.
 
 Prompt data is now organized for scale under nested paths such as `data/prompts/face/identity.json` and `data/prompts/quality/restoration.json`. Each category has an `index.json` manifest that lists its subcategory files. The loader reads manifests and subcategory files on demand, allowing the library to grow without one oversized category payload. Existing migrated commands and metadata remain preserved in the source category files and nested records.
+
+## Corrected taxonomy
+
+The current product taxonomy separates **Image Generation** from **Image Editing & Restoration**. Lighting, camera, background cleanup, facial identity, pose, and hairstyles are now grouped under image editing because they modify or control an existing visual subject. **Coding & Development** contains generation, architecture, frontend, backend, debugging, fixing, testing, review, and code-oriented data work. **Content Writing & Communication** contains creative writing, copywriting, editing, structure, email, social, presentation, and negotiation. Research, strategy, productivity, architecture, language, and prompt engineering have their own dedicated systems rather than being mixed into visual categories.
+
+Each main category has a distinct monochrome demo image under `assets/images/`, and the image path is stored in `data/categories.json`. Pose and hairstyle command records carry their own demo image metadata and render image-backed prompt cards in the Vault.

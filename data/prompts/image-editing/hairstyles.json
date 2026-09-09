@@ -1,0 +1,185 @@
+{
+  "category": "Image Editing & Restoration",
+  "categorySlug": "image-editing",
+  "subcategory": "Hairstyles",
+  "slug": "hairstyles",
+  "description": "Direct hair shape, styling language and silhouette.",
+  "prompts": [
+    {
+      "id": "hairstyles-0",
+      "command": "/hairstyle",
+      "name": "Editorial Hairstyle",
+      "description": "Apply a considered editorial hair direction.",
+      "instruction": "Style the hair with a clean editorial silhouette while preserving natural texture and identity.",
+      "tags": [
+        "face",
+        "hairstyles"
+      ],
+      "priority": 65,
+      "compatibleWith": [
+        "/faceidentity"
+      ],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.1",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Hairstyles",
+      "demoImage": "/assets/images/hairstyle-demo.jpg"
+    },
+    {
+      "id": "hairstyles-1",
+      "command": "/slickedback",
+      "name": "Slicked Back",
+      "description": "Create a precise slicked-back hairstyle.",
+      "instruction": "Use a sculptural slicked-back style with controlled strands, clean hairline and refined silhouette.",
+      "tags": [
+        "face",
+        "hairstyles"
+      ],
+      "priority": 65,
+      "compatibleWith": [
+        "/faceidentity"
+      ],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.1",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Hairstyles",
+      "demoImage": "/assets/images/hairstyle-demo.jpg"
+    },
+    {
+      "id": "hairstyles-2",
+      "command": "/loosewaves",
+      "name": "Loose Waves",
+      "description": "Add soft, natural waves.",
+      "instruction": "Shape loose dimensional waves with believable volume, individual strands and natural movement.",
+      "tags": [
+        "face",
+        "hairstyles"
+      ],
+      "priority": 65,
+      "compatibleWith": [
+        "/faceidentity"
+      ],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.1",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Hairstyles",
+      "demoImage": "/assets/images/hairstyle-demo.jpg"
+    },
+    {
+      "id": "hairstyles-3",
+      "command": "/texturedbob",
+      "name": "Textured Bob",
+      "description": "Create a modern textured bob.",
+      "instruction": "Use a structured bob with subtle texture, clean edges and a contemporary editorial finish.",
+      "tags": [
+        "face",
+        "hairstyles"
+      ],
+      "priority": 65,
+      "compatibleWith": [
+        "/faceidentity"
+      ],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.1",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Hairstyles",
+      "demoImage": "/assets/images/hairstyle-demo.jpg"
+    },
+    {
+      "id": "hairstyles-4",
+      "command": "/highbun",
+      "name": "High Bun",
+      "description": "Create an elegant high bun.",
+      "instruction": "Gather the hair into a refined high bun while preserving realistic flyaways and facial proportions.",
+      "tags": [
+        "face",
+        "hairstyles"
+      ],
+      "priority": 65,
+      "compatibleWith": [
+        "/faceidentity"
+      ],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.1",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Hairstyles",
+      "demoImage": "/assets/images/hairstyle-demo.jpg"
+    },
+    {
+      "id": "hairstyles-5",
+      "command": "/shortcrop",
+      "name": "Short Crop",
+      "description": "Direct a concise short haircut.",
+      "instruction": "Use a clean short crop with precise edges, natural texture and a balanced head silhouette.",
+      "tags": [
+        "face",
+        "hairstyles"
+      ],
+      "priority": 65,
+      "compatibleWith": [
+        "/faceidentity"
+      ],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.1",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Hairstyles",
+      "demoImage": "/assets/images/hairstyle-demo.jpg"
+    },
+    {
+      "id": "hairstyles-6",
+      "command": "/naturaltexture",
+      "name": "Natural Texture",
+      "description": "Preserve authentic hair texture.",
+      "instruction": "Maintain the subject’s natural curl, wave or texture pattern with realistic strand detail.",
+      "tags": [
+        "face",
+        "hairstyles"
+      ],
+      "priority": 65,
+      "compatibleWith": [
+        "/faceidentity"
+      ],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.1",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Hairstyles",
+      "demoImage": "/assets/images/hairstyle-demo.jpg"
+    },
+    {
+      "id": "hairstyles-7",
+      "command": "/wetlook",
+      "name": "Wet Look",
+      "description": "Create a controlled wet-hair finish.",
+      "instruction": "Apply a subtle wet-look finish with separated strands, realistic sheen and editorial restraint.",
+      "tags": [
+        "face",
+        "hairstyles"
+      ],
+      "priority": 65,
+      "compatibleWith": [
+        "/faceidentity"
+      ],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.1",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Hairstyles",
+      "demoImage": "/assets/images/hairstyle-demo.jpg"
+    }
+  ]
+}

@@ -1,0 +1,1289 @@
+{
+  "category": "Language & Accessibility",
+  "categorySlug": "language-learning",
+  "subcategory": "Language Learning",
+  "slug": "language-learning",
+  "description": "Language Learning command system for style transformations.",
+  "prompts": [
+    {
+      "id": "vocab-0",
+      "command": "/vocab",
+      "name": "Vocab",
+      "description": "Vocab workflow directive for language learning.",
+      "instruction": "Apply vocab with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "vocab"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "grammar-1",
+      "command": "/grammar",
+      "name": "Grammar",
+      "description": "Grammar workflow directive for language learning.",
+      "instruction": "Apply grammar with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "grammar"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "pronunciation-2",
+      "command": "/pronunciation",
+      "name": "Pronunciation",
+      "description": "Pronunciation workflow directive for language learning.",
+      "instruction": "Apply pronunciation with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "pronunciation"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "conversation-3",
+      "command": "/conversation",
+      "name": "Conversation",
+      "description": "Conversation workflow directive for language learning.",
+      "instruction": "Apply conversation with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "conversation"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "correction-4",
+      "command": "/correction",
+      "name": "Correction",
+      "description": "Correction workflow directive for language learning.",
+      "instruction": "Apply correction with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "correction"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "vocab-precise-5",
+      "command": "/vocab-precise",
+      "name": "Vocab Precise",
+      "description": "Vocab Precise workflow directive for language learning.",
+      "instruction": "Apply vocab precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "vocab"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "grammar-clean-6",
+      "command": "/grammar-clean",
+      "name": "Grammar Clean",
+      "description": "Grammar Clean workflow directive for language learning.",
+      "instruction": "Apply grammar clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "grammar"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "pronunciation-natural-7",
+      "command": "/pronunciation-natural",
+      "name": "Pronunciation Natural",
+      "description": "Pronunciation Natural workflow directive for language learning.",
+      "instruction": "Apply pronunciation natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "pronunciation"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "conversation-refined-8",
+      "command": "/conversation-refined",
+      "name": "Conversation Refined",
+      "description": "Conversation Refined workflow directive for language learning.",
+      "instruction": "Apply conversation refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "conversation"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "correction-professional-9",
+      "command": "/correction-professional",
+      "name": "Correction Professional",
+      "description": "Correction Professional workflow directive for language learning.",
+      "instruction": "Apply correction professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "correction"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "vocab-premium-10",
+      "command": "/vocab-premium",
+      "name": "Vocab Premium",
+      "description": "Vocab Premium workflow directive for language learning.",
+      "instruction": "Apply vocab premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "vocab"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "grammar-subtle-11",
+      "command": "/grammar-subtle",
+      "name": "Grammar Subtle",
+      "description": "Grammar Subtle workflow directive for language learning.",
+      "instruction": "Apply grammar subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "grammar"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "pronunciation-strong-12",
+      "command": "/pronunciation-strong",
+      "name": "Pronunciation Strong",
+      "description": "Pronunciation Strong workflow directive for language learning.",
+      "instruction": "Apply pronunciation strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "pronunciation"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "conversation-balanced-13",
+      "command": "/conversation-balanced",
+      "name": "Conversation Balanced",
+      "description": "Conversation Balanced workflow directive for language learning.",
+      "instruction": "Apply conversation balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "conversation"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "correction-detailed-14",
+      "command": "/correction-detailed",
+      "name": "Correction Detailed",
+      "description": "Correction Detailed workflow directive for language learning.",
+      "instruction": "Apply correction detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "correction"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "vocab-advanced-15",
+      "command": "/vocab-advanced",
+      "name": "Vocab Advanced",
+      "description": "Vocab Advanced workflow directive for language learning.",
+      "instruction": "Apply vocab advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "vocab"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "grammar-simple-16",
+      "command": "/grammar-simple",
+      "name": "Grammar Simple",
+      "description": "Grammar Simple workflow directive for language learning.",
+      "instruction": "Apply grammar simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "grammar"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "pronunciation-smart-17",
+      "command": "/pronunciation-smart",
+      "name": "Pronunciation Smart",
+      "description": "Pronunciation Smart workflow directive for language learning.",
+      "instruction": "Apply pronunciation smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "pronunciation"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "conversation-controlled-18",
+      "command": "/conversation-controlled",
+      "name": "Conversation Controlled",
+      "description": "Conversation Controlled workflow directive for language learning.",
+      "instruction": "Apply conversation controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "conversation"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "correction-optimized-19",
+      "command": "/correction-optimized",
+      "name": "Correction Optimized",
+      "description": "Correction Optimized workflow directive for language learning.",
+      "instruction": "Apply correction optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "correction"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "vocab-efficient-20",
+      "command": "/vocab-efficient",
+      "name": "Vocab Efficient",
+      "description": "Vocab Efficient workflow directive for language learning.",
+      "instruction": "Apply vocab efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "vocab"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "grammar-accurate-21",
+      "command": "/grammar-accurate",
+      "name": "Grammar Accurate",
+      "description": "Grammar Accurate workflow directive for language learning.",
+      "instruction": "Apply grammar accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "grammar"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "pronunciation-consistent-22",
+      "command": "/pronunciation-consistent",
+      "name": "Pronunciation Consistent",
+      "description": "Pronunciation Consistent workflow directive for language learning.",
+      "instruction": "Apply pronunciation consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "pronunciation"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "conversation-polished-23",
+      "command": "/conversation-polished",
+      "name": "Conversation Polished",
+      "description": "Conversation Polished workflow directive for language learning.",
+      "instruction": "Apply conversation polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "conversation"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "correction-final-24",
+      "command": "/correction-final",
+      "name": "Correction Final",
+      "description": "Correction Final workflow directive for language learning.",
+      "instruction": "Apply correction final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "correction"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "vocab-quick-25",
+      "command": "/vocab-quick",
+      "name": "Vocab Quick",
+      "description": "Vocab Quick workflow directive for language learning.",
+      "instruction": "Apply vocab quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "vocab"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "grammar-deep-26",
+      "command": "/grammar-deep",
+      "name": "Grammar Deep",
+      "description": "Grammar Deep workflow directive for language learning.",
+      "instruction": "Apply grammar deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "grammar"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "pronunciation-thorough-27",
+      "command": "/pronunciation-thorough",
+      "name": "Pronunciation Thorough",
+      "description": "Pronunciation Thorough workflow directive for language learning.",
+      "instruction": "Apply pronunciation thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "pronunciation"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "conversation-minimal-28",
+      "command": "/conversation-minimal",
+      "name": "Conversation Minimal",
+      "description": "Conversation Minimal workflow directive for language learning.",
+      "instruction": "Apply conversation minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "conversation"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "correction-maximum-29",
+      "command": "/correction-maximum",
+      "name": "Correction Maximum",
+      "description": "Correction Maximum workflow directive for language learning.",
+      "instruction": "Apply correction maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "correction"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "vocab-soft-30",
+      "command": "/vocab-soft",
+      "name": "Vocab Soft",
+      "description": "Vocab Soft workflow directive for language learning.",
+      "instruction": "Apply vocab soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "vocab"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "grammar-bold-31",
+      "command": "/grammar-bold",
+      "name": "Grammar Bold",
+      "description": "Grammar Bold workflow directive for language learning.",
+      "instruction": "Apply grammar bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "grammar"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "pronunciation-sharp-32",
+      "command": "/pronunciation-sharp",
+      "name": "Pronunciation Sharp",
+      "description": "Pronunciation Sharp workflow directive for language learning.",
+      "instruction": "Apply pronunciation sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "pronunciation"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "conversation-smooth-33",
+      "command": "/conversation-smooth",
+      "name": "Conversation Smooth",
+      "description": "Conversation Smooth workflow directive for language learning.",
+      "instruction": "Apply conversation smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "conversation"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "correction-stable-34",
+      "command": "/correction-stable",
+      "name": "Correction Stable",
+      "description": "Correction Stable workflow directive for language learning.",
+      "instruction": "Apply correction stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "correction"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "vocab-highquality-35",
+      "command": "/vocab-highquality",
+      "name": "Vocab Highquality",
+      "description": "Vocab Highquality workflow directive for language learning.",
+      "instruction": "Apply vocab highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "vocab"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "grammar-lowartifact-36",
+      "command": "/grammar-lowartifact",
+      "name": "Grammar Lowartifact",
+      "description": "Grammar Lowartifact workflow directive for language learning.",
+      "instruction": "Apply grammar lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "grammar"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "pronunciation-highdetail-37",
+      "command": "/pronunciation-highdetail",
+      "name": "Pronunciation Highdetail",
+      "description": "Pronunciation Highdetail workflow directive for language learning.",
+      "instruction": "Apply pronunciation highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "pronunciation"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "conversation-fine-38",
+      "command": "/conversation-fine",
+      "name": "Conversation Fine",
+      "description": "Conversation Fine workflow directive for language learning.",
+      "instruction": "Apply conversation fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "conversation"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "correction-micro-39",
+      "command": "/correction-micro",
+      "name": "Correction Micro",
+      "description": "Correction Micro workflow directive for language learning.",
+      "instruction": "Apply correction micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "correction"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "vocab-macro-40",
+      "command": "/vocab-macro",
+      "name": "Vocab Macro",
+      "description": "Vocab Macro workflow directive for language learning.",
+      "instruction": "Apply vocab macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "vocab"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "grammar-local-41",
+      "command": "/grammar-local",
+      "name": "Grammar Local",
+      "description": "Grammar Local workflow directive for language learning.",
+      "instruction": "Apply grammar local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "grammar"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "pronunciation-global-42",
+      "command": "/pronunciation-global",
+      "name": "Pronunciation Global",
+      "description": "Pronunciation Global workflow directive for language learning.",
+      "instruction": "Apply pronunciation global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "pronunciation"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "conversation-adaptive-43",
+      "command": "/conversation-adaptive",
+      "name": "Conversation Adaptive",
+      "description": "Conversation Adaptive workflow directive for language learning.",
+      "instruction": "Apply conversation adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "conversation"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "correction-contextual-44",
+      "command": "/correction-contextual",
+      "name": "Correction Contextual",
+      "description": "Correction Contextual workflow directive for language learning.",
+      "instruction": "Apply correction contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "correction"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "vocab-realistic-45",
+      "command": "/vocab-realistic",
+      "name": "Vocab Realistic",
+      "description": "Vocab Realistic workflow directive for language learning.",
+      "instruction": "Apply vocab realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "vocab"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "grammar-cinematic-46",
+      "command": "/grammar-cinematic",
+      "name": "Grammar Cinematic",
+      "description": "Grammar Cinematic workflow directive for language learning.",
+      "instruction": "Apply grammar cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "grammar"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "pronunciation-modern-47",
+      "command": "/pronunciation-modern",
+      "name": "Pronunciation Modern",
+      "description": "Pronunciation Modern workflow directive for language learning.",
+      "instruction": "Apply pronunciation modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "pronunciation"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "conversation-classic-48",
+      "command": "/conversation-classic",
+      "name": "Conversation Classic",
+      "description": "Conversation Classic workflow directive for language learning.",
+      "instruction": "Apply conversation classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "conversation"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "correction-technical-49",
+      "command": "/correction-technical",
+      "name": "Correction Technical",
+      "description": "Correction Technical workflow directive for language learning.",
+      "instruction": "Apply correction technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "correction"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "vocab-creative-50",
+      "command": "/vocab-creative",
+      "name": "Vocab Creative",
+      "description": "Vocab Creative workflow directive for language learning.",
+      "instruction": "Apply vocab creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "vocab"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "grammar-editorial-51",
+      "command": "/grammar-editorial",
+      "name": "Grammar Editorial",
+      "description": "Grammar Editorial workflow directive for language learning.",
+      "instruction": "Apply grammar editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "grammar"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "pronunciation-production-52",
+      "command": "/pronunciation-production",
+      "name": "Pronunciation Production",
+      "description": "Pronunciation Production workflow directive for language learning.",
+      "instruction": "Apply pronunciation production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "pronunciation"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "conversation-studio-53",
+      "command": "/conversation-studio",
+      "name": "Conversation Studio",
+      "description": "Conversation Studio workflow directive for language learning.",
+      "instruction": "Apply conversation studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "conversation"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "correction-portable-54",
+      "command": "/correction-portable",
+      "name": "Correction Portable",
+      "description": "Correction Portable workflow directive for language learning.",
+      "instruction": "Apply correction portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "correction"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "vocab-safe-55",
+      "command": "/vocab-safe",
+      "name": "Vocab Safe",
+      "description": "Vocab Safe workflow directive for language learning.",
+      "instruction": "Apply vocab safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "vocab"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "grammar-robust-56",
+      "command": "/grammar-robust",
+      "name": "Grammar Robust",
+      "description": "Grammar Robust workflow directive for language learning.",
+      "instruction": "Apply grammar robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "grammar"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "pronunciation-reliable-57",
+      "command": "/pronunciation-reliable",
+      "name": "Pronunciation Reliable",
+      "description": "Pronunciation Reliable workflow directive for language learning.",
+      "instruction": "Apply pronunciation reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "pronunciation"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "conversation-scalable-58",
+      "command": "/conversation-scalable",
+      "name": "Conversation Scalable",
+      "description": "Conversation Scalable workflow directive for language learning.",
+      "instruction": "Apply conversation scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "conversation"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "correction-maintainable-59",
+      "command": "/correction-maintainable",
+      "name": "Correction Maintainable",
+      "description": "Correction Maintainable workflow directive for language learning.",
+      "instruction": "Apply correction maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "correction"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "vocab-accessible-60",
+      "command": "/vocab-accessible",
+      "name": "Vocab Accessible",
+      "description": "Vocab Accessible workflow directive for language learning.",
+      "instruction": "Apply vocab accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "vocab"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "grammar-responsive-61",
+      "command": "/grammar-responsive",
+      "name": "Grammar Responsive",
+      "description": "Grammar Responsive workflow directive for language learning.",
+      "instruction": "Apply grammar responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "grammar"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "pronunciation-structured-62",
+      "command": "/pronunciation-structured",
+      "name": "Pronunciation Structured",
+      "description": "Pronunciation Structured workflow directive for language learning.",
+      "instruction": "Apply pronunciation structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "pronunciation"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    },
+    {
+      "id": "conversation-compact-63",
+      "command": "/conversation-compact",
+      "name": "Conversation Compact",
+      "description": "Conversation Compact workflow directive for language learning.",
+      "instruction": "Apply conversation compact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "language-learning",
+        "translation-and-language",
+        "conversation"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Language & Accessibility",
+      "categorySlug": "language-learning",
+      "subcategory": "Language Learning"
+    }
+  ]
+}

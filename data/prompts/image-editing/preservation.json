@@ -1,0 +1,1289 @@
+{
+  "category": "Image Editing & Restoration",
+  "categorySlug": "image-editing",
+  "subcategory": "Preservation",
+  "slug": "preservation",
+  "description": "Preservation command system for face & identity.",
+  "prompts": [
+    {
+      "id": "preservepose-0",
+      "command": "/preservepose",
+      "name": "Preservepose",
+      "description": "Preservepose workflow directive for preservation.",
+      "instruction": "Apply preservepose with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preservepose"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preserveclothes-1",
+      "command": "/preserveclothes",
+      "name": "Preserveclothes",
+      "description": "Preserveclothes workflow directive for preservation.",
+      "instruction": "Apply preserveclothes with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preserveclothes"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preservedetails-2",
+      "command": "/preservedetails",
+      "name": "Preservedetails",
+      "description": "Preservedetails workflow directive for preservation.",
+      "instruction": "Apply preservedetails with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preservedetails"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "subtle-3",
+      "command": "/subtle",
+      "name": "Subtle",
+      "description": "Subtle workflow directive for preservation.",
+      "instruction": "Apply subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "subtle"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "onlyface-4",
+      "command": "/onlyface",
+      "name": "Onlyface",
+      "description": "Onlyface workflow directive for preservation.",
+      "instruction": "Apply onlyface with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "onlyface"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preservepose-precise-5",
+      "command": "/preservepose-precise",
+      "name": "Preservepose Precise",
+      "description": "Preservepose Precise workflow directive for preservation.",
+      "instruction": "Apply preservepose precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preservepose"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preserveclothes-clean-6",
+      "command": "/preserveclothes-clean",
+      "name": "Preserveclothes Clean",
+      "description": "Preserveclothes Clean workflow directive for preservation.",
+      "instruction": "Apply preserveclothes clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preserveclothes"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preservedetails-natural-7",
+      "command": "/preservedetails-natural",
+      "name": "Preservedetails Natural",
+      "description": "Preservedetails Natural workflow directive for preservation.",
+      "instruction": "Apply preservedetails natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preservedetails"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "subtle-refined-8",
+      "command": "/subtle-refined",
+      "name": "Subtle Refined",
+      "description": "Subtle Refined workflow directive for preservation.",
+      "instruction": "Apply subtle refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "subtle"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "onlyface-professional-9",
+      "command": "/onlyface-professional",
+      "name": "Onlyface Professional",
+      "description": "Onlyface Professional workflow directive for preservation.",
+      "instruction": "Apply onlyface professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "onlyface"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preservepose-premium-10",
+      "command": "/preservepose-premium",
+      "name": "Preservepose Premium",
+      "description": "Preservepose Premium workflow directive for preservation.",
+      "instruction": "Apply preservepose premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preservepose"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preserveclothes-subtle-11",
+      "command": "/preserveclothes-subtle",
+      "name": "Preserveclothes Subtle",
+      "description": "Preserveclothes Subtle workflow directive for preservation.",
+      "instruction": "Apply preserveclothes subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preserveclothes"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preservedetails-strong-12",
+      "command": "/preservedetails-strong",
+      "name": "Preservedetails Strong",
+      "description": "Preservedetails Strong workflow directive for preservation.",
+      "instruction": "Apply preservedetails strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preservedetails"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "subtle-balanced-13",
+      "command": "/subtle-balanced",
+      "name": "Subtle Balanced",
+      "description": "Subtle Balanced workflow directive for preservation.",
+      "instruction": "Apply subtle balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "subtle"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "onlyface-detailed-14",
+      "command": "/onlyface-detailed",
+      "name": "Onlyface Detailed",
+      "description": "Onlyface Detailed workflow directive for preservation.",
+      "instruction": "Apply onlyface detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "onlyface"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preservepose-advanced-15",
+      "command": "/preservepose-advanced",
+      "name": "Preservepose Advanced",
+      "description": "Preservepose Advanced workflow directive for preservation.",
+      "instruction": "Apply preservepose advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preservepose"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preserveclothes-simple-16",
+      "command": "/preserveclothes-simple",
+      "name": "Preserveclothes Simple",
+      "description": "Preserveclothes Simple workflow directive for preservation.",
+      "instruction": "Apply preserveclothes simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preserveclothes"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preservedetails-smart-17",
+      "command": "/preservedetails-smart",
+      "name": "Preservedetails Smart",
+      "description": "Preservedetails Smart workflow directive for preservation.",
+      "instruction": "Apply preservedetails smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preservedetails"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "subtle-controlled-18",
+      "command": "/subtle-controlled",
+      "name": "Subtle Controlled",
+      "description": "Subtle Controlled workflow directive for preservation.",
+      "instruction": "Apply subtle controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "subtle"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "onlyface-optimized-19",
+      "command": "/onlyface-optimized",
+      "name": "Onlyface Optimized",
+      "description": "Onlyface Optimized workflow directive for preservation.",
+      "instruction": "Apply onlyface optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "onlyface"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preservepose-efficient-20",
+      "command": "/preservepose-efficient",
+      "name": "Preservepose Efficient",
+      "description": "Preservepose Efficient workflow directive for preservation.",
+      "instruction": "Apply preservepose efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preservepose"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preserveclothes-accurate-21",
+      "command": "/preserveclothes-accurate",
+      "name": "Preserveclothes Accurate",
+      "description": "Preserveclothes Accurate workflow directive for preservation.",
+      "instruction": "Apply preserveclothes accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preserveclothes"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preservedetails-consistent-22",
+      "command": "/preservedetails-consistent",
+      "name": "Preservedetails Consistent",
+      "description": "Preservedetails Consistent workflow directive for preservation.",
+      "instruction": "Apply preservedetails consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preservedetails"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "subtle-polished-23",
+      "command": "/subtle-polished",
+      "name": "Subtle Polished",
+      "description": "Subtle Polished workflow directive for preservation.",
+      "instruction": "Apply subtle polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "subtle"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "onlyface-final-24",
+      "command": "/onlyface-final",
+      "name": "Onlyface Final",
+      "description": "Onlyface Final workflow directive for preservation.",
+      "instruction": "Apply onlyface final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "onlyface"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preservepose-quick-25",
+      "command": "/preservepose-quick",
+      "name": "Preservepose Quick",
+      "description": "Preservepose Quick workflow directive for preservation.",
+      "instruction": "Apply preservepose quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preservepose"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preserveclothes-deep-26",
+      "command": "/preserveclothes-deep",
+      "name": "Preserveclothes Deep",
+      "description": "Preserveclothes Deep workflow directive for preservation.",
+      "instruction": "Apply preserveclothes deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preserveclothes"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preservedetails-thorough-27",
+      "command": "/preservedetails-thorough",
+      "name": "Preservedetails Thorough",
+      "description": "Preservedetails Thorough workflow directive for preservation.",
+      "instruction": "Apply preservedetails thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preservedetails"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "subtle-minimal-28",
+      "command": "/subtle-minimal",
+      "name": "Subtle Minimal",
+      "description": "Subtle Minimal workflow directive for preservation.",
+      "instruction": "Apply subtle minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "subtle"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "onlyface-maximum-29",
+      "command": "/onlyface-maximum",
+      "name": "Onlyface Maximum",
+      "description": "Onlyface Maximum workflow directive for preservation.",
+      "instruction": "Apply onlyface maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "onlyface"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preservepose-soft-30",
+      "command": "/preservepose-soft",
+      "name": "Preservepose Soft",
+      "description": "Preservepose Soft workflow directive for preservation.",
+      "instruction": "Apply preservepose soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preservepose"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preserveclothes-bold-31",
+      "command": "/preserveclothes-bold",
+      "name": "Preserveclothes Bold",
+      "description": "Preserveclothes Bold workflow directive for preservation.",
+      "instruction": "Apply preserveclothes bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preserveclothes"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preservedetails-sharp-32",
+      "command": "/preservedetails-sharp",
+      "name": "Preservedetails Sharp",
+      "description": "Preservedetails Sharp workflow directive for preservation.",
+      "instruction": "Apply preservedetails sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preservedetails"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "subtle-smooth-33",
+      "command": "/subtle-smooth",
+      "name": "Subtle Smooth",
+      "description": "Subtle Smooth workflow directive for preservation.",
+      "instruction": "Apply subtle smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "subtle"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "onlyface-stable-34",
+      "command": "/onlyface-stable",
+      "name": "Onlyface Stable",
+      "description": "Onlyface Stable workflow directive for preservation.",
+      "instruction": "Apply onlyface stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "onlyface"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preservepose-highquality-35",
+      "command": "/preservepose-highquality",
+      "name": "Preservepose Highquality",
+      "description": "Preservepose Highquality workflow directive for preservation.",
+      "instruction": "Apply preservepose highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preservepose"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preserveclothes-lowartifact-36",
+      "command": "/preserveclothes-lowartifact",
+      "name": "Preserveclothes Lowartifact",
+      "description": "Preserveclothes Lowartifact workflow directive for preservation.",
+      "instruction": "Apply preserveclothes lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preserveclothes"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preservedetails-highdetail-37",
+      "command": "/preservedetails-highdetail",
+      "name": "Preservedetails Highdetail",
+      "description": "Preservedetails Highdetail workflow directive for preservation.",
+      "instruction": "Apply preservedetails highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preservedetails"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "subtle-fine-38",
+      "command": "/subtle-fine",
+      "name": "Subtle Fine",
+      "description": "Subtle Fine workflow directive for preservation.",
+      "instruction": "Apply subtle fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "subtle"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "onlyface-micro-39",
+      "command": "/onlyface-micro",
+      "name": "Onlyface Micro",
+      "description": "Onlyface Micro workflow directive for preservation.",
+      "instruction": "Apply onlyface micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "onlyface"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preservepose-macro-40",
+      "command": "/preservepose-macro",
+      "name": "Preservepose Macro",
+      "description": "Preservepose Macro workflow directive for preservation.",
+      "instruction": "Apply preservepose macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preservepose"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preserveclothes-local-41",
+      "command": "/preserveclothes-local",
+      "name": "Preserveclothes Local",
+      "description": "Preserveclothes Local workflow directive for preservation.",
+      "instruction": "Apply preserveclothes local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preserveclothes"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preservedetails-global-42",
+      "command": "/preservedetails-global",
+      "name": "Preservedetails Global",
+      "description": "Preservedetails Global workflow directive for preservation.",
+      "instruction": "Apply preservedetails global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preservedetails"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "subtle-adaptive-43",
+      "command": "/subtle-adaptive",
+      "name": "Subtle Adaptive",
+      "description": "Subtle Adaptive workflow directive for preservation.",
+      "instruction": "Apply subtle adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "subtle"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "onlyface-contextual-44",
+      "command": "/onlyface-contextual",
+      "name": "Onlyface Contextual",
+      "description": "Onlyface Contextual workflow directive for preservation.",
+      "instruction": "Apply onlyface contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "onlyface"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preservepose-realistic-45",
+      "command": "/preservepose-realistic",
+      "name": "Preservepose Realistic",
+      "description": "Preservepose Realistic workflow directive for preservation.",
+      "instruction": "Apply preservepose realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preservepose"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preserveclothes-cinematic-46",
+      "command": "/preserveclothes-cinematic",
+      "name": "Preserveclothes Cinematic",
+      "description": "Preserveclothes Cinematic workflow directive for preservation.",
+      "instruction": "Apply preserveclothes cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preserveclothes"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preservedetails-modern-47",
+      "command": "/preservedetails-modern",
+      "name": "Preservedetails Modern",
+      "description": "Preservedetails Modern workflow directive for preservation.",
+      "instruction": "Apply preservedetails modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preservedetails"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "subtle-classic-48",
+      "command": "/subtle-classic",
+      "name": "Subtle Classic",
+      "description": "Subtle Classic workflow directive for preservation.",
+      "instruction": "Apply subtle classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "subtle"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "onlyface-technical-49",
+      "command": "/onlyface-technical",
+      "name": "Onlyface Technical",
+      "description": "Onlyface Technical workflow directive for preservation.",
+      "instruction": "Apply onlyface technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "onlyface"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preservepose-creative-50",
+      "command": "/preservepose-creative",
+      "name": "Preservepose Creative",
+      "description": "Preservepose Creative workflow directive for preservation.",
+      "instruction": "Apply preservepose creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preservepose"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preserveclothes-editorial-51",
+      "command": "/preserveclothes-editorial",
+      "name": "Preserveclothes Editorial",
+      "description": "Preserveclothes Editorial workflow directive for preservation.",
+      "instruction": "Apply preserveclothes editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preserveclothes"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preservedetails-production-52",
+      "command": "/preservedetails-production",
+      "name": "Preservedetails Production",
+      "description": "Preservedetails Production workflow directive for preservation.",
+      "instruction": "Apply preservedetails production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preservedetails"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "subtle-studio-53",
+      "command": "/subtle-studio",
+      "name": "Subtle Studio",
+      "description": "Subtle Studio workflow directive for preservation.",
+      "instruction": "Apply subtle studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "subtle"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "onlyface-portable-54",
+      "command": "/onlyface-portable",
+      "name": "Onlyface Portable",
+      "description": "Onlyface Portable workflow directive for preservation.",
+      "instruction": "Apply onlyface portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "onlyface"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preservepose-safe-55",
+      "command": "/preservepose-safe",
+      "name": "Preservepose Safe",
+      "description": "Preservepose Safe workflow directive for preservation.",
+      "instruction": "Apply preservepose safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preservepose"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preserveclothes-robust-56",
+      "command": "/preserveclothes-robust",
+      "name": "Preserveclothes Robust",
+      "description": "Preserveclothes Robust workflow directive for preservation.",
+      "instruction": "Apply preserveclothes robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preserveclothes"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preservedetails-reliable-57",
+      "command": "/preservedetails-reliable",
+      "name": "Preservedetails Reliable",
+      "description": "Preservedetails Reliable workflow directive for preservation.",
+      "instruction": "Apply preservedetails reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preservedetails"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "subtle-scalable-58",
+      "command": "/subtle-scalable",
+      "name": "Subtle Scalable",
+      "description": "Subtle Scalable workflow directive for preservation.",
+      "instruction": "Apply subtle scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "subtle"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "onlyface-maintainable-59",
+      "command": "/onlyface-maintainable",
+      "name": "Onlyface Maintainable",
+      "description": "Onlyface Maintainable workflow directive for preservation.",
+      "instruction": "Apply onlyface maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "onlyface"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preservepose-accessible-60",
+      "command": "/preservepose-accessible",
+      "name": "Preservepose Accessible",
+      "description": "Preservepose Accessible workflow directive for preservation.",
+      "instruction": "Apply preservepose accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preservepose"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preserveclothes-responsive-61",
+      "command": "/preserveclothes-responsive",
+      "name": "Preserveclothes Responsive",
+      "description": "Preserveclothes Responsive workflow directive for preservation.",
+      "instruction": "Apply preserveclothes responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preserveclothes"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "preservedetails-structured-62",
+      "command": "/preservedetails-structured",
+      "name": "Preservedetails Structured",
+      "description": "Preservedetails Structured workflow directive for preservation.",
+      "instruction": "Apply preservedetails structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "preservedetails"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    },
+    {
+      "id": "subtle-compact-63",
+      "command": "/subtle-compact",
+      "name": "Subtle Compact",
+      "description": "Subtle Compact workflow directive for preservation.",
+      "instruction": "Apply subtle compact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "preservation",
+        "face-identity-and-people",
+        "subtle"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Preservation"
+    }
+  ]
+}

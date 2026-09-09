@@ -1,0 +1,1289 @@
+{
+  "category": "Image Editing & Restoration",
+  "categorySlug": "image-editing",
+  "subcategory": "Time & Weather",
+  "slug": "time-and-weather",
+  "description": "Time & Weather command system for lighting & color.",
+  "prompts": [
+    {
+      "id": "goldenhour-0",
+      "command": "/goldenhour",
+      "name": "Goldenhour",
+      "description": "Goldenhour workflow directive for time & weather.",
+      "instruction": "Apply goldenhour with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "goldenhour"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "sunset-1",
+      "command": "/sunset",
+      "name": "Sunset",
+      "description": "Sunset workflow directive for time & weather.",
+      "instruction": "Apply sunset with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "sunset"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "sunrise-2",
+      "command": "/sunrise",
+      "name": "Sunrise",
+      "description": "Sunrise workflow directive for time & weather.",
+      "instruction": "Apply sunrise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "sunrise"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "daylight-3",
+      "command": "/daylight",
+      "name": "Daylight",
+      "description": "Daylight workflow directive for time & weather.",
+      "instruction": "Apply daylight with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "daylight"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "night-4",
+      "command": "/night",
+      "name": "Night",
+      "description": "Night workflow directive for time & weather.",
+      "instruction": "Apply night with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "night"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "rain-5",
+      "command": "/rain",
+      "name": "Rain",
+      "description": "Rain workflow directive for time & weather.",
+      "instruction": "Apply rain with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "rain"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "fog-6",
+      "command": "/fog",
+      "name": "Fog",
+      "description": "Fog workflow directive for time & weather.",
+      "instruction": "Apply fog with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "fog"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "overcast-7",
+      "command": "/overcast",
+      "name": "Overcast",
+      "description": "Overcast workflow directive for time & weather.",
+      "instruction": "Apply overcast with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "overcast"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "goldenhour-precise-8",
+      "command": "/goldenhour-precise",
+      "name": "Goldenhour Precise",
+      "description": "Goldenhour Precise workflow directive for time & weather.",
+      "instruction": "Apply goldenhour precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "goldenhour"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "sunset-clean-9",
+      "command": "/sunset-clean",
+      "name": "Sunset Clean",
+      "description": "Sunset Clean workflow directive for time & weather.",
+      "instruction": "Apply sunset clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "sunset"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "sunrise-natural-10",
+      "command": "/sunrise-natural",
+      "name": "Sunrise Natural",
+      "description": "Sunrise Natural workflow directive for time & weather.",
+      "instruction": "Apply sunrise natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "sunrise"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "daylight-refined-11",
+      "command": "/daylight-refined",
+      "name": "Daylight Refined",
+      "description": "Daylight Refined workflow directive for time & weather.",
+      "instruction": "Apply daylight refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "daylight"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "night-professional-12",
+      "command": "/night-professional",
+      "name": "Night Professional",
+      "description": "Night Professional workflow directive for time & weather.",
+      "instruction": "Apply night professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "night"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "rain-premium-13",
+      "command": "/rain-premium",
+      "name": "Rain Premium",
+      "description": "Rain Premium workflow directive for time & weather.",
+      "instruction": "Apply rain premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "rain"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "fog-subtle-14",
+      "command": "/fog-subtle",
+      "name": "Fog Subtle",
+      "description": "Fog Subtle workflow directive for time & weather.",
+      "instruction": "Apply fog subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "fog"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "overcast-strong-15",
+      "command": "/overcast-strong",
+      "name": "Overcast Strong",
+      "description": "Overcast Strong workflow directive for time & weather.",
+      "instruction": "Apply overcast strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "overcast"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "goldenhour-balanced-16",
+      "command": "/goldenhour-balanced",
+      "name": "Goldenhour Balanced",
+      "description": "Goldenhour Balanced workflow directive for time & weather.",
+      "instruction": "Apply goldenhour balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "goldenhour"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "sunset-detailed-17",
+      "command": "/sunset-detailed",
+      "name": "Sunset Detailed",
+      "description": "Sunset Detailed workflow directive for time & weather.",
+      "instruction": "Apply sunset detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "sunset"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "sunrise-advanced-18",
+      "command": "/sunrise-advanced",
+      "name": "Sunrise Advanced",
+      "description": "Sunrise Advanced workflow directive for time & weather.",
+      "instruction": "Apply sunrise advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "sunrise"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "daylight-simple-19",
+      "command": "/daylight-simple",
+      "name": "Daylight Simple",
+      "description": "Daylight Simple workflow directive for time & weather.",
+      "instruction": "Apply daylight simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "daylight"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "night-smart-20",
+      "command": "/night-smart",
+      "name": "Night Smart",
+      "description": "Night Smart workflow directive for time & weather.",
+      "instruction": "Apply night smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "night"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "rain-controlled-21",
+      "command": "/rain-controlled",
+      "name": "Rain Controlled",
+      "description": "Rain Controlled workflow directive for time & weather.",
+      "instruction": "Apply rain controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "rain"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "fog-optimized-22",
+      "command": "/fog-optimized",
+      "name": "Fog Optimized",
+      "description": "Fog Optimized workflow directive for time & weather.",
+      "instruction": "Apply fog optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "fog"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "overcast-efficient-23",
+      "command": "/overcast-efficient",
+      "name": "Overcast Efficient",
+      "description": "Overcast Efficient workflow directive for time & weather.",
+      "instruction": "Apply overcast efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "overcast"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "goldenhour-accurate-24",
+      "command": "/goldenhour-accurate",
+      "name": "Goldenhour Accurate",
+      "description": "Goldenhour Accurate workflow directive for time & weather.",
+      "instruction": "Apply goldenhour accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "goldenhour"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "sunset-consistent-25",
+      "command": "/sunset-consistent",
+      "name": "Sunset Consistent",
+      "description": "Sunset Consistent workflow directive for time & weather.",
+      "instruction": "Apply sunset consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "sunset"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "sunrise-polished-26",
+      "command": "/sunrise-polished",
+      "name": "Sunrise Polished",
+      "description": "Sunrise Polished workflow directive for time & weather.",
+      "instruction": "Apply sunrise polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "sunrise"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "daylight-final-27",
+      "command": "/daylight-final",
+      "name": "Daylight Final",
+      "description": "Daylight Final workflow directive for time & weather.",
+      "instruction": "Apply daylight final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "daylight"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "night-quick-28",
+      "command": "/night-quick",
+      "name": "Night Quick",
+      "description": "Night Quick workflow directive for time & weather.",
+      "instruction": "Apply night quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "night"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "rain-deep-29",
+      "command": "/rain-deep",
+      "name": "Rain Deep",
+      "description": "Rain Deep workflow directive for time & weather.",
+      "instruction": "Apply rain deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "rain"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "fog-thorough-30",
+      "command": "/fog-thorough",
+      "name": "Fog Thorough",
+      "description": "Fog Thorough workflow directive for time & weather.",
+      "instruction": "Apply fog thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "fog"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "overcast-minimal-31",
+      "command": "/overcast-minimal",
+      "name": "Overcast Minimal",
+      "description": "Overcast Minimal workflow directive for time & weather.",
+      "instruction": "Apply overcast minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "overcast"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "goldenhour-maximum-32",
+      "command": "/goldenhour-maximum",
+      "name": "Goldenhour Maximum",
+      "description": "Goldenhour Maximum workflow directive for time & weather.",
+      "instruction": "Apply goldenhour maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "goldenhour"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "sunset-soft-33",
+      "command": "/sunset-soft",
+      "name": "Sunset Soft",
+      "description": "Sunset Soft workflow directive for time & weather.",
+      "instruction": "Apply sunset soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "sunset"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "sunrise-bold-34",
+      "command": "/sunrise-bold",
+      "name": "Sunrise Bold",
+      "description": "Sunrise Bold workflow directive for time & weather.",
+      "instruction": "Apply sunrise bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "sunrise"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "daylight-sharp-35",
+      "command": "/daylight-sharp",
+      "name": "Daylight Sharp",
+      "description": "Daylight Sharp workflow directive for time & weather.",
+      "instruction": "Apply daylight sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "daylight"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "night-smooth-36",
+      "command": "/night-smooth",
+      "name": "Night Smooth",
+      "description": "Night Smooth workflow directive for time & weather.",
+      "instruction": "Apply night smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "night"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "rain-stable-37",
+      "command": "/rain-stable",
+      "name": "Rain Stable",
+      "description": "Rain Stable workflow directive for time & weather.",
+      "instruction": "Apply rain stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "rain"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "fog-highquality-38",
+      "command": "/fog-highquality",
+      "name": "Fog Highquality",
+      "description": "Fog Highquality workflow directive for time & weather.",
+      "instruction": "Apply fog highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "fog"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "overcast-lowartifact-39",
+      "command": "/overcast-lowartifact",
+      "name": "Overcast Lowartifact",
+      "description": "Overcast Lowartifact workflow directive for time & weather.",
+      "instruction": "Apply overcast lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "overcast"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "goldenhour-highdetail-40",
+      "command": "/goldenhour-highdetail",
+      "name": "Goldenhour Highdetail",
+      "description": "Goldenhour Highdetail workflow directive for time & weather.",
+      "instruction": "Apply goldenhour highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "goldenhour"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "sunset-fine-41",
+      "command": "/sunset-fine",
+      "name": "Sunset Fine",
+      "description": "Sunset Fine workflow directive for time & weather.",
+      "instruction": "Apply sunset fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "sunset"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "sunrise-micro-42",
+      "command": "/sunrise-micro",
+      "name": "Sunrise Micro",
+      "description": "Sunrise Micro workflow directive for time & weather.",
+      "instruction": "Apply sunrise micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "sunrise"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "daylight-macro-43",
+      "command": "/daylight-macro",
+      "name": "Daylight Macro",
+      "description": "Daylight Macro workflow directive for time & weather.",
+      "instruction": "Apply daylight macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "daylight"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "night-local-44",
+      "command": "/night-local",
+      "name": "Night Local",
+      "description": "Night Local workflow directive for time & weather.",
+      "instruction": "Apply night local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "night"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "rain-global-45",
+      "command": "/rain-global",
+      "name": "Rain Global",
+      "description": "Rain Global workflow directive for time & weather.",
+      "instruction": "Apply rain global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "rain"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "fog-adaptive-46",
+      "command": "/fog-adaptive",
+      "name": "Fog Adaptive",
+      "description": "Fog Adaptive workflow directive for time & weather.",
+      "instruction": "Apply fog adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "fog"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "overcast-contextual-47",
+      "command": "/overcast-contextual",
+      "name": "Overcast Contextual",
+      "description": "Overcast Contextual workflow directive for time & weather.",
+      "instruction": "Apply overcast contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "overcast"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "goldenhour-realistic-48",
+      "command": "/goldenhour-realistic",
+      "name": "Goldenhour Realistic",
+      "description": "Goldenhour Realistic workflow directive for time & weather.",
+      "instruction": "Apply goldenhour realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "goldenhour"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "sunset-cinematic-49",
+      "command": "/sunset-cinematic",
+      "name": "Sunset Cinematic",
+      "description": "Sunset Cinematic workflow directive for time & weather.",
+      "instruction": "Apply sunset cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "sunset"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "sunrise-modern-50",
+      "command": "/sunrise-modern",
+      "name": "Sunrise Modern",
+      "description": "Sunrise Modern workflow directive for time & weather.",
+      "instruction": "Apply sunrise modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "sunrise"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "daylight-classic-51",
+      "command": "/daylight-classic",
+      "name": "Daylight Classic",
+      "description": "Daylight Classic workflow directive for time & weather.",
+      "instruction": "Apply daylight classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "daylight"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "night-technical-52",
+      "command": "/night-technical",
+      "name": "Night Technical",
+      "description": "Night Technical workflow directive for time & weather.",
+      "instruction": "Apply night technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "night"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "rain-creative-53",
+      "command": "/rain-creative",
+      "name": "Rain Creative",
+      "description": "Rain Creative workflow directive for time & weather.",
+      "instruction": "Apply rain creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "rain"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "fog-editorial-54",
+      "command": "/fog-editorial",
+      "name": "Fog Editorial",
+      "description": "Fog Editorial workflow directive for time & weather.",
+      "instruction": "Apply fog editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "fog"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "overcast-production-55",
+      "command": "/overcast-production",
+      "name": "Overcast Production",
+      "description": "Overcast Production workflow directive for time & weather.",
+      "instruction": "Apply overcast production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "overcast"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "goldenhour-studio-56",
+      "command": "/goldenhour-studio",
+      "name": "Goldenhour Studio",
+      "description": "Goldenhour Studio workflow directive for time & weather.",
+      "instruction": "Apply goldenhour studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "goldenhour"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "sunset-portable-57",
+      "command": "/sunset-portable",
+      "name": "Sunset Portable",
+      "description": "Sunset Portable workflow directive for time & weather.",
+      "instruction": "Apply sunset portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "sunset"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "sunrise-safe-58",
+      "command": "/sunrise-safe",
+      "name": "Sunrise Safe",
+      "description": "Sunrise Safe workflow directive for time & weather.",
+      "instruction": "Apply sunrise safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "sunrise"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "daylight-robust-59",
+      "command": "/daylight-robust",
+      "name": "Daylight Robust",
+      "description": "Daylight Robust workflow directive for time & weather.",
+      "instruction": "Apply daylight robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "daylight"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "night-reliable-60",
+      "command": "/night-reliable",
+      "name": "Night Reliable",
+      "description": "Night Reliable workflow directive for time & weather.",
+      "instruction": "Apply night reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "night"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "rain-scalable-61",
+      "command": "/rain-scalable",
+      "name": "Rain Scalable",
+      "description": "Rain Scalable workflow directive for time & weather.",
+      "instruction": "Apply rain scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "rain"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "fog-maintainable-62",
+      "command": "/fog-maintainable",
+      "name": "Fog Maintainable",
+      "description": "Fog Maintainable workflow directive for time & weather.",
+      "instruction": "Apply fog maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "fog"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    },
+    {
+      "id": "overcast-accessible-63",
+      "command": "/overcast-accessible",
+      "name": "Overcast Accessible",
+      "description": "Overcast Accessible workflow directive for time & weather.",
+      "instruction": "Apply overcast accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "time-and-weather",
+        "lighting-color-and-atmosphere",
+        "overcast"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Time & Weather"
+    }
+  ]
+}

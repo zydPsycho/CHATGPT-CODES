@@ -1,0 +1,1289 @@
+{
+  "category": "Coding & Development",
+  "categorySlug": "coding-development",
+  "subcategory": "SQL & Code",
+  "slug": "sql-and-code",
+  "description": "SQL & Code command system for quality & restoration.",
+  "prompts": [
+    {
+      "id": "sql-0",
+      "command": "/sql",
+      "name": "Sql",
+      "description": "Sql workflow directive for sql & code.",
+      "instruction": "Apply sql with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "sql"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "query-1",
+      "command": "/query",
+      "name": "Query",
+      "description": "Query workflow directive for sql & code.",
+      "instruction": "Apply query with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "query"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "pandas-2",
+      "command": "/pandas",
+      "name": "Pandas",
+      "description": "Pandas workflow directive for sql & code.",
+      "instruction": "Apply pandas with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "pandas"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "python-3",
+      "command": "/python",
+      "name": "Python",
+      "description": "Python workflow directive for sql & code.",
+      "instruction": "Apply python with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "python"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "pipeline-4",
+      "command": "/pipeline",
+      "name": "Pipeline",
+      "description": "Pipeline workflow directive for sql & code.",
+      "instruction": "Apply pipeline with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "pipeline"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "sql-precise-5",
+      "command": "/sql-precise",
+      "name": "Sql Precise",
+      "description": "Sql Precise workflow directive for sql & code.",
+      "instruction": "Apply sql precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "sql"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "query-clean-6",
+      "command": "/query-clean",
+      "name": "Query Clean",
+      "description": "Query Clean workflow directive for sql & code.",
+      "instruction": "Apply query clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "query"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "pandas-natural-7",
+      "command": "/pandas-natural",
+      "name": "Pandas Natural",
+      "description": "Pandas Natural workflow directive for sql & code.",
+      "instruction": "Apply pandas natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "pandas"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "python-refined-8",
+      "command": "/python-refined",
+      "name": "Python Refined",
+      "description": "Python Refined workflow directive for sql & code.",
+      "instruction": "Apply python refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "python"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "pipeline-professional-9",
+      "command": "/pipeline-professional",
+      "name": "Pipeline Professional",
+      "description": "Pipeline Professional workflow directive for sql & code.",
+      "instruction": "Apply pipeline professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "pipeline"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "sql-premium-10",
+      "command": "/sql-premium",
+      "name": "Sql Premium",
+      "description": "Sql Premium workflow directive for sql & code.",
+      "instruction": "Apply sql premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "sql"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "query-subtle-11",
+      "command": "/query-subtle",
+      "name": "Query Subtle",
+      "description": "Query Subtle workflow directive for sql & code.",
+      "instruction": "Apply query subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "query"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "pandas-strong-12",
+      "command": "/pandas-strong",
+      "name": "Pandas Strong",
+      "description": "Pandas Strong workflow directive for sql & code.",
+      "instruction": "Apply pandas strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "pandas"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "python-balanced-13",
+      "command": "/python-balanced",
+      "name": "Python Balanced",
+      "description": "Python Balanced workflow directive for sql & code.",
+      "instruction": "Apply python balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "python"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "pipeline-detailed-14",
+      "command": "/pipeline-detailed",
+      "name": "Pipeline Detailed",
+      "description": "Pipeline Detailed workflow directive for sql & code.",
+      "instruction": "Apply pipeline detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "pipeline"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "sql-advanced-15",
+      "command": "/sql-advanced",
+      "name": "Sql Advanced",
+      "description": "Sql Advanced workflow directive for sql & code.",
+      "instruction": "Apply sql advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "sql"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "query-simple-16",
+      "command": "/query-simple",
+      "name": "Query Simple",
+      "description": "Query Simple workflow directive for sql & code.",
+      "instruction": "Apply query simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "query"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "pandas-smart-17",
+      "command": "/pandas-smart",
+      "name": "Pandas Smart",
+      "description": "Pandas Smart workflow directive for sql & code.",
+      "instruction": "Apply pandas smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "pandas"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "python-controlled-18",
+      "command": "/python-controlled",
+      "name": "Python Controlled",
+      "description": "Python Controlled workflow directive for sql & code.",
+      "instruction": "Apply python controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "python"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "pipeline-optimized-19",
+      "command": "/pipeline-optimized",
+      "name": "Pipeline Optimized",
+      "description": "Pipeline Optimized workflow directive for sql & code.",
+      "instruction": "Apply pipeline optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "pipeline"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "sql-efficient-20",
+      "command": "/sql-efficient",
+      "name": "Sql Efficient",
+      "description": "Sql Efficient workflow directive for sql & code.",
+      "instruction": "Apply sql efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "sql"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "query-accurate-21",
+      "command": "/query-accurate",
+      "name": "Query Accurate",
+      "description": "Query Accurate workflow directive for sql & code.",
+      "instruction": "Apply query accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "query"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "pandas-consistent-22",
+      "command": "/pandas-consistent",
+      "name": "Pandas Consistent",
+      "description": "Pandas Consistent workflow directive for sql & code.",
+      "instruction": "Apply pandas consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "pandas"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "python-polished-23",
+      "command": "/python-polished",
+      "name": "Python Polished",
+      "description": "Python Polished workflow directive for sql & code.",
+      "instruction": "Apply python polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "python"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "pipeline-final-24",
+      "command": "/pipeline-final",
+      "name": "Pipeline Final",
+      "description": "Pipeline Final workflow directive for sql & code.",
+      "instruction": "Apply pipeline final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "pipeline"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "sql-quick-25",
+      "command": "/sql-quick",
+      "name": "Sql Quick",
+      "description": "Sql Quick workflow directive for sql & code.",
+      "instruction": "Apply sql quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "sql"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "query-deep-26",
+      "command": "/query-deep",
+      "name": "Query Deep",
+      "description": "Query Deep workflow directive for sql & code.",
+      "instruction": "Apply query deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "query"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "pandas-thorough-27",
+      "command": "/pandas-thorough",
+      "name": "Pandas Thorough",
+      "description": "Pandas Thorough workflow directive for sql & code.",
+      "instruction": "Apply pandas thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "pandas"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "python-minimal-28",
+      "command": "/python-minimal",
+      "name": "Python Minimal",
+      "description": "Python Minimal workflow directive for sql & code.",
+      "instruction": "Apply python minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "python"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "pipeline-maximum-29",
+      "command": "/pipeline-maximum",
+      "name": "Pipeline Maximum",
+      "description": "Pipeline Maximum workflow directive for sql & code.",
+      "instruction": "Apply pipeline maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "pipeline"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "sql-soft-30",
+      "command": "/sql-soft",
+      "name": "Sql Soft",
+      "description": "Sql Soft workflow directive for sql & code.",
+      "instruction": "Apply sql soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "sql"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "query-bold-31",
+      "command": "/query-bold",
+      "name": "Query Bold",
+      "description": "Query Bold workflow directive for sql & code.",
+      "instruction": "Apply query bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "query"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "pandas-sharp-32",
+      "command": "/pandas-sharp",
+      "name": "Pandas Sharp",
+      "description": "Pandas Sharp workflow directive for sql & code.",
+      "instruction": "Apply pandas sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "pandas"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "python-smooth-33",
+      "command": "/python-smooth",
+      "name": "Python Smooth",
+      "description": "Python Smooth workflow directive for sql & code.",
+      "instruction": "Apply python smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "python"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "pipeline-stable-34",
+      "command": "/pipeline-stable",
+      "name": "Pipeline Stable",
+      "description": "Pipeline Stable workflow directive for sql & code.",
+      "instruction": "Apply pipeline stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "pipeline"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "sql-highquality-35",
+      "command": "/sql-highquality",
+      "name": "Sql Highquality",
+      "description": "Sql Highquality workflow directive for sql & code.",
+      "instruction": "Apply sql highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "sql"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "query-lowartifact-36",
+      "command": "/query-lowartifact",
+      "name": "Query Lowartifact",
+      "description": "Query Lowartifact workflow directive for sql & code.",
+      "instruction": "Apply query lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "query"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "pandas-highdetail-37",
+      "command": "/pandas-highdetail",
+      "name": "Pandas Highdetail",
+      "description": "Pandas Highdetail workflow directive for sql & code.",
+      "instruction": "Apply pandas highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "pandas"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "python-fine-38",
+      "command": "/python-fine",
+      "name": "Python Fine",
+      "description": "Python Fine workflow directive for sql & code.",
+      "instruction": "Apply python fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "python"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "pipeline-micro-39",
+      "command": "/pipeline-micro",
+      "name": "Pipeline Micro",
+      "description": "Pipeline Micro workflow directive for sql & code.",
+      "instruction": "Apply pipeline micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "pipeline"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "sql-macro-40",
+      "command": "/sql-macro",
+      "name": "Sql Macro",
+      "description": "Sql Macro workflow directive for sql & code.",
+      "instruction": "Apply sql macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "sql"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "query-local-41",
+      "command": "/query-local",
+      "name": "Query Local",
+      "description": "Query Local workflow directive for sql & code.",
+      "instruction": "Apply query local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "query"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "pandas-global-42",
+      "command": "/pandas-global",
+      "name": "Pandas Global",
+      "description": "Pandas Global workflow directive for sql & code.",
+      "instruction": "Apply pandas global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "pandas"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "python-adaptive-43",
+      "command": "/python-adaptive",
+      "name": "Python Adaptive",
+      "description": "Python Adaptive workflow directive for sql & code.",
+      "instruction": "Apply python adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "python"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "pipeline-contextual-44",
+      "command": "/pipeline-contextual",
+      "name": "Pipeline Contextual",
+      "description": "Pipeline Contextual workflow directive for sql & code.",
+      "instruction": "Apply pipeline contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "pipeline"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "sql-realistic-45",
+      "command": "/sql-realistic",
+      "name": "Sql Realistic",
+      "description": "Sql Realistic workflow directive for sql & code.",
+      "instruction": "Apply sql realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "sql"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "query-cinematic-46",
+      "command": "/query-cinematic",
+      "name": "Query Cinematic",
+      "description": "Query Cinematic workflow directive for sql & code.",
+      "instruction": "Apply query cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "query"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "pandas-modern-47",
+      "command": "/pandas-modern",
+      "name": "Pandas Modern",
+      "description": "Pandas Modern workflow directive for sql & code.",
+      "instruction": "Apply pandas modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "pandas"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "python-classic-48",
+      "command": "/python-classic",
+      "name": "Python Classic",
+      "description": "Python Classic workflow directive for sql & code.",
+      "instruction": "Apply python classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "python"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "pipeline-technical-49",
+      "command": "/pipeline-technical",
+      "name": "Pipeline Technical",
+      "description": "Pipeline Technical workflow directive for sql & code.",
+      "instruction": "Apply pipeline technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "pipeline"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "sql-creative-50",
+      "command": "/sql-creative",
+      "name": "Sql Creative",
+      "description": "Sql Creative workflow directive for sql & code.",
+      "instruction": "Apply sql creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "sql"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "query-editorial-51",
+      "command": "/query-editorial",
+      "name": "Query Editorial",
+      "description": "Query Editorial workflow directive for sql & code.",
+      "instruction": "Apply query editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "query"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "pandas-production-52",
+      "command": "/pandas-production",
+      "name": "Pandas Production",
+      "description": "Pandas Production workflow directive for sql & code.",
+      "instruction": "Apply pandas production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "pandas"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "python-studio-53",
+      "command": "/python-studio",
+      "name": "Python Studio",
+      "description": "Python Studio workflow directive for sql & code.",
+      "instruction": "Apply python studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "python"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "pipeline-portable-54",
+      "command": "/pipeline-portable",
+      "name": "Pipeline Portable",
+      "description": "Pipeline Portable workflow directive for sql & code.",
+      "instruction": "Apply pipeline portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "pipeline"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "sql-safe-55",
+      "command": "/sql-safe",
+      "name": "Sql Safe",
+      "description": "Sql Safe workflow directive for sql & code.",
+      "instruction": "Apply sql safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "sql"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "query-robust-56",
+      "command": "/query-robust",
+      "name": "Query Robust",
+      "description": "Query Robust workflow directive for sql & code.",
+      "instruction": "Apply query robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "query"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "pandas-reliable-57",
+      "command": "/pandas-reliable",
+      "name": "Pandas Reliable",
+      "description": "Pandas Reliable workflow directive for sql & code.",
+      "instruction": "Apply pandas reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "pandas"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "python-scalable-58",
+      "command": "/python-scalable",
+      "name": "Python Scalable",
+      "description": "Python Scalable workflow directive for sql & code.",
+      "instruction": "Apply python scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "python"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "pipeline-maintainable-59",
+      "command": "/pipeline-maintainable",
+      "name": "Pipeline Maintainable",
+      "description": "Pipeline Maintainable workflow directive for sql & code.",
+      "instruction": "Apply pipeline maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "pipeline"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "sql-accessible-60",
+      "command": "/sql-accessible",
+      "name": "Sql Accessible",
+      "description": "Sql Accessible workflow directive for sql & code.",
+      "instruction": "Apply sql accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "sql"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "query-responsive-61",
+      "command": "/query-responsive",
+      "name": "Query Responsive",
+      "description": "Query Responsive workflow directive for sql & code.",
+      "instruction": "Apply query responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "query"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "pandas-structured-62",
+      "command": "/pandas-structured",
+      "name": "Pandas Structured",
+      "description": "Pandas Structured workflow directive for sql & code.",
+      "instruction": "Apply pandas structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "pandas"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    },
+    {
+      "id": "python-compact-63",
+      "command": "/python-compact",
+      "name": "Python Compact",
+      "description": "Python Compact workflow directive for sql & code.",
+      "instruction": "Apply python compact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "sql-and-code",
+        "data-and-analytics",
+        "python"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Coding & Development",
+      "categorySlug": "coding-development",
+      "subcategory": "SQL & Code"
+    }
+  ]
+}

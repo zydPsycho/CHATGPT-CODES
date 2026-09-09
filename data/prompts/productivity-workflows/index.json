@@ -1,0 +1,49 @@
+{
+  "category": "Productivity & Workflows",
+  "slug": "productivity-workflows",
+  "description": "Plan work, organize tasks and automate repeatable systems.",
+  "subcategories": [
+    {
+      "name": "Planning",
+      "slug": "planning",
+      "file": "/data/prompts/productivity-workflows/planning.json",
+      "count": 64
+    },
+    {
+      "name": "Tasks",
+      "slug": "tasks",
+      "file": "/data/prompts/productivity-workflows/tasks.json",
+      "count": 64
+    },
+    {
+      "name": "Notes",
+      "slug": "notes",
+      "file": "/data/prompts/productivity-workflows/notes.json",
+      "count": 64
+    },
+    {
+      "name": "Focus",
+      "slug": "focus",
+      "file": "/data/prompts/productivity-workflows/focus.json",
+      "count": 64
+    },
+    {
+      "name": "Workflow",
+      "slug": "workflow",
+      "file": "/data/prompts/productivity-workflows/workflow.json",
+      "count": 64
+    },
+    {
+      "name": "Automation",
+      "slug": "automation",
+      "file": "/data/prompts/productivity-workflows/automation.json",
+      "count": 64
+    },
+    {
+      "name": "Integration",
+      "slug": "integration",
+      "file": "/data/prompts/productivity-workflows/integration.json",
+      "count": 64
+    }
+  ]
+}

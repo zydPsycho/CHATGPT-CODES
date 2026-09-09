@@ -1,0 +1,31 @@
+{
+  "category": "Prompt Engineering",
+  "slug": "prompt-engineering",
+  "description": "Design roles, output controls and quality systems for prompts.",
+  "subcategories": [
+    {
+      "name": "Prompt Design",
+      "slug": "prompt-design",
+      "file": "/data/prompts/prompt-engineering/prompt-design.json",
+      "count": 64
+    },
+    {
+      "name": "Roles & Context",
+      "slug": "roles-and-context",
+      "file": "/data/prompts/prompt-engineering/roles-and-context.json",
+      "count": 64
+    },
+    {
+      "name": "Output Control",
+      "slug": "output-control",
+      "file": "/data/prompts/prompt-engineering/output-control.json",
+      "count": 64
+    },
+    {
+      "name": "Quality Control",
+      "slug": "quality-control",
+      "file": "/data/prompts/prompt-engineering/quality-control.json",
+      "count": 64
+    }
+  ]
+}

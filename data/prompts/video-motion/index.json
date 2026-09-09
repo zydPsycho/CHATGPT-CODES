@@ -1,0 +1,25 @@
+{
+  "category": "Video & Motion",
+  "slug": "video-motion",
+  "description": "Create animation, camera movement, loops and temporal continuity.",
+  "subcategories": [
+    {
+      "name": "Animation",
+      "slug": "animation",
+      "file": "/data/prompts/video-motion/animation.json",
+      "count": 64
+    },
+    {
+      "name": "Camera Moves",
+      "slug": "camera-moves",
+      "file": "/data/prompts/video-motion/camera-moves.json",
+      "count": 64
+    },
+    {
+      "name": "Core",
+      "slug": "core",
+      "file": "/data/prompts/video-motion/core.json",
+      "count": 5
+    }
+  ]
+}

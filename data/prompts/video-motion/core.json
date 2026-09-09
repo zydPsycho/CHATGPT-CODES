@@ -1,0 +1,104 @@
+{
+  "category": "Video & Motion",
+  "categorySlug": "video-motion",
+  "subcategory": "Core",
+  "slug": "core",
+  "description": "Core command system for video & animation.",
+  "prompts": [
+    {
+      "id": "video-0",
+      "command": "/animate",
+      "name": "Animate",
+      "description": "Video & Animation directive for a controlled creative workflow.",
+      "instruction": "Apply animate with precise control while preserving the intended subject and composition.",
+      "tags": [
+        "video",
+        "blackmark"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Video & Motion",
+      "categorySlug": "video-motion",
+      "subcategory": "Core"
+    },
+    {
+      "id": "video-1",
+      "command": "/smoothmotion",
+      "name": "Smoothmotion",
+      "description": "Video & Animation directive for a controlled creative workflow.",
+      "instruction": "Apply smoothmotion with precise control while preserving the intended subject and composition.",
+      "tags": [
+        "video",
+        "blackmark"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion",
+      "categorySlug": "video-motion",
+      "subcategory": "Core"
+    },
+    {
+      "id": "video-2",
+      "command": "/loop",
+      "name": "Loop",
+      "description": "Video & Animation directive for a controlled creative workflow.",
+      "instruction": "Apply loop with precise control while preserving the intended subject and composition.",
+      "tags": [
+        "video",
+        "blackmark"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion",
+      "categorySlug": "video-motion",
+      "subcategory": "Core"
+    },
+    {
+      "id": "video-3",
+      "command": "/slowmotion",
+      "name": "Slowmotion",
+      "description": "Video & Animation directive for a controlled creative workflow.",
+      "instruction": "Apply slowmotion with precise control while preserving the intended subject and composition.",
+      "tags": [
+        "video",
+        "blackmark"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion",
+      "categorySlug": "video-motion",
+      "subcategory": "Core"
+    },
+    {
+      "id": "video-4",
+      "command": "/stabilized",
+      "name": "Stabilized",
+      "description": "Video & Animation directive for a controlled creative workflow.",
+      "instruction": "Apply stabilized with precise control while preserving the intended subject and composition.",
+      "tags": [
+        "video",
+        "blackmark"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion",
+      "categorySlug": "video-motion",
+      "subcategory": "Core"
+    }
+  ]
+}

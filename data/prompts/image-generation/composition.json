@@ -1,0 +1,1289 @@
+{
+  "category": "Image Generation",
+  "categorySlug": "image-generation",
+  "subcategory": "Composition",
+  "slug": "composition",
+  "description": "Composition command system for style transformations.",
+  "prompts": [
+    {
+      "id": "cinematic-0",
+      "command": "/cinematic",
+      "name": "Cinematic",
+      "description": "Cinematic workflow directive for composition.",
+      "instruction": "Apply cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "cinematic"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "minimal-1",
+      "command": "/minimal",
+      "name": "Minimal",
+      "description": "Minimal workflow directive for composition.",
+      "instruction": "Apply minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "minimal"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "dynamic-2",
+      "command": "/dynamic",
+      "name": "Dynamic",
+      "description": "Dynamic workflow directive for composition.",
+      "instruction": "Apply dynamic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "dynamic"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "balanced-3",
+      "command": "/balanced",
+      "name": "Balanced",
+      "description": "Balanced workflow directive for composition.",
+      "instruction": "Apply balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "balanced"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "symmetry-4",
+      "command": "/symmetry",
+      "name": "Symmetry",
+      "description": "Symmetry workflow directive for composition.",
+      "instruction": "Apply symmetry with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "symmetry"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "professional-5",
+      "command": "/professional",
+      "name": "Professional",
+      "description": "Professional workflow directive for composition.",
+      "instruction": "Apply professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "professional"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "cinematic-precise-6",
+      "command": "/cinematic-precise",
+      "name": "Cinematic Precise",
+      "description": "Cinematic Precise workflow directive for composition.",
+      "instruction": "Apply cinematic precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "cinematic"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "minimal-clean-7",
+      "command": "/minimal-clean",
+      "name": "Minimal Clean",
+      "description": "Minimal Clean workflow directive for composition.",
+      "instruction": "Apply minimal clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "minimal"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "dynamic-natural-8",
+      "command": "/dynamic-natural",
+      "name": "Dynamic Natural",
+      "description": "Dynamic Natural workflow directive for composition.",
+      "instruction": "Apply dynamic natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "dynamic"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "balanced-refined-9",
+      "command": "/balanced-refined",
+      "name": "Balanced Refined",
+      "description": "Balanced Refined workflow directive for composition.",
+      "instruction": "Apply balanced refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "balanced"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "symmetry-professional-10",
+      "command": "/symmetry-professional",
+      "name": "Symmetry Professional",
+      "description": "Symmetry Professional workflow directive for composition.",
+      "instruction": "Apply symmetry professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "symmetry"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "professional-premium-11",
+      "command": "/professional-premium",
+      "name": "Professional Premium",
+      "description": "Professional Premium workflow directive for composition.",
+      "instruction": "Apply professional premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "professional"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "cinematic-subtle-12",
+      "command": "/cinematic-subtle",
+      "name": "Cinematic Subtle",
+      "description": "Cinematic Subtle workflow directive for composition.",
+      "instruction": "Apply cinematic subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "cinematic"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "minimal-strong-13",
+      "command": "/minimal-strong",
+      "name": "Minimal Strong",
+      "description": "Minimal Strong workflow directive for composition.",
+      "instruction": "Apply minimal strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "minimal"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "dynamic-balanced-14",
+      "command": "/dynamic-balanced",
+      "name": "Dynamic Balanced",
+      "description": "Dynamic Balanced workflow directive for composition.",
+      "instruction": "Apply dynamic balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "dynamic"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "balanced-detailed-15",
+      "command": "/balanced-detailed",
+      "name": "Balanced Detailed",
+      "description": "Balanced Detailed workflow directive for composition.",
+      "instruction": "Apply balanced detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "balanced"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "symmetry-advanced-16",
+      "command": "/symmetry-advanced",
+      "name": "Symmetry Advanced",
+      "description": "Symmetry Advanced workflow directive for composition.",
+      "instruction": "Apply symmetry advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "symmetry"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "professional-simple-17",
+      "command": "/professional-simple",
+      "name": "Professional Simple",
+      "description": "Professional Simple workflow directive for composition.",
+      "instruction": "Apply professional simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "professional"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "cinematic-smart-18",
+      "command": "/cinematic-smart",
+      "name": "Cinematic Smart",
+      "description": "Cinematic Smart workflow directive for composition.",
+      "instruction": "Apply cinematic smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "cinematic"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "minimal-controlled-19",
+      "command": "/minimal-controlled",
+      "name": "Minimal Controlled",
+      "description": "Minimal Controlled workflow directive for composition.",
+      "instruction": "Apply minimal controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "minimal"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "dynamic-optimized-20",
+      "command": "/dynamic-optimized",
+      "name": "Dynamic Optimized",
+      "description": "Dynamic Optimized workflow directive for composition.",
+      "instruction": "Apply dynamic optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "dynamic"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "balanced-efficient-21",
+      "command": "/balanced-efficient",
+      "name": "Balanced Efficient",
+      "description": "Balanced Efficient workflow directive for composition.",
+      "instruction": "Apply balanced efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "balanced"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "symmetry-accurate-22",
+      "command": "/symmetry-accurate",
+      "name": "Symmetry Accurate",
+      "description": "Symmetry Accurate workflow directive for composition.",
+      "instruction": "Apply symmetry accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "symmetry"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "professional-consistent-23",
+      "command": "/professional-consistent",
+      "name": "Professional Consistent",
+      "description": "Professional Consistent workflow directive for composition.",
+      "instruction": "Apply professional consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "professional"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "cinematic-polished-24",
+      "command": "/cinematic-polished",
+      "name": "Cinematic Polished",
+      "description": "Cinematic Polished workflow directive for composition.",
+      "instruction": "Apply cinematic polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "cinematic"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "minimal-final-25",
+      "command": "/minimal-final",
+      "name": "Minimal Final",
+      "description": "Minimal Final workflow directive for composition.",
+      "instruction": "Apply minimal final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "minimal"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "dynamic-quick-26",
+      "command": "/dynamic-quick",
+      "name": "Dynamic Quick",
+      "description": "Dynamic Quick workflow directive for composition.",
+      "instruction": "Apply dynamic quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "dynamic"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "balanced-deep-27",
+      "command": "/balanced-deep",
+      "name": "Balanced Deep",
+      "description": "Balanced Deep workflow directive for composition.",
+      "instruction": "Apply balanced deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "balanced"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "symmetry-thorough-28",
+      "command": "/symmetry-thorough",
+      "name": "Symmetry Thorough",
+      "description": "Symmetry Thorough workflow directive for composition.",
+      "instruction": "Apply symmetry thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "symmetry"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "professional-minimal-29",
+      "command": "/professional-minimal",
+      "name": "Professional Minimal",
+      "description": "Professional Minimal workflow directive for composition.",
+      "instruction": "Apply professional minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "professional"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "cinematic-maximum-30",
+      "command": "/cinematic-maximum",
+      "name": "Cinematic Maximum",
+      "description": "Cinematic Maximum workflow directive for composition.",
+      "instruction": "Apply cinematic maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "cinematic"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "minimal-soft-31",
+      "command": "/minimal-soft",
+      "name": "Minimal Soft",
+      "description": "Minimal Soft workflow directive for composition.",
+      "instruction": "Apply minimal soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "minimal"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "dynamic-bold-32",
+      "command": "/dynamic-bold",
+      "name": "Dynamic Bold",
+      "description": "Dynamic Bold workflow directive for composition.",
+      "instruction": "Apply dynamic bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "dynamic"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "balanced-sharp-33",
+      "command": "/balanced-sharp",
+      "name": "Balanced Sharp",
+      "description": "Balanced Sharp workflow directive for composition.",
+      "instruction": "Apply balanced sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "balanced"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "symmetry-smooth-34",
+      "command": "/symmetry-smooth",
+      "name": "Symmetry Smooth",
+      "description": "Symmetry Smooth workflow directive for composition.",
+      "instruction": "Apply symmetry smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "symmetry"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "professional-stable-35",
+      "command": "/professional-stable",
+      "name": "Professional Stable",
+      "description": "Professional Stable workflow directive for composition.",
+      "instruction": "Apply professional stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "professional"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "cinematic-highquality-36",
+      "command": "/cinematic-highquality",
+      "name": "Cinematic Highquality",
+      "description": "Cinematic Highquality workflow directive for composition.",
+      "instruction": "Apply cinematic highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "cinematic"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "minimal-lowartifact-37",
+      "command": "/minimal-lowartifact",
+      "name": "Minimal Lowartifact",
+      "description": "Minimal Lowartifact workflow directive for composition.",
+      "instruction": "Apply minimal lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "minimal"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "dynamic-highdetail-38",
+      "command": "/dynamic-highdetail",
+      "name": "Dynamic Highdetail",
+      "description": "Dynamic Highdetail workflow directive for composition.",
+      "instruction": "Apply dynamic highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "dynamic"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "balanced-fine-39",
+      "command": "/balanced-fine",
+      "name": "Balanced Fine",
+      "description": "Balanced Fine workflow directive for composition.",
+      "instruction": "Apply balanced fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "balanced"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "symmetry-micro-40",
+      "command": "/symmetry-micro",
+      "name": "Symmetry Micro",
+      "description": "Symmetry Micro workflow directive for composition.",
+      "instruction": "Apply symmetry micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "symmetry"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "professional-macro-41",
+      "command": "/professional-macro",
+      "name": "Professional Macro",
+      "description": "Professional Macro workflow directive for composition.",
+      "instruction": "Apply professional macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "professional"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "cinematic-local-42",
+      "command": "/cinematic-local",
+      "name": "Cinematic Local",
+      "description": "Cinematic Local workflow directive for composition.",
+      "instruction": "Apply cinematic local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "cinematic"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "minimal-global-43",
+      "command": "/minimal-global",
+      "name": "Minimal Global",
+      "description": "Minimal Global workflow directive for composition.",
+      "instruction": "Apply minimal global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "minimal"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "dynamic-adaptive-44",
+      "command": "/dynamic-adaptive",
+      "name": "Dynamic Adaptive",
+      "description": "Dynamic Adaptive workflow directive for composition.",
+      "instruction": "Apply dynamic adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "dynamic"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "balanced-contextual-45",
+      "command": "/balanced-contextual",
+      "name": "Balanced Contextual",
+      "description": "Balanced Contextual workflow directive for composition.",
+      "instruction": "Apply balanced contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "balanced"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "symmetry-realistic-46",
+      "command": "/symmetry-realistic",
+      "name": "Symmetry Realistic",
+      "description": "Symmetry Realistic workflow directive for composition.",
+      "instruction": "Apply symmetry realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "symmetry"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "professional-cinematic-47",
+      "command": "/professional-cinematic",
+      "name": "Professional Cinematic",
+      "description": "Professional Cinematic workflow directive for composition.",
+      "instruction": "Apply professional cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "professional"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "cinematic-modern-48",
+      "command": "/cinematic-modern",
+      "name": "Cinematic Modern",
+      "description": "Cinematic Modern workflow directive for composition.",
+      "instruction": "Apply cinematic modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "cinematic"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "minimal-classic-49",
+      "command": "/minimal-classic",
+      "name": "Minimal Classic",
+      "description": "Minimal Classic workflow directive for composition.",
+      "instruction": "Apply minimal classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "minimal"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "dynamic-technical-50",
+      "command": "/dynamic-technical",
+      "name": "Dynamic Technical",
+      "description": "Dynamic Technical workflow directive for composition.",
+      "instruction": "Apply dynamic technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "dynamic"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "balanced-creative-51",
+      "command": "/balanced-creative",
+      "name": "Balanced Creative",
+      "description": "Balanced Creative workflow directive for composition.",
+      "instruction": "Apply balanced creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "balanced"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "symmetry-editorial-52",
+      "command": "/symmetry-editorial",
+      "name": "Symmetry Editorial",
+      "description": "Symmetry Editorial workflow directive for composition.",
+      "instruction": "Apply symmetry editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "symmetry"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "professional-production-53",
+      "command": "/professional-production",
+      "name": "Professional Production",
+      "description": "Professional Production workflow directive for composition.",
+      "instruction": "Apply professional production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "professional"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "cinematic-studio-54",
+      "command": "/cinematic-studio",
+      "name": "Cinematic Studio",
+      "description": "Cinematic Studio workflow directive for composition.",
+      "instruction": "Apply cinematic studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "cinematic"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "minimal-portable-55",
+      "command": "/minimal-portable",
+      "name": "Minimal Portable",
+      "description": "Minimal Portable workflow directive for composition.",
+      "instruction": "Apply minimal portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "minimal"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "dynamic-safe-56",
+      "command": "/dynamic-safe",
+      "name": "Dynamic Safe",
+      "description": "Dynamic Safe workflow directive for composition.",
+      "instruction": "Apply dynamic safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "dynamic"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "balanced-robust-57",
+      "command": "/balanced-robust",
+      "name": "Balanced Robust",
+      "description": "Balanced Robust workflow directive for composition.",
+      "instruction": "Apply balanced robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "balanced"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "symmetry-reliable-58",
+      "command": "/symmetry-reliable",
+      "name": "Symmetry Reliable",
+      "description": "Symmetry Reliable workflow directive for composition.",
+      "instruction": "Apply symmetry reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "symmetry"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "professional-scalable-59",
+      "command": "/professional-scalable",
+      "name": "Professional Scalable",
+      "description": "Professional Scalable workflow directive for composition.",
+      "instruction": "Apply professional scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "professional"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "cinematic-maintainable-60",
+      "command": "/cinematic-maintainable",
+      "name": "Cinematic Maintainable",
+      "description": "Cinematic Maintainable workflow directive for composition.",
+      "instruction": "Apply cinematic maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "cinematic"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "minimal-accessible-61",
+      "command": "/minimal-accessible",
+      "name": "Minimal Accessible",
+      "description": "Minimal Accessible workflow directive for composition.",
+      "instruction": "Apply minimal accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "minimal"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "dynamic-responsive-62",
+      "command": "/dynamic-responsive",
+      "name": "Dynamic Responsive",
+      "description": "Dynamic Responsive workflow directive for composition.",
+      "instruction": "Apply dynamic responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "dynamic"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    },
+    {
+      "id": "balanced-structured-63",
+      "command": "/balanced-structured",
+      "name": "Balanced Structured",
+      "description": "Balanced Structured workflow directive for composition.",
+      "instruction": "Apply balanced structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "composition",
+        "image-and-visual-creation",
+        "balanced"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image Generation",
+      "categorySlug": "image-generation",
+      "subcategory": "Composition"
+    }
+  ]
+}

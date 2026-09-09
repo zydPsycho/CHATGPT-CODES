@@ -1,0 +1,1289 @@
+{
+  "category": "Architecture & Spaces",
+  "categorySlug": "architecture-spaces",
+  "subcategory": "3D",
+  "slug": "3d",
+  "description": "3D command system for architecture & floorplans.",
+  "prompts": [
+    {
+      "id": "3dplan-0",
+      "command": "/3dplan",
+      "name": "3dplan",
+      "description": "3dplan workflow directive for 3d.",
+      "instruction": "Apply 3dplan with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "3dplan"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "3d-1",
+      "command": "/3d",
+      "name": "3d",
+      "description": "3d workflow directive for 3d.",
+      "instruction": "Apply 3d with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "3d"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "isometric-2",
+      "command": "/isometric",
+      "name": "Isometric",
+      "description": "Isometric workflow directive for 3d.",
+      "instruction": "Apply isometric with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "isometric"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "cutaway-3",
+      "command": "/cutaway",
+      "name": "Cutaway",
+      "description": "Cutaway workflow directive for 3d.",
+      "instruction": "Apply cutaway with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "cutaway"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "walkthrough-4",
+      "command": "/walkthrough",
+      "name": "Walkthrough",
+      "description": "Walkthrough workflow directive for 3d.",
+      "instruction": "Apply walkthrough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "walkthrough"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "3dplan-precise-5",
+      "command": "/3dplan-precise",
+      "name": "3dplan Precise",
+      "description": "3dplan Precise workflow directive for 3d.",
+      "instruction": "Apply 3dplan precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "3dplan"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "3d-clean-6",
+      "command": "/3d-clean",
+      "name": "3d Clean",
+      "description": "3d Clean workflow directive for 3d.",
+      "instruction": "Apply 3d clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "3d"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "isometric-natural-7",
+      "command": "/isometric-natural",
+      "name": "Isometric Natural",
+      "description": "Isometric Natural workflow directive for 3d.",
+      "instruction": "Apply isometric natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "isometric"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "cutaway-refined-8",
+      "command": "/cutaway-refined",
+      "name": "Cutaway Refined",
+      "description": "Cutaway Refined workflow directive for 3d.",
+      "instruction": "Apply cutaway refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "cutaway"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "walkthrough-professional-9",
+      "command": "/walkthrough-professional",
+      "name": "Walkthrough Professional",
+      "description": "Walkthrough Professional workflow directive for 3d.",
+      "instruction": "Apply walkthrough professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "walkthrough"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "3dplan-premium-10",
+      "command": "/3dplan-premium",
+      "name": "3dplan Premium",
+      "description": "3dplan Premium workflow directive for 3d.",
+      "instruction": "Apply 3dplan premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "3dplan"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "3d-subtle-11",
+      "command": "/3d-subtle",
+      "name": "3d Subtle",
+      "description": "3d Subtle workflow directive for 3d.",
+      "instruction": "Apply 3d subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "3d"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "isometric-strong-12",
+      "command": "/isometric-strong",
+      "name": "Isometric Strong",
+      "description": "Isometric Strong workflow directive for 3d.",
+      "instruction": "Apply isometric strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "isometric"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "cutaway-balanced-13",
+      "command": "/cutaway-balanced",
+      "name": "Cutaway Balanced",
+      "description": "Cutaway Balanced workflow directive for 3d.",
+      "instruction": "Apply cutaway balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "cutaway"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "walkthrough-detailed-14",
+      "command": "/walkthrough-detailed",
+      "name": "Walkthrough Detailed",
+      "description": "Walkthrough Detailed workflow directive for 3d.",
+      "instruction": "Apply walkthrough detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "walkthrough"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "3dplan-advanced-15",
+      "command": "/3dplan-advanced",
+      "name": "3dplan Advanced",
+      "description": "3dplan Advanced workflow directive for 3d.",
+      "instruction": "Apply 3dplan advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "3dplan"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "3d-simple-16",
+      "command": "/3d-simple",
+      "name": "3d Simple",
+      "description": "3d Simple workflow directive for 3d.",
+      "instruction": "Apply 3d simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "3d"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "isometric-smart-17",
+      "command": "/isometric-smart",
+      "name": "Isometric Smart",
+      "description": "Isometric Smart workflow directive for 3d.",
+      "instruction": "Apply isometric smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "isometric"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "cutaway-controlled-18",
+      "command": "/cutaway-controlled",
+      "name": "Cutaway Controlled",
+      "description": "Cutaway Controlled workflow directive for 3d.",
+      "instruction": "Apply cutaway controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "cutaway"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "walkthrough-optimized-19",
+      "command": "/walkthrough-optimized",
+      "name": "Walkthrough Optimized",
+      "description": "Walkthrough Optimized workflow directive for 3d.",
+      "instruction": "Apply walkthrough optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "walkthrough"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "3dplan-efficient-20",
+      "command": "/3dplan-efficient",
+      "name": "3dplan Efficient",
+      "description": "3dplan Efficient workflow directive for 3d.",
+      "instruction": "Apply 3dplan efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "3dplan"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "3d-accurate-21",
+      "command": "/3d-accurate",
+      "name": "3d Accurate",
+      "description": "3d Accurate workflow directive for 3d.",
+      "instruction": "Apply 3d accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "3d"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "isometric-consistent-22",
+      "command": "/isometric-consistent",
+      "name": "Isometric Consistent",
+      "description": "Isometric Consistent workflow directive for 3d.",
+      "instruction": "Apply isometric consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "isometric"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "cutaway-polished-23",
+      "command": "/cutaway-polished",
+      "name": "Cutaway Polished",
+      "description": "Cutaway Polished workflow directive for 3d.",
+      "instruction": "Apply cutaway polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "cutaway"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "walkthrough-final-24",
+      "command": "/walkthrough-final",
+      "name": "Walkthrough Final",
+      "description": "Walkthrough Final workflow directive for 3d.",
+      "instruction": "Apply walkthrough final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "walkthrough"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "3dplan-quick-25",
+      "command": "/3dplan-quick",
+      "name": "3dplan Quick",
+      "description": "3dplan Quick workflow directive for 3d.",
+      "instruction": "Apply 3dplan quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "3dplan"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "3d-deep-26",
+      "command": "/3d-deep",
+      "name": "3d Deep",
+      "description": "3d Deep workflow directive for 3d.",
+      "instruction": "Apply 3d deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "3d"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "isometric-thorough-27",
+      "command": "/isometric-thorough",
+      "name": "Isometric Thorough",
+      "description": "Isometric Thorough workflow directive for 3d.",
+      "instruction": "Apply isometric thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "isometric"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "cutaway-minimal-28",
+      "command": "/cutaway-minimal",
+      "name": "Cutaway Minimal",
+      "description": "Cutaway Minimal workflow directive for 3d.",
+      "instruction": "Apply cutaway minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "cutaway"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "walkthrough-maximum-29",
+      "command": "/walkthrough-maximum",
+      "name": "Walkthrough Maximum",
+      "description": "Walkthrough Maximum workflow directive for 3d.",
+      "instruction": "Apply walkthrough maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "walkthrough"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "3dplan-soft-30",
+      "command": "/3dplan-soft",
+      "name": "3dplan Soft",
+      "description": "3dplan Soft workflow directive for 3d.",
+      "instruction": "Apply 3dplan soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "3dplan"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "3d-bold-31",
+      "command": "/3d-bold",
+      "name": "3d Bold",
+      "description": "3d Bold workflow directive for 3d.",
+      "instruction": "Apply 3d bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "3d"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "isometric-sharp-32",
+      "command": "/isometric-sharp",
+      "name": "Isometric Sharp",
+      "description": "Isometric Sharp workflow directive for 3d.",
+      "instruction": "Apply isometric sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "isometric"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "cutaway-smooth-33",
+      "command": "/cutaway-smooth",
+      "name": "Cutaway Smooth",
+      "description": "Cutaway Smooth workflow directive for 3d.",
+      "instruction": "Apply cutaway smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "cutaway"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "walkthrough-stable-34",
+      "command": "/walkthrough-stable",
+      "name": "Walkthrough Stable",
+      "description": "Walkthrough Stable workflow directive for 3d.",
+      "instruction": "Apply walkthrough stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "walkthrough"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "3dplan-highquality-35",
+      "command": "/3dplan-highquality",
+      "name": "3dplan Highquality",
+      "description": "3dplan Highquality workflow directive for 3d.",
+      "instruction": "Apply 3dplan highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "3dplan"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "3d-lowartifact-36",
+      "command": "/3d-lowartifact",
+      "name": "3d Lowartifact",
+      "description": "3d Lowartifact workflow directive for 3d.",
+      "instruction": "Apply 3d lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "3d"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "isometric-highdetail-37",
+      "command": "/isometric-highdetail",
+      "name": "Isometric Highdetail",
+      "description": "Isometric Highdetail workflow directive for 3d.",
+      "instruction": "Apply isometric highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "isometric"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "cutaway-fine-38",
+      "command": "/cutaway-fine",
+      "name": "Cutaway Fine",
+      "description": "Cutaway Fine workflow directive for 3d.",
+      "instruction": "Apply cutaway fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "cutaway"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "walkthrough-micro-39",
+      "command": "/walkthrough-micro",
+      "name": "Walkthrough Micro",
+      "description": "Walkthrough Micro workflow directive for 3d.",
+      "instruction": "Apply walkthrough micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "walkthrough"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "3dplan-macro-40",
+      "command": "/3dplan-macro",
+      "name": "3dplan Macro",
+      "description": "3dplan Macro workflow directive for 3d.",
+      "instruction": "Apply 3dplan macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "3dplan"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "3d-local-41",
+      "command": "/3d-local",
+      "name": "3d Local",
+      "description": "3d Local workflow directive for 3d.",
+      "instruction": "Apply 3d local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "3d"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "isometric-global-42",
+      "command": "/isometric-global",
+      "name": "Isometric Global",
+      "description": "Isometric Global workflow directive for 3d.",
+      "instruction": "Apply isometric global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "isometric"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "cutaway-adaptive-43",
+      "command": "/cutaway-adaptive",
+      "name": "Cutaway Adaptive",
+      "description": "Cutaway Adaptive workflow directive for 3d.",
+      "instruction": "Apply cutaway adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "cutaway"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "walkthrough-contextual-44",
+      "command": "/walkthrough-contextual",
+      "name": "Walkthrough Contextual",
+      "description": "Walkthrough Contextual workflow directive for 3d.",
+      "instruction": "Apply walkthrough contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "walkthrough"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "3dplan-realistic-45",
+      "command": "/3dplan-realistic",
+      "name": "3dplan Realistic",
+      "description": "3dplan Realistic workflow directive for 3d.",
+      "instruction": "Apply 3dplan realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "3dplan"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "3d-cinematic-46",
+      "command": "/3d-cinematic",
+      "name": "3d Cinematic",
+      "description": "3d Cinematic workflow directive for 3d.",
+      "instruction": "Apply 3d cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "3d"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "isometric-modern-47",
+      "command": "/isometric-modern",
+      "name": "Isometric Modern",
+      "description": "Isometric Modern workflow directive for 3d.",
+      "instruction": "Apply isometric modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "isometric"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "cutaway-classic-48",
+      "command": "/cutaway-classic",
+      "name": "Cutaway Classic",
+      "description": "Cutaway Classic workflow directive for 3d.",
+      "instruction": "Apply cutaway classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "cutaway"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "walkthrough-technical-49",
+      "command": "/walkthrough-technical",
+      "name": "Walkthrough Technical",
+      "description": "Walkthrough Technical workflow directive for 3d.",
+      "instruction": "Apply walkthrough technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "walkthrough"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "3dplan-creative-50",
+      "command": "/3dplan-creative",
+      "name": "3dplan Creative",
+      "description": "3dplan Creative workflow directive for 3d.",
+      "instruction": "Apply 3dplan creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "3dplan"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "3d-editorial-51",
+      "command": "/3d-editorial",
+      "name": "3d Editorial",
+      "description": "3d Editorial workflow directive for 3d.",
+      "instruction": "Apply 3d editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "3d"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "isometric-production-52",
+      "command": "/isometric-production",
+      "name": "Isometric Production",
+      "description": "Isometric Production workflow directive for 3d.",
+      "instruction": "Apply isometric production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "isometric"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "cutaway-studio-53",
+      "command": "/cutaway-studio",
+      "name": "Cutaway Studio",
+      "description": "Cutaway Studio workflow directive for 3d.",
+      "instruction": "Apply cutaway studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "cutaway"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "walkthrough-portable-54",
+      "command": "/walkthrough-portable",
+      "name": "Walkthrough Portable",
+      "description": "Walkthrough Portable workflow directive for 3d.",
+      "instruction": "Apply walkthrough portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "walkthrough"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "3dplan-safe-55",
+      "command": "/3dplan-safe",
+      "name": "3dplan Safe",
+      "description": "3dplan Safe workflow directive for 3d.",
+      "instruction": "Apply 3dplan safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "3dplan"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "3d-robust-56",
+      "command": "/3d-robust",
+      "name": "3d Robust",
+      "description": "3d Robust workflow directive for 3d.",
+      "instruction": "Apply 3d robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "3d"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "isometric-reliable-57",
+      "command": "/isometric-reliable",
+      "name": "Isometric Reliable",
+      "description": "Isometric Reliable workflow directive for 3d.",
+      "instruction": "Apply isometric reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "isometric"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "cutaway-scalable-58",
+      "command": "/cutaway-scalable",
+      "name": "Cutaway Scalable",
+      "description": "Cutaway Scalable workflow directive for 3d.",
+      "instruction": "Apply cutaway scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "cutaway"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "walkthrough-maintainable-59",
+      "command": "/walkthrough-maintainable",
+      "name": "Walkthrough Maintainable",
+      "description": "Walkthrough Maintainable workflow directive for 3d.",
+      "instruction": "Apply walkthrough maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "walkthrough"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "3dplan-accessible-60",
+      "command": "/3dplan-accessible",
+      "name": "3dplan Accessible",
+      "description": "3dplan Accessible workflow directive for 3d.",
+      "instruction": "Apply 3dplan accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "3dplan"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "3d-responsive-61",
+      "command": "/3d-responsive",
+      "name": "3d Responsive",
+      "description": "3d Responsive workflow directive for 3d.",
+      "instruction": "Apply 3d responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "3d"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "isometric-structured-62",
+      "command": "/isometric-structured",
+      "name": "Isometric Structured",
+      "description": "Isometric Structured workflow directive for 3d.",
+      "instruction": "Apply isometric structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "isometric"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    },
+    {
+      "id": "cutaway-compact-63",
+      "command": "/cutaway-compact",
+      "name": "Cutaway Compact",
+      "description": "Cutaway Compact workflow directive for 3d.",
+      "instruction": "Apply cutaway compact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "3d",
+        "architecture-and-floorplans",
+        "cutaway"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Architecture & Spaces",
+      "categorySlug": "architecture-spaces",
+      "subcategory": "3D"
+    }
+  ]
+}

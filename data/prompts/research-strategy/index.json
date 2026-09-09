@@ -1,0 +1,79 @@
+{
+  "category": "Research & Strategy",
+  "slug": "research-strategy",
+  "description": "Investigate, reason, compare evidence and make decisions.",
+  "subcategories": [
+    {
+      "name": "Research",
+      "slug": "research",
+      "file": "/data/prompts/research-strategy/research.json",
+      "count": 64
+    },
+    {
+      "name": "Deep Reasoning",
+      "slug": "deep-reasoning",
+      "file": "/data/prompts/research-strategy/deep-reasoning.json",
+      "count": 64
+    },
+    {
+      "name": "Synthesis",
+      "slug": "synthesis",
+      "file": "/data/prompts/research-strategy/synthesis.json",
+      "count": 64
+    },
+    {
+      "name": "Decision Support",
+      "slug": "decision-support",
+      "file": "/data/prompts/research-strategy/decision-support.json",
+      "count": 64
+    },
+    {
+      "name": "Strategy",
+      "slug": "strategy",
+      "file": "/data/prompts/research-strategy/strategy.json",
+      "count": 64
+    },
+    {
+      "name": "Marketing",
+      "slug": "marketing",
+      "file": "/data/prompts/research-strategy/marketing.json",
+      "count": 64
+    },
+    {
+      "name": "Product",
+      "slug": "product",
+      "file": "/data/prompts/research-strategy/product.json",
+      "count": 64
+    },
+    {
+      "name": "Operations",
+      "slug": "operations",
+      "file": "/data/prompts/research-strategy/operations.json",
+      "count": 64
+    },
+    {
+      "name": "Search",
+      "slug": "search",
+      "file": "/data/prompts/research-strategy/search.json",
+      "count": 64
+    },
+    {
+      "name": "Web Research",
+      "slug": "web-research",
+      "file": "/data/prompts/research-strategy/web-research.json",
+      "count": 64
+    },
+    {
+      "name": "Verification",
+      "slug": "verification",
+      "file": "/data/prompts/research-strategy/verification.json",
+      "count": 64
+    },
+    {
+      "name": "Summaries",
+      "slug": "summaries",
+      "file": "/data/prompts/research-strategy/summaries.json",
+      "count": 64
+    }
+  ]
+}

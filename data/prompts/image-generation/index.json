@@ -1,0 +1,31 @@
+{
+  "category": "Image Generation",
+  "slug": "image-generation",
+  "description": "Create new visual concepts, scenes, photography, illustration and formats.",
+  "subcategories": [
+    {
+      "name": "Photography",
+      "slug": "photography",
+      "file": "/data/prompts/image-generation/photography.json",
+      "count": 64
+    },
+    {
+      "name": "Illustration",
+      "slug": "illustration",
+      "file": "/data/prompts/image-generation/illustration.json",
+      "count": 64
+    },
+    {
+      "name": "Composition",
+      "slug": "composition",
+      "file": "/data/prompts/image-generation/composition.json",
+      "count": 64
+    },
+    {
+      "name": "Formats",
+      "slug": "formats",
+      "file": "/data/prompts/image-generation/formats.json",
+      "count": 64
+    }
+  ]
+}

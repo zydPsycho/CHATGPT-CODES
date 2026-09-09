@@ -1,0 +1,1289 @@
+{
+  "category": "Research & Strategy",
+  "categorySlug": "research-strategy",
+  "subcategory": "Decision Support",
+  "slug": "decision-support",
+  "description": "Decision Support command system for environment & atmosphere.",
+  "prompts": [
+    {
+      "id": "proscons-0",
+      "command": "/proscons",
+      "name": "Proscons",
+      "description": "Proscons workflow directive for decision support.",
+      "instruction": "Apply proscons with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "proscons"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "decision-1",
+      "command": "/decision",
+      "name": "Decision",
+      "description": "Decision workflow directive for decision support.",
+      "instruction": "Apply decision with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "decision"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "risk-2",
+      "command": "/risk",
+      "name": "Risk",
+      "description": "Risk workflow directive for decision support.",
+      "instruction": "Apply risk with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "risk"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "scenario-3",
+      "command": "/scenario",
+      "name": "Scenario",
+      "description": "Scenario workflow directive for decision support.",
+      "instruction": "Apply scenario with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "scenario"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "recommend-4",
+      "command": "/recommend",
+      "name": "Recommend",
+      "description": "Recommend workflow directive for decision support.",
+      "instruction": "Apply recommend with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "recommend"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "proscons-precise-5",
+      "command": "/proscons-precise",
+      "name": "Proscons Precise",
+      "description": "Proscons Precise workflow directive for decision support.",
+      "instruction": "Apply proscons precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "proscons"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "decision-clean-6",
+      "command": "/decision-clean",
+      "name": "Decision Clean",
+      "description": "Decision Clean workflow directive for decision support.",
+      "instruction": "Apply decision clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "decision"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "risk-natural-7",
+      "command": "/risk-natural",
+      "name": "Risk Natural",
+      "description": "Risk Natural workflow directive for decision support.",
+      "instruction": "Apply risk natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "risk"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "scenario-refined-8",
+      "command": "/scenario-refined",
+      "name": "Scenario Refined",
+      "description": "Scenario Refined workflow directive for decision support.",
+      "instruction": "Apply scenario refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "scenario"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "recommend-professional-9",
+      "command": "/recommend-professional",
+      "name": "Recommend Professional",
+      "description": "Recommend Professional workflow directive for decision support.",
+      "instruction": "Apply recommend professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "recommend"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "proscons-premium-10",
+      "command": "/proscons-premium",
+      "name": "Proscons Premium",
+      "description": "Proscons Premium workflow directive for decision support.",
+      "instruction": "Apply proscons premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "proscons"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "decision-subtle-11",
+      "command": "/decision-subtle",
+      "name": "Decision Subtle",
+      "description": "Decision Subtle workflow directive for decision support.",
+      "instruction": "Apply decision subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "decision"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "risk-strong-12",
+      "command": "/risk-strong",
+      "name": "Risk Strong",
+      "description": "Risk Strong workflow directive for decision support.",
+      "instruction": "Apply risk strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "risk"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "scenario-balanced-13",
+      "command": "/scenario-balanced",
+      "name": "Scenario Balanced",
+      "description": "Scenario Balanced workflow directive for decision support.",
+      "instruction": "Apply scenario balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "scenario"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "recommend-detailed-14",
+      "command": "/recommend-detailed",
+      "name": "Recommend Detailed",
+      "description": "Recommend Detailed workflow directive for decision support.",
+      "instruction": "Apply recommend detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "recommend"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "proscons-advanced-15",
+      "command": "/proscons-advanced",
+      "name": "Proscons Advanced",
+      "description": "Proscons Advanced workflow directive for decision support.",
+      "instruction": "Apply proscons advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "proscons"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "decision-simple-16",
+      "command": "/decision-simple",
+      "name": "Decision Simple",
+      "description": "Decision Simple workflow directive for decision support.",
+      "instruction": "Apply decision simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "decision"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "risk-smart-17",
+      "command": "/risk-smart",
+      "name": "Risk Smart",
+      "description": "Risk Smart workflow directive for decision support.",
+      "instruction": "Apply risk smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "risk"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "scenario-controlled-18",
+      "command": "/scenario-controlled",
+      "name": "Scenario Controlled",
+      "description": "Scenario Controlled workflow directive for decision support.",
+      "instruction": "Apply scenario controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "scenario"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "recommend-optimized-19",
+      "command": "/recommend-optimized",
+      "name": "Recommend Optimized",
+      "description": "Recommend Optimized workflow directive for decision support.",
+      "instruction": "Apply recommend optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "recommend"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "proscons-efficient-20",
+      "command": "/proscons-efficient",
+      "name": "Proscons Efficient",
+      "description": "Proscons Efficient workflow directive for decision support.",
+      "instruction": "Apply proscons efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "proscons"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "decision-accurate-21",
+      "command": "/decision-accurate",
+      "name": "Decision Accurate",
+      "description": "Decision Accurate workflow directive for decision support.",
+      "instruction": "Apply decision accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "decision"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "risk-consistent-22",
+      "command": "/risk-consistent",
+      "name": "Risk Consistent",
+      "description": "Risk Consistent workflow directive for decision support.",
+      "instruction": "Apply risk consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "risk"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "scenario-polished-23",
+      "command": "/scenario-polished",
+      "name": "Scenario Polished",
+      "description": "Scenario Polished workflow directive for decision support.",
+      "instruction": "Apply scenario polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "scenario"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "recommend-final-24",
+      "command": "/recommend-final",
+      "name": "Recommend Final",
+      "description": "Recommend Final workflow directive for decision support.",
+      "instruction": "Apply recommend final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "recommend"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "proscons-quick-25",
+      "command": "/proscons-quick",
+      "name": "Proscons Quick",
+      "description": "Proscons Quick workflow directive for decision support.",
+      "instruction": "Apply proscons quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "proscons"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "decision-deep-26",
+      "command": "/decision-deep",
+      "name": "Decision Deep",
+      "description": "Decision Deep workflow directive for decision support.",
+      "instruction": "Apply decision deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "decision"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "risk-thorough-27",
+      "command": "/risk-thorough",
+      "name": "Risk Thorough",
+      "description": "Risk Thorough workflow directive for decision support.",
+      "instruction": "Apply risk thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "risk"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "scenario-minimal-28",
+      "command": "/scenario-minimal",
+      "name": "Scenario Minimal",
+      "description": "Scenario Minimal workflow directive for decision support.",
+      "instruction": "Apply scenario minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "scenario"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "recommend-maximum-29",
+      "command": "/recommend-maximum",
+      "name": "Recommend Maximum",
+      "description": "Recommend Maximum workflow directive for decision support.",
+      "instruction": "Apply recommend maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "recommend"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "proscons-soft-30",
+      "command": "/proscons-soft",
+      "name": "Proscons Soft",
+      "description": "Proscons Soft workflow directive for decision support.",
+      "instruction": "Apply proscons soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "proscons"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "decision-bold-31",
+      "command": "/decision-bold",
+      "name": "Decision Bold",
+      "description": "Decision Bold workflow directive for decision support.",
+      "instruction": "Apply decision bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "decision"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "risk-sharp-32",
+      "command": "/risk-sharp",
+      "name": "Risk Sharp",
+      "description": "Risk Sharp workflow directive for decision support.",
+      "instruction": "Apply risk sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "risk"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "scenario-smooth-33",
+      "command": "/scenario-smooth",
+      "name": "Scenario Smooth",
+      "description": "Scenario Smooth workflow directive for decision support.",
+      "instruction": "Apply scenario smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "scenario"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "recommend-stable-34",
+      "command": "/recommend-stable",
+      "name": "Recommend Stable",
+      "description": "Recommend Stable workflow directive for decision support.",
+      "instruction": "Apply recommend stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "recommend"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "proscons-highquality-35",
+      "command": "/proscons-highquality",
+      "name": "Proscons Highquality",
+      "description": "Proscons Highquality workflow directive for decision support.",
+      "instruction": "Apply proscons highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "proscons"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "decision-lowartifact-36",
+      "command": "/decision-lowartifact",
+      "name": "Decision Lowartifact",
+      "description": "Decision Lowartifact workflow directive for decision support.",
+      "instruction": "Apply decision lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "decision"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "risk-highdetail-37",
+      "command": "/risk-highdetail",
+      "name": "Risk Highdetail",
+      "description": "Risk Highdetail workflow directive for decision support.",
+      "instruction": "Apply risk highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "risk"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "scenario-fine-38",
+      "command": "/scenario-fine",
+      "name": "Scenario Fine",
+      "description": "Scenario Fine workflow directive for decision support.",
+      "instruction": "Apply scenario fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "scenario"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "recommend-micro-39",
+      "command": "/recommend-micro",
+      "name": "Recommend Micro",
+      "description": "Recommend Micro workflow directive for decision support.",
+      "instruction": "Apply recommend micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "recommend"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "proscons-macro-40",
+      "command": "/proscons-macro",
+      "name": "Proscons Macro",
+      "description": "Proscons Macro workflow directive for decision support.",
+      "instruction": "Apply proscons macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "proscons"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "decision-local-41",
+      "command": "/decision-local",
+      "name": "Decision Local",
+      "description": "Decision Local workflow directive for decision support.",
+      "instruction": "Apply decision local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "decision"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "risk-global-42",
+      "command": "/risk-global",
+      "name": "Risk Global",
+      "description": "Risk Global workflow directive for decision support.",
+      "instruction": "Apply risk global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "risk"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "scenario-adaptive-43",
+      "command": "/scenario-adaptive",
+      "name": "Scenario Adaptive",
+      "description": "Scenario Adaptive workflow directive for decision support.",
+      "instruction": "Apply scenario adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "scenario"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "recommend-contextual-44",
+      "command": "/recommend-contextual",
+      "name": "Recommend Contextual",
+      "description": "Recommend Contextual workflow directive for decision support.",
+      "instruction": "Apply recommend contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "recommend"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "proscons-realistic-45",
+      "command": "/proscons-realistic",
+      "name": "Proscons Realistic",
+      "description": "Proscons Realistic workflow directive for decision support.",
+      "instruction": "Apply proscons realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "proscons"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "decision-cinematic-46",
+      "command": "/decision-cinematic",
+      "name": "Decision Cinematic",
+      "description": "Decision Cinematic workflow directive for decision support.",
+      "instruction": "Apply decision cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "decision"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "risk-modern-47",
+      "command": "/risk-modern",
+      "name": "Risk Modern",
+      "description": "Risk Modern workflow directive for decision support.",
+      "instruction": "Apply risk modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "risk"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "scenario-classic-48",
+      "command": "/scenario-classic",
+      "name": "Scenario Classic",
+      "description": "Scenario Classic workflow directive for decision support.",
+      "instruction": "Apply scenario classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "scenario"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "recommend-technical-49",
+      "command": "/recommend-technical",
+      "name": "Recommend Technical",
+      "description": "Recommend Technical workflow directive for decision support.",
+      "instruction": "Apply recommend technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "recommend"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "proscons-creative-50",
+      "command": "/proscons-creative",
+      "name": "Proscons Creative",
+      "description": "Proscons Creative workflow directive for decision support.",
+      "instruction": "Apply proscons creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "proscons"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "decision-editorial-51",
+      "command": "/decision-editorial",
+      "name": "Decision Editorial",
+      "description": "Decision Editorial workflow directive for decision support.",
+      "instruction": "Apply decision editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "decision"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "risk-production-52",
+      "command": "/risk-production",
+      "name": "Risk Production",
+      "description": "Risk Production workflow directive for decision support.",
+      "instruction": "Apply risk production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "risk"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "scenario-studio-53",
+      "command": "/scenario-studio",
+      "name": "Scenario Studio",
+      "description": "Scenario Studio workflow directive for decision support.",
+      "instruction": "Apply scenario studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "scenario"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "recommend-portable-54",
+      "command": "/recommend-portable",
+      "name": "Recommend Portable",
+      "description": "Recommend Portable workflow directive for decision support.",
+      "instruction": "Apply recommend portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "recommend"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "proscons-safe-55",
+      "command": "/proscons-safe",
+      "name": "Proscons Safe",
+      "description": "Proscons Safe workflow directive for decision support.",
+      "instruction": "Apply proscons safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "proscons"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "decision-robust-56",
+      "command": "/decision-robust",
+      "name": "Decision Robust",
+      "description": "Decision Robust workflow directive for decision support.",
+      "instruction": "Apply decision robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "decision"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "risk-reliable-57",
+      "command": "/risk-reliable",
+      "name": "Risk Reliable",
+      "description": "Risk Reliable workflow directive for decision support.",
+      "instruction": "Apply risk reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "risk"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "scenario-scalable-58",
+      "command": "/scenario-scalable",
+      "name": "Scenario Scalable",
+      "description": "Scenario Scalable workflow directive for decision support.",
+      "instruction": "Apply scenario scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "scenario"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "recommend-maintainable-59",
+      "command": "/recommend-maintainable",
+      "name": "Recommend Maintainable",
+      "description": "Recommend Maintainable workflow directive for decision support.",
+      "instruction": "Apply recommend maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "recommend"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "proscons-accessible-60",
+      "command": "/proscons-accessible",
+      "name": "Proscons Accessible",
+      "description": "Proscons Accessible workflow directive for decision support.",
+      "instruction": "Apply proscons accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "proscons"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "decision-responsive-61",
+      "command": "/decision-responsive",
+      "name": "Decision Responsive",
+      "description": "Decision Responsive workflow directive for decision support.",
+      "instruction": "Apply decision responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "decision"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "risk-structured-62",
+      "command": "/risk-structured",
+      "name": "Risk Structured",
+      "description": "Risk Structured workflow directive for decision support.",
+      "instruction": "Apply risk structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "risk"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    },
+    {
+      "id": "scenario-compact-63",
+      "command": "/scenario-compact",
+      "name": "Scenario Compact",
+      "description": "Scenario Compact workflow directive for decision support.",
+      "instruction": "Apply scenario compact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "decision-support",
+        "research-and-deep-reasoning",
+        "scenario"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Research & Strategy",
+      "categorySlug": "research-strategy",
+      "subcategory": "Decision Support"
+    }
+  ]
+}

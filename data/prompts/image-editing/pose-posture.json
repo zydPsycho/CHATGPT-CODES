@@ -1,0 +1,185 @@
+{
+  "category": "Image Editing & Restoration",
+  "categorySlug": "image-editing",
+  "subcategory": "Pose & Posture",
+  "slug": "pose-posture",
+  "description": "Direct body position, gesture and editorial stance.",
+  "prompts": [
+    {
+      "id": "pose-posture-0",
+      "command": "/pose",
+      "name": "Editorial Pose",
+      "description": "Shape a confident editorial body position.",
+      "instruction": "Set a deliberate three-quarter editorial pose with natural balance, relaxed shoulders and clear silhouette.",
+      "tags": [
+        "face",
+        "pose-posture"
+      ],
+      "priority": 65,
+      "compatibleWith": [
+        "/faceidentity"
+      ],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.1",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Pose & Posture",
+      "demoImage": "/assets/images/pose-demo.jpg"
+    },
+    {
+      "id": "pose-posture-1",
+      "command": "/threequarterpose",
+      "name": "Three-Quarter Pose",
+      "description": "Angle the subject with controlled asymmetry.",
+      "instruction": "Turn the body three quarters toward camera while keeping the face readable and the stance grounded.",
+      "tags": [
+        "face",
+        "pose-posture"
+      ],
+      "priority": 65,
+      "compatibleWith": [
+        "/faceidentity"
+      ],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.1",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Pose & Posture",
+      "demoImage": "/assets/images/pose-demo.jpg"
+    },
+    {
+      "id": "pose-posture-2",
+      "command": "/standingpose",
+      "name": "Standing Pose",
+      "description": "Create a poised standing posture.",
+      "instruction": "Use a tall, composed standing posture with believable weight distribution and relaxed hands.",
+      "tags": [
+        "face",
+        "pose-posture"
+      ],
+      "priority": 65,
+      "compatibleWith": [
+        "/faceidentity"
+      ],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.1",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Pose & Posture",
+      "demoImage": "/assets/images/pose-demo.jpg"
+    },
+    {
+      "id": "pose-posture-3",
+      "command": "/seatedpose",
+      "name": "Seated Pose",
+      "description": "Direct a refined seated position.",
+      "instruction": "Place the subject in a natural seated pose with elegant lines, stable anatomy and intentional negative space.",
+      "tags": [
+        "face",
+        "pose-posture"
+      ],
+      "priority": 65,
+      "compatibleWith": [
+        "/faceidentity"
+      ],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.1",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Pose & Posture",
+      "demoImage": "/assets/images/pose-demo.jpg"
+    },
+    {
+      "id": "pose-posture-4",
+      "command": "/dynamicpose",
+      "name": "Dynamic Pose",
+      "description": "Add controlled movement to the stance.",
+      "instruction": "Use a dynamic but anatomically natural pose that suggests motion without losing facial identity.",
+      "tags": [
+        "face",
+        "pose-posture"
+      ],
+      "priority": 65,
+      "compatibleWith": [
+        "/faceidentity"
+      ],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.1",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Pose & Posture",
+      "demoImage": "/assets/images/pose-demo.jpg"
+    },
+    {
+      "id": "pose-posture-5",
+      "command": "/profilepose",
+      "name": "Profile Pose",
+      "description": "Build a clean profile silhouette.",
+      "instruction": "Present a clean side-facing pose with a precise silhouette and stable head alignment.",
+      "tags": [
+        "face",
+        "pose-posture"
+      ],
+      "priority": 65,
+      "compatibleWith": [
+        "/faceidentity"
+      ],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.1",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Pose & Posture",
+      "demoImage": "/assets/images/pose-demo.jpg"
+    },
+    {
+      "id": "pose-posture-6",
+      "command": "/relaxedpose",
+      "name": "Relaxed Pose",
+      "description": "Keep the posture natural and effortless.",
+      "instruction": "Use a relaxed, candid posture with subtle asymmetry and authentic body language.",
+      "tags": [
+        "face",
+        "pose-posture"
+      ],
+      "priority": 65,
+      "compatibleWith": [
+        "/faceidentity"
+      ],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.1",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Pose & Posture",
+      "demoImage": "/assets/images/pose-demo.jpg"
+    },
+    {
+      "id": "pose-posture-7",
+      "command": "/powerpose",
+      "name": "Power Pose",
+      "description": "Create confident visual authority.",
+      "instruction": "Use an assured open stance with grounded feet, lifted posture and restrained editorial confidence.",
+      "tags": [
+        "face",
+        "pose-posture"
+      ],
+      "priority": 65,
+      "compatibleWith": [
+        "/faceidentity"
+      ],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.1",
+      "category": "Image Editing & Restoration",
+      "categorySlug": "image-editing",
+      "subcategory": "Pose & Posture",
+      "demoImage": "/assets/images/pose-demo.jpg"
+    }
+  ]
+}

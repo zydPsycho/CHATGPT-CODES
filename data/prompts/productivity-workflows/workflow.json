@@ -1,0 +1,1289 @@
+{
+  "category": "Productivity & Workflows",
+  "categorySlug": "productivity-workflows",
+  "subcategory": "Workflow",
+  "slug": "workflow",
+  "description": "Workflow command system for environment & atmosphere.",
+  "prompts": [
+    {
+      "id": "workflow-0",
+      "command": "/workflow",
+      "name": "Workflow",
+      "description": "Workflow workflow directive for workflow.",
+      "instruction": "Apply workflow with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "workflow"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "pipeline-1",
+      "command": "/pipeline",
+      "name": "Pipeline",
+      "description": "Pipeline workflow directive for workflow.",
+      "instruction": "Apply pipeline with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "pipeline"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "sequence-2",
+      "command": "/sequence",
+      "name": "Sequence",
+      "description": "Sequence workflow directive for workflow.",
+      "instruction": "Apply sequence with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "sequence"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "handoff-3",
+      "command": "/handoff",
+      "name": "Handoff",
+      "description": "Handoff workflow directive for workflow.",
+      "instruction": "Apply handoff with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "handoff"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "trigger-4",
+      "command": "/trigger",
+      "name": "Trigger",
+      "description": "Trigger workflow directive for workflow.",
+      "instruction": "Apply trigger with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "trigger"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "condition-5",
+      "command": "/condition",
+      "name": "Condition",
+      "description": "Condition workflow directive for workflow.",
+      "instruction": "Apply condition with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "condition"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "workflow-precise-6",
+      "command": "/workflow-precise",
+      "name": "Workflow Precise",
+      "description": "Workflow Precise workflow directive for workflow.",
+      "instruction": "Apply workflow precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "workflow"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "pipeline-clean-7",
+      "command": "/pipeline-clean",
+      "name": "Pipeline Clean",
+      "description": "Pipeline Clean workflow directive for workflow.",
+      "instruction": "Apply pipeline clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "pipeline"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "sequence-natural-8",
+      "command": "/sequence-natural",
+      "name": "Sequence Natural",
+      "description": "Sequence Natural workflow directive for workflow.",
+      "instruction": "Apply sequence natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "sequence"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "handoff-refined-9",
+      "command": "/handoff-refined",
+      "name": "Handoff Refined",
+      "description": "Handoff Refined workflow directive for workflow.",
+      "instruction": "Apply handoff refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "handoff"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "trigger-professional-10",
+      "command": "/trigger-professional",
+      "name": "Trigger Professional",
+      "description": "Trigger Professional workflow directive for workflow.",
+      "instruction": "Apply trigger professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "trigger"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "condition-premium-11",
+      "command": "/condition-premium",
+      "name": "Condition Premium",
+      "description": "Condition Premium workflow directive for workflow.",
+      "instruction": "Apply condition premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "condition"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "workflow-subtle-12",
+      "command": "/workflow-subtle",
+      "name": "Workflow Subtle",
+      "description": "Workflow Subtle workflow directive for workflow.",
+      "instruction": "Apply workflow subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "workflow"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "pipeline-strong-13",
+      "command": "/pipeline-strong",
+      "name": "Pipeline Strong",
+      "description": "Pipeline Strong workflow directive for workflow.",
+      "instruction": "Apply pipeline strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "pipeline"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "sequence-balanced-14",
+      "command": "/sequence-balanced",
+      "name": "Sequence Balanced",
+      "description": "Sequence Balanced workflow directive for workflow.",
+      "instruction": "Apply sequence balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "sequence"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "handoff-detailed-15",
+      "command": "/handoff-detailed",
+      "name": "Handoff Detailed",
+      "description": "Handoff Detailed workflow directive for workflow.",
+      "instruction": "Apply handoff detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "handoff"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "trigger-advanced-16",
+      "command": "/trigger-advanced",
+      "name": "Trigger Advanced",
+      "description": "Trigger Advanced workflow directive for workflow.",
+      "instruction": "Apply trigger advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "trigger"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "condition-simple-17",
+      "command": "/condition-simple",
+      "name": "Condition Simple",
+      "description": "Condition Simple workflow directive for workflow.",
+      "instruction": "Apply condition simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "condition"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "workflow-smart-18",
+      "command": "/workflow-smart",
+      "name": "Workflow Smart",
+      "description": "Workflow Smart workflow directive for workflow.",
+      "instruction": "Apply workflow smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "workflow"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "pipeline-controlled-19",
+      "command": "/pipeline-controlled",
+      "name": "Pipeline Controlled",
+      "description": "Pipeline Controlled workflow directive for workflow.",
+      "instruction": "Apply pipeline controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "pipeline"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "sequence-optimized-20",
+      "command": "/sequence-optimized",
+      "name": "Sequence Optimized",
+      "description": "Sequence Optimized workflow directive for workflow.",
+      "instruction": "Apply sequence optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "sequence"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "handoff-efficient-21",
+      "command": "/handoff-efficient",
+      "name": "Handoff Efficient",
+      "description": "Handoff Efficient workflow directive for workflow.",
+      "instruction": "Apply handoff efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "handoff"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "trigger-accurate-22",
+      "command": "/trigger-accurate",
+      "name": "Trigger Accurate",
+      "description": "Trigger Accurate workflow directive for workflow.",
+      "instruction": "Apply trigger accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "trigger"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "condition-consistent-23",
+      "command": "/condition-consistent",
+      "name": "Condition Consistent",
+      "description": "Condition Consistent workflow directive for workflow.",
+      "instruction": "Apply condition consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "condition"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "workflow-polished-24",
+      "command": "/workflow-polished",
+      "name": "Workflow Polished",
+      "description": "Workflow Polished workflow directive for workflow.",
+      "instruction": "Apply workflow polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "workflow"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "pipeline-final-25",
+      "command": "/pipeline-final",
+      "name": "Pipeline Final",
+      "description": "Pipeline Final workflow directive for workflow.",
+      "instruction": "Apply pipeline final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "pipeline"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "sequence-quick-26",
+      "command": "/sequence-quick",
+      "name": "Sequence Quick",
+      "description": "Sequence Quick workflow directive for workflow.",
+      "instruction": "Apply sequence quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "sequence"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "handoff-deep-27",
+      "command": "/handoff-deep",
+      "name": "Handoff Deep",
+      "description": "Handoff Deep workflow directive for workflow.",
+      "instruction": "Apply handoff deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "handoff"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "trigger-thorough-28",
+      "command": "/trigger-thorough",
+      "name": "Trigger Thorough",
+      "description": "Trigger Thorough workflow directive for workflow.",
+      "instruction": "Apply trigger thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "trigger"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "condition-minimal-29",
+      "command": "/condition-minimal",
+      "name": "Condition Minimal",
+      "description": "Condition Minimal workflow directive for workflow.",
+      "instruction": "Apply condition minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "condition"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "workflow-maximum-30",
+      "command": "/workflow-maximum",
+      "name": "Workflow Maximum",
+      "description": "Workflow Maximum workflow directive for workflow.",
+      "instruction": "Apply workflow maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "workflow"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "pipeline-soft-31",
+      "command": "/pipeline-soft",
+      "name": "Pipeline Soft",
+      "description": "Pipeline Soft workflow directive for workflow.",
+      "instruction": "Apply pipeline soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "pipeline"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "sequence-bold-32",
+      "command": "/sequence-bold",
+      "name": "Sequence Bold",
+      "description": "Sequence Bold workflow directive for workflow.",
+      "instruction": "Apply sequence bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "sequence"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "handoff-sharp-33",
+      "command": "/handoff-sharp",
+      "name": "Handoff Sharp",
+      "description": "Handoff Sharp workflow directive for workflow.",
+      "instruction": "Apply handoff sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "handoff"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "trigger-smooth-34",
+      "command": "/trigger-smooth",
+      "name": "Trigger Smooth",
+      "description": "Trigger Smooth workflow directive for workflow.",
+      "instruction": "Apply trigger smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "trigger"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "condition-stable-35",
+      "command": "/condition-stable",
+      "name": "Condition Stable",
+      "description": "Condition Stable workflow directive for workflow.",
+      "instruction": "Apply condition stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "condition"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "workflow-highquality-36",
+      "command": "/workflow-highquality",
+      "name": "Workflow Highquality",
+      "description": "Workflow Highquality workflow directive for workflow.",
+      "instruction": "Apply workflow highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "workflow"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "pipeline-lowartifact-37",
+      "command": "/pipeline-lowartifact",
+      "name": "Pipeline Lowartifact",
+      "description": "Pipeline Lowartifact workflow directive for workflow.",
+      "instruction": "Apply pipeline lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "pipeline"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "sequence-highdetail-38",
+      "command": "/sequence-highdetail",
+      "name": "Sequence Highdetail",
+      "description": "Sequence Highdetail workflow directive for workflow.",
+      "instruction": "Apply sequence highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "sequence"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "handoff-fine-39",
+      "command": "/handoff-fine",
+      "name": "Handoff Fine",
+      "description": "Handoff Fine workflow directive for workflow.",
+      "instruction": "Apply handoff fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "handoff"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "trigger-micro-40",
+      "command": "/trigger-micro",
+      "name": "Trigger Micro",
+      "description": "Trigger Micro workflow directive for workflow.",
+      "instruction": "Apply trigger micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "trigger"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "condition-macro-41",
+      "command": "/condition-macro",
+      "name": "Condition Macro",
+      "description": "Condition Macro workflow directive for workflow.",
+      "instruction": "Apply condition macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "condition"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "workflow-local-42",
+      "command": "/workflow-local",
+      "name": "Workflow Local",
+      "description": "Workflow Local workflow directive for workflow.",
+      "instruction": "Apply workflow local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "workflow"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "pipeline-global-43",
+      "command": "/pipeline-global",
+      "name": "Pipeline Global",
+      "description": "Pipeline Global workflow directive for workflow.",
+      "instruction": "Apply pipeline global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "pipeline"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "sequence-adaptive-44",
+      "command": "/sequence-adaptive",
+      "name": "Sequence Adaptive",
+      "description": "Sequence Adaptive workflow directive for workflow.",
+      "instruction": "Apply sequence adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "sequence"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "handoff-contextual-45",
+      "command": "/handoff-contextual",
+      "name": "Handoff Contextual",
+      "description": "Handoff Contextual workflow directive for workflow.",
+      "instruction": "Apply handoff contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "handoff"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "trigger-realistic-46",
+      "command": "/trigger-realistic",
+      "name": "Trigger Realistic",
+      "description": "Trigger Realistic workflow directive for workflow.",
+      "instruction": "Apply trigger realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "trigger"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "condition-cinematic-47",
+      "command": "/condition-cinematic",
+      "name": "Condition Cinematic",
+      "description": "Condition Cinematic workflow directive for workflow.",
+      "instruction": "Apply condition cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "condition"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "workflow-modern-48",
+      "command": "/workflow-modern",
+      "name": "Workflow Modern",
+      "description": "Workflow Modern workflow directive for workflow.",
+      "instruction": "Apply workflow modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "workflow"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "pipeline-classic-49",
+      "command": "/pipeline-classic",
+      "name": "Pipeline Classic",
+      "description": "Pipeline Classic workflow directive for workflow.",
+      "instruction": "Apply pipeline classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "pipeline"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "sequence-technical-50",
+      "command": "/sequence-technical",
+      "name": "Sequence Technical",
+      "description": "Sequence Technical workflow directive for workflow.",
+      "instruction": "Apply sequence technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "sequence"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "handoff-creative-51",
+      "command": "/handoff-creative",
+      "name": "Handoff Creative",
+      "description": "Handoff Creative workflow directive for workflow.",
+      "instruction": "Apply handoff creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "handoff"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "trigger-editorial-52",
+      "command": "/trigger-editorial",
+      "name": "Trigger Editorial",
+      "description": "Trigger Editorial workflow directive for workflow.",
+      "instruction": "Apply trigger editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "trigger"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "condition-production-53",
+      "command": "/condition-production",
+      "name": "Condition Production",
+      "description": "Condition Production workflow directive for workflow.",
+      "instruction": "Apply condition production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "condition"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "workflow-studio-54",
+      "command": "/workflow-studio",
+      "name": "Workflow Studio",
+      "description": "Workflow Studio workflow directive for workflow.",
+      "instruction": "Apply workflow studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "workflow"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "pipeline-portable-55",
+      "command": "/pipeline-portable",
+      "name": "Pipeline Portable",
+      "description": "Pipeline Portable workflow directive for workflow.",
+      "instruction": "Apply pipeline portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "pipeline"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "sequence-safe-56",
+      "command": "/sequence-safe",
+      "name": "Sequence Safe",
+      "description": "Sequence Safe workflow directive for workflow.",
+      "instruction": "Apply sequence safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "sequence"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "handoff-robust-57",
+      "command": "/handoff-robust",
+      "name": "Handoff Robust",
+      "description": "Handoff Robust workflow directive for workflow.",
+      "instruction": "Apply handoff robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "handoff"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "trigger-reliable-58",
+      "command": "/trigger-reliable",
+      "name": "Trigger Reliable",
+      "description": "Trigger Reliable workflow directive for workflow.",
+      "instruction": "Apply trigger reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "trigger"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "condition-scalable-59",
+      "command": "/condition-scalable",
+      "name": "Condition Scalable",
+      "description": "Condition Scalable workflow directive for workflow.",
+      "instruction": "Apply condition scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "condition"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "workflow-maintainable-60",
+      "command": "/workflow-maintainable",
+      "name": "Workflow Maintainable",
+      "description": "Workflow Maintainable workflow directive for workflow.",
+      "instruction": "Apply workflow maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "workflow"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "pipeline-accessible-61",
+      "command": "/pipeline-accessible",
+      "name": "Pipeline Accessible",
+      "description": "Pipeline Accessible workflow directive for workflow.",
+      "instruction": "Apply pipeline accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "pipeline"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "sequence-responsive-62",
+      "command": "/sequence-responsive",
+      "name": "Sequence Responsive",
+      "description": "Sequence Responsive workflow directive for workflow.",
+      "instruction": "Apply sequence responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "sequence"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    },
+    {
+      "id": "handoff-structured-63",
+      "command": "/handoff-structured",
+      "name": "Handoff Structured",
+      "description": "Handoff Structured workflow directive for workflow.",
+      "instruction": "Apply handoff structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "workflow",
+        "automation-and-workflows",
+        "handoff"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Workflows",
+      "categorySlug": "productivity-workflows",
+      "subcategory": "Workflow"
+    }
+  ]
+}
