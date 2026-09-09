@@ -1,0 +1,36 @@
+[
+  {
+    "id": "portrait-polish",
+    "name": "Portrait Polish",
+    "description": "A balanced identity-safe portrait workflow.",
+    "commands": [
+      "/referenceface",
+      "/faceidentity",
+      "/hdreal",
+      "/relight",
+      "/naturalcolor"
+    ]
+  },
+  {
+    "id": "cinematic-scene",
+    "name": "Cinematic Scene",
+    "description": "Controlled atmosphere, framing and quality.",
+    "commands": [
+      "/cinematic",
+      "/dramaticlight",
+      "/wideangle",
+      "/masterquality"
+    ]
+  },
+  {
+    "id": "brand-system",
+    "name": "Brand System",
+    "description": "A refined visual identity starter stack.",
+    "commands": [
+      "/brandmark",
+      "/premium",
+      "/visualhierarchy",
+      "/vectorlook"
+    ]
+  }
+]

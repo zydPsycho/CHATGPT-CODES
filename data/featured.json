@@ -1,0 +1,602 @@
+[
+  {
+    "id": "hdreal-0",
+    "command": "/hdreal",
+    "name": "Hdreal",
+    "description": "Hdreal workflow directive for quality.",
+    "instruction": "Apply hdreal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+    "tags": [
+      "quality",
+      "image-editing-and-restoration",
+      "hdreal"
+    ],
+    "priority": 80,
+    "compatibleWith": [],
+    "conflictsWith": [],
+    "featured": true,
+    "version": "2.0",
+    "category": "Quality & Restoration",
+    "categorySlug": "quality",
+    "subcategory": "Quality"
+  },
+  {
+    "id": "4k-1",
+    "command": "/4k",
+    "name": "4k",
+    "description": "4k workflow directive for quality.",
+    "instruction": "Apply 4k with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+    "tags": [
+      "quality",
+      "image-editing-and-restoration",
+      "4k"
+    ],
+    "priority": 70,
+    "compatibleWith": [],
+    "conflictsWith": [],
+    "featured": true,
+    "version": "2.0",
+    "category": "Quality & Restoration",
+    "categorySlug": "quality",
+    "subcategory": "Quality"
+  },
+  {
+    "id": "restore-0",
+    "command": "/restore",
+    "name": "Restore",
+    "description": "Restore workflow directive for restoration.",
+    "instruction": "Apply restore with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+    "tags": [
+      "restoration",
+      "image-editing-and-restoration",
+      "restore"
+    ],
+    "priority": 80,
+    "compatibleWith": [],
+    "conflictsWith": [],
+    "featured": true,
+    "version": "2.0",
+    "category": "Quality & Restoration",
+    "categorySlug": "quality",
+    "subcategory": "Restoration"
+  },
+  {
+    "id": "repair-1",
+    "command": "/repair",
+    "name": "Repair",
+    "description": "Repair workflow directive for restoration.",
+    "instruction": "Apply repair with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+    "tags": [
+      "restoration",
+      "image-editing-and-restoration",
+      "repair"
+    ],
+    "priority": 70,
+    "compatibleWith": [],
+    "conflictsWith": [],
+    "featured": true,
+    "version": "2.0",
+    "category": "Quality & Restoration",
+    "categorySlug": "quality",
+    "subcategory": "Restoration"
+  },
+  {
+    "id": "backgroundclean-0",
+    "command": "/backgroundclean",
+    "name": "Backgroundclean",
+    "description": "Backgroundclean workflow directive for background.",
+    "instruction": "Apply backgroundclean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+    "tags": [
+      "background",
+      "image-editing-and-restoration",
+      "backgroundclean"
+    ],
+    "priority": 80,
+    "compatibleWith": [],
+    "conflictsWith": [],
+    "featured": true,
+    "version": "2.0",
+    "category": "Quality & Restoration",
+    "categorySlug": "quality",
+    "subcategory": "Background"
+  },
+  {
+    "id": "blurbackground-1",
+    "command": "/blurbackground",
+    "name": "Blurbackground",
+    "description": "Blurbackground workflow directive for background.",
+    "instruction": "Apply blurbackground with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+    "tags": [
+      "background",
+      "image-editing-and-restoration",
+      "blurbackground"
+    ],
+    "priority": 70,
+    "compatibleWith": [],
+    "conflictsWith": [],
+    "featured": true,
+    "version": "2.0",
+    "category": "Quality & Restoration",
+    "categorySlug": "quality",
+    "subcategory": "Background"
+  },
+  {
+    "id": "removeobject-0",
+    "command": "/removeobject",
+    "name": "Removeobject",
+    "description": "Removeobject workflow directive for objects.",
+    "instruction": "Apply removeobject with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+    "tags": [
+      "objects",
+      "image-editing-and-restoration",
+      "removeobject"
+    ],
+    "priority": 80,
+    "compatibleWith": [],
+    "conflictsWith": [],
+    "featured": true,
+    "version": "2.0",
+    "category": "Quality & Restoration",
+    "categorySlug": "quality",
+    "subcategory": "Objects"
+  },
+  {
+    "id": "removepeople-1",
+    "command": "/removepeople",
+    "name": "Removepeople",
+    "description": "Removepeople workflow directive for objects.",
+    "instruction": "Apply removepeople with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+    "tags": [
+      "objects",
+      "image-editing-and-restoration",
+      "removepeople"
+    ],
+    "priority": 70,
+    "compatibleWith": [],
+    "conflictsWith": [],
+    "featured": true,
+    "version": "2.0",
+    "category": "Quality & Restoration",
+    "categorySlug": "quality",
+    "subcategory": "Objects"
+  },
+  {
+    "id": "debug-0",
+    "command": "/debug",
+    "name": "Debug",
+    "description": "Debug workflow directive for debug.",
+    "instruction": "Apply debug with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+    "tags": [
+      "debug",
+      "debugging-and-testing",
+      "debug"
+    ],
+    "priority": 80,
+    "compatibleWith": [],
+    "conflictsWith": [],
+    "featured": true,
+    "version": "2.0",
+    "category": "Quality & Restoration",
+    "categorySlug": "quality",
+    "subcategory": "Debug"
+  },
+  {
+    "id": "trace-1",
+    "command": "/trace",
+    "name": "Trace",
+    "description": "Trace workflow directive for debug.",
+    "instruction": "Apply trace with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+    "tags": [
+      "debug",
+      "debugging-and-testing",
+      "trace"
+    ],
+    "priority": 70,
+    "compatibleWith": [],
+    "conflictsWith": [],
+    "featured": true,
+    "version": "2.0",
+    "category": "Quality & Restoration",
+    "categorySlug": "quality",
+    "subcategory": "Debug"
+  },
+  {
+    "id": "fix-0",
+    "command": "/fix",
+    "name": "Fix",
+    "description": "Fix workflow directive for fix.",
+    "instruction": "Apply fix with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+    "tags": [
+      "fix",
+      "debugging-and-testing",
+      "fix"
+    ],
+    "priority": 80,
+    "compatibleWith": [],
+    "conflictsWith": [],
+    "featured": true,
+    "version": "2.0",
+    "category": "Quality & Restoration",
+    "categorySlug": "quality",
+    "subcategory": "Fix"
+  },
+  {
+    "id": "patch-1",
+    "command": "/patch",
+    "name": "Patch",
+    "description": "Patch workflow directive for fix.",
+    "instruction": "Apply patch with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+    "tags": [
+      "fix",
+      "debugging-and-testing",
+      "patch"
+    ],
+    "priority": 70,
+    "compatibleWith": [],
+    "conflictsWith": [],
+    "featured": true,
+    "version": "2.0",
+    "category": "Quality & Restoration",
+    "categorySlug": "quality",
+    "subcategory": "Fix"
+  },
+  {
+    "id": "test-0",
+    "command": "/test",
+    "name": "Test",
+    "description": "Test workflow directive for testing.",
+    "instruction": "Apply test with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+    "tags": [
+      "testing",
+      "debugging-and-testing",
+      "test"
+    ],
+    "priority": 80,
+    "compatibleWith": [],
+    "conflictsWith": [],
+    "featured": true,
+    "version": "2.0",
+    "category": "Quality & Restoration",
+    "categorySlug": "quality",
+    "subcategory": "Testing"
+  },
+  {
+    "id": "unittest-1",
+    "command": "/unittest",
+    "name": "Unittest",
+    "description": "Unittest workflow directive for testing.",
+    "instruction": "Apply unittest with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+    "tags": [
+      "testing",
+      "debugging-and-testing",
+      "unittest"
+    ],
+    "priority": 70,
+    "compatibleWith": [],
+    "conflictsWith": [],
+    "featured": true,
+    "version": "2.0",
+    "category": "Quality & Restoration",
+    "categorySlug": "quality",
+    "subcategory": "Testing"
+  },
+  {
+    "id": "review-0",
+    "command": "/review",
+    "name": "Review",
+    "description": "Review workflow directive for review.",
+    "instruction": "Apply review with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+    "tags": [
+      "review",
+      "debugging-and-testing",
+      "review"
+    ],
+    "priority": 80,
+    "compatibleWith": [],
+    "conflictsWith": [],
+    "featured": true,
+    "version": "2.0",
+    "category": "Quality & Restoration",
+    "categorySlug": "quality",
+    "subcategory": "Review"
+  },
+  {
+    "id": "audit-1",
+    "command": "/audit",
+    "name": "Audit",
+    "description": "Audit workflow directive for review.",
+    "instruction": "Apply audit with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+    "tags": [
+      "review",
+      "debugging-and-testing",
+      "audit"
+    ],
+    "priority": 70,
+    "compatibleWith": [],
+    "conflictsWith": [],
+    "featured": true,
+    "version": "2.0",
+    "category": "Quality & Restoration",
+    "categorySlug": "quality",
+    "subcategory": "Review"
+  },
+  {
+    "id": "analyze-0",
+    "command": "/analyze",
+    "name": "Analyze",
+    "description": "Analyze workflow directive for analysis.",
+    "instruction": "Apply analyze with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+    "tags": [
+      "analysis",
+      "data-and-analytics",
+      "analyze"
+    ],
+    "priority": 80,
+    "compatibleWith": [],
+    "conflictsWith": [],
+    "featured": true,
+    "version": "2.0",
+    "category": "Quality & Restoration",
+    "categorySlug": "quality",
+    "subcategory": "Analysis"
+  },
+  {
+    "id": "trend-1",
+    "command": "/trend",
+    "name": "Trend",
+    "description": "Trend workflow directive for analysis.",
+    "instruction": "Apply trend with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+    "tags": [
+      "analysis",
+      "data-and-analytics",
+      "trend"
+    ],
+    "priority": 70,
+    "compatibleWith": [],
+    "conflictsWith": [],
+    "featured": true,
+    "version": "2.0",
+    "category": "Quality & Restoration",
+    "categorySlug": "quality",
+    "subcategory": "Analysis"
+  },
+  {
+    "id": "clean-0",
+    "command": "/clean",
+    "name": "Clean",
+    "description": "Clean workflow directive for data cleaning.",
+    "instruction": "Apply clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+    "tags": [
+      "data-cleaning",
+      "data-and-analytics",
+      "clean"
+    ],
+    "priority": 80,
+    "compatibleWith": [],
+    "conflictsWith": [],
+    "featured": true,
+    "version": "2.0",
+    "category": "Quality & Restoration",
+    "categorySlug": "quality",
+    "subcategory": "Data Cleaning"
+  },
+  {
+    "id": "normalize-1",
+    "command": "/normalize",
+    "name": "Normalize",
+    "description": "Normalize workflow directive for data cleaning.",
+    "instruction": "Apply normalize with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+    "tags": [
+      "data-cleaning",
+      "data-and-analytics",
+      "normalize"
+    ],
+    "priority": 70,
+    "compatibleWith": [],
+    "conflictsWith": [],
+    "featured": true,
+    "version": "2.0",
+    "category": "Quality & Restoration",
+    "categorySlug": "quality",
+    "subcategory": "Data Cleaning"
+  },
+  {
+    "id": "sql-0",
+    "command": "/sql",
+    "name": "Sql",
+    "description": "Sql workflow directive for sql & code.",
+    "instruction": "Apply sql with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+    "tags": [
+      "sql-and-code",
+      "data-and-analytics",
+      "sql"
+    ],
+    "priority": 80,
+    "compatibleWith": [],
+    "conflictsWith": [],
+    "featured": true,
+    "version": "2.0",
+    "category": "Quality & Restoration",
+    "categorySlug": "quality",
+    "subcategory": "SQL & Code"
+  },
+  {
+    "id": "query-1",
+    "command": "/query",
+    "name": "Query",
+    "description": "Query workflow directive for sql & code.",
+    "instruction": "Apply query with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+    "tags": [
+      "sql-and-code",
+      "data-and-analytics",
+      "query"
+    ],
+    "priority": 70,
+    "compatibleWith": [],
+    "conflictsWith": [],
+    "featured": true,
+    "version": "2.0",
+    "category": "Quality & Restoration",
+    "categorySlug": "quality",
+    "subcategory": "SQL & Code"
+  },
+  {
+    "id": "dashboard-0",
+    "command": "/dashboard",
+    "name": "Dashboard",
+    "description": "Dashboard workflow directive for reporting.",
+    "instruction": "Apply dashboard with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+    "tags": [
+      "reporting",
+      "data-and-analytics",
+      "dashboard"
+    ],
+    "priority": 80,
+    "compatibleWith": [],
+    "conflictsWith": [],
+    "featured": true,
+    "version": "2.0",
+    "category": "Quality & Restoration",
+    "categorySlug": "quality",
+    "subcategory": "Reporting"
+  },
+  {
+    "id": "report-1",
+    "command": "/report",
+    "name": "Report",
+    "description": "Report workflow directive for reporting.",
+    "instruction": "Apply report with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+    "tags": [
+      "reporting",
+      "data-and-analytics",
+      "report"
+    ],
+    "priority": 70,
+    "compatibleWith": [],
+    "conflictsWith": [],
+    "featured": true,
+    "version": "2.0",
+    "category": "Quality & Restoration",
+    "categorySlug": "quality",
+    "subcategory": "Reporting"
+  },
+  {
+    "id": "summarize-0",
+    "command": "/summarize",
+    "name": "Summarize",
+    "description": "Summarize workflow directive for documents.",
+    "instruction": "Apply summarize with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+    "tags": [
+      "documents",
+      "documents-and-files",
+      "summarize"
+    ],
+    "priority": 80,
+    "compatibleWith": [],
+    "conflictsWith": [],
+    "featured": true,
+    "version": "2.0",
+    "category": "Quality & Restoration",
+    "categorySlug": "quality",
+    "subcategory": "Documents"
+  },
+  {
+    "id": "extract-1",
+    "command": "/extract",
+    "name": "Extract",
+    "description": "Extract workflow directive for documents.",
+    "instruction": "Apply extract with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+    "tags": [
+      "documents",
+      "documents-and-files",
+      "extract"
+    ],
+    "priority": 70,
+    "compatibleWith": [],
+    "conflictsWith": [],
+    "featured": true,
+    "version": "2.0",
+    "category": "Quality & Restoration",
+    "categorySlug": "quality",
+    "subcategory": "Documents"
+  },
+  {
+    "id": "pdf-0",
+    "command": "/pdf",
+    "name": "Pdf",
+    "description": "Pdf workflow directive for pdf & reports.",
+    "instruction": "Apply pdf with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+    "tags": [
+      "pdf-and-reports",
+      "documents-and-files",
+      "pdf"
+    ],
+    "priority": 80,
+    "compatibleWith": [],
+    "conflictsWith": [],
+    "featured": true,
+    "version": "2.0",
+    "category": "Quality & Restoration",
+    "categorySlug": "quality",
+    "subcategory": "PDF & Reports"
+  },
+  {
+    "id": "report-1",
+    "command": "/report",
+    "name": "Report",
+    "description": "Report workflow directive for pdf & reports.",
+    "instruction": "Apply report with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+    "tags": [
+      "pdf-and-reports",
+      "documents-and-files",
+      "report"
+    ],
+    "priority": 70,
+    "compatibleWith": [],
+    "conflictsWith": [],
+    "featured": true,
+    "version": "2.0",
+    "category": "Quality & Restoration",
+    "categorySlug": "quality",
+    "subcategory": "PDF & Reports"
+  },
+  {
+    "id": "spreadsheet-0",
+    "command": "/spreadsheet",
+    "name": "Spreadsheet",
+    "description": "Spreadsheet workflow directive for spreadsheets.",
+    "instruction": "Apply spreadsheet with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+    "tags": [
+      "spreadsheets",
+      "documents-and-files",
+      "spreadsheet"
+    ],
+    "priority": 80,
+    "compatibleWith": [],
+    "conflictsWith": [],
+    "featured": true,
+    "version": "2.0",
+    "category": "Quality & Restoration",
+    "categorySlug": "quality",
+    "subcategory": "Spreadsheets"
+  },
+  {
+    "id": "formula-1",
+    "command": "/formula",
+    "name": "Formula",
+    "description": "Formula workflow directive for spreadsheets.",
+    "instruction": "Apply formula with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+    "tags": [
+      "spreadsheets",
+      "documents-and-files",
+      "formula"
+    ],
+    "priority": 70,
+    "compatibleWith": [],
+    "conflictsWith": [],
+    "featured": true,
+    "version": "2.0",
+    "category": "Quality & Restoration",
+    "categorySlug": "quality",
+    "subcategory": "Spreadsheets"
+  }
+]

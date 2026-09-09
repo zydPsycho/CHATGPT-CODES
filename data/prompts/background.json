@@ -1,0 +1,108 @@
+{
+  "category": "Background & Cleanup",
+  "slug": "background",
+  "description": "Remove, replace and refine scene elements.",
+  "subcategories": [
+    {
+      "name": "Core",
+      "slug": "core",
+      "prompts": [
+        {
+          "id": "background-0",
+          "command": "/backgroundclean",
+          "name": "Backgroundclean",
+          "description": "Background & Cleanup directive for a controlled creative workflow.",
+          "instruction": "Apply backgroundclean with precise control while preserving the intended subject and composition.",
+          "tags": [
+            "background",
+            "blackmark"
+          ],
+          "priority": 50,
+          "compatibleWith": [],
+          "conflictsWith": [],
+          "featured": true,
+          "version": "2.0",
+          "category": "Background & Cleanup",
+          "categorySlug": "background",
+          "subcategory": "Core"
+        },
+        {
+          "id": "background-1",
+          "command": "/blurbackground",
+          "name": "Blurbackground",
+          "description": "Background & Cleanup directive for a controlled creative workflow.",
+          "instruction": "Apply blurbackground with precise control while preserving the intended subject and composition.",
+          "tags": [
+            "background",
+            "blackmark"
+          ],
+          "priority": 50,
+          "compatibleWith": [],
+          "conflictsWith": [],
+          "featured": false,
+          "version": "2.0",
+          "category": "Background & Cleanup",
+          "categorySlug": "background",
+          "subcategory": "Core"
+        },
+        {
+          "id": "background-2",
+          "command": "/replacebackground",
+          "name": "Replacebackground",
+          "description": "Background & Cleanup directive for a controlled creative workflow.",
+          "instruction": "Apply replacebackground with precise control while preserving the intended subject and composition.",
+          "tags": [
+            "background",
+            "blackmark"
+          ],
+          "priority": 50,
+          "compatibleWith": [],
+          "conflictsWith": [],
+          "featured": false,
+          "version": "2.0",
+          "category": "Background & Cleanup",
+          "categorySlug": "background",
+          "subcategory": "Core"
+        },
+        {
+          "id": "background-3",
+          "command": "/removebackground",
+          "name": "Removebackground",
+          "description": "Background & Cleanup directive for a controlled creative workflow.",
+          "instruction": "Apply removebackground with precise control while preserving the intended subject and composition.",
+          "tags": [
+            "background",
+            "blackmark"
+          ],
+          "priority": 50,
+          "compatibleWith": [],
+          "conflictsWith": [],
+          "featured": false,
+          "version": "2.0",
+          "category": "Background & Cleanup",
+          "categorySlug": "background",
+          "subcategory": "Core"
+        },
+        {
+          "id": "background-4",
+          "command": "/declutter",
+          "name": "Declutter",
+          "description": "Background & Cleanup directive for a controlled creative workflow.",
+          "instruction": "Apply declutter with precise control while preserving the intended subject and composition.",
+          "tags": [
+            "background",
+            "blackmark"
+          ],
+          "priority": 50,
+          "compatibleWith": [],
+          "conflictsWith": [],
+          "featured": false,
+          "version": "2.0",
+          "category": "Background & Cleanup",
+          "categorySlug": "background",
+          "subcategory": "Core"
+        }
+      ]
+    }
+  ]
+}

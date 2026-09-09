@@ -1,0 +1,106 @@
+[
+  {
+    "slug": "quality",
+    "name": "Quality & Restoration",
+    "description": "Repair, enhance, clean and preserve visual detail.",
+    "icon": "✦",
+    "count": 1033,
+    "order": 0
+  },
+  {
+    "slug": "face",
+    "name": "Face & Identity",
+    "description": "Preserve recognizable identity and facial structure.",
+    "icon": "◉",
+    "count": 256,
+    "order": 1
+  },
+  {
+    "slug": "lighting",
+    "name": "Lighting & Color",
+    "description": "Control mood, color, atmosphere and illumination.",
+    "icon": "☼",
+    "count": 256,
+    "order": 2
+  },
+  {
+    "slug": "camera",
+    "name": "Camera & Motion",
+    "description": "Control framing, movement, perspective and stability.",
+    "icon": "▷",
+    "count": 256,
+    "order": 3
+  },
+  {
+    "slug": "background",
+    "name": "Background & Cleanup",
+    "description": "Remove, replace and refine scene elements.",
+    "icon": "◈",
+    "count": 5,
+    "order": 4
+  },
+  {
+    "slug": "composition",
+    "name": "Composition & Design",
+    "description": "Create intentional layouts, hierarchy and visual balance.",
+    "icon": "⌗",
+    "count": 256,
+    "order": 5
+  },
+  {
+    "slug": "styles",
+    "name": "Style Transformations",
+    "description": "Explore aesthetic treatments and visual directions.",
+    "icon": "◇",
+    "count": 768,
+    "order": 6
+  },
+  {
+    "slug": "video",
+    "name": "Video & Animation",
+    "description": "Shape motion, animation and temporal continuity.",
+    "icon": "◌",
+    "count": 5,
+    "order": 7
+  },
+  {
+    "slug": "branding",
+    "name": "Branding & Logo",
+    "description": "Build refined marks, systems and brand assets.",
+    "icon": "⬡",
+    "count": 5,
+    "order": 8
+  },
+  {
+    "slug": "text-ui",
+    "name": "Text, UI & Content",
+    "description": "Create structured writing, interfaces and communication.",
+    "icon": "Aa",
+    "count": 1024,
+    "order": 9
+  },
+  {
+    "slug": "architecture",
+    "name": "Architecture & Floorplans",
+    "description": "Plan spaces, interiors, exteriors and structures.",
+    "icon": "⌘",
+    "count": 256,
+    "order": 10
+  },
+  {
+    "slug": "environment",
+    "name": "Environment & Atmosphere",
+    "description": "Build context, research, strategy and workflows.",
+    "icon": "↻",
+    "count": 1280,
+    "order": 11
+  },
+  {
+    "slug": "preservation",
+    "name": "Subject Preservation",
+    "description": "Keep important subjects, constraints and intent intact.",
+    "icon": "◆",
+    "count": 256,
+    "order": 12
+  }
+]
