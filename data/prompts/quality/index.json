@@ -1,0 +1,103 @@
+{
+  "category": "Quality & Restoration",
+  "slug": "quality",
+  "description": "Repair, enhance, clean and preserve visual detail.",
+  "subcategories": [
+    {
+      "name": "Quality",
+      "slug": "quality",
+      "file": "/data/prompts/quality/quality.json",
+      "count": 73
+    },
+    {
+      "name": "Restoration",
+      "slug": "restoration",
+      "file": "/data/prompts/quality/restoration.json",
+      "count": 64
+    },
+    {
+      "name": "Background",
+      "slug": "background",
+      "file": "/data/prompts/quality/background.json",
+      "count": 64
+    },
+    {
+      "name": "Objects",
+      "slug": "objects",
+      "file": "/data/prompts/quality/objects.json",
+      "count": 64
+    },
+    {
+      "name": "Debug",
+      "slug": "debug",
+      "file": "/data/prompts/quality/debug.json",
+      "count": 64
+    },
+    {
+      "name": "Fix",
+      "slug": "fix",
+      "file": "/data/prompts/quality/fix.json",
+      "count": 64
+    },
+    {
+      "name": "Testing",
+      "slug": "testing",
+      "file": "/data/prompts/quality/testing.json",
+      "count": 64
+    },
+    {
+      "name": "Review",
+      "slug": "review",
+      "file": "/data/prompts/quality/review.json",
+      "count": 64
+    },
+    {
+      "name": "Analysis",
+      "slug": "analysis",
+      "file": "/data/prompts/quality/analysis.json",
+      "count": 64
+    },
+    {
+      "name": "Data Cleaning",
+      "slug": "data-cleaning",
+      "file": "/data/prompts/quality/data-cleaning.json",
+      "count": 64
+    },
+    {
+      "name": "SQL & Code",
+      "slug": "sql-and-code",
+      "file": "/data/prompts/quality/sql-and-code.json",
+      "count": 64
+    },
+    {
+      "name": "Reporting",
+      "slug": "reporting",
+      "file": "/data/prompts/quality/reporting.json",
+      "count": 64
+    },
+    {
+      "name": "Documents",
+      "slug": "documents",
+      "file": "/data/prompts/quality/documents.json",
+      "count": 64
+    },
+    {
+      "name": "PDF & Reports",
+      "slug": "pdf-and-reports",
+      "file": "/data/prompts/quality/pdf-and-reports.json",
+      "count": 64
+    },
+    {
+      "name": "Spreadsheets",
+      "slug": "spreadsheets",
+      "file": "/data/prompts/quality/spreadsheets.json",
+      "count": 64
+    },
+    {
+      "name": "Knowledge Base",
+      "slug": "knowledge-base",
+      "file": "/data/prompts/quality/knowledge-base.json",
+      "count": 64
+    }
+  ]
+}

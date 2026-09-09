@@ -1,0 +1,1289 @@
+{
+  "category": "Quality & Restoration",
+  "categorySlug": "quality",
+  "subcategory": "Objects",
+  "slug": "objects",
+  "description": "Objects command system for quality & restoration.",
+  "prompts": [
+    {
+      "id": "removeobject-0",
+      "command": "/removeobject",
+      "name": "Removeobject",
+      "description": "Removeobject workflow directive for objects.",
+      "instruction": "Apply removeobject with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "removeobject"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "removepeople-1",
+      "command": "/removepeople",
+      "name": "Removepeople",
+      "description": "Removepeople workflow directive for objects.",
+      "instruction": "Apply removepeople with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "removepeople"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "cleanup-2",
+      "command": "/cleanup",
+      "name": "Cleanup",
+      "description": "Cleanup workflow directive for objects.",
+      "instruction": "Apply cleanup with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "cleanup"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "erase-3",
+      "command": "/erase",
+      "name": "Erase",
+      "description": "Erase workflow directive for objects.",
+      "instruction": "Apply erase with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "erase"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "inpaint-4",
+      "command": "/inpaint",
+      "name": "Inpaint",
+      "description": "Inpaint workflow directive for objects.",
+      "instruction": "Apply inpaint with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "inpaint"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "reposition-5",
+      "command": "/reposition",
+      "name": "Reposition",
+      "description": "Reposition workflow directive for objects.",
+      "instruction": "Apply reposition with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "reposition"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "removeobject-precise-6",
+      "command": "/removeobject-precise",
+      "name": "Removeobject Precise",
+      "description": "Removeobject Precise workflow directive for objects.",
+      "instruction": "Apply removeobject precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "removeobject"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "removepeople-clean-7",
+      "command": "/removepeople-clean",
+      "name": "Removepeople Clean",
+      "description": "Removepeople Clean workflow directive for objects.",
+      "instruction": "Apply removepeople clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "removepeople"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "cleanup-natural-8",
+      "command": "/cleanup-natural",
+      "name": "Cleanup Natural",
+      "description": "Cleanup Natural workflow directive for objects.",
+      "instruction": "Apply cleanup natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "cleanup"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "erase-refined-9",
+      "command": "/erase-refined",
+      "name": "Erase Refined",
+      "description": "Erase Refined workflow directive for objects.",
+      "instruction": "Apply erase refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "erase"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "inpaint-professional-10",
+      "command": "/inpaint-professional",
+      "name": "Inpaint Professional",
+      "description": "Inpaint Professional workflow directive for objects.",
+      "instruction": "Apply inpaint professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "inpaint"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "reposition-premium-11",
+      "command": "/reposition-premium",
+      "name": "Reposition Premium",
+      "description": "Reposition Premium workflow directive for objects.",
+      "instruction": "Apply reposition premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "reposition"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "removeobject-subtle-12",
+      "command": "/removeobject-subtle",
+      "name": "Removeobject Subtle",
+      "description": "Removeobject Subtle workflow directive for objects.",
+      "instruction": "Apply removeobject subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "removeobject"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "removepeople-strong-13",
+      "command": "/removepeople-strong",
+      "name": "Removepeople Strong",
+      "description": "Removepeople Strong workflow directive for objects.",
+      "instruction": "Apply removepeople strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "removepeople"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "cleanup-balanced-14",
+      "command": "/cleanup-balanced",
+      "name": "Cleanup Balanced",
+      "description": "Cleanup Balanced workflow directive for objects.",
+      "instruction": "Apply cleanup balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "cleanup"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "erase-detailed-15",
+      "command": "/erase-detailed",
+      "name": "Erase Detailed",
+      "description": "Erase Detailed workflow directive for objects.",
+      "instruction": "Apply erase detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "erase"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "inpaint-advanced-16",
+      "command": "/inpaint-advanced",
+      "name": "Inpaint Advanced",
+      "description": "Inpaint Advanced workflow directive for objects.",
+      "instruction": "Apply inpaint advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "inpaint"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "reposition-simple-17",
+      "command": "/reposition-simple",
+      "name": "Reposition Simple",
+      "description": "Reposition Simple workflow directive for objects.",
+      "instruction": "Apply reposition simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "reposition"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "removeobject-smart-18",
+      "command": "/removeobject-smart",
+      "name": "Removeobject Smart",
+      "description": "Removeobject Smart workflow directive for objects.",
+      "instruction": "Apply removeobject smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "removeobject"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "removepeople-controlled-19",
+      "command": "/removepeople-controlled",
+      "name": "Removepeople Controlled",
+      "description": "Removepeople Controlled workflow directive for objects.",
+      "instruction": "Apply removepeople controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "removepeople"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "cleanup-optimized-20",
+      "command": "/cleanup-optimized",
+      "name": "Cleanup Optimized",
+      "description": "Cleanup Optimized workflow directive for objects.",
+      "instruction": "Apply cleanup optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "cleanup"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "erase-efficient-21",
+      "command": "/erase-efficient",
+      "name": "Erase Efficient",
+      "description": "Erase Efficient workflow directive for objects.",
+      "instruction": "Apply erase efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "erase"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "inpaint-accurate-22",
+      "command": "/inpaint-accurate",
+      "name": "Inpaint Accurate",
+      "description": "Inpaint Accurate workflow directive for objects.",
+      "instruction": "Apply inpaint accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "inpaint"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "reposition-consistent-23",
+      "command": "/reposition-consistent",
+      "name": "Reposition Consistent",
+      "description": "Reposition Consistent workflow directive for objects.",
+      "instruction": "Apply reposition consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "reposition"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "removeobject-polished-24",
+      "command": "/removeobject-polished",
+      "name": "Removeobject Polished",
+      "description": "Removeobject Polished workflow directive for objects.",
+      "instruction": "Apply removeobject polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "removeobject"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "removepeople-final-25",
+      "command": "/removepeople-final",
+      "name": "Removepeople Final",
+      "description": "Removepeople Final workflow directive for objects.",
+      "instruction": "Apply removepeople final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "removepeople"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "cleanup-quick-26",
+      "command": "/cleanup-quick",
+      "name": "Cleanup Quick",
+      "description": "Cleanup Quick workflow directive for objects.",
+      "instruction": "Apply cleanup quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "cleanup"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "erase-deep-27",
+      "command": "/erase-deep",
+      "name": "Erase Deep",
+      "description": "Erase Deep workflow directive for objects.",
+      "instruction": "Apply erase deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "erase"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "inpaint-thorough-28",
+      "command": "/inpaint-thorough",
+      "name": "Inpaint Thorough",
+      "description": "Inpaint Thorough workflow directive for objects.",
+      "instruction": "Apply inpaint thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "inpaint"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "reposition-minimal-29",
+      "command": "/reposition-minimal",
+      "name": "Reposition Minimal",
+      "description": "Reposition Minimal workflow directive for objects.",
+      "instruction": "Apply reposition minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "reposition"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "removeobject-maximum-30",
+      "command": "/removeobject-maximum",
+      "name": "Removeobject Maximum",
+      "description": "Removeobject Maximum workflow directive for objects.",
+      "instruction": "Apply removeobject maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "removeobject"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "removepeople-soft-31",
+      "command": "/removepeople-soft",
+      "name": "Removepeople Soft",
+      "description": "Removepeople Soft workflow directive for objects.",
+      "instruction": "Apply removepeople soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "removepeople"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "cleanup-bold-32",
+      "command": "/cleanup-bold",
+      "name": "Cleanup Bold",
+      "description": "Cleanup Bold workflow directive for objects.",
+      "instruction": "Apply cleanup bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "cleanup"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "erase-sharp-33",
+      "command": "/erase-sharp",
+      "name": "Erase Sharp",
+      "description": "Erase Sharp workflow directive for objects.",
+      "instruction": "Apply erase sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "erase"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "inpaint-smooth-34",
+      "command": "/inpaint-smooth",
+      "name": "Inpaint Smooth",
+      "description": "Inpaint Smooth workflow directive for objects.",
+      "instruction": "Apply inpaint smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "inpaint"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "reposition-stable-35",
+      "command": "/reposition-stable",
+      "name": "Reposition Stable",
+      "description": "Reposition Stable workflow directive for objects.",
+      "instruction": "Apply reposition stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "reposition"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "removeobject-highquality-36",
+      "command": "/removeobject-highquality",
+      "name": "Removeobject Highquality",
+      "description": "Removeobject Highquality workflow directive for objects.",
+      "instruction": "Apply removeobject highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "removeobject"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "removepeople-lowartifact-37",
+      "command": "/removepeople-lowartifact",
+      "name": "Removepeople Lowartifact",
+      "description": "Removepeople Lowartifact workflow directive for objects.",
+      "instruction": "Apply removepeople lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "removepeople"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "cleanup-highdetail-38",
+      "command": "/cleanup-highdetail",
+      "name": "Cleanup Highdetail",
+      "description": "Cleanup Highdetail workflow directive for objects.",
+      "instruction": "Apply cleanup highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "cleanup"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "erase-fine-39",
+      "command": "/erase-fine",
+      "name": "Erase Fine",
+      "description": "Erase Fine workflow directive for objects.",
+      "instruction": "Apply erase fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "erase"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "inpaint-micro-40",
+      "command": "/inpaint-micro",
+      "name": "Inpaint Micro",
+      "description": "Inpaint Micro workflow directive for objects.",
+      "instruction": "Apply inpaint micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "inpaint"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "reposition-macro-41",
+      "command": "/reposition-macro",
+      "name": "Reposition Macro",
+      "description": "Reposition Macro workflow directive for objects.",
+      "instruction": "Apply reposition macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "reposition"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "removeobject-local-42",
+      "command": "/removeobject-local",
+      "name": "Removeobject Local",
+      "description": "Removeobject Local workflow directive for objects.",
+      "instruction": "Apply removeobject local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "removeobject"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "removepeople-global-43",
+      "command": "/removepeople-global",
+      "name": "Removepeople Global",
+      "description": "Removepeople Global workflow directive for objects.",
+      "instruction": "Apply removepeople global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "removepeople"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "cleanup-adaptive-44",
+      "command": "/cleanup-adaptive",
+      "name": "Cleanup Adaptive",
+      "description": "Cleanup Adaptive workflow directive for objects.",
+      "instruction": "Apply cleanup adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "cleanup"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "erase-contextual-45",
+      "command": "/erase-contextual",
+      "name": "Erase Contextual",
+      "description": "Erase Contextual workflow directive for objects.",
+      "instruction": "Apply erase contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "erase"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "inpaint-realistic-46",
+      "command": "/inpaint-realistic",
+      "name": "Inpaint Realistic",
+      "description": "Inpaint Realistic workflow directive for objects.",
+      "instruction": "Apply inpaint realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "inpaint"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "reposition-cinematic-47",
+      "command": "/reposition-cinematic",
+      "name": "Reposition Cinematic",
+      "description": "Reposition Cinematic workflow directive for objects.",
+      "instruction": "Apply reposition cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "reposition"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "removeobject-modern-48",
+      "command": "/removeobject-modern",
+      "name": "Removeobject Modern",
+      "description": "Removeobject Modern workflow directive for objects.",
+      "instruction": "Apply removeobject modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "removeobject"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "removepeople-classic-49",
+      "command": "/removepeople-classic",
+      "name": "Removepeople Classic",
+      "description": "Removepeople Classic workflow directive for objects.",
+      "instruction": "Apply removepeople classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "removepeople"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "cleanup-technical-50",
+      "command": "/cleanup-technical",
+      "name": "Cleanup Technical",
+      "description": "Cleanup Technical workflow directive for objects.",
+      "instruction": "Apply cleanup technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "cleanup"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "erase-creative-51",
+      "command": "/erase-creative",
+      "name": "Erase Creative",
+      "description": "Erase Creative workflow directive for objects.",
+      "instruction": "Apply erase creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "erase"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "inpaint-editorial-52",
+      "command": "/inpaint-editorial",
+      "name": "Inpaint Editorial",
+      "description": "Inpaint Editorial workflow directive for objects.",
+      "instruction": "Apply inpaint editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "inpaint"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "reposition-production-53",
+      "command": "/reposition-production",
+      "name": "Reposition Production",
+      "description": "Reposition Production workflow directive for objects.",
+      "instruction": "Apply reposition production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "reposition"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "removeobject-studio-54",
+      "command": "/removeobject-studio",
+      "name": "Removeobject Studio",
+      "description": "Removeobject Studio workflow directive for objects.",
+      "instruction": "Apply removeobject studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "removeobject"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "removepeople-portable-55",
+      "command": "/removepeople-portable",
+      "name": "Removepeople Portable",
+      "description": "Removepeople Portable workflow directive for objects.",
+      "instruction": "Apply removepeople portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "removepeople"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "cleanup-safe-56",
+      "command": "/cleanup-safe",
+      "name": "Cleanup Safe",
+      "description": "Cleanup Safe workflow directive for objects.",
+      "instruction": "Apply cleanup safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "cleanup"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "erase-robust-57",
+      "command": "/erase-robust",
+      "name": "Erase Robust",
+      "description": "Erase Robust workflow directive for objects.",
+      "instruction": "Apply erase robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "erase"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "inpaint-reliable-58",
+      "command": "/inpaint-reliable",
+      "name": "Inpaint Reliable",
+      "description": "Inpaint Reliable workflow directive for objects.",
+      "instruction": "Apply inpaint reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "inpaint"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "reposition-scalable-59",
+      "command": "/reposition-scalable",
+      "name": "Reposition Scalable",
+      "description": "Reposition Scalable workflow directive for objects.",
+      "instruction": "Apply reposition scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "reposition"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "removeobject-maintainable-60",
+      "command": "/removeobject-maintainable",
+      "name": "Removeobject Maintainable",
+      "description": "Removeobject Maintainable workflow directive for objects.",
+      "instruction": "Apply removeobject maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "removeobject"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "removepeople-accessible-61",
+      "command": "/removepeople-accessible",
+      "name": "Removepeople Accessible",
+      "description": "Removepeople Accessible workflow directive for objects.",
+      "instruction": "Apply removepeople accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "removepeople"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "cleanup-responsive-62",
+      "command": "/cleanup-responsive",
+      "name": "Cleanup Responsive",
+      "description": "Cleanup Responsive workflow directive for objects.",
+      "instruction": "Apply cleanup responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "cleanup"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    },
+    {
+      "id": "erase-structured-63",
+      "command": "/erase-structured",
+      "name": "Erase Structured",
+      "description": "Erase Structured workflow directive for objects.",
+      "instruction": "Apply erase structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "objects",
+        "image-editing-and-restoration",
+        "erase"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Objects"
+    }
+  ]
+}

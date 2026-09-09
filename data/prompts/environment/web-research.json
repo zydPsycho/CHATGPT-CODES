@@ -1,0 +1,1289 @@
+{
+  "category": "Environment & Atmosphere",
+  "categorySlug": "environment",
+  "subcategory": "Web Research",
+  "slug": "web-research",
+  "description": "Web Research command system for environment & atmosphere.",
+  "prompts": [
+    {
+      "id": "webresearch-0",
+      "command": "/webresearch",
+      "name": "Webresearch",
+      "description": "Webresearch workflow directive for web research.",
+      "instruction": "Apply webresearch with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "webresearch"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "browse-1",
+      "command": "/browse",
+      "name": "Browse",
+      "description": "Browse workflow directive for web research.",
+      "instruction": "Apply browse with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "browse"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "extract-2",
+      "command": "/extract",
+      "name": "Extract",
+      "description": "Extract workflow directive for web research.",
+      "instruction": "Apply extract with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "extract"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "comparepages-3",
+      "command": "/comparepages",
+      "name": "Comparepages",
+      "description": "Comparepages workflow directive for web research.",
+      "instruction": "Apply comparepages with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "comparepages"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "monitor-4",
+      "command": "/monitor",
+      "name": "Monitor",
+      "description": "Monitor workflow directive for web research.",
+      "instruction": "Apply monitor with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "monitor"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "webresearch-precise-5",
+      "command": "/webresearch-precise",
+      "name": "Webresearch Precise",
+      "description": "Webresearch Precise workflow directive for web research.",
+      "instruction": "Apply webresearch precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "webresearch"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "browse-clean-6",
+      "command": "/browse-clean",
+      "name": "Browse Clean",
+      "description": "Browse Clean workflow directive for web research.",
+      "instruction": "Apply browse clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "browse"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "extract-natural-7",
+      "command": "/extract-natural",
+      "name": "Extract Natural",
+      "description": "Extract Natural workflow directive for web research.",
+      "instruction": "Apply extract natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "extract"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "comparepages-refined-8",
+      "command": "/comparepages-refined",
+      "name": "Comparepages Refined",
+      "description": "Comparepages Refined workflow directive for web research.",
+      "instruction": "Apply comparepages refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "comparepages"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "monitor-professional-9",
+      "command": "/monitor-professional",
+      "name": "Monitor Professional",
+      "description": "Monitor Professional workflow directive for web research.",
+      "instruction": "Apply monitor professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "monitor"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "webresearch-premium-10",
+      "command": "/webresearch-premium",
+      "name": "Webresearch Premium",
+      "description": "Webresearch Premium workflow directive for web research.",
+      "instruction": "Apply webresearch premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "webresearch"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "browse-subtle-11",
+      "command": "/browse-subtle",
+      "name": "Browse Subtle",
+      "description": "Browse Subtle workflow directive for web research.",
+      "instruction": "Apply browse subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "browse"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "extract-strong-12",
+      "command": "/extract-strong",
+      "name": "Extract Strong",
+      "description": "Extract Strong workflow directive for web research.",
+      "instruction": "Apply extract strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "extract"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "comparepages-balanced-13",
+      "command": "/comparepages-balanced",
+      "name": "Comparepages Balanced",
+      "description": "Comparepages Balanced workflow directive for web research.",
+      "instruction": "Apply comparepages balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "comparepages"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "monitor-detailed-14",
+      "command": "/monitor-detailed",
+      "name": "Monitor Detailed",
+      "description": "Monitor Detailed workflow directive for web research.",
+      "instruction": "Apply monitor detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "monitor"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "webresearch-advanced-15",
+      "command": "/webresearch-advanced",
+      "name": "Webresearch Advanced",
+      "description": "Webresearch Advanced workflow directive for web research.",
+      "instruction": "Apply webresearch advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "webresearch"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "browse-simple-16",
+      "command": "/browse-simple",
+      "name": "Browse Simple",
+      "description": "Browse Simple workflow directive for web research.",
+      "instruction": "Apply browse simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "browse"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "extract-smart-17",
+      "command": "/extract-smart",
+      "name": "Extract Smart",
+      "description": "Extract Smart workflow directive for web research.",
+      "instruction": "Apply extract smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "extract"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "comparepages-controlled-18",
+      "command": "/comparepages-controlled",
+      "name": "Comparepages Controlled",
+      "description": "Comparepages Controlled workflow directive for web research.",
+      "instruction": "Apply comparepages controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "comparepages"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "monitor-optimized-19",
+      "command": "/monitor-optimized",
+      "name": "Monitor Optimized",
+      "description": "Monitor Optimized workflow directive for web research.",
+      "instruction": "Apply monitor optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "monitor"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "webresearch-efficient-20",
+      "command": "/webresearch-efficient",
+      "name": "Webresearch Efficient",
+      "description": "Webresearch Efficient workflow directive for web research.",
+      "instruction": "Apply webresearch efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "webresearch"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "browse-accurate-21",
+      "command": "/browse-accurate",
+      "name": "Browse Accurate",
+      "description": "Browse Accurate workflow directive for web research.",
+      "instruction": "Apply browse accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "browse"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "extract-consistent-22",
+      "command": "/extract-consistent",
+      "name": "Extract Consistent",
+      "description": "Extract Consistent workflow directive for web research.",
+      "instruction": "Apply extract consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "extract"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "comparepages-polished-23",
+      "command": "/comparepages-polished",
+      "name": "Comparepages Polished",
+      "description": "Comparepages Polished workflow directive for web research.",
+      "instruction": "Apply comparepages polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "comparepages"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "monitor-final-24",
+      "command": "/monitor-final",
+      "name": "Monitor Final",
+      "description": "Monitor Final workflow directive for web research.",
+      "instruction": "Apply monitor final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "monitor"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "webresearch-quick-25",
+      "command": "/webresearch-quick",
+      "name": "Webresearch Quick",
+      "description": "Webresearch Quick workflow directive for web research.",
+      "instruction": "Apply webresearch quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "webresearch"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "browse-deep-26",
+      "command": "/browse-deep",
+      "name": "Browse Deep",
+      "description": "Browse Deep workflow directive for web research.",
+      "instruction": "Apply browse deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "browse"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "extract-thorough-27",
+      "command": "/extract-thorough",
+      "name": "Extract Thorough",
+      "description": "Extract Thorough workflow directive for web research.",
+      "instruction": "Apply extract thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "extract"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "comparepages-minimal-28",
+      "command": "/comparepages-minimal",
+      "name": "Comparepages Minimal",
+      "description": "Comparepages Minimal workflow directive for web research.",
+      "instruction": "Apply comparepages minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "comparepages"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "monitor-maximum-29",
+      "command": "/monitor-maximum",
+      "name": "Monitor Maximum",
+      "description": "Monitor Maximum workflow directive for web research.",
+      "instruction": "Apply monitor maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "monitor"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "webresearch-soft-30",
+      "command": "/webresearch-soft",
+      "name": "Webresearch Soft",
+      "description": "Webresearch Soft workflow directive for web research.",
+      "instruction": "Apply webresearch soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "webresearch"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "browse-bold-31",
+      "command": "/browse-bold",
+      "name": "Browse Bold",
+      "description": "Browse Bold workflow directive for web research.",
+      "instruction": "Apply browse bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "browse"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "extract-sharp-32",
+      "command": "/extract-sharp",
+      "name": "Extract Sharp",
+      "description": "Extract Sharp workflow directive for web research.",
+      "instruction": "Apply extract sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "extract"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "comparepages-smooth-33",
+      "command": "/comparepages-smooth",
+      "name": "Comparepages Smooth",
+      "description": "Comparepages Smooth workflow directive for web research.",
+      "instruction": "Apply comparepages smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "comparepages"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "monitor-stable-34",
+      "command": "/monitor-stable",
+      "name": "Monitor Stable",
+      "description": "Monitor Stable workflow directive for web research.",
+      "instruction": "Apply monitor stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "monitor"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "webresearch-highquality-35",
+      "command": "/webresearch-highquality",
+      "name": "Webresearch Highquality",
+      "description": "Webresearch Highquality workflow directive for web research.",
+      "instruction": "Apply webresearch highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "webresearch"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "browse-lowartifact-36",
+      "command": "/browse-lowartifact",
+      "name": "Browse Lowartifact",
+      "description": "Browse Lowartifact workflow directive for web research.",
+      "instruction": "Apply browse lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "browse"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "extract-highdetail-37",
+      "command": "/extract-highdetail",
+      "name": "Extract Highdetail",
+      "description": "Extract Highdetail workflow directive for web research.",
+      "instruction": "Apply extract highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "extract"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "comparepages-fine-38",
+      "command": "/comparepages-fine",
+      "name": "Comparepages Fine",
+      "description": "Comparepages Fine workflow directive for web research.",
+      "instruction": "Apply comparepages fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "comparepages"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "monitor-micro-39",
+      "command": "/monitor-micro",
+      "name": "Monitor Micro",
+      "description": "Monitor Micro workflow directive for web research.",
+      "instruction": "Apply monitor micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "monitor"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "webresearch-macro-40",
+      "command": "/webresearch-macro",
+      "name": "Webresearch Macro",
+      "description": "Webresearch Macro workflow directive for web research.",
+      "instruction": "Apply webresearch macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "webresearch"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "browse-local-41",
+      "command": "/browse-local",
+      "name": "Browse Local",
+      "description": "Browse Local workflow directive for web research.",
+      "instruction": "Apply browse local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "browse"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "extract-global-42",
+      "command": "/extract-global",
+      "name": "Extract Global",
+      "description": "Extract Global workflow directive for web research.",
+      "instruction": "Apply extract global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "extract"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "comparepages-adaptive-43",
+      "command": "/comparepages-adaptive",
+      "name": "Comparepages Adaptive",
+      "description": "Comparepages Adaptive workflow directive for web research.",
+      "instruction": "Apply comparepages adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "comparepages"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "monitor-contextual-44",
+      "command": "/monitor-contextual",
+      "name": "Monitor Contextual",
+      "description": "Monitor Contextual workflow directive for web research.",
+      "instruction": "Apply monitor contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "monitor"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "webresearch-realistic-45",
+      "command": "/webresearch-realistic",
+      "name": "Webresearch Realistic",
+      "description": "Webresearch Realistic workflow directive for web research.",
+      "instruction": "Apply webresearch realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "webresearch"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "browse-cinematic-46",
+      "command": "/browse-cinematic",
+      "name": "Browse Cinematic",
+      "description": "Browse Cinematic workflow directive for web research.",
+      "instruction": "Apply browse cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "browse"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "extract-modern-47",
+      "command": "/extract-modern",
+      "name": "Extract Modern",
+      "description": "Extract Modern workflow directive for web research.",
+      "instruction": "Apply extract modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "extract"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "comparepages-classic-48",
+      "command": "/comparepages-classic",
+      "name": "Comparepages Classic",
+      "description": "Comparepages Classic workflow directive for web research.",
+      "instruction": "Apply comparepages classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "comparepages"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "monitor-technical-49",
+      "command": "/monitor-technical",
+      "name": "Monitor Technical",
+      "description": "Monitor Technical workflow directive for web research.",
+      "instruction": "Apply monitor technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "monitor"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "webresearch-creative-50",
+      "command": "/webresearch-creative",
+      "name": "Webresearch Creative",
+      "description": "Webresearch Creative workflow directive for web research.",
+      "instruction": "Apply webresearch creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "webresearch"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "browse-editorial-51",
+      "command": "/browse-editorial",
+      "name": "Browse Editorial",
+      "description": "Browse Editorial workflow directive for web research.",
+      "instruction": "Apply browse editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "browse"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "extract-production-52",
+      "command": "/extract-production",
+      "name": "Extract Production",
+      "description": "Extract Production workflow directive for web research.",
+      "instruction": "Apply extract production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "extract"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "comparepages-studio-53",
+      "command": "/comparepages-studio",
+      "name": "Comparepages Studio",
+      "description": "Comparepages Studio workflow directive for web research.",
+      "instruction": "Apply comparepages studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "comparepages"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "monitor-portable-54",
+      "command": "/monitor-portable",
+      "name": "Monitor Portable",
+      "description": "Monitor Portable workflow directive for web research.",
+      "instruction": "Apply monitor portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "monitor"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "webresearch-safe-55",
+      "command": "/webresearch-safe",
+      "name": "Webresearch Safe",
+      "description": "Webresearch Safe workflow directive for web research.",
+      "instruction": "Apply webresearch safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "webresearch"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "browse-robust-56",
+      "command": "/browse-robust",
+      "name": "Browse Robust",
+      "description": "Browse Robust workflow directive for web research.",
+      "instruction": "Apply browse robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "browse"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "extract-reliable-57",
+      "command": "/extract-reliable",
+      "name": "Extract Reliable",
+      "description": "Extract Reliable workflow directive for web research.",
+      "instruction": "Apply extract reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "extract"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "comparepages-scalable-58",
+      "command": "/comparepages-scalable",
+      "name": "Comparepages Scalable",
+      "description": "Comparepages Scalable workflow directive for web research.",
+      "instruction": "Apply comparepages scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "comparepages"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "monitor-maintainable-59",
+      "command": "/monitor-maintainable",
+      "name": "Monitor Maintainable",
+      "description": "Monitor Maintainable workflow directive for web research.",
+      "instruction": "Apply monitor maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "monitor"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "webresearch-accessible-60",
+      "command": "/webresearch-accessible",
+      "name": "Webresearch Accessible",
+      "description": "Webresearch Accessible workflow directive for web research.",
+      "instruction": "Apply webresearch accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "webresearch"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "browse-responsive-61",
+      "command": "/browse-responsive",
+      "name": "Browse Responsive",
+      "description": "Browse Responsive workflow directive for web research.",
+      "instruction": "Apply browse responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "browse"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "extract-structured-62",
+      "command": "/extract-structured",
+      "name": "Extract Structured",
+      "description": "Extract Structured workflow directive for web research.",
+      "instruction": "Apply extract structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "extract"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    },
+    {
+      "id": "comparepages-compact-63",
+      "command": "/comparepages-compact",
+      "name": "Comparepages Compact",
+      "description": "Comparepages Compact workflow directive for web research.",
+      "instruction": "Apply comparepages compact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "web-research",
+        "web-and-search-workflows",
+        "comparepages"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Web Research"
+    }
+  ]
+}

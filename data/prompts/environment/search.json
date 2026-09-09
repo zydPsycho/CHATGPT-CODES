@@ -1,0 +1,1289 @@
+{
+  "category": "Environment & Atmosphere",
+  "categorySlug": "environment",
+  "subcategory": "Search",
+  "slug": "search",
+  "description": "Search command system for environment & atmosphere.",
+  "prompts": [
+    {
+      "id": "search-0",
+      "command": "/search",
+      "name": "Search",
+      "description": "Search workflow directive for search.",
+      "instruction": "Apply search with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "search"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "find-1",
+      "command": "/find",
+      "name": "Find",
+      "description": "Find workflow directive for search.",
+      "instruction": "Apply find with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "find"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "discover-2",
+      "command": "/discover",
+      "name": "Discover",
+      "description": "Discover workflow directive for search.",
+      "instruction": "Apply discover with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "discover"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "query-3",
+      "command": "/query",
+      "name": "Query",
+      "description": "Query workflow directive for search.",
+      "instruction": "Apply query with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "query"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "keywords-4",
+      "command": "/keywords",
+      "name": "Keywords",
+      "description": "Keywords workflow directive for search.",
+      "instruction": "Apply keywords with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "keywords"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "sources-5",
+      "command": "/sources",
+      "name": "Sources",
+      "description": "Sources workflow directive for search.",
+      "instruction": "Apply sources with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "sources"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "search-precise-6",
+      "command": "/search-precise",
+      "name": "Search Precise",
+      "description": "Search Precise workflow directive for search.",
+      "instruction": "Apply search precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "search"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "find-clean-7",
+      "command": "/find-clean",
+      "name": "Find Clean",
+      "description": "Find Clean workflow directive for search.",
+      "instruction": "Apply find clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "find"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "discover-natural-8",
+      "command": "/discover-natural",
+      "name": "Discover Natural",
+      "description": "Discover Natural workflow directive for search.",
+      "instruction": "Apply discover natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "discover"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "query-refined-9",
+      "command": "/query-refined",
+      "name": "Query Refined",
+      "description": "Query Refined workflow directive for search.",
+      "instruction": "Apply query refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "query"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "keywords-professional-10",
+      "command": "/keywords-professional",
+      "name": "Keywords Professional",
+      "description": "Keywords Professional workflow directive for search.",
+      "instruction": "Apply keywords professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "keywords"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "sources-premium-11",
+      "command": "/sources-premium",
+      "name": "Sources Premium",
+      "description": "Sources Premium workflow directive for search.",
+      "instruction": "Apply sources premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "sources"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "search-subtle-12",
+      "command": "/search-subtle",
+      "name": "Search Subtle",
+      "description": "Search Subtle workflow directive for search.",
+      "instruction": "Apply search subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "search"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "find-strong-13",
+      "command": "/find-strong",
+      "name": "Find Strong",
+      "description": "Find Strong workflow directive for search.",
+      "instruction": "Apply find strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "find"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "discover-balanced-14",
+      "command": "/discover-balanced",
+      "name": "Discover Balanced",
+      "description": "Discover Balanced workflow directive for search.",
+      "instruction": "Apply discover balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "discover"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "query-detailed-15",
+      "command": "/query-detailed",
+      "name": "Query Detailed",
+      "description": "Query Detailed workflow directive for search.",
+      "instruction": "Apply query detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "query"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "keywords-advanced-16",
+      "command": "/keywords-advanced",
+      "name": "Keywords Advanced",
+      "description": "Keywords Advanced workflow directive for search.",
+      "instruction": "Apply keywords advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "keywords"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "sources-simple-17",
+      "command": "/sources-simple",
+      "name": "Sources Simple",
+      "description": "Sources Simple workflow directive for search.",
+      "instruction": "Apply sources simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "sources"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "search-smart-18",
+      "command": "/search-smart",
+      "name": "Search Smart",
+      "description": "Search Smart workflow directive for search.",
+      "instruction": "Apply search smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "search"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "find-controlled-19",
+      "command": "/find-controlled",
+      "name": "Find Controlled",
+      "description": "Find Controlled workflow directive for search.",
+      "instruction": "Apply find controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "find"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "discover-optimized-20",
+      "command": "/discover-optimized",
+      "name": "Discover Optimized",
+      "description": "Discover Optimized workflow directive for search.",
+      "instruction": "Apply discover optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "discover"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "query-efficient-21",
+      "command": "/query-efficient",
+      "name": "Query Efficient",
+      "description": "Query Efficient workflow directive for search.",
+      "instruction": "Apply query efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "query"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "keywords-accurate-22",
+      "command": "/keywords-accurate",
+      "name": "Keywords Accurate",
+      "description": "Keywords Accurate workflow directive for search.",
+      "instruction": "Apply keywords accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "keywords"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "sources-consistent-23",
+      "command": "/sources-consistent",
+      "name": "Sources Consistent",
+      "description": "Sources Consistent workflow directive for search.",
+      "instruction": "Apply sources consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "sources"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "search-polished-24",
+      "command": "/search-polished",
+      "name": "Search Polished",
+      "description": "Search Polished workflow directive for search.",
+      "instruction": "Apply search polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "search"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "find-final-25",
+      "command": "/find-final",
+      "name": "Find Final",
+      "description": "Find Final workflow directive for search.",
+      "instruction": "Apply find final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "find"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "discover-quick-26",
+      "command": "/discover-quick",
+      "name": "Discover Quick",
+      "description": "Discover Quick workflow directive for search.",
+      "instruction": "Apply discover quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "discover"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "query-deep-27",
+      "command": "/query-deep",
+      "name": "Query Deep",
+      "description": "Query Deep workflow directive for search.",
+      "instruction": "Apply query deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "query"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "keywords-thorough-28",
+      "command": "/keywords-thorough",
+      "name": "Keywords Thorough",
+      "description": "Keywords Thorough workflow directive for search.",
+      "instruction": "Apply keywords thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "keywords"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "sources-minimal-29",
+      "command": "/sources-minimal",
+      "name": "Sources Minimal",
+      "description": "Sources Minimal workflow directive for search.",
+      "instruction": "Apply sources minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "sources"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "search-maximum-30",
+      "command": "/search-maximum",
+      "name": "Search Maximum",
+      "description": "Search Maximum workflow directive for search.",
+      "instruction": "Apply search maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "search"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "find-soft-31",
+      "command": "/find-soft",
+      "name": "Find Soft",
+      "description": "Find Soft workflow directive for search.",
+      "instruction": "Apply find soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "find"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "discover-bold-32",
+      "command": "/discover-bold",
+      "name": "Discover Bold",
+      "description": "Discover Bold workflow directive for search.",
+      "instruction": "Apply discover bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "discover"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "query-sharp-33",
+      "command": "/query-sharp",
+      "name": "Query Sharp",
+      "description": "Query Sharp workflow directive for search.",
+      "instruction": "Apply query sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "query"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "keywords-smooth-34",
+      "command": "/keywords-smooth",
+      "name": "Keywords Smooth",
+      "description": "Keywords Smooth workflow directive for search.",
+      "instruction": "Apply keywords smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "keywords"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "sources-stable-35",
+      "command": "/sources-stable",
+      "name": "Sources Stable",
+      "description": "Sources Stable workflow directive for search.",
+      "instruction": "Apply sources stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "sources"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "search-highquality-36",
+      "command": "/search-highquality",
+      "name": "Search Highquality",
+      "description": "Search Highquality workflow directive for search.",
+      "instruction": "Apply search highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "search"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "find-lowartifact-37",
+      "command": "/find-lowartifact",
+      "name": "Find Lowartifact",
+      "description": "Find Lowartifact workflow directive for search.",
+      "instruction": "Apply find lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "find"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "discover-highdetail-38",
+      "command": "/discover-highdetail",
+      "name": "Discover Highdetail",
+      "description": "Discover Highdetail workflow directive for search.",
+      "instruction": "Apply discover highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "discover"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "query-fine-39",
+      "command": "/query-fine",
+      "name": "Query Fine",
+      "description": "Query Fine workflow directive for search.",
+      "instruction": "Apply query fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "query"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "keywords-micro-40",
+      "command": "/keywords-micro",
+      "name": "Keywords Micro",
+      "description": "Keywords Micro workflow directive for search.",
+      "instruction": "Apply keywords micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "keywords"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "sources-macro-41",
+      "command": "/sources-macro",
+      "name": "Sources Macro",
+      "description": "Sources Macro workflow directive for search.",
+      "instruction": "Apply sources macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "sources"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "search-local-42",
+      "command": "/search-local",
+      "name": "Search Local",
+      "description": "Search Local workflow directive for search.",
+      "instruction": "Apply search local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "search"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "find-global-43",
+      "command": "/find-global",
+      "name": "Find Global",
+      "description": "Find Global workflow directive for search.",
+      "instruction": "Apply find global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "find"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "discover-adaptive-44",
+      "command": "/discover-adaptive",
+      "name": "Discover Adaptive",
+      "description": "Discover Adaptive workflow directive for search.",
+      "instruction": "Apply discover adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "discover"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "query-contextual-45",
+      "command": "/query-contextual",
+      "name": "Query Contextual",
+      "description": "Query Contextual workflow directive for search.",
+      "instruction": "Apply query contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "query"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "keywords-realistic-46",
+      "command": "/keywords-realistic",
+      "name": "Keywords Realistic",
+      "description": "Keywords Realistic workflow directive for search.",
+      "instruction": "Apply keywords realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "keywords"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "sources-cinematic-47",
+      "command": "/sources-cinematic",
+      "name": "Sources Cinematic",
+      "description": "Sources Cinematic workflow directive for search.",
+      "instruction": "Apply sources cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "sources"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "search-modern-48",
+      "command": "/search-modern",
+      "name": "Search Modern",
+      "description": "Search Modern workflow directive for search.",
+      "instruction": "Apply search modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "search"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "find-classic-49",
+      "command": "/find-classic",
+      "name": "Find Classic",
+      "description": "Find Classic workflow directive for search.",
+      "instruction": "Apply find classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "find"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "discover-technical-50",
+      "command": "/discover-technical",
+      "name": "Discover Technical",
+      "description": "Discover Technical workflow directive for search.",
+      "instruction": "Apply discover technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "discover"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "query-creative-51",
+      "command": "/query-creative",
+      "name": "Query Creative",
+      "description": "Query Creative workflow directive for search.",
+      "instruction": "Apply query creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "query"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "keywords-editorial-52",
+      "command": "/keywords-editorial",
+      "name": "Keywords Editorial",
+      "description": "Keywords Editorial workflow directive for search.",
+      "instruction": "Apply keywords editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "keywords"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "sources-production-53",
+      "command": "/sources-production",
+      "name": "Sources Production",
+      "description": "Sources Production workflow directive for search.",
+      "instruction": "Apply sources production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "sources"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "search-studio-54",
+      "command": "/search-studio",
+      "name": "Search Studio",
+      "description": "Search Studio workflow directive for search.",
+      "instruction": "Apply search studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "search"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "find-portable-55",
+      "command": "/find-portable",
+      "name": "Find Portable",
+      "description": "Find Portable workflow directive for search.",
+      "instruction": "Apply find portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "find"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "discover-safe-56",
+      "command": "/discover-safe",
+      "name": "Discover Safe",
+      "description": "Discover Safe workflow directive for search.",
+      "instruction": "Apply discover safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "discover"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "query-robust-57",
+      "command": "/query-robust",
+      "name": "Query Robust",
+      "description": "Query Robust workflow directive for search.",
+      "instruction": "Apply query robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "query"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "keywords-reliable-58",
+      "command": "/keywords-reliable",
+      "name": "Keywords Reliable",
+      "description": "Keywords Reliable workflow directive for search.",
+      "instruction": "Apply keywords reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "keywords"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "sources-scalable-59",
+      "command": "/sources-scalable",
+      "name": "Sources Scalable",
+      "description": "Sources Scalable workflow directive for search.",
+      "instruction": "Apply sources scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "sources"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "search-maintainable-60",
+      "command": "/search-maintainable",
+      "name": "Search Maintainable",
+      "description": "Search Maintainable workflow directive for search.",
+      "instruction": "Apply search maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "search"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "find-accessible-61",
+      "command": "/find-accessible",
+      "name": "Find Accessible",
+      "description": "Find Accessible workflow directive for search.",
+      "instruction": "Apply find accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "find"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "discover-responsive-62",
+      "command": "/discover-responsive",
+      "name": "Discover Responsive",
+      "description": "Discover Responsive workflow directive for search.",
+      "instruction": "Apply discover responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "discover"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    },
+    {
+      "id": "query-structured-63",
+      "command": "/query-structured",
+      "name": "Query Structured",
+      "description": "Query Structured workflow directive for search.",
+      "instruction": "Apply query structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "search",
+        "web-and-search-workflows",
+        "query"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Search"
+    }
+  ]
+}

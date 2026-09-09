@@ -1,0 +1,13 @@
+{
+  "category": "Video & Animation",
+  "slug": "video",
+  "description": "Shape motion, animation and temporal continuity.",
+  "subcategories": [
+    {
+      "name": "Core",
+      "slug": "core",
+      "file": "/data/prompts/video/core.json",
+      "count": 5
+    }
+  ]
+}

@@ -1,0 +1,1289 @@
+{
+  "category": "Quality & Restoration",
+  "categorySlug": "quality",
+  "subcategory": "Background",
+  "slug": "background",
+  "description": "Background command system for quality & restoration.",
+  "prompts": [
+    {
+      "id": "backgroundclean-0",
+      "command": "/backgroundclean",
+      "name": "Backgroundclean",
+      "description": "Backgroundclean workflow directive for background.",
+      "instruction": "Apply backgroundclean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "backgroundclean"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "blurbackground-1",
+      "command": "/blurbackground",
+      "name": "Blurbackground",
+      "description": "Blurbackground workflow directive for background.",
+      "instruction": "Apply blurbackground with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "blurbackground"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "replacebackground-2",
+      "command": "/replacebackground",
+      "name": "Replacebackground",
+      "description": "Replacebackground workflow directive for background.",
+      "instruction": "Apply replacebackground with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "replacebackground"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "removebackground-3",
+      "command": "/removebackground",
+      "name": "Removebackground",
+      "description": "Removebackground workflow directive for background.",
+      "instruction": "Apply removebackground with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "removebackground"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "extendbackground-4",
+      "command": "/extendbackground",
+      "name": "Extendbackground",
+      "description": "Extendbackground workflow directive for background.",
+      "instruction": "Apply extendbackground with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "extendbackground"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "declutter-5",
+      "command": "/declutter",
+      "name": "Declutter",
+      "description": "Declutter workflow directive for background.",
+      "instruction": "Apply declutter with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "declutter"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "backgroundclean-precise-6",
+      "command": "/backgroundclean-precise",
+      "name": "Backgroundclean Precise",
+      "description": "Backgroundclean Precise workflow directive for background.",
+      "instruction": "Apply backgroundclean precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "backgroundclean"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "blurbackground-clean-7",
+      "command": "/blurbackground-clean",
+      "name": "Blurbackground Clean",
+      "description": "Blurbackground Clean workflow directive for background.",
+      "instruction": "Apply blurbackground clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "blurbackground"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "replacebackground-natural-8",
+      "command": "/replacebackground-natural",
+      "name": "Replacebackground Natural",
+      "description": "Replacebackground Natural workflow directive for background.",
+      "instruction": "Apply replacebackground natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "replacebackground"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "removebackground-refined-9",
+      "command": "/removebackground-refined",
+      "name": "Removebackground Refined",
+      "description": "Removebackground Refined workflow directive for background.",
+      "instruction": "Apply removebackground refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "removebackground"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "extendbackground-professional-10",
+      "command": "/extendbackground-professional",
+      "name": "Extendbackground Professional",
+      "description": "Extendbackground Professional workflow directive for background.",
+      "instruction": "Apply extendbackground professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "extendbackground"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "declutter-premium-11",
+      "command": "/declutter-premium",
+      "name": "Declutter Premium",
+      "description": "Declutter Premium workflow directive for background.",
+      "instruction": "Apply declutter premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "declutter"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "backgroundclean-subtle-12",
+      "command": "/backgroundclean-subtle",
+      "name": "Backgroundclean Subtle",
+      "description": "Backgroundclean Subtle workflow directive for background.",
+      "instruction": "Apply backgroundclean subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "backgroundclean"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "blurbackground-strong-13",
+      "command": "/blurbackground-strong",
+      "name": "Blurbackground Strong",
+      "description": "Blurbackground Strong workflow directive for background.",
+      "instruction": "Apply blurbackground strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "blurbackground"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "replacebackground-balanced-14",
+      "command": "/replacebackground-balanced",
+      "name": "Replacebackground Balanced",
+      "description": "Replacebackground Balanced workflow directive for background.",
+      "instruction": "Apply replacebackground balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "replacebackground"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "removebackground-detailed-15",
+      "command": "/removebackground-detailed",
+      "name": "Removebackground Detailed",
+      "description": "Removebackground Detailed workflow directive for background.",
+      "instruction": "Apply removebackground detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "removebackground"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "extendbackground-advanced-16",
+      "command": "/extendbackground-advanced",
+      "name": "Extendbackground Advanced",
+      "description": "Extendbackground Advanced workflow directive for background.",
+      "instruction": "Apply extendbackground advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "extendbackground"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "declutter-simple-17",
+      "command": "/declutter-simple",
+      "name": "Declutter Simple",
+      "description": "Declutter Simple workflow directive for background.",
+      "instruction": "Apply declutter simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "declutter"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "backgroundclean-smart-18",
+      "command": "/backgroundclean-smart",
+      "name": "Backgroundclean Smart",
+      "description": "Backgroundclean Smart workflow directive for background.",
+      "instruction": "Apply backgroundclean smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "backgroundclean"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "blurbackground-controlled-19",
+      "command": "/blurbackground-controlled",
+      "name": "Blurbackground Controlled",
+      "description": "Blurbackground Controlled workflow directive for background.",
+      "instruction": "Apply blurbackground controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "blurbackground"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "replacebackground-optimized-20",
+      "command": "/replacebackground-optimized",
+      "name": "Replacebackground Optimized",
+      "description": "Replacebackground Optimized workflow directive for background.",
+      "instruction": "Apply replacebackground optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "replacebackground"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "removebackground-efficient-21",
+      "command": "/removebackground-efficient",
+      "name": "Removebackground Efficient",
+      "description": "Removebackground Efficient workflow directive for background.",
+      "instruction": "Apply removebackground efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "removebackground"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "extendbackground-accurate-22",
+      "command": "/extendbackground-accurate",
+      "name": "Extendbackground Accurate",
+      "description": "Extendbackground Accurate workflow directive for background.",
+      "instruction": "Apply extendbackground accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "extendbackground"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "declutter-consistent-23",
+      "command": "/declutter-consistent",
+      "name": "Declutter Consistent",
+      "description": "Declutter Consistent workflow directive for background.",
+      "instruction": "Apply declutter consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "declutter"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "backgroundclean-polished-24",
+      "command": "/backgroundclean-polished",
+      "name": "Backgroundclean Polished",
+      "description": "Backgroundclean Polished workflow directive for background.",
+      "instruction": "Apply backgroundclean polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "backgroundclean"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "blurbackground-final-25",
+      "command": "/blurbackground-final",
+      "name": "Blurbackground Final",
+      "description": "Blurbackground Final workflow directive for background.",
+      "instruction": "Apply blurbackground final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "blurbackground"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "replacebackground-quick-26",
+      "command": "/replacebackground-quick",
+      "name": "Replacebackground Quick",
+      "description": "Replacebackground Quick workflow directive for background.",
+      "instruction": "Apply replacebackground quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "replacebackground"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "removebackground-deep-27",
+      "command": "/removebackground-deep",
+      "name": "Removebackground Deep",
+      "description": "Removebackground Deep workflow directive for background.",
+      "instruction": "Apply removebackground deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "removebackground"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "extendbackground-thorough-28",
+      "command": "/extendbackground-thorough",
+      "name": "Extendbackground Thorough",
+      "description": "Extendbackground Thorough workflow directive for background.",
+      "instruction": "Apply extendbackground thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "extendbackground"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "declutter-minimal-29",
+      "command": "/declutter-minimal",
+      "name": "Declutter Minimal",
+      "description": "Declutter Minimal workflow directive for background.",
+      "instruction": "Apply declutter minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "declutter"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "backgroundclean-maximum-30",
+      "command": "/backgroundclean-maximum",
+      "name": "Backgroundclean Maximum",
+      "description": "Backgroundclean Maximum workflow directive for background.",
+      "instruction": "Apply backgroundclean maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "backgroundclean"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "blurbackground-soft-31",
+      "command": "/blurbackground-soft",
+      "name": "Blurbackground Soft",
+      "description": "Blurbackground Soft workflow directive for background.",
+      "instruction": "Apply blurbackground soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "blurbackground"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "replacebackground-bold-32",
+      "command": "/replacebackground-bold",
+      "name": "Replacebackground Bold",
+      "description": "Replacebackground Bold workflow directive for background.",
+      "instruction": "Apply replacebackground bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "replacebackground"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "removebackground-sharp-33",
+      "command": "/removebackground-sharp",
+      "name": "Removebackground Sharp",
+      "description": "Removebackground Sharp workflow directive for background.",
+      "instruction": "Apply removebackground sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "removebackground"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "extendbackground-smooth-34",
+      "command": "/extendbackground-smooth",
+      "name": "Extendbackground Smooth",
+      "description": "Extendbackground Smooth workflow directive for background.",
+      "instruction": "Apply extendbackground smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "extendbackground"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "declutter-stable-35",
+      "command": "/declutter-stable",
+      "name": "Declutter Stable",
+      "description": "Declutter Stable workflow directive for background.",
+      "instruction": "Apply declutter stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "declutter"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "backgroundclean-highquality-36",
+      "command": "/backgroundclean-highquality",
+      "name": "Backgroundclean Highquality",
+      "description": "Backgroundclean Highquality workflow directive for background.",
+      "instruction": "Apply backgroundclean highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "backgroundclean"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "blurbackground-lowartifact-37",
+      "command": "/blurbackground-lowartifact",
+      "name": "Blurbackground Lowartifact",
+      "description": "Blurbackground Lowartifact workflow directive for background.",
+      "instruction": "Apply blurbackground lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "blurbackground"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "replacebackground-highdetail-38",
+      "command": "/replacebackground-highdetail",
+      "name": "Replacebackground Highdetail",
+      "description": "Replacebackground Highdetail workflow directive for background.",
+      "instruction": "Apply replacebackground highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "replacebackground"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "removebackground-fine-39",
+      "command": "/removebackground-fine",
+      "name": "Removebackground Fine",
+      "description": "Removebackground Fine workflow directive for background.",
+      "instruction": "Apply removebackground fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "removebackground"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "extendbackground-micro-40",
+      "command": "/extendbackground-micro",
+      "name": "Extendbackground Micro",
+      "description": "Extendbackground Micro workflow directive for background.",
+      "instruction": "Apply extendbackground micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "extendbackground"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "declutter-macro-41",
+      "command": "/declutter-macro",
+      "name": "Declutter Macro",
+      "description": "Declutter Macro workflow directive for background.",
+      "instruction": "Apply declutter macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "declutter"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "backgroundclean-local-42",
+      "command": "/backgroundclean-local",
+      "name": "Backgroundclean Local",
+      "description": "Backgroundclean Local workflow directive for background.",
+      "instruction": "Apply backgroundclean local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "backgroundclean"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "blurbackground-global-43",
+      "command": "/blurbackground-global",
+      "name": "Blurbackground Global",
+      "description": "Blurbackground Global workflow directive for background.",
+      "instruction": "Apply blurbackground global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "blurbackground"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "replacebackground-adaptive-44",
+      "command": "/replacebackground-adaptive",
+      "name": "Replacebackground Adaptive",
+      "description": "Replacebackground Adaptive workflow directive for background.",
+      "instruction": "Apply replacebackground adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "replacebackground"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "removebackground-contextual-45",
+      "command": "/removebackground-contextual",
+      "name": "Removebackground Contextual",
+      "description": "Removebackground Contextual workflow directive for background.",
+      "instruction": "Apply removebackground contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "removebackground"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "extendbackground-realistic-46",
+      "command": "/extendbackground-realistic",
+      "name": "Extendbackground Realistic",
+      "description": "Extendbackground Realistic workflow directive for background.",
+      "instruction": "Apply extendbackground realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "extendbackground"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "declutter-cinematic-47",
+      "command": "/declutter-cinematic",
+      "name": "Declutter Cinematic",
+      "description": "Declutter Cinematic workflow directive for background.",
+      "instruction": "Apply declutter cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "declutter"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "backgroundclean-modern-48",
+      "command": "/backgroundclean-modern",
+      "name": "Backgroundclean Modern",
+      "description": "Backgroundclean Modern workflow directive for background.",
+      "instruction": "Apply backgroundclean modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "backgroundclean"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "blurbackground-classic-49",
+      "command": "/blurbackground-classic",
+      "name": "Blurbackground Classic",
+      "description": "Blurbackground Classic workflow directive for background.",
+      "instruction": "Apply blurbackground classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "blurbackground"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "replacebackground-technical-50",
+      "command": "/replacebackground-technical",
+      "name": "Replacebackground Technical",
+      "description": "Replacebackground Technical workflow directive for background.",
+      "instruction": "Apply replacebackground technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "replacebackground"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "removebackground-creative-51",
+      "command": "/removebackground-creative",
+      "name": "Removebackground Creative",
+      "description": "Removebackground Creative workflow directive for background.",
+      "instruction": "Apply removebackground creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "removebackground"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "extendbackground-editorial-52",
+      "command": "/extendbackground-editorial",
+      "name": "Extendbackground Editorial",
+      "description": "Extendbackground Editorial workflow directive for background.",
+      "instruction": "Apply extendbackground editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "extendbackground"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "declutter-production-53",
+      "command": "/declutter-production",
+      "name": "Declutter Production",
+      "description": "Declutter Production workflow directive for background.",
+      "instruction": "Apply declutter production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "declutter"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "backgroundclean-studio-54",
+      "command": "/backgroundclean-studio",
+      "name": "Backgroundclean Studio",
+      "description": "Backgroundclean Studio workflow directive for background.",
+      "instruction": "Apply backgroundclean studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "backgroundclean"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "blurbackground-portable-55",
+      "command": "/blurbackground-portable",
+      "name": "Blurbackground Portable",
+      "description": "Blurbackground Portable workflow directive for background.",
+      "instruction": "Apply blurbackground portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "blurbackground"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "replacebackground-safe-56",
+      "command": "/replacebackground-safe",
+      "name": "Replacebackground Safe",
+      "description": "Replacebackground Safe workflow directive for background.",
+      "instruction": "Apply replacebackground safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "replacebackground"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "removebackground-robust-57",
+      "command": "/removebackground-robust",
+      "name": "Removebackground Robust",
+      "description": "Removebackground Robust workflow directive for background.",
+      "instruction": "Apply removebackground robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "removebackground"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "extendbackground-reliable-58",
+      "command": "/extendbackground-reliable",
+      "name": "Extendbackground Reliable",
+      "description": "Extendbackground Reliable workflow directive for background.",
+      "instruction": "Apply extendbackground reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "extendbackground"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "declutter-scalable-59",
+      "command": "/declutter-scalable",
+      "name": "Declutter Scalable",
+      "description": "Declutter Scalable workflow directive for background.",
+      "instruction": "Apply declutter scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "declutter"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "backgroundclean-maintainable-60",
+      "command": "/backgroundclean-maintainable",
+      "name": "Backgroundclean Maintainable",
+      "description": "Backgroundclean Maintainable workflow directive for background.",
+      "instruction": "Apply backgroundclean maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "backgroundclean"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "blurbackground-accessible-61",
+      "command": "/blurbackground-accessible",
+      "name": "Blurbackground Accessible",
+      "description": "Blurbackground Accessible workflow directive for background.",
+      "instruction": "Apply blurbackground accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "blurbackground"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "replacebackground-responsive-62",
+      "command": "/replacebackground-responsive",
+      "name": "Replacebackground Responsive",
+      "description": "Replacebackground Responsive workflow directive for background.",
+      "instruction": "Apply replacebackground responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "replacebackground"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    },
+    {
+      "id": "removebackground-structured-63",
+      "command": "/removebackground-structured",
+      "name": "Removebackground Structured",
+      "description": "Removebackground Structured workflow directive for background.",
+      "instruction": "Apply removebackground structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "background",
+        "image-editing-and-restoration",
+        "removebackground"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Background"
+    }
+  ]
+}

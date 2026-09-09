@@ -1,0 +1,1289 @@
+{
+  "category": "Environment & Atmosphere",
+  "categorySlug": "environment",
+  "subcategory": "Research",
+  "slug": "research",
+  "description": "Research command system for environment & atmosphere.",
+  "prompts": [
+    {
+      "id": "research-0",
+      "command": "/research",
+      "name": "Research",
+      "description": "Research workflow directive for research.",
+      "instruction": "Apply research with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "research"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "investigate-1",
+      "command": "/investigate",
+      "name": "Investigate",
+      "description": "Investigate workflow directive for research.",
+      "instruction": "Apply investigate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "investigate"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "sources-2",
+      "command": "/sources",
+      "name": "Sources",
+      "description": "Sources workflow directive for research.",
+      "instruction": "Apply sources with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "sources"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "evidence-3",
+      "command": "/evidence",
+      "name": "Evidence",
+      "description": "Evidence workflow directive for research.",
+      "instruction": "Apply evidence with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "evidence"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "verify-4",
+      "command": "/verify",
+      "name": "Verify",
+      "description": "Verify workflow directive for research.",
+      "instruction": "Apply verify with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "verify"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "factcheck-5",
+      "command": "/factcheck",
+      "name": "Factcheck",
+      "description": "Factcheck workflow directive for research.",
+      "instruction": "Apply factcheck with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "factcheck"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "research-precise-6",
+      "command": "/research-precise",
+      "name": "Research Precise",
+      "description": "Research Precise workflow directive for research.",
+      "instruction": "Apply research precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "research"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "investigate-clean-7",
+      "command": "/investigate-clean",
+      "name": "Investigate Clean",
+      "description": "Investigate Clean workflow directive for research.",
+      "instruction": "Apply investigate clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "investigate"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "sources-natural-8",
+      "command": "/sources-natural",
+      "name": "Sources Natural",
+      "description": "Sources Natural workflow directive for research.",
+      "instruction": "Apply sources natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "sources"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "evidence-refined-9",
+      "command": "/evidence-refined",
+      "name": "Evidence Refined",
+      "description": "Evidence Refined workflow directive for research.",
+      "instruction": "Apply evidence refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "evidence"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "verify-professional-10",
+      "command": "/verify-professional",
+      "name": "Verify Professional",
+      "description": "Verify Professional workflow directive for research.",
+      "instruction": "Apply verify professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "verify"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "factcheck-premium-11",
+      "command": "/factcheck-premium",
+      "name": "Factcheck Premium",
+      "description": "Factcheck Premium workflow directive for research.",
+      "instruction": "Apply factcheck premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "factcheck"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "research-subtle-12",
+      "command": "/research-subtle",
+      "name": "Research Subtle",
+      "description": "Research Subtle workflow directive for research.",
+      "instruction": "Apply research subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "research"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "investigate-strong-13",
+      "command": "/investigate-strong",
+      "name": "Investigate Strong",
+      "description": "Investigate Strong workflow directive for research.",
+      "instruction": "Apply investigate strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "investigate"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "sources-balanced-14",
+      "command": "/sources-balanced",
+      "name": "Sources Balanced",
+      "description": "Sources Balanced workflow directive for research.",
+      "instruction": "Apply sources balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "sources"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "evidence-detailed-15",
+      "command": "/evidence-detailed",
+      "name": "Evidence Detailed",
+      "description": "Evidence Detailed workflow directive for research.",
+      "instruction": "Apply evidence detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "evidence"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "verify-advanced-16",
+      "command": "/verify-advanced",
+      "name": "Verify Advanced",
+      "description": "Verify Advanced workflow directive for research.",
+      "instruction": "Apply verify advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "verify"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "factcheck-simple-17",
+      "command": "/factcheck-simple",
+      "name": "Factcheck Simple",
+      "description": "Factcheck Simple workflow directive for research.",
+      "instruction": "Apply factcheck simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "factcheck"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "research-smart-18",
+      "command": "/research-smart",
+      "name": "Research Smart",
+      "description": "Research Smart workflow directive for research.",
+      "instruction": "Apply research smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "research"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "investigate-controlled-19",
+      "command": "/investigate-controlled",
+      "name": "Investigate Controlled",
+      "description": "Investigate Controlled workflow directive for research.",
+      "instruction": "Apply investigate controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "investigate"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "sources-optimized-20",
+      "command": "/sources-optimized",
+      "name": "Sources Optimized",
+      "description": "Sources Optimized workflow directive for research.",
+      "instruction": "Apply sources optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "sources"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "evidence-efficient-21",
+      "command": "/evidence-efficient",
+      "name": "Evidence Efficient",
+      "description": "Evidence Efficient workflow directive for research.",
+      "instruction": "Apply evidence efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "evidence"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "verify-accurate-22",
+      "command": "/verify-accurate",
+      "name": "Verify Accurate",
+      "description": "Verify Accurate workflow directive for research.",
+      "instruction": "Apply verify accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "verify"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "factcheck-consistent-23",
+      "command": "/factcheck-consistent",
+      "name": "Factcheck Consistent",
+      "description": "Factcheck Consistent workflow directive for research.",
+      "instruction": "Apply factcheck consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "factcheck"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "research-polished-24",
+      "command": "/research-polished",
+      "name": "Research Polished",
+      "description": "Research Polished workflow directive for research.",
+      "instruction": "Apply research polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "research"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "investigate-final-25",
+      "command": "/investigate-final",
+      "name": "Investigate Final",
+      "description": "Investigate Final workflow directive for research.",
+      "instruction": "Apply investigate final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "investigate"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "sources-quick-26",
+      "command": "/sources-quick",
+      "name": "Sources Quick",
+      "description": "Sources Quick workflow directive for research.",
+      "instruction": "Apply sources quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "sources"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "evidence-deep-27",
+      "command": "/evidence-deep",
+      "name": "Evidence Deep",
+      "description": "Evidence Deep workflow directive for research.",
+      "instruction": "Apply evidence deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "evidence"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "verify-thorough-28",
+      "command": "/verify-thorough",
+      "name": "Verify Thorough",
+      "description": "Verify Thorough workflow directive for research.",
+      "instruction": "Apply verify thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "verify"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "factcheck-minimal-29",
+      "command": "/factcheck-minimal",
+      "name": "Factcheck Minimal",
+      "description": "Factcheck Minimal workflow directive for research.",
+      "instruction": "Apply factcheck minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "factcheck"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "research-maximum-30",
+      "command": "/research-maximum",
+      "name": "Research Maximum",
+      "description": "Research Maximum workflow directive for research.",
+      "instruction": "Apply research maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "research"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "investigate-soft-31",
+      "command": "/investigate-soft",
+      "name": "Investigate Soft",
+      "description": "Investigate Soft workflow directive for research.",
+      "instruction": "Apply investigate soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "investigate"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "sources-bold-32",
+      "command": "/sources-bold",
+      "name": "Sources Bold",
+      "description": "Sources Bold workflow directive for research.",
+      "instruction": "Apply sources bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "sources"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "evidence-sharp-33",
+      "command": "/evidence-sharp",
+      "name": "Evidence Sharp",
+      "description": "Evidence Sharp workflow directive for research.",
+      "instruction": "Apply evidence sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "evidence"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "verify-smooth-34",
+      "command": "/verify-smooth",
+      "name": "Verify Smooth",
+      "description": "Verify Smooth workflow directive for research.",
+      "instruction": "Apply verify smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "verify"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "factcheck-stable-35",
+      "command": "/factcheck-stable",
+      "name": "Factcheck Stable",
+      "description": "Factcheck Stable workflow directive for research.",
+      "instruction": "Apply factcheck stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "factcheck"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "research-highquality-36",
+      "command": "/research-highquality",
+      "name": "Research Highquality",
+      "description": "Research Highquality workflow directive for research.",
+      "instruction": "Apply research highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "research"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "investigate-lowartifact-37",
+      "command": "/investigate-lowartifact",
+      "name": "Investigate Lowartifact",
+      "description": "Investigate Lowartifact workflow directive for research.",
+      "instruction": "Apply investigate lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "investigate"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "sources-highdetail-38",
+      "command": "/sources-highdetail",
+      "name": "Sources Highdetail",
+      "description": "Sources Highdetail workflow directive for research.",
+      "instruction": "Apply sources highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "sources"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "evidence-fine-39",
+      "command": "/evidence-fine",
+      "name": "Evidence Fine",
+      "description": "Evidence Fine workflow directive for research.",
+      "instruction": "Apply evidence fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "evidence"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "verify-micro-40",
+      "command": "/verify-micro",
+      "name": "Verify Micro",
+      "description": "Verify Micro workflow directive for research.",
+      "instruction": "Apply verify micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "verify"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "factcheck-macro-41",
+      "command": "/factcheck-macro",
+      "name": "Factcheck Macro",
+      "description": "Factcheck Macro workflow directive for research.",
+      "instruction": "Apply factcheck macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "factcheck"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "research-local-42",
+      "command": "/research-local",
+      "name": "Research Local",
+      "description": "Research Local workflow directive for research.",
+      "instruction": "Apply research local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "research"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "investigate-global-43",
+      "command": "/investigate-global",
+      "name": "Investigate Global",
+      "description": "Investigate Global workflow directive for research.",
+      "instruction": "Apply investigate global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "investigate"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "sources-adaptive-44",
+      "command": "/sources-adaptive",
+      "name": "Sources Adaptive",
+      "description": "Sources Adaptive workflow directive for research.",
+      "instruction": "Apply sources adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "sources"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "evidence-contextual-45",
+      "command": "/evidence-contextual",
+      "name": "Evidence Contextual",
+      "description": "Evidence Contextual workflow directive for research.",
+      "instruction": "Apply evidence contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "evidence"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "verify-realistic-46",
+      "command": "/verify-realistic",
+      "name": "Verify Realistic",
+      "description": "Verify Realistic workflow directive for research.",
+      "instruction": "Apply verify realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "verify"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "factcheck-cinematic-47",
+      "command": "/factcheck-cinematic",
+      "name": "Factcheck Cinematic",
+      "description": "Factcheck Cinematic workflow directive for research.",
+      "instruction": "Apply factcheck cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "factcheck"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "research-modern-48",
+      "command": "/research-modern",
+      "name": "Research Modern",
+      "description": "Research Modern workflow directive for research.",
+      "instruction": "Apply research modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "research"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "investigate-classic-49",
+      "command": "/investigate-classic",
+      "name": "Investigate Classic",
+      "description": "Investigate Classic workflow directive for research.",
+      "instruction": "Apply investigate classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "investigate"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "sources-technical-50",
+      "command": "/sources-technical",
+      "name": "Sources Technical",
+      "description": "Sources Technical workflow directive for research.",
+      "instruction": "Apply sources technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "sources"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "evidence-creative-51",
+      "command": "/evidence-creative",
+      "name": "Evidence Creative",
+      "description": "Evidence Creative workflow directive for research.",
+      "instruction": "Apply evidence creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "evidence"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "verify-editorial-52",
+      "command": "/verify-editorial",
+      "name": "Verify Editorial",
+      "description": "Verify Editorial workflow directive for research.",
+      "instruction": "Apply verify editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "verify"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "factcheck-production-53",
+      "command": "/factcheck-production",
+      "name": "Factcheck Production",
+      "description": "Factcheck Production workflow directive for research.",
+      "instruction": "Apply factcheck production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "factcheck"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "research-studio-54",
+      "command": "/research-studio",
+      "name": "Research Studio",
+      "description": "Research Studio workflow directive for research.",
+      "instruction": "Apply research studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "research"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "investigate-portable-55",
+      "command": "/investigate-portable",
+      "name": "Investigate Portable",
+      "description": "Investigate Portable workflow directive for research.",
+      "instruction": "Apply investigate portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "investigate"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "sources-safe-56",
+      "command": "/sources-safe",
+      "name": "Sources Safe",
+      "description": "Sources Safe workflow directive for research.",
+      "instruction": "Apply sources safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "sources"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "evidence-robust-57",
+      "command": "/evidence-robust",
+      "name": "Evidence Robust",
+      "description": "Evidence Robust workflow directive for research.",
+      "instruction": "Apply evidence robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "evidence"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "verify-reliable-58",
+      "command": "/verify-reliable",
+      "name": "Verify Reliable",
+      "description": "Verify Reliable workflow directive for research.",
+      "instruction": "Apply verify reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "verify"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "factcheck-scalable-59",
+      "command": "/factcheck-scalable",
+      "name": "Factcheck Scalable",
+      "description": "Factcheck Scalable workflow directive for research.",
+      "instruction": "Apply factcheck scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "factcheck"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "research-maintainable-60",
+      "command": "/research-maintainable",
+      "name": "Research Maintainable",
+      "description": "Research Maintainable workflow directive for research.",
+      "instruction": "Apply research maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "research"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "investigate-accessible-61",
+      "command": "/investigate-accessible",
+      "name": "Investigate Accessible",
+      "description": "Investigate Accessible workflow directive for research.",
+      "instruction": "Apply investigate accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "investigate"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "sources-responsive-62",
+      "command": "/sources-responsive",
+      "name": "Sources Responsive",
+      "description": "Sources Responsive workflow directive for research.",
+      "instruction": "Apply sources responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "sources"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    },
+    {
+      "id": "evidence-structured-63",
+      "command": "/evidence-structured",
+      "name": "Evidence Structured",
+      "description": "Evidence Structured workflow directive for research.",
+      "instruction": "Apply evidence structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "research",
+        "research-and-deep-reasoning",
+        "evidence"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Research"
+    }
+  ]
+}

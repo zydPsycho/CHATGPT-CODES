@@ -1,0 +1,1469 @@
+{
+  "category": "Quality & Restoration",
+  "categorySlug": "quality",
+  "subcategory": "Quality",
+  "slug": "quality",
+  "description": "Quality command system for quality & restoration.",
+  "prompts": [
+    {
+      "id": "hdreal-0",
+      "command": "/hdreal",
+      "name": "Hdreal",
+      "description": "Hdreal workflow directive for quality.",
+      "instruction": "Apply hdreal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "hdreal"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "4k-1",
+      "command": "/4k",
+      "name": "4k",
+      "description": "4k workflow directive for quality.",
+      "instruction": "Apply 4k with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "4k"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "8k-2",
+      "command": "/8k",
+      "name": "8k",
+      "description": "8k workflow directive for quality.",
+      "instruction": "Apply 8k with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "8k"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "enhance-3",
+      "command": "/enhance",
+      "name": "Enhance",
+      "description": "Enhance workflow directive for quality.",
+      "instruction": "Apply enhance with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "enhance"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "quality-4",
+      "command": "/quality",
+      "name": "Quality",
+      "description": "Quality workflow directive for quality.",
+      "instruction": "Apply quality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "quality"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "sharpen-5",
+      "command": "/sharpen",
+      "name": "Sharpen",
+      "description": "Sharpen workflow directive for quality.",
+      "instruction": "Apply sharpen with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "sharpen"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "details-6",
+      "command": "/details",
+      "name": "Details",
+      "description": "Details workflow directive for quality.",
+      "instruction": "Apply details with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "details"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "clarity-7",
+      "command": "/clarity",
+      "name": "Clarity",
+      "description": "Clarity workflow directive for quality.",
+      "instruction": "Apply clarity with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "clarity"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "deblur-8",
+      "command": "/deblur",
+      "name": "Deblur",
+      "description": "Deblur workflow directive for quality.",
+      "instruction": "Apply deblur with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "deblur"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "denoise-9",
+      "command": "/denoise",
+      "name": "Denoise",
+      "description": "Denoise workflow directive for quality.",
+      "instruction": "Apply denoise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "denoise"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "upscale-10",
+      "command": "/upscale",
+      "name": "Upscale",
+      "description": "Upscale workflow directive for quality.",
+      "instruction": "Apply upscale with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "upscale"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "superresolution-11",
+      "command": "/superresolution",
+      "name": "Superresolution",
+      "description": "Superresolution workflow directive for quality.",
+      "instruction": "Apply superresolution with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "superresolution"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "upscaleclean-12",
+      "command": "/upscaleclean",
+      "name": "Upscaleclean",
+      "description": "Upscaleclean workflow directive for quality.",
+      "instruction": "Apply upscaleclean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "upscaleclean"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "upscalesharp-13",
+      "command": "/upscalesharp",
+      "name": "Upscalesharp",
+      "description": "Upscalesharp workflow directive for quality.",
+      "instruction": "Apply upscalesharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "upscalesharp"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "upscalenatural-14",
+      "command": "/upscalenatural",
+      "name": "Upscalenatural",
+      "description": "Upscalenatural workflow directive for quality.",
+      "instruction": "Apply upscalenatural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "upscalenatural"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "upscalephoto-15",
+      "command": "/upscalephoto",
+      "name": "Upscalephoto",
+      "description": "Upscalephoto workflow directive for quality.",
+      "instruction": "Apply upscalephoto with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "upscalephoto"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "upscaleprint-16",
+      "command": "/upscaleprint",
+      "name": "Upscaleprint",
+      "description": "Upscaleprint workflow directive for quality.",
+      "instruction": "Apply upscaleprint with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "upscaleprint"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "upscaleweb-17",
+      "command": "/upscaleweb",
+      "name": "Upscaleweb",
+      "description": "Upscaleweb workflow directive for quality.",
+      "instruction": "Apply upscaleweb with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "upscaleweb"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "upscalemobile-18",
+      "command": "/upscalemobile",
+      "name": "Upscalemobile",
+      "description": "Upscalemobile workflow directive for quality.",
+      "instruction": "Apply upscalemobile with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "upscalemobile"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "upscaleportrait-19",
+      "command": "/upscaleportrait",
+      "name": "Upscaleportrait",
+      "description": "Upscaleportrait workflow directive for quality.",
+      "instruction": "Apply upscaleportrait with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "upscaleportrait"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "upscaleface-20",
+      "command": "/upscaleface",
+      "name": "Upscaleface",
+      "description": "Upscaleface workflow directive for quality.",
+      "instruction": "Apply upscaleface with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "upscaleface"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "upscalefine-21",
+      "command": "/upscalefine",
+      "name": "Upscalefine",
+      "description": "Upscalefine workflow directive for quality.",
+      "instruction": "Apply upscalefine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "upscalefine"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "upscaledetail-22",
+      "command": "/upscaledetail",
+      "name": "Upscaledetail",
+      "description": "Upscaledetail workflow directive for quality.",
+      "instruction": "Apply upscaledetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "upscaledetail"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "microdetail-23",
+      "command": "/microdetail",
+      "name": "Microdetail",
+      "description": "Microdetail workflow directive for quality.",
+      "instruction": "Apply microdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "microdetail"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "finerdetails-24",
+      "command": "/finerdetails",
+      "name": "Finerdetails",
+      "description": "Finerdetails workflow directive for quality.",
+      "instruction": "Apply finerdetails with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "finerdetails"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "texture-25",
+      "command": "/texture",
+      "name": "Texture",
+      "description": "Texture workflow directive for quality.",
+      "instruction": "Apply texture with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "texture"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "texturesharp-26",
+      "command": "/texturesharp",
+      "name": "Texturesharp",
+      "description": "Texturesharp workflow directive for quality.",
+      "instruction": "Apply texturesharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "texturesharp"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "textureclean-27",
+      "command": "/textureclean",
+      "name": "Textureclean",
+      "description": "Textureclean workflow directive for quality.",
+      "instruction": "Apply textureclean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "textureclean"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "edgeclean-28",
+      "command": "/edgeclean",
+      "name": "Edgeclean",
+      "description": "Edgeclean workflow directive for quality.",
+      "instruction": "Apply edgeclean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "edgeclean"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "edgepreserve-29",
+      "command": "/edgepreserve",
+      "name": "Edgepreserve",
+      "description": "Edgepreserve workflow directive for quality.",
+      "instruction": "Apply edgepreserve with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "edgepreserve"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "lineclarity-30",
+      "command": "/lineclarity",
+      "name": "Lineclarity",
+      "description": "Lineclarity workflow directive for quality.",
+      "instruction": "Apply lineclarity with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "lineclarity"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "localcontrast-31",
+      "command": "/localcontrast",
+      "name": "Localcontrast",
+      "description": "Localcontrast workflow directive for quality.",
+      "instruction": "Apply localcontrast with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "localcontrast"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "globalcontrast-32",
+      "command": "/globalcontrast",
+      "name": "Globalcontrast",
+      "description": "Globalcontrast workflow directive for quality.",
+      "instruction": "Apply globalcontrast with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "globalcontrast"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "dynamicrange-33",
+      "command": "/dynamicrange",
+      "name": "Dynamicrange",
+      "description": "Dynamicrange workflow directive for quality.",
+      "instruction": "Apply dynamicrange with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "dynamicrange"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "highlightrecover-34",
+      "command": "/highlightrecover",
+      "name": "Highlightrecover",
+      "description": "Highlightrecover workflow directive for quality.",
+      "instruction": "Apply highlightrecover with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "highlightrecover"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "shadowrecover-35",
+      "command": "/shadowrecover",
+      "name": "Shadowrecover",
+      "description": "Shadowrecover workflow directive for quality.",
+      "instruction": "Apply shadowrecover with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "shadowrecover"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "dehaze-36",
+      "command": "/dehaze",
+      "name": "Dehaze",
+      "description": "Dehaze workflow directive for quality.",
+      "instruction": "Apply dehaze with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "dehaze"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "defringe-37",
+      "command": "/defringe",
+      "name": "Defringe",
+      "description": "Defringe workflow directive for quality.",
+      "instruction": "Apply defringe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "defringe"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "chromaticaberration-38",
+      "command": "/chromaticaberration",
+      "name": "Chromaticaberration",
+      "description": "Chromaticaberration workflow directive for quality.",
+      "instruction": "Apply chromaticaberration with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "chromaticaberration"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "lenscorrection-39",
+      "command": "/lenscorrection",
+      "name": "Lenscorrection",
+      "description": "Lenscorrection workflow directive for quality.",
+      "instruction": "Apply lenscorrection with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "lenscorrection"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "perspectivefix-40",
+      "command": "/perspectivefix",
+      "name": "Perspectivefix",
+      "description": "Perspectivefix workflow directive for quality.",
+      "instruction": "Apply perspectivefix with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "perspectivefix"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "distortionfix-41",
+      "command": "/distortionfix",
+      "name": "Distortionfix",
+      "description": "Distortionfix workflow directive for quality.",
+      "instruction": "Apply distortionfix with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "distortionfix"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "noiseprofile-42",
+      "command": "/noiseprofile",
+      "name": "Noiseprofile",
+      "description": "Noiseprofile workflow directive for quality.",
+      "instruction": "Apply noiseprofile with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "noiseprofile"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "grainremove-43",
+      "command": "/grainremove",
+      "name": "Grainremove",
+      "description": "Grainremove workflow directive for quality.",
+      "instruction": "Apply grainremove with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "grainremove"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "compressionfix-44",
+      "command": "/compressionfix",
+      "name": "Compressionfix",
+      "description": "Compressionfix workflow directive for quality.",
+      "instruction": "Apply compressionfix with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "compressionfix"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "jpegfix-45",
+      "command": "/jpegfix",
+      "name": "Jpegfix",
+      "description": "Jpegfix workflow directive for quality.",
+      "instruction": "Apply jpegfix with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "jpegfix"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "artifactremove-46",
+      "command": "/artifactremove",
+      "name": "Artifactremove",
+      "description": "Artifactremove workflow directive for quality.",
+      "instruction": "Apply artifactremove with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "artifactremove"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "bandingfix-47",
+      "command": "/bandingfix",
+      "name": "Bandingfix",
+      "description": "Bandingfix workflow directive for quality.",
+      "instruction": "Apply bandingfix with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "bandingfix"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "colorcastfix-48",
+      "command": "/colorcastfix",
+      "name": "Colorcastfix",
+      "description": "Colorcastfix workflow directive for quality.",
+      "instruction": "Apply colorcastfix with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "colorcastfix"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "whitebalancefix-49",
+      "command": "/whitebalancefix",
+      "name": "Whitebalancefix",
+      "description": "Whitebalancefix workflow directive for quality.",
+      "instruction": "Apply whitebalancefix with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "whitebalancefix"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "exposurefix-50",
+      "command": "/exposurefix",
+      "name": "Exposurefix",
+      "description": "Exposurefix workflow directive for quality.",
+      "instruction": "Apply exposurefix with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "exposurefix"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "focusfix-51",
+      "command": "/focusfix",
+      "name": "Focusfix",
+      "description": "Focusfix workflow directive for quality.",
+      "instruction": "Apply focusfix with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "focusfix"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "motiondeblur-52",
+      "command": "/motiondeblur",
+      "name": "Motiondeblur",
+      "description": "Motiondeblur workflow directive for quality.",
+      "instruction": "Apply motiondeblur with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "motiondeblur"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "lensdeblur-53",
+      "command": "/lensdeblur",
+      "name": "Lensdeblur",
+      "description": "Lensdeblur workflow directive for quality.",
+      "instruction": "Apply lensdeblur with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "lensdeblur"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "shakefix-54",
+      "command": "/shakefix",
+      "name": "Shakefix",
+      "description": "Shakefix workflow directive for quality.",
+      "instruction": "Apply shakefix with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "shakefix"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "softnessfix-55",
+      "command": "/softnessfix",
+      "name": "Softnessfix",
+      "description": "Softnessfix workflow directive for quality.",
+      "instruction": "Apply softnessfix with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "softnessfix"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "detailrecover-56",
+      "command": "/detailrecover",
+      "name": "Detailrecover",
+      "description": "Detailrecover workflow directive for quality.",
+      "instruction": "Apply detailrecover with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "detailrecover"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "naturalsharpen-57",
+      "command": "/naturalsharpen",
+      "name": "Naturalsharpen",
+      "description": "Naturalsharpen workflow directive for quality.",
+      "instruction": "Apply naturalsharpen with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "naturalsharpen"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "smartsharpen-58",
+      "command": "/smartsharpen",
+      "name": "Smartsharpen",
+      "description": "Smartsharpen workflow directive for quality.",
+      "instruction": "Apply smartsharpen with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "smartsharpen"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "clarityboost-59",
+      "command": "/clarityboost",
+      "name": "Clarityboost",
+      "description": "Clarityboost workflow directive for quality.",
+      "instruction": "Apply clarityboost with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "clarityboost"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "cleanedges-60",
+      "command": "/cleanedges",
+      "name": "Cleanedges",
+      "description": "Cleanedges workflow directive for quality.",
+      "instruction": "Apply cleanedges with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "cleanedges"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "smoothgradients-61",
+      "command": "/smoothgradients",
+      "name": "Smoothgradients",
+      "description": "Smoothgradients workflow directive for quality.",
+      "instruction": "Apply smoothgradients with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "smoothgradients"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "skintexture-62",
+      "command": "/skintexture",
+      "name": "Skintexture",
+      "description": "Skintexture workflow directive for quality.",
+      "instruction": "Apply skintexture with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "skintexture"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "hairdetail-63",
+      "command": "/hairdetail",
+      "name": "Hairdetail",
+      "description": "Hairdetail workflow directive for quality.",
+      "instruction": "Apply hairdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "hairdetail"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "fabricdetail-64",
+      "command": "/fabricdetail",
+      "name": "Fabricdetail",
+      "description": "Fabricdetail workflow directive for quality.",
+      "instruction": "Apply fabricdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "fabricdetail"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "metallicdetail-65",
+      "command": "/metallicdetail",
+      "name": "Metallicdetail",
+      "description": "Metallicdetail workflow directive for quality.",
+      "instruction": "Apply metallicdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "metallicdetail"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "glassdetail-66",
+      "command": "/glassdetail",
+      "name": "Glassdetail",
+      "description": "Glassdetail workflow directive for quality.",
+      "instruction": "Apply glassdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "glassdetail"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "printready-67",
+      "command": "/printready",
+      "name": "Printready",
+      "description": "Printready workflow directive for quality.",
+      "instruction": "Apply printready with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "printready"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "webready-68",
+      "command": "/webready",
+      "name": "Webready",
+      "description": "Webready workflow directive for quality.",
+      "instruction": "Apply webready with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "webready"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "socialready-69",
+      "command": "/socialready",
+      "name": "Socialready",
+      "description": "Socialready workflow directive for quality.",
+      "instruction": "Apply socialready with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "socialready"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "archival-70",
+      "command": "/archival",
+      "name": "Archival",
+      "description": "Archival workflow directive for quality.",
+      "instruction": "Apply archival with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "archival"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "masterquality-71",
+      "command": "/masterquality",
+      "name": "Masterquality",
+      "description": "Masterquality workflow directive for quality.",
+      "instruction": "Apply masterquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "masterquality"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    },
+    {
+      "id": "finalpolish-72",
+      "command": "/finalpolish",
+      "name": "Finalpolish",
+      "description": "Finalpolish workflow directive for quality.",
+      "instruction": "Apply finalpolish with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "quality",
+        "image-editing-and-restoration",
+        "finalpolish"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Quality"
+    }
+  ]
+}

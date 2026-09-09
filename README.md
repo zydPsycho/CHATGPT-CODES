@@ -82,3 +82,9 @@ Then open `http://localhost:8080/`.
 ## License and scope
 
 BLACKMARK is a static, client-side prompt organization interface. It does not claim to send prompts to an AI provider, upload reference images, or provide model execution. It compiles instructions locally so users can copy them into the tool of their choice.
+
+## V2.1 monochrome system
+
+The interface uses a strict pure monochrome palette: black backgrounds, white primary type, grayscale surfaces, grayscale borders, and grayscale secondary text. There are no gold, yellow, bronze, blue, purple, or neon accents. Premium character comes from typography, spacing, contrast, editorial composition, and restrained interaction states.
+
+Prompt data is now organized for scale under nested paths such as `data/prompts/face/identity.json` and `data/prompts/quality/restoration.json`. Each category has an `index.json` manifest that lists its subcategory files. The loader reads manifests and subcategory files on demand, allowing the library to grow without one oversized category payload. Existing migrated commands and metadata remain preserved in the source category files and nested records.

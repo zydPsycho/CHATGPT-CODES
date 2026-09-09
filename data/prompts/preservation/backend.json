@@ -1,0 +1,1289 @@
+{
+  "category": "Subject Preservation",
+  "categorySlug": "preservation",
+  "subcategory": "Backend",
+  "slug": "backend",
+  "description": "Backend command system for subject preservation.",
+  "prompts": [
+    {
+      "id": "node-0",
+      "command": "/node",
+      "name": "Node",
+      "description": "Node workflow directive for backend.",
+      "instruction": "Apply node with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "node"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "python-1",
+      "command": "/python",
+      "name": "Python",
+      "description": "Python workflow directive for backend.",
+      "instruction": "Apply python with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "python"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "sql-2",
+      "command": "/sql",
+      "name": "Sql",
+      "description": "Sql workflow directive for backend.",
+      "instruction": "Apply sql with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "sql"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "rest-3",
+      "command": "/rest",
+      "name": "Rest",
+      "description": "Rest workflow directive for backend.",
+      "instruction": "Apply rest with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "rest"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "auth-4",
+      "command": "/auth",
+      "name": "Auth",
+      "description": "Auth workflow directive for backend.",
+      "instruction": "Apply auth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "auth"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "deployment-5",
+      "command": "/deployment",
+      "name": "Deployment",
+      "description": "Deployment workflow directive for backend.",
+      "instruction": "Apply deployment with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "deployment"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "node-precise-6",
+      "command": "/node-precise",
+      "name": "Node Precise",
+      "description": "Node Precise workflow directive for backend.",
+      "instruction": "Apply node precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "node"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "python-clean-7",
+      "command": "/python-clean",
+      "name": "Python Clean",
+      "description": "Python Clean workflow directive for backend.",
+      "instruction": "Apply python clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "python"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "sql-natural-8",
+      "command": "/sql-natural",
+      "name": "Sql Natural",
+      "description": "Sql Natural workflow directive for backend.",
+      "instruction": "Apply sql natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "sql"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "rest-refined-9",
+      "command": "/rest-refined",
+      "name": "Rest Refined",
+      "description": "Rest Refined workflow directive for backend.",
+      "instruction": "Apply rest refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "rest"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "auth-professional-10",
+      "command": "/auth-professional",
+      "name": "Auth Professional",
+      "description": "Auth Professional workflow directive for backend.",
+      "instruction": "Apply auth professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "auth"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "deployment-premium-11",
+      "command": "/deployment-premium",
+      "name": "Deployment Premium",
+      "description": "Deployment Premium workflow directive for backend.",
+      "instruction": "Apply deployment premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "deployment"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "node-subtle-12",
+      "command": "/node-subtle",
+      "name": "Node Subtle",
+      "description": "Node Subtle workflow directive for backend.",
+      "instruction": "Apply node subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "node"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "python-strong-13",
+      "command": "/python-strong",
+      "name": "Python Strong",
+      "description": "Python Strong workflow directive for backend.",
+      "instruction": "Apply python strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "python"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "sql-balanced-14",
+      "command": "/sql-balanced",
+      "name": "Sql Balanced",
+      "description": "Sql Balanced workflow directive for backend.",
+      "instruction": "Apply sql balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "sql"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "rest-detailed-15",
+      "command": "/rest-detailed",
+      "name": "Rest Detailed",
+      "description": "Rest Detailed workflow directive for backend.",
+      "instruction": "Apply rest detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "rest"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "auth-advanced-16",
+      "command": "/auth-advanced",
+      "name": "Auth Advanced",
+      "description": "Auth Advanced workflow directive for backend.",
+      "instruction": "Apply auth advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "auth"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "deployment-simple-17",
+      "command": "/deployment-simple",
+      "name": "Deployment Simple",
+      "description": "Deployment Simple workflow directive for backend.",
+      "instruction": "Apply deployment simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "deployment"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "node-smart-18",
+      "command": "/node-smart",
+      "name": "Node Smart",
+      "description": "Node Smart workflow directive for backend.",
+      "instruction": "Apply node smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "node"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "python-controlled-19",
+      "command": "/python-controlled",
+      "name": "Python Controlled",
+      "description": "Python Controlled workflow directive for backend.",
+      "instruction": "Apply python controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "python"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "sql-optimized-20",
+      "command": "/sql-optimized",
+      "name": "Sql Optimized",
+      "description": "Sql Optimized workflow directive for backend.",
+      "instruction": "Apply sql optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "sql"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "rest-efficient-21",
+      "command": "/rest-efficient",
+      "name": "Rest Efficient",
+      "description": "Rest Efficient workflow directive for backend.",
+      "instruction": "Apply rest efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "rest"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "auth-accurate-22",
+      "command": "/auth-accurate",
+      "name": "Auth Accurate",
+      "description": "Auth Accurate workflow directive for backend.",
+      "instruction": "Apply auth accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "auth"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "deployment-consistent-23",
+      "command": "/deployment-consistent",
+      "name": "Deployment Consistent",
+      "description": "Deployment Consistent workflow directive for backend.",
+      "instruction": "Apply deployment consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "deployment"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "node-polished-24",
+      "command": "/node-polished",
+      "name": "Node Polished",
+      "description": "Node Polished workflow directive for backend.",
+      "instruction": "Apply node polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "node"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "python-final-25",
+      "command": "/python-final",
+      "name": "Python Final",
+      "description": "Python Final workflow directive for backend.",
+      "instruction": "Apply python final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "python"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "sql-quick-26",
+      "command": "/sql-quick",
+      "name": "Sql Quick",
+      "description": "Sql Quick workflow directive for backend.",
+      "instruction": "Apply sql quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "sql"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "rest-deep-27",
+      "command": "/rest-deep",
+      "name": "Rest Deep",
+      "description": "Rest Deep workflow directive for backend.",
+      "instruction": "Apply rest deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "rest"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "auth-thorough-28",
+      "command": "/auth-thorough",
+      "name": "Auth Thorough",
+      "description": "Auth Thorough workflow directive for backend.",
+      "instruction": "Apply auth thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "auth"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "deployment-minimal-29",
+      "command": "/deployment-minimal",
+      "name": "Deployment Minimal",
+      "description": "Deployment Minimal workflow directive for backend.",
+      "instruction": "Apply deployment minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "deployment"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "node-maximum-30",
+      "command": "/node-maximum",
+      "name": "Node Maximum",
+      "description": "Node Maximum workflow directive for backend.",
+      "instruction": "Apply node maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "node"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "python-soft-31",
+      "command": "/python-soft",
+      "name": "Python Soft",
+      "description": "Python Soft workflow directive for backend.",
+      "instruction": "Apply python soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "python"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "sql-bold-32",
+      "command": "/sql-bold",
+      "name": "Sql Bold",
+      "description": "Sql Bold workflow directive for backend.",
+      "instruction": "Apply sql bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "sql"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "rest-sharp-33",
+      "command": "/rest-sharp",
+      "name": "Rest Sharp",
+      "description": "Rest Sharp workflow directive for backend.",
+      "instruction": "Apply rest sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "rest"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "auth-smooth-34",
+      "command": "/auth-smooth",
+      "name": "Auth Smooth",
+      "description": "Auth Smooth workflow directive for backend.",
+      "instruction": "Apply auth smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "auth"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "deployment-stable-35",
+      "command": "/deployment-stable",
+      "name": "Deployment Stable",
+      "description": "Deployment Stable workflow directive for backend.",
+      "instruction": "Apply deployment stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "deployment"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "node-highquality-36",
+      "command": "/node-highquality",
+      "name": "Node Highquality",
+      "description": "Node Highquality workflow directive for backend.",
+      "instruction": "Apply node highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "node"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "python-lowartifact-37",
+      "command": "/python-lowartifact",
+      "name": "Python Lowartifact",
+      "description": "Python Lowartifact workflow directive for backend.",
+      "instruction": "Apply python lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "python"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "sql-highdetail-38",
+      "command": "/sql-highdetail",
+      "name": "Sql Highdetail",
+      "description": "Sql Highdetail workflow directive for backend.",
+      "instruction": "Apply sql highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "sql"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "rest-fine-39",
+      "command": "/rest-fine",
+      "name": "Rest Fine",
+      "description": "Rest Fine workflow directive for backend.",
+      "instruction": "Apply rest fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "rest"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "auth-micro-40",
+      "command": "/auth-micro",
+      "name": "Auth Micro",
+      "description": "Auth Micro workflow directive for backend.",
+      "instruction": "Apply auth micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "auth"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "deployment-macro-41",
+      "command": "/deployment-macro",
+      "name": "Deployment Macro",
+      "description": "Deployment Macro workflow directive for backend.",
+      "instruction": "Apply deployment macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "deployment"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "node-local-42",
+      "command": "/node-local",
+      "name": "Node Local",
+      "description": "Node Local workflow directive for backend.",
+      "instruction": "Apply node local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "node"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "python-global-43",
+      "command": "/python-global",
+      "name": "Python Global",
+      "description": "Python Global workflow directive for backend.",
+      "instruction": "Apply python global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "python"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "sql-adaptive-44",
+      "command": "/sql-adaptive",
+      "name": "Sql Adaptive",
+      "description": "Sql Adaptive workflow directive for backend.",
+      "instruction": "Apply sql adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "sql"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "rest-contextual-45",
+      "command": "/rest-contextual",
+      "name": "Rest Contextual",
+      "description": "Rest Contextual workflow directive for backend.",
+      "instruction": "Apply rest contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "rest"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "auth-realistic-46",
+      "command": "/auth-realistic",
+      "name": "Auth Realistic",
+      "description": "Auth Realistic workflow directive for backend.",
+      "instruction": "Apply auth realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "auth"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "deployment-cinematic-47",
+      "command": "/deployment-cinematic",
+      "name": "Deployment Cinematic",
+      "description": "Deployment Cinematic workflow directive for backend.",
+      "instruction": "Apply deployment cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "deployment"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "node-modern-48",
+      "command": "/node-modern",
+      "name": "Node Modern",
+      "description": "Node Modern workflow directive for backend.",
+      "instruction": "Apply node modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "node"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "python-classic-49",
+      "command": "/python-classic",
+      "name": "Python Classic",
+      "description": "Python Classic workflow directive for backend.",
+      "instruction": "Apply python classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "python"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "sql-technical-50",
+      "command": "/sql-technical",
+      "name": "Sql Technical",
+      "description": "Sql Technical workflow directive for backend.",
+      "instruction": "Apply sql technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "sql"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "rest-creative-51",
+      "command": "/rest-creative",
+      "name": "Rest Creative",
+      "description": "Rest Creative workflow directive for backend.",
+      "instruction": "Apply rest creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "rest"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "auth-editorial-52",
+      "command": "/auth-editorial",
+      "name": "Auth Editorial",
+      "description": "Auth Editorial workflow directive for backend.",
+      "instruction": "Apply auth editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "auth"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "deployment-production-53",
+      "command": "/deployment-production",
+      "name": "Deployment Production",
+      "description": "Deployment Production workflow directive for backend.",
+      "instruction": "Apply deployment production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "deployment"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "node-studio-54",
+      "command": "/node-studio",
+      "name": "Node Studio",
+      "description": "Node Studio workflow directive for backend.",
+      "instruction": "Apply node studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "node"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "python-portable-55",
+      "command": "/python-portable",
+      "name": "Python Portable",
+      "description": "Python Portable workflow directive for backend.",
+      "instruction": "Apply python portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "python"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "sql-safe-56",
+      "command": "/sql-safe",
+      "name": "Sql Safe",
+      "description": "Sql Safe workflow directive for backend.",
+      "instruction": "Apply sql safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "sql"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "rest-robust-57",
+      "command": "/rest-robust",
+      "name": "Rest Robust",
+      "description": "Rest Robust workflow directive for backend.",
+      "instruction": "Apply rest robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "rest"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "auth-reliable-58",
+      "command": "/auth-reliable",
+      "name": "Auth Reliable",
+      "description": "Auth Reliable workflow directive for backend.",
+      "instruction": "Apply auth reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "auth"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "deployment-scalable-59",
+      "command": "/deployment-scalable",
+      "name": "Deployment Scalable",
+      "description": "Deployment Scalable workflow directive for backend.",
+      "instruction": "Apply deployment scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "deployment"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "node-maintainable-60",
+      "command": "/node-maintainable",
+      "name": "Node Maintainable",
+      "description": "Node Maintainable workflow directive for backend.",
+      "instruction": "Apply node maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "node"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "python-accessible-61",
+      "command": "/python-accessible",
+      "name": "Python Accessible",
+      "description": "Python Accessible workflow directive for backend.",
+      "instruction": "Apply python accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "python"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "sql-responsive-62",
+      "command": "/sql-responsive",
+      "name": "Sql Responsive",
+      "description": "Sql Responsive workflow directive for backend.",
+      "instruction": "Apply sql responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "sql"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    },
+    {
+      "id": "rest-structured-63",
+      "command": "/rest-structured",
+      "name": "Rest Structured",
+      "description": "Rest Structured workflow directive for backend.",
+      "instruction": "Apply rest structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "backend",
+        "coding-and-development",
+        "rest"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Subject Preservation",
+      "categorySlug": "preservation",
+      "subcategory": "Backend"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "category": "Camera & Motion",
+  "slug": "camera",
+  "description": "Control framing, movement, perspective and stability.",
+  "subcategories": [
+    {
+      "name": "Camera",
+      "slug": "camera",
+      "file": "/data/prompts/camera/camera.json",
+      "count": 64
+    },
+    {
+      "name": "Motion",
+      "slug": "motion",
+      "file": "/data/prompts/camera/motion.json",
+      "count": 64
+    },
+    {
+      "name": "Animation",
+      "slug": "animation",
+      "file": "/data/prompts/camera/animation.json",
+      "count": 64
+    },
+    {
+      "name": "Camera Moves",
+      "slug": "camera-moves",
+      "file": "/data/prompts/camera/camera-moves.json",
+      "count": 64
+    }
+  ]
+}

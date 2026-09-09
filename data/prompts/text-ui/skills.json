@@ -1,0 +1,1289 @@
+{
+  "category": "Text, UI & Content",
+  "categorySlug": "text-ui",
+  "subcategory": "Skills",
+  "slug": "skills",
+  "description": "Skills command system for text, ui & content.",
+  "prompts": [
+    {
+      "id": "coach-0",
+      "command": "/coach",
+      "name": "Coach",
+      "description": "Coach workflow directive for skills.",
+      "instruction": "Apply coach with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "coach"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "mentor-1",
+      "command": "/mentor",
+      "name": "Mentor",
+      "description": "Mentor workflow directive for skills.",
+      "instruction": "Apply mentor with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "mentor"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "drill-2",
+      "command": "/drill",
+      "name": "Drill",
+      "description": "Drill workflow directive for skills.",
+      "instruction": "Apply drill with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "drill"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "challenge-3",
+      "command": "/challenge",
+      "name": "Challenge",
+      "description": "Challenge workflow directive for skills.",
+      "instruction": "Apply challenge with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "challenge"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "project-4",
+      "command": "/project",
+      "name": "Project",
+      "description": "Project workflow directive for skills.",
+      "instruction": "Apply project with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "project"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "coach-precise-5",
+      "command": "/coach-precise",
+      "name": "Coach Precise",
+      "description": "Coach Precise workflow directive for skills.",
+      "instruction": "Apply coach precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "coach"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "mentor-clean-6",
+      "command": "/mentor-clean",
+      "name": "Mentor Clean",
+      "description": "Mentor Clean workflow directive for skills.",
+      "instruction": "Apply mentor clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "mentor"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "drill-natural-7",
+      "command": "/drill-natural",
+      "name": "Drill Natural",
+      "description": "Drill Natural workflow directive for skills.",
+      "instruction": "Apply drill natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "drill"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "challenge-refined-8",
+      "command": "/challenge-refined",
+      "name": "Challenge Refined",
+      "description": "Challenge Refined workflow directive for skills.",
+      "instruction": "Apply challenge refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "challenge"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "project-professional-9",
+      "command": "/project-professional",
+      "name": "Project Professional",
+      "description": "Project Professional workflow directive for skills.",
+      "instruction": "Apply project professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "project"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "coach-premium-10",
+      "command": "/coach-premium",
+      "name": "Coach Premium",
+      "description": "Coach Premium workflow directive for skills.",
+      "instruction": "Apply coach premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "coach"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "mentor-subtle-11",
+      "command": "/mentor-subtle",
+      "name": "Mentor Subtle",
+      "description": "Mentor Subtle workflow directive for skills.",
+      "instruction": "Apply mentor subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "mentor"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "drill-strong-12",
+      "command": "/drill-strong",
+      "name": "Drill Strong",
+      "description": "Drill Strong workflow directive for skills.",
+      "instruction": "Apply drill strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "drill"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "challenge-balanced-13",
+      "command": "/challenge-balanced",
+      "name": "Challenge Balanced",
+      "description": "Challenge Balanced workflow directive for skills.",
+      "instruction": "Apply challenge balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "challenge"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "project-detailed-14",
+      "command": "/project-detailed",
+      "name": "Project Detailed",
+      "description": "Project Detailed workflow directive for skills.",
+      "instruction": "Apply project detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "project"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "coach-advanced-15",
+      "command": "/coach-advanced",
+      "name": "Coach Advanced",
+      "description": "Coach Advanced workflow directive for skills.",
+      "instruction": "Apply coach advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "coach"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "mentor-simple-16",
+      "command": "/mentor-simple",
+      "name": "Mentor Simple",
+      "description": "Mentor Simple workflow directive for skills.",
+      "instruction": "Apply mentor simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "mentor"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "drill-smart-17",
+      "command": "/drill-smart",
+      "name": "Drill Smart",
+      "description": "Drill Smart workflow directive for skills.",
+      "instruction": "Apply drill smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "drill"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "challenge-controlled-18",
+      "command": "/challenge-controlled",
+      "name": "Challenge Controlled",
+      "description": "Challenge Controlled workflow directive for skills.",
+      "instruction": "Apply challenge controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "challenge"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "project-optimized-19",
+      "command": "/project-optimized",
+      "name": "Project Optimized",
+      "description": "Project Optimized workflow directive for skills.",
+      "instruction": "Apply project optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "project"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "coach-efficient-20",
+      "command": "/coach-efficient",
+      "name": "Coach Efficient",
+      "description": "Coach Efficient workflow directive for skills.",
+      "instruction": "Apply coach efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "coach"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "mentor-accurate-21",
+      "command": "/mentor-accurate",
+      "name": "Mentor Accurate",
+      "description": "Mentor Accurate workflow directive for skills.",
+      "instruction": "Apply mentor accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "mentor"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "drill-consistent-22",
+      "command": "/drill-consistent",
+      "name": "Drill Consistent",
+      "description": "Drill Consistent workflow directive for skills.",
+      "instruction": "Apply drill consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "drill"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "challenge-polished-23",
+      "command": "/challenge-polished",
+      "name": "Challenge Polished",
+      "description": "Challenge Polished workflow directive for skills.",
+      "instruction": "Apply challenge polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "challenge"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "project-final-24",
+      "command": "/project-final",
+      "name": "Project Final",
+      "description": "Project Final workflow directive for skills.",
+      "instruction": "Apply project final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "project"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "coach-quick-25",
+      "command": "/coach-quick",
+      "name": "Coach Quick",
+      "description": "Coach Quick workflow directive for skills.",
+      "instruction": "Apply coach quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "coach"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "mentor-deep-26",
+      "command": "/mentor-deep",
+      "name": "Mentor Deep",
+      "description": "Mentor Deep workflow directive for skills.",
+      "instruction": "Apply mentor deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "mentor"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "drill-thorough-27",
+      "command": "/drill-thorough",
+      "name": "Drill Thorough",
+      "description": "Drill Thorough workflow directive for skills.",
+      "instruction": "Apply drill thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "drill"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "challenge-minimal-28",
+      "command": "/challenge-minimal",
+      "name": "Challenge Minimal",
+      "description": "Challenge Minimal workflow directive for skills.",
+      "instruction": "Apply challenge minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "challenge"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "project-maximum-29",
+      "command": "/project-maximum",
+      "name": "Project Maximum",
+      "description": "Project Maximum workflow directive for skills.",
+      "instruction": "Apply project maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "project"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "coach-soft-30",
+      "command": "/coach-soft",
+      "name": "Coach Soft",
+      "description": "Coach Soft workflow directive for skills.",
+      "instruction": "Apply coach soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "coach"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "mentor-bold-31",
+      "command": "/mentor-bold",
+      "name": "Mentor Bold",
+      "description": "Mentor Bold workflow directive for skills.",
+      "instruction": "Apply mentor bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "mentor"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "drill-sharp-32",
+      "command": "/drill-sharp",
+      "name": "Drill Sharp",
+      "description": "Drill Sharp workflow directive for skills.",
+      "instruction": "Apply drill sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "drill"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "challenge-smooth-33",
+      "command": "/challenge-smooth",
+      "name": "Challenge Smooth",
+      "description": "Challenge Smooth workflow directive for skills.",
+      "instruction": "Apply challenge smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "challenge"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "project-stable-34",
+      "command": "/project-stable",
+      "name": "Project Stable",
+      "description": "Project Stable workflow directive for skills.",
+      "instruction": "Apply project stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "project"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "coach-highquality-35",
+      "command": "/coach-highquality",
+      "name": "Coach Highquality",
+      "description": "Coach Highquality workflow directive for skills.",
+      "instruction": "Apply coach highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "coach"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "mentor-lowartifact-36",
+      "command": "/mentor-lowartifact",
+      "name": "Mentor Lowartifact",
+      "description": "Mentor Lowartifact workflow directive for skills.",
+      "instruction": "Apply mentor lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "mentor"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "drill-highdetail-37",
+      "command": "/drill-highdetail",
+      "name": "Drill Highdetail",
+      "description": "Drill Highdetail workflow directive for skills.",
+      "instruction": "Apply drill highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "drill"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "challenge-fine-38",
+      "command": "/challenge-fine",
+      "name": "Challenge Fine",
+      "description": "Challenge Fine workflow directive for skills.",
+      "instruction": "Apply challenge fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "challenge"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "project-micro-39",
+      "command": "/project-micro",
+      "name": "Project Micro",
+      "description": "Project Micro workflow directive for skills.",
+      "instruction": "Apply project micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "project"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "coach-macro-40",
+      "command": "/coach-macro",
+      "name": "Coach Macro",
+      "description": "Coach Macro workflow directive for skills.",
+      "instruction": "Apply coach macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "coach"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "mentor-local-41",
+      "command": "/mentor-local",
+      "name": "Mentor Local",
+      "description": "Mentor Local workflow directive for skills.",
+      "instruction": "Apply mentor local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "mentor"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "drill-global-42",
+      "command": "/drill-global",
+      "name": "Drill Global",
+      "description": "Drill Global workflow directive for skills.",
+      "instruction": "Apply drill global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "drill"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "challenge-adaptive-43",
+      "command": "/challenge-adaptive",
+      "name": "Challenge Adaptive",
+      "description": "Challenge Adaptive workflow directive for skills.",
+      "instruction": "Apply challenge adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "challenge"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "project-contextual-44",
+      "command": "/project-contextual",
+      "name": "Project Contextual",
+      "description": "Project Contextual workflow directive for skills.",
+      "instruction": "Apply project contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "project"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "coach-realistic-45",
+      "command": "/coach-realistic",
+      "name": "Coach Realistic",
+      "description": "Coach Realistic workflow directive for skills.",
+      "instruction": "Apply coach realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "coach"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "mentor-cinematic-46",
+      "command": "/mentor-cinematic",
+      "name": "Mentor Cinematic",
+      "description": "Mentor Cinematic workflow directive for skills.",
+      "instruction": "Apply mentor cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "mentor"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "drill-modern-47",
+      "command": "/drill-modern",
+      "name": "Drill Modern",
+      "description": "Drill Modern workflow directive for skills.",
+      "instruction": "Apply drill modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "drill"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "challenge-classic-48",
+      "command": "/challenge-classic",
+      "name": "Challenge Classic",
+      "description": "Challenge Classic workflow directive for skills.",
+      "instruction": "Apply challenge classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "challenge"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "project-technical-49",
+      "command": "/project-technical",
+      "name": "Project Technical",
+      "description": "Project Technical workflow directive for skills.",
+      "instruction": "Apply project technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "project"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "coach-creative-50",
+      "command": "/coach-creative",
+      "name": "Coach Creative",
+      "description": "Coach Creative workflow directive for skills.",
+      "instruction": "Apply coach creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "coach"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "mentor-editorial-51",
+      "command": "/mentor-editorial",
+      "name": "Mentor Editorial",
+      "description": "Mentor Editorial workflow directive for skills.",
+      "instruction": "Apply mentor editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "mentor"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "drill-production-52",
+      "command": "/drill-production",
+      "name": "Drill Production",
+      "description": "Drill Production workflow directive for skills.",
+      "instruction": "Apply drill production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "drill"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "challenge-studio-53",
+      "command": "/challenge-studio",
+      "name": "Challenge Studio",
+      "description": "Challenge Studio workflow directive for skills.",
+      "instruction": "Apply challenge studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "challenge"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "project-portable-54",
+      "command": "/project-portable",
+      "name": "Project Portable",
+      "description": "Project Portable workflow directive for skills.",
+      "instruction": "Apply project portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "project"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "coach-safe-55",
+      "command": "/coach-safe",
+      "name": "Coach Safe",
+      "description": "Coach Safe workflow directive for skills.",
+      "instruction": "Apply coach safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "coach"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "mentor-robust-56",
+      "command": "/mentor-robust",
+      "name": "Mentor Robust",
+      "description": "Mentor Robust workflow directive for skills.",
+      "instruction": "Apply mentor robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "mentor"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "drill-reliable-57",
+      "command": "/drill-reliable",
+      "name": "Drill Reliable",
+      "description": "Drill Reliable workflow directive for skills.",
+      "instruction": "Apply drill reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "drill"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "challenge-scalable-58",
+      "command": "/challenge-scalable",
+      "name": "Challenge Scalable",
+      "description": "Challenge Scalable workflow directive for skills.",
+      "instruction": "Apply challenge scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "challenge"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "project-maintainable-59",
+      "command": "/project-maintainable",
+      "name": "Project Maintainable",
+      "description": "Project Maintainable workflow directive for skills.",
+      "instruction": "Apply project maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "project"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "coach-accessible-60",
+      "command": "/coach-accessible",
+      "name": "Coach Accessible",
+      "description": "Coach Accessible workflow directive for skills.",
+      "instruction": "Apply coach accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "coach"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "mentor-responsive-61",
+      "command": "/mentor-responsive",
+      "name": "Mentor Responsive",
+      "description": "Mentor Responsive workflow directive for skills.",
+      "instruction": "Apply mentor responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "mentor"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "drill-structured-62",
+      "command": "/drill-structured",
+      "name": "Drill Structured",
+      "description": "Drill Structured workflow directive for skills.",
+      "instruction": "Apply drill structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "drill"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    },
+    {
+      "id": "challenge-compact-63",
+      "command": "/challenge-compact",
+      "name": "Challenge Compact",
+      "description": "Challenge Compact workflow directive for skills.",
+      "instruction": "Apply challenge compact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "skills",
+        "learning-and-education",
+        "challenge"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Skills"
+    }
+  ]
+}

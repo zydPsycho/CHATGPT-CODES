@@ -1,0 +1,1289 @@
+{
+  "category": "Quality & Restoration",
+  "categorySlug": "quality",
+  "subcategory": "Analysis",
+  "slug": "analysis",
+  "description": "Analysis command system for quality & restoration.",
+  "prompts": [
+    {
+      "id": "analyze-0",
+      "command": "/analyze",
+      "name": "Analyze",
+      "description": "Analyze workflow directive for analysis.",
+      "instruction": "Apply analyze with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "analyze"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "trend-1",
+      "command": "/trend",
+      "name": "Trend",
+      "description": "Trend workflow directive for analysis.",
+      "instruction": "Apply trend with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "trend"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "correlation-2",
+      "command": "/correlation",
+      "name": "Correlation",
+      "description": "Correlation workflow directive for analysis.",
+      "instruction": "Apply correlation with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "correlation"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "segment-3",
+      "command": "/segment",
+      "name": "Segment",
+      "description": "Segment workflow directive for analysis.",
+      "instruction": "Apply segment with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "segment"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "forecast-4",
+      "command": "/forecast",
+      "name": "Forecast",
+      "description": "Forecast workflow directive for analysis.",
+      "instruction": "Apply forecast with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "forecast"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "benchmark-5",
+      "command": "/benchmark",
+      "name": "Benchmark",
+      "description": "Benchmark workflow directive for analysis.",
+      "instruction": "Apply benchmark with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "benchmark"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "analyze-precise-6",
+      "command": "/analyze-precise",
+      "name": "Analyze Precise",
+      "description": "Analyze Precise workflow directive for analysis.",
+      "instruction": "Apply analyze precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "analyze"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "trend-clean-7",
+      "command": "/trend-clean",
+      "name": "Trend Clean",
+      "description": "Trend Clean workflow directive for analysis.",
+      "instruction": "Apply trend clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "trend"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "correlation-natural-8",
+      "command": "/correlation-natural",
+      "name": "Correlation Natural",
+      "description": "Correlation Natural workflow directive for analysis.",
+      "instruction": "Apply correlation natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "correlation"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "segment-refined-9",
+      "command": "/segment-refined",
+      "name": "Segment Refined",
+      "description": "Segment Refined workflow directive for analysis.",
+      "instruction": "Apply segment refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "segment"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "forecast-professional-10",
+      "command": "/forecast-professional",
+      "name": "Forecast Professional",
+      "description": "Forecast Professional workflow directive for analysis.",
+      "instruction": "Apply forecast professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "forecast"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "benchmark-premium-11",
+      "command": "/benchmark-premium",
+      "name": "Benchmark Premium",
+      "description": "Benchmark Premium workflow directive for analysis.",
+      "instruction": "Apply benchmark premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "benchmark"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "analyze-subtle-12",
+      "command": "/analyze-subtle",
+      "name": "Analyze Subtle",
+      "description": "Analyze Subtle workflow directive for analysis.",
+      "instruction": "Apply analyze subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "analyze"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "trend-strong-13",
+      "command": "/trend-strong",
+      "name": "Trend Strong",
+      "description": "Trend Strong workflow directive for analysis.",
+      "instruction": "Apply trend strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "trend"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "correlation-balanced-14",
+      "command": "/correlation-balanced",
+      "name": "Correlation Balanced",
+      "description": "Correlation Balanced workflow directive for analysis.",
+      "instruction": "Apply correlation balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "correlation"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "segment-detailed-15",
+      "command": "/segment-detailed",
+      "name": "Segment Detailed",
+      "description": "Segment Detailed workflow directive for analysis.",
+      "instruction": "Apply segment detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "segment"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "forecast-advanced-16",
+      "command": "/forecast-advanced",
+      "name": "Forecast Advanced",
+      "description": "Forecast Advanced workflow directive for analysis.",
+      "instruction": "Apply forecast advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "forecast"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "benchmark-simple-17",
+      "command": "/benchmark-simple",
+      "name": "Benchmark Simple",
+      "description": "Benchmark Simple workflow directive for analysis.",
+      "instruction": "Apply benchmark simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "benchmark"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "analyze-smart-18",
+      "command": "/analyze-smart",
+      "name": "Analyze Smart",
+      "description": "Analyze Smart workflow directive for analysis.",
+      "instruction": "Apply analyze smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "analyze"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "trend-controlled-19",
+      "command": "/trend-controlled",
+      "name": "Trend Controlled",
+      "description": "Trend Controlled workflow directive for analysis.",
+      "instruction": "Apply trend controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "trend"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "correlation-optimized-20",
+      "command": "/correlation-optimized",
+      "name": "Correlation Optimized",
+      "description": "Correlation Optimized workflow directive for analysis.",
+      "instruction": "Apply correlation optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "correlation"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "segment-efficient-21",
+      "command": "/segment-efficient",
+      "name": "Segment Efficient",
+      "description": "Segment Efficient workflow directive for analysis.",
+      "instruction": "Apply segment efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "segment"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "forecast-accurate-22",
+      "command": "/forecast-accurate",
+      "name": "Forecast Accurate",
+      "description": "Forecast Accurate workflow directive for analysis.",
+      "instruction": "Apply forecast accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "forecast"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "benchmark-consistent-23",
+      "command": "/benchmark-consistent",
+      "name": "Benchmark Consistent",
+      "description": "Benchmark Consistent workflow directive for analysis.",
+      "instruction": "Apply benchmark consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "benchmark"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "analyze-polished-24",
+      "command": "/analyze-polished",
+      "name": "Analyze Polished",
+      "description": "Analyze Polished workflow directive for analysis.",
+      "instruction": "Apply analyze polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "analyze"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "trend-final-25",
+      "command": "/trend-final",
+      "name": "Trend Final",
+      "description": "Trend Final workflow directive for analysis.",
+      "instruction": "Apply trend final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "trend"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "correlation-quick-26",
+      "command": "/correlation-quick",
+      "name": "Correlation Quick",
+      "description": "Correlation Quick workflow directive for analysis.",
+      "instruction": "Apply correlation quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "correlation"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "segment-deep-27",
+      "command": "/segment-deep",
+      "name": "Segment Deep",
+      "description": "Segment Deep workflow directive for analysis.",
+      "instruction": "Apply segment deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "segment"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "forecast-thorough-28",
+      "command": "/forecast-thorough",
+      "name": "Forecast Thorough",
+      "description": "Forecast Thorough workflow directive for analysis.",
+      "instruction": "Apply forecast thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "forecast"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "benchmark-minimal-29",
+      "command": "/benchmark-minimal",
+      "name": "Benchmark Minimal",
+      "description": "Benchmark Minimal workflow directive for analysis.",
+      "instruction": "Apply benchmark minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "benchmark"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "analyze-maximum-30",
+      "command": "/analyze-maximum",
+      "name": "Analyze Maximum",
+      "description": "Analyze Maximum workflow directive for analysis.",
+      "instruction": "Apply analyze maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "analyze"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "trend-soft-31",
+      "command": "/trend-soft",
+      "name": "Trend Soft",
+      "description": "Trend Soft workflow directive for analysis.",
+      "instruction": "Apply trend soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "trend"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "correlation-bold-32",
+      "command": "/correlation-bold",
+      "name": "Correlation Bold",
+      "description": "Correlation Bold workflow directive for analysis.",
+      "instruction": "Apply correlation bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "correlation"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "segment-sharp-33",
+      "command": "/segment-sharp",
+      "name": "Segment Sharp",
+      "description": "Segment Sharp workflow directive for analysis.",
+      "instruction": "Apply segment sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "segment"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "forecast-smooth-34",
+      "command": "/forecast-smooth",
+      "name": "Forecast Smooth",
+      "description": "Forecast Smooth workflow directive for analysis.",
+      "instruction": "Apply forecast smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "forecast"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "benchmark-stable-35",
+      "command": "/benchmark-stable",
+      "name": "Benchmark Stable",
+      "description": "Benchmark Stable workflow directive for analysis.",
+      "instruction": "Apply benchmark stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "benchmark"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "analyze-highquality-36",
+      "command": "/analyze-highquality",
+      "name": "Analyze Highquality",
+      "description": "Analyze Highquality workflow directive for analysis.",
+      "instruction": "Apply analyze highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "analyze"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "trend-lowartifact-37",
+      "command": "/trend-lowartifact",
+      "name": "Trend Lowartifact",
+      "description": "Trend Lowartifact workflow directive for analysis.",
+      "instruction": "Apply trend lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "trend"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "correlation-highdetail-38",
+      "command": "/correlation-highdetail",
+      "name": "Correlation Highdetail",
+      "description": "Correlation Highdetail workflow directive for analysis.",
+      "instruction": "Apply correlation highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "correlation"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "segment-fine-39",
+      "command": "/segment-fine",
+      "name": "Segment Fine",
+      "description": "Segment Fine workflow directive for analysis.",
+      "instruction": "Apply segment fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "segment"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "forecast-micro-40",
+      "command": "/forecast-micro",
+      "name": "Forecast Micro",
+      "description": "Forecast Micro workflow directive for analysis.",
+      "instruction": "Apply forecast micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "forecast"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "benchmark-macro-41",
+      "command": "/benchmark-macro",
+      "name": "Benchmark Macro",
+      "description": "Benchmark Macro workflow directive for analysis.",
+      "instruction": "Apply benchmark macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "benchmark"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "analyze-local-42",
+      "command": "/analyze-local",
+      "name": "Analyze Local",
+      "description": "Analyze Local workflow directive for analysis.",
+      "instruction": "Apply analyze local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "analyze"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "trend-global-43",
+      "command": "/trend-global",
+      "name": "Trend Global",
+      "description": "Trend Global workflow directive for analysis.",
+      "instruction": "Apply trend global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "trend"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "correlation-adaptive-44",
+      "command": "/correlation-adaptive",
+      "name": "Correlation Adaptive",
+      "description": "Correlation Adaptive workflow directive for analysis.",
+      "instruction": "Apply correlation adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "correlation"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "segment-contextual-45",
+      "command": "/segment-contextual",
+      "name": "Segment Contextual",
+      "description": "Segment Contextual workflow directive for analysis.",
+      "instruction": "Apply segment contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "segment"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "forecast-realistic-46",
+      "command": "/forecast-realistic",
+      "name": "Forecast Realistic",
+      "description": "Forecast Realistic workflow directive for analysis.",
+      "instruction": "Apply forecast realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "forecast"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "benchmark-cinematic-47",
+      "command": "/benchmark-cinematic",
+      "name": "Benchmark Cinematic",
+      "description": "Benchmark Cinematic workflow directive for analysis.",
+      "instruction": "Apply benchmark cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "benchmark"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "analyze-modern-48",
+      "command": "/analyze-modern",
+      "name": "Analyze Modern",
+      "description": "Analyze Modern workflow directive for analysis.",
+      "instruction": "Apply analyze modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "analyze"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "trend-classic-49",
+      "command": "/trend-classic",
+      "name": "Trend Classic",
+      "description": "Trend Classic workflow directive for analysis.",
+      "instruction": "Apply trend classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "trend"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "correlation-technical-50",
+      "command": "/correlation-technical",
+      "name": "Correlation Technical",
+      "description": "Correlation Technical workflow directive for analysis.",
+      "instruction": "Apply correlation technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "correlation"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "segment-creative-51",
+      "command": "/segment-creative",
+      "name": "Segment Creative",
+      "description": "Segment Creative workflow directive for analysis.",
+      "instruction": "Apply segment creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "segment"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "forecast-editorial-52",
+      "command": "/forecast-editorial",
+      "name": "Forecast Editorial",
+      "description": "Forecast Editorial workflow directive for analysis.",
+      "instruction": "Apply forecast editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "forecast"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "benchmark-production-53",
+      "command": "/benchmark-production",
+      "name": "Benchmark Production",
+      "description": "Benchmark Production workflow directive for analysis.",
+      "instruction": "Apply benchmark production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "benchmark"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "analyze-studio-54",
+      "command": "/analyze-studio",
+      "name": "Analyze Studio",
+      "description": "Analyze Studio workflow directive for analysis.",
+      "instruction": "Apply analyze studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "analyze"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "trend-portable-55",
+      "command": "/trend-portable",
+      "name": "Trend Portable",
+      "description": "Trend Portable workflow directive for analysis.",
+      "instruction": "Apply trend portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "trend"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "correlation-safe-56",
+      "command": "/correlation-safe",
+      "name": "Correlation Safe",
+      "description": "Correlation Safe workflow directive for analysis.",
+      "instruction": "Apply correlation safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "correlation"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "segment-robust-57",
+      "command": "/segment-robust",
+      "name": "Segment Robust",
+      "description": "Segment Robust workflow directive for analysis.",
+      "instruction": "Apply segment robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "segment"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "forecast-reliable-58",
+      "command": "/forecast-reliable",
+      "name": "Forecast Reliable",
+      "description": "Forecast Reliable workflow directive for analysis.",
+      "instruction": "Apply forecast reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "forecast"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "benchmark-scalable-59",
+      "command": "/benchmark-scalable",
+      "name": "Benchmark Scalable",
+      "description": "Benchmark Scalable workflow directive for analysis.",
+      "instruction": "Apply benchmark scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "benchmark"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "analyze-maintainable-60",
+      "command": "/analyze-maintainable",
+      "name": "Analyze Maintainable",
+      "description": "Analyze Maintainable workflow directive for analysis.",
+      "instruction": "Apply analyze maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "analyze"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "trend-accessible-61",
+      "command": "/trend-accessible",
+      "name": "Trend Accessible",
+      "description": "Trend Accessible workflow directive for analysis.",
+      "instruction": "Apply trend accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "trend"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "correlation-responsive-62",
+      "command": "/correlation-responsive",
+      "name": "Correlation Responsive",
+      "description": "Correlation Responsive workflow directive for analysis.",
+      "instruction": "Apply correlation responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "correlation"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    },
+    {
+      "id": "segment-structured-63",
+      "command": "/segment-structured",
+      "name": "Segment Structured",
+      "description": "Segment Structured workflow directive for analysis.",
+      "instruction": "Apply segment structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "analysis",
+        "data-and-analytics",
+        "segment"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Analysis"
+    }
+  ]
+}

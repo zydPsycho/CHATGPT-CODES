@@ -1,0 +1,1289 @@
+{
+  "category": "Quality & Restoration",
+  "categorySlug": "quality",
+  "subcategory": "Data Cleaning",
+  "slug": "data-cleaning",
+  "description": "Data Cleaning command system for quality & restoration.",
+  "prompts": [
+    {
+      "id": "clean-0",
+      "command": "/clean",
+      "name": "Clean",
+      "description": "Clean workflow directive for data cleaning.",
+      "instruction": "Apply clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "clean"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "normalize-1",
+      "command": "/normalize",
+      "name": "Normalize",
+      "description": "Normalize workflow directive for data cleaning.",
+      "instruction": "Apply normalize with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "normalize"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "dedupe-2",
+      "command": "/dedupe",
+      "name": "Dedupe",
+      "description": "Dedupe workflow directive for data cleaning.",
+      "instruction": "Apply dedupe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "dedupe"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "validate-3",
+      "command": "/validate",
+      "name": "Validate",
+      "description": "Validate workflow directive for data cleaning.",
+      "instruction": "Apply validate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "validate"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "transform-4",
+      "command": "/transform",
+      "name": "Transform",
+      "description": "Transform workflow directive for data cleaning.",
+      "instruction": "Apply transform with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "transform"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "clean-precise-5",
+      "command": "/clean-precise",
+      "name": "Clean Precise",
+      "description": "Clean Precise workflow directive for data cleaning.",
+      "instruction": "Apply clean precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "clean"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "normalize-clean-6",
+      "command": "/normalize-clean",
+      "name": "Normalize Clean",
+      "description": "Normalize Clean workflow directive for data cleaning.",
+      "instruction": "Apply normalize clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "normalize"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "dedupe-natural-7",
+      "command": "/dedupe-natural",
+      "name": "Dedupe Natural",
+      "description": "Dedupe Natural workflow directive for data cleaning.",
+      "instruction": "Apply dedupe natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "dedupe"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "validate-refined-8",
+      "command": "/validate-refined",
+      "name": "Validate Refined",
+      "description": "Validate Refined workflow directive for data cleaning.",
+      "instruction": "Apply validate refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "validate"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "transform-professional-9",
+      "command": "/transform-professional",
+      "name": "Transform Professional",
+      "description": "Transform Professional workflow directive for data cleaning.",
+      "instruction": "Apply transform professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "transform"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "clean-premium-10",
+      "command": "/clean-premium",
+      "name": "Clean Premium",
+      "description": "Clean Premium workflow directive for data cleaning.",
+      "instruction": "Apply clean premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "clean"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "normalize-subtle-11",
+      "command": "/normalize-subtle",
+      "name": "Normalize Subtle",
+      "description": "Normalize Subtle workflow directive for data cleaning.",
+      "instruction": "Apply normalize subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "normalize"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "dedupe-strong-12",
+      "command": "/dedupe-strong",
+      "name": "Dedupe Strong",
+      "description": "Dedupe Strong workflow directive for data cleaning.",
+      "instruction": "Apply dedupe strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "dedupe"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "validate-balanced-13",
+      "command": "/validate-balanced",
+      "name": "Validate Balanced",
+      "description": "Validate Balanced workflow directive for data cleaning.",
+      "instruction": "Apply validate balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "validate"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "transform-detailed-14",
+      "command": "/transform-detailed",
+      "name": "Transform Detailed",
+      "description": "Transform Detailed workflow directive for data cleaning.",
+      "instruction": "Apply transform detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "transform"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "clean-advanced-15",
+      "command": "/clean-advanced",
+      "name": "Clean Advanced",
+      "description": "Clean Advanced workflow directive for data cleaning.",
+      "instruction": "Apply clean advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "clean"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "normalize-simple-16",
+      "command": "/normalize-simple",
+      "name": "Normalize Simple",
+      "description": "Normalize Simple workflow directive for data cleaning.",
+      "instruction": "Apply normalize simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "normalize"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "dedupe-smart-17",
+      "command": "/dedupe-smart",
+      "name": "Dedupe Smart",
+      "description": "Dedupe Smart workflow directive for data cleaning.",
+      "instruction": "Apply dedupe smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "dedupe"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "validate-controlled-18",
+      "command": "/validate-controlled",
+      "name": "Validate Controlled",
+      "description": "Validate Controlled workflow directive for data cleaning.",
+      "instruction": "Apply validate controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "validate"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "transform-optimized-19",
+      "command": "/transform-optimized",
+      "name": "Transform Optimized",
+      "description": "Transform Optimized workflow directive for data cleaning.",
+      "instruction": "Apply transform optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "transform"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "clean-efficient-20",
+      "command": "/clean-efficient",
+      "name": "Clean Efficient",
+      "description": "Clean Efficient workflow directive for data cleaning.",
+      "instruction": "Apply clean efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "clean"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "normalize-accurate-21",
+      "command": "/normalize-accurate",
+      "name": "Normalize Accurate",
+      "description": "Normalize Accurate workflow directive for data cleaning.",
+      "instruction": "Apply normalize accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "normalize"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "dedupe-consistent-22",
+      "command": "/dedupe-consistent",
+      "name": "Dedupe Consistent",
+      "description": "Dedupe Consistent workflow directive for data cleaning.",
+      "instruction": "Apply dedupe consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "dedupe"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "validate-polished-23",
+      "command": "/validate-polished",
+      "name": "Validate Polished",
+      "description": "Validate Polished workflow directive for data cleaning.",
+      "instruction": "Apply validate polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "validate"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "transform-final-24",
+      "command": "/transform-final",
+      "name": "Transform Final",
+      "description": "Transform Final workflow directive for data cleaning.",
+      "instruction": "Apply transform final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "transform"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "clean-quick-25",
+      "command": "/clean-quick",
+      "name": "Clean Quick",
+      "description": "Clean Quick workflow directive for data cleaning.",
+      "instruction": "Apply clean quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "clean"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "normalize-deep-26",
+      "command": "/normalize-deep",
+      "name": "Normalize Deep",
+      "description": "Normalize Deep workflow directive for data cleaning.",
+      "instruction": "Apply normalize deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "normalize"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "dedupe-thorough-27",
+      "command": "/dedupe-thorough",
+      "name": "Dedupe Thorough",
+      "description": "Dedupe Thorough workflow directive for data cleaning.",
+      "instruction": "Apply dedupe thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "dedupe"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "validate-minimal-28",
+      "command": "/validate-minimal",
+      "name": "Validate Minimal",
+      "description": "Validate Minimal workflow directive for data cleaning.",
+      "instruction": "Apply validate minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "validate"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "transform-maximum-29",
+      "command": "/transform-maximum",
+      "name": "Transform Maximum",
+      "description": "Transform Maximum workflow directive for data cleaning.",
+      "instruction": "Apply transform maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "transform"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "clean-soft-30",
+      "command": "/clean-soft",
+      "name": "Clean Soft",
+      "description": "Clean Soft workflow directive for data cleaning.",
+      "instruction": "Apply clean soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "clean"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "normalize-bold-31",
+      "command": "/normalize-bold",
+      "name": "Normalize Bold",
+      "description": "Normalize Bold workflow directive for data cleaning.",
+      "instruction": "Apply normalize bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "normalize"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "dedupe-sharp-32",
+      "command": "/dedupe-sharp",
+      "name": "Dedupe Sharp",
+      "description": "Dedupe Sharp workflow directive for data cleaning.",
+      "instruction": "Apply dedupe sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "dedupe"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "validate-smooth-33",
+      "command": "/validate-smooth",
+      "name": "Validate Smooth",
+      "description": "Validate Smooth workflow directive for data cleaning.",
+      "instruction": "Apply validate smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "validate"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "transform-stable-34",
+      "command": "/transform-stable",
+      "name": "Transform Stable",
+      "description": "Transform Stable workflow directive for data cleaning.",
+      "instruction": "Apply transform stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "transform"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "clean-highquality-35",
+      "command": "/clean-highquality",
+      "name": "Clean Highquality",
+      "description": "Clean Highquality workflow directive for data cleaning.",
+      "instruction": "Apply clean highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "clean"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "normalize-lowartifact-36",
+      "command": "/normalize-lowartifact",
+      "name": "Normalize Lowartifact",
+      "description": "Normalize Lowartifact workflow directive for data cleaning.",
+      "instruction": "Apply normalize lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "normalize"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "dedupe-highdetail-37",
+      "command": "/dedupe-highdetail",
+      "name": "Dedupe Highdetail",
+      "description": "Dedupe Highdetail workflow directive for data cleaning.",
+      "instruction": "Apply dedupe highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "dedupe"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "validate-fine-38",
+      "command": "/validate-fine",
+      "name": "Validate Fine",
+      "description": "Validate Fine workflow directive for data cleaning.",
+      "instruction": "Apply validate fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "validate"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "transform-micro-39",
+      "command": "/transform-micro",
+      "name": "Transform Micro",
+      "description": "Transform Micro workflow directive for data cleaning.",
+      "instruction": "Apply transform micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "transform"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "clean-macro-40",
+      "command": "/clean-macro",
+      "name": "Clean Macro",
+      "description": "Clean Macro workflow directive for data cleaning.",
+      "instruction": "Apply clean macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "clean"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "normalize-local-41",
+      "command": "/normalize-local",
+      "name": "Normalize Local",
+      "description": "Normalize Local workflow directive for data cleaning.",
+      "instruction": "Apply normalize local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "normalize"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "dedupe-global-42",
+      "command": "/dedupe-global",
+      "name": "Dedupe Global",
+      "description": "Dedupe Global workflow directive for data cleaning.",
+      "instruction": "Apply dedupe global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "dedupe"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "validate-adaptive-43",
+      "command": "/validate-adaptive",
+      "name": "Validate Adaptive",
+      "description": "Validate Adaptive workflow directive for data cleaning.",
+      "instruction": "Apply validate adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "validate"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "transform-contextual-44",
+      "command": "/transform-contextual",
+      "name": "Transform Contextual",
+      "description": "Transform Contextual workflow directive for data cleaning.",
+      "instruction": "Apply transform contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "transform"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "clean-realistic-45",
+      "command": "/clean-realistic",
+      "name": "Clean Realistic",
+      "description": "Clean Realistic workflow directive for data cleaning.",
+      "instruction": "Apply clean realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "clean"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "normalize-cinematic-46",
+      "command": "/normalize-cinematic",
+      "name": "Normalize Cinematic",
+      "description": "Normalize Cinematic workflow directive for data cleaning.",
+      "instruction": "Apply normalize cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "normalize"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "dedupe-modern-47",
+      "command": "/dedupe-modern",
+      "name": "Dedupe Modern",
+      "description": "Dedupe Modern workflow directive for data cleaning.",
+      "instruction": "Apply dedupe modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "dedupe"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "validate-classic-48",
+      "command": "/validate-classic",
+      "name": "Validate Classic",
+      "description": "Validate Classic workflow directive for data cleaning.",
+      "instruction": "Apply validate classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "validate"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "transform-technical-49",
+      "command": "/transform-technical",
+      "name": "Transform Technical",
+      "description": "Transform Technical workflow directive for data cleaning.",
+      "instruction": "Apply transform technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "transform"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "clean-creative-50",
+      "command": "/clean-creative",
+      "name": "Clean Creative",
+      "description": "Clean Creative workflow directive for data cleaning.",
+      "instruction": "Apply clean creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "clean"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "normalize-editorial-51",
+      "command": "/normalize-editorial",
+      "name": "Normalize Editorial",
+      "description": "Normalize Editorial workflow directive for data cleaning.",
+      "instruction": "Apply normalize editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "normalize"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "dedupe-production-52",
+      "command": "/dedupe-production",
+      "name": "Dedupe Production",
+      "description": "Dedupe Production workflow directive for data cleaning.",
+      "instruction": "Apply dedupe production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "dedupe"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "validate-studio-53",
+      "command": "/validate-studio",
+      "name": "Validate Studio",
+      "description": "Validate Studio workflow directive for data cleaning.",
+      "instruction": "Apply validate studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "validate"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "transform-portable-54",
+      "command": "/transform-portable",
+      "name": "Transform Portable",
+      "description": "Transform Portable workflow directive for data cleaning.",
+      "instruction": "Apply transform portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "transform"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "clean-safe-55",
+      "command": "/clean-safe",
+      "name": "Clean Safe",
+      "description": "Clean Safe workflow directive for data cleaning.",
+      "instruction": "Apply clean safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "clean"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "normalize-robust-56",
+      "command": "/normalize-robust",
+      "name": "Normalize Robust",
+      "description": "Normalize Robust workflow directive for data cleaning.",
+      "instruction": "Apply normalize robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "normalize"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "dedupe-reliable-57",
+      "command": "/dedupe-reliable",
+      "name": "Dedupe Reliable",
+      "description": "Dedupe Reliable workflow directive for data cleaning.",
+      "instruction": "Apply dedupe reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "dedupe"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "validate-scalable-58",
+      "command": "/validate-scalable",
+      "name": "Validate Scalable",
+      "description": "Validate Scalable workflow directive for data cleaning.",
+      "instruction": "Apply validate scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "validate"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "transform-maintainable-59",
+      "command": "/transform-maintainable",
+      "name": "Transform Maintainable",
+      "description": "Transform Maintainable workflow directive for data cleaning.",
+      "instruction": "Apply transform maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "transform"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "clean-accessible-60",
+      "command": "/clean-accessible",
+      "name": "Clean Accessible",
+      "description": "Clean Accessible workflow directive for data cleaning.",
+      "instruction": "Apply clean accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "clean"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "normalize-responsive-61",
+      "command": "/normalize-responsive",
+      "name": "Normalize Responsive",
+      "description": "Normalize Responsive workflow directive for data cleaning.",
+      "instruction": "Apply normalize responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "normalize"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "dedupe-structured-62",
+      "command": "/dedupe-structured",
+      "name": "Dedupe Structured",
+      "description": "Dedupe Structured workflow directive for data cleaning.",
+      "instruction": "Apply dedupe structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "dedupe"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    },
+    {
+      "id": "validate-compact-63",
+      "command": "/validate-compact",
+      "name": "Validate Compact",
+      "description": "Validate Compact workflow directive for data cleaning.",
+      "instruction": "Apply validate compact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "data-cleaning",
+        "data-and-analytics",
+        "validate"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Data Cleaning"
+    }
+  ]
+}

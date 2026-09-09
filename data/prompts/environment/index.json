@@ -1,0 +1,127 @@
+{
+  "category": "Environment & Atmosphere",
+  "slug": "environment",
+  "description": "Build context, research, strategy and workflows.",
+  "subcategories": [
+    {
+      "name": "Research",
+      "slug": "research",
+      "file": "/data/prompts/environment/research.json",
+      "count": 64
+    },
+    {
+      "name": "Deep Reasoning",
+      "slug": "deep-reasoning",
+      "file": "/data/prompts/environment/deep-reasoning.json",
+      "count": 64
+    },
+    {
+      "name": "Synthesis",
+      "slug": "synthesis",
+      "file": "/data/prompts/environment/synthesis.json",
+      "count": 64
+    },
+    {
+      "name": "Decision Support",
+      "slug": "decision-support",
+      "file": "/data/prompts/environment/decision-support.json",
+      "count": 64
+    },
+    {
+      "name": "Planning",
+      "slug": "planning",
+      "file": "/data/prompts/environment/planning.json",
+      "count": 64
+    },
+    {
+      "name": "Tasks",
+      "slug": "tasks",
+      "file": "/data/prompts/environment/tasks.json",
+      "count": 64
+    },
+    {
+      "name": "Notes",
+      "slug": "notes",
+      "file": "/data/prompts/environment/notes.json",
+      "count": 64
+    },
+    {
+      "name": "Focus",
+      "slug": "focus",
+      "file": "/data/prompts/environment/focus.json",
+      "count": 64
+    },
+    {
+      "name": "Strategy",
+      "slug": "strategy",
+      "file": "/data/prompts/environment/strategy.json",
+      "count": 64
+    },
+    {
+      "name": "Marketing",
+      "slug": "marketing",
+      "file": "/data/prompts/environment/marketing.json",
+      "count": 64
+    },
+    {
+      "name": "Product",
+      "slug": "product",
+      "file": "/data/prompts/environment/product.json",
+      "count": 64
+    },
+    {
+      "name": "Operations",
+      "slug": "operations",
+      "file": "/data/prompts/environment/operations.json",
+      "count": 64
+    },
+    {
+      "name": "Search",
+      "slug": "search",
+      "file": "/data/prompts/environment/search.json",
+      "count": 64
+    },
+    {
+      "name": "Web Research",
+      "slug": "web-research",
+      "file": "/data/prompts/environment/web-research.json",
+      "count": 64
+    },
+    {
+      "name": "Verification",
+      "slug": "verification",
+      "file": "/data/prompts/environment/verification.json",
+      "count": 64
+    },
+    {
+      "name": "Summaries",
+      "slug": "summaries",
+      "file": "/data/prompts/environment/summaries.json",
+      "count": 64
+    },
+    {
+      "name": "Workflow",
+      "slug": "workflow",
+      "file": "/data/prompts/environment/workflow.json",
+      "count": 64
+    },
+    {
+      "name": "Automation",
+      "slug": "automation",
+      "file": "/data/prompts/environment/automation.json",
+      "count": 64
+    },
+    {
+      "name": "Integration",
+      "slug": "integration",
+      "file": "/data/prompts/environment/integration.json",
+      "count": 64
+    },
+    {
+      "name": "Operations",
+      "slug": "operations",
+      "file": "/data/prompts/environment/operations.json",
+      "count": 64
+    }
+  ]
+}

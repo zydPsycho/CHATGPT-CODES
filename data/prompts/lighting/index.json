@@ -1,0 +1,31 @@
+{
+  "category": "Lighting & Color",
+  "slug": "lighting",
+  "description": "Control mood, color, atmosphere and illumination.",
+  "subcategories": [
+    {
+      "name": "Lighting",
+      "slug": "lighting",
+      "file": "/data/prompts/lighting/lighting.json",
+      "count": 64
+    },
+    {
+      "name": "Color",
+      "slug": "color",
+      "file": "/data/prompts/lighting/color.json",
+      "count": 64
+    },
+    {
+      "name": "Time & Weather",
+      "slug": "time-and-weather",
+      "file": "/data/prompts/lighting/time-and-weather.json",
+      "count": 64
+    },
+    {
+      "name": "Mood",
+      "slug": "mood",
+      "file": "/data/prompts/lighting/mood.json",
+      "count": 64
+    }
+  ]
+}

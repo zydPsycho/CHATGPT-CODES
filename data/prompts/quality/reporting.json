@@ -1,0 +1,1289 @@
+{
+  "category": "Quality & Restoration",
+  "categorySlug": "quality",
+  "subcategory": "Reporting",
+  "slug": "reporting",
+  "description": "Reporting command system for quality & restoration.",
+  "prompts": [
+    {
+      "id": "dashboard-0",
+      "command": "/dashboard",
+      "name": "Dashboard",
+      "description": "Dashboard workflow directive for reporting.",
+      "instruction": "Apply dashboard with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "dashboard"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "report-1",
+      "command": "/report",
+      "name": "Report",
+      "description": "Report workflow directive for reporting.",
+      "instruction": "Apply report with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "report"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "chart-2",
+      "command": "/chart",
+      "name": "Chart",
+      "description": "Chart workflow directive for reporting.",
+      "instruction": "Apply chart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "chart"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "insights-3",
+      "command": "/insights",
+      "name": "Insights",
+      "description": "Insights workflow directive for reporting.",
+      "instruction": "Apply insights with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "insights"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "executivesummary-4",
+      "command": "/executivesummary",
+      "name": "Executivesummary",
+      "description": "Executivesummary workflow directive for reporting.",
+      "instruction": "Apply executivesummary with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "executivesummary"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "dashboard-precise-5",
+      "command": "/dashboard-precise",
+      "name": "Dashboard Precise",
+      "description": "Dashboard Precise workflow directive for reporting.",
+      "instruction": "Apply dashboard precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "dashboard"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "report-clean-6",
+      "command": "/report-clean",
+      "name": "Report Clean",
+      "description": "Report Clean workflow directive for reporting.",
+      "instruction": "Apply report clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "report"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "chart-natural-7",
+      "command": "/chart-natural",
+      "name": "Chart Natural",
+      "description": "Chart Natural workflow directive for reporting.",
+      "instruction": "Apply chart natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "chart"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "insights-refined-8",
+      "command": "/insights-refined",
+      "name": "Insights Refined",
+      "description": "Insights Refined workflow directive for reporting.",
+      "instruction": "Apply insights refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "insights"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "executivesummary-professional-9",
+      "command": "/executivesummary-professional",
+      "name": "Executivesummary Professional",
+      "description": "Executivesummary Professional workflow directive for reporting.",
+      "instruction": "Apply executivesummary professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "executivesummary"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "dashboard-premium-10",
+      "command": "/dashboard-premium",
+      "name": "Dashboard Premium",
+      "description": "Dashboard Premium workflow directive for reporting.",
+      "instruction": "Apply dashboard premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "dashboard"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "report-subtle-11",
+      "command": "/report-subtle",
+      "name": "Report Subtle",
+      "description": "Report Subtle workflow directive for reporting.",
+      "instruction": "Apply report subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "report"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "chart-strong-12",
+      "command": "/chart-strong",
+      "name": "Chart Strong",
+      "description": "Chart Strong workflow directive for reporting.",
+      "instruction": "Apply chart strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "chart"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "insights-balanced-13",
+      "command": "/insights-balanced",
+      "name": "Insights Balanced",
+      "description": "Insights Balanced workflow directive for reporting.",
+      "instruction": "Apply insights balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "insights"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "executivesummary-detailed-14",
+      "command": "/executivesummary-detailed",
+      "name": "Executivesummary Detailed",
+      "description": "Executivesummary Detailed workflow directive for reporting.",
+      "instruction": "Apply executivesummary detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "executivesummary"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "dashboard-advanced-15",
+      "command": "/dashboard-advanced",
+      "name": "Dashboard Advanced",
+      "description": "Dashboard Advanced workflow directive for reporting.",
+      "instruction": "Apply dashboard advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "dashboard"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "report-simple-16",
+      "command": "/report-simple",
+      "name": "Report Simple",
+      "description": "Report Simple workflow directive for reporting.",
+      "instruction": "Apply report simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "report"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "chart-smart-17",
+      "command": "/chart-smart",
+      "name": "Chart Smart",
+      "description": "Chart Smart workflow directive for reporting.",
+      "instruction": "Apply chart smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "chart"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "insights-controlled-18",
+      "command": "/insights-controlled",
+      "name": "Insights Controlled",
+      "description": "Insights Controlled workflow directive for reporting.",
+      "instruction": "Apply insights controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "insights"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "executivesummary-optimized-19",
+      "command": "/executivesummary-optimized",
+      "name": "Executivesummary Optimized",
+      "description": "Executivesummary Optimized workflow directive for reporting.",
+      "instruction": "Apply executivesummary optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "executivesummary"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "dashboard-efficient-20",
+      "command": "/dashboard-efficient",
+      "name": "Dashboard Efficient",
+      "description": "Dashboard Efficient workflow directive for reporting.",
+      "instruction": "Apply dashboard efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "dashboard"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "report-accurate-21",
+      "command": "/report-accurate",
+      "name": "Report Accurate",
+      "description": "Report Accurate workflow directive for reporting.",
+      "instruction": "Apply report accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "report"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "chart-consistent-22",
+      "command": "/chart-consistent",
+      "name": "Chart Consistent",
+      "description": "Chart Consistent workflow directive for reporting.",
+      "instruction": "Apply chart consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "chart"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "insights-polished-23",
+      "command": "/insights-polished",
+      "name": "Insights Polished",
+      "description": "Insights Polished workflow directive for reporting.",
+      "instruction": "Apply insights polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "insights"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "executivesummary-final-24",
+      "command": "/executivesummary-final",
+      "name": "Executivesummary Final",
+      "description": "Executivesummary Final workflow directive for reporting.",
+      "instruction": "Apply executivesummary final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "executivesummary"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "dashboard-quick-25",
+      "command": "/dashboard-quick",
+      "name": "Dashboard Quick",
+      "description": "Dashboard Quick workflow directive for reporting.",
+      "instruction": "Apply dashboard quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "dashboard"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "report-deep-26",
+      "command": "/report-deep",
+      "name": "Report Deep",
+      "description": "Report Deep workflow directive for reporting.",
+      "instruction": "Apply report deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "report"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "chart-thorough-27",
+      "command": "/chart-thorough",
+      "name": "Chart Thorough",
+      "description": "Chart Thorough workflow directive for reporting.",
+      "instruction": "Apply chart thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "chart"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "insights-minimal-28",
+      "command": "/insights-minimal",
+      "name": "Insights Minimal",
+      "description": "Insights Minimal workflow directive for reporting.",
+      "instruction": "Apply insights minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "insights"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "executivesummary-maximum-29",
+      "command": "/executivesummary-maximum",
+      "name": "Executivesummary Maximum",
+      "description": "Executivesummary Maximum workflow directive for reporting.",
+      "instruction": "Apply executivesummary maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "executivesummary"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "dashboard-soft-30",
+      "command": "/dashboard-soft",
+      "name": "Dashboard Soft",
+      "description": "Dashboard Soft workflow directive for reporting.",
+      "instruction": "Apply dashboard soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "dashboard"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "report-bold-31",
+      "command": "/report-bold",
+      "name": "Report Bold",
+      "description": "Report Bold workflow directive for reporting.",
+      "instruction": "Apply report bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "report"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "chart-sharp-32",
+      "command": "/chart-sharp",
+      "name": "Chart Sharp",
+      "description": "Chart Sharp workflow directive for reporting.",
+      "instruction": "Apply chart sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "chart"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "insights-smooth-33",
+      "command": "/insights-smooth",
+      "name": "Insights Smooth",
+      "description": "Insights Smooth workflow directive for reporting.",
+      "instruction": "Apply insights smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "insights"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "executivesummary-stable-34",
+      "command": "/executivesummary-stable",
+      "name": "Executivesummary Stable",
+      "description": "Executivesummary Stable workflow directive for reporting.",
+      "instruction": "Apply executivesummary stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "executivesummary"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "dashboard-highquality-35",
+      "command": "/dashboard-highquality",
+      "name": "Dashboard Highquality",
+      "description": "Dashboard Highquality workflow directive for reporting.",
+      "instruction": "Apply dashboard highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "dashboard"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "report-lowartifact-36",
+      "command": "/report-lowartifact",
+      "name": "Report Lowartifact",
+      "description": "Report Lowartifact workflow directive for reporting.",
+      "instruction": "Apply report lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "report"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "chart-highdetail-37",
+      "command": "/chart-highdetail",
+      "name": "Chart Highdetail",
+      "description": "Chart Highdetail workflow directive for reporting.",
+      "instruction": "Apply chart highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "chart"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "insights-fine-38",
+      "command": "/insights-fine",
+      "name": "Insights Fine",
+      "description": "Insights Fine workflow directive for reporting.",
+      "instruction": "Apply insights fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "insights"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "executivesummary-micro-39",
+      "command": "/executivesummary-micro",
+      "name": "Executivesummary Micro",
+      "description": "Executivesummary Micro workflow directive for reporting.",
+      "instruction": "Apply executivesummary micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "executivesummary"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "dashboard-macro-40",
+      "command": "/dashboard-macro",
+      "name": "Dashboard Macro",
+      "description": "Dashboard Macro workflow directive for reporting.",
+      "instruction": "Apply dashboard macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "dashboard"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "report-local-41",
+      "command": "/report-local",
+      "name": "Report Local",
+      "description": "Report Local workflow directive for reporting.",
+      "instruction": "Apply report local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "report"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "chart-global-42",
+      "command": "/chart-global",
+      "name": "Chart Global",
+      "description": "Chart Global workflow directive for reporting.",
+      "instruction": "Apply chart global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "chart"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "insights-adaptive-43",
+      "command": "/insights-adaptive",
+      "name": "Insights Adaptive",
+      "description": "Insights Adaptive workflow directive for reporting.",
+      "instruction": "Apply insights adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "insights"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "executivesummary-contextual-44",
+      "command": "/executivesummary-contextual",
+      "name": "Executivesummary Contextual",
+      "description": "Executivesummary Contextual workflow directive for reporting.",
+      "instruction": "Apply executivesummary contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "executivesummary"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "dashboard-realistic-45",
+      "command": "/dashboard-realistic",
+      "name": "Dashboard Realistic",
+      "description": "Dashboard Realistic workflow directive for reporting.",
+      "instruction": "Apply dashboard realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "dashboard"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "report-cinematic-46",
+      "command": "/report-cinematic",
+      "name": "Report Cinematic",
+      "description": "Report Cinematic workflow directive for reporting.",
+      "instruction": "Apply report cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "report"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "chart-modern-47",
+      "command": "/chart-modern",
+      "name": "Chart Modern",
+      "description": "Chart Modern workflow directive for reporting.",
+      "instruction": "Apply chart modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "chart"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "insights-classic-48",
+      "command": "/insights-classic",
+      "name": "Insights Classic",
+      "description": "Insights Classic workflow directive for reporting.",
+      "instruction": "Apply insights classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "insights"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "executivesummary-technical-49",
+      "command": "/executivesummary-technical",
+      "name": "Executivesummary Technical",
+      "description": "Executivesummary Technical workflow directive for reporting.",
+      "instruction": "Apply executivesummary technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "executivesummary"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "dashboard-creative-50",
+      "command": "/dashboard-creative",
+      "name": "Dashboard Creative",
+      "description": "Dashboard Creative workflow directive for reporting.",
+      "instruction": "Apply dashboard creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "dashboard"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "report-editorial-51",
+      "command": "/report-editorial",
+      "name": "Report Editorial",
+      "description": "Report Editorial workflow directive for reporting.",
+      "instruction": "Apply report editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "report"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "chart-production-52",
+      "command": "/chart-production",
+      "name": "Chart Production",
+      "description": "Chart Production workflow directive for reporting.",
+      "instruction": "Apply chart production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "chart"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "insights-studio-53",
+      "command": "/insights-studio",
+      "name": "Insights Studio",
+      "description": "Insights Studio workflow directive for reporting.",
+      "instruction": "Apply insights studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "insights"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "executivesummary-portable-54",
+      "command": "/executivesummary-portable",
+      "name": "Executivesummary Portable",
+      "description": "Executivesummary Portable workflow directive for reporting.",
+      "instruction": "Apply executivesummary portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "executivesummary"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "dashboard-safe-55",
+      "command": "/dashboard-safe",
+      "name": "Dashboard Safe",
+      "description": "Dashboard Safe workflow directive for reporting.",
+      "instruction": "Apply dashboard safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "dashboard"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "report-robust-56",
+      "command": "/report-robust",
+      "name": "Report Robust",
+      "description": "Report Robust workflow directive for reporting.",
+      "instruction": "Apply report robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "report"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "chart-reliable-57",
+      "command": "/chart-reliable",
+      "name": "Chart Reliable",
+      "description": "Chart Reliable workflow directive for reporting.",
+      "instruction": "Apply chart reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "chart"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "insights-scalable-58",
+      "command": "/insights-scalable",
+      "name": "Insights Scalable",
+      "description": "Insights Scalable workflow directive for reporting.",
+      "instruction": "Apply insights scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "insights"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "executivesummary-maintainable-59",
+      "command": "/executivesummary-maintainable",
+      "name": "Executivesummary Maintainable",
+      "description": "Executivesummary Maintainable workflow directive for reporting.",
+      "instruction": "Apply executivesummary maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "executivesummary"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "dashboard-accessible-60",
+      "command": "/dashboard-accessible",
+      "name": "Dashboard Accessible",
+      "description": "Dashboard Accessible workflow directive for reporting.",
+      "instruction": "Apply dashboard accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "dashboard"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "report-responsive-61",
+      "command": "/report-responsive",
+      "name": "Report Responsive",
+      "description": "Report Responsive workflow directive for reporting.",
+      "instruction": "Apply report responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "report"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "chart-structured-62",
+      "command": "/chart-structured",
+      "name": "Chart Structured",
+      "description": "Chart Structured workflow directive for reporting.",
+      "instruction": "Apply chart structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "chart"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    },
+    {
+      "id": "insights-compact-63",
+      "command": "/insights-compact",
+      "name": "Insights Compact",
+      "description": "Insights Compact workflow directive for reporting.",
+      "instruction": "Apply insights compact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "reporting",
+        "data-and-analytics",
+        "insights"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Reporting"
+    }
+  ]
+}

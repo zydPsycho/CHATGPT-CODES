@@ -1,0 +1,1289 @@
+{
+  "category": "Text, UI & Content",
+  "categorySlug": "text-ui",
+  "subcategory": "Creative Writing",
+  "slug": "creative-writing",
+  "description": "Creative Writing command system for text, ui & content.",
+  "prompts": [
+    {
+      "id": "write-0",
+      "command": "/write",
+      "name": "Write",
+      "description": "Write workflow directive for creative writing.",
+      "instruction": "Apply write with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "write"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "story-1",
+      "command": "/story",
+      "name": "Story",
+      "description": "Story workflow directive for creative writing.",
+      "instruction": "Apply story with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "story"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "character-2",
+      "command": "/character",
+      "name": "Character",
+      "description": "Character workflow directive for creative writing.",
+      "instruction": "Apply character with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "character"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "dialogue-3",
+      "command": "/dialogue",
+      "name": "Dialogue",
+      "description": "Dialogue workflow directive for creative writing.",
+      "instruction": "Apply dialogue with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "dialogue"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "scene-4",
+      "command": "/scene",
+      "name": "Scene",
+      "description": "Scene workflow directive for creative writing.",
+      "instruction": "Apply scene with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "scene"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "worldbuild-5",
+      "command": "/worldbuild",
+      "name": "Worldbuild",
+      "description": "Worldbuild workflow directive for creative writing.",
+      "instruction": "Apply worldbuild with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "worldbuild"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "write-precise-6",
+      "command": "/write-precise",
+      "name": "Write Precise",
+      "description": "Write Precise workflow directive for creative writing.",
+      "instruction": "Apply write precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "write"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "story-clean-7",
+      "command": "/story-clean",
+      "name": "Story Clean",
+      "description": "Story Clean workflow directive for creative writing.",
+      "instruction": "Apply story clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "story"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "character-natural-8",
+      "command": "/character-natural",
+      "name": "Character Natural",
+      "description": "Character Natural workflow directive for creative writing.",
+      "instruction": "Apply character natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "character"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "dialogue-refined-9",
+      "command": "/dialogue-refined",
+      "name": "Dialogue Refined",
+      "description": "Dialogue Refined workflow directive for creative writing.",
+      "instruction": "Apply dialogue refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "dialogue"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "scene-professional-10",
+      "command": "/scene-professional",
+      "name": "Scene Professional",
+      "description": "Scene Professional workflow directive for creative writing.",
+      "instruction": "Apply scene professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "scene"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "worldbuild-premium-11",
+      "command": "/worldbuild-premium",
+      "name": "Worldbuild Premium",
+      "description": "Worldbuild Premium workflow directive for creative writing.",
+      "instruction": "Apply worldbuild premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "worldbuild"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "write-subtle-12",
+      "command": "/write-subtle",
+      "name": "Write Subtle",
+      "description": "Write Subtle workflow directive for creative writing.",
+      "instruction": "Apply write subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "write"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "story-strong-13",
+      "command": "/story-strong",
+      "name": "Story Strong",
+      "description": "Story Strong workflow directive for creative writing.",
+      "instruction": "Apply story strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "story"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "character-balanced-14",
+      "command": "/character-balanced",
+      "name": "Character Balanced",
+      "description": "Character Balanced workflow directive for creative writing.",
+      "instruction": "Apply character balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "character"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "dialogue-detailed-15",
+      "command": "/dialogue-detailed",
+      "name": "Dialogue Detailed",
+      "description": "Dialogue Detailed workflow directive for creative writing.",
+      "instruction": "Apply dialogue detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "dialogue"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "scene-advanced-16",
+      "command": "/scene-advanced",
+      "name": "Scene Advanced",
+      "description": "Scene Advanced workflow directive for creative writing.",
+      "instruction": "Apply scene advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "scene"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "worldbuild-simple-17",
+      "command": "/worldbuild-simple",
+      "name": "Worldbuild Simple",
+      "description": "Worldbuild Simple workflow directive for creative writing.",
+      "instruction": "Apply worldbuild simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "worldbuild"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "write-smart-18",
+      "command": "/write-smart",
+      "name": "Write Smart",
+      "description": "Write Smart workflow directive for creative writing.",
+      "instruction": "Apply write smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "write"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "story-controlled-19",
+      "command": "/story-controlled",
+      "name": "Story Controlled",
+      "description": "Story Controlled workflow directive for creative writing.",
+      "instruction": "Apply story controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "story"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "character-optimized-20",
+      "command": "/character-optimized",
+      "name": "Character Optimized",
+      "description": "Character Optimized workflow directive for creative writing.",
+      "instruction": "Apply character optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "character"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "dialogue-efficient-21",
+      "command": "/dialogue-efficient",
+      "name": "Dialogue Efficient",
+      "description": "Dialogue Efficient workflow directive for creative writing.",
+      "instruction": "Apply dialogue efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "dialogue"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "scene-accurate-22",
+      "command": "/scene-accurate",
+      "name": "Scene Accurate",
+      "description": "Scene Accurate workflow directive for creative writing.",
+      "instruction": "Apply scene accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "scene"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "worldbuild-consistent-23",
+      "command": "/worldbuild-consistent",
+      "name": "Worldbuild Consistent",
+      "description": "Worldbuild Consistent workflow directive for creative writing.",
+      "instruction": "Apply worldbuild consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "worldbuild"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "write-polished-24",
+      "command": "/write-polished",
+      "name": "Write Polished",
+      "description": "Write Polished workflow directive for creative writing.",
+      "instruction": "Apply write polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "write"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "story-final-25",
+      "command": "/story-final",
+      "name": "Story Final",
+      "description": "Story Final workflow directive for creative writing.",
+      "instruction": "Apply story final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "story"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "character-quick-26",
+      "command": "/character-quick",
+      "name": "Character Quick",
+      "description": "Character Quick workflow directive for creative writing.",
+      "instruction": "Apply character quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "character"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "dialogue-deep-27",
+      "command": "/dialogue-deep",
+      "name": "Dialogue Deep",
+      "description": "Dialogue Deep workflow directive for creative writing.",
+      "instruction": "Apply dialogue deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "dialogue"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "scene-thorough-28",
+      "command": "/scene-thorough",
+      "name": "Scene Thorough",
+      "description": "Scene Thorough workflow directive for creative writing.",
+      "instruction": "Apply scene thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "scene"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "worldbuild-minimal-29",
+      "command": "/worldbuild-minimal",
+      "name": "Worldbuild Minimal",
+      "description": "Worldbuild Minimal workflow directive for creative writing.",
+      "instruction": "Apply worldbuild minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "worldbuild"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "write-maximum-30",
+      "command": "/write-maximum",
+      "name": "Write Maximum",
+      "description": "Write Maximum workflow directive for creative writing.",
+      "instruction": "Apply write maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "write"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "story-soft-31",
+      "command": "/story-soft",
+      "name": "Story Soft",
+      "description": "Story Soft workflow directive for creative writing.",
+      "instruction": "Apply story soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "story"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "character-bold-32",
+      "command": "/character-bold",
+      "name": "Character Bold",
+      "description": "Character Bold workflow directive for creative writing.",
+      "instruction": "Apply character bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "character"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "dialogue-sharp-33",
+      "command": "/dialogue-sharp",
+      "name": "Dialogue Sharp",
+      "description": "Dialogue Sharp workflow directive for creative writing.",
+      "instruction": "Apply dialogue sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "dialogue"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "scene-smooth-34",
+      "command": "/scene-smooth",
+      "name": "Scene Smooth",
+      "description": "Scene Smooth workflow directive for creative writing.",
+      "instruction": "Apply scene smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "scene"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "worldbuild-stable-35",
+      "command": "/worldbuild-stable",
+      "name": "Worldbuild Stable",
+      "description": "Worldbuild Stable workflow directive for creative writing.",
+      "instruction": "Apply worldbuild stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "worldbuild"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "write-highquality-36",
+      "command": "/write-highquality",
+      "name": "Write Highquality",
+      "description": "Write Highquality workflow directive for creative writing.",
+      "instruction": "Apply write highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "write"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "story-lowartifact-37",
+      "command": "/story-lowartifact",
+      "name": "Story Lowartifact",
+      "description": "Story Lowartifact workflow directive for creative writing.",
+      "instruction": "Apply story lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "story"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "character-highdetail-38",
+      "command": "/character-highdetail",
+      "name": "Character Highdetail",
+      "description": "Character Highdetail workflow directive for creative writing.",
+      "instruction": "Apply character highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "character"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "dialogue-fine-39",
+      "command": "/dialogue-fine",
+      "name": "Dialogue Fine",
+      "description": "Dialogue Fine workflow directive for creative writing.",
+      "instruction": "Apply dialogue fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "dialogue"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "scene-micro-40",
+      "command": "/scene-micro",
+      "name": "Scene Micro",
+      "description": "Scene Micro workflow directive for creative writing.",
+      "instruction": "Apply scene micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "scene"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "worldbuild-macro-41",
+      "command": "/worldbuild-macro",
+      "name": "Worldbuild Macro",
+      "description": "Worldbuild Macro workflow directive for creative writing.",
+      "instruction": "Apply worldbuild macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "worldbuild"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "write-local-42",
+      "command": "/write-local",
+      "name": "Write Local",
+      "description": "Write Local workflow directive for creative writing.",
+      "instruction": "Apply write local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "write"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "story-global-43",
+      "command": "/story-global",
+      "name": "Story Global",
+      "description": "Story Global workflow directive for creative writing.",
+      "instruction": "Apply story global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "story"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "character-adaptive-44",
+      "command": "/character-adaptive",
+      "name": "Character Adaptive",
+      "description": "Character Adaptive workflow directive for creative writing.",
+      "instruction": "Apply character adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "character"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "dialogue-contextual-45",
+      "command": "/dialogue-contextual",
+      "name": "Dialogue Contextual",
+      "description": "Dialogue Contextual workflow directive for creative writing.",
+      "instruction": "Apply dialogue contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "dialogue"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "scene-realistic-46",
+      "command": "/scene-realistic",
+      "name": "Scene Realistic",
+      "description": "Scene Realistic workflow directive for creative writing.",
+      "instruction": "Apply scene realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "scene"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "worldbuild-cinematic-47",
+      "command": "/worldbuild-cinematic",
+      "name": "Worldbuild Cinematic",
+      "description": "Worldbuild Cinematic workflow directive for creative writing.",
+      "instruction": "Apply worldbuild cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "worldbuild"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "write-modern-48",
+      "command": "/write-modern",
+      "name": "Write Modern",
+      "description": "Write Modern workflow directive for creative writing.",
+      "instruction": "Apply write modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "write"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "story-classic-49",
+      "command": "/story-classic",
+      "name": "Story Classic",
+      "description": "Story Classic workflow directive for creative writing.",
+      "instruction": "Apply story classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "story"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "character-technical-50",
+      "command": "/character-technical",
+      "name": "Character Technical",
+      "description": "Character Technical workflow directive for creative writing.",
+      "instruction": "Apply character technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "character"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "dialogue-creative-51",
+      "command": "/dialogue-creative",
+      "name": "Dialogue Creative",
+      "description": "Dialogue Creative workflow directive for creative writing.",
+      "instruction": "Apply dialogue creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "dialogue"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "scene-editorial-52",
+      "command": "/scene-editorial",
+      "name": "Scene Editorial",
+      "description": "Scene Editorial workflow directive for creative writing.",
+      "instruction": "Apply scene editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "scene"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "worldbuild-production-53",
+      "command": "/worldbuild-production",
+      "name": "Worldbuild Production",
+      "description": "Worldbuild Production workflow directive for creative writing.",
+      "instruction": "Apply worldbuild production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "worldbuild"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "write-studio-54",
+      "command": "/write-studio",
+      "name": "Write Studio",
+      "description": "Write Studio workflow directive for creative writing.",
+      "instruction": "Apply write studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "write"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "story-portable-55",
+      "command": "/story-portable",
+      "name": "Story Portable",
+      "description": "Story Portable workflow directive for creative writing.",
+      "instruction": "Apply story portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "story"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "character-safe-56",
+      "command": "/character-safe",
+      "name": "Character Safe",
+      "description": "Character Safe workflow directive for creative writing.",
+      "instruction": "Apply character safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "character"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "dialogue-robust-57",
+      "command": "/dialogue-robust",
+      "name": "Dialogue Robust",
+      "description": "Dialogue Robust workflow directive for creative writing.",
+      "instruction": "Apply dialogue robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "dialogue"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "scene-reliable-58",
+      "command": "/scene-reliable",
+      "name": "Scene Reliable",
+      "description": "Scene Reliable workflow directive for creative writing.",
+      "instruction": "Apply scene reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "scene"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "worldbuild-scalable-59",
+      "command": "/worldbuild-scalable",
+      "name": "Worldbuild Scalable",
+      "description": "Worldbuild Scalable workflow directive for creative writing.",
+      "instruction": "Apply worldbuild scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "worldbuild"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "write-maintainable-60",
+      "command": "/write-maintainable",
+      "name": "Write Maintainable",
+      "description": "Write Maintainable workflow directive for creative writing.",
+      "instruction": "Apply write maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "write"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "story-accessible-61",
+      "command": "/story-accessible",
+      "name": "Story Accessible",
+      "description": "Story Accessible workflow directive for creative writing.",
+      "instruction": "Apply story accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "story"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "character-responsive-62",
+      "command": "/character-responsive",
+      "name": "Character Responsive",
+      "description": "Character Responsive workflow directive for creative writing.",
+      "instruction": "Apply character responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "character"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    },
+    {
+      "id": "dialogue-structured-63",
+      "command": "/dialogue-structured",
+      "name": "Dialogue Structured",
+      "description": "Dialogue Structured workflow directive for creative writing.",
+      "instruction": "Apply dialogue structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "creative-writing",
+        "writing-and-content",
+        "dialogue"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Text, UI & Content",
+      "categorySlug": "text-ui",
+      "subcategory": "Creative Writing"
+    }
+  ]
+}

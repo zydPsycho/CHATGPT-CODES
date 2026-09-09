@@ -1,0 +1,1289 @@
+{
+  "category": "Environment & Atmosphere",
+  "categorySlug": "environment",
+  "subcategory": "Strategy",
+  "slug": "strategy",
+  "description": "Strategy command system for environment & atmosphere.",
+  "prompts": [
+    {
+      "id": "strategy-0",
+      "command": "/strategy",
+      "name": "Strategy",
+      "description": "Strategy workflow directive for strategy.",
+      "instruction": "Apply strategy with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "strategy"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "swot-1",
+      "command": "/swot",
+      "name": "Swot",
+      "description": "Swot workflow directive for strategy.",
+      "instruction": "Apply swot with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "swot"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "positioning-2",
+      "command": "/positioning",
+      "name": "Positioning",
+      "description": "Positioning workflow directive for strategy.",
+      "instruction": "Apply positioning with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "positioning"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "competitors-3",
+      "command": "/competitors",
+      "name": "Competitors",
+      "description": "Competitors workflow directive for strategy.",
+      "instruction": "Apply competitors with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "competitors"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "moat-4",
+      "command": "/moat",
+      "name": "Moat",
+      "description": "Moat workflow directive for strategy.",
+      "instruction": "Apply moat with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "moat"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "goals-5",
+      "command": "/goals",
+      "name": "Goals",
+      "description": "Goals workflow directive for strategy.",
+      "instruction": "Apply goals with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "goals"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "strategy-precise-6",
+      "command": "/strategy-precise",
+      "name": "Strategy Precise",
+      "description": "Strategy Precise workflow directive for strategy.",
+      "instruction": "Apply strategy precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "strategy"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "swot-clean-7",
+      "command": "/swot-clean",
+      "name": "Swot Clean",
+      "description": "Swot Clean workflow directive for strategy.",
+      "instruction": "Apply swot clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "swot"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "positioning-natural-8",
+      "command": "/positioning-natural",
+      "name": "Positioning Natural",
+      "description": "Positioning Natural workflow directive for strategy.",
+      "instruction": "Apply positioning natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "positioning"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "competitors-refined-9",
+      "command": "/competitors-refined",
+      "name": "Competitors Refined",
+      "description": "Competitors Refined workflow directive for strategy.",
+      "instruction": "Apply competitors refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "competitors"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "moat-professional-10",
+      "command": "/moat-professional",
+      "name": "Moat Professional",
+      "description": "Moat Professional workflow directive for strategy.",
+      "instruction": "Apply moat professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "moat"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "goals-premium-11",
+      "command": "/goals-premium",
+      "name": "Goals Premium",
+      "description": "Goals Premium workflow directive for strategy.",
+      "instruction": "Apply goals premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "goals"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "strategy-subtle-12",
+      "command": "/strategy-subtle",
+      "name": "Strategy Subtle",
+      "description": "Strategy Subtle workflow directive for strategy.",
+      "instruction": "Apply strategy subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "strategy"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "swot-strong-13",
+      "command": "/swot-strong",
+      "name": "Swot Strong",
+      "description": "Swot Strong workflow directive for strategy.",
+      "instruction": "Apply swot strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "swot"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "positioning-balanced-14",
+      "command": "/positioning-balanced",
+      "name": "Positioning Balanced",
+      "description": "Positioning Balanced workflow directive for strategy.",
+      "instruction": "Apply positioning balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "positioning"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "competitors-detailed-15",
+      "command": "/competitors-detailed",
+      "name": "Competitors Detailed",
+      "description": "Competitors Detailed workflow directive for strategy.",
+      "instruction": "Apply competitors detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "competitors"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "moat-advanced-16",
+      "command": "/moat-advanced",
+      "name": "Moat Advanced",
+      "description": "Moat Advanced workflow directive for strategy.",
+      "instruction": "Apply moat advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "moat"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "goals-simple-17",
+      "command": "/goals-simple",
+      "name": "Goals Simple",
+      "description": "Goals Simple workflow directive for strategy.",
+      "instruction": "Apply goals simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "goals"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "strategy-smart-18",
+      "command": "/strategy-smart",
+      "name": "Strategy Smart",
+      "description": "Strategy Smart workflow directive for strategy.",
+      "instruction": "Apply strategy smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "strategy"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "swot-controlled-19",
+      "command": "/swot-controlled",
+      "name": "Swot Controlled",
+      "description": "Swot Controlled workflow directive for strategy.",
+      "instruction": "Apply swot controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "swot"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "positioning-optimized-20",
+      "command": "/positioning-optimized",
+      "name": "Positioning Optimized",
+      "description": "Positioning Optimized workflow directive for strategy.",
+      "instruction": "Apply positioning optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "positioning"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "competitors-efficient-21",
+      "command": "/competitors-efficient",
+      "name": "Competitors Efficient",
+      "description": "Competitors Efficient workflow directive for strategy.",
+      "instruction": "Apply competitors efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "competitors"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "moat-accurate-22",
+      "command": "/moat-accurate",
+      "name": "Moat Accurate",
+      "description": "Moat Accurate workflow directive for strategy.",
+      "instruction": "Apply moat accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "moat"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "goals-consistent-23",
+      "command": "/goals-consistent",
+      "name": "Goals Consistent",
+      "description": "Goals Consistent workflow directive for strategy.",
+      "instruction": "Apply goals consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "goals"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "strategy-polished-24",
+      "command": "/strategy-polished",
+      "name": "Strategy Polished",
+      "description": "Strategy Polished workflow directive for strategy.",
+      "instruction": "Apply strategy polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "strategy"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "swot-final-25",
+      "command": "/swot-final",
+      "name": "Swot Final",
+      "description": "Swot Final workflow directive for strategy.",
+      "instruction": "Apply swot final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "swot"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "positioning-quick-26",
+      "command": "/positioning-quick",
+      "name": "Positioning Quick",
+      "description": "Positioning Quick workflow directive for strategy.",
+      "instruction": "Apply positioning quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "positioning"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "competitors-deep-27",
+      "command": "/competitors-deep",
+      "name": "Competitors Deep",
+      "description": "Competitors Deep workflow directive for strategy.",
+      "instruction": "Apply competitors deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "competitors"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "moat-thorough-28",
+      "command": "/moat-thorough",
+      "name": "Moat Thorough",
+      "description": "Moat Thorough workflow directive for strategy.",
+      "instruction": "Apply moat thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "moat"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "goals-minimal-29",
+      "command": "/goals-minimal",
+      "name": "Goals Minimal",
+      "description": "Goals Minimal workflow directive for strategy.",
+      "instruction": "Apply goals minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "goals"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "strategy-maximum-30",
+      "command": "/strategy-maximum",
+      "name": "Strategy Maximum",
+      "description": "Strategy Maximum workflow directive for strategy.",
+      "instruction": "Apply strategy maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "strategy"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "swot-soft-31",
+      "command": "/swot-soft",
+      "name": "Swot Soft",
+      "description": "Swot Soft workflow directive for strategy.",
+      "instruction": "Apply swot soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "swot"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "positioning-bold-32",
+      "command": "/positioning-bold",
+      "name": "Positioning Bold",
+      "description": "Positioning Bold workflow directive for strategy.",
+      "instruction": "Apply positioning bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "positioning"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "competitors-sharp-33",
+      "command": "/competitors-sharp",
+      "name": "Competitors Sharp",
+      "description": "Competitors Sharp workflow directive for strategy.",
+      "instruction": "Apply competitors sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "competitors"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "moat-smooth-34",
+      "command": "/moat-smooth",
+      "name": "Moat Smooth",
+      "description": "Moat Smooth workflow directive for strategy.",
+      "instruction": "Apply moat smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "moat"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "goals-stable-35",
+      "command": "/goals-stable",
+      "name": "Goals Stable",
+      "description": "Goals Stable workflow directive for strategy.",
+      "instruction": "Apply goals stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "goals"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "strategy-highquality-36",
+      "command": "/strategy-highquality",
+      "name": "Strategy Highquality",
+      "description": "Strategy Highquality workflow directive for strategy.",
+      "instruction": "Apply strategy highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "strategy"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "swot-lowartifact-37",
+      "command": "/swot-lowartifact",
+      "name": "Swot Lowartifact",
+      "description": "Swot Lowartifact workflow directive for strategy.",
+      "instruction": "Apply swot lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "swot"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "positioning-highdetail-38",
+      "command": "/positioning-highdetail",
+      "name": "Positioning Highdetail",
+      "description": "Positioning Highdetail workflow directive for strategy.",
+      "instruction": "Apply positioning highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "positioning"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "competitors-fine-39",
+      "command": "/competitors-fine",
+      "name": "Competitors Fine",
+      "description": "Competitors Fine workflow directive for strategy.",
+      "instruction": "Apply competitors fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "competitors"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "moat-micro-40",
+      "command": "/moat-micro",
+      "name": "Moat Micro",
+      "description": "Moat Micro workflow directive for strategy.",
+      "instruction": "Apply moat micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "moat"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "goals-macro-41",
+      "command": "/goals-macro",
+      "name": "Goals Macro",
+      "description": "Goals Macro workflow directive for strategy.",
+      "instruction": "Apply goals macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "goals"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "strategy-local-42",
+      "command": "/strategy-local",
+      "name": "Strategy Local",
+      "description": "Strategy Local workflow directive for strategy.",
+      "instruction": "Apply strategy local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "strategy"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "swot-global-43",
+      "command": "/swot-global",
+      "name": "Swot Global",
+      "description": "Swot Global workflow directive for strategy.",
+      "instruction": "Apply swot global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "swot"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "positioning-adaptive-44",
+      "command": "/positioning-adaptive",
+      "name": "Positioning Adaptive",
+      "description": "Positioning Adaptive workflow directive for strategy.",
+      "instruction": "Apply positioning adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "positioning"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "competitors-contextual-45",
+      "command": "/competitors-contextual",
+      "name": "Competitors Contextual",
+      "description": "Competitors Contextual workflow directive for strategy.",
+      "instruction": "Apply competitors contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "competitors"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "moat-realistic-46",
+      "command": "/moat-realistic",
+      "name": "Moat Realistic",
+      "description": "Moat Realistic workflow directive for strategy.",
+      "instruction": "Apply moat realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "moat"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "goals-cinematic-47",
+      "command": "/goals-cinematic",
+      "name": "Goals Cinematic",
+      "description": "Goals Cinematic workflow directive for strategy.",
+      "instruction": "Apply goals cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "goals"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "strategy-modern-48",
+      "command": "/strategy-modern",
+      "name": "Strategy Modern",
+      "description": "Strategy Modern workflow directive for strategy.",
+      "instruction": "Apply strategy modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "strategy"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "swot-classic-49",
+      "command": "/swot-classic",
+      "name": "Swot Classic",
+      "description": "Swot Classic workflow directive for strategy.",
+      "instruction": "Apply swot classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "swot"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "positioning-technical-50",
+      "command": "/positioning-technical",
+      "name": "Positioning Technical",
+      "description": "Positioning Technical workflow directive for strategy.",
+      "instruction": "Apply positioning technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "positioning"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "competitors-creative-51",
+      "command": "/competitors-creative",
+      "name": "Competitors Creative",
+      "description": "Competitors Creative workflow directive for strategy.",
+      "instruction": "Apply competitors creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "competitors"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "moat-editorial-52",
+      "command": "/moat-editorial",
+      "name": "Moat Editorial",
+      "description": "Moat Editorial workflow directive for strategy.",
+      "instruction": "Apply moat editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "moat"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "goals-production-53",
+      "command": "/goals-production",
+      "name": "Goals Production",
+      "description": "Goals Production workflow directive for strategy.",
+      "instruction": "Apply goals production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "goals"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "strategy-studio-54",
+      "command": "/strategy-studio",
+      "name": "Strategy Studio",
+      "description": "Strategy Studio workflow directive for strategy.",
+      "instruction": "Apply strategy studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "strategy"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "swot-portable-55",
+      "command": "/swot-portable",
+      "name": "Swot Portable",
+      "description": "Swot Portable workflow directive for strategy.",
+      "instruction": "Apply swot portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "swot"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "positioning-safe-56",
+      "command": "/positioning-safe",
+      "name": "Positioning Safe",
+      "description": "Positioning Safe workflow directive for strategy.",
+      "instruction": "Apply positioning safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "positioning"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "competitors-robust-57",
+      "command": "/competitors-robust",
+      "name": "Competitors Robust",
+      "description": "Competitors Robust workflow directive for strategy.",
+      "instruction": "Apply competitors robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "competitors"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "moat-reliable-58",
+      "command": "/moat-reliable",
+      "name": "Moat Reliable",
+      "description": "Moat Reliable workflow directive for strategy.",
+      "instruction": "Apply moat reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "moat"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "goals-scalable-59",
+      "command": "/goals-scalable",
+      "name": "Goals Scalable",
+      "description": "Goals Scalable workflow directive for strategy.",
+      "instruction": "Apply goals scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "goals"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "strategy-maintainable-60",
+      "command": "/strategy-maintainable",
+      "name": "Strategy Maintainable",
+      "description": "Strategy Maintainable workflow directive for strategy.",
+      "instruction": "Apply strategy maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "strategy"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "swot-accessible-61",
+      "command": "/swot-accessible",
+      "name": "Swot Accessible",
+      "description": "Swot Accessible workflow directive for strategy.",
+      "instruction": "Apply swot accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "swot"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "positioning-responsive-62",
+      "command": "/positioning-responsive",
+      "name": "Positioning Responsive",
+      "description": "Positioning Responsive workflow directive for strategy.",
+      "instruction": "Apply positioning responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "positioning"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    },
+    {
+      "id": "competitors-structured-63",
+      "command": "/competitors-structured",
+      "name": "Competitors Structured",
+      "description": "Competitors Structured workflow directive for strategy.",
+      "instruction": "Apply competitors structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "strategy",
+        "business-and-strategy",
+        "competitors"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Strategy"
+    }
+  ]
+}

@@ -1,0 +1,1289 @@
+{
+  "category": "Style Transformations",
+  "categorySlug": "styles",
+  "subcategory": "Audience",
+  "slug": "audience",
+  "description": "Audience command system for style transformations.",
+  "prompts": [
+    {
+      "id": "beginner-0",
+      "command": "/beginner",
+      "name": "Beginner",
+      "description": "Beginner workflow directive for audience.",
+      "instruction": "Apply beginner with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "beginner"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "expert-1",
+      "command": "/expert",
+      "name": "Expert",
+      "description": "Expert workflow directive for audience.",
+      "instruction": "Apply expert with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "expert"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "client-2",
+      "command": "/client",
+      "name": "Client",
+      "description": "Client workflow directive for audience.",
+      "instruction": "Apply client with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "client"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "childsafe-3",
+      "command": "/childsafe",
+      "name": "Childsafe",
+      "description": "Childsafe workflow directive for audience.",
+      "instruction": "Apply childsafe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "childsafe"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "executive-4",
+      "command": "/executive",
+      "name": "Executive",
+      "description": "Executive workflow directive for audience.",
+      "instruction": "Apply executive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "executive"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "beginner-precise-5",
+      "command": "/beginner-precise",
+      "name": "Beginner Precise",
+      "description": "Beginner Precise workflow directive for audience.",
+      "instruction": "Apply beginner precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "beginner"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "expert-clean-6",
+      "command": "/expert-clean",
+      "name": "Expert Clean",
+      "description": "Expert Clean workflow directive for audience.",
+      "instruction": "Apply expert clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "expert"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "client-natural-7",
+      "command": "/client-natural",
+      "name": "Client Natural",
+      "description": "Client Natural workflow directive for audience.",
+      "instruction": "Apply client natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "client"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "childsafe-refined-8",
+      "command": "/childsafe-refined",
+      "name": "Childsafe Refined",
+      "description": "Childsafe Refined workflow directive for audience.",
+      "instruction": "Apply childsafe refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "childsafe"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "executive-professional-9",
+      "command": "/executive-professional",
+      "name": "Executive Professional",
+      "description": "Executive Professional workflow directive for audience.",
+      "instruction": "Apply executive professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "executive"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "beginner-premium-10",
+      "command": "/beginner-premium",
+      "name": "Beginner Premium",
+      "description": "Beginner Premium workflow directive for audience.",
+      "instruction": "Apply beginner premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "beginner"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "expert-subtle-11",
+      "command": "/expert-subtle",
+      "name": "Expert Subtle",
+      "description": "Expert Subtle workflow directive for audience.",
+      "instruction": "Apply expert subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "expert"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "client-strong-12",
+      "command": "/client-strong",
+      "name": "Client Strong",
+      "description": "Client Strong workflow directive for audience.",
+      "instruction": "Apply client strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "client"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "childsafe-balanced-13",
+      "command": "/childsafe-balanced",
+      "name": "Childsafe Balanced",
+      "description": "Childsafe Balanced workflow directive for audience.",
+      "instruction": "Apply childsafe balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "childsafe"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "executive-detailed-14",
+      "command": "/executive-detailed",
+      "name": "Executive Detailed",
+      "description": "Executive Detailed workflow directive for audience.",
+      "instruction": "Apply executive detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "executive"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "beginner-advanced-15",
+      "command": "/beginner-advanced",
+      "name": "Beginner Advanced",
+      "description": "Beginner Advanced workflow directive for audience.",
+      "instruction": "Apply beginner advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "beginner"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "expert-simple-16",
+      "command": "/expert-simple",
+      "name": "Expert Simple",
+      "description": "Expert Simple workflow directive for audience.",
+      "instruction": "Apply expert simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "expert"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "client-smart-17",
+      "command": "/client-smart",
+      "name": "Client Smart",
+      "description": "Client Smart workflow directive for audience.",
+      "instruction": "Apply client smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "client"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "childsafe-controlled-18",
+      "command": "/childsafe-controlled",
+      "name": "Childsafe Controlled",
+      "description": "Childsafe Controlled workflow directive for audience.",
+      "instruction": "Apply childsafe controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "childsafe"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "executive-optimized-19",
+      "command": "/executive-optimized",
+      "name": "Executive Optimized",
+      "description": "Executive Optimized workflow directive for audience.",
+      "instruction": "Apply executive optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "executive"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "beginner-efficient-20",
+      "command": "/beginner-efficient",
+      "name": "Beginner Efficient",
+      "description": "Beginner Efficient workflow directive for audience.",
+      "instruction": "Apply beginner efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "beginner"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "expert-accurate-21",
+      "command": "/expert-accurate",
+      "name": "Expert Accurate",
+      "description": "Expert Accurate workflow directive for audience.",
+      "instruction": "Apply expert accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "expert"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "client-consistent-22",
+      "command": "/client-consistent",
+      "name": "Client Consistent",
+      "description": "Client Consistent workflow directive for audience.",
+      "instruction": "Apply client consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "client"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "childsafe-polished-23",
+      "command": "/childsafe-polished",
+      "name": "Childsafe Polished",
+      "description": "Childsafe Polished workflow directive for audience.",
+      "instruction": "Apply childsafe polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "childsafe"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "executive-final-24",
+      "command": "/executive-final",
+      "name": "Executive Final",
+      "description": "Executive Final workflow directive for audience.",
+      "instruction": "Apply executive final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "executive"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "beginner-quick-25",
+      "command": "/beginner-quick",
+      "name": "Beginner Quick",
+      "description": "Beginner Quick workflow directive for audience.",
+      "instruction": "Apply beginner quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "beginner"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "expert-deep-26",
+      "command": "/expert-deep",
+      "name": "Expert Deep",
+      "description": "Expert Deep workflow directive for audience.",
+      "instruction": "Apply expert deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "expert"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "client-thorough-27",
+      "command": "/client-thorough",
+      "name": "Client Thorough",
+      "description": "Client Thorough workflow directive for audience.",
+      "instruction": "Apply client thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "client"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "childsafe-minimal-28",
+      "command": "/childsafe-minimal",
+      "name": "Childsafe Minimal",
+      "description": "Childsafe Minimal workflow directive for audience.",
+      "instruction": "Apply childsafe minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "childsafe"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "executive-maximum-29",
+      "command": "/executive-maximum",
+      "name": "Executive Maximum",
+      "description": "Executive Maximum workflow directive for audience.",
+      "instruction": "Apply executive maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "executive"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "beginner-soft-30",
+      "command": "/beginner-soft",
+      "name": "Beginner Soft",
+      "description": "Beginner Soft workflow directive for audience.",
+      "instruction": "Apply beginner soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "beginner"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "expert-bold-31",
+      "command": "/expert-bold",
+      "name": "Expert Bold",
+      "description": "Expert Bold workflow directive for audience.",
+      "instruction": "Apply expert bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "expert"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "client-sharp-32",
+      "command": "/client-sharp",
+      "name": "Client Sharp",
+      "description": "Client Sharp workflow directive for audience.",
+      "instruction": "Apply client sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "client"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "childsafe-smooth-33",
+      "command": "/childsafe-smooth",
+      "name": "Childsafe Smooth",
+      "description": "Childsafe Smooth workflow directive for audience.",
+      "instruction": "Apply childsafe smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "childsafe"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "executive-stable-34",
+      "command": "/executive-stable",
+      "name": "Executive Stable",
+      "description": "Executive Stable workflow directive for audience.",
+      "instruction": "Apply executive stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "executive"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "beginner-highquality-35",
+      "command": "/beginner-highquality",
+      "name": "Beginner Highquality",
+      "description": "Beginner Highquality workflow directive for audience.",
+      "instruction": "Apply beginner highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "beginner"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "expert-lowartifact-36",
+      "command": "/expert-lowartifact",
+      "name": "Expert Lowartifact",
+      "description": "Expert Lowartifact workflow directive for audience.",
+      "instruction": "Apply expert lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "expert"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "client-highdetail-37",
+      "command": "/client-highdetail",
+      "name": "Client Highdetail",
+      "description": "Client Highdetail workflow directive for audience.",
+      "instruction": "Apply client highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "client"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "childsafe-fine-38",
+      "command": "/childsafe-fine",
+      "name": "Childsafe Fine",
+      "description": "Childsafe Fine workflow directive for audience.",
+      "instruction": "Apply childsafe fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "childsafe"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "executive-micro-39",
+      "command": "/executive-micro",
+      "name": "Executive Micro",
+      "description": "Executive Micro workflow directive for audience.",
+      "instruction": "Apply executive micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "executive"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "beginner-macro-40",
+      "command": "/beginner-macro",
+      "name": "Beginner Macro",
+      "description": "Beginner Macro workflow directive for audience.",
+      "instruction": "Apply beginner macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "beginner"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "expert-local-41",
+      "command": "/expert-local",
+      "name": "Expert Local",
+      "description": "Expert Local workflow directive for audience.",
+      "instruction": "Apply expert local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "expert"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "client-global-42",
+      "command": "/client-global",
+      "name": "Client Global",
+      "description": "Client Global workflow directive for audience.",
+      "instruction": "Apply client global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "client"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "childsafe-adaptive-43",
+      "command": "/childsafe-adaptive",
+      "name": "Childsafe Adaptive",
+      "description": "Childsafe Adaptive workflow directive for audience.",
+      "instruction": "Apply childsafe adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "childsafe"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "executive-contextual-44",
+      "command": "/executive-contextual",
+      "name": "Executive Contextual",
+      "description": "Executive Contextual workflow directive for audience.",
+      "instruction": "Apply executive contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "executive"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "beginner-realistic-45",
+      "command": "/beginner-realistic",
+      "name": "Beginner Realistic",
+      "description": "Beginner Realistic workflow directive for audience.",
+      "instruction": "Apply beginner realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "beginner"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "expert-cinematic-46",
+      "command": "/expert-cinematic",
+      "name": "Expert Cinematic",
+      "description": "Expert Cinematic workflow directive for audience.",
+      "instruction": "Apply expert cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "expert"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "client-modern-47",
+      "command": "/client-modern",
+      "name": "Client Modern",
+      "description": "Client Modern workflow directive for audience.",
+      "instruction": "Apply client modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "client"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "childsafe-classic-48",
+      "command": "/childsafe-classic",
+      "name": "Childsafe Classic",
+      "description": "Childsafe Classic workflow directive for audience.",
+      "instruction": "Apply childsafe classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "childsafe"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "executive-technical-49",
+      "command": "/executive-technical",
+      "name": "Executive Technical",
+      "description": "Executive Technical workflow directive for audience.",
+      "instruction": "Apply executive technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "executive"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "beginner-creative-50",
+      "command": "/beginner-creative",
+      "name": "Beginner Creative",
+      "description": "Beginner Creative workflow directive for audience.",
+      "instruction": "Apply beginner creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "beginner"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "expert-editorial-51",
+      "command": "/expert-editorial",
+      "name": "Expert Editorial",
+      "description": "Expert Editorial workflow directive for audience.",
+      "instruction": "Apply expert editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "expert"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "client-production-52",
+      "command": "/client-production",
+      "name": "Client Production",
+      "description": "Client Production workflow directive for audience.",
+      "instruction": "Apply client production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "client"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "childsafe-studio-53",
+      "command": "/childsafe-studio",
+      "name": "Childsafe Studio",
+      "description": "Childsafe Studio workflow directive for audience.",
+      "instruction": "Apply childsafe studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "childsafe"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "executive-portable-54",
+      "command": "/executive-portable",
+      "name": "Executive Portable",
+      "description": "Executive Portable workflow directive for audience.",
+      "instruction": "Apply executive portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "executive"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "beginner-safe-55",
+      "command": "/beginner-safe",
+      "name": "Beginner Safe",
+      "description": "Beginner Safe workflow directive for audience.",
+      "instruction": "Apply beginner safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "beginner"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "expert-robust-56",
+      "command": "/expert-robust",
+      "name": "Expert Robust",
+      "description": "Expert Robust workflow directive for audience.",
+      "instruction": "Apply expert robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "expert"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "client-reliable-57",
+      "command": "/client-reliable",
+      "name": "Client Reliable",
+      "description": "Client Reliable workflow directive for audience.",
+      "instruction": "Apply client reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "client"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "childsafe-scalable-58",
+      "command": "/childsafe-scalable",
+      "name": "Childsafe Scalable",
+      "description": "Childsafe Scalable workflow directive for audience.",
+      "instruction": "Apply childsafe scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "childsafe"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "executive-maintainable-59",
+      "command": "/executive-maintainable",
+      "name": "Executive Maintainable",
+      "description": "Executive Maintainable workflow directive for audience.",
+      "instruction": "Apply executive maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "executive"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "beginner-accessible-60",
+      "command": "/beginner-accessible",
+      "name": "Beginner Accessible",
+      "description": "Beginner Accessible workflow directive for audience.",
+      "instruction": "Apply beginner accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "beginner"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "expert-responsive-61",
+      "command": "/expert-responsive",
+      "name": "Expert Responsive",
+      "description": "Expert Responsive workflow directive for audience.",
+      "instruction": "Apply expert responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "expert"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "client-structured-62",
+      "command": "/client-structured",
+      "name": "Client Structured",
+      "description": "Client Structured workflow directive for audience.",
+      "instruction": "Apply client structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "client"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    },
+    {
+      "id": "childsafe-compact-63",
+      "command": "/childsafe-compact",
+      "name": "Childsafe Compact",
+      "description": "Childsafe Compact workflow directive for audience.",
+      "instruction": "Apply childsafe compact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "audience",
+        "personalization-and-utility",
+        "childsafe"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Audience"
+    }
+  ]
+}

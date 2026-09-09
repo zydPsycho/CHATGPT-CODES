@@ -1,0 +1,1289 @@
+{
+  "category": "Environment & Atmosphere",
+  "categorySlug": "environment",
+  "subcategory": "Notes",
+  "slug": "notes",
+  "description": "Notes command system for environment & atmosphere.",
+  "prompts": [
+    {
+      "id": "notes-0",
+      "command": "/notes",
+      "name": "Notes",
+      "description": "Notes workflow directive for notes.",
+      "instruction": "Apply notes with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "notes"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "organize-1",
+      "command": "/organize",
+      "name": "Organize",
+      "description": "Organize workflow directive for notes.",
+      "instruction": "Apply organize with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "organize"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "extract-2",
+      "command": "/extract",
+      "name": "Extract",
+      "description": "Extract workflow directive for notes.",
+      "instruction": "Apply extract with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "extract"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "actionitems-3",
+      "command": "/actionitems",
+      "name": "Actionitems",
+      "description": "Actionitems workflow directive for notes.",
+      "instruction": "Apply actionitems with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "actionitems"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "meetingnotes-4",
+      "command": "/meetingnotes",
+      "name": "Meetingnotes",
+      "description": "Meetingnotes workflow directive for notes.",
+      "instruction": "Apply meetingnotes with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "meetingnotes"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "notes-precise-5",
+      "command": "/notes-precise",
+      "name": "Notes Precise",
+      "description": "Notes Precise workflow directive for notes.",
+      "instruction": "Apply notes precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "notes"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "organize-clean-6",
+      "command": "/organize-clean",
+      "name": "Organize Clean",
+      "description": "Organize Clean workflow directive for notes.",
+      "instruction": "Apply organize clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "organize"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "extract-natural-7",
+      "command": "/extract-natural",
+      "name": "Extract Natural",
+      "description": "Extract Natural workflow directive for notes.",
+      "instruction": "Apply extract natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "extract"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "actionitems-refined-8",
+      "command": "/actionitems-refined",
+      "name": "Actionitems Refined",
+      "description": "Actionitems Refined workflow directive for notes.",
+      "instruction": "Apply actionitems refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "actionitems"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "meetingnotes-professional-9",
+      "command": "/meetingnotes-professional",
+      "name": "Meetingnotes Professional",
+      "description": "Meetingnotes Professional workflow directive for notes.",
+      "instruction": "Apply meetingnotes professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "meetingnotes"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "notes-premium-10",
+      "command": "/notes-premium",
+      "name": "Notes Premium",
+      "description": "Notes Premium workflow directive for notes.",
+      "instruction": "Apply notes premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "notes"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "organize-subtle-11",
+      "command": "/organize-subtle",
+      "name": "Organize Subtle",
+      "description": "Organize Subtle workflow directive for notes.",
+      "instruction": "Apply organize subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "organize"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "extract-strong-12",
+      "command": "/extract-strong",
+      "name": "Extract Strong",
+      "description": "Extract Strong workflow directive for notes.",
+      "instruction": "Apply extract strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "extract"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "actionitems-balanced-13",
+      "command": "/actionitems-balanced",
+      "name": "Actionitems Balanced",
+      "description": "Actionitems Balanced workflow directive for notes.",
+      "instruction": "Apply actionitems balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "actionitems"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "meetingnotes-detailed-14",
+      "command": "/meetingnotes-detailed",
+      "name": "Meetingnotes Detailed",
+      "description": "Meetingnotes Detailed workflow directive for notes.",
+      "instruction": "Apply meetingnotes detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "meetingnotes"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "notes-advanced-15",
+      "command": "/notes-advanced",
+      "name": "Notes Advanced",
+      "description": "Notes Advanced workflow directive for notes.",
+      "instruction": "Apply notes advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "notes"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "organize-simple-16",
+      "command": "/organize-simple",
+      "name": "Organize Simple",
+      "description": "Organize Simple workflow directive for notes.",
+      "instruction": "Apply organize simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "organize"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "extract-smart-17",
+      "command": "/extract-smart",
+      "name": "Extract Smart",
+      "description": "Extract Smart workflow directive for notes.",
+      "instruction": "Apply extract smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "extract"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "actionitems-controlled-18",
+      "command": "/actionitems-controlled",
+      "name": "Actionitems Controlled",
+      "description": "Actionitems Controlled workflow directive for notes.",
+      "instruction": "Apply actionitems controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "actionitems"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "meetingnotes-optimized-19",
+      "command": "/meetingnotes-optimized",
+      "name": "Meetingnotes Optimized",
+      "description": "Meetingnotes Optimized workflow directive for notes.",
+      "instruction": "Apply meetingnotes optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "meetingnotes"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "notes-efficient-20",
+      "command": "/notes-efficient",
+      "name": "Notes Efficient",
+      "description": "Notes Efficient workflow directive for notes.",
+      "instruction": "Apply notes efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "notes"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "organize-accurate-21",
+      "command": "/organize-accurate",
+      "name": "Organize Accurate",
+      "description": "Organize Accurate workflow directive for notes.",
+      "instruction": "Apply organize accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "organize"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "extract-consistent-22",
+      "command": "/extract-consistent",
+      "name": "Extract Consistent",
+      "description": "Extract Consistent workflow directive for notes.",
+      "instruction": "Apply extract consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "extract"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "actionitems-polished-23",
+      "command": "/actionitems-polished",
+      "name": "Actionitems Polished",
+      "description": "Actionitems Polished workflow directive for notes.",
+      "instruction": "Apply actionitems polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "actionitems"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "meetingnotes-final-24",
+      "command": "/meetingnotes-final",
+      "name": "Meetingnotes Final",
+      "description": "Meetingnotes Final workflow directive for notes.",
+      "instruction": "Apply meetingnotes final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "meetingnotes"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "notes-quick-25",
+      "command": "/notes-quick",
+      "name": "Notes Quick",
+      "description": "Notes Quick workflow directive for notes.",
+      "instruction": "Apply notes quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "notes"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "organize-deep-26",
+      "command": "/organize-deep",
+      "name": "Organize Deep",
+      "description": "Organize Deep workflow directive for notes.",
+      "instruction": "Apply organize deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "organize"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "extract-thorough-27",
+      "command": "/extract-thorough",
+      "name": "Extract Thorough",
+      "description": "Extract Thorough workflow directive for notes.",
+      "instruction": "Apply extract thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "extract"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "actionitems-minimal-28",
+      "command": "/actionitems-minimal",
+      "name": "Actionitems Minimal",
+      "description": "Actionitems Minimal workflow directive for notes.",
+      "instruction": "Apply actionitems minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "actionitems"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "meetingnotes-maximum-29",
+      "command": "/meetingnotes-maximum",
+      "name": "Meetingnotes Maximum",
+      "description": "Meetingnotes Maximum workflow directive for notes.",
+      "instruction": "Apply meetingnotes maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "meetingnotes"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "notes-soft-30",
+      "command": "/notes-soft",
+      "name": "Notes Soft",
+      "description": "Notes Soft workflow directive for notes.",
+      "instruction": "Apply notes soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "notes"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "organize-bold-31",
+      "command": "/organize-bold",
+      "name": "Organize Bold",
+      "description": "Organize Bold workflow directive for notes.",
+      "instruction": "Apply organize bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "organize"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "extract-sharp-32",
+      "command": "/extract-sharp",
+      "name": "Extract Sharp",
+      "description": "Extract Sharp workflow directive for notes.",
+      "instruction": "Apply extract sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "extract"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "actionitems-smooth-33",
+      "command": "/actionitems-smooth",
+      "name": "Actionitems Smooth",
+      "description": "Actionitems Smooth workflow directive for notes.",
+      "instruction": "Apply actionitems smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "actionitems"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "meetingnotes-stable-34",
+      "command": "/meetingnotes-stable",
+      "name": "Meetingnotes Stable",
+      "description": "Meetingnotes Stable workflow directive for notes.",
+      "instruction": "Apply meetingnotes stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "meetingnotes"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "notes-highquality-35",
+      "command": "/notes-highquality",
+      "name": "Notes Highquality",
+      "description": "Notes Highquality workflow directive for notes.",
+      "instruction": "Apply notes highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "notes"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "organize-lowartifact-36",
+      "command": "/organize-lowartifact",
+      "name": "Organize Lowartifact",
+      "description": "Organize Lowartifact workflow directive for notes.",
+      "instruction": "Apply organize lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "organize"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "extract-highdetail-37",
+      "command": "/extract-highdetail",
+      "name": "Extract Highdetail",
+      "description": "Extract Highdetail workflow directive for notes.",
+      "instruction": "Apply extract highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "extract"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "actionitems-fine-38",
+      "command": "/actionitems-fine",
+      "name": "Actionitems Fine",
+      "description": "Actionitems Fine workflow directive for notes.",
+      "instruction": "Apply actionitems fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "actionitems"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "meetingnotes-micro-39",
+      "command": "/meetingnotes-micro",
+      "name": "Meetingnotes Micro",
+      "description": "Meetingnotes Micro workflow directive for notes.",
+      "instruction": "Apply meetingnotes micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "meetingnotes"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "notes-macro-40",
+      "command": "/notes-macro",
+      "name": "Notes Macro",
+      "description": "Notes Macro workflow directive for notes.",
+      "instruction": "Apply notes macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "notes"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "organize-local-41",
+      "command": "/organize-local",
+      "name": "Organize Local",
+      "description": "Organize Local workflow directive for notes.",
+      "instruction": "Apply organize local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "organize"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "extract-global-42",
+      "command": "/extract-global",
+      "name": "Extract Global",
+      "description": "Extract Global workflow directive for notes.",
+      "instruction": "Apply extract global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "extract"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "actionitems-adaptive-43",
+      "command": "/actionitems-adaptive",
+      "name": "Actionitems Adaptive",
+      "description": "Actionitems Adaptive workflow directive for notes.",
+      "instruction": "Apply actionitems adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "actionitems"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "meetingnotes-contextual-44",
+      "command": "/meetingnotes-contextual",
+      "name": "Meetingnotes Contextual",
+      "description": "Meetingnotes Contextual workflow directive for notes.",
+      "instruction": "Apply meetingnotes contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "meetingnotes"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "notes-realistic-45",
+      "command": "/notes-realistic",
+      "name": "Notes Realistic",
+      "description": "Notes Realistic workflow directive for notes.",
+      "instruction": "Apply notes realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "notes"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "organize-cinematic-46",
+      "command": "/organize-cinematic",
+      "name": "Organize Cinematic",
+      "description": "Organize Cinematic workflow directive for notes.",
+      "instruction": "Apply organize cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "organize"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "extract-modern-47",
+      "command": "/extract-modern",
+      "name": "Extract Modern",
+      "description": "Extract Modern workflow directive for notes.",
+      "instruction": "Apply extract modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "extract"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "actionitems-classic-48",
+      "command": "/actionitems-classic",
+      "name": "Actionitems Classic",
+      "description": "Actionitems Classic workflow directive for notes.",
+      "instruction": "Apply actionitems classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "actionitems"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "meetingnotes-technical-49",
+      "command": "/meetingnotes-technical",
+      "name": "Meetingnotes Technical",
+      "description": "Meetingnotes Technical workflow directive for notes.",
+      "instruction": "Apply meetingnotes technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "meetingnotes"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "notes-creative-50",
+      "command": "/notes-creative",
+      "name": "Notes Creative",
+      "description": "Notes Creative workflow directive for notes.",
+      "instruction": "Apply notes creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "notes"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "organize-editorial-51",
+      "command": "/organize-editorial",
+      "name": "Organize Editorial",
+      "description": "Organize Editorial workflow directive for notes.",
+      "instruction": "Apply organize editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "organize"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "extract-production-52",
+      "command": "/extract-production",
+      "name": "Extract Production",
+      "description": "Extract Production workflow directive for notes.",
+      "instruction": "Apply extract production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "extract"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "actionitems-studio-53",
+      "command": "/actionitems-studio",
+      "name": "Actionitems Studio",
+      "description": "Actionitems Studio workflow directive for notes.",
+      "instruction": "Apply actionitems studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "actionitems"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "meetingnotes-portable-54",
+      "command": "/meetingnotes-portable",
+      "name": "Meetingnotes Portable",
+      "description": "Meetingnotes Portable workflow directive for notes.",
+      "instruction": "Apply meetingnotes portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "meetingnotes"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "notes-safe-55",
+      "command": "/notes-safe",
+      "name": "Notes Safe",
+      "description": "Notes Safe workflow directive for notes.",
+      "instruction": "Apply notes safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "notes"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "organize-robust-56",
+      "command": "/organize-robust",
+      "name": "Organize Robust",
+      "description": "Organize Robust workflow directive for notes.",
+      "instruction": "Apply organize robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "organize"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "extract-reliable-57",
+      "command": "/extract-reliable",
+      "name": "Extract Reliable",
+      "description": "Extract Reliable workflow directive for notes.",
+      "instruction": "Apply extract reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "extract"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "actionitems-scalable-58",
+      "command": "/actionitems-scalable",
+      "name": "Actionitems Scalable",
+      "description": "Actionitems Scalable workflow directive for notes.",
+      "instruction": "Apply actionitems scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "actionitems"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "meetingnotes-maintainable-59",
+      "command": "/meetingnotes-maintainable",
+      "name": "Meetingnotes Maintainable",
+      "description": "Meetingnotes Maintainable workflow directive for notes.",
+      "instruction": "Apply meetingnotes maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "meetingnotes"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "notes-accessible-60",
+      "command": "/notes-accessible",
+      "name": "Notes Accessible",
+      "description": "Notes Accessible workflow directive for notes.",
+      "instruction": "Apply notes accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "notes"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "organize-responsive-61",
+      "command": "/organize-responsive",
+      "name": "Organize Responsive",
+      "description": "Organize Responsive workflow directive for notes.",
+      "instruction": "Apply organize responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "organize"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "extract-structured-62",
+      "command": "/extract-structured",
+      "name": "Extract Structured",
+      "description": "Extract Structured workflow directive for notes.",
+      "instruction": "Apply extract structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "extract"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    },
+    {
+      "id": "actionitems-compact-63",
+      "command": "/actionitems-compact",
+      "name": "Actionitems Compact",
+      "description": "Actionitems Compact workflow directive for notes.",
+      "instruction": "Apply actionitems compact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "notes",
+        "productivity-and-planning",
+        "actionitems"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Notes"
+    }
+  ]
+}

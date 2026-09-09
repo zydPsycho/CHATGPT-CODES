@@ -1,0 +1,31 @@
+{
+  "category": "Architecture & Floorplans",
+  "slug": "architecture",
+  "description": "Plan spaces, interiors, exteriors and structures.",
+  "subcategories": [
+    {
+      "name": "Planning",
+      "slug": "planning",
+      "file": "/data/prompts/architecture/planning.json",
+      "count": 64
+    },
+    {
+      "name": "Interior",
+      "slug": "interior",
+      "file": "/data/prompts/architecture/interior.json",
+      "count": 64
+    },
+    {
+      "name": "Exterior",
+      "slug": "exterior",
+      "file": "/data/prompts/architecture/exterior.json",
+      "count": 64
+    },
+    {
+      "name": "3D",
+      "slug": "3d",
+      "file": "/data/prompts/architecture/3d.json",
+      "count": 64
+    }
+  ]
+}

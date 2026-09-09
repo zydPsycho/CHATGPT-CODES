@@ -1,0 +1,1289 @@
+{
+  "category": "Environment & Atmosphere",
+  "categorySlug": "environment",
+  "subcategory": "Summaries",
+  "slug": "summaries",
+  "description": "Summaries command system for environment & atmosphere.",
+  "prompts": [
+    {
+      "id": "websummary-0",
+      "command": "/websummary",
+      "name": "Websummary",
+      "description": "Websummary workflow directive for summaries.",
+      "instruction": "Apply websummary with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "websummary"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "brief-1",
+      "command": "/brief",
+      "name": "Brief",
+      "description": "Brief workflow directive for summaries.",
+      "instruction": "Apply brief with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "brief"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "digest-2",
+      "command": "/digest",
+      "name": "Digest",
+      "description": "Digest workflow directive for summaries.",
+      "instruction": "Apply digest with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "digest"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "keyfindings-3",
+      "command": "/keyfindings",
+      "name": "Keyfindings",
+      "description": "Keyfindings workflow directive for summaries.",
+      "instruction": "Apply keyfindings with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "keyfindings"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "websummary-precise-4",
+      "command": "/websummary-precise",
+      "name": "Websummary Precise",
+      "description": "Websummary Precise workflow directive for summaries.",
+      "instruction": "Apply websummary precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "websummary"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "brief-clean-5",
+      "command": "/brief-clean",
+      "name": "Brief Clean",
+      "description": "Brief Clean workflow directive for summaries.",
+      "instruction": "Apply brief clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "brief"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "digest-natural-6",
+      "command": "/digest-natural",
+      "name": "Digest Natural",
+      "description": "Digest Natural workflow directive for summaries.",
+      "instruction": "Apply digest natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "digest"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "keyfindings-refined-7",
+      "command": "/keyfindings-refined",
+      "name": "Keyfindings Refined",
+      "description": "Keyfindings Refined workflow directive for summaries.",
+      "instruction": "Apply keyfindings refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "keyfindings"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "websummary-professional-8",
+      "command": "/websummary-professional",
+      "name": "Websummary Professional",
+      "description": "Websummary Professional workflow directive for summaries.",
+      "instruction": "Apply websummary professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "websummary"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "brief-premium-9",
+      "command": "/brief-premium",
+      "name": "Brief Premium",
+      "description": "Brief Premium workflow directive for summaries.",
+      "instruction": "Apply brief premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "brief"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "digest-subtle-10",
+      "command": "/digest-subtle",
+      "name": "Digest Subtle",
+      "description": "Digest Subtle workflow directive for summaries.",
+      "instruction": "Apply digest subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "digest"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "keyfindings-strong-11",
+      "command": "/keyfindings-strong",
+      "name": "Keyfindings Strong",
+      "description": "Keyfindings Strong workflow directive for summaries.",
+      "instruction": "Apply keyfindings strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "keyfindings"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "websummary-balanced-12",
+      "command": "/websummary-balanced",
+      "name": "Websummary Balanced",
+      "description": "Websummary Balanced workflow directive for summaries.",
+      "instruction": "Apply websummary balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "websummary"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "brief-detailed-13",
+      "command": "/brief-detailed",
+      "name": "Brief Detailed",
+      "description": "Brief Detailed workflow directive for summaries.",
+      "instruction": "Apply brief detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "brief"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "digest-advanced-14",
+      "command": "/digest-advanced",
+      "name": "Digest Advanced",
+      "description": "Digest Advanced workflow directive for summaries.",
+      "instruction": "Apply digest advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "digest"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "keyfindings-simple-15",
+      "command": "/keyfindings-simple",
+      "name": "Keyfindings Simple",
+      "description": "Keyfindings Simple workflow directive for summaries.",
+      "instruction": "Apply keyfindings simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "keyfindings"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "websummary-smart-16",
+      "command": "/websummary-smart",
+      "name": "Websummary Smart",
+      "description": "Websummary Smart workflow directive for summaries.",
+      "instruction": "Apply websummary smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "websummary"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "brief-controlled-17",
+      "command": "/brief-controlled",
+      "name": "Brief Controlled",
+      "description": "Brief Controlled workflow directive for summaries.",
+      "instruction": "Apply brief controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "brief"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "digest-optimized-18",
+      "command": "/digest-optimized",
+      "name": "Digest Optimized",
+      "description": "Digest Optimized workflow directive for summaries.",
+      "instruction": "Apply digest optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "digest"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "keyfindings-efficient-19",
+      "command": "/keyfindings-efficient",
+      "name": "Keyfindings Efficient",
+      "description": "Keyfindings Efficient workflow directive for summaries.",
+      "instruction": "Apply keyfindings efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "keyfindings"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "websummary-accurate-20",
+      "command": "/websummary-accurate",
+      "name": "Websummary Accurate",
+      "description": "Websummary Accurate workflow directive for summaries.",
+      "instruction": "Apply websummary accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "websummary"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "brief-consistent-21",
+      "command": "/brief-consistent",
+      "name": "Brief Consistent",
+      "description": "Brief Consistent workflow directive for summaries.",
+      "instruction": "Apply brief consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "brief"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "digest-polished-22",
+      "command": "/digest-polished",
+      "name": "Digest Polished",
+      "description": "Digest Polished workflow directive for summaries.",
+      "instruction": "Apply digest polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "digest"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "keyfindings-final-23",
+      "command": "/keyfindings-final",
+      "name": "Keyfindings Final",
+      "description": "Keyfindings Final workflow directive for summaries.",
+      "instruction": "Apply keyfindings final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "keyfindings"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "websummary-quick-24",
+      "command": "/websummary-quick",
+      "name": "Websummary Quick",
+      "description": "Websummary Quick workflow directive for summaries.",
+      "instruction": "Apply websummary quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "websummary"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "brief-deep-25",
+      "command": "/brief-deep",
+      "name": "Brief Deep",
+      "description": "Brief Deep workflow directive for summaries.",
+      "instruction": "Apply brief deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "brief"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "digest-thorough-26",
+      "command": "/digest-thorough",
+      "name": "Digest Thorough",
+      "description": "Digest Thorough workflow directive for summaries.",
+      "instruction": "Apply digest thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "digest"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "keyfindings-minimal-27",
+      "command": "/keyfindings-minimal",
+      "name": "Keyfindings Minimal",
+      "description": "Keyfindings Minimal workflow directive for summaries.",
+      "instruction": "Apply keyfindings minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "keyfindings"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "websummary-maximum-28",
+      "command": "/websummary-maximum",
+      "name": "Websummary Maximum",
+      "description": "Websummary Maximum workflow directive for summaries.",
+      "instruction": "Apply websummary maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "websummary"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "brief-soft-29",
+      "command": "/brief-soft",
+      "name": "Brief Soft",
+      "description": "Brief Soft workflow directive for summaries.",
+      "instruction": "Apply brief soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "brief"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "digest-bold-30",
+      "command": "/digest-bold",
+      "name": "Digest Bold",
+      "description": "Digest Bold workflow directive for summaries.",
+      "instruction": "Apply digest bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "digest"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "keyfindings-sharp-31",
+      "command": "/keyfindings-sharp",
+      "name": "Keyfindings Sharp",
+      "description": "Keyfindings Sharp workflow directive for summaries.",
+      "instruction": "Apply keyfindings sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "keyfindings"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "websummary-smooth-32",
+      "command": "/websummary-smooth",
+      "name": "Websummary Smooth",
+      "description": "Websummary Smooth workflow directive for summaries.",
+      "instruction": "Apply websummary smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "websummary"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "brief-stable-33",
+      "command": "/brief-stable",
+      "name": "Brief Stable",
+      "description": "Brief Stable workflow directive for summaries.",
+      "instruction": "Apply brief stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "brief"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "digest-highquality-34",
+      "command": "/digest-highquality",
+      "name": "Digest Highquality",
+      "description": "Digest Highquality workflow directive for summaries.",
+      "instruction": "Apply digest highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "digest"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "keyfindings-lowartifact-35",
+      "command": "/keyfindings-lowartifact",
+      "name": "Keyfindings Lowartifact",
+      "description": "Keyfindings Lowartifact workflow directive for summaries.",
+      "instruction": "Apply keyfindings lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "keyfindings"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "websummary-highdetail-36",
+      "command": "/websummary-highdetail",
+      "name": "Websummary Highdetail",
+      "description": "Websummary Highdetail workflow directive for summaries.",
+      "instruction": "Apply websummary highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "websummary"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "brief-fine-37",
+      "command": "/brief-fine",
+      "name": "Brief Fine",
+      "description": "Brief Fine workflow directive for summaries.",
+      "instruction": "Apply brief fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "brief"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "digest-micro-38",
+      "command": "/digest-micro",
+      "name": "Digest Micro",
+      "description": "Digest Micro workflow directive for summaries.",
+      "instruction": "Apply digest micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "digest"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "keyfindings-macro-39",
+      "command": "/keyfindings-macro",
+      "name": "Keyfindings Macro",
+      "description": "Keyfindings Macro workflow directive for summaries.",
+      "instruction": "Apply keyfindings macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "keyfindings"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "websummary-local-40",
+      "command": "/websummary-local",
+      "name": "Websummary Local",
+      "description": "Websummary Local workflow directive for summaries.",
+      "instruction": "Apply websummary local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "websummary"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "brief-global-41",
+      "command": "/brief-global",
+      "name": "Brief Global",
+      "description": "Brief Global workflow directive for summaries.",
+      "instruction": "Apply brief global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "brief"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "digest-adaptive-42",
+      "command": "/digest-adaptive",
+      "name": "Digest Adaptive",
+      "description": "Digest Adaptive workflow directive for summaries.",
+      "instruction": "Apply digest adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "digest"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "keyfindings-contextual-43",
+      "command": "/keyfindings-contextual",
+      "name": "Keyfindings Contextual",
+      "description": "Keyfindings Contextual workflow directive for summaries.",
+      "instruction": "Apply keyfindings contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "keyfindings"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "websummary-realistic-44",
+      "command": "/websummary-realistic",
+      "name": "Websummary Realistic",
+      "description": "Websummary Realistic workflow directive for summaries.",
+      "instruction": "Apply websummary realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "websummary"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "brief-cinematic-45",
+      "command": "/brief-cinematic",
+      "name": "Brief Cinematic",
+      "description": "Brief Cinematic workflow directive for summaries.",
+      "instruction": "Apply brief cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "brief"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "digest-modern-46",
+      "command": "/digest-modern",
+      "name": "Digest Modern",
+      "description": "Digest Modern workflow directive for summaries.",
+      "instruction": "Apply digest modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "digest"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "keyfindings-classic-47",
+      "command": "/keyfindings-classic",
+      "name": "Keyfindings Classic",
+      "description": "Keyfindings Classic workflow directive for summaries.",
+      "instruction": "Apply keyfindings classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "keyfindings"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "websummary-technical-48",
+      "command": "/websummary-technical",
+      "name": "Websummary Technical",
+      "description": "Websummary Technical workflow directive for summaries.",
+      "instruction": "Apply websummary technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "websummary"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "brief-creative-49",
+      "command": "/brief-creative",
+      "name": "Brief Creative",
+      "description": "Brief Creative workflow directive for summaries.",
+      "instruction": "Apply brief creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "brief"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "digest-editorial-50",
+      "command": "/digest-editorial",
+      "name": "Digest Editorial",
+      "description": "Digest Editorial workflow directive for summaries.",
+      "instruction": "Apply digest editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "digest"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "keyfindings-production-51",
+      "command": "/keyfindings-production",
+      "name": "Keyfindings Production",
+      "description": "Keyfindings Production workflow directive for summaries.",
+      "instruction": "Apply keyfindings production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "keyfindings"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "websummary-studio-52",
+      "command": "/websummary-studio",
+      "name": "Websummary Studio",
+      "description": "Websummary Studio workflow directive for summaries.",
+      "instruction": "Apply websummary studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "websummary"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "brief-portable-53",
+      "command": "/brief-portable",
+      "name": "Brief Portable",
+      "description": "Brief Portable workflow directive for summaries.",
+      "instruction": "Apply brief portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "brief"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "digest-safe-54",
+      "command": "/digest-safe",
+      "name": "Digest Safe",
+      "description": "Digest Safe workflow directive for summaries.",
+      "instruction": "Apply digest safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "digest"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "keyfindings-robust-55",
+      "command": "/keyfindings-robust",
+      "name": "Keyfindings Robust",
+      "description": "Keyfindings Robust workflow directive for summaries.",
+      "instruction": "Apply keyfindings robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "keyfindings"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "websummary-reliable-56",
+      "command": "/websummary-reliable",
+      "name": "Websummary Reliable",
+      "description": "Websummary Reliable workflow directive for summaries.",
+      "instruction": "Apply websummary reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "websummary"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "brief-scalable-57",
+      "command": "/brief-scalable",
+      "name": "Brief Scalable",
+      "description": "Brief Scalable workflow directive for summaries.",
+      "instruction": "Apply brief scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "brief"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "digest-maintainable-58",
+      "command": "/digest-maintainable",
+      "name": "Digest Maintainable",
+      "description": "Digest Maintainable workflow directive for summaries.",
+      "instruction": "Apply digest maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "digest"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "keyfindings-accessible-59",
+      "command": "/keyfindings-accessible",
+      "name": "Keyfindings Accessible",
+      "description": "Keyfindings Accessible workflow directive for summaries.",
+      "instruction": "Apply keyfindings accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "keyfindings"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "websummary-responsive-60",
+      "command": "/websummary-responsive",
+      "name": "Websummary Responsive",
+      "description": "Websummary Responsive workflow directive for summaries.",
+      "instruction": "Apply websummary responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "websummary"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "brief-structured-61",
+      "command": "/brief-structured",
+      "name": "Brief Structured",
+      "description": "Brief Structured workflow directive for summaries.",
+      "instruction": "Apply brief structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "brief"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "digest-compact-62",
+      "command": "/digest-compact",
+      "name": "Digest Compact",
+      "description": "Digest Compact workflow directive for summaries.",
+      "instruction": "Apply digest compact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "digest"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    },
+    {
+      "id": "keyfindings-expanded-63",
+      "command": "/keyfindings-expanded",
+      "name": "Keyfindings Expanded",
+      "description": "Keyfindings Expanded workflow directive for summaries.",
+      "instruction": "Apply keyfindings expanded with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "summaries",
+        "web-and-search-workflows",
+        "keyfindings"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Environment & Atmosphere",
+      "categorySlug": "environment",
+      "subcategory": "Summaries"
+    }
+  ]
+}

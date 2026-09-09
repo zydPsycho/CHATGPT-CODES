@@ -1,0 +1,1289 @@
+{
+  "category": "Camera & Motion",
+  "categorySlug": "camera",
+  "subcategory": "Camera Moves",
+  "slug": "camera-moves",
+  "description": "Camera Moves command system for camera & motion.",
+  "prompts": [
+    {
+      "id": "pan-0",
+      "command": "/pan",
+      "name": "Pan",
+      "description": "Pan workflow directive for camera moves.",
+      "instruction": "Apply pan with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "pan"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "tilt-1",
+      "command": "/tilt",
+      "name": "Tilt",
+      "description": "Tilt workflow directive for camera moves.",
+      "instruction": "Apply tilt with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "tilt"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "zoom-2",
+      "command": "/zoom",
+      "name": "Zoom",
+      "description": "Zoom workflow directive for camera moves.",
+      "instruction": "Apply zoom with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "zoom"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "dolly-3",
+      "command": "/dolly",
+      "name": "Dolly",
+      "description": "Dolly workflow directive for camera moves.",
+      "instruction": "Apply dolly with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "dolly"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "orbit-4",
+      "command": "/orbit",
+      "name": "Orbit",
+      "description": "Orbit workflow directive for camera moves.",
+      "instruction": "Apply orbit with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "orbit"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "drone-5",
+      "command": "/drone",
+      "name": "Drone",
+      "description": "Drone workflow directive for camera moves.",
+      "instruction": "Apply drone with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "drone"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "pan-precise-6",
+      "command": "/pan-precise",
+      "name": "Pan Precise",
+      "description": "Pan Precise workflow directive for camera moves.",
+      "instruction": "Apply pan precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "pan"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "tilt-clean-7",
+      "command": "/tilt-clean",
+      "name": "Tilt Clean",
+      "description": "Tilt Clean workflow directive for camera moves.",
+      "instruction": "Apply tilt clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "tilt"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "zoom-natural-8",
+      "command": "/zoom-natural",
+      "name": "Zoom Natural",
+      "description": "Zoom Natural workflow directive for camera moves.",
+      "instruction": "Apply zoom natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "zoom"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "dolly-refined-9",
+      "command": "/dolly-refined",
+      "name": "Dolly Refined",
+      "description": "Dolly Refined workflow directive for camera moves.",
+      "instruction": "Apply dolly refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "dolly"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "orbit-professional-10",
+      "command": "/orbit-professional",
+      "name": "Orbit Professional",
+      "description": "Orbit Professional workflow directive for camera moves.",
+      "instruction": "Apply orbit professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "orbit"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "drone-premium-11",
+      "command": "/drone-premium",
+      "name": "Drone Premium",
+      "description": "Drone Premium workflow directive for camera moves.",
+      "instruction": "Apply drone premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "drone"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "pan-subtle-12",
+      "command": "/pan-subtle",
+      "name": "Pan Subtle",
+      "description": "Pan Subtle workflow directive for camera moves.",
+      "instruction": "Apply pan subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "pan"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "tilt-strong-13",
+      "command": "/tilt-strong",
+      "name": "Tilt Strong",
+      "description": "Tilt Strong workflow directive for camera moves.",
+      "instruction": "Apply tilt strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "tilt"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "zoom-balanced-14",
+      "command": "/zoom-balanced",
+      "name": "Zoom Balanced",
+      "description": "Zoom Balanced workflow directive for camera moves.",
+      "instruction": "Apply zoom balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "zoom"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "dolly-detailed-15",
+      "command": "/dolly-detailed",
+      "name": "Dolly Detailed",
+      "description": "Dolly Detailed workflow directive for camera moves.",
+      "instruction": "Apply dolly detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "dolly"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "orbit-advanced-16",
+      "command": "/orbit-advanced",
+      "name": "Orbit Advanced",
+      "description": "Orbit Advanced workflow directive for camera moves.",
+      "instruction": "Apply orbit advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "orbit"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "drone-simple-17",
+      "command": "/drone-simple",
+      "name": "Drone Simple",
+      "description": "Drone Simple workflow directive for camera moves.",
+      "instruction": "Apply drone simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "drone"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "pan-smart-18",
+      "command": "/pan-smart",
+      "name": "Pan Smart",
+      "description": "Pan Smart workflow directive for camera moves.",
+      "instruction": "Apply pan smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "pan"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "tilt-controlled-19",
+      "command": "/tilt-controlled",
+      "name": "Tilt Controlled",
+      "description": "Tilt Controlled workflow directive for camera moves.",
+      "instruction": "Apply tilt controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "tilt"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "zoom-optimized-20",
+      "command": "/zoom-optimized",
+      "name": "Zoom Optimized",
+      "description": "Zoom Optimized workflow directive for camera moves.",
+      "instruction": "Apply zoom optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "zoom"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "dolly-efficient-21",
+      "command": "/dolly-efficient",
+      "name": "Dolly Efficient",
+      "description": "Dolly Efficient workflow directive for camera moves.",
+      "instruction": "Apply dolly efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "dolly"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "orbit-accurate-22",
+      "command": "/orbit-accurate",
+      "name": "Orbit Accurate",
+      "description": "Orbit Accurate workflow directive for camera moves.",
+      "instruction": "Apply orbit accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "orbit"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "drone-consistent-23",
+      "command": "/drone-consistent",
+      "name": "Drone Consistent",
+      "description": "Drone Consistent workflow directive for camera moves.",
+      "instruction": "Apply drone consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "drone"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "pan-polished-24",
+      "command": "/pan-polished",
+      "name": "Pan Polished",
+      "description": "Pan Polished workflow directive for camera moves.",
+      "instruction": "Apply pan polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "pan"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "tilt-final-25",
+      "command": "/tilt-final",
+      "name": "Tilt Final",
+      "description": "Tilt Final workflow directive for camera moves.",
+      "instruction": "Apply tilt final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "tilt"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "zoom-quick-26",
+      "command": "/zoom-quick",
+      "name": "Zoom Quick",
+      "description": "Zoom Quick workflow directive for camera moves.",
+      "instruction": "Apply zoom quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "zoom"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "dolly-deep-27",
+      "command": "/dolly-deep",
+      "name": "Dolly Deep",
+      "description": "Dolly Deep workflow directive for camera moves.",
+      "instruction": "Apply dolly deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "dolly"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "orbit-thorough-28",
+      "command": "/orbit-thorough",
+      "name": "Orbit Thorough",
+      "description": "Orbit Thorough workflow directive for camera moves.",
+      "instruction": "Apply orbit thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "orbit"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "drone-minimal-29",
+      "command": "/drone-minimal",
+      "name": "Drone Minimal",
+      "description": "Drone Minimal workflow directive for camera moves.",
+      "instruction": "Apply drone minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "drone"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "pan-maximum-30",
+      "command": "/pan-maximum",
+      "name": "Pan Maximum",
+      "description": "Pan Maximum workflow directive for camera moves.",
+      "instruction": "Apply pan maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "pan"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "tilt-soft-31",
+      "command": "/tilt-soft",
+      "name": "Tilt Soft",
+      "description": "Tilt Soft workflow directive for camera moves.",
+      "instruction": "Apply tilt soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "tilt"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "zoom-bold-32",
+      "command": "/zoom-bold",
+      "name": "Zoom Bold",
+      "description": "Zoom Bold workflow directive for camera moves.",
+      "instruction": "Apply zoom bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "zoom"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "dolly-sharp-33",
+      "command": "/dolly-sharp",
+      "name": "Dolly Sharp",
+      "description": "Dolly Sharp workflow directive for camera moves.",
+      "instruction": "Apply dolly sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "dolly"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "orbit-smooth-34",
+      "command": "/orbit-smooth",
+      "name": "Orbit Smooth",
+      "description": "Orbit Smooth workflow directive for camera moves.",
+      "instruction": "Apply orbit smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "orbit"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "drone-stable-35",
+      "command": "/drone-stable",
+      "name": "Drone Stable",
+      "description": "Drone Stable workflow directive for camera moves.",
+      "instruction": "Apply drone stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "drone"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "pan-highquality-36",
+      "command": "/pan-highquality",
+      "name": "Pan Highquality",
+      "description": "Pan Highquality workflow directive for camera moves.",
+      "instruction": "Apply pan highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "pan"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "tilt-lowartifact-37",
+      "command": "/tilt-lowartifact",
+      "name": "Tilt Lowartifact",
+      "description": "Tilt Lowartifact workflow directive for camera moves.",
+      "instruction": "Apply tilt lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "tilt"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "zoom-highdetail-38",
+      "command": "/zoom-highdetail",
+      "name": "Zoom Highdetail",
+      "description": "Zoom Highdetail workflow directive for camera moves.",
+      "instruction": "Apply zoom highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "zoom"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "dolly-fine-39",
+      "command": "/dolly-fine",
+      "name": "Dolly Fine",
+      "description": "Dolly Fine workflow directive for camera moves.",
+      "instruction": "Apply dolly fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "dolly"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "orbit-micro-40",
+      "command": "/orbit-micro",
+      "name": "Orbit Micro",
+      "description": "Orbit Micro workflow directive for camera moves.",
+      "instruction": "Apply orbit micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "orbit"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "drone-macro-41",
+      "command": "/drone-macro",
+      "name": "Drone Macro",
+      "description": "Drone Macro workflow directive for camera moves.",
+      "instruction": "Apply drone macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "drone"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "pan-local-42",
+      "command": "/pan-local",
+      "name": "Pan Local",
+      "description": "Pan Local workflow directive for camera moves.",
+      "instruction": "Apply pan local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "pan"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "tilt-global-43",
+      "command": "/tilt-global",
+      "name": "Tilt Global",
+      "description": "Tilt Global workflow directive for camera moves.",
+      "instruction": "Apply tilt global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "tilt"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "zoom-adaptive-44",
+      "command": "/zoom-adaptive",
+      "name": "Zoom Adaptive",
+      "description": "Zoom Adaptive workflow directive for camera moves.",
+      "instruction": "Apply zoom adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "zoom"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "dolly-contextual-45",
+      "command": "/dolly-contextual",
+      "name": "Dolly Contextual",
+      "description": "Dolly Contextual workflow directive for camera moves.",
+      "instruction": "Apply dolly contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "dolly"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "orbit-realistic-46",
+      "command": "/orbit-realistic",
+      "name": "Orbit Realistic",
+      "description": "Orbit Realistic workflow directive for camera moves.",
+      "instruction": "Apply orbit realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "orbit"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "drone-cinematic-47",
+      "command": "/drone-cinematic",
+      "name": "Drone Cinematic",
+      "description": "Drone Cinematic workflow directive for camera moves.",
+      "instruction": "Apply drone cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "drone"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "pan-modern-48",
+      "command": "/pan-modern",
+      "name": "Pan Modern",
+      "description": "Pan Modern workflow directive for camera moves.",
+      "instruction": "Apply pan modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "pan"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "tilt-classic-49",
+      "command": "/tilt-classic",
+      "name": "Tilt Classic",
+      "description": "Tilt Classic workflow directive for camera moves.",
+      "instruction": "Apply tilt classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "tilt"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "zoom-technical-50",
+      "command": "/zoom-technical",
+      "name": "Zoom Technical",
+      "description": "Zoom Technical workflow directive for camera moves.",
+      "instruction": "Apply zoom technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "zoom"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "dolly-creative-51",
+      "command": "/dolly-creative",
+      "name": "Dolly Creative",
+      "description": "Dolly Creative workflow directive for camera moves.",
+      "instruction": "Apply dolly creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "dolly"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "orbit-editorial-52",
+      "command": "/orbit-editorial",
+      "name": "Orbit Editorial",
+      "description": "Orbit Editorial workflow directive for camera moves.",
+      "instruction": "Apply orbit editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "orbit"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "drone-production-53",
+      "command": "/drone-production",
+      "name": "Drone Production",
+      "description": "Drone Production workflow directive for camera moves.",
+      "instruction": "Apply drone production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "drone"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "pan-studio-54",
+      "command": "/pan-studio",
+      "name": "Pan Studio",
+      "description": "Pan Studio workflow directive for camera moves.",
+      "instruction": "Apply pan studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "pan"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "tilt-portable-55",
+      "command": "/tilt-portable",
+      "name": "Tilt Portable",
+      "description": "Tilt Portable workflow directive for camera moves.",
+      "instruction": "Apply tilt portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "tilt"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "zoom-safe-56",
+      "command": "/zoom-safe",
+      "name": "Zoom Safe",
+      "description": "Zoom Safe workflow directive for camera moves.",
+      "instruction": "Apply zoom safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "zoom"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "dolly-robust-57",
+      "command": "/dolly-robust",
+      "name": "Dolly Robust",
+      "description": "Dolly Robust workflow directive for camera moves.",
+      "instruction": "Apply dolly robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "dolly"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "orbit-reliable-58",
+      "command": "/orbit-reliable",
+      "name": "Orbit Reliable",
+      "description": "Orbit Reliable workflow directive for camera moves.",
+      "instruction": "Apply orbit reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "orbit"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "drone-scalable-59",
+      "command": "/drone-scalable",
+      "name": "Drone Scalable",
+      "description": "Drone Scalable workflow directive for camera moves.",
+      "instruction": "Apply drone scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "drone"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "pan-maintainable-60",
+      "command": "/pan-maintainable",
+      "name": "Pan Maintainable",
+      "description": "Pan Maintainable workflow directive for camera moves.",
+      "instruction": "Apply pan maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "pan"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "tilt-accessible-61",
+      "command": "/tilt-accessible",
+      "name": "Tilt Accessible",
+      "description": "Tilt Accessible workflow directive for camera moves.",
+      "instruction": "Apply tilt accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "tilt"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "zoom-responsive-62",
+      "command": "/zoom-responsive",
+      "name": "Zoom Responsive",
+      "description": "Zoom Responsive workflow directive for camera moves.",
+      "instruction": "Apply zoom responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "zoom"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    },
+    {
+      "id": "dolly-structured-63",
+      "command": "/dolly-structured",
+      "name": "Dolly Structured",
+      "description": "Dolly Structured workflow directive for camera moves.",
+      "instruction": "Apply dolly structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera-moves",
+        "camera-motion-and-video",
+        "dolly"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Camera & Motion",
+      "categorySlug": "camera",
+      "subcategory": "Camera Moves"
+    }
+  ]
+}

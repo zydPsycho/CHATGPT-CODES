@@ -1,0 +1,1289 @@
+{
+  "category": "Style Transformations",
+  "categorySlug": "styles",
+  "subcategory": "Tone",
+  "slug": "tone",
+  "description": "Tone command system for style transformations.",
+  "prompts": [
+    {
+      "id": "formal-0",
+      "command": "/formal",
+      "name": "Formal",
+      "description": "Formal workflow directive for tone.",
+      "instruction": "Apply formal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "formal"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "casual-1",
+      "command": "/casual",
+      "name": "Casual",
+      "description": "Casual workflow directive for tone.",
+      "instruction": "Apply casual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "casual"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "friendly-2",
+      "command": "/friendly",
+      "name": "Friendly",
+      "description": "Friendly workflow directive for tone.",
+      "instruction": "Apply friendly with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "friendly"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "academic-3",
+      "command": "/academic",
+      "name": "Academic",
+      "description": "Academic workflow directive for tone.",
+      "instruction": "Apply academic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "academic"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "native-4",
+      "command": "/native",
+      "name": "Native",
+      "description": "Native workflow directive for tone.",
+      "instruction": "Apply native with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "native"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "formal-precise-5",
+      "command": "/formal-precise",
+      "name": "Formal Precise",
+      "description": "Formal Precise workflow directive for tone.",
+      "instruction": "Apply formal precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "formal"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "casual-clean-6",
+      "command": "/casual-clean",
+      "name": "Casual Clean",
+      "description": "Casual Clean workflow directive for tone.",
+      "instruction": "Apply casual clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "casual"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "friendly-natural-7",
+      "command": "/friendly-natural",
+      "name": "Friendly Natural",
+      "description": "Friendly Natural workflow directive for tone.",
+      "instruction": "Apply friendly natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "friendly"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "academic-refined-8",
+      "command": "/academic-refined",
+      "name": "Academic Refined",
+      "description": "Academic Refined workflow directive for tone.",
+      "instruction": "Apply academic refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "academic"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "native-professional-9",
+      "command": "/native-professional",
+      "name": "Native Professional",
+      "description": "Native Professional workflow directive for tone.",
+      "instruction": "Apply native professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "native"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "formal-premium-10",
+      "command": "/formal-premium",
+      "name": "Formal Premium",
+      "description": "Formal Premium workflow directive for tone.",
+      "instruction": "Apply formal premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "formal"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "casual-subtle-11",
+      "command": "/casual-subtle",
+      "name": "Casual Subtle",
+      "description": "Casual Subtle workflow directive for tone.",
+      "instruction": "Apply casual subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "casual"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "friendly-strong-12",
+      "command": "/friendly-strong",
+      "name": "Friendly Strong",
+      "description": "Friendly Strong workflow directive for tone.",
+      "instruction": "Apply friendly strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "friendly"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "academic-balanced-13",
+      "command": "/academic-balanced",
+      "name": "Academic Balanced",
+      "description": "Academic Balanced workflow directive for tone.",
+      "instruction": "Apply academic balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "academic"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "native-detailed-14",
+      "command": "/native-detailed",
+      "name": "Native Detailed",
+      "description": "Native Detailed workflow directive for tone.",
+      "instruction": "Apply native detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "native"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "formal-advanced-15",
+      "command": "/formal-advanced",
+      "name": "Formal Advanced",
+      "description": "Formal Advanced workflow directive for tone.",
+      "instruction": "Apply formal advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "formal"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "casual-simple-16",
+      "command": "/casual-simple",
+      "name": "Casual Simple",
+      "description": "Casual Simple workflow directive for tone.",
+      "instruction": "Apply casual simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "casual"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "friendly-smart-17",
+      "command": "/friendly-smart",
+      "name": "Friendly Smart",
+      "description": "Friendly Smart workflow directive for tone.",
+      "instruction": "Apply friendly smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "friendly"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "academic-controlled-18",
+      "command": "/academic-controlled",
+      "name": "Academic Controlled",
+      "description": "Academic Controlled workflow directive for tone.",
+      "instruction": "Apply academic controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "academic"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "native-optimized-19",
+      "command": "/native-optimized",
+      "name": "Native Optimized",
+      "description": "Native Optimized workflow directive for tone.",
+      "instruction": "Apply native optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "native"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "formal-efficient-20",
+      "command": "/formal-efficient",
+      "name": "Formal Efficient",
+      "description": "Formal Efficient workflow directive for tone.",
+      "instruction": "Apply formal efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "formal"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "casual-accurate-21",
+      "command": "/casual-accurate",
+      "name": "Casual Accurate",
+      "description": "Casual Accurate workflow directive for tone.",
+      "instruction": "Apply casual accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "casual"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "friendly-consistent-22",
+      "command": "/friendly-consistent",
+      "name": "Friendly Consistent",
+      "description": "Friendly Consistent workflow directive for tone.",
+      "instruction": "Apply friendly consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "friendly"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "academic-polished-23",
+      "command": "/academic-polished",
+      "name": "Academic Polished",
+      "description": "Academic Polished workflow directive for tone.",
+      "instruction": "Apply academic polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "academic"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "native-final-24",
+      "command": "/native-final",
+      "name": "Native Final",
+      "description": "Native Final workflow directive for tone.",
+      "instruction": "Apply native final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "native"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "formal-quick-25",
+      "command": "/formal-quick",
+      "name": "Formal Quick",
+      "description": "Formal Quick workflow directive for tone.",
+      "instruction": "Apply formal quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "formal"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "casual-deep-26",
+      "command": "/casual-deep",
+      "name": "Casual Deep",
+      "description": "Casual Deep workflow directive for tone.",
+      "instruction": "Apply casual deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "casual"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "friendly-thorough-27",
+      "command": "/friendly-thorough",
+      "name": "Friendly Thorough",
+      "description": "Friendly Thorough workflow directive for tone.",
+      "instruction": "Apply friendly thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "friendly"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "academic-minimal-28",
+      "command": "/academic-minimal",
+      "name": "Academic Minimal",
+      "description": "Academic Minimal workflow directive for tone.",
+      "instruction": "Apply academic minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "academic"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "native-maximum-29",
+      "command": "/native-maximum",
+      "name": "Native Maximum",
+      "description": "Native Maximum workflow directive for tone.",
+      "instruction": "Apply native maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "native"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "formal-soft-30",
+      "command": "/formal-soft",
+      "name": "Formal Soft",
+      "description": "Formal Soft workflow directive for tone.",
+      "instruction": "Apply formal soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "formal"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "casual-bold-31",
+      "command": "/casual-bold",
+      "name": "Casual Bold",
+      "description": "Casual Bold workflow directive for tone.",
+      "instruction": "Apply casual bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "casual"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "friendly-sharp-32",
+      "command": "/friendly-sharp",
+      "name": "Friendly Sharp",
+      "description": "Friendly Sharp workflow directive for tone.",
+      "instruction": "Apply friendly sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "friendly"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "academic-smooth-33",
+      "command": "/academic-smooth",
+      "name": "Academic Smooth",
+      "description": "Academic Smooth workflow directive for tone.",
+      "instruction": "Apply academic smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "academic"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "native-stable-34",
+      "command": "/native-stable",
+      "name": "Native Stable",
+      "description": "Native Stable workflow directive for tone.",
+      "instruction": "Apply native stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "native"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "formal-highquality-35",
+      "command": "/formal-highquality",
+      "name": "Formal Highquality",
+      "description": "Formal Highquality workflow directive for tone.",
+      "instruction": "Apply formal highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "formal"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "casual-lowartifact-36",
+      "command": "/casual-lowartifact",
+      "name": "Casual Lowartifact",
+      "description": "Casual Lowartifact workflow directive for tone.",
+      "instruction": "Apply casual lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "casual"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "friendly-highdetail-37",
+      "command": "/friendly-highdetail",
+      "name": "Friendly Highdetail",
+      "description": "Friendly Highdetail workflow directive for tone.",
+      "instruction": "Apply friendly highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "friendly"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "academic-fine-38",
+      "command": "/academic-fine",
+      "name": "Academic Fine",
+      "description": "Academic Fine workflow directive for tone.",
+      "instruction": "Apply academic fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "academic"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "native-micro-39",
+      "command": "/native-micro",
+      "name": "Native Micro",
+      "description": "Native Micro workflow directive for tone.",
+      "instruction": "Apply native micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "native"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "formal-macro-40",
+      "command": "/formal-macro",
+      "name": "Formal Macro",
+      "description": "Formal Macro workflow directive for tone.",
+      "instruction": "Apply formal macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "formal"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "casual-local-41",
+      "command": "/casual-local",
+      "name": "Casual Local",
+      "description": "Casual Local workflow directive for tone.",
+      "instruction": "Apply casual local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "casual"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "friendly-global-42",
+      "command": "/friendly-global",
+      "name": "Friendly Global",
+      "description": "Friendly Global workflow directive for tone.",
+      "instruction": "Apply friendly global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "friendly"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "academic-adaptive-43",
+      "command": "/academic-adaptive",
+      "name": "Academic Adaptive",
+      "description": "Academic Adaptive workflow directive for tone.",
+      "instruction": "Apply academic adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "academic"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "native-contextual-44",
+      "command": "/native-contextual",
+      "name": "Native Contextual",
+      "description": "Native Contextual workflow directive for tone.",
+      "instruction": "Apply native contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "native"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "formal-realistic-45",
+      "command": "/formal-realistic",
+      "name": "Formal Realistic",
+      "description": "Formal Realistic workflow directive for tone.",
+      "instruction": "Apply formal realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "formal"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "casual-cinematic-46",
+      "command": "/casual-cinematic",
+      "name": "Casual Cinematic",
+      "description": "Casual Cinematic workflow directive for tone.",
+      "instruction": "Apply casual cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "casual"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "friendly-modern-47",
+      "command": "/friendly-modern",
+      "name": "Friendly Modern",
+      "description": "Friendly Modern workflow directive for tone.",
+      "instruction": "Apply friendly modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "friendly"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "academic-classic-48",
+      "command": "/academic-classic",
+      "name": "Academic Classic",
+      "description": "Academic Classic workflow directive for tone.",
+      "instruction": "Apply academic classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "academic"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "native-technical-49",
+      "command": "/native-technical",
+      "name": "Native Technical",
+      "description": "Native Technical workflow directive for tone.",
+      "instruction": "Apply native technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "native"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "formal-creative-50",
+      "command": "/formal-creative",
+      "name": "Formal Creative",
+      "description": "Formal Creative workflow directive for tone.",
+      "instruction": "Apply formal creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "formal"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "casual-editorial-51",
+      "command": "/casual-editorial",
+      "name": "Casual Editorial",
+      "description": "Casual Editorial workflow directive for tone.",
+      "instruction": "Apply casual editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "casual"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "friendly-production-52",
+      "command": "/friendly-production",
+      "name": "Friendly Production",
+      "description": "Friendly Production workflow directive for tone.",
+      "instruction": "Apply friendly production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "friendly"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "academic-studio-53",
+      "command": "/academic-studio",
+      "name": "Academic Studio",
+      "description": "Academic Studio workflow directive for tone.",
+      "instruction": "Apply academic studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "academic"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "native-portable-54",
+      "command": "/native-portable",
+      "name": "Native Portable",
+      "description": "Native Portable workflow directive for tone.",
+      "instruction": "Apply native portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "native"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "formal-safe-55",
+      "command": "/formal-safe",
+      "name": "Formal Safe",
+      "description": "Formal Safe workflow directive for tone.",
+      "instruction": "Apply formal safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "formal"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "casual-robust-56",
+      "command": "/casual-robust",
+      "name": "Casual Robust",
+      "description": "Casual Robust workflow directive for tone.",
+      "instruction": "Apply casual robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "casual"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "friendly-reliable-57",
+      "command": "/friendly-reliable",
+      "name": "Friendly Reliable",
+      "description": "Friendly Reliable workflow directive for tone.",
+      "instruction": "Apply friendly reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "friendly"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "academic-scalable-58",
+      "command": "/academic-scalable",
+      "name": "Academic Scalable",
+      "description": "Academic Scalable workflow directive for tone.",
+      "instruction": "Apply academic scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "academic"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "native-maintainable-59",
+      "command": "/native-maintainable",
+      "name": "Native Maintainable",
+      "description": "Native Maintainable workflow directive for tone.",
+      "instruction": "Apply native maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "native"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "formal-accessible-60",
+      "command": "/formal-accessible",
+      "name": "Formal Accessible",
+      "description": "Formal Accessible workflow directive for tone.",
+      "instruction": "Apply formal accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "formal"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "casual-responsive-61",
+      "command": "/casual-responsive",
+      "name": "Casual Responsive",
+      "description": "Casual Responsive workflow directive for tone.",
+      "instruction": "Apply casual responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "casual"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "friendly-structured-62",
+      "command": "/friendly-structured",
+      "name": "Friendly Structured",
+      "description": "Friendly Structured workflow directive for tone.",
+      "instruction": "Apply friendly structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "friendly"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    },
+    {
+      "id": "academic-compact-63",
+      "command": "/academic-compact",
+      "name": "Academic Compact",
+      "description": "Academic Compact workflow directive for tone.",
+      "instruction": "Apply academic compact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "tone",
+        "translation-and-language",
+        "academic"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Style Transformations",
+      "categorySlug": "styles",
+      "subcategory": "Tone"
+    }
+  ]
+}

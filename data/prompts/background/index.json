@@ -1,0 +1,13 @@
+{
+  "category": "Background & Cleanup",
+  "slug": "background",
+  "description": "Remove, replace and refine scene elements.",
+  "subcategories": [
+    {
+      "name": "Core",
+      "slug": "core",
+      "file": "/data/prompts/background/core.json",
+      "count": 5
+    }
+  ]
+}

@@ -1,0 +1,1289 @@
+{
+  "category": "Quality & Restoration",
+  "categorySlug": "quality",
+  "subcategory": "Documents",
+  "slug": "documents",
+  "description": "Documents command system for quality & restoration.",
+  "prompts": [
+    {
+      "id": "summarize-0",
+      "command": "/summarize",
+      "name": "Summarize",
+      "description": "Summarize workflow directive for documents.",
+      "instruction": "Apply summarize with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "summarize"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "extract-1",
+      "command": "/extract",
+      "name": "Extract",
+      "description": "Extract workflow directive for documents.",
+      "instruction": "Apply extract with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "extract"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "compare-2",
+      "command": "/compare",
+      "name": "Compare",
+      "description": "Compare workflow directive for documents.",
+      "instruction": "Apply compare with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "compare"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "review-3",
+      "command": "/review",
+      "name": "Review",
+      "description": "Review workflow directive for documents.",
+      "instruction": "Apply review with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "review"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "outline-4",
+      "command": "/outline",
+      "name": "Outline",
+      "description": "Outline workflow directive for documents.",
+      "instruction": "Apply outline with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "outline"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "classify-5",
+      "command": "/classify",
+      "name": "Classify",
+      "description": "Classify workflow directive for documents.",
+      "instruction": "Apply classify with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "classify"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "summarize-precise-6",
+      "command": "/summarize-precise",
+      "name": "Summarize Precise",
+      "description": "Summarize Precise workflow directive for documents.",
+      "instruction": "Apply summarize precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "summarize"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "extract-clean-7",
+      "command": "/extract-clean",
+      "name": "Extract Clean",
+      "description": "Extract Clean workflow directive for documents.",
+      "instruction": "Apply extract clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "extract"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "compare-natural-8",
+      "command": "/compare-natural",
+      "name": "Compare Natural",
+      "description": "Compare Natural workflow directive for documents.",
+      "instruction": "Apply compare natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "compare"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "review-refined-9",
+      "command": "/review-refined",
+      "name": "Review Refined",
+      "description": "Review Refined workflow directive for documents.",
+      "instruction": "Apply review refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "review"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "outline-professional-10",
+      "command": "/outline-professional",
+      "name": "Outline Professional",
+      "description": "Outline Professional workflow directive for documents.",
+      "instruction": "Apply outline professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "outline"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "classify-premium-11",
+      "command": "/classify-premium",
+      "name": "Classify Premium",
+      "description": "Classify Premium workflow directive for documents.",
+      "instruction": "Apply classify premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "classify"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "summarize-subtle-12",
+      "command": "/summarize-subtle",
+      "name": "Summarize Subtle",
+      "description": "Summarize Subtle workflow directive for documents.",
+      "instruction": "Apply summarize subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "summarize"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "extract-strong-13",
+      "command": "/extract-strong",
+      "name": "Extract Strong",
+      "description": "Extract Strong workflow directive for documents.",
+      "instruction": "Apply extract strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "extract"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "compare-balanced-14",
+      "command": "/compare-balanced",
+      "name": "Compare Balanced",
+      "description": "Compare Balanced workflow directive for documents.",
+      "instruction": "Apply compare balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "compare"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "review-detailed-15",
+      "command": "/review-detailed",
+      "name": "Review Detailed",
+      "description": "Review Detailed workflow directive for documents.",
+      "instruction": "Apply review detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "review"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "outline-advanced-16",
+      "command": "/outline-advanced",
+      "name": "Outline Advanced",
+      "description": "Outline Advanced workflow directive for documents.",
+      "instruction": "Apply outline advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "outline"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "classify-simple-17",
+      "command": "/classify-simple",
+      "name": "Classify Simple",
+      "description": "Classify Simple workflow directive for documents.",
+      "instruction": "Apply classify simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "classify"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "summarize-smart-18",
+      "command": "/summarize-smart",
+      "name": "Summarize Smart",
+      "description": "Summarize Smart workflow directive for documents.",
+      "instruction": "Apply summarize smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "summarize"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "extract-controlled-19",
+      "command": "/extract-controlled",
+      "name": "Extract Controlled",
+      "description": "Extract Controlled workflow directive for documents.",
+      "instruction": "Apply extract controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "extract"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "compare-optimized-20",
+      "command": "/compare-optimized",
+      "name": "Compare Optimized",
+      "description": "Compare Optimized workflow directive for documents.",
+      "instruction": "Apply compare optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "compare"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "review-efficient-21",
+      "command": "/review-efficient",
+      "name": "Review Efficient",
+      "description": "Review Efficient workflow directive for documents.",
+      "instruction": "Apply review efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "review"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "outline-accurate-22",
+      "command": "/outline-accurate",
+      "name": "Outline Accurate",
+      "description": "Outline Accurate workflow directive for documents.",
+      "instruction": "Apply outline accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "outline"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "classify-consistent-23",
+      "command": "/classify-consistent",
+      "name": "Classify Consistent",
+      "description": "Classify Consistent workflow directive for documents.",
+      "instruction": "Apply classify consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "classify"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "summarize-polished-24",
+      "command": "/summarize-polished",
+      "name": "Summarize Polished",
+      "description": "Summarize Polished workflow directive for documents.",
+      "instruction": "Apply summarize polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "summarize"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "extract-final-25",
+      "command": "/extract-final",
+      "name": "Extract Final",
+      "description": "Extract Final workflow directive for documents.",
+      "instruction": "Apply extract final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "extract"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "compare-quick-26",
+      "command": "/compare-quick",
+      "name": "Compare Quick",
+      "description": "Compare Quick workflow directive for documents.",
+      "instruction": "Apply compare quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "compare"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "review-deep-27",
+      "command": "/review-deep",
+      "name": "Review Deep",
+      "description": "Review Deep workflow directive for documents.",
+      "instruction": "Apply review deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "review"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "outline-thorough-28",
+      "command": "/outline-thorough",
+      "name": "Outline Thorough",
+      "description": "Outline Thorough workflow directive for documents.",
+      "instruction": "Apply outline thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "outline"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "classify-minimal-29",
+      "command": "/classify-minimal",
+      "name": "Classify Minimal",
+      "description": "Classify Minimal workflow directive for documents.",
+      "instruction": "Apply classify minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "classify"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "summarize-maximum-30",
+      "command": "/summarize-maximum",
+      "name": "Summarize Maximum",
+      "description": "Summarize Maximum workflow directive for documents.",
+      "instruction": "Apply summarize maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "summarize"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "extract-soft-31",
+      "command": "/extract-soft",
+      "name": "Extract Soft",
+      "description": "Extract Soft workflow directive for documents.",
+      "instruction": "Apply extract soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "extract"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "compare-bold-32",
+      "command": "/compare-bold",
+      "name": "Compare Bold",
+      "description": "Compare Bold workflow directive for documents.",
+      "instruction": "Apply compare bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "compare"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "review-sharp-33",
+      "command": "/review-sharp",
+      "name": "Review Sharp",
+      "description": "Review Sharp workflow directive for documents.",
+      "instruction": "Apply review sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "review"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "outline-smooth-34",
+      "command": "/outline-smooth",
+      "name": "Outline Smooth",
+      "description": "Outline Smooth workflow directive for documents.",
+      "instruction": "Apply outline smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "outline"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "classify-stable-35",
+      "command": "/classify-stable",
+      "name": "Classify Stable",
+      "description": "Classify Stable workflow directive for documents.",
+      "instruction": "Apply classify stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "classify"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "summarize-highquality-36",
+      "command": "/summarize-highquality",
+      "name": "Summarize Highquality",
+      "description": "Summarize Highquality workflow directive for documents.",
+      "instruction": "Apply summarize highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "summarize"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "extract-lowartifact-37",
+      "command": "/extract-lowartifact",
+      "name": "Extract Lowartifact",
+      "description": "Extract Lowartifact workflow directive for documents.",
+      "instruction": "Apply extract lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "extract"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "compare-highdetail-38",
+      "command": "/compare-highdetail",
+      "name": "Compare Highdetail",
+      "description": "Compare Highdetail workflow directive for documents.",
+      "instruction": "Apply compare highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "compare"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "review-fine-39",
+      "command": "/review-fine",
+      "name": "Review Fine",
+      "description": "Review Fine workflow directive for documents.",
+      "instruction": "Apply review fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "review"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "outline-micro-40",
+      "command": "/outline-micro",
+      "name": "Outline Micro",
+      "description": "Outline Micro workflow directive for documents.",
+      "instruction": "Apply outline micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "outline"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "classify-macro-41",
+      "command": "/classify-macro",
+      "name": "Classify Macro",
+      "description": "Classify Macro workflow directive for documents.",
+      "instruction": "Apply classify macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "classify"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "summarize-local-42",
+      "command": "/summarize-local",
+      "name": "Summarize Local",
+      "description": "Summarize Local workflow directive for documents.",
+      "instruction": "Apply summarize local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "summarize"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "extract-global-43",
+      "command": "/extract-global",
+      "name": "Extract Global",
+      "description": "Extract Global workflow directive for documents.",
+      "instruction": "Apply extract global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "extract"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "compare-adaptive-44",
+      "command": "/compare-adaptive",
+      "name": "Compare Adaptive",
+      "description": "Compare Adaptive workflow directive for documents.",
+      "instruction": "Apply compare adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "compare"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "review-contextual-45",
+      "command": "/review-contextual",
+      "name": "Review Contextual",
+      "description": "Review Contextual workflow directive for documents.",
+      "instruction": "Apply review contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "review"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "outline-realistic-46",
+      "command": "/outline-realistic",
+      "name": "Outline Realistic",
+      "description": "Outline Realistic workflow directive for documents.",
+      "instruction": "Apply outline realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "outline"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "classify-cinematic-47",
+      "command": "/classify-cinematic",
+      "name": "Classify Cinematic",
+      "description": "Classify Cinematic workflow directive for documents.",
+      "instruction": "Apply classify cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "classify"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "summarize-modern-48",
+      "command": "/summarize-modern",
+      "name": "Summarize Modern",
+      "description": "Summarize Modern workflow directive for documents.",
+      "instruction": "Apply summarize modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "summarize"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "extract-classic-49",
+      "command": "/extract-classic",
+      "name": "Extract Classic",
+      "description": "Extract Classic workflow directive for documents.",
+      "instruction": "Apply extract classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "extract"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "compare-technical-50",
+      "command": "/compare-technical",
+      "name": "Compare Technical",
+      "description": "Compare Technical workflow directive for documents.",
+      "instruction": "Apply compare technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "compare"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "review-creative-51",
+      "command": "/review-creative",
+      "name": "Review Creative",
+      "description": "Review Creative workflow directive for documents.",
+      "instruction": "Apply review creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "review"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "outline-editorial-52",
+      "command": "/outline-editorial",
+      "name": "Outline Editorial",
+      "description": "Outline Editorial workflow directive for documents.",
+      "instruction": "Apply outline editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "outline"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "classify-production-53",
+      "command": "/classify-production",
+      "name": "Classify Production",
+      "description": "Classify Production workflow directive for documents.",
+      "instruction": "Apply classify production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "classify"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "summarize-studio-54",
+      "command": "/summarize-studio",
+      "name": "Summarize Studio",
+      "description": "Summarize Studio workflow directive for documents.",
+      "instruction": "Apply summarize studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "summarize"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "extract-portable-55",
+      "command": "/extract-portable",
+      "name": "Extract Portable",
+      "description": "Extract Portable workflow directive for documents.",
+      "instruction": "Apply extract portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "extract"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "compare-safe-56",
+      "command": "/compare-safe",
+      "name": "Compare Safe",
+      "description": "Compare Safe workflow directive for documents.",
+      "instruction": "Apply compare safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "compare"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "review-robust-57",
+      "command": "/review-robust",
+      "name": "Review Robust",
+      "description": "Review Robust workflow directive for documents.",
+      "instruction": "Apply review robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "review"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "outline-reliable-58",
+      "command": "/outline-reliable",
+      "name": "Outline Reliable",
+      "description": "Outline Reliable workflow directive for documents.",
+      "instruction": "Apply outline reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "outline"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "classify-scalable-59",
+      "command": "/classify-scalable",
+      "name": "Classify Scalable",
+      "description": "Classify Scalable workflow directive for documents.",
+      "instruction": "Apply classify scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "classify"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "summarize-maintainable-60",
+      "command": "/summarize-maintainable",
+      "name": "Summarize Maintainable",
+      "description": "Summarize Maintainable workflow directive for documents.",
+      "instruction": "Apply summarize maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "summarize"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "extract-accessible-61",
+      "command": "/extract-accessible",
+      "name": "Extract Accessible",
+      "description": "Extract Accessible workflow directive for documents.",
+      "instruction": "Apply extract accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "extract"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "compare-responsive-62",
+      "command": "/compare-responsive",
+      "name": "Compare Responsive",
+      "description": "Compare Responsive workflow directive for documents.",
+      "instruction": "Apply compare responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "compare"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    },
+    {
+      "id": "review-structured-63",
+      "command": "/review-structured",
+      "name": "Review Structured",
+      "description": "Review Structured workflow directive for documents.",
+      "instruction": "Apply review structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "documents",
+        "documents-and-files",
+        "review"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Quality & Restoration",
+      "categorySlug": "quality",
+      "subcategory": "Documents"
+    }
+  ]
+}
