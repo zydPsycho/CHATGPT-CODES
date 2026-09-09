@@ -24,7 +24,7 @@
     "icon": "▷",
     "count": 133,
     "order": 2,
-    "image": "/assets/images/camera-demo.jpg"
+    "image": "/assets/images/video-motion-demo.jpg"
   },
   {
     "slug": "visual-design",
@@ -87,7 +87,7 @@
     "icon": "文",
     "count": 256,
     "order": 9,
-    "image": "/assets/images/writing-coding-demo.jpg"
+    "image": "/assets/images/language-demo.jpg"
   },
   {
     "slug": "prompt-engineering",
@@ -96,6 +96,6 @@
     "icon": "⌬",
     "count": 256,
     "order": 10,
-    "image": "/assets/images/writing-coding-demo.jpg"
+    "image": "/assets/images/prompt-engineering-demo.jpg"
   }
 ]
