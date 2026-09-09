@@ -1,0 +1,1289 @@
+{
+  "category": "Writing & Content",
+  "categorySlug": "writing-content",
+  "subcategory": "Presentation",
+  "slug": "presentation",
+  "description": "Presentation command system for text, ui & content.",
+  "prompts": [
+    {
+      "id": "slides-0",
+      "command": "/slides",
+      "name": "Slides",
+      "description": "Slides workflow directive for presentation.",
+      "instruction": "Apply slides with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "slides"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "presentation-1",
+      "command": "/presentation",
+      "name": "Presentation",
+      "description": "Presentation workflow directive for presentation.",
+      "instruction": "Apply presentation with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "presentation"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "speakernotes-2",
+      "command": "/speakernotes",
+      "name": "Speakernotes",
+      "description": "Speakernotes workflow directive for presentation.",
+      "instruction": "Apply speakernotes with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "speakernotes"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "pitch-3",
+      "command": "/pitch",
+      "name": "Pitch",
+      "description": "Pitch workflow directive for presentation.",
+      "instruction": "Apply pitch with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "pitch"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "storyline-4",
+      "command": "/storyline",
+      "name": "Storyline",
+      "description": "Storyline workflow directive for presentation.",
+      "instruction": "Apply storyline with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "storyline"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "slides-precise-5",
+      "command": "/slides-precise",
+      "name": "Slides Precise",
+      "description": "Slides Precise workflow directive for presentation.",
+      "instruction": "Apply slides precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "slides"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "presentation-clean-6",
+      "command": "/presentation-clean",
+      "name": "Presentation Clean",
+      "description": "Presentation Clean workflow directive for presentation.",
+      "instruction": "Apply presentation clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "presentation"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "speakernotes-natural-7",
+      "command": "/speakernotes-natural",
+      "name": "Speakernotes Natural",
+      "description": "Speakernotes Natural workflow directive for presentation.",
+      "instruction": "Apply speakernotes natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "speakernotes"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "pitch-refined-8",
+      "command": "/pitch-refined",
+      "name": "Pitch Refined",
+      "description": "Pitch Refined workflow directive for presentation.",
+      "instruction": "Apply pitch refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "pitch"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "storyline-professional-9",
+      "command": "/storyline-professional",
+      "name": "Storyline Professional",
+      "description": "Storyline Professional workflow directive for presentation.",
+      "instruction": "Apply storyline professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "storyline"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "slides-premium-10",
+      "command": "/slides-premium",
+      "name": "Slides Premium",
+      "description": "Slides Premium workflow directive for presentation.",
+      "instruction": "Apply slides premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "slides"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "presentation-subtle-11",
+      "command": "/presentation-subtle",
+      "name": "Presentation Subtle",
+      "description": "Presentation Subtle workflow directive for presentation.",
+      "instruction": "Apply presentation subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "presentation"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "speakernotes-strong-12",
+      "command": "/speakernotes-strong",
+      "name": "Speakernotes Strong",
+      "description": "Speakernotes Strong workflow directive for presentation.",
+      "instruction": "Apply speakernotes strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "speakernotes"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "pitch-balanced-13",
+      "command": "/pitch-balanced",
+      "name": "Pitch Balanced",
+      "description": "Pitch Balanced workflow directive for presentation.",
+      "instruction": "Apply pitch balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "pitch"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "storyline-detailed-14",
+      "command": "/storyline-detailed",
+      "name": "Storyline Detailed",
+      "description": "Storyline Detailed workflow directive for presentation.",
+      "instruction": "Apply storyline detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "storyline"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "slides-advanced-15",
+      "command": "/slides-advanced",
+      "name": "Slides Advanced",
+      "description": "Slides Advanced workflow directive for presentation.",
+      "instruction": "Apply slides advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "slides"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "presentation-simple-16",
+      "command": "/presentation-simple",
+      "name": "Presentation Simple",
+      "description": "Presentation Simple workflow directive for presentation.",
+      "instruction": "Apply presentation simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "presentation"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "speakernotes-smart-17",
+      "command": "/speakernotes-smart",
+      "name": "Speakernotes Smart",
+      "description": "Speakernotes Smart workflow directive for presentation.",
+      "instruction": "Apply speakernotes smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "speakernotes"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "pitch-controlled-18",
+      "command": "/pitch-controlled",
+      "name": "Pitch Controlled",
+      "description": "Pitch Controlled workflow directive for presentation.",
+      "instruction": "Apply pitch controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "pitch"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "storyline-optimized-19",
+      "command": "/storyline-optimized",
+      "name": "Storyline Optimized",
+      "description": "Storyline Optimized workflow directive for presentation.",
+      "instruction": "Apply storyline optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "storyline"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "slides-efficient-20",
+      "command": "/slides-efficient",
+      "name": "Slides Efficient",
+      "description": "Slides Efficient workflow directive for presentation.",
+      "instruction": "Apply slides efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "slides"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "presentation-accurate-21",
+      "command": "/presentation-accurate",
+      "name": "Presentation Accurate",
+      "description": "Presentation Accurate workflow directive for presentation.",
+      "instruction": "Apply presentation accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "presentation"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "speakernotes-consistent-22",
+      "command": "/speakernotes-consistent",
+      "name": "Speakernotes Consistent",
+      "description": "Speakernotes Consistent workflow directive for presentation.",
+      "instruction": "Apply speakernotes consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "speakernotes"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "pitch-polished-23",
+      "command": "/pitch-polished",
+      "name": "Pitch Polished",
+      "description": "Pitch Polished workflow directive for presentation.",
+      "instruction": "Apply pitch polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "pitch"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "storyline-final-24",
+      "command": "/storyline-final",
+      "name": "Storyline Final",
+      "description": "Storyline Final workflow directive for presentation.",
+      "instruction": "Apply storyline final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "storyline"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "slides-quick-25",
+      "command": "/slides-quick",
+      "name": "Slides Quick",
+      "description": "Slides Quick workflow directive for presentation.",
+      "instruction": "Apply slides quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "slides"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "presentation-deep-26",
+      "command": "/presentation-deep",
+      "name": "Presentation Deep",
+      "description": "Presentation Deep workflow directive for presentation.",
+      "instruction": "Apply presentation deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "presentation"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "speakernotes-thorough-27",
+      "command": "/speakernotes-thorough",
+      "name": "Speakernotes Thorough",
+      "description": "Speakernotes Thorough workflow directive for presentation.",
+      "instruction": "Apply speakernotes thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "speakernotes"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "pitch-minimal-28",
+      "command": "/pitch-minimal",
+      "name": "Pitch Minimal",
+      "description": "Pitch Minimal workflow directive for presentation.",
+      "instruction": "Apply pitch minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "pitch"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "storyline-maximum-29",
+      "command": "/storyline-maximum",
+      "name": "Storyline Maximum",
+      "description": "Storyline Maximum workflow directive for presentation.",
+      "instruction": "Apply storyline maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "storyline"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "slides-soft-30",
+      "command": "/slides-soft",
+      "name": "Slides Soft",
+      "description": "Slides Soft workflow directive for presentation.",
+      "instruction": "Apply slides soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "slides"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "presentation-bold-31",
+      "command": "/presentation-bold",
+      "name": "Presentation Bold",
+      "description": "Presentation Bold workflow directive for presentation.",
+      "instruction": "Apply presentation bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "presentation"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "speakernotes-sharp-32",
+      "command": "/speakernotes-sharp",
+      "name": "Speakernotes Sharp",
+      "description": "Speakernotes Sharp workflow directive for presentation.",
+      "instruction": "Apply speakernotes sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "speakernotes"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "pitch-smooth-33",
+      "command": "/pitch-smooth",
+      "name": "Pitch Smooth",
+      "description": "Pitch Smooth workflow directive for presentation.",
+      "instruction": "Apply pitch smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "pitch"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "storyline-stable-34",
+      "command": "/storyline-stable",
+      "name": "Storyline Stable",
+      "description": "Storyline Stable workflow directive for presentation.",
+      "instruction": "Apply storyline stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "storyline"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "slides-highquality-35",
+      "command": "/slides-highquality",
+      "name": "Slides Highquality",
+      "description": "Slides Highquality workflow directive for presentation.",
+      "instruction": "Apply slides highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "slides"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "presentation-lowartifact-36",
+      "command": "/presentation-lowartifact",
+      "name": "Presentation Lowartifact",
+      "description": "Presentation Lowartifact workflow directive for presentation.",
+      "instruction": "Apply presentation lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "presentation"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "speakernotes-highdetail-37",
+      "command": "/speakernotes-highdetail",
+      "name": "Speakernotes Highdetail",
+      "description": "Speakernotes Highdetail workflow directive for presentation.",
+      "instruction": "Apply speakernotes highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "speakernotes"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "pitch-fine-38",
+      "command": "/pitch-fine",
+      "name": "Pitch Fine",
+      "description": "Pitch Fine workflow directive for presentation.",
+      "instruction": "Apply pitch fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "pitch"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "storyline-micro-39",
+      "command": "/storyline-micro",
+      "name": "Storyline Micro",
+      "description": "Storyline Micro workflow directive for presentation.",
+      "instruction": "Apply storyline micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "storyline"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "slides-macro-40",
+      "command": "/slides-macro",
+      "name": "Slides Macro",
+      "description": "Slides Macro workflow directive for presentation.",
+      "instruction": "Apply slides macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "slides"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "presentation-local-41",
+      "command": "/presentation-local",
+      "name": "Presentation Local",
+      "description": "Presentation Local workflow directive for presentation.",
+      "instruction": "Apply presentation local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "presentation"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "speakernotes-global-42",
+      "command": "/speakernotes-global",
+      "name": "Speakernotes Global",
+      "description": "Speakernotes Global workflow directive for presentation.",
+      "instruction": "Apply speakernotes global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "speakernotes"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "pitch-adaptive-43",
+      "command": "/pitch-adaptive",
+      "name": "Pitch Adaptive",
+      "description": "Pitch Adaptive workflow directive for presentation.",
+      "instruction": "Apply pitch adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "pitch"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "storyline-contextual-44",
+      "command": "/storyline-contextual",
+      "name": "Storyline Contextual",
+      "description": "Storyline Contextual workflow directive for presentation.",
+      "instruction": "Apply storyline contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "storyline"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "slides-realistic-45",
+      "command": "/slides-realistic",
+      "name": "Slides Realistic",
+      "description": "Slides Realistic workflow directive for presentation.",
+      "instruction": "Apply slides realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "slides"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "presentation-cinematic-46",
+      "command": "/presentation-cinematic",
+      "name": "Presentation Cinematic",
+      "description": "Presentation Cinematic workflow directive for presentation.",
+      "instruction": "Apply presentation cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "presentation"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "speakernotes-modern-47",
+      "command": "/speakernotes-modern",
+      "name": "Speakernotes Modern",
+      "description": "Speakernotes Modern workflow directive for presentation.",
+      "instruction": "Apply speakernotes modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "speakernotes"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "pitch-classic-48",
+      "command": "/pitch-classic",
+      "name": "Pitch Classic",
+      "description": "Pitch Classic workflow directive for presentation.",
+      "instruction": "Apply pitch classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "pitch"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "storyline-technical-49",
+      "command": "/storyline-technical",
+      "name": "Storyline Technical",
+      "description": "Storyline Technical workflow directive for presentation.",
+      "instruction": "Apply storyline technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "storyline"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "slides-creative-50",
+      "command": "/slides-creative",
+      "name": "Slides Creative",
+      "description": "Slides Creative workflow directive for presentation.",
+      "instruction": "Apply slides creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "slides"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "presentation-editorial-51",
+      "command": "/presentation-editorial",
+      "name": "Presentation Editorial",
+      "description": "Presentation Editorial workflow directive for presentation.",
+      "instruction": "Apply presentation editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "presentation"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "speakernotes-production-52",
+      "command": "/speakernotes-production",
+      "name": "Speakernotes Production",
+      "description": "Speakernotes Production workflow directive for presentation.",
+      "instruction": "Apply speakernotes production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "speakernotes"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "pitch-studio-53",
+      "command": "/pitch-studio",
+      "name": "Pitch Studio",
+      "description": "Pitch Studio workflow directive for presentation.",
+      "instruction": "Apply pitch studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "pitch"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "storyline-portable-54",
+      "command": "/storyline-portable",
+      "name": "Storyline Portable",
+      "description": "Storyline Portable workflow directive for presentation.",
+      "instruction": "Apply storyline portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "storyline"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "slides-safe-55",
+      "command": "/slides-safe",
+      "name": "Slides Safe",
+      "description": "Slides Safe workflow directive for presentation.",
+      "instruction": "Apply slides safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "slides"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "presentation-robust-56",
+      "command": "/presentation-robust",
+      "name": "Presentation Robust",
+      "description": "Presentation Robust workflow directive for presentation.",
+      "instruction": "Apply presentation robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "presentation"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "speakernotes-reliable-57",
+      "command": "/speakernotes-reliable",
+      "name": "Speakernotes Reliable",
+      "description": "Speakernotes Reliable workflow directive for presentation.",
+      "instruction": "Apply speakernotes reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "speakernotes"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "pitch-scalable-58",
+      "command": "/pitch-scalable",
+      "name": "Pitch Scalable",
+      "description": "Pitch Scalable workflow directive for presentation.",
+      "instruction": "Apply pitch scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "pitch"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "storyline-maintainable-59",
+      "command": "/storyline-maintainable",
+      "name": "Storyline Maintainable",
+      "description": "Storyline Maintainable workflow directive for presentation.",
+      "instruction": "Apply storyline maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "storyline"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "slides-accessible-60",
+      "command": "/slides-accessible",
+      "name": "Slides Accessible",
+      "description": "Slides Accessible workflow directive for presentation.",
+      "instruction": "Apply slides accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "slides"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "presentation-responsive-61",
+      "command": "/presentation-responsive",
+      "name": "Presentation Responsive",
+      "description": "Presentation Responsive workflow directive for presentation.",
+      "instruction": "Apply presentation responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "presentation"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "speakernotes-structured-62",
+      "command": "/speakernotes-structured",
+      "name": "Speakernotes Structured",
+      "description": "Speakernotes Structured workflow directive for presentation.",
+      "instruction": "Apply speakernotes structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "speakernotes"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    },
+    {
+      "id": "pitch-compact-63",
+      "command": "/pitch-compact",
+      "name": "Pitch Compact",
+      "description": "Pitch Compact workflow directive for presentation.",
+      "instruction": "Apply pitch compact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "presentation",
+        "communication-and-social",
+        "pitch"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Presentation"
+    }
+  ]
+}

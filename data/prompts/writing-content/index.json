@@ -1,0 +1,55 @@
+{
+  "category": "Writing & Content",
+  "slug": "writing-content",
+  "description": "Writing, editing, communication and content production.",
+  "subcategories": [
+    {
+      "name": "Creative Writing",
+      "slug": "creative-writing",
+      "file": "/data/prompts/writing-content/creative-writing.json",
+      "count": 64
+    },
+    {
+      "name": "Copywriting",
+      "slug": "copywriting",
+      "file": "/data/prompts/writing-content/copywriting.json",
+      "count": 64
+    },
+    {
+      "name": "Editing",
+      "slug": "editing",
+      "file": "/data/prompts/writing-content/editing.json",
+      "count": 64
+    },
+    {
+      "name": "Structure",
+      "slug": "structure",
+      "file": "/data/prompts/writing-content/structure.json",
+      "count": 64
+    },
+    {
+      "name": "Email",
+      "slug": "email",
+      "file": "/data/prompts/writing-content/email.json",
+      "count": 64
+    },
+    {
+      "name": "Social",
+      "slug": "social",
+      "file": "/data/prompts/writing-content/social.json",
+      "count": 64
+    },
+    {
+      "name": "Presentation",
+      "slug": "presentation",
+      "file": "/data/prompts/writing-content/presentation.json",
+      "count": 64
+    },
+    {
+      "name": "Negotiation",
+      "slug": "negotiation",
+      "file": "/data/prompts/writing-content/negotiation.json",
+      "count": 64
+    }
+  ]
+}

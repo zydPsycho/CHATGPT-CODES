@@ -1,0 +1,13 @@
+{
+  "category": "UI / UX Design",
+  "slug": "ui-ux-design",
+  "description": "User interfaces, user experience, flows, components and usability.",
+  "subcategories": [
+    {
+      "name": "UI & Screens",
+      "slug": "ui-and-screens",
+      "file": "/data/prompts/ui-ux-design/ui-and-screens.json",
+      "count": 64
+    }
+  ]
+}

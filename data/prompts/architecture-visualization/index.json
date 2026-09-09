@@ -1,0 +1,25 @@
+{
+  "category": "Architecture Visualization",
+  "slug": "architecture-visualization",
+  "description": "Architecture, interiors, exteriors, floorplans and 3D visualization.",
+  "subcategories": [
+    {
+      "name": "Planning",
+      "slug": "planning",
+      "file": "/data/prompts/architecture-visualization/planning.json",
+      "count": 64
+    },
+    {
+      "name": "Interior",
+      "slug": "interior",
+      "file": "/data/prompts/architecture-visualization/interior.json",
+      "count": 64
+    },
+    {
+      "name": "Exterior",
+      "slug": "exterior",
+      "file": "/data/prompts/architecture-visualization/exterior.json",
+      "count": 64
+    }
+  ]
+}

@@ -1,0 +1,1289 @@
+{
+  "category": "Software Development",
+  "categorySlug": "software-development",
+  "subcategory": "Generation",
+  "slug": "generation",
+  "description": "Generation command system for subject preservation.",
+  "prompts": [
+    {
+      "id": "code-0",
+      "command": "/code",
+      "name": "Code",
+      "description": "Code workflow directive for generation.",
+      "instruction": "Apply code with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "code"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "implement-1",
+      "command": "/implement",
+      "name": "Implement",
+      "description": "Implement workflow directive for generation.",
+      "instruction": "Apply implement with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "implement"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "scaffold-2",
+      "command": "/scaffold",
+      "name": "Scaffold",
+      "description": "Scaffold workflow directive for generation.",
+      "instruction": "Apply scaffold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "scaffold"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "component-3",
+      "command": "/component",
+      "name": "Component",
+      "description": "Component workflow directive for generation.",
+      "instruction": "Apply component with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "component"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "api-4",
+      "command": "/api",
+      "name": "Api",
+      "description": "Api workflow directive for generation.",
+      "instruction": "Apply api with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "api"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "database-5",
+      "command": "/database",
+      "name": "Database",
+      "description": "Database workflow directive for generation.",
+      "instruction": "Apply database with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "database"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "code-precise-6",
+      "command": "/code-precise",
+      "name": "Code Precise",
+      "description": "Code Precise workflow directive for generation.",
+      "instruction": "Apply code precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "code"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "implement-clean-7",
+      "command": "/implement-clean",
+      "name": "Implement Clean",
+      "description": "Implement Clean workflow directive for generation.",
+      "instruction": "Apply implement clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "implement"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "scaffold-natural-8",
+      "command": "/scaffold-natural",
+      "name": "Scaffold Natural",
+      "description": "Scaffold Natural workflow directive for generation.",
+      "instruction": "Apply scaffold natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "scaffold"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "component-refined-9",
+      "command": "/component-refined",
+      "name": "Component Refined",
+      "description": "Component Refined workflow directive for generation.",
+      "instruction": "Apply component refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "component"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "api-professional-10",
+      "command": "/api-professional",
+      "name": "Api Professional",
+      "description": "Api Professional workflow directive for generation.",
+      "instruction": "Apply api professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "api"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "database-premium-11",
+      "command": "/database-premium",
+      "name": "Database Premium",
+      "description": "Database Premium workflow directive for generation.",
+      "instruction": "Apply database premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "database"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "code-subtle-12",
+      "command": "/code-subtle",
+      "name": "Code Subtle",
+      "description": "Code Subtle workflow directive for generation.",
+      "instruction": "Apply code subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "code"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "implement-strong-13",
+      "command": "/implement-strong",
+      "name": "Implement Strong",
+      "description": "Implement Strong workflow directive for generation.",
+      "instruction": "Apply implement strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "implement"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "scaffold-balanced-14",
+      "command": "/scaffold-balanced",
+      "name": "Scaffold Balanced",
+      "description": "Scaffold Balanced workflow directive for generation.",
+      "instruction": "Apply scaffold balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "scaffold"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "component-detailed-15",
+      "command": "/component-detailed",
+      "name": "Component Detailed",
+      "description": "Component Detailed workflow directive for generation.",
+      "instruction": "Apply component detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "component"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "api-advanced-16",
+      "command": "/api-advanced",
+      "name": "Api Advanced",
+      "description": "Api Advanced workflow directive for generation.",
+      "instruction": "Apply api advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "api"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "database-simple-17",
+      "command": "/database-simple",
+      "name": "Database Simple",
+      "description": "Database Simple workflow directive for generation.",
+      "instruction": "Apply database simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "database"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "code-smart-18",
+      "command": "/code-smart",
+      "name": "Code Smart",
+      "description": "Code Smart workflow directive for generation.",
+      "instruction": "Apply code smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "code"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "implement-controlled-19",
+      "command": "/implement-controlled",
+      "name": "Implement Controlled",
+      "description": "Implement Controlled workflow directive for generation.",
+      "instruction": "Apply implement controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "implement"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "scaffold-optimized-20",
+      "command": "/scaffold-optimized",
+      "name": "Scaffold Optimized",
+      "description": "Scaffold Optimized workflow directive for generation.",
+      "instruction": "Apply scaffold optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "scaffold"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "component-efficient-21",
+      "command": "/component-efficient",
+      "name": "Component Efficient",
+      "description": "Component Efficient workflow directive for generation.",
+      "instruction": "Apply component efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "component"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "api-accurate-22",
+      "command": "/api-accurate",
+      "name": "Api Accurate",
+      "description": "Api Accurate workflow directive for generation.",
+      "instruction": "Apply api accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "api"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "database-consistent-23",
+      "command": "/database-consistent",
+      "name": "Database Consistent",
+      "description": "Database Consistent workflow directive for generation.",
+      "instruction": "Apply database consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "database"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "code-polished-24",
+      "command": "/code-polished",
+      "name": "Code Polished",
+      "description": "Code Polished workflow directive for generation.",
+      "instruction": "Apply code polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "code"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "implement-final-25",
+      "command": "/implement-final",
+      "name": "Implement Final",
+      "description": "Implement Final workflow directive for generation.",
+      "instruction": "Apply implement final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "implement"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "scaffold-quick-26",
+      "command": "/scaffold-quick",
+      "name": "Scaffold Quick",
+      "description": "Scaffold Quick workflow directive for generation.",
+      "instruction": "Apply scaffold quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "scaffold"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "component-deep-27",
+      "command": "/component-deep",
+      "name": "Component Deep",
+      "description": "Component Deep workflow directive for generation.",
+      "instruction": "Apply component deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "component"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "api-thorough-28",
+      "command": "/api-thorough",
+      "name": "Api Thorough",
+      "description": "Api Thorough workflow directive for generation.",
+      "instruction": "Apply api thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "api"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "database-minimal-29",
+      "command": "/database-minimal",
+      "name": "Database Minimal",
+      "description": "Database Minimal workflow directive for generation.",
+      "instruction": "Apply database minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "database"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "code-maximum-30",
+      "command": "/code-maximum",
+      "name": "Code Maximum",
+      "description": "Code Maximum workflow directive for generation.",
+      "instruction": "Apply code maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "code"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "implement-soft-31",
+      "command": "/implement-soft",
+      "name": "Implement Soft",
+      "description": "Implement Soft workflow directive for generation.",
+      "instruction": "Apply implement soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "implement"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "scaffold-bold-32",
+      "command": "/scaffold-bold",
+      "name": "Scaffold Bold",
+      "description": "Scaffold Bold workflow directive for generation.",
+      "instruction": "Apply scaffold bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "scaffold"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "component-sharp-33",
+      "command": "/component-sharp",
+      "name": "Component Sharp",
+      "description": "Component Sharp workflow directive for generation.",
+      "instruction": "Apply component sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "component"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "api-smooth-34",
+      "command": "/api-smooth",
+      "name": "Api Smooth",
+      "description": "Api Smooth workflow directive for generation.",
+      "instruction": "Apply api smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "api"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "database-stable-35",
+      "command": "/database-stable",
+      "name": "Database Stable",
+      "description": "Database Stable workflow directive for generation.",
+      "instruction": "Apply database stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "database"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "code-highquality-36",
+      "command": "/code-highquality",
+      "name": "Code Highquality",
+      "description": "Code Highquality workflow directive for generation.",
+      "instruction": "Apply code highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "code"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "implement-lowartifact-37",
+      "command": "/implement-lowartifact",
+      "name": "Implement Lowartifact",
+      "description": "Implement Lowartifact workflow directive for generation.",
+      "instruction": "Apply implement lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "implement"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "scaffold-highdetail-38",
+      "command": "/scaffold-highdetail",
+      "name": "Scaffold Highdetail",
+      "description": "Scaffold Highdetail workflow directive for generation.",
+      "instruction": "Apply scaffold highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "scaffold"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "component-fine-39",
+      "command": "/component-fine",
+      "name": "Component Fine",
+      "description": "Component Fine workflow directive for generation.",
+      "instruction": "Apply component fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "component"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "api-micro-40",
+      "command": "/api-micro",
+      "name": "Api Micro",
+      "description": "Api Micro workflow directive for generation.",
+      "instruction": "Apply api micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "api"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "database-macro-41",
+      "command": "/database-macro",
+      "name": "Database Macro",
+      "description": "Database Macro workflow directive for generation.",
+      "instruction": "Apply database macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "database"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "code-local-42",
+      "command": "/code-local",
+      "name": "Code Local",
+      "description": "Code Local workflow directive for generation.",
+      "instruction": "Apply code local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "code"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "implement-global-43",
+      "command": "/implement-global",
+      "name": "Implement Global",
+      "description": "Implement Global workflow directive for generation.",
+      "instruction": "Apply implement global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "implement"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "scaffold-adaptive-44",
+      "command": "/scaffold-adaptive",
+      "name": "Scaffold Adaptive",
+      "description": "Scaffold Adaptive workflow directive for generation.",
+      "instruction": "Apply scaffold adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "scaffold"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "component-contextual-45",
+      "command": "/component-contextual",
+      "name": "Component Contextual",
+      "description": "Component Contextual workflow directive for generation.",
+      "instruction": "Apply component contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "component"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "api-realistic-46",
+      "command": "/api-realistic",
+      "name": "Api Realistic",
+      "description": "Api Realistic workflow directive for generation.",
+      "instruction": "Apply api realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "api"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "database-cinematic-47",
+      "command": "/database-cinematic",
+      "name": "Database Cinematic",
+      "description": "Database Cinematic workflow directive for generation.",
+      "instruction": "Apply database cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "database"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "code-modern-48",
+      "command": "/code-modern",
+      "name": "Code Modern",
+      "description": "Code Modern workflow directive for generation.",
+      "instruction": "Apply code modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "code"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "implement-classic-49",
+      "command": "/implement-classic",
+      "name": "Implement Classic",
+      "description": "Implement Classic workflow directive for generation.",
+      "instruction": "Apply implement classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "implement"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "scaffold-technical-50",
+      "command": "/scaffold-technical",
+      "name": "Scaffold Technical",
+      "description": "Scaffold Technical workflow directive for generation.",
+      "instruction": "Apply scaffold technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "scaffold"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "component-creative-51",
+      "command": "/component-creative",
+      "name": "Component Creative",
+      "description": "Component Creative workflow directive for generation.",
+      "instruction": "Apply component creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "component"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "api-editorial-52",
+      "command": "/api-editorial",
+      "name": "Api Editorial",
+      "description": "Api Editorial workflow directive for generation.",
+      "instruction": "Apply api editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "api"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "database-production-53",
+      "command": "/database-production",
+      "name": "Database Production",
+      "description": "Database Production workflow directive for generation.",
+      "instruction": "Apply database production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "database"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "code-studio-54",
+      "command": "/code-studio",
+      "name": "Code Studio",
+      "description": "Code Studio workflow directive for generation.",
+      "instruction": "Apply code studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "code"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "implement-portable-55",
+      "command": "/implement-portable",
+      "name": "Implement Portable",
+      "description": "Implement Portable workflow directive for generation.",
+      "instruction": "Apply implement portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "implement"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "scaffold-safe-56",
+      "command": "/scaffold-safe",
+      "name": "Scaffold Safe",
+      "description": "Scaffold Safe workflow directive for generation.",
+      "instruction": "Apply scaffold safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "scaffold"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "component-robust-57",
+      "command": "/component-robust",
+      "name": "Component Robust",
+      "description": "Component Robust workflow directive for generation.",
+      "instruction": "Apply component robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "component"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "api-reliable-58",
+      "command": "/api-reliable",
+      "name": "Api Reliable",
+      "description": "Api Reliable workflow directive for generation.",
+      "instruction": "Apply api reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "api"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "database-scalable-59",
+      "command": "/database-scalable",
+      "name": "Database Scalable",
+      "description": "Database Scalable workflow directive for generation.",
+      "instruction": "Apply database scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "database"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "code-maintainable-60",
+      "command": "/code-maintainable",
+      "name": "Code Maintainable",
+      "description": "Code Maintainable workflow directive for generation.",
+      "instruction": "Apply code maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "code"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "implement-accessible-61",
+      "command": "/implement-accessible",
+      "name": "Implement Accessible",
+      "description": "Implement Accessible workflow directive for generation.",
+      "instruction": "Apply implement accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "implement"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "scaffold-responsive-62",
+      "command": "/scaffold-responsive",
+      "name": "Scaffold Responsive",
+      "description": "Scaffold Responsive workflow directive for generation.",
+      "instruction": "Apply scaffold responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "scaffold"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    },
+    {
+      "id": "component-structured-63",
+      "command": "/component-structured",
+      "name": "Component Structured",
+      "description": "Component Structured workflow directive for generation.",
+      "instruction": "Apply component structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "generation",
+        "coding-and-development",
+        "component"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Generation"
+    }
+  ]
+}

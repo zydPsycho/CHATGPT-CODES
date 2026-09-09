@@ -1,0 +1,25 @@
+{
+  "category": "Video & Motion AI",
+  "slug": "video-motion-ai",
+  "description": "Animation, motion, camera movement and temporal visual workflows.",
+  "subcategories": [
+    {
+      "name": "Animation",
+      "slug": "animation",
+      "file": "/data/prompts/video-motion-ai/animation.json",
+      "count": 64
+    },
+    {
+      "name": "Camera Moves",
+      "slug": "camera-moves",
+      "file": "/data/prompts/video-motion-ai/camera-moves.json",
+      "count": 64
+    },
+    {
+      "name": "Core",
+      "slug": "core",
+      "file": "/data/prompts/video-motion-ai/core.json",
+      "count": 5
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "category": "Productivity & Learning",
+  "slug": "productivity-learning",
+  "description": "Research, planning, study, notes, knowledge and productivity.",
+  "subcategories": [
+    {
+      "name": "Research",
+      "slug": "research",
+      "file": "/data/prompts/productivity-learning/research.json",
+      "count": 64
+    },
+    {
+      "name": "Deep Reasoning",
+      "slug": "deep-reasoning",
+      "file": "/data/prompts/productivity-learning/deep-reasoning.json",
+      "count": 64
+    },
+    {
+      "name": "Synthesis",
+      "slug": "synthesis",
+      "file": "/data/prompts/productivity-learning/synthesis.json",
+      "count": 64
+    },
+    {
+      "name": "Decision Support",
+      "slug": "decision-support",
+      "file": "/data/prompts/productivity-learning/decision-support.json",
+      "count": 64
+    },
+    {
+      "name": "Strategy",
+      "slug": "strategy",
+      "file": "/data/prompts/productivity-learning/strategy.json",
+      "count": 64
+    },
+    {
+      "name": "Product",
+      "slug": "product",
+      "file": "/data/prompts/productivity-learning/product.json",
+      "count": 64
+    },
+    {
+      "name": "Operations",
+      "slug": "operations",
+      "file": "/data/prompts/productivity-learning/operations.json",
+      "count": 64
+    },
+    {
+      "name": "Search",
+      "slug": "search",
+      "file": "/data/prompts/productivity-learning/search.json",
+      "count": 64
+    },
+    {
+      "name": "Web Research",
+      "slug": "web-research",
+      "file": "/data/prompts/productivity-learning/web-research.json",
+      "count": 64
+    },
+    {
+      "name": "Verification",
+      "slug": "verification",
+      "file": "/data/prompts/productivity-learning/verification.json",
+      "count": 64
+    },
+    {
+      "name": "Summaries",
+      "slug": "summaries",
+      "file": "/data/prompts/productivity-learning/summaries.json",
+      "count": 64
+    },
+    {
+      "name": "Planning",
+      "slug": "planning",
+      "file": "/data/prompts/productivity-learning/planning.json",
+      "count": 64
+    },
+    {
+      "name": "Tasks",
+      "slug": "tasks",
+      "file": "/data/prompts/productivity-learning/tasks.json",
+      "count": 64
+    },
+    {
+      "name": "Notes",
+      "slug": "notes",
+      "file": "/data/prompts/productivity-learning/notes.json",
+      "count": 64
+    },
+    {
+      "name": "Focus",
+      "slug": "focus",
+      "file": "/data/prompts/productivity-learning/focus.json",
+      "count": 64
+    },
+    {
+      "name": "Workflow",
+      "slug": "workflow",
+      "file": "/data/prompts/productivity-learning/workflow.json",
+      "count": 64
+    },
+    {
+      "name": "Translation",
+      "slug": "translation",
+      "file": "/data/prompts/productivity-learning/translation.json",
+      "count": 64
+    },
+    {
+      "name": "Language Learning",
+      "slug": "language-learning",
+      "file": "/data/prompts/productivity-learning/language-learning.json",
+      "count": 64
+    },
+    {
+      "name": "Tone",
+      "slug": "tone",
+      "file": "/data/prompts/productivity-learning/tone.json",
+      "count": 64
+    },
+    {
+      "name": "Accessibility",
+      "slug": "accessibility",
+      "file": "/data/prompts/productivity-learning/accessibility.json",
+      "count": 64
+    }
+  ]
+}

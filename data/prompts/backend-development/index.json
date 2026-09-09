@@ -1,0 +1,13 @@
+{
+  "category": "Backend Development",
+  "slug": "backend-development",
+  "description": "APIs, servers and backend implementation.",
+  "subcategories": [
+    {
+      "name": "Backend",
+      "slug": "backend",
+      "file": "/data/prompts/backend-development/backend.json",
+      "count": 64
+    }
+  ]
+}

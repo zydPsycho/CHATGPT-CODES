@@ -1,0 +1,1289 @@
+{
+  "category": "Branding & Marketing",
+  "categorySlug": "branding-marketing",
+  "subcategory": "Brand Style",
+  "slug": "brand-style",
+  "description": "Brand Style command system for composition & design.",
+  "prompts": [
+    {
+      "id": "monochrome-0",
+      "command": "/monochrome",
+      "name": "Monochrome",
+      "description": "Monochrome workflow directive for brand style.",
+      "instruction": "Apply monochrome with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "monochrome"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "blackredblue-1",
+      "command": "/blackredblue",
+      "name": "Blackredblue",
+      "description": "Blackredblue workflow directive for brand style.",
+      "instruction": "Apply blackredblue with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "blackredblue"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "whiteaccent-2",
+      "command": "/whiteaccent",
+      "name": "Whiteaccent",
+      "description": "Whiteaccent workflow directive for brand style.",
+      "instruction": "Apply whiteaccent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "whiteaccent"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "transparent-3",
+      "command": "/transparent",
+      "name": "Transparent",
+      "description": "Transparent workflow directive for brand style.",
+      "instruction": "Apply transparent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "transparent"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "premium-4",
+      "command": "/premium",
+      "name": "Premium",
+      "description": "Premium workflow directive for brand style.",
+      "instruction": "Apply premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "premium"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "luxury-5",
+      "command": "/luxury",
+      "name": "Luxury",
+      "description": "Luxury workflow directive for brand style.",
+      "instruction": "Apply luxury with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "luxury"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "monochrome-precise-6",
+      "command": "/monochrome-precise",
+      "name": "Monochrome Precise",
+      "description": "Monochrome Precise workflow directive for brand style.",
+      "instruction": "Apply monochrome precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "monochrome"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "blackredblue-clean-7",
+      "command": "/blackredblue-clean",
+      "name": "Blackredblue Clean",
+      "description": "Blackredblue Clean workflow directive for brand style.",
+      "instruction": "Apply blackredblue clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "blackredblue"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "whiteaccent-natural-8",
+      "command": "/whiteaccent-natural",
+      "name": "Whiteaccent Natural",
+      "description": "Whiteaccent Natural workflow directive for brand style.",
+      "instruction": "Apply whiteaccent natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "whiteaccent"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "transparent-refined-9",
+      "command": "/transparent-refined",
+      "name": "Transparent Refined",
+      "description": "Transparent Refined workflow directive for brand style.",
+      "instruction": "Apply transparent refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "transparent"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "premium-professional-10",
+      "command": "/premium-professional",
+      "name": "Premium Professional",
+      "description": "Premium Professional workflow directive for brand style.",
+      "instruction": "Apply premium professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "premium"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "luxury-premium-11",
+      "command": "/luxury-premium",
+      "name": "Luxury Premium",
+      "description": "Luxury Premium workflow directive for brand style.",
+      "instruction": "Apply luxury premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "luxury"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "monochrome-subtle-12",
+      "command": "/monochrome-subtle",
+      "name": "Monochrome Subtle",
+      "description": "Monochrome Subtle workflow directive for brand style.",
+      "instruction": "Apply monochrome subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "monochrome"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "blackredblue-strong-13",
+      "command": "/blackredblue-strong",
+      "name": "Blackredblue Strong",
+      "description": "Blackredblue Strong workflow directive for brand style.",
+      "instruction": "Apply blackredblue strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "blackredblue"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "whiteaccent-balanced-14",
+      "command": "/whiteaccent-balanced",
+      "name": "Whiteaccent Balanced",
+      "description": "Whiteaccent Balanced workflow directive for brand style.",
+      "instruction": "Apply whiteaccent balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "whiteaccent"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "transparent-detailed-15",
+      "command": "/transparent-detailed",
+      "name": "Transparent Detailed",
+      "description": "Transparent Detailed workflow directive for brand style.",
+      "instruction": "Apply transparent detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "transparent"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "premium-advanced-16",
+      "command": "/premium-advanced",
+      "name": "Premium Advanced",
+      "description": "Premium Advanced workflow directive for brand style.",
+      "instruction": "Apply premium advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "premium"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "luxury-simple-17",
+      "command": "/luxury-simple",
+      "name": "Luxury Simple",
+      "description": "Luxury Simple workflow directive for brand style.",
+      "instruction": "Apply luxury simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "luxury"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "monochrome-smart-18",
+      "command": "/monochrome-smart",
+      "name": "Monochrome Smart",
+      "description": "Monochrome Smart workflow directive for brand style.",
+      "instruction": "Apply monochrome smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "monochrome"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "blackredblue-controlled-19",
+      "command": "/blackredblue-controlled",
+      "name": "Blackredblue Controlled",
+      "description": "Blackredblue Controlled workflow directive for brand style.",
+      "instruction": "Apply blackredblue controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "blackredblue"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "whiteaccent-optimized-20",
+      "command": "/whiteaccent-optimized",
+      "name": "Whiteaccent Optimized",
+      "description": "Whiteaccent Optimized workflow directive for brand style.",
+      "instruction": "Apply whiteaccent optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "whiteaccent"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "transparent-efficient-21",
+      "command": "/transparent-efficient",
+      "name": "Transparent Efficient",
+      "description": "Transparent Efficient workflow directive for brand style.",
+      "instruction": "Apply transparent efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "transparent"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "premium-accurate-22",
+      "command": "/premium-accurate",
+      "name": "Premium Accurate",
+      "description": "Premium Accurate workflow directive for brand style.",
+      "instruction": "Apply premium accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "premium"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "luxury-consistent-23",
+      "command": "/luxury-consistent",
+      "name": "Luxury Consistent",
+      "description": "Luxury Consistent workflow directive for brand style.",
+      "instruction": "Apply luxury consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "luxury"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "monochrome-polished-24",
+      "command": "/monochrome-polished",
+      "name": "Monochrome Polished",
+      "description": "Monochrome Polished workflow directive for brand style.",
+      "instruction": "Apply monochrome polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "monochrome"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "blackredblue-final-25",
+      "command": "/blackredblue-final",
+      "name": "Blackredblue Final",
+      "description": "Blackredblue Final workflow directive for brand style.",
+      "instruction": "Apply blackredblue final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "blackredblue"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "whiteaccent-quick-26",
+      "command": "/whiteaccent-quick",
+      "name": "Whiteaccent Quick",
+      "description": "Whiteaccent Quick workflow directive for brand style.",
+      "instruction": "Apply whiteaccent quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "whiteaccent"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "transparent-deep-27",
+      "command": "/transparent-deep",
+      "name": "Transparent Deep",
+      "description": "Transparent Deep workflow directive for brand style.",
+      "instruction": "Apply transparent deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "transparent"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "premium-thorough-28",
+      "command": "/premium-thorough",
+      "name": "Premium Thorough",
+      "description": "Premium Thorough workflow directive for brand style.",
+      "instruction": "Apply premium thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "premium"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "luxury-minimal-29",
+      "command": "/luxury-minimal",
+      "name": "Luxury Minimal",
+      "description": "Luxury Minimal workflow directive for brand style.",
+      "instruction": "Apply luxury minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "luxury"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "monochrome-maximum-30",
+      "command": "/monochrome-maximum",
+      "name": "Monochrome Maximum",
+      "description": "Monochrome Maximum workflow directive for brand style.",
+      "instruction": "Apply monochrome maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "monochrome"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "blackredblue-soft-31",
+      "command": "/blackredblue-soft",
+      "name": "Blackredblue Soft",
+      "description": "Blackredblue Soft workflow directive for brand style.",
+      "instruction": "Apply blackredblue soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "blackredblue"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "whiteaccent-bold-32",
+      "command": "/whiteaccent-bold",
+      "name": "Whiteaccent Bold",
+      "description": "Whiteaccent Bold workflow directive for brand style.",
+      "instruction": "Apply whiteaccent bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "whiteaccent"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "transparent-sharp-33",
+      "command": "/transparent-sharp",
+      "name": "Transparent Sharp",
+      "description": "Transparent Sharp workflow directive for brand style.",
+      "instruction": "Apply transparent sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "transparent"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "premium-smooth-34",
+      "command": "/premium-smooth",
+      "name": "Premium Smooth",
+      "description": "Premium Smooth workflow directive for brand style.",
+      "instruction": "Apply premium smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "premium"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "luxury-stable-35",
+      "command": "/luxury-stable",
+      "name": "Luxury Stable",
+      "description": "Luxury Stable workflow directive for brand style.",
+      "instruction": "Apply luxury stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "luxury"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "monochrome-highquality-36",
+      "command": "/monochrome-highquality",
+      "name": "Monochrome Highquality",
+      "description": "Monochrome Highquality workflow directive for brand style.",
+      "instruction": "Apply monochrome highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "monochrome"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "blackredblue-lowartifact-37",
+      "command": "/blackredblue-lowartifact",
+      "name": "Blackredblue Lowartifact",
+      "description": "Blackredblue Lowartifact workflow directive for brand style.",
+      "instruction": "Apply blackredblue lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "blackredblue"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "whiteaccent-highdetail-38",
+      "command": "/whiteaccent-highdetail",
+      "name": "Whiteaccent Highdetail",
+      "description": "Whiteaccent Highdetail workflow directive for brand style.",
+      "instruction": "Apply whiteaccent highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "whiteaccent"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "transparent-fine-39",
+      "command": "/transparent-fine",
+      "name": "Transparent Fine",
+      "description": "Transparent Fine workflow directive for brand style.",
+      "instruction": "Apply transparent fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "transparent"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "premium-micro-40",
+      "command": "/premium-micro",
+      "name": "Premium Micro",
+      "description": "Premium Micro workflow directive for brand style.",
+      "instruction": "Apply premium micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "premium"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "luxury-macro-41",
+      "command": "/luxury-macro",
+      "name": "Luxury Macro",
+      "description": "Luxury Macro workflow directive for brand style.",
+      "instruction": "Apply luxury macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "luxury"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "monochrome-local-42",
+      "command": "/monochrome-local",
+      "name": "Monochrome Local",
+      "description": "Monochrome Local workflow directive for brand style.",
+      "instruction": "Apply monochrome local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "monochrome"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "blackredblue-global-43",
+      "command": "/blackredblue-global",
+      "name": "Blackredblue Global",
+      "description": "Blackredblue Global workflow directive for brand style.",
+      "instruction": "Apply blackredblue global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "blackredblue"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "whiteaccent-adaptive-44",
+      "command": "/whiteaccent-adaptive",
+      "name": "Whiteaccent Adaptive",
+      "description": "Whiteaccent Adaptive workflow directive for brand style.",
+      "instruction": "Apply whiteaccent adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "whiteaccent"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "transparent-contextual-45",
+      "command": "/transparent-contextual",
+      "name": "Transparent Contextual",
+      "description": "Transparent Contextual workflow directive for brand style.",
+      "instruction": "Apply transparent contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "transparent"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "premium-realistic-46",
+      "command": "/premium-realistic",
+      "name": "Premium Realistic",
+      "description": "Premium Realistic workflow directive for brand style.",
+      "instruction": "Apply premium realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "premium"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "luxury-cinematic-47",
+      "command": "/luxury-cinematic",
+      "name": "Luxury Cinematic",
+      "description": "Luxury Cinematic workflow directive for brand style.",
+      "instruction": "Apply luxury cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "luxury"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "monochrome-modern-48",
+      "command": "/monochrome-modern",
+      "name": "Monochrome Modern",
+      "description": "Monochrome Modern workflow directive for brand style.",
+      "instruction": "Apply monochrome modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "monochrome"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "blackredblue-classic-49",
+      "command": "/blackredblue-classic",
+      "name": "Blackredblue Classic",
+      "description": "Blackredblue Classic workflow directive for brand style.",
+      "instruction": "Apply blackredblue classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "blackredblue"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "whiteaccent-technical-50",
+      "command": "/whiteaccent-technical",
+      "name": "Whiteaccent Technical",
+      "description": "Whiteaccent Technical workflow directive for brand style.",
+      "instruction": "Apply whiteaccent technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "whiteaccent"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "transparent-creative-51",
+      "command": "/transparent-creative",
+      "name": "Transparent Creative",
+      "description": "Transparent Creative workflow directive for brand style.",
+      "instruction": "Apply transparent creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "transparent"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "premium-editorial-52",
+      "command": "/premium-editorial",
+      "name": "Premium Editorial",
+      "description": "Premium Editorial workflow directive for brand style.",
+      "instruction": "Apply premium editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "premium"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "luxury-production-53",
+      "command": "/luxury-production",
+      "name": "Luxury Production",
+      "description": "Luxury Production workflow directive for brand style.",
+      "instruction": "Apply luxury production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "luxury"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "monochrome-studio-54",
+      "command": "/monochrome-studio",
+      "name": "Monochrome Studio",
+      "description": "Monochrome Studio workflow directive for brand style.",
+      "instruction": "Apply monochrome studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "monochrome"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "blackredblue-portable-55",
+      "command": "/blackredblue-portable",
+      "name": "Blackredblue Portable",
+      "description": "Blackredblue Portable workflow directive for brand style.",
+      "instruction": "Apply blackredblue portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "blackredblue"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "whiteaccent-safe-56",
+      "command": "/whiteaccent-safe",
+      "name": "Whiteaccent Safe",
+      "description": "Whiteaccent Safe workflow directive for brand style.",
+      "instruction": "Apply whiteaccent safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "whiteaccent"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "transparent-robust-57",
+      "command": "/transparent-robust",
+      "name": "Transparent Robust",
+      "description": "Transparent Robust workflow directive for brand style.",
+      "instruction": "Apply transparent robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "transparent"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "premium-reliable-58",
+      "command": "/premium-reliable",
+      "name": "Premium Reliable",
+      "description": "Premium Reliable workflow directive for brand style.",
+      "instruction": "Apply premium reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "premium"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "luxury-scalable-59",
+      "command": "/luxury-scalable",
+      "name": "Luxury Scalable",
+      "description": "Luxury Scalable workflow directive for brand style.",
+      "instruction": "Apply luxury scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "luxury"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "monochrome-maintainable-60",
+      "command": "/monochrome-maintainable",
+      "name": "Monochrome Maintainable",
+      "description": "Monochrome Maintainable workflow directive for brand style.",
+      "instruction": "Apply monochrome maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "monochrome"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "blackredblue-accessible-61",
+      "command": "/blackredblue-accessible",
+      "name": "Blackredblue Accessible",
+      "description": "Blackredblue Accessible workflow directive for brand style.",
+      "instruction": "Apply blackredblue accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "blackredblue"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "whiteaccent-responsive-62",
+      "command": "/whiteaccent-responsive",
+      "name": "Whiteaccent Responsive",
+      "description": "Whiteaccent Responsive workflow directive for brand style.",
+      "instruction": "Apply whiteaccent responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "whiteaccent"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    },
+    {
+      "id": "transparent-structured-63",
+      "command": "/transparent-structured",
+      "name": "Transparent Structured",
+      "description": "Transparent Structured workflow directive for brand style.",
+      "instruction": "Apply transparent structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "brand-style",
+        "design-branding-and-ui",
+        "transparent"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Brand Style"
+    }
+  ]
+}

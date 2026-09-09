@@ -1,0 +1,1289 @@
+{
+  "category": "UI / UX Design",
+  "categorySlug": "ui-ux-design",
+  "subcategory": "UI & Screens",
+  "slug": "ui-and-screens",
+  "description": "UI & Screens command system for composition & design.",
+  "prompts": [
+    {
+      "id": "ui-0",
+      "command": "/ui",
+      "name": "Ui",
+      "description": "Ui workflow directive for ui & screens.",
+      "instruction": "Apply ui with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "ui"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "androidportrait-1",
+      "command": "/androidportrait",
+      "name": "Androidportrait",
+      "description": "Androidportrait workflow directive for ui & screens.",
+      "instruction": "Apply androidportrait with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "androidportrait"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "mobile-2",
+      "command": "/mobile",
+      "name": "Mobile",
+      "description": "Mobile workflow directive for ui & screens.",
+      "instruction": "Apply mobile with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "mobile"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "desktop-3",
+      "command": "/desktop",
+      "name": "Desktop",
+      "description": "Desktop workflow directive for ui & screens.",
+      "instruction": "Apply desktop with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "desktop"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "splash-4",
+      "command": "/splash",
+      "name": "Splash",
+      "description": "Splash workflow directive for ui & screens.",
+      "instruction": "Apply splash with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "splash"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "splashscreen-5",
+      "command": "/splashscreen",
+      "name": "Splashscreen",
+      "description": "Splashscreen workflow directive for ui & screens.",
+      "instruction": "Apply splashscreen with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "splashscreen"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "ui-precise-6",
+      "command": "/ui-precise",
+      "name": "Ui Precise",
+      "description": "Ui Precise workflow directive for ui & screens.",
+      "instruction": "Apply ui precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "ui"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "androidportrait-clean-7",
+      "command": "/androidportrait-clean",
+      "name": "Androidportrait Clean",
+      "description": "Androidportrait Clean workflow directive for ui & screens.",
+      "instruction": "Apply androidportrait clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "androidportrait"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "mobile-natural-8",
+      "command": "/mobile-natural",
+      "name": "Mobile Natural",
+      "description": "Mobile Natural workflow directive for ui & screens.",
+      "instruction": "Apply mobile natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "mobile"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "desktop-refined-9",
+      "command": "/desktop-refined",
+      "name": "Desktop Refined",
+      "description": "Desktop Refined workflow directive for ui & screens.",
+      "instruction": "Apply desktop refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "desktop"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "splash-professional-10",
+      "command": "/splash-professional",
+      "name": "Splash Professional",
+      "description": "Splash Professional workflow directive for ui & screens.",
+      "instruction": "Apply splash professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "splash"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "splashscreen-premium-11",
+      "command": "/splashscreen-premium",
+      "name": "Splashscreen Premium",
+      "description": "Splashscreen Premium workflow directive for ui & screens.",
+      "instruction": "Apply splashscreen premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "splashscreen"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "ui-subtle-12",
+      "command": "/ui-subtle",
+      "name": "Ui Subtle",
+      "description": "Ui Subtle workflow directive for ui & screens.",
+      "instruction": "Apply ui subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "ui"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "androidportrait-strong-13",
+      "command": "/androidportrait-strong",
+      "name": "Androidportrait Strong",
+      "description": "Androidportrait Strong workflow directive for ui & screens.",
+      "instruction": "Apply androidportrait strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "androidportrait"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "mobile-balanced-14",
+      "command": "/mobile-balanced",
+      "name": "Mobile Balanced",
+      "description": "Mobile Balanced workflow directive for ui & screens.",
+      "instruction": "Apply mobile balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "mobile"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "desktop-detailed-15",
+      "command": "/desktop-detailed",
+      "name": "Desktop Detailed",
+      "description": "Desktop Detailed workflow directive for ui & screens.",
+      "instruction": "Apply desktop detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "desktop"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "splash-advanced-16",
+      "command": "/splash-advanced",
+      "name": "Splash Advanced",
+      "description": "Splash Advanced workflow directive for ui & screens.",
+      "instruction": "Apply splash advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "splash"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "splashscreen-simple-17",
+      "command": "/splashscreen-simple",
+      "name": "Splashscreen Simple",
+      "description": "Splashscreen Simple workflow directive for ui & screens.",
+      "instruction": "Apply splashscreen simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "splashscreen"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "ui-smart-18",
+      "command": "/ui-smart",
+      "name": "Ui Smart",
+      "description": "Ui Smart workflow directive for ui & screens.",
+      "instruction": "Apply ui smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "ui"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "androidportrait-controlled-19",
+      "command": "/androidportrait-controlled",
+      "name": "Androidportrait Controlled",
+      "description": "Androidportrait Controlled workflow directive for ui & screens.",
+      "instruction": "Apply androidportrait controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "androidportrait"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "mobile-optimized-20",
+      "command": "/mobile-optimized",
+      "name": "Mobile Optimized",
+      "description": "Mobile Optimized workflow directive for ui & screens.",
+      "instruction": "Apply mobile optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "mobile"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "desktop-efficient-21",
+      "command": "/desktop-efficient",
+      "name": "Desktop Efficient",
+      "description": "Desktop Efficient workflow directive for ui & screens.",
+      "instruction": "Apply desktop efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "desktop"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "splash-accurate-22",
+      "command": "/splash-accurate",
+      "name": "Splash Accurate",
+      "description": "Splash Accurate workflow directive for ui & screens.",
+      "instruction": "Apply splash accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "splash"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "splashscreen-consistent-23",
+      "command": "/splashscreen-consistent",
+      "name": "Splashscreen Consistent",
+      "description": "Splashscreen Consistent workflow directive for ui & screens.",
+      "instruction": "Apply splashscreen consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "splashscreen"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "ui-polished-24",
+      "command": "/ui-polished",
+      "name": "Ui Polished",
+      "description": "Ui Polished workflow directive for ui & screens.",
+      "instruction": "Apply ui polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "ui"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "androidportrait-final-25",
+      "command": "/androidportrait-final",
+      "name": "Androidportrait Final",
+      "description": "Androidportrait Final workflow directive for ui & screens.",
+      "instruction": "Apply androidportrait final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "androidportrait"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "mobile-quick-26",
+      "command": "/mobile-quick",
+      "name": "Mobile Quick",
+      "description": "Mobile Quick workflow directive for ui & screens.",
+      "instruction": "Apply mobile quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "mobile"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "desktop-deep-27",
+      "command": "/desktop-deep",
+      "name": "Desktop Deep",
+      "description": "Desktop Deep workflow directive for ui & screens.",
+      "instruction": "Apply desktop deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "desktop"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "splash-thorough-28",
+      "command": "/splash-thorough",
+      "name": "Splash Thorough",
+      "description": "Splash Thorough workflow directive for ui & screens.",
+      "instruction": "Apply splash thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "splash"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "splashscreen-minimal-29",
+      "command": "/splashscreen-minimal",
+      "name": "Splashscreen Minimal",
+      "description": "Splashscreen Minimal workflow directive for ui & screens.",
+      "instruction": "Apply splashscreen minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "splashscreen"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "ui-maximum-30",
+      "command": "/ui-maximum",
+      "name": "Ui Maximum",
+      "description": "Ui Maximum workflow directive for ui & screens.",
+      "instruction": "Apply ui maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "ui"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "androidportrait-soft-31",
+      "command": "/androidportrait-soft",
+      "name": "Androidportrait Soft",
+      "description": "Androidportrait Soft workflow directive for ui & screens.",
+      "instruction": "Apply androidportrait soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "androidportrait"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "mobile-bold-32",
+      "command": "/mobile-bold",
+      "name": "Mobile Bold",
+      "description": "Mobile Bold workflow directive for ui & screens.",
+      "instruction": "Apply mobile bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "mobile"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "desktop-sharp-33",
+      "command": "/desktop-sharp",
+      "name": "Desktop Sharp",
+      "description": "Desktop Sharp workflow directive for ui & screens.",
+      "instruction": "Apply desktop sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "desktop"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "splash-smooth-34",
+      "command": "/splash-smooth",
+      "name": "Splash Smooth",
+      "description": "Splash Smooth workflow directive for ui & screens.",
+      "instruction": "Apply splash smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "splash"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "splashscreen-stable-35",
+      "command": "/splashscreen-stable",
+      "name": "Splashscreen Stable",
+      "description": "Splashscreen Stable workflow directive for ui & screens.",
+      "instruction": "Apply splashscreen stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "splashscreen"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "ui-highquality-36",
+      "command": "/ui-highquality",
+      "name": "Ui Highquality",
+      "description": "Ui Highquality workflow directive for ui & screens.",
+      "instruction": "Apply ui highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "ui"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "androidportrait-lowartifact-37",
+      "command": "/androidportrait-lowartifact",
+      "name": "Androidportrait Lowartifact",
+      "description": "Androidportrait Lowartifact workflow directive for ui & screens.",
+      "instruction": "Apply androidportrait lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "androidportrait"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "mobile-highdetail-38",
+      "command": "/mobile-highdetail",
+      "name": "Mobile Highdetail",
+      "description": "Mobile Highdetail workflow directive for ui & screens.",
+      "instruction": "Apply mobile highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "mobile"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "desktop-fine-39",
+      "command": "/desktop-fine",
+      "name": "Desktop Fine",
+      "description": "Desktop Fine workflow directive for ui & screens.",
+      "instruction": "Apply desktop fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "desktop"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "splash-micro-40",
+      "command": "/splash-micro",
+      "name": "Splash Micro",
+      "description": "Splash Micro workflow directive for ui & screens.",
+      "instruction": "Apply splash micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "splash"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "splashscreen-macro-41",
+      "command": "/splashscreen-macro",
+      "name": "Splashscreen Macro",
+      "description": "Splashscreen Macro workflow directive for ui & screens.",
+      "instruction": "Apply splashscreen macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "splashscreen"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "ui-local-42",
+      "command": "/ui-local",
+      "name": "Ui Local",
+      "description": "Ui Local workflow directive for ui & screens.",
+      "instruction": "Apply ui local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "ui"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "androidportrait-global-43",
+      "command": "/androidportrait-global",
+      "name": "Androidportrait Global",
+      "description": "Androidportrait Global workflow directive for ui & screens.",
+      "instruction": "Apply androidportrait global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "androidportrait"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "mobile-adaptive-44",
+      "command": "/mobile-adaptive",
+      "name": "Mobile Adaptive",
+      "description": "Mobile Adaptive workflow directive for ui & screens.",
+      "instruction": "Apply mobile adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "mobile"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "desktop-contextual-45",
+      "command": "/desktop-contextual",
+      "name": "Desktop Contextual",
+      "description": "Desktop Contextual workflow directive for ui & screens.",
+      "instruction": "Apply desktop contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "desktop"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "splash-realistic-46",
+      "command": "/splash-realistic",
+      "name": "Splash Realistic",
+      "description": "Splash Realistic workflow directive for ui & screens.",
+      "instruction": "Apply splash realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "splash"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "splashscreen-cinematic-47",
+      "command": "/splashscreen-cinematic",
+      "name": "Splashscreen Cinematic",
+      "description": "Splashscreen Cinematic workflow directive for ui & screens.",
+      "instruction": "Apply splashscreen cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "splashscreen"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "ui-modern-48",
+      "command": "/ui-modern",
+      "name": "Ui Modern",
+      "description": "Ui Modern workflow directive for ui & screens.",
+      "instruction": "Apply ui modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "ui"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "androidportrait-classic-49",
+      "command": "/androidportrait-classic",
+      "name": "Androidportrait Classic",
+      "description": "Androidportrait Classic workflow directive for ui & screens.",
+      "instruction": "Apply androidportrait classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "androidportrait"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "mobile-technical-50",
+      "command": "/mobile-technical",
+      "name": "Mobile Technical",
+      "description": "Mobile Technical workflow directive for ui & screens.",
+      "instruction": "Apply mobile technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "mobile"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "desktop-creative-51",
+      "command": "/desktop-creative",
+      "name": "Desktop Creative",
+      "description": "Desktop Creative workflow directive for ui & screens.",
+      "instruction": "Apply desktop creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "desktop"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "splash-editorial-52",
+      "command": "/splash-editorial",
+      "name": "Splash Editorial",
+      "description": "Splash Editorial workflow directive for ui & screens.",
+      "instruction": "Apply splash editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "splash"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "splashscreen-production-53",
+      "command": "/splashscreen-production",
+      "name": "Splashscreen Production",
+      "description": "Splashscreen Production workflow directive for ui & screens.",
+      "instruction": "Apply splashscreen production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "splashscreen"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "ui-studio-54",
+      "command": "/ui-studio",
+      "name": "Ui Studio",
+      "description": "Ui Studio workflow directive for ui & screens.",
+      "instruction": "Apply ui studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "ui"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "androidportrait-portable-55",
+      "command": "/androidportrait-portable",
+      "name": "Androidportrait Portable",
+      "description": "Androidportrait Portable workflow directive for ui & screens.",
+      "instruction": "Apply androidportrait portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "androidportrait"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "mobile-safe-56",
+      "command": "/mobile-safe",
+      "name": "Mobile Safe",
+      "description": "Mobile Safe workflow directive for ui & screens.",
+      "instruction": "Apply mobile safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "mobile"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "desktop-robust-57",
+      "command": "/desktop-robust",
+      "name": "Desktop Robust",
+      "description": "Desktop Robust workflow directive for ui & screens.",
+      "instruction": "Apply desktop robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "desktop"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "splash-reliable-58",
+      "command": "/splash-reliable",
+      "name": "Splash Reliable",
+      "description": "Splash Reliable workflow directive for ui & screens.",
+      "instruction": "Apply splash reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "splash"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "splashscreen-scalable-59",
+      "command": "/splashscreen-scalable",
+      "name": "Splashscreen Scalable",
+      "description": "Splashscreen Scalable workflow directive for ui & screens.",
+      "instruction": "Apply splashscreen scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "splashscreen"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "ui-maintainable-60",
+      "command": "/ui-maintainable",
+      "name": "Ui Maintainable",
+      "description": "Ui Maintainable workflow directive for ui & screens.",
+      "instruction": "Apply ui maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "ui"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "androidportrait-accessible-61",
+      "command": "/androidportrait-accessible",
+      "name": "Androidportrait Accessible",
+      "description": "Androidportrait Accessible workflow directive for ui & screens.",
+      "instruction": "Apply androidportrait accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "androidportrait"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "mobile-responsive-62",
+      "command": "/mobile-responsive",
+      "name": "Mobile Responsive",
+      "description": "Mobile Responsive workflow directive for ui & screens.",
+      "instruction": "Apply mobile responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "mobile"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    },
+    {
+      "id": "desktop-structured-63",
+      "command": "/desktop-structured",
+      "name": "Desktop Structured",
+      "description": "Desktop Structured workflow directive for ui & screens.",
+      "instruction": "Apply desktop structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "ui-and-screens",
+        "design-branding-and-ui",
+        "desktop"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "UI / UX Design",
+      "categorySlug": "ui-ux-design",
+      "subcategory": "UI & Screens"
+    }
+  ]
+}

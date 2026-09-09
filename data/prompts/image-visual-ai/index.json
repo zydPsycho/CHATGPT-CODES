@@ -1,0 +1,169 @@
+{
+  "category": "Image & Visual AI",
+  "slug": "image-visual-ai",
+  "description": "Image generation, editing, enhancement, identity, lighting, camera and visual composition.",
+  "subcategories": [
+    {
+      "name": "Image Generation · Photography",
+      "slug": "photography",
+      "file": "/data/prompts/image-visual-ai/photography.json",
+      "count": 64
+    },
+    {
+      "name": "Image Generation · Illustration",
+      "slug": "illustration",
+      "file": "/data/prompts/image-visual-ai/illustration.json",
+      "count": 64
+    },
+    {
+      "name": "Image Generation · Composition",
+      "slug": "composition",
+      "file": "/data/prompts/image-visual-ai/composition.json",
+      "count": 64
+    },
+    {
+      "name": "Image Generation · Formats",
+      "slug": "formats",
+      "file": "/data/prompts/image-visual-ai/formats.json",
+      "count": 64
+    },
+    {
+      "name": "Image Editing · Quality",
+      "slug": "quality",
+      "file": "/data/prompts/image-visual-ai/quality.json",
+      "count": 73
+    },
+    {
+      "name": "Image Editing · Restoration",
+      "slug": "restoration",
+      "file": "/data/prompts/image-visual-ai/restoration.json",
+      "count": 64
+    },
+    {
+      "name": "Image Editing · Background",
+      "slug": "background",
+      "file": "/data/prompts/image-visual-ai/background.json",
+      "count": 64
+    },
+    {
+      "name": "Image Editing · Objects",
+      "slug": "objects",
+      "file": "/data/prompts/image-visual-ai/objects.json",
+      "count": 64
+    },
+    {
+      "name": "Image Editing · Face Enhancement",
+      "slug": "face-enhancement",
+      "file": "/data/prompts/image-visual-ai/face-enhancement.json",
+      "count": 64
+    },
+    {
+      "name": "Image Editing · Identity",
+      "slug": "identity",
+      "file": "/data/prompts/image-visual-ai/identity.json",
+      "count": 64
+    },
+    {
+      "name": "Image Editing · Preservation",
+      "slug": "preservation",
+      "file": "/data/prompts/image-visual-ai/preservation.json",
+      "count": 64
+    },
+    {
+      "name": "Image Editing · Portrait Control",
+      "slug": "portrait-control",
+      "file": "/data/prompts/image-visual-ai/portrait-control.json",
+      "count": 64
+    },
+    {
+      "name": "Image Editing · Pose & Posture",
+      "slug": "pose-posture",
+      "file": "/data/prompts/image-visual-ai/pose-posture.json",
+      "count": 8
+    },
+    {
+      "name": "Image Editing · Hairstyles",
+      "slug": "hairstyles",
+      "file": "/data/prompts/image-visual-ai/hairstyles.json",
+      "count": 8
+    },
+    {
+      "name": "Image Editing · Lighting",
+      "slug": "lighting",
+      "file": "/data/prompts/image-visual-ai/lighting.json",
+      "count": 64
+    },
+    {
+      "name": "Image Editing · Color",
+      "slug": "color",
+      "file": "/data/prompts/image-visual-ai/color.json",
+      "count": 64
+    },
+    {
+      "name": "Image Editing · Time & Weather",
+      "slug": "time-and-weather",
+      "file": "/data/prompts/image-visual-ai/time-and-weather.json",
+      "count": 64
+    },
+    {
+      "name": "Image Editing · Mood",
+      "slug": "mood",
+      "file": "/data/prompts/image-visual-ai/mood.json",
+      "count": 64
+    },
+    {
+      "name": "Image Editing · Camera",
+      "slug": "camera",
+      "file": "/data/prompts/image-visual-ai/camera.json",
+      "count": 64
+    },
+    {
+      "name": "Image Editing · Motion",
+      "slug": "motion",
+      "file": "/data/prompts/image-visual-ai/motion.json",
+      "count": 64
+    },
+    {
+      "name": "Image Editing · Expression",
+      "slug": "expression",
+      "file": "/data/prompts/image-visual-ai/expression.json",
+      "count": 2
+    },
+    {
+      "name": "Image Editing · Makeup & Beauty",
+      "slug": "makeup",
+      "file": "/data/prompts/image-visual-ai/makeup.json",
+      "count": 2
+    },
+    {
+      "name": "Image Editing · Wardrobe & Styling",
+      "slug": "wardrobe-styling",
+      "file": "/data/prompts/image-visual-ai/wardrobe-styling.json",
+      "count": 2
+    },
+    {
+      "name": "Image Editing · Hair Color",
+      "slug": "hair-color",
+      "file": "/data/prompts/image-visual-ai/hair-color.json",
+      "count": 2
+    },
+    {
+      "name": "Visual Design · Graphic Design",
+      "slug": "graphic-design",
+      "file": "/data/prompts/image-visual-ai/graphic-design.json",
+      "count": 64
+    },
+    {
+      "name": "Visual Design · Core",
+      "slug": "core",
+      "file": "/data/prompts/image-visual-ai/core.json",
+      "count": 5
+    },
+    {
+      "name": "Architecture Visualization · 3D",
+      "slug": "3d",
+      "file": "/data/prompts/image-visual-ai/3d.json",
+      "count": 64
+    }
+  ]
+}

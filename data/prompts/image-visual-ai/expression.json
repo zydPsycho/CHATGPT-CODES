@@ -1,0 +1,49 @@
+{
+  "category": "Image & Visual AI",
+  "categorySlug": "image-visual-ai",
+  "subcategory": "Image Editing · Expression",
+  "slug": "expression",
+  "description": "Targeted expression controls for image editing.",
+  "prompts": [
+    {
+      "id": "expression-0",
+      "command": "/expression",
+      "name": "Expression Direction",
+      "description": "Expression Direction image-editing workflow.",
+      "instruction": "Adjust the expression toward a natural, confident and emotionally readable look without changing identity.",
+      "tags": [
+        "image-editing",
+        "expression"
+      ],
+      "priority": 62,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.1",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Expression",
+      "demoImage": "/assets/images/expression-demo.jpg"
+    },
+    {
+      "id": "expression-1",
+      "command": "/subtle-smile",
+      "name": "Subtle Smile",
+      "description": "Subtle Smile image-editing workflow.",
+      "instruction": "Add a subtle authentic smile while preserving facial structure and recognizable identity.",
+      "tags": [
+        "image-editing",
+        "expression"
+      ],
+      "priority": 62,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.1",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Expression",
+      "demoImage": "/assets/images/expression-demo.jpg"
+    }
+  ]
+}

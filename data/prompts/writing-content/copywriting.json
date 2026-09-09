@@ -1,0 +1,1289 @@
+{
+  "category": "Writing & Content",
+  "categorySlug": "writing-content",
+  "subcategory": "Copywriting",
+  "slug": "copywriting",
+  "description": "Copywriting command system for text, ui & content.",
+  "prompts": [
+    {
+      "id": "copywrite-0",
+      "command": "/copywrite",
+      "name": "Copywrite",
+      "description": "Copywrite workflow directive for copywriting.",
+      "instruction": "Apply copywrite with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "copywrite"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "headline-1",
+      "command": "/headline",
+      "name": "Headline",
+      "description": "Headline workflow directive for copywriting.",
+      "instruction": "Apply headline with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "headline"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "hook-2",
+      "command": "/hook",
+      "name": "Hook",
+      "description": "Hook workflow directive for copywriting.",
+      "instruction": "Apply hook with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "hook"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "cta-3",
+      "command": "/cta",
+      "name": "Cta",
+      "description": "Cta workflow directive for copywriting.",
+      "instruction": "Apply cta with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "cta"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "adcopy-4",
+      "command": "/adcopy",
+      "name": "Adcopy",
+      "description": "Adcopy workflow directive for copywriting.",
+      "instruction": "Apply adcopy with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "adcopy"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "productcopy-5",
+      "command": "/productcopy",
+      "name": "Productcopy",
+      "description": "Productcopy workflow directive for copywriting.",
+      "instruction": "Apply productcopy with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "productcopy"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "copywrite-precise-6",
+      "command": "/copywrite-precise",
+      "name": "Copywrite Precise",
+      "description": "Copywrite Precise workflow directive for copywriting.",
+      "instruction": "Apply copywrite precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "copywrite"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "headline-clean-7",
+      "command": "/headline-clean",
+      "name": "Headline Clean",
+      "description": "Headline Clean workflow directive for copywriting.",
+      "instruction": "Apply headline clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "headline"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "hook-natural-8",
+      "command": "/hook-natural",
+      "name": "Hook Natural",
+      "description": "Hook Natural workflow directive for copywriting.",
+      "instruction": "Apply hook natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "hook"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "cta-refined-9",
+      "command": "/cta-refined",
+      "name": "Cta Refined",
+      "description": "Cta Refined workflow directive for copywriting.",
+      "instruction": "Apply cta refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "cta"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "adcopy-professional-10",
+      "command": "/adcopy-professional",
+      "name": "Adcopy Professional",
+      "description": "Adcopy Professional workflow directive for copywriting.",
+      "instruction": "Apply adcopy professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "adcopy"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "productcopy-premium-11",
+      "command": "/productcopy-premium",
+      "name": "Productcopy Premium",
+      "description": "Productcopy Premium workflow directive for copywriting.",
+      "instruction": "Apply productcopy premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "productcopy"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "copywrite-subtle-12",
+      "command": "/copywrite-subtle",
+      "name": "Copywrite Subtle",
+      "description": "Copywrite Subtle workflow directive for copywriting.",
+      "instruction": "Apply copywrite subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "copywrite"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "headline-strong-13",
+      "command": "/headline-strong",
+      "name": "Headline Strong",
+      "description": "Headline Strong workflow directive for copywriting.",
+      "instruction": "Apply headline strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "headline"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "hook-balanced-14",
+      "command": "/hook-balanced",
+      "name": "Hook Balanced",
+      "description": "Hook Balanced workflow directive for copywriting.",
+      "instruction": "Apply hook balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "hook"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "cta-detailed-15",
+      "command": "/cta-detailed",
+      "name": "Cta Detailed",
+      "description": "Cta Detailed workflow directive for copywriting.",
+      "instruction": "Apply cta detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "cta"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "adcopy-advanced-16",
+      "command": "/adcopy-advanced",
+      "name": "Adcopy Advanced",
+      "description": "Adcopy Advanced workflow directive for copywriting.",
+      "instruction": "Apply adcopy advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "adcopy"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "productcopy-simple-17",
+      "command": "/productcopy-simple",
+      "name": "Productcopy Simple",
+      "description": "Productcopy Simple workflow directive for copywriting.",
+      "instruction": "Apply productcopy simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "productcopy"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "copywrite-smart-18",
+      "command": "/copywrite-smart",
+      "name": "Copywrite Smart",
+      "description": "Copywrite Smart workflow directive for copywriting.",
+      "instruction": "Apply copywrite smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "copywrite"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "headline-controlled-19",
+      "command": "/headline-controlled",
+      "name": "Headline Controlled",
+      "description": "Headline Controlled workflow directive for copywriting.",
+      "instruction": "Apply headline controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "headline"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "hook-optimized-20",
+      "command": "/hook-optimized",
+      "name": "Hook Optimized",
+      "description": "Hook Optimized workflow directive for copywriting.",
+      "instruction": "Apply hook optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "hook"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "cta-efficient-21",
+      "command": "/cta-efficient",
+      "name": "Cta Efficient",
+      "description": "Cta Efficient workflow directive for copywriting.",
+      "instruction": "Apply cta efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "cta"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "adcopy-accurate-22",
+      "command": "/adcopy-accurate",
+      "name": "Adcopy Accurate",
+      "description": "Adcopy Accurate workflow directive for copywriting.",
+      "instruction": "Apply adcopy accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "adcopy"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "productcopy-consistent-23",
+      "command": "/productcopy-consistent",
+      "name": "Productcopy Consistent",
+      "description": "Productcopy Consistent workflow directive for copywriting.",
+      "instruction": "Apply productcopy consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "productcopy"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "copywrite-polished-24",
+      "command": "/copywrite-polished",
+      "name": "Copywrite Polished",
+      "description": "Copywrite Polished workflow directive for copywriting.",
+      "instruction": "Apply copywrite polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "copywrite"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "headline-final-25",
+      "command": "/headline-final",
+      "name": "Headline Final",
+      "description": "Headline Final workflow directive for copywriting.",
+      "instruction": "Apply headline final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "headline"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "hook-quick-26",
+      "command": "/hook-quick",
+      "name": "Hook Quick",
+      "description": "Hook Quick workflow directive for copywriting.",
+      "instruction": "Apply hook quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "hook"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "cta-deep-27",
+      "command": "/cta-deep",
+      "name": "Cta Deep",
+      "description": "Cta Deep workflow directive for copywriting.",
+      "instruction": "Apply cta deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "cta"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "adcopy-thorough-28",
+      "command": "/adcopy-thorough",
+      "name": "Adcopy Thorough",
+      "description": "Adcopy Thorough workflow directive for copywriting.",
+      "instruction": "Apply adcopy thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "adcopy"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "productcopy-minimal-29",
+      "command": "/productcopy-minimal",
+      "name": "Productcopy Minimal",
+      "description": "Productcopy Minimal workflow directive for copywriting.",
+      "instruction": "Apply productcopy minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "productcopy"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "copywrite-maximum-30",
+      "command": "/copywrite-maximum",
+      "name": "Copywrite Maximum",
+      "description": "Copywrite Maximum workflow directive for copywriting.",
+      "instruction": "Apply copywrite maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "copywrite"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "headline-soft-31",
+      "command": "/headline-soft",
+      "name": "Headline Soft",
+      "description": "Headline Soft workflow directive for copywriting.",
+      "instruction": "Apply headline soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "headline"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "hook-bold-32",
+      "command": "/hook-bold",
+      "name": "Hook Bold",
+      "description": "Hook Bold workflow directive for copywriting.",
+      "instruction": "Apply hook bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "hook"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "cta-sharp-33",
+      "command": "/cta-sharp",
+      "name": "Cta Sharp",
+      "description": "Cta Sharp workflow directive for copywriting.",
+      "instruction": "Apply cta sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "cta"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "adcopy-smooth-34",
+      "command": "/adcopy-smooth",
+      "name": "Adcopy Smooth",
+      "description": "Adcopy Smooth workflow directive for copywriting.",
+      "instruction": "Apply adcopy smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "adcopy"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "productcopy-stable-35",
+      "command": "/productcopy-stable",
+      "name": "Productcopy Stable",
+      "description": "Productcopy Stable workflow directive for copywriting.",
+      "instruction": "Apply productcopy stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "productcopy"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "copywrite-highquality-36",
+      "command": "/copywrite-highquality",
+      "name": "Copywrite Highquality",
+      "description": "Copywrite Highquality workflow directive for copywriting.",
+      "instruction": "Apply copywrite highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "copywrite"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "headline-lowartifact-37",
+      "command": "/headline-lowartifact",
+      "name": "Headline Lowartifact",
+      "description": "Headline Lowartifact workflow directive for copywriting.",
+      "instruction": "Apply headline lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "headline"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "hook-highdetail-38",
+      "command": "/hook-highdetail",
+      "name": "Hook Highdetail",
+      "description": "Hook Highdetail workflow directive for copywriting.",
+      "instruction": "Apply hook highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "hook"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "cta-fine-39",
+      "command": "/cta-fine",
+      "name": "Cta Fine",
+      "description": "Cta Fine workflow directive for copywriting.",
+      "instruction": "Apply cta fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "cta"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "adcopy-micro-40",
+      "command": "/adcopy-micro",
+      "name": "Adcopy Micro",
+      "description": "Adcopy Micro workflow directive for copywriting.",
+      "instruction": "Apply adcopy micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "adcopy"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "productcopy-macro-41",
+      "command": "/productcopy-macro",
+      "name": "Productcopy Macro",
+      "description": "Productcopy Macro workflow directive for copywriting.",
+      "instruction": "Apply productcopy macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "productcopy"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "copywrite-local-42",
+      "command": "/copywrite-local",
+      "name": "Copywrite Local",
+      "description": "Copywrite Local workflow directive for copywriting.",
+      "instruction": "Apply copywrite local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "copywrite"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "headline-global-43",
+      "command": "/headline-global",
+      "name": "Headline Global",
+      "description": "Headline Global workflow directive for copywriting.",
+      "instruction": "Apply headline global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "headline"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "hook-adaptive-44",
+      "command": "/hook-adaptive",
+      "name": "Hook Adaptive",
+      "description": "Hook Adaptive workflow directive for copywriting.",
+      "instruction": "Apply hook adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "hook"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "cta-contextual-45",
+      "command": "/cta-contextual",
+      "name": "Cta Contextual",
+      "description": "Cta Contextual workflow directive for copywriting.",
+      "instruction": "Apply cta contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "cta"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "adcopy-realistic-46",
+      "command": "/adcopy-realistic",
+      "name": "Adcopy Realistic",
+      "description": "Adcopy Realistic workflow directive for copywriting.",
+      "instruction": "Apply adcopy realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "adcopy"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "productcopy-cinematic-47",
+      "command": "/productcopy-cinematic",
+      "name": "Productcopy Cinematic",
+      "description": "Productcopy Cinematic workflow directive for copywriting.",
+      "instruction": "Apply productcopy cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "productcopy"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "copywrite-modern-48",
+      "command": "/copywrite-modern",
+      "name": "Copywrite Modern",
+      "description": "Copywrite Modern workflow directive for copywriting.",
+      "instruction": "Apply copywrite modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "copywrite"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "headline-classic-49",
+      "command": "/headline-classic",
+      "name": "Headline Classic",
+      "description": "Headline Classic workflow directive for copywriting.",
+      "instruction": "Apply headline classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "headline"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "hook-technical-50",
+      "command": "/hook-technical",
+      "name": "Hook Technical",
+      "description": "Hook Technical workflow directive for copywriting.",
+      "instruction": "Apply hook technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "hook"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "cta-creative-51",
+      "command": "/cta-creative",
+      "name": "Cta Creative",
+      "description": "Cta Creative workflow directive for copywriting.",
+      "instruction": "Apply cta creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "cta"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "adcopy-editorial-52",
+      "command": "/adcopy-editorial",
+      "name": "Adcopy Editorial",
+      "description": "Adcopy Editorial workflow directive for copywriting.",
+      "instruction": "Apply adcopy editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "adcopy"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "productcopy-production-53",
+      "command": "/productcopy-production",
+      "name": "Productcopy Production",
+      "description": "Productcopy Production workflow directive for copywriting.",
+      "instruction": "Apply productcopy production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "productcopy"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "copywrite-studio-54",
+      "command": "/copywrite-studio",
+      "name": "Copywrite Studio",
+      "description": "Copywrite Studio workflow directive for copywriting.",
+      "instruction": "Apply copywrite studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "copywrite"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "headline-portable-55",
+      "command": "/headline-portable",
+      "name": "Headline Portable",
+      "description": "Headline Portable workflow directive for copywriting.",
+      "instruction": "Apply headline portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "headline"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "hook-safe-56",
+      "command": "/hook-safe",
+      "name": "Hook Safe",
+      "description": "Hook Safe workflow directive for copywriting.",
+      "instruction": "Apply hook safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "hook"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "cta-robust-57",
+      "command": "/cta-robust",
+      "name": "Cta Robust",
+      "description": "Cta Robust workflow directive for copywriting.",
+      "instruction": "Apply cta robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "cta"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "adcopy-reliable-58",
+      "command": "/adcopy-reliable",
+      "name": "Adcopy Reliable",
+      "description": "Adcopy Reliable workflow directive for copywriting.",
+      "instruction": "Apply adcopy reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "adcopy"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "productcopy-scalable-59",
+      "command": "/productcopy-scalable",
+      "name": "Productcopy Scalable",
+      "description": "Productcopy Scalable workflow directive for copywriting.",
+      "instruction": "Apply productcopy scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "productcopy"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "copywrite-maintainable-60",
+      "command": "/copywrite-maintainable",
+      "name": "Copywrite Maintainable",
+      "description": "Copywrite Maintainable workflow directive for copywriting.",
+      "instruction": "Apply copywrite maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "copywrite"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "headline-accessible-61",
+      "command": "/headline-accessible",
+      "name": "Headline Accessible",
+      "description": "Headline Accessible workflow directive for copywriting.",
+      "instruction": "Apply headline accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "headline"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "hook-responsive-62",
+      "command": "/hook-responsive",
+      "name": "Hook Responsive",
+      "description": "Hook Responsive workflow directive for copywriting.",
+      "instruction": "Apply hook responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "hook"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    },
+    {
+      "id": "cta-structured-63",
+      "command": "/cta-structured",
+      "name": "Cta Structured",
+      "description": "Cta Structured workflow directive for copywriting.",
+      "instruction": "Apply cta structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "copywriting",
+        "writing-and-content",
+        "cta"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Copywriting"
+    }
+  ]
+}

@@ -1,0 +1,1289 @@
+{
+  "category": "Productivity & Learning",
+  "categorySlug": "productivity-learning",
+  "subcategory": "Focus",
+  "slug": "focus",
+  "description": "Focus command system for environment & atmosphere.",
+  "prompts": [
+    {
+      "id": "focus-0",
+      "command": "/focus",
+      "name": "Focus",
+      "description": "Focus workflow directive for focus.",
+      "instruction": "Apply focus with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "focus"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "deepwork-1",
+      "command": "/deepwork",
+      "name": "Deepwork",
+      "description": "Deepwork workflow directive for focus.",
+      "instruction": "Apply deepwork with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "deepwork"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "simplify-2",
+      "command": "/simplify",
+      "name": "Simplify",
+      "description": "Simplify workflow directive for focus.",
+      "instruction": "Apply simplify with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "simplify"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "timebox-3",
+      "command": "/timebox",
+      "name": "Timebox",
+      "description": "Timebox workflow directive for focus.",
+      "instruction": "Apply timebox with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "timebox"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "routine-4",
+      "command": "/routine",
+      "name": "Routine",
+      "description": "Routine workflow directive for focus.",
+      "instruction": "Apply routine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "routine"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "focus-precise-5",
+      "command": "/focus-precise",
+      "name": "Focus Precise",
+      "description": "Focus Precise workflow directive for focus.",
+      "instruction": "Apply focus precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "focus"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "deepwork-clean-6",
+      "command": "/deepwork-clean",
+      "name": "Deepwork Clean",
+      "description": "Deepwork Clean workflow directive for focus.",
+      "instruction": "Apply deepwork clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "deepwork"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "simplify-natural-7",
+      "command": "/simplify-natural",
+      "name": "Simplify Natural",
+      "description": "Simplify Natural workflow directive for focus.",
+      "instruction": "Apply simplify natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "simplify"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "timebox-refined-8",
+      "command": "/timebox-refined",
+      "name": "Timebox Refined",
+      "description": "Timebox Refined workflow directive for focus.",
+      "instruction": "Apply timebox refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "timebox"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "routine-professional-9",
+      "command": "/routine-professional",
+      "name": "Routine Professional",
+      "description": "Routine Professional workflow directive for focus.",
+      "instruction": "Apply routine professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "routine"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "focus-premium-10",
+      "command": "/focus-premium",
+      "name": "Focus Premium",
+      "description": "Focus Premium workflow directive for focus.",
+      "instruction": "Apply focus premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "focus"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "deepwork-subtle-11",
+      "command": "/deepwork-subtle",
+      "name": "Deepwork Subtle",
+      "description": "Deepwork Subtle workflow directive for focus.",
+      "instruction": "Apply deepwork subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "deepwork"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "simplify-strong-12",
+      "command": "/simplify-strong",
+      "name": "Simplify Strong",
+      "description": "Simplify Strong workflow directive for focus.",
+      "instruction": "Apply simplify strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "simplify"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "timebox-balanced-13",
+      "command": "/timebox-balanced",
+      "name": "Timebox Balanced",
+      "description": "Timebox Balanced workflow directive for focus.",
+      "instruction": "Apply timebox balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "timebox"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "routine-detailed-14",
+      "command": "/routine-detailed",
+      "name": "Routine Detailed",
+      "description": "Routine Detailed workflow directive for focus.",
+      "instruction": "Apply routine detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "routine"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "focus-advanced-15",
+      "command": "/focus-advanced",
+      "name": "Focus Advanced",
+      "description": "Focus Advanced workflow directive for focus.",
+      "instruction": "Apply focus advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "focus"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "deepwork-simple-16",
+      "command": "/deepwork-simple",
+      "name": "Deepwork Simple",
+      "description": "Deepwork Simple workflow directive for focus.",
+      "instruction": "Apply deepwork simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "deepwork"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "simplify-smart-17",
+      "command": "/simplify-smart",
+      "name": "Simplify Smart",
+      "description": "Simplify Smart workflow directive for focus.",
+      "instruction": "Apply simplify smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "simplify"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "timebox-controlled-18",
+      "command": "/timebox-controlled",
+      "name": "Timebox Controlled",
+      "description": "Timebox Controlled workflow directive for focus.",
+      "instruction": "Apply timebox controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "timebox"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "routine-optimized-19",
+      "command": "/routine-optimized",
+      "name": "Routine Optimized",
+      "description": "Routine Optimized workflow directive for focus.",
+      "instruction": "Apply routine optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "routine"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "focus-efficient-20",
+      "command": "/focus-efficient",
+      "name": "Focus Efficient",
+      "description": "Focus Efficient workflow directive for focus.",
+      "instruction": "Apply focus efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "focus"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "deepwork-accurate-21",
+      "command": "/deepwork-accurate",
+      "name": "Deepwork Accurate",
+      "description": "Deepwork Accurate workflow directive for focus.",
+      "instruction": "Apply deepwork accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "deepwork"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "simplify-consistent-22",
+      "command": "/simplify-consistent",
+      "name": "Simplify Consistent",
+      "description": "Simplify Consistent workflow directive for focus.",
+      "instruction": "Apply simplify consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "simplify"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "timebox-polished-23",
+      "command": "/timebox-polished",
+      "name": "Timebox Polished",
+      "description": "Timebox Polished workflow directive for focus.",
+      "instruction": "Apply timebox polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "timebox"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "routine-final-24",
+      "command": "/routine-final",
+      "name": "Routine Final",
+      "description": "Routine Final workflow directive for focus.",
+      "instruction": "Apply routine final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "routine"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "focus-quick-25",
+      "command": "/focus-quick",
+      "name": "Focus Quick",
+      "description": "Focus Quick workflow directive for focus.",
+      "instruction": "Apply focus quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "focus"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "deepwork-deep-26",
+      "command": "/deepwork-deep",
+      "name": "Deepwork Deep",
+      "description": "Deepwork Deep workflow directive for focus.",
+      "instruction": "Apply deepwork deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "deepwork"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "simplify-thorough-27",
+      "command": "/simplify-thorough",
+      "name": "Simplify Thorough",
+      "description": "Simplify Thorough workflow directive for focus.",
+      "instruction": "Apply simplify thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "simplify"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "timebox-minimal-28",
+      "command": "/timebox-minimal",
+      "name": "Timebox Minimal",
+      "description": "Timebox Minimal workflow directive for focus.",
+      "instruction": "Apply timebox minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "timebox"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "routine-maximum-29",
+      "command": "/routine-maximum",
+      "name": "Routine Maximum",
+      "description": "Routine Maximum workflow directive for focus.",
+      "instruction": "Apply routine maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "routine"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "focus-soft-30",
+      "command": "/focus-soft",
+      "name": "Focus Soft",
+      "description": "Focus Soft workflow directive for focus.",
+      "instruction": "Apply focus soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "focus"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "deepwork-bold-31",
+      "command": "/deepwork-bold",
+      "name": "Deepwork Bold",
+      "description": "Deepwork Bold workflow directive for focus.",
+      "instruction": "Apply deepwork bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "deepwork"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "simplify-sharp-32",
+      "command": "/simplify-sharp",
+      "name": "Simplify Sharp",
+      "description": "Simplify Sharp workflow directive for focus.",
+      "instruction": "Apply simplify sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "simplify"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "timebox-smooth-33",
+      "command": "/timebox-smooth",
+      "name": "Timebox Smooth",
+      "description": "Timebox Smooth workflow directive for focus.",
+      "instruction": "Apply timebox smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "timebox"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "routine-stable-34",
+      "command": "/routine-stable",
+      "name": "Routine Stable",
+      "description": "Routine Stable workflow directive for focus.",
+      "instruction": "Apply routine stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "routine"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "focus-highquality-35",
+      "command": "/focus-highquality",
+      "name": "Focus Highquality",
+      "description": "Focus Highquality workflow directive for focus.",
+      "instruction": "Apply focus highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "focus"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "deepwork-lowartifact-36",
+      "command": "/deepwork-lowartifact",
+      "name": "Deepwork Lowartifact",
+      "description": "Deepwork Lowartifact workflow directive for focus.",
+      "instruction": "Apply deepwork lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "deepwork"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "simplify-highdetail-37",
+      "command": "/simplify-highdetail",
+      "name": "Simplify Highdetail",
+      "description": "Simplify Highdetail workflow directive for focus.",
+      "instruction": "Apply simplify highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "simplify"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "timebox-fine-38",
+      "command": "/timebox-fine",
+      "name": "Timebox Fine",
+      "description": "Timebox Fine workflow directive for focus.",
+      "instruction": "Apply timebox fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "timebox"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "routine-micro-39",
+      "command": "/routine-micro",
+      "name": "Routine Micro",
+      "description": "Routine Micro workflow directive for focus.",
+      "instruction": "Apply routine micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "routine"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "focus-macro-40",
+      "command": "/focus-macro",
+      "name": "Focus Macro",
+      "description": "Focus Macro workflow directive for focus.",
+      "instruction": "Apply focus macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "focus"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "deepwork-local-41",
+      "command": "/deepwork-local",
+      "name": "Deepwork Local",
+      "description": "Deepwork Local workflow directive for focus.",
+      "instruction": "Apply deepwork local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "deepwork"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "simplify-global-42",
+      "command": "/simplify-global",
+      "name": "Simplify Global",
+      "description": "Simplify Global workflow directive for focus.",
+      "instruction": "Apply simplify global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "simplify"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "timebox-adaptive-43",
+      "command": "/timebox-adaptive",
+      "name": "Timebox Adaptive",
+      "description": "Timebox Adaptive workflow directive for focus.",
+      "instruction": "Apply timebox adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "timebox"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "routine-contextual-44",
+      "command": "/routine-contextual",
+      "name": "Routine Contextual",
+      "description": "Routine Contextual workflow directive for focus.",
+      "instruction": "Apply routine contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "routine"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "focus-realistic-45",
+      "command": "/focus-realistic",
+      "name": "Focus Realistic",
+      "description": "Focus Realistic workflow directive for focus.",
+      "instruction": "Apply focus realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "focus"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "deepwork-cinematic-46",
+      "command": "/deepwork-cinematic",
+      "name": "Deepwork Cinematic",
+      "description": "Deepwork Cinematic workflow directive for focus.",
+      "instruction": "Apply deepwork cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "deepwork"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "simplify-modern-47",
+      "command": "/simplify-modern",
+      "name": "Simplify Modern",
+      "description": "Simplify Modern workflow directive for focus.",
+      "instruction": "Apply simplify modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "simplify"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "timebox-classic-48",
+      "command": "/timebox-classic",
+      "name": "Timebox Classic",
+      "description": "Timebox Classic workflow directive for focus.",
+      "instruction": "Apply timebox classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "timebox"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "routine-technical-49",
+      "command": "/routine-technical",
+      "name": "Routine Technical",
+      "description": "Routine Technical workflow directive for focus.",
+      "instruction": "Apply routine technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "routine"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "focus-creative-50",
+      "command": "/focus-creative",
+      "name": "Focus Creative",
+      "description": "Focus Creative workflow directive for focus.",
+      "instruction": "Apply focus creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "focus"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "deepwork-editorial-51",
+      "command": "/deepwork-editorial",
+      "name": "Deepwork Editorial",
+      "description": "Deepwork Editorial workflow directive for focus.",
+      "instruction": "Apply deepwork editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "deepwork"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "simplify-production-52",
+      "command": "/simplify-production",
+      "name": "Simplify Production",
+      "description": "Simplify Production workflow directive for focus.",
+      "instruction": "Apply simplify production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "simplify"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "timebox-studio-53",
+      "command": "/timebox-studio",
+      "name": "Timebox Studio",
+      "description": "Timebox Studio workflow directive for focus.",
+      "instruction": "Apply timebox studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "timebox"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "routine-portable-54",
+      "command": "/routine-portable",
+      "name": "Routine Portable",
+      "description": "Routine Portable workflow directive for focus.",
+      "instruction": "Apply routine portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "routine"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "focus-safe-55",
+      "command": "/focus-safe",
+      "name": "Focus Safe",
+      "description": "Focus Safe workflow directive for focus.",
+      "instruction": "Apply focus safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "focus"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "deepwork-robust-56",
+      "command": "/deepwork-robust",
+      "name": "Deepwork Robust",
+      "description": "Deepwork Robust workflow directive for focus.",
+      "instruction": "Apply deepwork robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "deepwork"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "simplify-reliable-57",
+      "command": "/simplify-reliable",
+      "name": "Simplify Reliable",
+      "description": "Simplify Reliable workflow directive for focus.",
+      "instruction": "Apply simplify reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "simplify"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "timebox-scalable-58",
+      "command": "/timebox-scalable",
+      "name": "Timebox Scalable",
+      "description": "Timebox Scalable workflow directive for focus.",
+      "instruction": "Apply timebox scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "timebox"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "routine-maintainable-59",
+      "command": "/routine-maintainable",
+      "name": "Routine Maintainable",
+      "description": "Routine Maintainable workflow directive for focus.",
+      "instruction": "Apply routine maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "routine"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "focus-accessible-60",
+      "command": "/focus-accessible",
+      "name": "Focus Accessible",
+      "description": "Focus Accessible workflow directive for focus.",
+      "instruction": "Apply focus accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "focus"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "deepwork-responsive-61",
+      "command": "/deepwork-responsive",
+      "name": "Deepwork Responsive",
+      "description": "Deepwork Responsive workflow directive for focus.",
+      "instruction": "Apply deepwork responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "deepwork"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "simplify-structured-62",
+      "command": "/simplify-structured",
+      "name": "Simplify Structured",
+      "description": "Simplify Structured workflow directive for focus.",
+      "instruction": "Apply simplify structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "simplify"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    },
+    {
+      "id": "timebox-compact-63",
+      "command": "/timebox-compact",
+      "name": "Timebox Compact",
+      "description": "Timebox Compact workflow directive for focus.",
+      "instruction": "Apply timebox compact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "focus",
+        "productivity-and-planning",
+        "timebox"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Focus"
+    }
+  ]
+}

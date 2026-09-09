@@ -1,0 +1,49 @@
+{
+  "category": "Image & Visual AI",
+  "categorySlug": "image-visual-ai",
+  "subcategory": "Image Editing · Wardrobe & Styling",
+  "slug": "wardrobe-styling",
+  "description": "Targeted wardrobe & styling controls for image editing.",
+  "prompts": [
+    {
+      "id": "wardrobe-styling-0",
+      "command": "/wardrobe",
+      "name": "Wardrobe Direction",
+      "description": "Wardrobe Direction image-editing workflow.",
+      "instruction": "Refine wardrobe styling with coherent materials, fit, silhouette and editorial intent.",
+      "tags": [
+        "image-editing",
+        "wardrobe-styling"
+      ],
+      "priority": 62,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.1",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Wardrobe & Styling",
+      "demoImage": "/assets/images/wardrobe-demo.jpg"
+    },
+    {
+      "id": "wardrobe-styling-1",
+      "command": "/structured-wardrobe",
+      "name": "Structured Wardrobe",
+      "description": "Structured Wardrobe image-editing workflow.",
+      "instruction": "Use structured tailoring with clean lines, realistic fabric folds and a refined silhouette.",
+      "tags": [
+        "image-editing",
+        "wardrobe-styling"
+      ],
+      "priority": 62,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.1",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Wardrobe & Styling",
+      "demoImage": "/assets/images/wardrobe-demo.jpg"
+    }
+  ]
+}

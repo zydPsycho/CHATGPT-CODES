@@ -1,0 +1,1289 @@
+{
+  "category": "DevOps & Deployment",
+  "categorySlug": "devops-deployment",
+  "subcategory": "Integration",
+  "slug": "integration",
+  "description": "Integration command system for environment & atmosphere.",
+  "prompts": [
+    {
+      "id": "api-0",
+      "command": "/api",
+      "name": "Api",
+      "description": "Api workflow directive for integration.",
+      "instruction": "Apply api with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "api"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "webhook-1",
+      "command": "/webhook",
+      "name": "Webhook",
+      "description": "Webhook workflow directive for integration.",
+      "instruction": "Apply webhook with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "webhook"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "connector-2",
+      "command": "/connector",
+      "name": "Connector",
+      "description": "Connector workflow directive for integration.",
+      "instruction": "Apply connector with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "connector"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "import-3",
+      "command": "/import",
+      "name": "Import",
+      "description": "Import workflow directive for integration.",
+      "instruction": "Apply import with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "import"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "export-4",
+      "command": "/export",
+      "name": "Export",
+      "description": "Export workflow directive for integration.",
+      "instruction": "Apply export with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "export"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "sync-5",
+      "command": "/sync",
+      "name": "Sync",
+      "description": "Sync workflow directive for integration.",
+      "instruction": "Apply sync with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "sync"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "api-precise-6",
+      "command": "/api-precise",
+      "name": "Api Precise",
+      "description": "Api Precise workflow directive for integration.",
+      "instruction": "Apply api precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "api"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "webhook-clean-7",
+      "command": "/webhook-clean",
+      "name": "Webhook Clean",
+      "description": "Webhook Clean workflow directive for integration.",
+      "instruction": "Apply webhook clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "webhook"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "connector-natural-8",
+      "command": "/connector-natural",
+      "name": "Connector Natural",
+      "description": "Connector Natural workflow directive for integration.",
+      "instruction": "Apply connector natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "connector"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "import-refined-9",
+      "command": "/import-refined",
+      "name": "Import Refined",
+      "description": "Import Refined workflow directive for integration.",
+      "instruction": "Apply import refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "import"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "export-professional-10",
+      "command": "/export-professional",
+      "name": "Export Professional",
+      "description": "Export Professional workflow directive for integration.",
+      "instruction": "Apply export professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "export"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "sync-premium-11",
+      "command": "/sync-premium",
+      "name": "Sync Premium",
+      "description": "Sync Premium workflow directive for integration.",
+      "instruction": "Apply sync premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "sync"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "api-subtle-12",
+      "command": "/api-subtle",
+      "name": "Api Subtle",
+      "description": "Api Subtle workflow directive for integration.",
+      "instruction": "Apply api subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "api"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "webhook-strong-13",
+      "command": "/webhook-strong",
+      "name": "Webhook Strong",
+      "description": "Webhook Strong workflow directive for integration.",
+      "instruction": "Apply webhook strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "webhook"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "connector-balanced-14",
+      "command": "/connector-balanced",
+      "name": "Connector Balanced",
+      "description": "Connector Balanced workflow directive for integration.",
+      "instruction": "Apply connector balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "connector"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "import-detailed-15",
+      "command": "/import-detailed",
+      "name": "Import Detailed",
+      "description": "Import Detailed workflow directive for integration.",
+      "instruction": "Apply import detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "import"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "export-advanced-16",
+      "command": "/export-advanced",
+      "name": "Export Advanced",
+      "description": "Export Advanced workflow directive for integration.",
+      "instruction": "Apply export advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "export"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "sync-simple-17",
+      "command": "/sync-simple",
+      "name": "Sync Simple",
+      "description": "Sync Simple workflow directive for integration.",
+      "instruction": "Apply sync simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "sync"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "api-smart-18",
+      "command": "/api-smart",
+      "name": "Api Smart",
+      "description": "Api Smart workflow directive for integration.",
+      "instruction": "Apply api smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "api"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "webhook-controlled-19",
+      "command": "/webhook-controlled",
+      "name": "Webhook Controlled",
+      "description": "Webhook Controlled workflow directive for integration.",
+      "instruction": "Apply webhook controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "webhook"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "connector-optimized-20",
+      "command": "/connector-optimized",
+      "name": "Connector Optimized",
+      "description": "Connector Optimized workflow directive for integration.",
+      "instruction": "Apply connector optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "connector"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "import-efficient-21",
+      "command": "/import-efficient",
+      "name": "Import Efficient",
+      "description": "Import Efficient workflow directive for integration.",
+      "instruction": "Apply import efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "import"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "export-accurate-22",
+      "command": "/export-accurate",
+      "name": "Export Accurate",
+      "description": "Export Accurate workflow directive for integration.",
+      "instruction": "Apply export accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "export"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "sync-consistent-23",
+      "command": "/sync-consistent",
+      "name": "Sync Consistent",
+      "description": "Sync Consistent workflow directive for integration.",
+      "instruction": "Apply sync consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "sync"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "api-polished-24",
+      "command": "/api-polished",
+      "name": "Api Polished",
+      "description": "Api Polished workflow directive for integration.",
+      "instruction": "Apply api polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "api"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "webhook-final-25",
+      "command": "/webhook-final",
+      "name": "Webhook Final",
+      "description": "Webhook Final workflow directive for integration.",
+      "instruction": "Apply webhook final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "webhook"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "connector-quick-26",
+      "command": "/connector-quick",
+      "name": "Connector Quick",
+      "description": "Connector Quick workflow directive for integration.",
+      "instruction": "Apply connector quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "connector"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "import-deep-27",
+      "command": "/import-deep",
+      "name": "Import Deep",
+      "description": "Import Deep workflow directive for integration.",
+      "instruction": "Apply import deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "import"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "export-thorough-28",
+      "command": "/export-thorough",
+      "name": "Export Thorough",
+      "description": "Export Thorough workflow directive for integration.",
+      "instruction": "Apply export thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "export"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "sync-minimal-29",
+      "command": "/sync-minimal",
+      "name": "Sync Minimal",
+      "description": "Sync Minimal workflow directive for integration.",
+      "instruction": "Apply sync minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "sync"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "api-maximum-30",
+      "command": "/api-maximum",
+      "name": "Api Maximum",
+      "description": "Api Maximum workflow directive for integration.",
+      "instruction": "Apply api maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "api"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "webhook-soft-31",
+      "command": "/webhook-soft",
+      "name": "Webhook Soft",
+      "description": "Webhook Soft workflow directive for integration.",
+      "instruction": "Apply webhook soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "webhook"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "connector-bold-32",
+      "command": "/connector-bold",
+      "name": "Connector Bold",
+      "description": "Connector Bold workflow directive for integration.",
+      "instruction": "Apply connector bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "connector"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "import-sharp-33",
+      "command": "/import-sharp",
+      "name": "Import Sharp",
+      "description": "Import Sharp workflow directive for integration.",
+      "instruction": "Apply import sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "import"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "export-smooth-34",
+      "command": "/export-smooth",
+      "name": "Export Smooth",
+      "description": "Export Smooth workflow directive for integration.",
+      "instruction": "Apply export smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "export"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "sync-stable-35",
+      "command": "/sync-stable",
+      "name": "Sync Stable",
+      "description": "Sync Stable workflow directive for integration.",
+      "instruction": "Apply sync stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "sync"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "api-highquality-36",
+      "command": "/api-highquality",
+      "name": "Api Highquality",
+      "description": "Api Highquality workflow directive for integration.",
+      "instruction": "Apply api highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "api"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "webhook-lowartifact-37",
+      "command": "/webhook-lowartifact",
+      "name": "Webhook Lowartifact",
+      "description": "Webhook Lowartifact workflow directive for integration.",
+      "instruction": "Apply webhook lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "webhook"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "connector-highdetail-38",
+      "command": "/connector-highdetail",
+      "name": "Connector Highdetail",
+      "description": "Connector Highdetail workflow directive for integration.",
+      "instruction": "Apply connector highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "connector"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "import-fine-39",
+      "command": "/import-fine",
+      "name": "Import Fine",
+      "description": "Import Fine workflow directive for integration.",
+      "instruction": "Apply import fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "import"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "export-micro-40",
+      "command": "/export-micro",
+      "name": "Export Micro",
+      "description": "Export Micro workflow directive for integration.",
+      "instruction": "Apply export micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "export"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "sync-macro-41",
+      "command": "/sync-macro",
+      "name": "Sync Macro",
+      "description": "Sync Macro workflow directive for integration.",
+      "instruction": "Apply sync macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "sync"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "api-local-42",
+      "command": "/api-local",
+      "name": "Api Local",
+      "description": "Api Local workflow directive for integration.",
+      "instruction": "Apply api local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "api"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "webhook-global-43",
+      "command": "/webhook-global",
+      "name": "Webhook Global",
+      "description": "Webhook Global workflow directive for integration.",
+      "instruction": "Apply webhook global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "webhook"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "connector-adaptive-44",
+      "command": "/connector-adaptive",
+      "name": "Connector Adaptive",
+      "description": "Connector Adaptive workflow directive for integration.",
+      "instruction": "Apply connector adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "connector"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "import-contextual-45",
+      "command": "/import-contextual",
+      "name": "Import Contextual",
+      "description": "Import Contextual workflow directive for integration.",
+      "instruction": "Apply import contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "import"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "export-realistic-46",
+      "command": "/export-realistic",
+      "name": "Export Realistic",
+      "description": "Export Realistic workflow directive for integration.",
+      "instruction": "Apply export realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "export"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "sync-cinematic-47",
+      "command": "/sync-cinematic",
+      "name": "Sync Cinematic",
+      "description": "Sync Cinematic workflow directive for integration.",
+      "instruction": "Apply sync cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "sync"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "api-modern-48",
+      "command": "/api-modern",
+      "name": "Api Modern",
+      "description": "Api Modern workflow directive for integration.",
+      "instruction": "Apply api modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "api"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "webhook-classic-49",
+      "command": "/webhook-classic",
+      "name": "Webhook Classic",
+      "description": "Webhook Classic workflow directive for integration.",
+      "instruction": "Apply webhook classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "webhook"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "connector-technical-50",
+      "command": "/connector-technical",
+      "name": "Connector Technical",
+      "description": "Connector Technical workflow directive for integration.",
+      "instruction": "Apply connector technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "connector"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "import-creative-51",
+      "command": "/import-creative",
+      "name": "Import Creative",
+      "description": "Import Creative workflow directive for integration.",
+      "instruction": "Apply import creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "import"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "export-editorial-52",
+      "command": "/export-editorial",
+      "name": "Export Editorial",
+      "description": "Export Editorial workflow directive for integration.",
+      "instruction": "Apply export editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "export"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "sync-production-53",
+      "command": "/sync-production",
+      "name": "Sync Production",
+      "description": "Sync Production workflow directive for integration.",
+      "instruction": "Apply sync production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "sync"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "api-studio-54",
+      "command": "/api-studio",
+      "name": "Api Studio",
+      "description": "Api Studio workflow directive for integration.",
+      "instruction": "Apply api studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "api"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "webhook-portable-55",
+      "command": "/webhook-portable",
+      "name": "Webhook Portable",
+      "description": "Webhook Portable workflow directive for integration.",
+      "instruction": "Apply webhook portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "webhook"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "connector-safe-56",
+      "command": "/connector-safe",
+      "name": "Connector Safe",
+      "description": "Connector Safe workflow directive for integration.",
+      "instruction": "Apply connector safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "connector"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "import-robust-57",
+      "command": "/import-robust",
+      "name": "Import Robust",
+      "description": "Import Robust workflow directive for integration.",
+      "instruction": "Apply import robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "import"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "export-reliable-58",
+      "command": "/export-reliable",
+      "name": "Export Reliable",
+      "description": "Export Reliable workflow directive for integration.",
+      "instruction": "Apply export reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "export"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "sync-scalable-59",
+      "command": "/sync-scalable",
+      "name": "Sync Scalable",
+      "description": "Sync Scalable workflow directive for integration.",
+      "instruction": "Apply sync scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "sync"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "api-maintainable-60",
+      "command": "/api-maintainable",
+      "name": "Api Maintainable",
+      "description": "Api Maintainable workflow directive for integration.",
+      "instruction": "Apply api maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "api"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "webhook-accessible-61",
+      "command": "/webhook-accessible",
+      "name": "Webhook Accessible",
+      "description": "Webhook Accessible workflow directive for integration.",
+      "instruction": "Apply webhook accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "webhook"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "connector-responsive-62",
+      "command": "/connector-responsive",
+      "name": "Connector Responsive",
+      "description": "Connector Responsive workflow directive for integration.",
+      "instruction": "Apply connector responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "connector"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    },
+    {
+      "id": "import-structured-63",
+      "command": "/import-structured",
+      "name": "Import Structured",
+      "description": "Import Structured workflow directive for integration.",
+      "instruction": "Apply import structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "integration",
+        "automation-and-workflows",
+        "import"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "DevOps & Deployment",
+      "categorySlug": "devops-deployment",
+      "subcategory": "Integration"
+    }
+  ]
+}

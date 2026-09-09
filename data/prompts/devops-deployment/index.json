@@ -1,0 +1,19 @@
+{
+  "category": "DevOps & Deployment",
+  "slug": "devops-deployment",
+  "description": "Git, hosting, CI/CD, builds and deployment workflows.",
+  "subcategories": [
+    {
+      "name": "Automation",
+      "slug": "automation",
+      "file": "/data/prompts/devops-deployment/automation.json",
+      "count": 64
+    },
+    {
+      "name": "Integration",
+      "slug": "integration",
+      "file": "/data/prompts/devops-deployment/integration.json",
+      "count": 64
+    }
+  ]
+}

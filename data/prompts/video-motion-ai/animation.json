@@ -1,0 +1,1289 @@
+{
+  "category": "Video & Motion AI",
+  "categorySlug": "video-motion-ai",
+  "subcategory": "Animation",
+  "slug": "animation",
+  "description": "Animation command system for camera & motion.",
+  "prompts": [
+    {
+      "id": "animate-0",
+      "command": "/animate",
+      "name": "Animate",
+      "description": "Animate workflow directive for animation.",
+      "instruction": "Apply animate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "animate"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "animateparts-1",
+      "command": "/animateparts",
+      "name": "Animateparts",
+      "description": "Animateparts workflow directive for animation.",
+      "instruction": "Apply animateparts with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "animateparts"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "smoothmotion-2",
+      "command": "/smoothmotion",
+      "name": "Smoothmotion",
+      "description": "Smoothmotion workflow directive for animation.",
+      "instruction": "Apply smoothmotion with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "smoothmotion"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "loop-3",
+      "command": "/loop",
+      "name": "Loop",
+      "description": "Loop workflow directive for animation.",
+      "instruction": "Apply loop with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "loop"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "slowmotion-4",
+      "command": "/slowmotion",
+      "name": "Slowmotion",
+      "description": "Slowmotion workflow directive for animation.",
+      "instruction": "Apply slowmotion with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "slowmotion"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "animate-precise-5",
+      "command": "/animate-precise",
+      "name": "Animate Precise",
+      "description": "Animate Precise workflow directive for animation.",
+      "instruction": "Apply animate precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "animate"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "animateparts-clean-6",
+      "command": "/animateparts-clean",
+      "name": "Animateparts Clean",
+      "description": "Animateparts Clean workflow directive for animation.",
+      "instruction": "Apply animateparts clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "animateparts"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "smoothmotion-natural-7",
+      "command": "/smoothmotion-natural",
+      "name": "Smoothmotion Natural",
+      "description": "Smoothmotion Natural workflow directive for animation.",
+      "instruction": "Apply smoothmotion natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "smoothmotion"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "loop-refined-8",
+      "command": "/loop-refined",
+      "name": "Loop Refined",
+      "description": "Loop Refined workflow directive for animation.",
+      "instruction": "Apply loop refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "loop"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "slowmotion-professional-9",
+      "command": "/slowmotion-professional",
+      "name": "Slowmotion Professional",
+      "description": "Slowmotion Professional workflow directive for animation.",
+      "instruction": "Apply slowmotion professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "slowmotion"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "animate-premium-10",
+      "command": "/animate-premium",
+      "name": "Animate Premium",
+      "description": "Animate Premium workflow directive for animation.",
+      "instruction": "Apply animate premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "animate"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "animateparts-subtle-11",
+      "command": "/animateparts-subtle",
+      "name": "Animateparts Subtle",
+      "description": "Animateparts Subtle workflow directive for animation.",
+      "instruction": "Apply animateparts subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "animateparts"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "smoothmotion-strong-12",
+      "command": "/smoothmotion-strong",
+      "name": "Smoothmotion Strong",
+      "description": "Smoothmotion Strong workflow directive for animation.",
+      "instruction": "Apply smoothmotion strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "smoothmotion"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "loop-balanced-13",
+      "command": "/loop-balanced",
+      "name": "Loop Balanced",
+      "description": "Loop Balanced workflow directive for animation.",
+      "instruction": "Apply loop balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "loop"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "slowmotion-detailed-14",
+      "command": "/slowmotion-detailed",
+      "name": "Slowmotion Detailed",
+      "description": "Slowmotion Detailed workflow directive for animation.",
+      "instruction": "Apply slowmotion detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "slowmotion"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "animate-advanced-15",
+      "command": "/animate-advanced",
+      "name": "Animate Advanced",
+      "description": "Animate Advanced workflow directive for animation.",
+      "instruction": "Apply animate advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "animate"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "animateparts-simple-16",
+      "command": "/animateparts-simple",
+      "name": "Animateparts Simple",
+      "description": "Animateparts Simple workflow directive for animation.",
+      "instruction": "Apply animateparts simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "animateparts"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "smoothmotion-smart-17",
+      "command": "/smoothmotion-smart",
+      "name": "Smoothmotion Smart",
+      "description": "Smoothmotion Smart workflow directive for animation.",
+      "instruction": "Apply smoothmotion smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "smoothmotion"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "loop-controlled-18",
+      "command": "/loop-controlled",
+      "name": "Loop Controlled",
+      "description": "Loop Controlled workflow directive for animation.",
+      "instruction": "Apply loop controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "loop"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "slowmotion-optimized-19",
+      "command": "/slowmotion-optimized",
+      "name": "Slowmotion Optimized",
+      "description": "Slowmotion Optimized workflow directive for animation.",
+      "instruction": "Apply slowmotion optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "slowmotion"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "animate-efficient-20",
+      "command": "/animate-efficient",
+      "name": "Animate Efficient",
+      "description": "Animate Efficient workflow directive for animation.",
+      "instruction": "Apply animate efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "animate"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "animateparts-accurate-21",
+      "command": "/animateparts-accurate",
+      "name": "Animateparts Accurate",
+      "description": "Animateparts Accurate workflow directive for animation.",
+      "instruction": "Apply animateparts accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "animateparts"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "smoothmotion-consistent-22",
+      "command": "/smoothmotion-consistent",
+      "name": "Smoothmotion Consistent",
+      "description": "Smoothmotion Consistent workflow directive for animation.",
+      "instruction": "Apply smoothmotion consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "smoothmotion"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "loop-polished-23",
+      "command": "/loop-polished",
+      "name": "Loop Polished",
+      "description": "Loop Polished workflow directive for animation.",
+      "instruction": "Apply loop polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "loop"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "slowmotion-final-24",
+      "command": "/slowmotion-final",
+      "name": "Slowmotion Final",
+      "description": "Slowmotion Final workflow directive for animation.",
+      "instruction": "Apply slowmotion final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "slowmotion"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "animate-quick-25",
+      "command": "/animate-quick",
+      "name": "Animate Quick",
+      "description": "Animate Quick workflow directive for animation.",
+      "instruction": "Apply animate quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "animate"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "animateparts-deep-26",
+      "command": "/animateparts-deep",
+      "name": "Animateparts Deep",
+      "description": "Animateparts Deep workflow directive for animation.",
+      "instruction": "Apply animateparts deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "animateparts"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "smoothmotion-thorough-27",
+      "command": "/smoothmotion-thorough",
+      "name": "Smoothmotion Thorough",
+      "description": "Smoothmotion Thorough workflow directive for animation.",
+      "instruction": "Apply smoothmotion thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "smoothmotion"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "loop-minimal-28",
+      "command": "/loop-minimal",
+      "name": "Loop Minimal",
+      "description": "Loop Minimal workflow directive for animation.",
+      "instruction": "Apply loop minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "loop"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "slowmotion-maximum-29",
+      "command": "/slowmotion-maximum",
+      "name": "Slowmotion Maximum",
+      "description": "Slowmotion Maximum workflow directive for animation.",
+      "instruction": "Apply slowmotion maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "slowmotion"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "animate-soft-30",
+      "command": "/animate-soft",
+      "name": "Animate Soft",
+      "description": "Animate Soft workflow directive for animation.",
+      "instruction": "Apply animate soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "animate"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "animateparts-bold-31",
+      "command": "/animateparts-bold",
+      "name": "Animateparts Bold",
+      "description": "Animateparts Bold workflow directive for animation.",
+      "instruction": "Apply animateparts bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "animateparts"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "smoothmotion-sharp-32",
+      "command": "/smoothmotion-sharp",
+      "name": "Smoothmotion Sharp",
+      "description": "Smoothmotion Sharp workflow directive for animation.",
+      "instruction": "Apply smoothmotion sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "smoothmotion"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "loop-smooth-33",
+      "command": "/loop-smooth",
+      "name": "Loop Smooth",
+      "description": "Loop Smooth workflow directive for animation.",
+      "instruction": "Apply loop smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "loop"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "slowmotion-stable-34",
+      "command": "/slowmotion-stable",
+      "name": "Slowmotion Stable",
+      "description": "Slowmotion Stable workflow directive for animation.",
+      "instruction": "Apply slowmotion stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "slowmotion"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "animate-highquality-35",
+      "command": "/animate-highquality",
+      "name": "Animate Highquality",
+      "description": "Animate Highquality workflow directive for animation.",
+      "instruction": "Apply animate highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "animate"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "animateparts-lowartifact-36",
+      "command": "/animateparts-lowartifact",
+      "name": "Animateparts Lowartifact",
+      "description": "Animateparts Lowartifact workflow directive for animation.",
+      "instruction": "Apply animateparts lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "animateparts"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "smoothmotion-highdetail-37",
+      "command": "/smoothmotion-highdetail",
+      "name": "Smoothmotion Highdetail",
+      "description": "Smoothmotion Highdetail workflow directive for animation.",
+      "instruction": "Apply smoothmotion highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "smoothmotion"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "loop-fine-38",
+      "command": "/loop-fine",
+      "name": "Loop Fine",
+      "description": "Loop Fine workflow directive for animation.",
+      "instruction": "Apply loop fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "loop"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "slowmotion-micro-39",
+      "command": "/slowmotion-micro",
+      "name": "Slowmotion Micro",
+      "description": "Slowmotion Micro workflow directive for animation.",
+      "instruction": "Apply slowmotion micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "slowmotion"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "animate-macro-40",
+      "command": "/animate-macro",
+      "name": "Animate Macro",
+      "description": "Animate Macro workflow directive for animation.",
+      "instruction": "Apply animate macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "animate"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "animateparts-local-41",
+      "command": "/animateparts-local",
+      "name": "Animateparts Local",
+      "description": "Animateparts Local workflow directive for animation.",
+      "instruction": "Apply animateparts local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "animateparts"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "smoothmotion-global-42",
+      "command": "/smoothmotion-global",
+      "name": "Smoothmotion Global",
+      "description": "Smoothmotion Global workflow directive for animation.",
+      "instruction": "Apply smoothmotion global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "smoothmotion"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "loop-adaptive-43",
+      "command": "/loop-adaptive",
+      "name": "Loop Adaptive",
+      "description": "Loop Adaptive workflow directive for animation.",
+      "instruction": "Apply loop adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "loop"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "slowmotion-contextual-44",
+      "command": "/slowmotion-contextual",
+      "name": "Slowmotion Contextual",
+      "description": "Slowmotion Contextual workflow directive for animation.",
+      "instruction": "Apply slowmotion contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "slowmotion"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "animate-realistic-45",
+      "command": "/animate-realistic",
+      "name": "Animate Realistic",
+      "description": "Animate Realistic workflow directive for animation.",
+      "instruction": "Apply animate realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "animate"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "animateparts-cinematic-46",
+      "command": "/animateparts-cinematic",
+      "name": "Animateparts Cinematic",
+      "description": "Animateparts Cinematic workflow directive for animation.",
+      "instruction": "Apply animateparts cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "animateparts"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "smoothmotion-modern-47",
+      "command": "/smoothmotion-modern",
+      "name": "Smoothmotion Modern",
+      "description": "Smoothmotion Modern workflow directive for animation.",
+      "instruction": "Apply smoothmotion modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "smoothmotion"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "loop-classic-48",
+      "command": "/loop-classic",
+      "name": "Loop Classic",
+      "description": "Loop Classic workflow directive for animation.",
+      "instruction": "Apply loop classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "loop"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "slowmotion-technical-49",
+      "command": "/slowmotion-technical",
+      "name": "Slowmotion Technical",
+      "description": "Slowmotion Technical workflow directive for animation.",
+      "instruction": "Apply slowmotion technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "slowmotion"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "animate-creative-50",
+      "command": "/animate-creative",
+      "name": "Animate Creative",
+      "description": "Animate Creative workflow directive for animation.",
+      "instruction": "Apply animate creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "animate"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "animateparts-editorial-51",
+      "command": "/animateparts-editorial",
+      "name": "Animateparts Editorial",
+      "description": "Animateparts Editorial workflow directive for animation.",
+      "instruction": "Apply animateparts editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "animateparts"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "smoothmotion-production-52",
+      "command": "/smoothmotion-production",
+      "name": "Smoothmotion Production",
+      "description": "Smoothmotion Production workflow directive for animation.",
+      "instruction": "Apply smoothmotion production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "smoothmotion"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "loop-studio-53",
+      "command": "/loop-studio",
+      "name": "Loop Studio",
+      "description": "Loop Studio workflow directive for animation.",
+      "instruction": "Apply loop studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "loop"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "slowmotion-portable-54",
+      "command": "/slowmotion-portable",
+      "name": "Slowmotion Portable",
+      "description": "Slowmotion Portable workflow directive for animation.",
+      "instruction": "Apply slowmotion portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "slowmotion"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "animate-safe-55",
+      "command": "/animate-safe",
+      "name": "Animate Safe",
+      "description": "Animate Safe workflow directive for animation.",
+      "instruction": "Apply animate safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "animate"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "animateparts-robust-56",
+      "command": "/animateparts-robust",
+      "name": "Animateparts Robust",
+      "description": "Animateparts Robust workflow directive for animation.",
+      "instruction": "Apply animateparts robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "animateparts"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "smoothmotion-reliable-57",
+      "command": "/smoothmotion-reliable",
+      "name": "Smoothmotion Reliable",
+      "description": "Smoothmotion Reliable workflow directive for animation.",
+      "instruction": "Apply smoothmotion reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "smoothmotion"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "loop-scalable-58",
+      "command": "/loop-scalable",
+      "name": "Loop Scalable",
+      "description": "Loop Scalable workflow directive for animation.",
+      "instruction": "Apply loop scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "loop"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "slowmotion-maintainable-59",
+      "command": "/slowmotion-maintainable",
+      "name": "Slowmotion Maintainable",
+      "description": "Slowmotion Maintainable workflow directive for animation.",
+      "instruction": "Apply slowmotion maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "slowmotion"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "animate-accessible-60",
+      "command": "/animate-accessible",
+      "name": "Animate Accessible",
+      "description": "Animate Accessible workflow directive for animation.",
+      "instruction": "Apply animate accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "animate"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "animateparts-responsive-61",
+      "command": "/animateparts-responsive",
+      "name": "Animateparts Responsive",
+      "description": "Animateparts Responsive workflow directive for animation.",
+      "instruction": "Apply animateparts responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "animateparts"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "smoothmotion-structured-62",
+      "command": "/smoothmotion-structured",
+      "name": "Smoothmotion Structured",
+      "description": "Smoothmotion Structured workflow directive for animation.",
+      "instruction": "Apply smoothmotion structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "smoothmotion"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    },
+    {
+      "id": "loop-compact-63",
+      "command": "/loop-compact",
+      "name": "Loop Compact",
+      "description": "Loop Compact workflow directive for animation.",
+      "instruction": "Apply loop compact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "animation",
+        "camera-motion-and-video",
+        "loop"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Video & Motion AI",
+      "categorySlug": "video-motion-ai",
+      "subcategory": "Animation"
+    }
+  ]
+}

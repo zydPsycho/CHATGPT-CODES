@@ -1,0 +1,49 @@
+{
+  "category": "Image & Visual AI",
+  "categorySlug": "image-visual-ai",
+  "subcategory": "Image Editing · Makeup & Beauty",
+  "slug": "makeup",
+  "description": "Targeted makeup & beauty controls for image editing.",
+  "prompts": [
+    {
+      "id": "makeup-0",
+      "command": "/makeup",
+      "name": "Makeup Direction",
+      "description": "Makeup Direction image-editing workflow.",
+      "instruction": "Add refined editorial makeup while preserving skin texture, identity and believable proportions.",
+      "tags": [
+        "image-editing",
+        "makeup"
+      ],
+      "priority": 62,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.1",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Makeup & Beauty",
+      "demoImage": "/assets/images/expression-demo.jpg"
+    },
+    {
+      "id": "makeup-1",
+      "command": "/natural-makeup",
+      "name": "Natural Makeup",
+      "description": "Natural Makeup image-editing workflow.",
+      "instruction": "Use minimal natural makeup with soft definition and realistic skin texture.",
+      "tags": [
+        "image-editing",
+        "makeup"
+      ],
+      "priority": 62,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.1",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Makeup & Beauty",
+      "demoImage": "/assets/images/expression-demo.jpg"
+    }
+  ]
+}

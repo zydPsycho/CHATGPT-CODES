@@ -1,0 +1,31 @@
+{
+  "category": "AI & Prompt Engineering",
+  "slug": "ai-prompt-engineering",
+  "description": "Prompt creation, optimization, structure, agents and evaluation.",
+  "subcategories": [
+    {
+      "name": "Prompt Design",
+      "slug": "prompt-design",
+      "file": "/data/prompts/ai-prompt-engineering/prompt-design.json",
+      "count": 64
+    },
+    {
+      "name": "Roles & Context",
+      "slug": "roles-and-context",
+      "file": "/data/prompts/ai-prompt-engineering/roles-and-context.json",
+      "count": 64
+    },
+    {
+      "name": "Output Control",
+      "slug": "output-control",
+      "file": "/data/prompts/ai-prompt-engineering/output-control.json",
+      "count": 64
+    },
+    {
+      "name": "Quality Control",
+      "slug": "quality-control",
+      "file": "/data/prompts/ai-prompt-engineering/quality-control.json",
+      "count": 64
+    }
+  ]
+}

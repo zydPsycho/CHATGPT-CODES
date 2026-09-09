@@ -1,0 +1,13 @@
+{
+  "category": "Data & Database",
+  "slug": "data-database",
+  "description": "SQL, data cleaning, schemas, queries and reporting workflows.",
+  "subcategories": [
+    {
+      "name": "SQL & Code",
+      "slug": "sql-and-code",
+      "file": "/data/prompts/data-database/sql-and-code.json",
+      "count": 64
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "category": "Image & Visual AI",
+  "categorySlug": "image-visual-ai",
+  "subcategory": "Image Editing · Hair Color",
+  "slug": "hair-color",
+  "description": "Targeted hair color controls for image editing.",
+  "prompts": [
+    {
+      "id": "hair-color-0",
+      "command": "/haircolor",
+      "name": "Hair Color Direction",
+      "description": "Hair Color Direction image-editing workflow.",
+      "instruction": "Change hair color while preserving strand detail, lighting consistency and hairstyle identity.",
+      "tags": [
+        "image-editing",
+        "hair-color"
+      ],
+      "priority": 62,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.1",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Hair Color",
+      "demoImage": "/assets/images/hairstyle-demo.jpg"
+    },
+    {
+      "id": "hair-color-1",
+      "command": "/accent-color",
+      "name": "Accent Color",
+      "description": "Accent Color image-editing workflow.",
+      "instruction": "Introduce a restrained fashion color accent while preserving realistic hair texture.",
+      "tags": [
+        "image-editing",
+        "hair-color"
+      ],
+      "priority": 62,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.1",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Hair Color",
+      "demoImage": "/assets/images/hairstyle-demo.jpg"
+    }
+  ]
+}

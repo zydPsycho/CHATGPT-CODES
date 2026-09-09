@@ -1,0 +1,1289 @@
+{
+  "category": "Productivity & Learning",
+  "categorySlug": "productivity-learning",
+  "subcategory": "Planning",
+  "slug": "planning",
+  "description": "Planning command system for environment & atmosphere.",
+  "prompts": [
+    {
+      "id": "plan-0",
+      "command": "/plan",
+      "name": "Plan",
+      "description": "Plan workflow directive for planning.",
+      "instruction": "Apply plan with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "plan"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "roadmap-1",
+      "command": "/roadmap",
+      "name": "Roadmap",
+      "description": "Roadmap workflow directive for planning.",
+      "instruction": "Apply roadmap with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "roadmap"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "timeline-2",
+      "command": "/timeline",
+      "name": "Timeline",
+      "description": "Timeline workflow directive for planning.",
+      "instruction": "Apply timeline with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "timeline"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "milestones-3",
+      "command": "/milestones",
+      "name": "Milestones",
+      "description": "Milestones workflow directive for planning.",
+      "instruction": "Apply milestones with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "milestones"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "schedule-4",
+      "command": "/schedule",
+      "name": "Schedule",
+      "description": "Schedule workflow directive for planning.",
+      "instruction": "Apply schedule with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "schedule"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "prioritize-5",
+      "command": "/prioritize",
+      "name": "Prioritize",
+      "description": "Prioritize workflow directive for planning.",
+      "instruction": "Apply prioritize with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "prioritize"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "plan-precise-6",
+      "command": "/plan-precise",
+      "name": "Plan Precise",
+      "description": "Plan Precise workflow directive for planning.",
+      "instruction": "Apply plan precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "plan"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "roadmap-clean-7",
+      "command": "/roadmap-clean",
+      "name": "Roadmap Clean",
+      "description": "Roadmap Clean workflow directive for planning.",
+      "instruction": "Apply roadmap clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "roadmap"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "timeline-natural-8",
+      "command": "/timeline-natural",
+      "name": "Timeline Natural",
+      "description": "Timeline Natural workflow directive for planning.",
+      "instruction": "Apply timeline natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "timeline"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "milestones-refined-9",
+      "command": "/milestones-refined",
+      "name": "Milestones Refined",
+      "description": "Milestones Refined workflow directive for planning.",
+      "instruction": "Apply milestones refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "milestones"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "schedule-professional-10",
+      "command": "/schedule-professional",
+      "name": "Schedule Professional",
+      "description": "Schedule Professional workflow directive for planning.",
+      "instruction": "Apply schedule professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "schedule"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "prioritize-premium-11",
+      "command": "/prioritize-premium",
+      "name": "Prioritize Premium",
+      "description": "Prioritize Premium workflow directive for planning.",
+      "instruction": "Apply prioritize premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "prioritize"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "plan-subtle-12",
+      "command": "/plan-subtle",
+      "name": "Plan Subtle",
+      "description": "Plan Subtle workflow directive for planning.",
+      "instruction": "Apply plan subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "plan"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "roadmap-strong-13",
+      "command": "/roadmap-strong",
+      "name": "Roadmap Strong",
+      "description": "Roadmap Strong workflow directive for planning.",
+      "instruction": "Apply roadmap strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "roadmap"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "timeline-balanced-14",
+      "command": "/timeline-balanced",
+      "name": "Timeline Balanced",
+      "description": "Timeline Balanced workflow directive for planning.",
+      "instruction": "Apply timeline balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "timeline"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "milestones-detailed-15",
+      "command": "/milestones-detailed",
+      "name": "Milestones Detailed",
+      "description": "Milestones Detailed workflow directive for planning.",
+      "instruction": "Apply milestones detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "milestones"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "schedule-advanced-16",
+      "command": "/schedule-advanced",
+      "name": "Schedule Advanced",
+      "description": "Schedule Advanced workflow directive for planning.",
+      "instruction": "Apply schedule advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "schedule"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "prioritize-simple-17",
+      "command": "/prioritize-simple",
+      "name": "Prioritize Simple",
+      "description": "Prioritize Simple workflow directive for planning.",
+      "instruction": "Apply prioritize simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "prioritize"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "plan-smart-18",
+      "command": "/plan-smart",
+      "name": "Plan Smart",
+      "description": "Plan Smart workflow directive for planning.",
+      "instruction": "Apply plan smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "plan"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "roadmap-controlled-19",
+      "command": "/roadmap-controlled",
+      "name": "Roadmap Controlled",
+      "description": "Roadmap Controlled workflow directive for planning.",
+      "instruction": "Apply roadmap controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "roadmap"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "timeline-optimized-20",
+      "command": "/timeline-optimized",
+      "name": "Timeline Optimized",
+      "description": "Timeline Optimized workflow directive for planning.",
+      "instruction": "Apply timeline optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "timeline"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "milestones-efficient-21",
+      "command": "/milestones-efficient",
+      "name": "Milestones Efficient",
+      "description": "Milestones Efficient workflow directive for planning.",
+      "instruction": "Apply milestones efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "milestones"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "schedule-accurate-22",
+      "command": "/schedule-accurate",
+      "name": "Schedule Accurate",
+      "description": "Schedule Accurate workflow directive for planning.",
+      "instruction": "Apply schedule accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "schedule"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "prioritize-consistent-23",
+      "command": "/prioritize-consistent",
+      "name": "Prioritize Consistent",
+      "description": "Prioritize Consistent workflow directive for planning.",
+      "instruction": "Apply prioritize consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "prioritize"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "plan-polished-24",
+      "command": "/plan-polished",
+      "name": "Plan Polished",
+      "description": "Plan Polished workflow directive for planning.",
+      "instruction": "Apply plan polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "plan"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "roadmap-final-25",
+      "command": "/roadmap-final",
+      "name": "Roadmap Final",
+      "description": "Roadmap Final workflow directive for planning.",
+      "instruction": "Apply roadmap final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "roadmap"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "timeline-quick-26",
+      "command": "/timeline-quick",
+      "name": "Timeline Quick",
+      "description": "Timeline Quick workflow directive for planning.",
+      "instruction": "Apply timeline quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "timeline"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "milestones-deep-27",
+      "command": "/milestones-deep",
+      "name": "Milestones Deep",
+      "description": "Milestones Deep workflow directive for planning.",
+      "instruction": "Apply milestones deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "milestones"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "schedule-thorough-28",
+      "command": "/schedule-thorough",
+      "name": "Schedule Thorough",
+      "description": "Schedule Thorough workflow directive for planning.",
+      "instruction": "Apply schedule thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "schedule"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "prioritize-minimal-29",
+      "command": "/prioritize-minimal",
+      "name": "Prioritize Minimal",
+      "description": "Prioritize Minimal workflow directive for planning.",
+      "instruction": "Apply prioritize minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "prioritize"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "plan-maximum-30",
+      "command": "/plan-maximum",
+      "name": "Plan Maximum",
+      "description": "Plan Maximum workflow directive for planning.",
+      "instruction": "Apply plan maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "plan"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "roadmap-soft-31",
+      "command": "/roadmap-soft",
+      "name": "Roadmap Soft",
+      "description": "Roadmap Soft workflow directive for planning.",
+      "instruction": "Apply roadmap soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "roadmap"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "timeline-bold-32",
+      "command": "/timeline-bold",
+      "name": "Timeline Bold",
+      "description": "Timeline Bold workflow directive for planning.",
+      "instruction": "Apply timeline bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "timeline"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "milestones-sharp-33",
+      "command": "/milestones-sharp",
+      "name": "Milestones Sharp",
+      "description": "Milestones Sharp workflow directive for planning.",
+      "instruction": "Apply milestones sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "milestones"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "schedule-smooth-34",
+      "command": "/schedule-smooth",
+      "name": "Schedule Smooth",
+      "description": "Schedule Smooth workflow directive for planning.",
+      "instruction": "Apply schedule smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "schedule"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "prioritize-stable-35",
+      "command": "/prioritize-stable",
+      "name": "Prioritize Stable",
+      "description": "Prioritize Stable workflow directive for planning.",
+      "instruction": "Apply prioritize stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "prioritize"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "plan-highquality-36",
+      "command": "/plan-highquality",
+      "name": "Plan Highquality",
+      "description": "Plan Highquality workflow directive for planning.",
+      "instruction": "Apply plan highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "plan"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "roadmap-lowartifact-37",
+      "command": "/roadmap-lowartifact",
+      "name": "Roadmap Lowartifact",
+      "description": "Roadmap Lowartifact workflow directive for planning.",
+      "instruction": "Apply roadmap lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "roadmap"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "timeline-highdetail-38",
+      "command": "/timeline-highdetail",
+      "name": "Timeline Highdetail",
+      "description": "Timeline Highdetail workflow directive for planning.",
+      "instruction": "Apply timeline highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "timeline"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "milestones-fine-39",
+      "command": "/milestones-fine",
+      "name": "Milestones Fine",
+      "description": "Milestones Fine workflow directive for planning.",
+      "instruction": "Apply milestones fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "milestones"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "schedule-micro-40",
+      "command": "/schedule-micro",
+      "name": "Schedule Micro",
+      "description": "Schedule Micro workflow directive for planning.",
+      "instruction": "Apply schedule micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "schedule"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "prioritize-macro-41",
+      "command": "/prioritize-macro",
+      "name": "Prioritize Macro",
+      "description": "Prioritize Macro workflow directive for planning.",
+      "instruction": "Apply prioritize macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "prioritize"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "plan-local-42",
+      "command": "/plan-local",
+      "name": "Plan Local",
+      "description": "Plan Local workflow directive for planning.",
+      "instruction": "Apply plan local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "plan"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "roadmap-global-43",
+      "command": "/roadmap-global",
+      "name": "Roadmap Global",
+      "description": "Roadmap Global workflow directive for planning.",
+      "instruction": "Apply roadmap global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "roadmap"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "timeline-adaptive-44",
+      "command": "/timeline-adaptive",
+      "name": "Timeline Adaptive",
+      "description": "Timeline Adaptive workflow directive for planning.",
+      "instruction": "Apply timeline adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "timeline"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "milestones-contextual-45",
+      "command": "/milestones-contextual",
+      "name": "Milestones Contextual",
+      "description": "Milestones Contextual workflow directive for planning.",
+      "instruction": "Apply milestones contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "milestones"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "schedule-realistic-46",
+      "command": "/schedule-realistic",
+      "name": "Schedule Realistic",
+      "description": "Schedule Realistic workflow directive for planning.",
+      "instruction": "Apply schedule realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "schedule"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "prioritize-cinematic-47",
+      "command": "/prioritize-cinematic",
+      "name": "Prioritize Cinematic",
+      "description": "Prioritize Cinematic workflow directive for planning.",
+      "instruction": "Apply prioritize cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "prioritize"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "plan-modern-48",
+      "command": "/plan-modern",
+      "name": "Plan Modern",
+      "description": "Plan Modern workflow directive for planning.",
+      "instruction": "Apply plan modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "plan"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "roadmap-classic-49",
+      "command": "/roadmap-classic",
+      "name": "Roadmap Classic",
+      "description": "Roadmap Classic workflow directive for planning.",
+      "instruction": "Apply roadmap classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "roadmap"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "timeline-technical-50",
+      "command": "/timeline-technical",
+      "name": "Timeline Technical",
+      "description": "Timeline Technical workflow directive for planning.",
+      "instruction": "Apply timeline technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "timeline"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "milestones-creative-51",
+      "command": "/milestones-creative",
+      "name": "Milestones Creative",
+      "description": "Milestones Creative workflow directive for planning.",
+      "instruction": "Apply milestones creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "milestones"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "schedule-editorial-52",
+      "command": "/schedule-editorial",
+      "name": "Schedule Editorial",
+      "description": "Schedule Editorial workflow directive for planning.",
+      "instruction": "Apply schedule editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "schedule"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "prioritize-production-53",
+      "command": "/prioritize-production",
+      "name": "Prioritize Production",
+      "description": "Prioritize Production workflow directive for planning.",
+      "instruction": "Apply prioritize production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "prioritize"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "plan-studio-54",
+      "command": "/plan-studio",
+      "name": "Plan Studio",
+      "description": "Plan Studio workflow directive for planning.",
+      "instruction": "Apply plan studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "plan"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "roadmap-portable-55",
+      "command": "/roadmap-portable",
+      "name": "Roadmap Portable",
+      "description": "Roadmap Portable workflow directive for planning.",
+      "instruction": "Apply roadmap portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "roadmap"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "timeline-safe-56",
+      "command": "/timeline-safe",
+      "name": "Timeline Safe",
+      "description": "Timeline Safe workflow directive for planning.",
+      "instruction": "Apply timeline safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "timeline"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "milestones-robust-57",
+      "command": "/milestones-robust",
+      "name": "Milestones Robust",
+      "description": "Milestones Robust workflow directive for planning.",
+      "instruction": "Apply milestones robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "milestones"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "schedule-reliable-58",
+      "command": "/schedule-reliable",
+      "name": "Schedule Reliable",
+      "description": "Schedule Reliable workflow directive for planning.",
+      "instruction": "Apply schedule reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "schedule"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "prioritize-scalable-59",
+      "command": "/prioritize-scalable",
+      "name": "Prioritize Scalable",
+      "description": "Prioritize Scalable workflow directive for planning.",
+      "instruction": "Apply prioritize scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "prioritize"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "plan-maintainable-60",
+      "command": "/plan-maintainable",
+      "name": "Plan Maintainable",
+      "description": "Plan Maintainable workflow directive for planning.",
+      "instruction": "Apply plan maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "plan"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "roadmap-accessible-61",
+      "command": "/roadmap-accessible",
+      "name": "Roadmap Accessible",
+      "description": "Roadmap Accessible workflow directive for planning.",
+      "instruction": "Apply roadmap accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "roadmap"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "timeline-responsive-62",
+      "command": "/timeline-responsive",
+      "name": "Timeline Responsive",
+      "description": "Timeline Responsive workflow directive for planning.",
+      "instruction": "Apply timeline responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "timeline"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    },
+    {
+      "id": "milestones-structured-63",
+      "command": "/milestones-structured",
+      "name": "Milestones Structured",
+      "description": "Milestones Structured workflow directive for planning.",
+      "instruction": "Apply milestones structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "planning",
+        "productivity-and-planning",
+        "milestones"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Productivity & Learning",
+      "categorySlug": "productivity-learning",
+      "subcategory": "Planning"
+    }
+  ]
+}

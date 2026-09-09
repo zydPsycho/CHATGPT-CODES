@@ -1,0 +1,1289 @@
+{
+  "category": "Software Development",
+  "categorySlug": "software-development",
+  "subcategory": "Debug",
+  "slug": "debug",
+  "description": "Debug command system for quality & restoration.",
+  "prompts": [
+    {
+      "id": "debug-0",
+      "command": "/debug",
+      "name": "Debug",
+      "description": "Debug workflow directive for debug.",
+      "instruction": "Apply debug with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "debug"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "trace-1",
+      "command": "/trace",
+      "name": "Trace",
+      "description": "Trace workflow directive for debug.",
+      "instruction": "Apply trace with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "trace"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "diagnose-2",
+      "command": "/diagnose",
+      "name": "Diagnose",
+      "description": "Diagnose workflow directive for debug.",
+      "instruction": "Apply diagnose with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "diagnose"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "rootcause-3",
+      "command": "/rootcause",
+      "name": "Rootcause",
+      "description": "Rootcause workflow directive for debug.",
+      "instruction": "Apply rootcause with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "rootcause"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "reproduce-4",
+      "command": "/reproduce",
+      "name": "Reproduce",
+      "description": "Reproduce workflow directive for debug.",
+      "instruction": "Apply reproduce with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "reproduce"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "isolate-5",
+      "command": "/isolate",
+      "name": "Isolate",
+      "description": "Isolate workflow directive for debug.",
+      "instruction": "Apply isolate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "isolate"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "debug-precise-6",
+      "command": "/debug-precise",
+      "name": "Debug Precise",
+      "description": "Debug Precise workflow directive for debug.",
+      "instruction": "Apply debug precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "debug"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "trace-clean-7",
+      "command": "/trace-clean",
+      "name": "Trace Clean",
+      "description": "Trace Clean workflow directive for debug.",
+      "instruction": "Apply trace clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "trace"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "diagnose-natural-8",
+      "command": "/diagnose-natural",
+      "name": "Diagnose Natural",
+      "description": "Diagnose Natural workflow directive for debug.",
+      "instruction": "Apply diagnose natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "diagnose"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "rootcause-refined-9",
+      "command": "/rootcause-refined",
+      "name": "Rootcause Refined",
+      "description": "Rootcause Refined workflow directive for debug.",
+      "instruction": "Apply rootcause refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "rootcause"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "reproduce-professional-10",
+      "command": "/reproduce-professional",
+      "name": "Reproduce Professional",
+      "description": "Reproduce Professional workflow directive for debug.",
+      "instruction": "Apply reproduce professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "reproduce"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "isolate-premium-11",
+      "command": "/isolate-premium",
+      "name": "Isolate Premium",
+      "description": "Isolate Premium workflow directive for debug.",
+      "instruction": "Apply isolate premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "isolate"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "debug-subtle-12",
+      "command": "/debug-subtle",
+      "name": "Debug Subtle",
+      "description": "Debug Subtle workflow directive for debug.",
+      "instruction": "Apply debug subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "debug"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "trace-strong-13",
+      "command": "/trace-strong",
+      "name": "Trace Strong",
+      "description": "Trace Strong workflow directive for debug.",
+      "instruction": "Apply trace strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "trace"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "diagnose-balanced-14",
+      "command": "/diagnose-balanced",
+      "name": "Diagnose Balanced",
+      "description": "Diagnose Balanced workflow directive for debug.",
+      "instruction": "Apply diagnose balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "diagnose"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "rootcause-detailed-15",
+      "command": "/rootcause-detailed",
+      "name": "Rootcause Detailed",
+      "description": "Rootcause Detailed workflow directive for debug.",
+      "instruction": "Apply rootcause detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "rootcause"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "reproduce-advanced-16",
+      "command": "/reproduce-advanced",
+      "name": "Reproduce Advanced",
+      "description": "Reproduce Advanced workflow directive for debug.",
+      "instruction": "Apply reproduce advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "reproduce"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "isolate-simple-17",
+      "command": "/isolate-simple",
+      "name": "Isolate Simple",
+      "description": "Isolate Simple workflow directive for debug.",
+      "instruction": "Apply isolate simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "isolate"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "debug-smart-18",
+      "command": "/debug-smart",
+      "name": "Debug Smart",
+      "description": "Debug Smart workflow directive for debug.",
+      "instruction": "Apply debug smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "debug"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "trace-controlled-19",
+      "command": "/trace-controlled",
+      "name": "Trace Controlled",
+      "description": "Trace Controlled workflow directive for debug.",
+      "instruction": "Apply trace controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "trace"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "diagnose-optimized-20",
+      "command": "/diagnose-optimized",
+      "name": "Diagnose Optimized",
+      "description": "Diagnose Optimized workflow directive for debug.",
+      "instruction": "Apply diagnose optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "diagnose"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "rootcause-efficient-21",
+      "command": "/rootcause-efficient",
+      "name": "Rootcause Efficient",
+      "description": "Rootcause Efficient workflow directive for debug.",
+      "instruction": "Apply rootcause efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "rootcause"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "reproduce-accurate-22",
+      "command": "/reproduce-accurate",
+      "name": "Reproduce Accurate",
+      "description": "Reproduce Accurate workflow directive for debug.",
+      "instruction": "Apply reproduce accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "reproduce"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "isolate-consistent-23",
+      "command": "/isolate-consistent",
+      "name": "Isolate Consistent",
+      "description": "Isolate Consistent workflow directive for debug.",
+      "instruction": "Apply isolate consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "isolate"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "debug-polished-24",
+      "command": "/debug-polished",
+      "name": "Debug Polished",
+      "description": "Debug Polished workflow directive for debug.",
+      "instruction": "Apply debug polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "debug"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "trace-final-25",
+      "command": "/trace-final",
+      "name": "Trace Final",
+      "description": "Trace Final workflow directive for debug.",
+      "instruction": "Apply trace final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "trace"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "diagnose-quick-26",
+      "command": "/diagnose-quick",
+      "name": "Diagnose Quick",
+      "description": "Diagnose Quick workflow directive for debug.",
+      "instruction": "Apply diagnose quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "diagnose"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "rootcause-deep-27",
+      "command": "/rootcause-deep",
+      "name": "Rootcause Deep",
+      "description": "Rootcause Deep workflow directive for debug.",
+      "instruction": "Apply rootcause deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "rootcause"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "reproduce-thorough-28",
+      "command": "/reproduce-thorough",
+      "name": "Reproduce Thorough",
+      "description": "Reproduce Thorough workflow directive for debug.",
+      "instruction": "Apply reproduce thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "reproduce"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "isolate-minimal-29",
+      "command": "/isolate-minimal",
+      "name": "Isolate Minimal",
+      "description": "Isolate Minimal workflow directive for debug.",
+      "instruction": "Apply isolate minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "isolate"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "debug-maximum-30",
+      "command": "/debug-maximum",
+      "name": "Debug Maximum",
+      "description": "Debug Maximum workflow directive for debug.",
+      "instruction": "Apply debug maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "debug"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "trace-soft-31",
+      "command": "/trace-soft",
+      "name": "Trace Soft",
+      "description": "Trace Soft workflow directive for debug.",
+      "instruction": "Apply trace soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "trace"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "diagnose-bold-32",
+      "command": "/diagnose-bold",
+      "name": "Diagnose Bold",
+      "description": "Diagnose Bold workflow directive for debug.",
+      "instruction": "Apply diagnose bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "diagnose"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "rootcause-sharp-33",
+      "command": "/rootcause-sharp",
+      "name": "Rootcause Sharp",
+      "description": "Rootcause Sharp workflow directive for debug.",
+      "instruction": "Apply rootcause sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "rootcause"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "reproduce-smooth-34",
+      "command": "/reproduce-smooth",
+      "name": "Reproduce Smooth",
+      "description": "Reproduce Smooth workflow directive for debug.",
+      "instruction": "Apply reproduce smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "reproduce"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "isolate-stable-35",
+      "command": "/isolate-stable",
+      "name": "Isolate Stable",
+      "description": "Isolate Stable workflow directive for debug.",
+      "instruction": "Apply isolate stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "isolate"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "debug-highquality-36",
+      "command": "/debug-highquality",
+      "name": "Debug Highquality",
+      "description": "Debug Highquality workflow directive for debug.",
+      "instruction": "Apply debug highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "debug"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "trace-lowartifact-37",
+      "command": "/trace-lowartifact",
+      "name": "Trace Lowartifact",
+      "description": "Trace Lowartifact workflow directive for debug.",
+      "instruction": "Apply trace lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "trace"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "diagnose-highdetail-38",
+      "command": "/diagnose-highdetail",
+      "name": "Diagnose Highdetail",
+      "description": "Diagnose Highdetail workflow directive for debug.",
+      "instruction": "Apply diagnose highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "diagnose"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "rootcause-fine-39",
+      "command": "/rootcause-fine",
+      "name": "Rootcause Fine",
+      "description": "Rootcause Fine workflow directive for debug.",
+      "instruction": "Apply rootcause fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "rootcause"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "reproduce-micro-40",
+      "command": "/reproduce-micro",
+      "name": "Reproduce Micro",
+      "description": "Reproduce Micro workflow directive for debug.",
+      "instruction": "Apply reproduce micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "reproduce"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "isolate-macro-41",
+      "command": "/isolate-macro",
+      "name": "Isolate Macro",
+      "description": "Isolate Macro workflow directive for debug.",
+      "instruction": "Apply isolate macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "isolate"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "debug-local-42",
+      "command": "/debug-local",
+      "name": "Debug Local",
+      "description": "Debug Local workflow directive for debug.",
+      "instruction": "Apply debug local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "debug"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "trace-global-43",
+      "command": "/trace-global",
+      "name": "Trace Global",
+      "description": "Trace Global workflow directive for debug.",
+      "instruction": "Apply trace global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "trace"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "diagnose-adaptive-44",
+      "command": "/diagnose-adaptive",
+      "name": "Diagnose Adaptive",
+      "description": "Diagnose Adaptive workflow directive for debug.",
+      "instruction": "Apply diagnose adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "diagnose"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "rootcause-contextual-45",
+      "command": "/rootcause-contextual",
+      "name": "Rootcause Contextual",
+      "description": "Rootcause Contextual workflow directive for debug.",
+      "instruction": "Apply rootcause contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "rootcause"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "reproduce-realistic-46",
+      "command": "/reproduce-realistic",
+      "name": "Reproduce Realistic",
+      "description": "Reproduce Realistic workflow directive for debug.",
+      "instruction": "Apply reproduce realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "reproduce"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "isolate-cinematic-47",
+      "command": "/isolate-cinematic",
+      "name": "Isolate Cinematic",
+      "description": "Isolate Cinematic workflow directive for debug.",
+      "instruction": "Apply isolate cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "isolate"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "debug-modern-48",
+      "command": "/debug-modern",
+      "name": "Debug Modern",
+      "description": "Debug Modern workflow directive for debug.",
+      "instruction": "Apply debug modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "debug"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "trace-classic-49",
+      "command": "/trace-classic",
+      "name": "Trace Classic",
+      "description": "Trace Classic workflow directive for debug.",
+      "instruction": "Apply trace classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "trace"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "diagnose-technical-50",
+      "command": "/diagnose-technical",
+      "name": "Diagnose Technical",
+      "description": "Diagnose Technical workflow directive for debug.",
+      "instruction": "Apply diagnose technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "diagnose"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "rootcause-creative-51",
+      "command": "/rootcause-creative",
+      "name": "Rootcause Creative",
+      "description": "Rootcause Creative workflow directive for debug.",
+      "instruction": "Apply rootcause creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "rootcause"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "reproduce-editorial-52",
+      "command": "/reproduce-editorial",
+      "name": "Reproduce Editorial",
+      "description": "Reproduce Editorial workflow directive for debug.",
+      "instruction": "Apply reproduce editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "reproduce"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "isolate-production-53",
+      "command": "/isolate-production",
+      "name": "Isolate Production",
+      "description": "Isolate Production workflow directive for debug.",
+      "instruction": "Apply isolate production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "isolate"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "debug-studio-54",
+      "command": "/debug-studio",
+      "name": "Debug Studio",
+      "description": "Debug Studio workflow directive for debug.",
+      "instruction": "Apply debug studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "debug"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "trace-portable-55",
+      "command": "/trace-portable",
+      "name": "Trace Portable",
+      "description": "Trace Portable workflow directive for debug.",
+      "instruction": "Apply trace portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "trace"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "diagnose-safe-56",
+      "command": "/diagnose-safe",
+      "name": "Diagnose Safe",
+      "description": "Diagnose Safe workflow directive for debug.",
+      "instruction": "Apply diagnose safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "diagnose"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "rootcause-robust-57",
+      "command": "/rootcause-robust",
+      "name": "Rootcause Robust",
+      "description": "Rootcause Robust workflow directive for debug.",
+      "instruction": "Apply rootcause robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "rootcause"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "reproduce-reliable-58",
+      "command": "/reproduce-reliable",
+      "name": "Reproduce Reliable",
+      "description": "Reproduce Reliable workflow directive for debug.",
+      "instruction": "Apply reproduce reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "reproduce"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "isolate-scalable-59",
+      "command": "/isolate-scalable",
+      "name": "Isolate Scalable",
+      "description": "Isolate Scalable workflow directive for debug.",
+      "instruction": "Apply isolate scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "isolate"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "debug-maintainable-60",
+      "command": "/debug-maintainable",
+      "name": "Debug Maintainable",
+      "description": "Debug Maintainable workflow directive for debug.",
+      "instruction": "Apply debug maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "debug"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "trace-accessible-61",
+      "command": "/trace-accessible",
+      "name": "Trace Accessible",
+      "description": "Trace Accessible workflow directive for debug.",
+      "instruction": "Apply trace accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "trace"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "diagnose-responsive-62",
+      "command": "/diagnose-responsive",
+      "name": "Diagnose Responsive",
+      "description": "Diagnose Responsive workflow directive for debug.",
+      "instruction": "Apply diagnose responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "diagnose"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    },
+    {
+      "id": "rootcause-structured-63",
+      "command": "/rootcause-structured",
+      "name": "Rootcause Structured",
+      "description": "Rootcause Structured workflow directive for debug.",
+      "instruction": "Apply rootcause structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "debug",
+        "debugging-and-testing",
+        "rootcause"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Software Development",
+      "categorySlug": "software-development",
+      "subcategory": "Debug"
+    }
+  ]
+}

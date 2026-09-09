@@ -1,0 +1,1289 @@
+{
+  "category": "Writing & Content",
+  "categorySlug": "writing-content",
+  "subcategory": "Social",
+  "slug": "social",
+  "description": "Social command system for text, ui & content.",
+  "prompts": [
+    {
+      "id": "social-0",
+      "command": "/social",
+      "name": "Social",
+      "description": "Social workflow directive for social.",
+      "instruction": "Apply social with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "social"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "caption-1",
+      "command": "/caption",
+      "name": "Caption",
+      "description": "Caption workflow directive for social.",
+      "instruction": "Apply caption with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "caption"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "thread-2",
+      "command": "/thread",
+      "name": "Thread",
+      "description": "Thread workflow directive for social.",
+      "instruction": "Apply thread with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "thread"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "post-3",
+      "command": "/post",
+      "name": "Post",
+      "description": "Post workflow directive for social.",
+      "instruction": "Apply post with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "post"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "hashtag-4",
+      "command": "/hashtag",
+      "name": "Hashtag",
+      "description": "Hashtag workflow directive for social.",
+      "instruction": "Apply hashtag with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "hashtag"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "hook-5",
+      "command": "/hook",
+      "name": "Hook",
+      "description": "Hook workflow directive for social.",
+      "instruction": "Apply hook with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "hook"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "social-precise-6",
+      "command": "/social-precise",
+      "name": "Social Precise",
+      "description": "Social Precise workflow directive for social.",
+      "instruction": "Apply social precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "social"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "caption-clean-7",
+      "command": "/caption-clean",
+      "name": "Caption Clean",
+      "description": "Caption Clean workflow directive for social.",
+      "instruction": "Apply caption clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "caption"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "thread-natural-8",
+      "command": "/thread-natural",
+      "name": "Thread Natural",
+      "description": "Thread Natural workflow directive for social.",
+      "instruction": "Apply thread natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "thread"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "post-refined-9",
+      "command": "/post-refined",
+      "name": "Post Refined",
+      "description": "Post Refined workflow directive for social.",
+      "instruction": "Apply post refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "post"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "hashtag-professional-10",
+      "command": "/hashtag-professional",
+      "name": "Hashtag Professional",
+      "description": "Hashtag Professional workflow directive for social.",
+      "instruction": "Apply hashtag professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "hashtag"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "hook-premium-11",
+      "command": "/hook-premium",
+      "name": "Hook Premium",
+      "description": "Hook Premium workflow directive for social.",
+      "instruction": "Apply hook premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "hook"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "social-subtle-12",
+      "command": "/social-subtle",
+      "name": "Social Subtle",
+      "description": "Social Subtle workflow directive for social.",
+      "instruction": "Apply social subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "social"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "caption-strong-13",
+      "command": "/caption-strong",
+      "name": "Caption Strong",
+      "description": "Caption Strong workflow directive for social.",
+      "instruction": "Apply caption strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "caption"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "thread-balanced-14",
+      "command": "/thread-balanced",
+      "name": "Thread Balanced",
+      "description": "Thread Balanced workflow directive for social.",
+      "instruction": "Apply thread balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "thread"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "post-detailed-15",
+      "command": "/post-detailed",
+      "name": "Post Detailed",
+      "description": "Post Detailed workflow directive for social.",
+      "instruction": "Apply post detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "post"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "hashtag-advanced-16",
+      "command": "/hashtag-advanced",
+      "name": "Hashtag Advanced",
+      "description": "Hashtag Advanced workflow directive for social.",
+      "instruction": "Apply hashtag advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "hashtag"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "hook-simple-17",
+      "command": "/hook-simple",
+      "name": "Hook Simple",
+      "description": "Hook Simple workflow directive for social.",
+      "instruction": "Apply hook simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "hook"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "social-smart-18",
+      "command": "/social-smart",
+      "name": "Social Smart",
+      "description": "Social Smart workflow directive for social.",
+      "instruction": "Apply social smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "social"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "caption-controlled-19",
+      "command": "/caption-controlled",
+      "name": "Caption Controlled",
+      "description": "Caption Controlled workflow directive for social.",
+      "instruction": "Apply caption controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "caption"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "thread-optimized-20",
+      "command": "/thread-optimized",
+      "name": "Thread Optimized",
+      "description": "Thread Optimized workflow directive for social.",
+      "instruction": "Apply thread optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "thread"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "post-efficient-21",
+      "command": "/post-efficient",
+      "name": "Post Efficient",
+      "description": "Post Efficient workflow directive for social.",
+      "instruction": "Apply post efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "post"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "hashtag-accurate-22",
+      "command": "/hashtag-accurate",
+      "name": "Hashtag Accurate",
+      "description": "Hashtag Accurate workflow directive for social.",
+      "instruction": "Apply hashtag accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "hashtag"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "hook-consistent-23",
+      "command": "/hook-consistent",
+      "name": "Hook Consistent",
+      "description": "Hook Consistent workflow directive for social.",
+      "instruction": "Apply hook consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "hook"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "social-polished-24",
+      "command": "/social-polished",
+      "name": "Social Polished",
+      "description": "Social Polished workflow directive for social.",
+      "instruction": "Apply social polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "social"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "caption-final-25",
+      "command": "/caption-final",
+      "name": "Caption Final",
+      "description": "Caption Final workflow directive for social.",
+      "instruction": "Apply caption final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "caption"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "thread-quick-26",
+      "command": "/thread-quick",
+      "name": "Thread Quick",
+      "description": "Thread Quick workflow directive for social.",
+      "instruction": "Apply thread quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "thread"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "post-deep-27",
+      "command": "/post-deep",
+      "name": "Post Deep",
+      "description": "Post Deep workflow directive for social.",
+      "instruction": "Apply post deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "post"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "hashtag-thorough-28",
+      "command": "/hashtag-thorough",
+      "name": "Hashtag Thorough",
+      "description": "Hashtag Thorough workflow directive for social.",
+      "instruction": "Apply hashtag thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "hashtag"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "hook-minimal-29",
+      "command": "/hook-minimal",
+      "name": "Hook Minimal",
+      "description": "Hook Minimal workflow directive for social.",
+      "instruction": "Apply hook minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "hook"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "social-maximum-30",
+      "command": "/social-maximum",
+      "name": "Social Maximum",
+      "description": "Social Maximum workflow directive for social.",
+      "instruction": "Apply social maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "social"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "caption-soft-31",
+      "command": "/caption-soft",
+      "name": "Caption Soft",
+      "description": "Caption Soft workflow directive for social.",
+      "instruction": "Apply caption soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "caption"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "thread-bold-32",
+      "command": "/thread-bold",
+      "name": "Thread Bold",
+      "description": "Thread Bold workflow directive for social.",
+      "instruction": "Apply thread bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "thread"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "post-sharp-33",
+      "command": "/post-sharp",
+      "name": "Post Sharp",
+      "description": "Post Sharp workflow directive for social.",
+      "instruction": "Apply post sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "post"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "hashtag-smooth-34",
+      "command": "/hashtag-smooth",
+      "name": "Hashtag Smooth",
+      "description": "Hashtag Smooth workflow directive for social.",
+      "instruction": "Apply hashtag smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "hashtag"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "hook-stable-35",
+      "command": "/hook-stable",
+      "name": "Hook Stable",
+      "description": "Hook Stable workflow directive for social.",
+      "instruction": "Apply hook stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "hook"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "social-highquality-36",
+      "command": "/social-highquality",
+      "name": "Social Highquality",
+      "description": "Social Highquality workflow directive for social.",
+      "instruction": "Apply social highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "social"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "caption-lowartifact-37",
+      "command": "/caption-lowartifact",
+      "name": "Caption Lowartifact",
+      "description": "Caption Lowartifact workflow directive for social.",
+      "instruction": "Apply caption lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "caption"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "thread-highdetail-38",
+      "command": "/thread-highdetail",
+      "name": "Thread Highdetail",
+      "description": "Thread Highdetail workflow directive for social.",
+      "instruction": "Apply thread highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "thread"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "post-fine-39",
+      "command": "/post-fine",
+      "name": "Post Fine",
+      "description": "Post Fine workflow directive for social.",
+      "instruction": "Apply post fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "post"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "hashtag-micro-40",
+      "command": "/hashtag-micro",
+      "name": "Hashtag Micro",
+      "description": "Hashtag Micro workflow directive for social.",
+      "instruction": "Apply hashtag micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "hashtag"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "hook-macro-41",
+      "command": "/hook-macro",
+      "name": "Hook Macro",
+      "description": "Hook Macro workflow directive for social.",
+      "instruction": "Apply hook macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "hook"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "social-local-42",
+      "command": "/social-local",
+      "name": "Social Local",
+      "description": "Social Local workflow directive for social.",
+      "instruction": "Apply social local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "social"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "caption-global-43",
+      "command": "/caption-global",
+      "name": "Caption Global",
+      "description": "Caption Global workflow directive for social.",
+      "instruction": "Apply caption global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "caption"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "thread-adaptive-44",
+      "command": "/thread-adaptive",
+      "name": "Thread Adaptive",
+      "description": "Thread Adaptive workflow directive for social.",
+      "instruction": "Apply thread adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "thread"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "post-contextual-45",
+      "command": "/post-contextual",
+      "name": "Post Contextual",
+      "description": "Post Contextual workflow directive for social.",
+      "instruction": "Apply post contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "post"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "hashtag-realistic-46",
+      "command": "/hashtag-realistic",
+      "name": "Hashtag Realistic",
+      "description": "Hashtag Realistic workflow directive for social.",
+      "instruction": "Apply hashtag realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "hashtag"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "hook-cinematic-47",
+      "command": "/hook-cinematic",
+      "name": "Hook Cinematic",
+      "description": "Hook Cinematic workflow directive for social.",
+      "instruction": "Apply hook cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "hook"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "social-modern-48",
+      "command": "/social-modern",
+      "name": "Social Modern",
+      "description": "Social Modern workflow directive for social.",
+      "instruction": "Apply social modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "social"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "caption-classic-49",
+      "command": "/caption-classic",
+      "name": "Caption Classic",
+      "description": "Caption Classic workflow directive for social.",
+      "instruction": "Apply caption classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "caption"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "thread-technical-50",
+      "command": "/thread-technical",
+      "name": "Thread Technical",
+      "description": "Thread Technical workflow directive for social.",
+      "instruction": "Apply thread technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "thread"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "post-creative-51",
+      "command": "/post-creative",
+      "name": "Post Creative",
+      "description": "Post Creative workflow directive for social.",
+      "instruction": "Apply post creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "post"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "hashtag-editorial-52",
+      "command": "/hashtag-editorial",
+      "name": "Hashtag Editorial",
+      "description": "Hashtag Editorial workflow directive for social.",
+      "instruction": "Apply hashtag editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "hashtag"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "hook-production-53",
+      "command": "/hook-production",
+      "name": "Hook Production",
+      "description": "Hook Production workflow directive for social.",
+      "instruction": "Apply hook production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "hook"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "social-studio-54",
+      "command": "/social-studio",
+      "name": "Social Studio",
+      "description": "Social Studio workflow directive for social.",
+      "instruction": "Apply social studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "social"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "caption-portable-55",
+      "command": "/caption-portable",
+      "name": "Caption Portable",
+      "description": "Caption Portable workflow directive for social.",
+      "instruction": "Apply caption portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "caption"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "thread-safe-56",
+      "command": "/thread-safe",
+      "name": "Thread Safe",
+      "description": "Thread Safe workflow directive for social.",
+      "instruction": "Apply thread safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "thread"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "post-robust-57",
+      "command": "/post-robust",
+      "name": "Post Robust",
+      "description": "Post Robust workflow directive for social.",
+      "instruction": "Apply post robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "post"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "hashtag-reliable-58",
+      "command": "/hashtag-reliable",
+      "name": "Hashtag Reliable",
+      "description": "Hashtag Reliable workflow directive for social.",
+      "instruction": "Apply hashtag reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "hashtag"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "hook-scalable-59",
+      "command": "/hook-scalable",
+      "name": "Hook Scalable",
+      "description": "Hook Scalable workflow directive for social.",
+      "instruction": "Apply hook scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "hook"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "social-maintainable-60",
+      "command": "/social-maintainable",
+      "name": "Social Maintainable",
+      "description": "Social Maintainable workflow directive for social.",
+      "instruction": "Apply social maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "social"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "caption-accessible-61",
+      "command": "/caption-accessible",
+      "name": "Caption Accessible",
+      "description": "Caption Accessible workflow directive for social.",
+      "instruction": "Apply caption accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "caption"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "thread-responsive-62",
+      "command": "/thread-responsive",
+      "name": "Thread Responsive",
+      "description": "Thread Responsive workflow directive for social.",
+      "instruction": "Apply thread responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "thread"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    },
+    {
+      "id": "post-structured-63",
+      "command": "/post-structured",
+      "name": "Post Structured",
+      "description": "Post Structured workflow directive for social.",
+      "instruction": "Apply post structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "social",
+        "communication-and-social",
+        "post"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Writing & Content",
+      "categorySlug": "writing-content",
+      "subcategory": "Social"
+    }
+  ]
+}

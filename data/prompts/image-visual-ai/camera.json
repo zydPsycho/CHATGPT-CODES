@@ -1,0 +1,1289 @@
+{
+  "category": "Image & Visual AI",
+  "categorySlug": "image-visual-ai",
+  "subcategory": "Image Editing · Camera",
+  "slug": "camera",
+  "description": "Camera command system for camera & motion.",
+  "prompts": [
+    {
+      "id": "reframe-0",
+      "command": "/reframe",
+      "name": "Reframe",
+      "description": "Reframe workflow directive for camera.",
+      "instruction": "Apply reframe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "reframe"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "crop-1",
+      "command": "/crop",
+      "name": "Crop",
+      "description": "Crop workflow directive for camera.",
+      "instruction": "Apply crop with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "crop"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "center-2",
+      "command": "/center",
+      "name": "Center",
+      "description": "Center workflow directive for camera.",
+      "instruction": "Apply center with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "center"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "wideangle-3",
+      "command": "/wideangle",
+      "name": "Wideangle",
+      "description": "Wideangle workflow directive for camera.",
+      "instruction": "Apply wideangle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "wideangle"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "lowangle-4",
+      "command": "/lowangle",
+      "name": "Lowangle",
+      "description": "Lowangle workflow directive for camera.",
+      "instruction": "Apply lowangle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "lowangle"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "highangle-5",
+      "command": "/highangle",
+      "name": "Highangle",
+      "description": "Highangle workflow directive for camera.",
+      "instruction": "Apply highangle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "highangle"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "overhead-6",
+      "command": "/overhead",
+      "name": "Overhead",
+      "description": "Overhead workflow directive for camera.",
+      "instruction": "Apply overhead with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "overhead"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "pov-7",
+      "command": "/pov",
+      "name": "Pov",
+      "description": "Pov workflow directive for camera.",
+      "instruction": "Apply pov with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "pov"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "reframe-precise-8",
+      "command": "/reframe-precise",
+      "name": "Reframe Precise",
+      "description": "Reframe Precise workflow directive for camera.",
+      "instruction": "Apply reframe precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "reframe"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "crop-clean-9",
+      "command": "/crop-clean",
+      "name": "Crop Clean",
+      "description": "Crop Clean workflow directive for camera.",
+      "instruction": "Apply crop clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "crop"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "center-natural-10",
+      "command": "/center-natural",
+      "name": "Center Natural",
+      "description": "Center Natural workflow directive for camera.",
+      "instruction": "Apply center natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "center"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "wideangle-refined-11",
+      "command": "/wideangle-refined",
+      "name": "Wideangle Refined",
+      "description": "Wideangle Refined workflow directive for camera.",
+      "instruction": "Apply wideangle refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "wideangle"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "lowangle-professional-12",
+      "command": "/lowangle-professional",
+      "name": "Lowangle Professional",
+      "description": "Lowangle Professional workflow directive for camera.",
+      "instruction": "Apply lowangle professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "lowangle"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "highangle-premium-13",
+      "command": "/highangle-premium",
+      "name": "Highangle Premium",
+      "description": "Highangle Premium workflow directive for camera.",
+      "instruction": "Apply highangle premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "highangle"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "overhead-subtle-14",
+      "command": "/overhead-subtle",
+      "name": "Overhead Subtle",
+      "description": "Overhead Subtle workflow directive for camera.",
+      "instruction": "Apply overhead subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "overhead"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "pov-strong-15",
+      "command": "/pov-strong",
+      "name": "Pov Strong",
+      "description": "Pov Strong workflow directive for camera.",
+      "instruction": "Apply pov strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "pov"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "reframe-balanced-16",
+      "command": "/reframe-balanced",
+      "name": "Reframe Balanced",
+      "description": "Reframe Balanced workflow directive for camera.",
+      "instruction": "Apply reframe balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "reframe"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "crop-detailed-17",
+      "command": "/crop-detailed",
+      "name": "Crop Detailed",
+      "description": "Crop Detailed workflow directive for camera.",
+      "instruction": "Apply crop detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "crop"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "center-advanced-18",
+      "command": "/center-advanced",
+      "name": "Center Advanced",
+      "description": "Center Advanced workflow directive for camera.",
+      "instruction": "Apply center advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "center"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "wideangle-simple-19",
+      "command": "/wideangle-simple",
+      "name": "Wideangle Simple",
+      "description": "Wideangle Simple workflow directive for camera.",
+      "instruction": "Apply wideangle simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "wideangle"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "lowangle-smart-20",
+      "command": "/lowangle-smart",
+      "name": "Lowangle Smart",
+      "description": "Lowangle Smart workflow directive for camera.",
+      "instruction": "Apply lowangle smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "lowangle"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "highangle-controlled-21",
+      "command": "/highangle-controlled",
+      "name": "Highangle Controlled",
+      "description": "Highangle Controlled workflow directive for camera.",
+      "instruction": "Apply highangle controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "highangle"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "overhead-optimized-22",
+      "command": "/overhead-optimized",
+      "name": "Overhead Optimized",
+      "description": "Overhead Optimized workflow directive for camera.",
+      "instruction": "Apply overhead optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "overhead"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "pov-efficient-23",
+      "command": "/pov-efficient",
+      "name": "Pov Efficient",
+      "description": "Pov Efficient workflow directive for camera.",
+      "instruction": "Apply pov efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "pov"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "reframe-accurate-24",
+      "command": "/reframe-accurate",
+      "name": "Reframe Accurate",
+      "description": "Reframe Accurate workflow directive for camera.",
+      "instruction": "Apply reframe accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "reframe"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "crop-consistent-25",
+      "command": "/crop-consistent",
+      "name": "Crop Consistent",
+      "description": "Crop Consistent workflow directive for camera.",
+      "instruction": "Apply crop consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "crop"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "center-polished-26",
+      "command": "/center-polished",
+      "name": "Center Polished",
+      "description": "Center Polished workflow directive for camera.",
+      "instruction": "Apply center polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "center"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "wideangle-final-27",
+      "command": "/wideangle-final",
+      "name": "Wideangle Final",
+      "description": "Wideangle Final workflow directive for camera.",
+      "instruction": "Apply wideangle final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "wideangle"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "lowangle-quick-28",
+      "command": "/lowangle-quick",
+      "name": "Lowangle Quick",
+      "description": "Lowangle Quick workflow directive for camera.",
+      "instruction": "Apply lowangle quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "lowangle"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "highangle-deep-29",
+      "command": "/highangle-deep",
+      "name": "Highangle Deep",
+      "description": "Highangle Deep workflow directive for camera.",
+      "instruction": "Apply highangle deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "highangle"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "overhead-thorough-30",
+      "command": "/overhead-thorough",
+      "name": "Overhead Thorough",
+      "description": "Overhead Thorough workflow directive for camera.",
+      "instruction": "Apply overhead thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "overhead"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "pov-minimal-31",
+      "command": "/pov-minimal",
+      "name": "Pov Minimal",
+      "description": "Pov Minimal workflow directive for camera.",
+      "instruction": "Apply pov minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "pov"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "reframe-maximum-32",
+      "command": "/reframe-maximum",
+      "name": "Reframe Maximum",
+      "description": "Reframe Maximum workflow directive for camera.",
+      "instruction": "Apply reframe maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "reframe"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "crop-soft-33",
+      "command": "/crop-soft",
+      "name": "Crop Soft",
+      "description": "Crop Soft workflow directive for camera.",
+      "instruction": "Apply crop soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "crop"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "center-bold-34",
+      "command": "/center-bold",
+      "name": "Center Bold",
+      "description": "Center Bold workflow directive for camera.",
+      "instruction": "Apply center bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "center"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "wideangle-sharp-35",
+      "command": "/wideangle-sharp",
+      "name": "Wideangle Sharp",
+      "description": "Wideangle Sharp workflow directive for camera.",
+      "instruction": "Apply wideangle sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "wideangle"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "lowangle-smooth-36",
+      "command": "/lowangle-smooth",
+      "name": "Lowangle Smooth",
+      "description": "Lowangle Smooth workflow directive for camera.",
+      "instruction": "Apply lowangle smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "lowangle"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "highangle-stable-37",
+      "command": "/highangle-stable",
+      "name": "Highangle Stable",
+      "description": "Highangle Stable workflow directive for camera.",
+      "instruction": "Apply highangle stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "highangle"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "overhead-highquality-38",
+      "command": "/overhead-highquality",
+      "name": "Overhead Highquality",
+      "description": "Overhead Highquality workflow directive for camera.",
+      "instruction": "Apply overhead highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "overhead"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "pov-lowartifact-39",
+      "command": "/pov-lowartifact",
+      "name": "Pov Lowartifact",
+      "description": "Pov Lowartifact workflow directive for camera.",
+      "instruction": "Apply pov lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "pov"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "reframe-highdetail-40",
+      "command": "/reframe-highdetail",
+      "name": "Reframe Highdetail",
+      "description": "Reframe Highdetail workflow directive for camera.",
+      "instruction": "Apply reframe highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "reframe"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "crop-fine-41",
+      "command": "/crop-fine",
+      "name": "Crop Fine",
+      "description": "Crop Fine workflow directive for camera.",
+      "instruction": "Apply crop fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "crop"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "center-micro-42",
+      "command": "/center-micro",
+      "name": "Center Micro",
+      "description": "Center Micro workflow directive for camera.",
+      "instruction": "Apply center micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "center"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "wideangle-macro-43",
+      "command": "/wideangle-macro",
+      "name": "Wideangle Macro",
+      "description": "Wideangle Macro workflow directive for camera.",
+      "instruction": "Apply wideangle macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "wideangle"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "lowangle-local-44",
+      "command": "/lowangle-local",
+      "name": "Lowangle Local",
+      "description": "Lowangle Local workflow directive for camera.",
+      "instruction": "Apply lowangle local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "lowangle"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "highangle-global-45",
+      "command": "/highangle-global",
+      "name": "Highangle Global",
+      "description": "Highangle Global workflow directive for camera.",
+      "instruction": "Apply highangle global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "highangle"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "overhead-adaptive-46",
+      "command": "/overhead-adaptive",
+      "name": "Overhead Adaptive",
+      "description": "Overhead Adaptive workflow directive for camera.",
+      "instruction": "Apply overhead adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "overhead"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "pov-contextual-47",
+      "command": "/pov-contextual",
+      "name": "Pov Contextual",
+      "description": "Pov Contextual workflow directive for camera.",
+      "instruction": "Apply pov contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "pov"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "reframe-realistic-48",
+      "command": "/reframe-realistic",
+      "name": "Reframe Realistic",
+      "description": "Reframe Realistic workflow directive for camera.",
+      "instruction": "Apply reframe realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "reframe"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "crop-cinematic-49",
+      "command": "/crop-cinematic",
+      "name": "Crop Cinematic",
+      "description": "Crop Cinematic workflow directive for camera.",
+      "instruction": "Apply crop cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "crop"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "center-modern-50",
+      "command": "/center-modern",
+      "name": "Center Modern",
+      "description": "Center Modern workflow directive for camera.",
+      "instruction": "Apply center modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "center"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "wideangle-classic-51",
+      "command": "/wideangle-classic",
+      "name": "Wideangle Classic",
+      "description": "Wideangle Classic workflow directive for camera.",
+      "instruction": "Apply wideangle classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "wideangle"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "lowangle-technical-52",
+      "command": "/lowangle-technical",
+      "name": "Lowangle Technical",
+      "description": "Lowangle Technical workflow directive for camera.",
+      "instruction": "Apply lowangle technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "lowangle"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "highangle-creative-53",
+      "command": "/highangle-creative",
+      "name": "Highangle Creative",
+      "description": "Highangle Creative workflow directive for camera.",
+      "instruction": "Apply highangle creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "highangle"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "overhead-editorial-54",
+      "command": "/overhead-editorial",
+      "name": "Overhead Editorial",
+      "description": "Overhead Editorial workflow directive for camera.",
+      "instruction": "Apply overhead editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "overhead"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "pov-production-55",
+      "command": "/pov-production",
+      "name": "Pov Production",
+      "description": "Pov Production workflow directive for camera.",
+      "instruction": "Apply pov production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "pov"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "reframe-studio-56",
+      "command": "/reframe-studio",
+      "name": "Reframe Studio",
+      "description": "Reframe Studio workflow directive for camera.",
+      "instruction": "Apply reframe studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "reframe"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "crop-portable-57",
+      "command": "/crop-portable",
+      "name": "Crop Portable",
+      "description": "Crop Portable workflow directive for camera.",
+      "instruction": "Apply crop portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "crop"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "center-safe-58",
+      "command": "/center-safe",
+      "name": "Center Safe",
+      "description": "Center Safe workflow directive for camera.",
+      "instruction": "Apply center safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "center"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "wideangle-robust-59",
+      "command": "/wideangle-robust",
+      "name": "Wideangle Robust",
+      "description": "Wideangle Robust workflow directive for camera.",
+      "instruction": "Apply wideangle robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "wideangle"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "lowangle-reliable-60",
+      "command": "/lowangle-reliable",
+      "name": "Lowangle Reliable",
+      "description": "Lowangle Reliable workflow directive for camera.",
+      "instruction": "Apply lowangle reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "lowangle"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "highangle-scalable-61",
+      "command": "/highangle-scalable",
+      "name": "Highangle Scalable",
+      "description": "Highangle Scalable workflow directive for camera.",
+      "instruction": "Apply highangle scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "highangle"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "overhead-maintainable-62",
+      "command": "/overhead-maintainable",
+      "name": "Overhead Maintainable",
+      "description": "Overhead Maintainable workflow directive for camera.",
+      "instruction": "Apply overhead maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "overhead"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    },
+    {
+      "id": "pov-accessible-63",
+      "command": "/pov-accessible",
+      "name": "Pov Accessible",
+      "description": "Pov Accessible workflow directive for camera.",
+      "instruction": "Apply pov accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "camera",
+        "camera-motion-and-video",
+        "pov"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Camera"
+    }
+  ]
+}

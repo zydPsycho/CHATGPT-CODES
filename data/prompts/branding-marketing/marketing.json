@@ -1,0 +1,1289 @@
+{
+  "category": "Branding & Marketing",
+  "categorySlug": "branding-marketing",
+  "subcategory": "Marketing",
+  "slug": "marketing",
+  "description": "Marketing command system for environment & atmosphere.",
+  "prompts": [
+    {
+      "id": "marketing-0",
+      "command": "/marketing",
+      "name": "Marketing",
+      "description": "Marketing workflow directive for marketing.",
+      "instruction": "Apply marketing with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "marketing"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "campaign-1",
+      "command": "/campaign",
+      "name": "Campaign",
+      "description": "Campaign workflow directive for marketing.",
+      "instruction": "Apply campaign with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "campaign"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "audience-2",
+      "command": "/audience",
+      "name": "Audience",
+      "description": "Audience workflow directive for marketing.",
+      "instruction": "Apply audience with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "audience"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "persona-3",
+      "command": "/persona",
+      "name": "Persona",
+      "description": "Persona workflow directive for marketing.",
+      "instruction": "Apply persona with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "persona"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "funnel-4",
+      "command": "/funnel",
+      "name": "Funnel",
+      "description": "Funnel workflow directive for marketing.",
+      "instruction": "Apply funnel with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "funnel"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "contentplan-5",
+      "command": "/contentplan",
+      "name": "Contentplan",
+      "description": "Contentplan workflow directive for marketing.",
+      "instruction": "Apply contentplan with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "contentplan"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "marketing-precise-6",
+      "command": "/marketing-precise",
+      "name": "Marketing Precise",
+      "description": "Marketing Precise workflow directive for marketing.",
+      "instruction": "Apply marketing precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "marketing"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "campaign-clean-7",
+      "command": "/campaign-clean",
+      "name": "Campaign Clean",
+      "description": "Campaign Clean workflow directive for marketing.",
+      "instruction": "Apply campaign clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "campaign"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "audience-natural-8",
+      "command": "/audience-natural",
+      "name": "Audience Natural",
+      "description": "Audience Natural workflow directive for marketing.",
+      "instruction": "Apply audience natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "audience"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "persona-refined-9",
+      "command": "/persona-refined",
+      "name": "Persona Refined",
+      "description": "Persona Refined workflow directive for marketing.",
+      "instruction": "Apply persona refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "persona"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "funnel-professional-10",
+      "command": "/funnel-professional",
+      "name": "Funnel Professional",
+      "description": "Funnel Professional workflow directive for marketing.",
+      "instruction": "Apply funnel professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "funnel"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "contentplan-premium-11",
+      "command": "/contentplan-premium",
+      "name": "Contentplan Premium",
+      "description": "Contentplan Premium workflow directive for marketing.",
+      "instruction": "Apply contentplan premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "contentplan"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "marketing-subtle-12",
+      "command": "/marketing-subtle",
+      "name": "Marketing Subtle",
+      "description": "Marketing Subtle workflow directive for marketing.",
+      "instruction": "Apply marketing subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "marketing"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "campaign-strong-13",
+      "command": "/campaign-strong",
+      "name": "Campaign Strong",
+      "description": "Campaign Strong workflow directive for marketing.",
+      "instruction": "Apply campaign strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "campaign"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "audience-balanced-14",
+      "command": "/audience-balanced",
+      "name": "Audience Balanced",
+      "description": "Audience Balanced workflow directive for marketing.",
+      "instruction": "Apply audience balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "audience"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "persona-detailed-15",
+      "command": "/persona-detailed",
+      "name": "Persona Detailed",
+      "description": "Persona Detailed workflow directive for marketing.",
+      "instruction": "Apply persona detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "persona"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "funnel-advanced-16",
+      "command": "/funnel-advanced",
+      "name": "Funnel Advanced",
+      "description": "Funnel Advanced workflow directive for marketing.",
+      "instruction": "Apply funnel advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "funnel"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "contentplan-simple-17",
+      "command": "/contentplan-simple",
+      "name": "Contentplan Simple",
+      "description": "Contentplan Simple workflow directive for marketing.",
+      "instruction": "Apply contentplan simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "contentplan"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "marketing-smart-18",
+      "command": "/marketing-smart",
+      "name": "Marketing Smart",
+      "description": "Marketing Smart workflow directive for marketing.",
+      "instruction": "Apply marketing smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "marketing"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "campaign-controlled-19",
+      "command": "/campaign-controlled",
+      "name": "Campaign Controlled",
+      "description": "Campaign Controlled workflow directive for marketing.",
+      "instruction": "Apply campaign controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "campaign"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "audience-optimized-20",
+      "command": "/audience-optimized",
+      "name": "Audience Optimized",
+      "description": "Audience Optimized workflow directive for marketing.",
+      "instruction": "Apply audience optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "audience"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "persona-efficient-21",
+      "command": "/persona-efficient",
+      "name": "Persona Efficient",
+      "description": "Persona Efficient workflow directive for marketing.",
+      "instruction": "Apply persona efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "persona"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "funnel-accurate-22",
+      "command": "/funnel-accurate",
+      "name": "Funnel Accurate",
+      "description": "Funnel Accurate workflow directive for marketing.",
+      "instruction": "Apply funnel accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "funnel"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "contentplan-consistent-23",
+      "command": "/contentplan-consistent",
+      "name": "Contentplan Consistent",
+      "description": "Contentplan Consistent workflow directive for marketing.",
+      "instruction": "Apply contentplan consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "contentplan"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "marketing-polished-24",
+      "command": "/marketing-polished",
+      "name": "Marketing Polished",
+      "description": "Marketing Polished workflow directive for marketing.",
+      "instruction": "Apply marketing polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "marketing"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "campaign-final-25",
+      "command": "/campaign-final",
+      "name": "Campaign Final",
+      "description": "Campaign Final workflow directive for marketing.",
+      "instruction": "Apply campaign final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "campaign"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "audience-quick-26",
+      "command": "/audience-quick",
+      "name": "Audience Quick",
+      "description": "Audience Quick workflow directive for marketing.",
+      "instruction": "Apply audience quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "audience"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "persona-deep-27",
+      "command": "/persona-deep",
+      "name": "Persona Deep",
+      "description": "Persona Deep workflow directive for marketing.",
+      "instruction": "Apply persona deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "persona"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "funnel-thorough-28",
+      "command": "/funnel-thorough",
+      "name": "Funnel Thorough",
+      "description": "Funnel Thorough workflow directive for marketing.",
+      "instruction": "Apply funnel thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "funnel"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "contentplan-minimal-29",
+      "command": "/contentplan-minimal",
+      "name": "Contentplan Minimal",
+      "description": "Contentplan Minimal workflow directive for marketing.",
+      "instruction": "Apply contentplan minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "contentplan"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "marketing-maximum-30",
+      "command": "/marketing-maximum",
+      "name": "Marketing Maximum",
+      "description": "Marketing Maximum workflow directive for marketing.",
+      "instruction": "Apply marketing maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "marketing"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "campaign-soft-31",
+      "command": "/campaign-soft",
+      "name": "Campaign Soft",
+      "description": "Campaign Soft workflow directive for marketing.",
+      "instruction": "Apply campaign soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "campaign"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "audience-bold-32",
+      "command": "/audience-bold",
+      "name": "Audience Bold",
+      "description": "Audience Bold workflow directive for marketing.",
+      "instruction": "Apply audience bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "audience"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "persona-sharp-33",
+      "command": "/persona-sharp",
+      "name": "Persona Sharp",
+      "description": "Persona Sharp workflow directive for marketing.",
+      "instruction": "Apply persona sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "persona"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "funnel-smooth-34",
+      "command": "/funnel-smooth",
+      "name": "Funnel Smooth",
+      "description": "Funnel Smooth workflow directive for marketing.",
+      "instruction": "Apply funnel smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "funnel"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "contentplan-stable-35",
+      "command": "/contentplan-stable",
+      "name": "Contentplan Stable",
+      "description": "Contentplan Stable workflow directive for marketing.",
+      "instruction": "Apply contentplan stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "contentplan"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "marketing-highquality-36",
+      "command": "/marketing-highquality",
+      "name": "Marketing Highquality",
+      "description": "Marketing Highquality workflow directive for marketing.",
+      "instruction": "Apply marketing highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "marketing"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "campaign-lowartifact-37",
+      "command": "/campaign-lowartifact",
+      "name": "Campaign Lowartifact",
+      "description": "Campaign Lowartifact workflow directive for marketing.",
+      "instruction": "Apply campaign lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "campaign"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "audience-highdetail-38",
+      "command": "/audience-highdetail",
+      "name": "Audience Highdetail",
+      "description": "Audience Highdetail workflow directive for marketing.",
+      "instruction": "Apply audience highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "audience"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "persona-fine-39",
+      "command": "/persona-fine",
+      "name": "Persona Fine",
+      "description": "Persona Fine workflow directive for marketing.",
+      "instruction": "Apply persona fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "persona"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "funnel-micro-40",
+      "command": "/funnel-micro",
+      "name": "Funnel Micro",
+      "description": "Funnel Micro workflow directive for marketing.",
+      "instruction": "Apply funnel micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "funnel"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "contentplan-macro-41",
+      "command": "/contentplan-macro",
+      "name": "Contentplan Macro",
+      "description": "Contentplan Macro workflow directive for marketing.",
+      "instruction": "Apply contentplan macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "contentplan"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "marketing-local-42",
+      "command": "/marketing-local",
+      "name": "Marketing Local",
+      "description": "Marketing Local workflow directive for marketing.",
+      "instruction": "Apply marketing local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "marketing"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "campaign-global-43",
+      "command": "/campaign-global",
+      "name": "Campaign Global",
+      "description": "Campaign Global workflow directive for marketing.",
+      "instruction": "Apply campaign global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "campaign"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "audience-adaptive-44",
+      "command": "/audience-adaptive",
+      "name": "Audience Adaptive",
+      "description": "Audience Adaptive workflow directive for marketing.",
+      "instruction": "Apply audience adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "audience"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "persona-contextual-45",
+      "command": "/persona-contextual",
+      "name": "Persona Contextual",
+      "description": "Persona Contextual workflow directive for marketing.",
+      "instruction": "Apply persona contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "persona"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "funnel-realistic-46",
+      "command": "/funnel-realistic",
+      "name": "Funnel Realistic",
+      "description": "Funnel Realistic workflow directive for marketing.",
+      "instruction": "Apply funnel realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "funnel"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "contentplan-cinematic-47",
+      "command": "/contentplan-cinematic",
+      "name": "Contentplan Cinematic",
+      "description": "Contentplan Cinematic workflow directive for marketing.",
+      "instruction": "Apply contentplan cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "contentplan"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "marketing-modern-48",
+      "command": "/marketing-modern",
+      "name": "Marketing Modern",
+      "description": "Marketing Modern workflow directive for marketing.",
+      "instruction": "Apply marketing modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "marketing"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "campaign-classic-49",
+      "command": "/campaign-classic",
+      "name": "Campaign Classic",
+      "description": "Campaign Classic workflow directive for marketing.",
+      "instruction": "Apply campaign classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "campaign"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "audience-technical-50",
+      "command": "/audience-technical",
+      "name": "Audience Technical",
+      "description": "Audience Technical workflow directive for marketing.",
+      "instruction": "Apply audience technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "audience"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "persona-creative-51",
+      "command": "/persona-creative",
+      "name": "Persona Creative",
+      "description": "Persona Creative workflow directive for marketing.",
+      "instruction": "Apply persona creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "persona"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "funnel-editorial-52",
+      "command": "/funnel-editorial",
+      "name": "Funnel Editorial",
+      "description": "Funnel Editorial workflow directive for marketing.",
+      "instruction": "Apply funnel editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "funnel"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "contentplan-production-53",
+      "command": "/contentplan-production",
+      "name": "Contentplan Production",
+      "description": "Contentplan Production workflow directive for marketing.",
+      "instruction": "Apply contentplan production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "contentplan"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "marketing-studio-54",
+      "command": "/marketing-studio",
+      "name": "Marketing Studio",
+      "description": "Marketing Studio workflow directive for marketing.",
+      "instruction": "Apply marketing studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "marketing"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "campaign-portable-55",
+      "command": "/campaign-portable",
+      "name": "Campaign Portable",
+      "description": "Campaign Portable workflow directive for marketing.",
+      "instruction": "Apply campaign portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "campaign"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "audience-safe-56",
+      "command": "/audience-safe",
+      "name": "Audience Safe",
+      "description": "Audience Safe workflow directive for marketing.",
+      "instruction": "Apply audience safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "audience"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "persona-robust-57",
+      "command": "/persona-robust",
+      "name": "Persona Robust",
+      "description": "Persona Robust workflow directive for marketing.",
+      "instruction": "Apply persona robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "persona"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "funnel-reliable-58",
+      "command": "/funnel-reliable",
+      "name": "Funnel Reliable",
+      "description": "Funnel Reliable workflow directive for marketing.",
+      "instruction": "Apply funnel reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "funnel"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "contentplan-scalable-59",
+      "command": "/contentplan-scalable",
+      "name": "Contentplan Scalable",
+      "description": "Contentplan Scalable workflow directive for marketing.",
+      "instruction": "Apply contentplan scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "contentplan"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "marketing-maintainable-60",
+      "command": "/marketing-maintainable",
+      "name": "Marketing Maintainable",
+      "description": "Marketing Maintainable workflow directive for marketing.",
+      "instruction": "Apply marketing maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "marketing"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "campaign-accessible-61",
+      "command": "/campaign-accessible",
+      "name": "Campaign Accessible",
+      "description": "Campaign Accessible workflow directive for marketing.",
+      "instruction": "Apply campaign accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "campaign"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "audience-responsive-62",
+      "command": "/audience-responsive",
+      "name": "Audience Responsive",
+      "description": "Audience Responsive workflow directive for marketing.",
+      "instruction": "Apply audience responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "audience"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    },
+    {
+      "id": "persona-structured-63",
+      "command": "/persona-structured",
+      "name": "Persona Structured",
+      "description": "Persona Structured workflow directive for marketing.",
+      "instruction": "Apply persona structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "marketing",
+        "business-and-strategy",
+        "persona"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Branding & Marketing",
+      "categorySlug": "branding-marketing",
+      "subcategory": "Marketing"
+    }
+  ]
+}

@@ -1,0 +1,1289 @@
+{
+  "category": "Image & Visual AI",
+  "categorySlug": "image-visual-ai",
+  "subcategory": "Image Editing · Restoration",
+  "slug": "restoration",
+  "description": "Restoration command system for quality & restoration.",
+  "prompts": [
+    {
+      "id": "restore-0",
+      "command": "/restore",
+      "name": "Restore",
+      "description": "Restore workflow directive for restoration.",
+      "instruction": "Apply restore with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "restore"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "repair-1",
+      "command": "/repair",
+      "name": "Repair",
+      "description": "Repair workflow directive for restoration.",
+      "instruction": "Apply repair with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "repair"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "reconstruct-2",
+      "command": "/reconstruct",
+      "name": "Reconstruct",
+      "description": "Reconstruct workflow directive for restoration.",
+      "instruction": "Apply reconstruct with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "reconstruct"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "colorize-3",
+      "command": "/colorize",
+      "name": "Colorize",
+      "description": "Colorize workflow directive for restoration.",
+      "instruction": "Apply colorize with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "colorize"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "natural-4",
+      "command": "/natural",
+      "name": "Natural",
+      "description": "Natural workflow directive for restoration.",
+      "instruction": "Apply natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "natural"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "clean-5",
+      "command": "/clean",
+      "name": "Clean",
+      "description": "Clean workflow directive for restoration.",
+      "instruction": "Apply clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "clean"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "restore-precise-6",
+      "command": "/restore-precise",
+      "name": "Restore Precise",
+      "description": "Restore Precise workflow directive for restoration.",
+      "instruction": "Apply restore precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "restore"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "repair-clean-7",
+      "command": "/repair-clean",
+      "name": "Repair Clean",
+      "description": "Repair Clean workflow directive for restoration.",
+      "instruction": "Apply repair clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "repair"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "reconstruct-natural-8",
+      "command": "/reconstruct-natural",
+      "name": "Reconstruct Natural",
+      "description": "Reconstruct Natural workflow directive for restoration.",
+      "instruction": "Apply reconstruct natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "reconstruct"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "colorize-refined-9",
+      "command": "/colorize-refined",
+      "name": "Colorize Refined",
+      "description": "Colorize Refined workflow directive for restoration.",
+      "instruction": "Apply colorize refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "colorize"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "natural-professional-10",
+      "command": "/natural-professional",
+      "name": "Natural Professional",
+      "description": "Natural Professional workflow directive for restoration.",
+      "instruction": "Apply natural professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "natural"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "clean-premium-11",
+      "command": "/clean-premium",
+      "name": "Clean Premium",
+      "description": "Clean Premium workflow directive for restoration.",
+      "instruction": "Apply clean premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "clean"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "restore-subtle-12",
+      "command": "/restore-subtle",
+      "name": "Restore Subtle",
+      "description": "Restore Subtle workflow directive for restoration.",
+      "instruction": "Apply restore subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "restore"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "repair-strong-13",
+      "command": "/repair-strong",
+      "name": "Repair Strong",
+      "description": "Repair Strong workflow directive for restoration.",
+      "instruction": "Apply repair strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "repair"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "reconstruct-balanced-14",
+      "command": "/reconstruct-balanced",
+      "name": "Reconstruct Balanced",
+      "description": "Reconstruct Balanced workflow directive for restoration.",
+      "instruction": "Apply reconstruct balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "reconstruct"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "colorize-detailed-15",
+      "command": "/colorize-detailed",
+      "name": "Colorize Detailed",
+      "description": "Colorize Detailed workflow directive for restoration.",
+      "instruction": "Apply colorize detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "colorize"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "natural-advanced-16",
+      "command": "/natural-advanced",
+      "name": "Natural Advanced",
+      "description": "Natural Advanced workflow directive for restoration.",
+      "instruction": "Apply natural advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "natural"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "clean-simple-17",
+      "command": "/clean-simple",
+      "name": "Clean Simple",
+      "description": "Clean Simple workflow directive for restoration.",
+      "instruction": "Apply clean simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "clean"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "restore-smart-18",
+      "command": "/restore-smart",
+      "name": "Restore Smart",
+      "description": "Restore Smart workflow directive for restoration.",
+      "instruction": "Apply restore smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "restore"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "repair-controlled-19",
+      "command": "/repair-controlled",
+      "name": "Repair Controlled",
+      "description": "Repair Controlled workflow directive for restoration.",
+      "instruction": "Apply repair controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "repair"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "reconstruct-optimized-20",
+      "command": "/reconstruct-optimized",
+      "name": "Reconstruct Optimized",
+      "description": "Reconstruct Optimized workflow directive for restoration.",
+      "instruction": "Apply reconstruct optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "reconstruct"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "colorize-efficient-21",
+      "command": "/colorize-efficient",
+      "name": "Colorize Efficient",
+      "description": "Colorize Efficient workflow directive for restoration.",
+      "instruction": "Apply colorize efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "colorize"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "natural-accurate-22",
+      "command": "/natural-accurate",
+      "name": "Natural Accurate",
+      "description": "Natural Accurate workflow directive for restoration.",
+      "instruction": "Apply natural accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "natural"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "clean-consistent-23",
+      "command": "/clean-consistent",
+      "name": "Clean Consistent",
+      "description": "Clean Consistent workflow directive for restoration.",
+      "instruction": "Apply clean consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "clean"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "restore-polished-24",
+      "command": "/restore-polished",
+      "name": "Restore Polished",
+      "description": "Restore Polished workflow directive for restoration.",
+      "instruction": "Apply restore polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "restore"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "repair-final-25",
+      "command": "/repair-final",
+      "name": "Repair Final",
+      "description": "Repair Final workflow directive for restoration.",
+      "instruction": "Apply repair final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "repair"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "reconstruct-quick-26",
+      "command": "/reconstruct-quick",
+      "name": "Reconstruct Quick",
+      "description": "Reconstruct Quick workflow directive for restoration.",
+      "instruction": "Apply reconstruct quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "reconstruct"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "colorize-deep-27",
+      "command": "/colorize-deep",
+      "name": "Colorize Deep",
+      "description": "Colorize Deep workflow directive for restoration.",
+      "instruction": "Apply colorize deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "colorize"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "natural-thorough-28",
+      "command": "/natural-thorough",
+      "name": "Natural Thorough",
+      "description": "Natural Thorough workflow directive for restoration.",
+      "instruction": "Apply natural thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "natural"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "clean-minimal-29",
+      "command": "/clean-minimal",
+      "name": "Clean Minimal",
+      "description": "Clean Minimal workflow directive for restoration.",
+      "instruction": "Apply clean minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "clean"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "restore-maximum-30",
+      "command": "/restore-maximum",
+      "name": "Restore Maximum",
+      "description": "Restore Maximum workflow directive for restoration.",
+      "instruction": "Apply restore maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "restore"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "repair-soft-31",
+      "command": "/repair-soft",
+      "name": "Repair Soft",
+      "description": "Repair Soft workflow directive for restoration.",
+      "instruction": "Apply repair soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "repair"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "reconstruct-bold-32",
+      "command": "/reconstruct-bold",
+      "name": "Reconstruct Bold",
+      "description": "Reconstruct Bold workflow directive for restoration.",
+      "instruction": "Apply reconstruct bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "reconstruct"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "colorize-sharp-33",
+      "command": "/colorize-sharp",
+      "name": "Colorize Sharp",
+      "description": "Colorize Sharp workflow directive for restoration.",
+      "instruction": "Apply colorize sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "colorize"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "natural-smooth-34",
+      "command": "/natural-smooth",
+      "name": "Natural Smooth",
+      "description": "Natural Smooth workflow directive for restoration.",
+      "instruction": "Apply natural smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "natural"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "clean-stable-35",
+      "command": "/clean-stable",
+      "name": "Clean Stable",
+      "description": "Clean Stable workflow directive for restoration.",
+      "instruction": "Apply clean stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "clean"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "restore-highquality-36",
+      "command": "/restore-highquality",
+      "name": "Restore Highquality",
+      "description": "Restore Highquality workflow directive for restoration.",
+      "instruction": "Apply restore highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "restore"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "repair-lowartifact-37",
+      "command": "/repair-lowartifact",
+      "name": "Repair Lowartifact",
+      "description": "Repair Lowartifact workflow directive for restoration.",
+      "instruction": "Apply repair lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "repair"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "reconstruct-highdetail-38",
+      "command": "/reconstruct-highdetail",
+      "name": "Reconstruct Highdetail",
+      "description": "Reconstruct Highdetail workflow directive for restoration.",
+      "instruction": "Apply reconstruct highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "reconstruct"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "colorize-fine-39",
+      "command": "/colorize-fine",
+      "name": "Colorize Fine",
+      "description": "Colorize Fine workflow directive for restoration.",
+      "instruction": "Apply colorize fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "colorize"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "natural-micro-40",
+      "command": "/natural-micro",
+      "name": "Natural Micro",
+      "description": "Natural Micro workflow directive for restoration.",
+      "instruction": "Apply natural micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "natural"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "clean-macro-41",
+      "command": "/clean-macro",
+      "name": "Clean Macro",
+      "description": "Clean Macro workflow directive for restoration.",
+      "instruction": "Apply clean macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "clean"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "restore-local-42",
+      "command": "/restore-local",
+      "name": "Restore Local",
+      "description": "Restore Local workflow directive for restoration.",
+      "instruction": "Apply restore local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "restore"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "repair-global-43",
+      "command": "/repair-global",
+      "name": "Repair Global",
+      "description": "Repair Global workflow directive for restoration.",
+      "instruction": "Apply repair global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "repair"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "reconstruct-adaptive-44",
+      "command": "/reconstruct-adaptive",
+      "name": "Reconstruct Adaptive",
+      "description": "Reconstruct Adaptive workflow directive for restoration.",
+      "instruction": "Apply reconstruct adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "reconstruct"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "colorize-contextual-45",
+      "command": "/colorize-contextual",
+      "name": "Colorize Contextual",
+      "description": "Colorize Contextual workflow directive for restoration.",
+      "instruction": "Apply colorize contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "colorize"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "natural-realistic-46",
+      "command": "/natural-realistic",
+      "name": "Natural Realistic",
+      "description": "Natural Realistic workflow directive for restoration.",
+      "instruction": "Apply natural realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "natural"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "clean-cinematic-47",
+      "command": "/clean-cinematic",
+      "name": "Clean Cinematic",
+      "description": "Clean Cinematic workflow directive for restoration.",
+      "instruction": "Apply clean cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "clean"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "restore-modern-48",
+      "command": "/restore-modern",
+      "name": "Restore Modern",
+      "description": "Restore Modern workflow directive for restoration.",
+      "instruction": "Apply restore modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "restore"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "repair-classic-49",
+      "command": "/repair-classic",
+      "name": "Repair Classic",
+      "description": "Repair Classic workflow directive for restoration.",
+      "instruction": "Apply repair classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "repair"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "reconstruct-technical-50",
+      "command": "/reconstruct-technical",
+      "name": "Reconstruct Technical",
+      "description": "Reconstruct Technical workflow directive for restoration.",
+      "instruction": "Apply reconstruct technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "reconstruct"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "colorize-creative-51",
+      "command": "/colorize-creative",
+      "name": "Colorize Creative",
+      "description": "Colorize Creative workflow directive for restoration.",
+      "instruction": "Apply colorize creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "colorize"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "natural-editorial-52",
+      "command": "/natural-editorial",
+      "name": "Natural Editorial",
+      "description": "Natural Editorial workflow directive for restoration.",
+      "instruction": "Apply natural editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "natural"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "clean-production-53",
+      "command": "/clean-production",
+      "name": "Clean Production",
+      "description": "Clean Production workflow directive for restoration.",
+      "instruction": "Apply clean production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "clean"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "restore-studio-54",
+      "command": "/restore-studio",
+      "name": "Restore Studio",
+      "description": "Restore Studio workflow directive for restoration.",
+      "instruction": "Apply restore studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "restore"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "repair-portable-55",
+      "command": "/repair-portable",
+      "name": "Repair Portable",
+      "description": "Repair Portable workflow directive for restoration.",
+      "instruction": "Apply repair portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "repair"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "reconstruct-safe-56",
+      "command": "/reconstruct-safe",
+      "name": "Reconstruct Safe",
+      "description": "Reconstruct Safe workflow directive for restoration.",
+      "instruction": "Apply reconstruct safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "reconstruct"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "colorize-robust-57",
+      "command": "/colorize-robust",
+      "name": "Colorize Robust",
+      "description": "Colorize Robust workflow directive for restoration.",
+      "instruction": "Apply colorize robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "colorize"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "natural-reliable-58",
+      "command": "/natural-reliable",
+      "name": "Natural Reliable",
+      "description": "Natural Reliable workflow directive for restoration.",
+      "instruction": "Apply natural reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "natural"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "clean-scalable-59",
+      "command": "/clean-scalable",
+      "name": "Clean Scalable",
+      "description": "Clean Scalable workflow directive for restoration.",
+      "instruction": "Apply clean scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "clean"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "restore-maintainable-60",
+      "command": "/restore-maintainable",
+      "name": "Restore Maintainable",
+      "description": "Restore Maintainable workflow directive for restoration.",
+      "instruction": "Apply restore maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "restore"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "repair-accessible-61",
+      "command": "/repair-accessible",
+      "name": "Repair Accessible",
+      "description": "Repair Accessible workflow directive for restoration.",
+      "instruction": "Apply repair accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "repair"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "reconstruct-responsive-62",
+      "command": "/reconstruct-responsive",
+      "name": "Reconstruct Responsive",
+      "description": "Reconstruct Responsive workflow directive for restoration.",
+      "instruction": "Apply reconstruct responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "reconstruct"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    },
+    {
+      "id": "colorize-structured-63",
+      "command": "/colorize-structured",
+      "name": "Colorize Structured",
+      "description": "Colorize Structured workflow directive for restoration.",
+      "instruction": "Apply colorize structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "restoration",
+        "image-editing-and-restoration",
+        "colorize"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Restoration"
+    }
+  ]
+}

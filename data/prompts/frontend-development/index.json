@@ -1,0 +1,13 @@
+{
+  "category": "Frontend Development",
+  "slug": "frontend-development",
+  "description": "Frontend technologies, browser interfaces and client-side implementation.",
+  "subcategories": [
+    {
+      "name": "Frontend",
+      "slug": "frontend",
+      "file": "/data/prompts/frontend-development/frontend.json",
+      "count": 64
+    }
+  ]
+}

@@ -1,0 +1,1289 @@
+{
+  "category": "AI & Prompt Engineering",
+  "categorySlug": "ai-prompt-engineering",
+  "subcategory": "Roles & Context",
+  "slug": "roles-and-context",
+  "description": "Roles & Context command system for text, ui & content.",
+  "prompts": [
+    {
+      "id": "role-0",
+      "command": "/role",
+      "name": "Role",
+      "description": "Role workflow directive for roles & context.",
+      "instruction": "Apply role with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "role"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "persona-1",
+      "command": "/persona",
+      "name": "Persona",
+      "description": "Persona workflow directive for roles & context.",
+      "instruction": "Apply persona with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "persona"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "context-2",
+      "command": "/context",
+      "name": "Context",
+      "description": "Context workflow directive for roles & context.",
+      "instruction": "Apply context with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "context"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "constraints-3",
+      "command": "/constraints",
+      "name": "Constraints",
+      "description": "Constraints workflow directive for roles & context.",
+      "instruction": "Apply constraints with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "constraints"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "instructions-4",
+      "command": "/instructions",
+      "name": "Instructions",
+      "description": "Instructions workflow directive for roles & context.",
+      "instruction": "Apply instructions with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "instructions"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "role-precise-5",
+      "command": "/role-precise",
+      "name": "Role Precise",
+      "description": "Role Precise workflow directive for roles & context.",
+      "instruction": "Apply role precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "role"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "persona-clean-6",
+      "command": "/persona-clean",
+      "name": "Persona Clean",
+      "description": "Persona Clean workflow directive for roles & context.",
+      "instruction": "Apply persona clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "persona"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "context-natural-7",
+      "command": "/context-natural",
+      "name": "Context Natural",
+      "description": "Context Natural workflow directive for roles & context.",
+      "instruction": "Apply context natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "context"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "constraints-refined-8",
+      "command": "/constraints-refined",
+      "name": "Constraints Refined",
+      "description": "Constraints Refined workflow directive for roles & context.",
+      "instruction": "Apply constraints refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "constraints"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "instructions-professional-9",
+      "command": "/instructions-professional",
+      "name": "Instructions Professional",
+      "description": "Instructions Professional workflow directive for roles & context.",
+      "instruction": "Apply instructions professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "instructions"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "role-premium-10",
+      "command": "/role-premium",
+      "name": "Role Premium",
+      "description": "Role Premium workflow directive for roles & context.",
+      "instruction": "Apply role premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "role"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "persona-subtle-11",
+      "command": "/persona-subtle",
+      "name": "Persona Subtle",
+      "description": "Persona Subtle workflow directive for roles & context.",
+      "instruction": "Apply persona subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "persona"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "context-strong-12",
+      "command": "/context-strong",
+      "name": "Context Strong",
+      "description": "Context Strong workflow directive for roles & context.",
+      "instruction": "Apply context strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "context"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "constraints-balanced-13",
+      "command": "/constraints-balanced",
+      "name": "Constraints Balanced",
+      "description": "Constraints Balanced workflow directive for roles & context.",
+      "instruction": "Apply constraints balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "constraints"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "instructions-detailed-14",
+      "command": "/instructions-detailed",
+      "name": "Instructions Detailed",
+      "description": "Instructions Detailed workflow directive for roles & context.",
+      "instruction": "Apply instructions detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "instructions"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "role-advanced-15",
+      "command": "/role-advanced",
+      "name": "Role Advanced",
+      "description": "Role Advanced workflow directive for roles & context.",
+      "instruction": "Apply role advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "role"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "persona-simple-16",
+      "command": "/persona-simple",
+      "name": "Persona Simple",
+      "description": "Persona Simple workflow directive for roles & context.",
+      "instruction": "Apply persona simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "persona"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "context-smart-17",
+      "command": "/context-smart",
+      "name": "Context Smart",
+      "description": "Context Smart workflow directive for roles & context.",
+      "instruction": "Apply context smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "context"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "constraints-controlled-18",
+      "command": "/constraints-controlled",
+      "name": "Constraints Controlled",
+      "description": "Constraints Controlled workflow directive for roles & context.",
+      "instruction": "Apply constraints controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "constraints"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "instructions-optimized-19",
+      "command": "/instructions-optimized",
+      "name": "Instructions Optimized",
+      "description": "Instructions Optimized workflow directive for roles & context.",
+      "instruction": "Apply instructions optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "instructions"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "role-efficient-20",
+      "command": "/role-efficient",
+      "name": "Role Efficient",
+      "description": "Role Efficient workflow directive for roles & context.",
+      "instruction": "Apply role efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "role"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "persona-accurate-21",
+      "command": "/persona-accurate",
+      "name": "Persona Accurate",
+      "description": "Persona Accurate workflow directive for roles & context.",
+      "instruction": "Apply persona accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "persona"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "context-consistent-22",
+      "command": "/context-consistent",
+      "name": "Context Consistent",
+      "description": "Context Consistent workflow directive for roles & context.",
+      "instruction": "Apply context consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "context"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "constraints-polished-23",
+      "command": "/constraints-polished",
+      "name": "Constraints Polished",
+      "description": "Constraints Polished workflow directive for roles & context.",
+      "instruction": "Apply constraints polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "constraints"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "instructions-final-24",
+      "command": "/instructions-final",
+      "name": "Instructions Final",
+      "description": "Instructions Final workflow directive for roles & context.",
+      "instruction": "Apply instructions final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "instructions"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "role-quick-25",
+      "command": "/role-quick",
+      "name": "Role Quick",
+      "description": "Role Quick workflow directive for roles & context.",
+      "instruction": "Apply role quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "role"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "persona-deep-26",
+      "command": "/persona-deep",
+      "name": "Persona Deep",
+      "description": "Persona Deep workflow directive for roles & context.",
+      "instruction": "Apply persona deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "persona"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "context-thorough-27",
+      "command": "/context-thorough",
+      "name": "Context Thorough",
+      "description": "Context Thorough workflow directive for roles & context.",
+      "instruction": "Apply context thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "context"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "constraints-minimal-28",
+      "command": "/constraints-minimal",
+      "name": "Constraints Minimal",
+      "description": "Constraints Minimal workflow directive for roles & context.",
+      "instruction": "Apply constraints minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "constraints"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "instructions-maximum-29",
+      "command": "/instructions-maximum",
+      "name": "Instructions Maximum",
+      "description": "Instructions Maximum workflow directive for roles & context.",
+      "instruction": "Apply instructions maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "instructions"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "role-soft-30",
+      "command": "/role-soft",
+      "name": "Role Soft",
+      "description": "Role Soft workflow directive for roles & context.",
+      "instruction": "Apply role soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "role"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "persona-bold-31",
+      "command": "/persona-bold",
+      "name": "Persona Bold",
+      "description": "Persona Bold workflow directive for roles & context.",
+      "instruction": "Apply persona bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "persona"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "context-sharp-32",
+      "command": "/context-sharp",
+      "name": "Context Sharp",
+      "description": "Context Sharp workflow directive for roles & context.",
+      "instruction": "Apply context sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "context"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "constraints-smooth-33",
+      "command": "/constraints-smooth",
+      "name": "Constraints Smooth",
+      "description": "Constraints Smooth workflow directive for roles & context.",
+      "instruction": "Apply constraints smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "constraints"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "instructions-stable-34",
+      "command": "/instructions-stable",
+      "name": "Instructions Stable",
+      "description": "Instructions Stable workflow directive for roles & context.",
+      "instruction": "Apply instructions stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "instructions"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "role-highquality-35",
+      "command": "/role-highquality",
+      "name": "Role Highquality",
+      "description": "Role Highquality workflow directive for roles & context.",
+      "instruction": "Apply role highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "role"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "persona-lowartifact-36",
+      "command": "/persona-lowartifact",
+      "name": "Persona Lowartifact",
+      "description": "Persona Lowartifact workflow directive for roles & context.",
+      "instruction": "Apply persona lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "persona"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "context-highdetail-37",
+      "command": "/context-highdetail",
+      "name": "Context Highdetail",
+      "description": "Context Highdetail workflow directive for roles & context.",
+      "instruction": "Apply context highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "context"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "constraints-fine-38",
+      "command": "/constraints-fine",
+      "name": "Constraints Fine",
+      "description": "Constraints Fine workflow directive for roles & context.",
+      "instruction": "Apply constraints fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "constraints"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "instructions-micro-39",
+      "command": "/instructions-micro",
+      "name": "Instructions Micro",
+      "description": "Instructions Micro workflow directive for roles & context.",
+      "instruction": "Apply instructions micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "instructions"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "role-macro-40",
+      "command": "/role-macro",
+      "name": "Role Macro",
+      "description": "Role Macro workflow directive for roles & context.",
+      "instruction": "Apply role macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "role"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "persona-local-41",
+      "command": "/persona-local",
+      "name": "Persona Local",
+      "description": "Persona Local workflow directive for roles & context.",
+      "instruction": "Apply persona local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "persona"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "context-global-42",
+      "command": "/context-global",
+      "name": "Context Global",
+      "description": "Context Global workflow directive for roles & context.",
+      "instruction": "Apply context global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "context"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "constraints-adaptive-43",
+      "command": "/constraints-adaptive",
+      "name": "Constraints Adaptive",
+      "description": "Constraints Adaptive workflow directive for roles & context.",
+      "instruction": "Apply constraints adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "constraints"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "instructions-contextual-44",
+      "command": "/instructions-contextual",
+      "name": "Instructions Contextual",
+      "description": "Instructions Contextual workflow directive for roles & context.",
+      "instruction": "Apply instructions contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "instructions"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "role-realistic-45",
+      "command": "/role-realistic",
+      "name": "Role Realistic",
+      "description": "Role Realistic workflow directive for roles & context.",
+      "instruction": "Apply role realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "role"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "persona-cinematic-46",
+      "command": "/persona-cinematic",
+      "name": "Persona Cinematic",
+      "description": "Persona Cinematic workflow directive for roles & context.",
+      "instruction": "Apply persona cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "persona"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "context-modern-47",
+      "command": "/context-modern",
+      "name": "Context Modern",
+      "description": "Context Modern workflow directive for roles & context.",
+      "instruction": "Apply context modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "context"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "constraints-classic-48",
+      "command": "/constraints-classic",
+      "name": "Constraints Classic",
+      "description": "Constraints Classic workflow directive for roles & context.",
+      "instruction": "Apply constraints classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "constraints"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "instructions-technical-49",
+      "command": "/instructions-technical",
+      "name": "Instructions Technical",
+      "description": "Instructions Technical workflow directive for roles & context.",
+      "instruction": "Apply instructions technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "instructions"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "role-creative-50",
+      "command": "/role-creative",
+      "name": "Role Creative",
+      "description": "Role Creative workflow directive for roles & context.",
+      "instruction": "Apply role creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "role"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "persona-editorial-51",
+      "command": "/persona-editorial",
+      "name": "Persona Editorial",
+      "description": "Persona Editorial workflow directive for roles & context.",
+      "instruction": "Apply persona editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "persona"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "context-production-52",
+      "command": "/context-production",
+      "name": "Context Production",
+      "description": "Context Production workflow directive for roles & context.",
+      "instruction": "Apply context production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "context"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "constraints-studio-53",
+      "command": "/constraints-studio",
+      "name": "Constraints Studio",
+      "description": "Constraints Studio workflow directive for roles & context.",
+      "instruction": "Apply constraints studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "constraints"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "instructions-portable-54",
+      "command": "/instructions-portable",
+      "name": "Instructions Portable",
+      "description": "Instructions Portable workflow directive for roles & context.",
+      "instruction": "Apply instructions portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "instructions"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "role-safe-55",
+      "command": "/role-safe",
+      "name": "Role Safe",
+      "description": "Role Safe workflow directive for roles & context.",
+      "instruction": "Apply role safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "role"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "persona-robust-56",
+      "command": "/persona-robust",
+      "name": "Persona Robust",
+      "description": "Persona Robust workflow directive for roles & context.",
+      "instruction": "Apply persona robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "persona"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "context-reliable-57",
+      "command": "/context-reliable",
+      "name": "Context Reliable",
+      "description": "Context Reliable workflow directive for roles & context.",
+      "instruction": "Apply context reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "context"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "constraints-scalable-58",
+      "command": "/constraints-scalable",
+      "name": "Constraints Scalable",
+      "description": "Constraints Scalable workflow directive for roles & context.",
+      "instruction": "Apply constraints scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "constraints"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "instructions-maintainable-59",
+      "command": "/instructions-maintainable",
+      "name": "Instructions Maintainable",
+      "description": "Instructions Maintainable workflow directive for roles & context.",
+      "instruction": "Apply instructions maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "instructions"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "role-accessible-60",
+      "command": "/role-accessible",
+      "name": "Role Accessible",
+      "description": "Role Accessible workflow directive for roles & context.",
+      "instruction": "Apply role accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "role"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "persona-responsive-61",
+      "command": "/persona-responsive",
+      "name": "Persona Responsive",
+      "description": "Persona Responsive workflow directive for roles & context.",
+      "instruction": "Apply persona responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "persona"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "context-structured-62",
+      "command": "/context-structured",
+      "name": "Context Structured",
+      "description": "Context Structured workflow directive for roles & context.",
+      "instruction": "Apply context structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "context"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    },
+    {
+      "id": "constraints-compact-63",
+      "command": "/constraints-compact",
+      "name": "Constraints Compact",
+      "description": "Constraints Compact workflow directive for roles & context.",
+      "instruction": "Apply constraints compact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "roles-and-context",
+        "prompt-engineering-and-meta",
+        "constraints"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "AI & Prompt Engineering",
+      "categorySlug": "ai-prompt-engineering",
+      "subcategory": "Roles & Context"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "category": "Software Development",
+  "slug": "software-development",
+  "description": "General programming, architecture, debugging, refactoring, testing and review.",
+  "subcategories": [
+    {
+      "name": "Debug",
+      "slug": "debug",
+      "file": "/data/prompts/software-development/debug.json",
+      "count": 64
+    },
+    {
+      "name": "Fix",
+      "slug": "fix",
+      "file": "/data/prompts/software-development/fix.json",
+      "count": 64
+    },
+    {
+      "name": "Testing",
+      "slug": "testing",
+      "file": "/data/prompts/software-development/testing.json",
+      "count": 64
+    },
+    {
+      "name": "Review",
+      "slug": "review",
+      "file": "/data/prompts/software-development/review.json",
+      "count": 64
+    },
+    {
+      "name": "Generation",
+      "slug": "generation",
+      "file": "/data/prompts/software-development/generation.json",
+      "count": 64
+    },
+    {
+      "name": "Architecture",
+      "slug": "architecture",
+      "file": "/data/prompts/software-development/architecture.json",
+      "count": 64
+    }
+  ]
+}

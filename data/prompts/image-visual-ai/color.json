@@ -1,0 +1,1289 @@
+{
+  "category": "Image & Visual AI",
+  "categorySlug": "image-visual-ai",
+  "subcategory": "Image Editing · Color",
+  "slug": "color",
+  "description": "Color command system for lighting & color.",
+  "prompts": [
+    {
+      "id": "naturalcolor-0",
+      "command": "/naturalcolor",
+      "name": "Naturalcolor",
+      "description": "Naturalcolor workflow directive for color.",
+      "instruction": "Apply naturalcolor with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "naturalcolor"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "vivid-1",
+      "command": "/vivid",
+      "name": "Vivid",
+      "description": "Vivid workflow directive for color.",
+      "instruction": "Apply vivid with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "vivid"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "cinematiccolor-2",
+      "command": "/cinematiccolor",
+      "name": "Cinematiccolor",
+      "description": "Cinematiccolor workflow directive for color.",
+      "instruction": "Apply cinematiccolor with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "cinematiccolor"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "warm-3",
+      "command": "/warm",
+      "name": "Warm",
+      "description": "Warm workflow directive for color.",
+      "instruction": "Apply warm with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "warm"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "cool-4",
+      "command": "/cool",
+      "name": "Cool",
+      "description": "Cool workflow directive for color.",
+      "instruction": "Apply cool with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "cool"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "bw-5",
+      "command": "/bw",
+      "name": "Bw",
+      "description": "Bw workflow directive for color.",
+      "instruction": "Apply bw with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "bw"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "naturalcolor-precise-6",
+      "command": "/naturalcolor-precise",
+      "name": "Naturalcolor Precise",
+      "description": "Naturalcolor Precise workflow directive for color.",
+      "instruction": "Apply naturalcolor precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "naturalcolor"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "vivid-clean-7",
+      "command": "/vivid-clean",
+      "name": "Vivid Clean",
+      "description": "Vivid Clean workflow directive for color.",
+      "instruction": "Apply vivid clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "vivid"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "cinematiccolor-natural-8",
+      "command": "/cinematiccolor-natural",
+      "name": "Cinematiccolor Natural",
+      "description": "Cinematiccolor Natural workflow directive for color.",
+      "instruction": "Apply cinematiccolor natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "cinematiccolor"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "warm-refined-9",
+      "command": "/warm-refined",
+      "name": "Warm Refined",
+      "description": "Warm Refined workflow directive for color.",
+      "instruction": "Apply warm refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "warm"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "cool-professional-10",
+      "command": "/cool-professional",
+      "name": "Cool Professional",
+      "description": "Cool Professional workflow directive for color.",
+      "instruction": "Apply cool professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "cool"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "bw-premium-11",
+      "command": "/bw-premium",
+      "name": "Bw Premium",
+      "description": "Bw Premium workflow directive for color.",
+      "instruction": "Apply bw premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "bw"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "naturalcolor-subtle-12",
+      "command": "/naturalcolor-subtle",
+      "name": "Naturalcolor Subtle",
+      "description": "Naturalcolor Subtle workflow directive for color.",
+      "instruction": "Apply naturalcolor subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "naturalcolor"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "vivid-strong-13",
+      "command": "/vivid-strong",
+      "name": "Vivid Strong",
+      "description": "Vivid Strong workflow directive for color.",
+      "instruction": "Apply vivid strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "vivid"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "cinematiccolor-balanced-14",
+      "command": "/cinematiccolor-balanced",
+      "name": "Cinematiccolor Balanced",
+      "description": "Cinematiccolor Balanced workflow directive for color.",
+      "instruction": "Apply cinematiccolor balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "cinematiccolor"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "warm-detailed-15",
+      "command": "/warm-detailed",
+      "name": "Warm Detailed",
+      "description": "Warm Detailed workflow directive for color.",
+      "instruction": "Apply warm detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "warm"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "cool-advanced-16",
+      "command": "/cool-advanced",
+      "name": "Cool Advanced",
+      "description": "Cool Advanced workflow directive for color.",
+      "instruction": "Apply cool advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "cool"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "bw-simple-17",
+      "command": "/bw-simple",
+      "name": "Bw Simple",
+      "description": "Bw Simple workflow directive for color.",
+      "instruction": "Apply bw simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "bw"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "naturalcolor-smart-18",
+      "command": "/naturalcolor-smart",
+      "name": "Naturalcolor Smart",
+      "description": "Naturalcolor Smart workflow directive for color.",
+      "instruction": "Apply naturalcolor smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "naturalcolor"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "vivid-controlled-19",
+      "command": "/vivid-controlled",
+      "name": "Vivid Controlled",
+      "description": "Vivid Controlled workflow directive for color.",
+      "instruction": "Apply vivid controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "vivid"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "cinematiccolor-optimized-20",
+      "command": "/cinematiccolor-optimized",
+      "name": "Cinematiccolor Optimized",
+      "description": "Cinematiccolor Optimized workflow directive for color.",
+      "instruction": "Apply cinematiccolor optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "cinematiccolor"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "warm-efficient-21",
+      "command": "/warm-efficient",
+      "name": "Warm Efficient",
+      "description": "Warm Efficient workflow directive for color.",
+      "instruction": "Apply warm efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "warm"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "cool-accurate-22",
+      "command": "/cool-accurate",
+      "name": "Cool Accurate",
+      "description": "Cool Accurate workflow directive for color.",
+      "instruction": "Apply cool accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "cool"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "bw-consistent-23",
+      "command": "/bw-consistent",
+      "name": "Bw Consistent",
+      "description": "Bw Consistent workflow directive for color.",
+      "instruction": "Apply bw consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "bw"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "naturalcolor-polished-24",
+      "command": "/naturalcolor-polished",
+      "name": "Naturalcolor Polished",
+      "description": "Naturalcolor Polished workflow directive for color.",
+      "instruction": "Apply naturalcolor polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "naturalcolor"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "vivid-final-25",
+      "command": "/vivid-final",
+      "name": "Vivid Final",
+      "description": "Vivid Final workflow directive for color.",
+      "instruction": "Apply vivid final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "vivid"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "cinematiccolor-quick-26",
+      "command": "/cinematiccolor-quick",
+      "name": "Cinematiccolor Quick",
+      "description": "Cinematiccolor Quick workflow directive for color.",
+      "instruction": "Apply cinematiccolor quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "cinematiccolor"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "warm-deep-27",
+      "command": "/warm-deep",
+      "name": "Warm Deep",
+      "description": "Warm Deep workflow directive for color.",
+      "instruction": "Apply warm deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "warm"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "cool-thorough-28",
+      "command": "/cool-thorough",
+      "name": "Cool Thorough",
+      "description": "Cool Thorough workflow directive for color.",
+      "instruction": "Apply cool thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "cool"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "bw-minimal-29",
+      "command": "/bw-minimal",
+      "name": "Bw Minimal",
+      "description": "Bw Minimal workflow directive for color.",
+      "instruction": "Apply bw minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "bw"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "naturalcolor-maximum-30",
+      "command": "/naturalcolor-maximum",
+      "name": "Naturalcolor Maximum",
+      "description": "Naturalcolor Maximum workflow directive for color.",
+      "instruction": "Apply naturalcolor maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "naturalcolor"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "vivid-soft-31",
+      "command": "/vivid-soft",
+      "name": "Vivid Soft",
+      "description": "Vivid Soft workflow directive for color.",
+      "instruction": "Apply vivid soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "vivid"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "cinematiccolor-bold-32",
+      "command": "/cinematiccolor-bold",
+      "name": "Cinematiccolor Bold",
+      "description": "Cinematiccolor Bold workflow directive for color.",
+      "instruction": "Apply cinematiccolor bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "cinematiccolor"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "warm-sharp-33",
+      "command": "/warm-sharp",
+      "name": "Warm Sharp",
+      "description": "Warm Sharp workflow directive for color.",
+      "instruction": "Apply warm sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "warm"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "cool-smooth-34",
+      "command": "/cool-smooth",
+      "name": "Cool Smooth",
+      "description": "Cool Smooth workflow directive for color.",
+      "instruction": "Apply cool smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "cool"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "bw-stable-35",
+      "command": "/bw-stable",
+      "name": "Bw Stable",
+      "description": "Bw Stable workflow directive for color.",
+      "instruction": "Apply bw stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "bw"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "naturalcolor-highquality-36",
+      "command": "/naturalcolor-highquality",
+      "name": "Naturalcolor Highquality",
+      "description": "Naturalcolor Highquality workflow directive for color.",
+      "instruction": "Apply naturalcolor highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "naturalcolor"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "vivid-lowartifact-37",
+      "command": "/vivid-lowartifact",
+      "name": "Vivid Lowartifact",
+      "description": "Vivid Lowartifact workflow directive for color.",
+      "instruction": "Apply vivid lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "vivid"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "cinematiccolor-highdetail-38",
+      "command": "/cinematiccolor-highdetail",
+      "name": "Cinematiccolor Highdetail",
+      "description": "Cinematiccolor Highdetail workflow directive for color.",
+      "instruction": "Apply cinematiccolor highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "cinematiccolor"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "warm-fine-39",
+      "command": "/warm-fine",
+      "name": "Warm Fine",
+      "description": "Warm Fine workflow directive for color.",
+      "instruction": "Apply warm fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "warm"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "cool-micro-40",
+      "command": "/cool-micro",
+      "name": "Cool Micro",
+      "description": "Cool Micro workflow directive for color.",
+      "instruction": "Apply cool micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "cool"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "bw-macro-41",
+      "command": "/bw-macro",
+      "name": "Bw Macro",
+      "description": "Bw Macro workflow directive for color.",
+      "instruction": "Apply bw macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "bw"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "naturalcolor-local-42",
+      "command": "/naturalcolor-local",
+      "name": "Naturalcolor Local",
+      "description": "Naturalcolor Local workflow directive for color.",
+      "instruction": "Apply naturalcolor local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "naturalcolor"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "vivid-global-43",
+      "command": "/vivid-global",
+      "name": "Vivid Global",
+      "description": "Vivid Global workflow directive for color.",
+      "instruction": "Apply vivid global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "vivid"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "cinematiccolor-adaptive-44",
+      "command": "/cinematiccolor-adaptive",
+      "name": "Cinematiccolor Adaptive",
+      "description": "Cinematiccolor Adaptive workflow directive for color.",
+      "instruction": "Apply cinematiccolor adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "cinematiccolor"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "warm-contextual-45",
+      "command": "/warm-contextual",
+      "name": "Warm Contextual",
+      "description": "Warm Contextual workflow directive for color.",
+      "instruction": "Apply warm contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "warm"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "cool-realistic-46",
+      "command": "/cool-realistic",
+      "name": "Cool Realistic",
+      "description": "Cool Realistic workflow directive for color.",
+      "instruction": "Apply cool realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "cool"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "bw-cinematic-47",
+      "command": "/bw-cinematic",
+      "name": "Bw Cinematic",
+      "description": "Bw Cinematic workflow directive for color.",
+      "instruction": "Apply bw cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "bw"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "naturalcolor-modern-48",
+      "command": "/naturalcolor-modern",
+      "name": "Naturalcolor Modern",
+      "description": "Naturalcolor Modern workflow directive for color.",
+      "instruction": "Apply naturalcolor modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "naturalcolor"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "vivid-classic-49",
+      "command": "/vivid-classic",
+      "name": "Vivid Classic",
+      "description": "Vivid Classic workflow directive for color.",
+      "instruction": "Apply vivid classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "vivid"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "cinematiccolor-technical-50",
+      "command": "/cinematiccolor-technical",
+      "name": "Cinematiccolor Technical",
+      "description": "Cinematiccolor Technical workflow directive for color.",
+      "instruction": "Apply cinematiccolor technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "cinematiccolor"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "warm-creative-51",
+      "command": "/warm-creative",
+      "name": "Warm Creative",
+      "description": "Warm Creative workflow directive for color.",
+      "instruction": "Apply warm creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "warm"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "cool-editorial-52",
+      "command": "/cool-editorial",
+      "name": "Cool Editorial",
+      "description": "Cool Editorial workflow directive for color.",
+      "instruction": "Apply cool editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "cool"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "bw-production-53",
+      "command": "/bw-production",
+      "name": "Bw Production",
+      "description": "Bw Production workflow directive for color.",
+      "instruction": "Apply bw production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "bw"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "naturalcolor-studio-54",
+      "command": "/naturalcolor-studio",
+      "name": "Naturalcolor Studio",
+      "description": "Naturalcolor Studio workflow directive for color.",
+      "instruction": "Apply naturalcolor studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "naturalcolor"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "vivid-portable-55",
+      "command": "/vivid-portable",
+      "name": "Vivid Portable",
+      "description": "Vivid Portable workflow directive for color.",
+      "instruction": "Apply vivid portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "vivid"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "cinematiccolor-safe-56",
+      "command": "/cinematiccolor-safe",
+      "name": "Cinematiccolor Safe",
+      "description": "Cinematiccolor Safe workflow directive for color.",
+      "instruction": "Apply cinematiccolor safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "cinematiccolor"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "warm-robust-57",
+      "command": "/warm-robust",
+      "name": "Warm Robust",
+      "description": "Warm Robust workflow directive for color.",
+      "instruction": "Apply warm robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "warm"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "cool-reliable-58",
+      "command": "/cool-reliable",
+      "name": "Cool Reliable",
+      "description": "Cool Reliable workflow directive for color.",
+      "instruction": "Apply cool reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "cool"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "bw-scalable-59",
+      "command": "/bw-scalable",
+      "name": "Bw Scalable",
+      "description": "Bw Scalable workflow directive for color.",
+      "instruction": "Apply bw scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "bw"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "naturalcolor-maintainable-60",
+      "command": "/naturalcolor-maintainable",
+      "name": "Naturalcolor Maintainable",
+      "description": "Naturalcolor Maintainable workflow directive for color.",
+      "instruction": "Apply naturalcolor maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "naturalcolor"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "vivid-accessible-61",
+      "command": "/vivid-accessible",
+      "name": "Vivid Accessible",
+      "description": "Vivid Accessible workflow directive for color.",
+      "instruction": "Apply vivid accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "vivid"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "cinematiccolor-responsive-62",
+      "command": "/cinematiccolor-responsive",
+      "name": "Cinematiccolor Responsive",
+      "description": "Cinematiccolor Responsive workflow directive for color.",
+      "instruction": "Apply cinematiccolor responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "cinematiccolor"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    },
+    {
+      "id": "warm-structured-63",
+      "command": "/warm-structured",
+      "name": "Warm Structured",
+      "description": "Warm Structured workflow directive for color.",
+      "instruction": "Apply warm structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "color",
+        "lighting-color-and-atmosphere",
+        "warm"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Color"
+    }
+  ]
+}

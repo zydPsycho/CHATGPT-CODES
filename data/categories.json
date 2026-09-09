@@ -1,101 +1,137 @@
 [
   {
-    "slug": "image-generation",
-    "name": "Image Generation",
-    "description": "Create new visual concepts, scenes, photography, illustration and formats.",
+    "slug": "image-visual-ai",
+    "name": "Image & Visual AI",
+    "description": "Image generation, editing, enhancement, identity, lighting, camera and visual composition.",
     "icon": "✦",
-    "count": 256,
+    "count": 1318,
     "order": 0,
     "image": "/assets/images/image-generation-demo.jpg"
   },
   {
-    "slug": "image-editing",
-    "name": "Image Editing & Restoration",
-    "description": "Enhance, repair, relight, reframe and preserve existing images.",
-    "icon": "◈",
-    "count": 921,
-    "order": 1,
-    "image": "/assets/images/image-editing-demo.jpg"
-  },
-  {
-    "slug": "video-motion",
-    "name": "Video & Motion",
-    "description": "Create animation, camera movement, loops and temporal continuity.",
+    "slug": "video-motion-ai",
+    "name": "Video & Motion AI",
+    "description": "Animation, motion, camera movement and temporal visual workflows.",
     "icon": "▷",
     "count": 133,
-    "order": 2,
+    "order": 1,
     "image": "/assets/images/video-motion-demo.jpg"
   },
   {
-    "slug": "visual-design",
-    "name": "Visual Design & Branding",
-    "description": "Build logos, brand systems, layouts, posters and interfaces.",
-    "icon": "⬡",
-    "count": 261,
-    "order": 3,
-    "image": "/assets/images/design-demo.jpg"
-  },
-  {
-    "slug": "content-writing",
-    "name": "Content Writing & Communication",
-    "description": "Write, edit, structure and communicate for real audiences.",
-    "icon": "Aa",
-    "count": 512,
-    "order": 4,
-    "image": "/assets/images/writing-coding-demo.jpg"
-  },
-  {
-    "slug": "coding-development",
-    "name": "Coding & Development",
-    "description": "Generate, debug, test and architect software systems.",
+    "slug": "software-development",
+    "name": "Software Development",
+    "description": "General programming, architecture, debugging, refactoring, testing and review.",
     "icon": "</>",
-    "count": 576,
-    "order": 5,
+    "count": 384,
+    "order": 2,
     "image": "/assets/images/coding-demo.jpg"
   },
   {
-    "slug": "research-strategy",
-    "name": "Research & Strategy",
-    "description": "Investigate, reason, compare evidence and make decisions.",
+    "slug": "frontend-development",
+    "name": "Frontend Development",
+    "description": "Frontend technologies, browser interfaces and client-side implementation.",
+    "icon": "◫",
+    "count": 64,
+    "order": 3,
+    "image": "/assets/images/coding-demo.jpg"
+  },
+  {
+    "slug": "backend-development",
+    "name": "Backend Development",
+    "description": "APIs, servers and backend implementation.",
     "icon": "⌘",
-    "count": 768,
+    "count": 64,
+    "order": 4,
+    "image": "/assets/images/coding-demo.jpg"
+  },
+  {
+    "slug": "mobile-app-development",
+    "name": "Mobile App Development",
+    "description": "Mobile application concepts and platform workflows.",
+    "icon": "▣",
+    "count": 0,
+    "order": 5,
+    "image": "/assets/images/writing-coding-demo.jpg"
+  },
+  {
+    "slug": "ai-prompt-engineering",
+    "name": "AI & Prompt Engineering",
+    "description": "Prompt creation, optimization, structure, agents and evaluation.",
+    "icon": "⌬",
+    "count": 256,
     "order": 6,
+    "image": "/assets/images/prompt-engineering-demo.jpg"
+  },
+  {
+    "slug": "ui-ux-design",
+    "name": "UI / UX Design",
+    "description": "User interfaces, user experience, flows, components and usability.",
+    "icon": "▦",
+    "count": 64,
+    "order": 7,
+    "image": "/assets/images/design-demo.jpg"
+  },
+  {
+    "slug": "data-database",
+    "name": "Data & Database",
+    "description": "SQL, data cleaning, schemas, queries and reporting workflows.",
+    "icon": "▤",
+    "count": 64,
+    "order": 8,
     "image": "/assets/images/research-demo.jpg"
   },
   {
-    "slug": "productivity-workflows",
-    "name": "Productivity & Workflows",
-    "description": "Plan work, organize tasks and automate repeatable systems.",
-    "icon": "↻",
-    "count": 448,
-    "order": 7,
+    "slug": "security-debugging",
+    "name": "Security & Debugging",
+    "description": "Security and diagnostic workflows.",
+    "icon": "⌁",
+    "count": 0,
+    "order": 9,
+    "image": "/assets/images/image-editing-demo.jpg"
+  },
+  {
+    "slug": "devops-deployment",
+    "name": "DevOps & Deployment",
+    "description": "Git, hosting, CI/CD, builds and deployment workflows.",
+    "icon": "⇧",
+    "count": 128,
+    "order": 10,
     "image": "/assets/images/workflows-demo.jpg"
   },
   {
-    "slug": "architecture-spaces",
-    "name": "Architecture & Spaces",
-    "description": "Plan interiors, exteriors, floorplans and 3D environments.",
+    "slug": "branding-marketing",
+    "name": "Branding & Marketing",
+    "description": "Brand identity, marketing, positioning and campaign direction.",
+    "icon": "◇",
+    "count": 192,
+    "order": 11,
+    "image": "/assets/images/design-demo.jpg"
+  },
+  {
+    "slug": "writing-content",
+    "name": "Writing & Content",
+    "description": "Writing, editing, communication and content production.",
+    "icon": "Aa",
+    "count": 512,
+    "order": 12,
+    "image": "/assets/images/writing-coding-demo.jpg"
+  },
+  {
+    "slug": "productivity-learning",
+    "name": "Productivity & Learning",
+    "description": "Research, planning, study, notes, knowledge and productivity.",
+    "icon": "↻",
+    "count": 1280,
+    "order": 13,
+    "image": "/assets/images/research-demo.jpg"
+  },
+  {
+    "slug": "architecture-visualization",
+    "name": "Architecture Visualization",
+    "description": "Architecture, interiors, exteriors, floorplans and 3D visualization.",
     "icon": "⌗",
-    "count": 256,
-    "order": 8,
+    "count": 192,
+    "order": 14,
     "image": "/assets/images/architecture-demo.jpg"
-  },
-  {
-    "slug": "language-learning",
-    "name": "Language & Accessibility",
-    "description": "Translate, localize, teach and make language more accessible.",
-    "icon": "文",
-    "count": 256,
-    "order": 9,
-    "image": "/assets/images/language-demo.jpg"
-  },
-  {
-    "slug": "prompt-engineering",
-    "name": "Prompt Engineering",
-    "description": "Design roles, output controls and quality systems for prompts.",
-    "icon": "⌬",
-    "count": 256,
-    "order": 10,
-    "image": "/assets/images/prompt-engineering-demo.jpg"
   }
 ]

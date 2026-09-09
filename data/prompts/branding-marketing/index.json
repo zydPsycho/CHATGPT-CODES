@@ -1,0 +1,25 @@
+{
+  "category": "Branding & Marketing",
+  "slug": "branding-marketing",
+  "description": "Brand identity, marketing, positioning and campaign direction.",
+  "subcategories": [
+    {
+      "name": "Logo",
+      "slug": "logo",
+      "file": "/data/prompts/branding-marketing/logo.json",
+      "count": 64
+    },
+    {
+      "name": "Brand Style",
+      "slug": "brand-style",
+      "file": "/data/prompts/branding-marketing/brand-style.json",
+      "count": 64
+    },
+    {
+      "name": "Marketing",
+      "slug": "marketing",
+      "file": "/data/prompts/branding-marketing/marketing.json",
+      "count": 64
+    }
+  ]
+}

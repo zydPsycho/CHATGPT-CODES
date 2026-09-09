@@ -1,0 +1,1289 @@
+{
+  "category": "Image & Visual AI",
+  "categorySlug": "image-visual-ai",
+  "subcategory": "Image Editing · Portrait Control",
+  "slug": "portrait-control",
+  "description": "Portrait Control command system for face & identity.",
+  "prompts": [
+    {
+      "id": "portrait-0",
+      "command": "/portrait",
+      "name": "Portrait",
+      "description": "Portrait workflow directive for portrait control.",
+      "instruction": "Apply portrait with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "portrait"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "closeup-1",
+      "command": "/closeup",
+      "name": "Closeup",
+      "description": "Closeup workflow directive for portrait control.",
+      "instruction": "Apply closeup with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "closeup"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": true,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "headshot-2",
+      "command": "/headshot",
+      "name": "Headshot",
+      "description": "Headshot workflow directive for portrait control.",
+      "instruction": "Apply headshot with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "headshot"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "beauty-3",
+      "command": "/beauty",
+      "name": "Beauty",
+      "description": "Beauty workflow directive for portrait control.",
+      "instruction": "Apply beauty with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "beauty"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "naturalface-4",
+      "command": "/naturalface",
+      "name": "Naturalface",
+      "description": "Naturalface workflow directive for portrait control.",
+      "instruction": "Apply naturalface with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "naturalface"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "portrait-precise-5",
+      "command": "/portrait-precise",
+      "name": "Portrait Precise",
+      "description": "Portrait Precise workflow directive for portrait control.",
+      "instruction": "Apply portrait precise with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "portrait"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "closeup-clean-6",
+      "command": "/closeup-clean",
+      "name": "Closeup Clean",
+      "description": "Closeup Clean workflow directive for portrait control.",
+      "instruction": "Apply closeup clean with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "closeup"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "headshot-natural-7",
+      "command": "/headshot-natural",
+      "name": "Headshot Natural",
+      "description": "Headshot Natural workflow directive for portrait control.",
+      "instruction": "Apply headshot natural with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "headshot"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "beauty-refined-8",
+      "command": "/beauty-refined",
+      "name": "Beauty Refined",
+      "description": "Beauty Refined workflow directive for portrait control.",
+      "instruction": "Apply beauty refined with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "beauty"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "naturalface-professional-9",
+      "command": "/naturalface-professional",
+      "name": "Naturalface Professional",
+      "description": "Naturalface Professional workflow directive for portrait control.",
+      "instruction": "Apply naturalface professional with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "naturalface"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "portrait-premium-10",
+      "command": "/portrait-premium",
+      "name": "Portrait Premium",
+      "description": "Portrait Premium workflow directive for portrait control.",
+      "instruction": "Apply portrait premium with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "portrait"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "closeup-subtle-11",
+      "command": "/closeup-subtle",
+      "name": "Closeup Subtle",
+      "description": "Closeup Subtle workflow directive for portrait control.",
+      "instruction": "Apply closeup subtle with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "closeup"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "headshot-strong-12",
+      "command": "/headshot-strong",
+      "name": "Headshot Strong",
+      "description": "Headshot Strong workflow directive for portrait control.",
+      "instruction": "Apply headshot strong with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "headshot"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "beauty-balanced-13",
+      "command": "/beauty-balanced",
+      "name": "Beauty Balanced",
+      "description": "Beauty Balanced workflow directive for portrait control.",
+      "instruction": "Apply beauty balanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "beauty"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "naturalface-detailed-14",
+      "command": "/naturalface-detailed",
+      "name": "Naturalface Detailed",
+      "description": "Naturalface Detailed workflow directive for portrait control.",
+      "instruction": "Apply naturalface detailed with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "naturalface"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "portrait-advanced-15",
+      "command": "/portrait-advanced",
+      "name": "Portrait Advanced",
+      "description": "Portrait Advanced workflow directive for portrait control.",
+      "instruction": "Apply portrait advanced with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "portrait"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "closeup-simple-16",
+      "command": "/closeup-simple",
+      "name": "Closeup Simple",
+      "description": "Closeup Simple workflow directive for portrait control.",
+      "instruction": "Apply closeup simple with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "closeup"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "headshot-smart-17",
+      "command": "/headshot-smart",
+      "name": "Headshot Smart",
+      "description": "Headshot Smart workflow directive for portrait control.",
+      "instruction": "Apply headshot smart with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "headshot"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "beauty-controlled-18",
+      "command": "/beauty-controlled",
+      "name": "Beauty Controlled",
+      "description": "Beauty Controlled workflow directive for portrait control.",
+      "instruction": "Apply beauty controlled with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "beauty"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "naturalface-optimized-19",
+      "command": "/naturalface-optimized",
+      "name": "Naturalface Optimized",
+      "description": "Naturalface Optimized workflow directive for portrait control.",
+      "instruction": "Apply naturalface optimized with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "naturalface"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "portrait-efficient-20",
+      "command": "/portrait-efficient",
+      "name": "Portrait Efficient",
+      "description": "Portrait Efficient workflow directive for portrait control.",
+      "instruction": "Apply portrait efficient with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "portrait"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "closeup-accurate-21",
+      "command": "/closeup-accurate",
+      "name": "Closeup Accurate",
+      "description": "Closeup Accurate workflow directive for portrait control.",
+      "instruction": "Apply closeup accurate with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "closeup"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "headshot-consistent-22",
+      "command": "/headshot-consistent",
+      "name": "Headshot Consistent",
+      "description": "Headshot Consistent workflow directive for portrait control.",
+      "instruction": "Apply headshot consistent with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "headshot"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "beauty-polished-23",
+      "command": "/beauty-polished",
+      "name": "Beauty Polished",
+      "description": "Beauty Polished workflow directive for portrait control.",
+      "instruction": "Apply beauty polished with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "beauty"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "naturalface-final-24",
+      "command": "/naturalface-final",
+      "name": "Naturalface Final",
+      "description": "Naturalface Final workflow directive for portrait control.",
+      "instruction": "Apply naturalface final with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "naturalface"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "portrait-quick-25",
+      "command": "/portrait-quick",
+      "name": "Portrait Quick",
+      "description": "Portrait Quick workflow directive for portrait control.",
+      "instruction": "Apply portrait quick with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "portrait"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "closeup-deep-26",
+      "command": "/closeup-deep",
+      "name": "Closeup Deep",
+      "description": "Closeup Deep workflow directive for portrait control.",
+      "instruction": "Apply closeup deep with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "closeup"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "headshot-thorough-27",
+      "command": "/headshot-thorough",
+      "name": "Headshot Thorough",
+      "description": "Headshot Thorough workflow directive for portrait control.",
+      "instruction": "Apply headshot thorough with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "headshot"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "beauty-minimal-28",
+      "command": "/beauty-minimal",
+      "name": "Beauty Minimal",
+      "description": "Beauty Minimal workflow directive for portrait control.",
+      "instruction": "Apply beauty minimal with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "beauty"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "naturalface-maximum-29",
+      "command": "/naturalface-maximum",
+      "name": "Naturalface Maximum",
+      "description": "Naturalface Maximum workflow directive for portrait control.",
+      "instruction": "Apply naturalface maximum with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "naturalface"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "portrait-soft-30",
+      "command": "/portrait-soft",
+      "name": "Portrait Soft",
+      "description": "Portrait Soft workflow directive for portrait control.",
+      "instruction": "Apply portrait soft with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "portrait"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "closeup-bold-31",
+      "command": "/closeup-bold",
+      "name": "Closeup Bold",
+      "description": "Closeup Bold workflow directive for portrait control.",
+      "instruction": "Apply closeup bold with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "closeup"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "headshot-sharp-32",
+      "command": "/headshot-sharp",
+      "name": "Headshot Sharp",
+      "description": "Headshot Sharp workflow directive for portrait control.",
+      "instruction": "Apply headshot sharp with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "headshot"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "beauty-smooth-33",
+      "command": "/beauty-smooth",
+      "name": "Beauty Smooth",
+      "description": "Beauty Smooth workflow directive for portrait control.",
+      "instruction": "Apply beauty smooth with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "beauty"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "naturalface-stable-34",
+      "command": "/naturalface-stable",
+      "name": "Naturalface Stable",
+      "description": "Naturalface Stable workflow directive for portrait control.",
+      "instruction": "Apply naturalface stable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "naturalface"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "portrait-highquality-35",
+      "command": "/portrait-highquality",
+      "name": "Portrait Highquality",
+      "description": "Portrait Highquality workflow directive for portrait control.",
+      "instruction": "Apply portrait highquality with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "portrait"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "closeup-lowartifact-36",
+      "command": "/closeup-lowartifact",
+      "name": "Closeup Lowartifact",
+      "description": "Closeup Lowartifact workflow directive for portrait control.",
+      "instruction": "Apply closeup lowartifact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "closeup"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "headshot-highdetail-37",
+      "command": "/headshot-highdetail",
+      "name": "Headshot Highdetail",
+      "description": "Headshot Highdetail workflow directive for portrait control.",
+      "instruction": "Apply headshot highdetail with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "headshot"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "beauty-fine-38",
+      "command": "/beauty-fine",
+      "name": "Beauty Fine",
+      "description": "Beauty Fine workflow directive for portrait control.",
+      "instruction": "Apply beauty fine with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "beauty"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "naturalface-micro-39",
+      "command": "/naturalface-micro",
+      "name": "Naturalface Micro",
+      "description": "Naturalface Micro workflow directive for portrait control.",
+      "instruction": "Apply naturalface micro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "naturalface"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "portrait-macro-40",
+      "command": "/portrait-macro",
+      "name": "Portrait Macro",
+      "description": "Portrait Macro workflow directive for portrait control.",
+      "instruction": "Apply portrait macro with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "portrait"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "closeup-local-41",
+      "command": "/closeup-local",
+      "name": "Closeup Local",
+      "description": "Closeup Local workflow directive for portrait control.",
+      "instruction": "Apply closeup local with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "closeup"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "headshot-global-42",
+      "command": "/headshot-global",
+      "name": "Headshot Global",
+      "description": "Headshot Global workflow directive for portrait control.",
+      "instruction": "Apply headshot global with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "headshot"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "beauty-adaptive-43",
+      "command": "/beauty-adaptive",
+      "name": "Beauty Adaptive",
+      "description": "Beauty Adaptive workflow directive for portrait control.",
+      "instruction": "Apply beauty adaptive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "beauty"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "naturalface-contextual-44",
+      "command": "/naturalface-contextual",
+      "name": "Naturalface Contextual",
+      "description": "Naturalface Contextual workflow directive for portrait control.",
+      "instruction": "Apply naturalface contextual with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "naturalface"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "portrait-realistic-45",
+      "command": "/portrait-realistic",
+      "name": "Portrait Realistic",
+      "description": "Portrait Realistic workflow directive for portrait control.",
+      "instruction": "Apply portrait realistic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "portrait"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "closeup-cinematic-46",
+      "command": "/closeup-cinematic",
+      "name": "Closeup Cinematic",
+      "description": "Closeup Cinematic workflow directive for portrait control.",
+      "instruction": "Apply closeup cinematic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "closeup"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "headshot-modern-47",
+      "command": "/headshot-modern",
+      "name": "Headshot Modern",
+      "description": "Headshot Modern workflow directive for portrait control.",
+      "instruction": "Apply headshot modern with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "headshot"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "beauty-classic-48",
+      "command": "/beauty-classic",
+      "name": "Beauty Classic",
+      "description": "Beauty Classic workflow directive for portrait control.",
+      "instruction": "Apply beauty classic with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "beauty"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "naturalface-technical-49",
+      "command": "/naturalface-technical",
+      "name": "Naturalface Technical",
+      "description": "Naturalface Technical workflow directive for portrait control.",
+      "instruction": "Apply naturalface technical with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "naturalface"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "portrait-creative-50",
+      "command": "/portrait-creative",
+      "name": "Portrait Creative",
+      "description": "Portrait Creative workflow directive for portrait control.",
+      "instruction": "Apply portrait creative with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "portrait"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "closeup-editorial-51",
+      "command": "/closeup-editorial",
+      "name": "Closeup Editorial",
+      "description": "Closeup Editorial workflow directive for portrait control.",
+      "instruction": "Apply closeup editorial with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "closeup"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "headshot-production-52",
+      "command": "/headshot-production",
+      "name": "Headshot Production",
+      "description": "Headshot Production workflow directive for portrait control.",
+      "instruction": "Apply headshot production with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "headshot"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "beauty-studio-53",
+      "command": "/beauty-studio",
+      "name": "Beauty Studio",
+      "description": "Beauty Studio workflow directive for portrait control.",
+      "instruction": "Apply beauty studio with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "beauty"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "naturalface-portable-54",
+      "command": "/naturalface-portable",
+      "name": "Naturalface Portable",
+      "description": "Naturalface Portable workflow directive for portrait control.",
+      "instruction": "Apply naturalface portable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "naturalface"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "portrait-safe-55",
+      "command": "/portrait-safe",
+      "name": "Portrait Safe",
+      "description": "Portrait Safe workflow directive for portrait control.",
+      "instruction": "Apply portrait safe with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "portrait"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "closeup-robust-56",
+      "command": "/closeup-robust",
+      "name": "Closeup Robust",
+      "description": "Closeup Robust workflow directive for portrait control.",
+      "instruction": "Apply closeup robust with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "closeup"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "headshot-reliable-57",
+      "command": "/headshot-reliable",
+      "name": "Headshot Reliable",
+      "description": "Headshot Reliable workflow directive for portrait control.",
+      "instruction": "Apply headshot reliable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "headshot"
+      ],
+      "priority": 70,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "beauty-scalable-58",
+      "command": "/beauty-scalable",
+      "name": "Beauty Scalable",
+      "description": "Beauty Scalable workflow directive for portrait control.",
+      "instruction": "Apply beauty scalable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "beauty"
+      ],
+      "priority": 60,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "naturalface-maintainable-59",
+      "command": "/naturalface-maintainable",
+      "name": "Naturalface Maintainable",
+      "description": "Naturalface Maintainable workflow directive for portrait control.",
+      "instruction": "Apply naturalface maintainable with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "naturalface"
+      ],
+      "priority": 50,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "portrait-accessible-60",
+      "command": "/portrait-accessible",
+      "name": "Portrait Accessible",
+      "description": "Portrait Accessible workflow directive for portrait control.",
+      "instruction": "Apply portrait accessible with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "portrait"
+      ],
+      "priority": 40,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "closeup-responsive-61",
+      "command": "/closeup-responsive",
+      "name": "Closeup Responsive",
+      "description": "Closeup Responsive workflow directive for portrait control.",
+      "instruction": "Apply closeup responsive with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "closeup"
+      ],
+      "priority": 30,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "headshot-structured-62",
+      "command": "/headshot-structured",
+      "name": "Headshot Structured",
+      "description": "Headshot Structured workflow directive for portrait control.",
+      "instruction": "Apply headshot structured with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "headshot"
+      ],
+      "priority": 20,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    },
+    {
+      "id": "beauty-compact-63",
+      "command": "/beauty-compact",
+      "name": "Beauty Compact",
+      "description": "Beauty Compact workflow directive for portrait control.",
+      "instruction": "Apply beauty compact with intentional control. Preserve the subject, structure and requested constraints while producing a refined result.",
+      "tags": [
+        "portrait-control",
+        "face-identity-and-people",
+        "beauty"
+      ],
+      "priority": 80,
+      "compatibleWith": [],
+      "conflictsWith": [],
+      "featured": false,
+      "version": "2.0",
+      "category": "Image & Visual AI",
+      "categorySlug": "image-visual-ai",
+      "subcategory": "Image Editing · Portrait Control"
+    }
+  ]
+}
